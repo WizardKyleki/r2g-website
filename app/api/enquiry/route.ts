@@ -1,0 +1,45 @@
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+
+export async function POST(request: Request) {
+  try {
+    const { name, phone, email, topic, description } = await request.json();
+
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
+
+    const emailBody = `
+NEW ENQUIRY — R2G WEBSITE
+=========================
+
+From:    ${name}
+Phone:   ${phone}
+Email:   ${email}
+Topic:   ${topic}
+
+Message:
+${description}
+
+=========================
+Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" })}
+    `.trim();
+
+    await transporter.sendMail({
+      from: `"R2G Website" <${process.env.EMAIL_USER}>`,
+      to: "contact@r2g.com.au",
+      subject: `New Enquiry — ${topic}`,
+      text: emailBody,
+      replyTo: email,
+    });
+
+    return NextResponse.json({ success: true });
+  } catch (err) {
+    console.error("Enquiry email error:", err);
+    return NextResponse.json({ success: false, error: "Failed to send email" }, { status: 500 });
+  }
+}
