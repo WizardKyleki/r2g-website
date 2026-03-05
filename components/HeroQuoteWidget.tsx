@@ -3,11 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 
-declare global {
-  interface Window {
-    google: typeof google;
-  }
-}
+
 
 export default function HeroQuoteWidget() {
   const router = useRouter();
