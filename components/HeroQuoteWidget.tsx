@@ -1,13 +1,72 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
+
+declare global {
+  interface Window {
+    google: typeof google;
+  }
+}
 
 export default function HeroQuoteWidget() {
   const router = useRouter();
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [error, setError] = useState("");
+  const fromInputRef = useRef<HTMLInputElement>(null);
+  const toInputRef = useRef<HTMLInputElement>(null);
+
+  const initAutocomplete = () => {
+    if (!window.google) return;
+
+    if (fromInputRef.current) {
+      const fromAutocomplete = new window.google.maps.places.Autocomplete(
+        fromInputRef.current,
+        { componentRestrictions: { country: "au" }, types: ["geocode"] }
+      );
+      fromAutocomplete.addListener("place_changed", () => {
+        const place = fromAutocomplete.getPlace();
+        if (place.formatted_address) {
+          setFrom(place.formatted_address);
+        } else if (place.name) {
+          setFrom(place.name);
+        }
+      });
+    }
+
+    if (toInputRef.current) {
+      const toAutocomplete = new window.google.maps.places.Autocomplete(
+        toInputRef.current,
+        { componentRestrictions: { country: "au" }, types: ["geocode"] }
+      );
+      toAutocomplete.addListener("place_changed", () => {
+        const place = toAutocomplete.getPlace();
+        if (place.formatted_address) {
+          setTo(place.formatted_address);
+        } else if (place.name) {
+          setTo(place.name);
+        }
+      });
+    }
+  };
+
+  const loadGoogleMapsScript = () => {
+    if (typeof window !== "undefined" && !window.google) {
+      const script = document.createElement("script");
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_PLACES_API_KEY}&libraries=places`;
+      script.async = true;
+      script.defer = true;
+      script.onload = () => initAutocomplete();
+      document.head.appendChild(script);
+    } else if (window.google) {
+      initAutocomplete();
+    }
+  };
+
+  useEffect(() => {
+    loadGoogleMapsScript();
+  }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -33,6 +92,7 @@ export default function HeroQuoteWidget() {
               From Suburb
             </label>
             <input
+              ref={fromInputRef}
               type="text"
               value={from}
               onChange={(e) => setFrom(e.target.value)}
@@ -45,6 +105,7 @@ export default function HeroQuoteWidget() {
               To Suburb
             </label>
             <input
+              ref={toInputRef}
               type="text"
               value={to}
               onChange={(e) => setTo(e.target.value)}
