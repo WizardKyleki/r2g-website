@@ -95,7 +95,7 @@ export default function HeroQuoteWidget() {
             </label>
             <div
               ref={fromContainerRef}
-              className="w-full border-2 border-gray-200 rounded-xl overflow-hidden focus-within:border-[#F5C400] transition-colors"
+              className="w-full border-2 border-gray-200 rounded-xl overflow-visible focus-within:border-[#F5C400] transition-colors"
             />
           </div>
           <div className="flex-1">
@@ -104,7 +104,7 @@ export default function HeroQuoteWidget() {
             </label>
             <div
               ref={toContainerRef}
-              className="w-full border-2 border-gray-200 rounded-xl overflow-hidden focus-within:border-[#F5C400] transition-colors"
+              className="w-full border-2 border-gray-200 rounded-xl overflow-visible focus-within:border-[#F5C400] transition-colors"
             />
           </div>
         </div>
