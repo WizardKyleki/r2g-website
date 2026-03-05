@@ -3,77 +3,83 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 
-
-
 export default function HeroQuoteWidget() {
   const router = useRouter();
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [error, setError] = useState("");
-  const fromInputRef = useRef<HTMLInputElement>(null);
-  const toInputRef = useRef<HTMLInputElement>(null);
-
-  const initAutocomplete = () => {
-    if (!window.google) return;
-
-    if (fromInputRef.current) {
-      const fromAutocomplete = new window.google.maps.places.Autocomplete(
-        fromInputRef.current,
-        { componentRestrictions: { country: "au" }, types: ["geocode"] }
-      );
-      fromAutocomplete.addListener("place_changed", () => {
-        const place = fromAutocomplete.getPlace();
-        if (place.formatted_address) {
-          setFrom(place.formatted_address);
-        } else if (place.name) {
-          setFrom(place.name);
-        }
-      });
-    }
-
-    if (toInputRef.current) {
-      const toAutocomplete = new window.google.maps.places.Autocomplete(
-        toInputRef.current,
-        { componentRestrictions: { country: "au" }, types: ["geocode"] }
-      );
-      toAutocomplete.addListener("place_changed", () => {
-        const place = toAutocomplete.getPlace();
-        if (place.formatted_address) {
-          setTo(place.formatted_address);
-        } else if (place.name) {
-          setTo(place.name);
-        }
-      });
-    }
-  };
-
-  const loadGoogleMapsScript = () => {
-    if (typeof window !== "undefined" && !window.google) {
-      const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_PLACES_API_KEY}&libraries=places`;
-      script.async = true;
-      script.defer = true;
-      script.onload = () => initAutocomplete();
-      document.head.appendChild(script);
-    } else if (window.google) {
-      initAutocomplete();
-    }
-  };
+  const fromContainerRef = useRef<HTMLDivElement>(null);
+  const toContainerRef = useRef<HTMLDivElement>(null);
+  const fromValueRef = useRef("");
+  const toValueRef = useRef("");
 
   useEffect(() => {
-    loadGoogleMapsScript();
+    const apiKey = process.env.NEXT_PUBLIC_GOOGLE_PLACES_API_KEY;
+    if (!apiKey || typeof window === "undefined") return;
+
+    // Avoid loading the script twice
+    if (document.querySelector('script[src*="maps.googleapis.com/maps/api/js"]')) {
+      initElements();
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async`;
+    script.async = true;
+    script.defer = true;
+    script.onload = () => initElements();
+    document.head.appendChild(script);
   }, []);
+
+  const initElements = () => {
+    if (!(window as any).google?.maps?.places?.PlaceAutocompleteElement) {
+      setTimeout(initElements, 300);
+      return;
+    }
+
+    // FROM field
+    if (fromContainerRef.current && !fromContainerRef.current.querySelector("gmp-place-autocomplete")) {
+      const fromEl = new (window as any).google.maps.places.PlaceAutocompleteElement({
+        componentRestrictions: { country: "au" },
+        types: ["geocode"],
+      });
+      fromEl.style.width = "100%";
+      fromContainerRef.current.appendChild(fromEl);
+      fromEl.addEventListener("gmp-select", (e: any) => {
+        const addr = e.placePrediction?.text?.toString() || "";
+        fromValueRef.current = addr;
+        setFrom(addr);
+      });
+    }
+
+    // TO field
+    if (toContainerRef.current && !toContainerRef.current.querySelector("gmp-place-autocomplete")) {
+      const toEl = new (window as any).google.maps.places.PlaceAutocompleteElement({
+        componentRestrictions: { country: "au" },
+        types: ["geocode"],
+      });
+      toEl.style.width = "100%";
+      toContainerRef.current.appendChild(toEl);
+      toEl.addEventListener("gmp-select", (e: any) => {
+        const addr = e.placePrediction?.text?.toString() || "";
+        toValueRef.current = addr;
+        setTo(addr);
+      });
+    }
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!from.trim() || !to.trim()) {
+    const fromVal = from || fromValueRef.current;
+    const toVal = to || toValueRef.current;
+    if (!fromVal.trim() || !toVal.trim()) {
       setError("Please enter both suburbs to continue");
       return;
     }
     setError("");
     const params = new URLSearchParams();
-    params.set("from", from);
-    params.set("to", to);
+    params.set("from", fromVal);
+    params.set("to", toVal);
     router.push(`/quote?${params.toString()}`);
   };
 
@@ -87,26 +93,18 @@ export default function HeroQuoteWidget() {
             <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
               From Suburb
             </label>
-            <input
-              ref={fromInputRef}
-              type="text"
-              value={from}
-              onChange={(e) => setFrom(e.target.value)}
-              placeholder="e.g. Cairns City"
-              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+            <div
+              ref={fromContainerRef}
+              className="w-full border-2 border-gray-200 rounded-xl overflow-hidden focus-within:border-[#F5C400] transition-colors"
             />
           </div>
           <div className="flex-1">
             <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
               To Suburb
             </label>
-            <input
-              ref={toInputRef}
-              type="text"
-              value={to}
-              onChange={(e) => setTo(e.target.value)}
-              placeholder="e.g. Brisbane CBD"
-              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+            <div
+              ref={toContainerRef}
+              className="w-full border-2 border-gray-200 rounded-xl overflow-hidden focus-within:border-[#F5C400] transition-colors"
             />
           </div>
         </div>
