@@ -83,6 +83,7 @@ export default function HowItWorks() {
             <Image
               src="/images/r2g-professional-packing-service-cairns.webp"
               alt="R2G removalists packing and wrapping furniture Cairns QLD"
+              sizes="(max-width: 768px) 100vw, 50vw"
               title="R2G Professional Packing Service Cairns"
               fill
               className="object-cover"

@@ -54,6 +54,7 @@ export default function WhyChooseR2G() {
             <Image
               src="/images/r2g-removalists-cairns-team.webp"
               alt="Professional R2G removalist team Cairns QLD - trusted local removalists"
+              sizes="(max-width: 768px) 100vw, 50vw"
               title="R2G Removalists Cairns - Trusted Local Moving Team"
               fill
               className="object-cover"

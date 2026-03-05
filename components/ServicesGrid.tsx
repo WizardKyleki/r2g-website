@@ -93,6 +93,7 @@ export default function ServicesGrid({ showHeading = true }: ServicesGridProps) 
               <Image
                 src="/images/r2g-moving-boxes-packing-supplies-cairns.webp"
                 alt="R2G moving boxes and packing supplies Cairns - professional removalist service"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 title="R2G Transport and Storage - Moving Boxes and Packing Supplies Cairns"
                 fill
                 className="object-cover object-center"
