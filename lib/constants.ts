@@ -29,12 +29,8 @@ export const NAV_LINKS = [
     ],
   },
   {
-    label: "Interstate Removalists",
-    href: "/interstate-removals-cairns",
-    children: [
-      { label: "Cairns to Brisbane", href: "/interstate-removals-cairns" },
-      { label: "Brisbane to Cairns", href: "/removalists-brisbane" },
-    ],
+    label: "Interstate",
+    href: "/interstate-removalists",
   },
   { label: "Office Relocations", href: "/office-removals" },
   { label: "Blogs", href: "/blogs" },
