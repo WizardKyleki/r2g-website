@@ -40,7 +40,7 @@ export async function generateMetadata({
       `local removalists ${suburb.name.toLowerCase()}`,
       "r2g transport and storage",
     ],
-    alternates: { canonical: `https://r2gremovals.com.au/removalists-${suburb.slug}` },
+    alternates: { canonical: `https://r2g.com.au/removalists-${suburb.slug}` },
     openGraph: {
       title: suburb.metaTitle,
       description: suburb.metaDescription,
@@ -125,10 +125,10 @@ export default async function RemovalistsSuburbPage({
     "@type": "LocalBusiness",
     name: `R2G Transport & Storage - Removalists ${suburb.name}`,
     description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
-    url: `https://r2gremovals.com.au/removalists-${suburb.slug}`,
+    url: `https://r2g.com.au/removalists-${suburb.slug}`,
     telephone: "1300959498",
     priceRange: "$179 - $359",
-    image: "https://r2gremovals.com.au/images/r2g-logo.png",
+    image: "https://r2g.com.au/images/r2g-logo.png",
     address: {
       "@type": "PostalAddress",
       streetAddress: "36 Abbott St",
