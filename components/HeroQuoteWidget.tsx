@@ -5,8 +5,6 @@ import { useRouter } from "next/navigation";
 
 export default function HeroQuoteWidget() {
   const router = useRouter();
-  const [from, setFrom] = useState("");
-  const [to, setTo] = useState("");
   const [error, setError] = useState("");
   const fromRef = useRef<HTMLDivElement>(null);
   const toRef = useRef<HTMLDivElement>(null);
@@ -22,46 +20,36 @@ export default function HeroQuoteWidget() {
       if (!g?.maps?.places?.PlaceAutocompleteElement) return;
 
       [
-        { container: fromRef, valRef: fromVal, setter: setFrom },
-        { container: toRef, valRef: toVal, setter: setTo },
-      ].forEach(({ container, valRef, setter }) => {
+        { container: fromRef, valRef: fromVal },
+        { container: toRef, valRef: toVal },
+      ].forEach(({ container, valRef }) => {
         if (!container.current || container.current.childElementCount > 0) return;
         const el = new g.maps.places.PlaceAutocompleteElement({
           componentRestrictions: { country: "au" },
           types: ["geocode"],
         });
-        el.style.width = "100%";
         container.current.appendChild(el);
         el.addEventListener("gmp-select", async (e: any) => {
           try {
             const place = e.placePrediction.toPlace();
             await place.fetchFields({ fields: ["formattedAddress", "displayName"] });
-            const addr = place.formattedAddress || place.displayName || "";
-            valRef.current = addr;
-            setter(addr);
+            valRef.current = place.formattedAddress || place.displayName || "";
           } catch {
-            const raw = e.placePrediction?.text?.toString() || "";
-            valRef.current = raw;
-            setter(raw);
+            valRef.current = e.placePrediction?.text?.toString() || "";
           }
         });
       });
     };
 
-    const loadMaps = () => {
-      if (document.querySelector('script[src*="maps.googleapis.com"]')) {
-        if ((window as any).google?.maps?.places) attach();
-        return;
-      }
-      const s = document.createElement("script");
-      s.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async`;
-      s.async = true;
-      s.onload = attach;
-      document.head.appendChild(s);
-    };
-
-    const t = setTimeout(loadMaps, 2000);
-    return () => clearTimeout(t);
+    if (document.querySelector('script[src*="maps.googleapis.com"]')) {
+      if ((window as any).google?.maps?.places) attach();
+      return;
+    }
+    const s = document.createElement("script");
+    s.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async`;
+    s.async = true;
+    s.onload = attach;
+    document.head.appendChild(s);
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -80,31 +68,47 @@ export default function HeroQuoteWidget() {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-xl">
-      <p className="text-xl font-black text-[#1A1A1A] mb-5">Where are you moving from?</p>
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="flex flex-col sm:flex-row gap-3">
-          <div className="flex-1">
-            <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
-              From Suburb
-            </label>
-            <div ref={fromRef} className="w-full min-h-[46px]" />
+    <>
+      <style>{`
+        gmp-place-autocomplete {
+          width: 100%;
+          --gmp-filled-input-border-radius: 0.75rem;
+          --gmp-filled-input-border-color: #e5e7eb;
+          --gmp-filled-input-border-color-on-focus: #F5C400;
+          --gmp-filled-input-background-color: #ffffff;
+          --gmp-filled-input-font-size: 0.875rem;
+          --gmp-filled-input-padding-inline: 1rem;
+          --gmp-filled-input-padding-block: 0.75rem;
+          --gmp-filled-input-font-family: inherit;
+          border: none;
+        }
+      `}</style>
+      <div className="bg-white rounded-2xl shadow-2xl p-6 w-full max-w-xl">
+        <p className="text-xl font-black text-[#1A1A1A] mb-5">Where are you moving from?</p>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex-1 min-w-0">
+              <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
+                From Suburb
+              </label>
+              <div ref={fromRef} className="w-full" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
+                To Suburb
+              </label>
+              <div ref={toRef} className="w-full" />
+            </div>
           </div>
-          <div className="flex-1">
-            <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
-              To Suburb
-            </label>
-            <div ref={toRef} className="w-full min-h-[46px]" />
-          </div>
-        </div>
-        {error && <p className="text-red-500 text-sm font-medium">{error}</p>}
-        <button
-          type="submit"
-          className="w-full bg-[#F5C400] hover:bg-[#d4a900] text-[#1A1A1A] font-black py-4 rounded-xl text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0"
-        >
-          Get Instant Quote →
-        </button>
-      </form>
-    </div>
+          {error && <p className="text-red-500 text-sm font-medium">{error}</p>}
+          <button
+            type="submit"
+            className="w-full bg-[#F5C400] hover:bg-[#d4a900] text-[#1A1A1A] font-black py-4 rounded-xl text-lg transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0"
+          >
+            Get Instant Quote →
+          </button>
+        </form>
+      </div>
+    </>
   );
 }
