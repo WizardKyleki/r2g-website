@@ -11,12 +11,6 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Missing API key" }, { status: 500 });
   }
 
-  const body = {
-    input,
-    includedRegionCodes: ["au"],
-    languageCode: "en-AU",
-  };
-
   const res = await fetch(
     "https://places.googleapis.com/v1/places:autocomplete",
     {
@@ -25,12 +19,22 @@ export async function GET(req: NextRequest) {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": apiKey,
       },
-      body: JSON.stringify(body),
+      body: JSON.stringify({
+        input,
+        includedRegionCodes: ["au"],
+        languageCode: "en-AU",
+      }),
     }
   );
 
   const data = await res.json();
 
-  // Return full response so we can see what Google says
-  return NextResponse.json({ status: res.status, data });
+  const predictions = (data.suggestions ?? [])
+    .map((s: any) => ({
+      description: s.placePrediction?.text?.text ?? "",
+      place_id: s.placePrediction?.placeId ?? "",
+    }))
+    .filter((p: any) => p.description);
+
+  return NextResponse.json({ predictions });
 }
