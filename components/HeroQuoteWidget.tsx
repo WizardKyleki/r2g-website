@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 
 export default function HeroQuoteWidget() {
@@ -8,71 +8,58 @@ export default function HeroQuoteWidget() {
   const [from, setFrom] = useState("");
   const [to, setTo] = useState("");
   const [error, setError] = useState("");
-  const fromContainerRef = useRef<HTMLDivElement>(null);
-  const toContainerRef = useRef<HTMLDivElement>(null);
-  const mapsLoadedRef = useRef(false);
-  const initCalledRef = useRef(false);
+  const fromInputRef = useRef<HTMLInputElement>(null);
+  const toInputRef = useRef<HTMLInputElement>(null);
+  const mapsInitRef = useRef(false);
 
-  const initElements = useCallback(() => {
-    if (initCalledRef.current) return;
-    initCalledRef.current = true;
-
+  const initAutocomplete = () => {
+    if (mapsInitRef.current) return;
     const g = (window as any).google;
-    if (!g?.maps?.places?.PlaceAutocompleteElement) {
-      setTimeout(() => {
-        initCalledRef.current = false;
-        initElements();
-      }, 300);
-      return;
-    }
+    if (!g?.maps?.places?.Autocomplete) return;
+    mapsInitRef.current = true;
 
-    if (fromContainerRef.current && !fromContainerRef.current.querySelector("gmp-place-autocomplete")) {
-      const fromEl = new g.maps.places.PlaceAutocompleteElement({
+    if (fromInputRef.current) {
+      const fromAC = new g.maps.places.Autocomplete(fromInputRef.current, {
         componentRestrictions: { country: "au" },
         types: ["geocode"],
       });
-      fromEl.style.width = "100%";
-      fromContainerRef.current.appendChild(fromEl);
-      fromEl.addEventListener("gmp-select", async (e: any) => {
-        const place = e.placePrediction.toPlace();
-        await place.fetchFields({ fields: ["formattedAddress", "displayName"] });
-        setFrom(place.formattedAddress || place.displayName || "");
+      fromAC.addListener("place_changed", () => {
+        const place = fromAC.getPlace();
+        setFrom(place.formatted_address || place.name || "");
       });
     }
 
-    if (toContainerRef.current && !toContainerRef.current.querySelector("gmp-place-autocomplete")) {
-      const toEl = new g.maps.places.PlaceAutocompleteElement({
+    if (toInputRef.current) {
+      const toAC = new g.maps.places.Autocomplete(toInputRef.current, {
         componentRestrictions: { country: "au" },
         types: ["geocode"],
       });
-      toEl.style.width = "100%";
-      toContainerRef.current.appendChild(toEl);
-      toEl.addEventListener("gmp-select", async (e: any) => {
-        const place = e.placePrediction.toPlace();
-        await place.fetchFields({ fields: ["formattedAddress", "displayName"] });
-        setTo(place.formattedAddress || place.displayName || "");
+      toAC.addListener("place_changed", () => {
+        const place = toAC.getPlace();
+        setTo(place.formatted_address || place.name || "");
       });
     }
-  }, []);
+  };
 
-  const loadMapsOnInteraction = useCallback(() => {
-    if (mapsLoadedRef.current) return;
-    mapsLoadedRef.current = true;
-
+  useEffect(() => {
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_PLACES_API_KEY;
     if (!apiKey) return;
 
-    if (document.querySelector('script[src*="maps.googleapis.com"]')) {
-      initElements();
-      return;
-    }
+    // Delay Maps load by 3s so it doesn't impact LCP/FCP scores
+    const timer = setTimeout(() => {
+      if (document.querySelector('script[src*="maps.googleapis.com"]')) {
+        initAutocomplete();
+        return;
+      }
+      const script = document.createElement("script");
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async`;
+      script.async = true;
+      script.onload = initAutocomplete;
+      document.head.appendChild(script);
+    }, 3000);
 
-    const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async`;
-    script.async = true;
-    script.onload = initElements;
-    document.head.appendChild(script);
-  }, [initElements]);
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -92,26 +79,30 @@ export default function HeroQuoteWidget() {
       <p className="text-xl font-black text-[#1A1A1A] mb-5">Where are you moving from?</p>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col sm:flex-row gap-3">
-          <div className="flex-1 min-w-0">
+          <div className="flex-1">
             <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
               From Suburb
             </label>
-            <div
-              ref={fromContainerRef}
-              onFocus={loadMapsOnInteraction}
-              onMouseEnter={loadMapsOnInteraction}
-              className="w-full"
+            <input
+              ref={fromInputRef}
+              type="text"
+              value={from}
+              onChange={(e) => setFrom(e.target.value)}
+              placeholder="e.g. Cairns City"
+              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
             />
           </div>
-          <div className="flex-1 min-w-0">
+          <div className="flex-1">
             <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
               To Suburb
             </label>
-            <div
-              ref={toContainerRef}
-              onFocus={loadMapsOnInteraction}
-              onMouseEnter={loadMapsOnInteraction}
-              className="w-full"
+            <input
+              ref={toInputRef}
+              type="text"
+              value={to}
+              onChange={(e) => setTo(e.target.value)}
+              placeholder="e.g. Brisbane CBD"
+              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
             />
           </div>
         </div>
