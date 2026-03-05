@@ -66,9 +66,9 @@ export default function Header() {
             <Image
               src="/images/logo-r2g-white.png"
               alt={logoAlt}
-              width={148}
-              height={40}
-              style={{ width: "auto", height: "128px" }}
+              width={282}
+              height={128}
+              style={{ width: "auto", height: "56px" }}
               priority
             />
           </Link>
