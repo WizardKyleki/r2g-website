@@ -7,7 +7,8 @@ import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 import PricingTable from "@/components/PricingTable";
 import HeroTrustBadges from "@/components/HeroTrustBadges";
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
-import { suburbs, getSuburb, getSuburbHref, type Suburb } from "@/data/suburbs";
+import GoogleReviews from "@/components/GoogleReviews";
+import { suburbs, getSuburb, getSuburbHref, type CairnsSuburb } from "@/data/suburbs";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // STATIC PARAMS — one page per suburb
@@ -39,7 +40,7 @@ export async function generateMetadata({
       `local removalists ${suburb.name.toLowerCase()}`,
       "r2g transport and storage",
     ],
-    alternates: { canonical: `https://r2g.com.au/removalists-${suburb.slug}` },
+    alternates: { canonical: `https://r2gremovals.com.au/removalists-${suburb.slug}` },
     openGraph: {
       title: suburb.metaTitle,
       description: suburb.metaDescription,
@@ -63,7 +64,7 @@ const GENERIC_AREA_PILLS = [
   "Smithfield",
 ];
 
-function getAreaPills(suburb: Suburb): string[] {
+function getAreaPills(suburb: CairnsSuburb): string[] {
   const used = new Set([suburb.name, ...suburb.nearbySubs]);
   const generics = GENERIC_AREA_PILLS.filter((s) => !used.has(s)).slice(0, 6);
   return [...new Set([...suburb.nearbySubs, "Cairns City", ...generics])];
@@ -138,8 +139,8 @@ export default async function RemovalistsSuburbPage({
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: -16.9186,
-      longitude: 145.7781,
+      latitude: suburb.latitude,
+      longitude: suburb.longitude,
     },
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
@@ -202,24 +203,7 @@ export default async function RemovalistsSuburbPage({
     },
   ];
 
-  const tips = [
-    {
-      heading: "Book early, especially in summer.",
-      text: `${suburb.name} removals get very busy from November through January. If you're moving during the holiday season, aim to book at least 3–4 weeks in advance to secure your preferred date.`,
-    },
-    {
-      heading: "Consider the wet season.",
-      text: "The tropical monsoon season (November–April) can bring heavy rain and flooding. Our team is experienced at moving in tropical weather and takes extra precautions to protect your belongings.",
-    },
-    {
-      heading: "Declutter before you move.",
-      text: "The less you move, the less you pay. Take the opportunity to sell, donate, or dispose of items you no longer need. Our team can also advise on what's worth moving versus replacing.",
-    },
-    {
-      heading: "Pack non-essentials first.",
-      text: "Start packing seasonal items and things you don't use daily weeks before your move. Label boxes by room — it makes unpacking much faster and our team can place boxes directly in the right rooms at your new home.",
-    },
-  ];
+  const tips = suburb.tips;
 
   return (
     <>
@@ -340,7 +324,7 @@ export default async function RemovalistsSuburbPage({
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">
                 <Image
                   src="/images/r2g-cairns-removalists-loading-truck.webp"
-                  alt={`R2G removalists loading truck for a ${suburb.name} home move - professional removalist service`}
+                  alt={`R2G removalists truck in ${suburb.name}, Cairns`}
                   title={`R2G Removalists ${suburb.name} - Professional Local Moving Team`}
                   fill
                   className="object-cover"
@@ -351,11 +335,7 @@ export default async function RemovalistsSuburbPage({
               <div className="space-y-5 text-gray-600 leading-relaxed">
                 <p>{suburb.uniquePara1}</p>
                 <p>{suburb.uniquePara2}</p>
-                <p>
-                  We arrive on time, work efficiently, and treat your belongings as if they were our
-                  own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
-                </p>
+                <p>{suburb.uniquePara3}</p>
                 <p>
                   Our modern trucks are clean, well-maintained, and stocked with premium moving
                   equipment including furniture blankets, tie-down straps, dollies, and protective
@@ -511,7 +491,7 @@ export default async function RemovalistsSuburbPage({
             <div className="relative h-[420px] lg:h-[540px] rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/r2g-professional-packing-service-cairns.webp"
-                alt={`R2G removalists packing and wrapping furniture for a ${suburb.name} move`}
+                alt={`R2G removalist team serving ${suburb.name} Cairns`}
                 title={`R2G Professional Packing Service ${suburb.name}`}
                 fill
                 className="object-cover"
@@ -574,71 +554,7 @@ export default async function RemovalistsSuburbPage({
       </section>
 
       {/* ── SECTION 7: TESTIMONIALS ─────────────────────────────────────────── */}
-      <section className="bg-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-3 mb-4">
-              <div className="w-10 h-1 bg-[#F5C400]" />
-              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Reviews</span>
-              <div className="w-10 h-1 bg-[#F5C400]" />
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A]">
-              What Our Customers Say About R2G
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                text: "R2G made our move from Cairns North to Edge Hill completely stress-free. The team was on time, careful with all our furniture, and even helped reassemble everything. Couldn't recommend them more highly.",
-                name: "Sarah M.",
-                location: "Cairns North",
-                date: "January 2025",
-              },
-              {
-                text: "We've used R2G twice now for local Cairns moves. Both times the guys were professional, fast, and nothing was damaged. The pricing was exactly as quoted — no surprises.",
-                name: "Mark T.",
-                location: "Smithfield",
-                date: "November 2024",
-              },
-              {
-                text: "Fantastic service moving our 4-bedroom home in Cairns. The team arrived early, worked efficiently and had us fully moved in by lunchtime. Best removalists in Cairns by far.",
-                name: "Lisa K.",
-                location: "Trinity Beach",
-                date: "October 2024",
-              },
-            ].map((review) => (
-              <div
-                key={review.name}
-                className="relative overflow-hidden bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:border-[#F5C400]/20 transition-all flex flex-col"
-              >
-                <span aria-hidden="true" className="absolute top-2 right-3 text-[#F5C400] text-7xl font-black leading-none opacity-[0.12] select-none pointer-events-none">
-                  &ldquo;
-                </span>
-                <div className="flex gap-0.5 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg key={i} className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                <p className="text-gray-600 text-sm leading-relaxed flex-1 mb-5 italic">
-                  &ldquo;{review.text}&rdquo;
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-[#F5C400] flex items-center justify-center text-[#1A1A1A] font-bold text-sm shrink-0">
-                    {review.name[0]}
-                  </div>
-                  <div>
-                    <p className="font-semibold text-[#1A1A1A] text-sm">{review.name}</p>
-                    <p className="text-gray-400 text-xs">{review.location} · {review.date}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <GoogleReviews />
 
       {/* ── SECTION 8: FAQ ──────────────────────────────────────────────────── */}
       <FAQ items={faqItems} heading={`${suburb.name} Removals FAQ`} />

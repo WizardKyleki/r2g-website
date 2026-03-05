@@ -5,7 +5,7 @@ import TrustBadges from "@/components/TrustBadges";
 import ServicesGrid from "@/components/ServicesGrid";
 import WhyChooseR2G from "@/components/WhyChooseR2G";
 import HowItWorks from "@/components/HowItWorks";
-import Testimonials from "@/components/Testimonials";
+import GoogleReviews from "@/components/GoogleReviews";
 import ServiceAreas from "@/components/ServiceAreas";
 import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
@@ -33,7 +33,7 @@ export default function HomePage() {
       <ServicesGrid />
       <WhyChooseR2G />
       <HowItWorks />
-      <Testimonials />
+      <GoogleReviews />
       <ServiceAreas />
       <FAQ items={HOME_FAQS} heading="Frequently Asked Questions" />
       <CTABanner />

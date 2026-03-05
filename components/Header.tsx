@@ -42,6 +42,10 @@ export default function Header() {
 
   if (pathname === "/quote") return null;
 
+  const logoAlt = pathname.startsWith("/removalists-brisbane")
+    ? "R2G Transport & Storage — Brisbane Removalists"
+    : "R2G Transport & Storage — Cairns Removalists";
+
   const isActive          = (href: string)                   => pathname === href;
   const isGroupActive     = (children: { href: string }[])  => children.some((c) => pathname === c.href);
   const label             = (l: string)                      => labelMap[l] ?? l;
@@ -61,7 +65,7 @@ export default function Header() {
           <Link href="/" className="shrink-0 flex items-center">
             <Image
               src="/images/logo-r2g-white.png"
-              alt="R2G Transport & Storage — Cairns Removalists"
+              alt={logoAlt}
               width={148}
               height={40}
               style={{ width: "auto", height: "128px" }}

@@ -41,8 +41,8 @@ export const NAV_LINKS = [
   { label: "Contact Us", href: "/contact" },
 ]
 
-export const heroSubtitle = (locationName: string) =>
-  `Stress-free moves in ${locationName} and surrounding areas. Locally based, fully insured, and trusted by hundreds of Far North Queensland families. Get your free quote today.`
+export const heroSubtitle = (locationName: string, region = "Far North Queensland") =>
+  `Stress-free moves in ${locationName} and surrounding areas. Locally based, fully insured, and trusted by hundreds of ${region} families. Get your free quote today.`
 
 export const HOME_FAQS = [
   {

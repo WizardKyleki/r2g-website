@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import FAQ from "@/components/FAQ";
@@ -6,186 +7,204 @@ import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 import PricingTable from "@/components/PricingTable";
 import HeroTrustBadges from "@/components/HeroTrustBadges";
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
-import { getSuburbHref } from "@/data/suburbs";
 import GoogleReviews from "@/components/GoogleReviews";
+import { brisbaneSuburbs, getBrisbaneSuburb, getBrisbaneSuburbHref, type BrisbaneSuburb } from "@/data/brisbane-suburbs";
 
 // ─────────────────────────────────────────────────────────────────────────────
-// PAGE CONFIG — change only this object to duplicate for Brisbane, Gold Coast etc
+// STATIC PARAMS — one page per suburb
 // ─────────────────────────────────────────────────────────────────────────────
-const pageConfig = {
-  location: "Cairns",
-  locationFull: "Cairns, QLD",
-  h1: "Removalists Cairns",
-  suburb: "Cairns City",
-  postcode: "4870",
-  address: "36 Abbott St, Cairns City QLD 4870",
-  priceFrom: "$179/hr",
-  serviceArea: "Cairns and Far North Queensland",
-};
-
-// ─────────────────────────────────────────────────────────────────────────────
-// JSON-LD SCHEMAS
-// ─────────────────────────────────────────────────────────────────────────────
-const businessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  name: "R2G Transport & Storage",
-  description:
-    "Professional removalists in Cairns with 10+ years experience. Local and interstate moves from $179/hr. Fully insured.",
-  url: "https://r2gremovals.com.au/removalists-cairns",
-  telephone: "1300959498",
-  priceRange: "$179 - $359",
-  image: "https://r2gremovals.com.au/images/r2g-logo.png",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "36 Abbott St",
-    addressLocality: "Cairns City",
-    addressRegion: "QLD",
-    postalCode: "4870",
-    addressCountry: "AU",
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: -16.9186,
-    longitude: 145.7781,
-  },
-  openingHoursSpecification: {
-    "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    opens: "07:00",
-    closes: "18:00",
-  },
-  areaServed: {
-    "@type": "City",
-    name: "Cairns",
-  },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Removalist Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Local Removals Cairns",
-        },
-        price: "179",
-        priceCurrency: "AUD",
-      },
-    ],
-  },
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "900",
-    bestRating: "5",
-  },
-};
-
-const faqItems = [
-  {
-    question: "How do you charge for local moves in Cairns?",
-    answer:
-      "We charge an hourly rate starting from $179/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $189/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.",
-  },
-  {
-    question: "Do you move single items or just whole households?",
-    answer:
-      "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $110 with a minimum booking fee.",
-  },
-  {
-    question: "How many removalists will come on the day?",
-    answer:
-      "For 1-2 bedroom homes we typically send 2 experienced removalists plus a truck. For larger 3-4 bedroom homes we send 2-3 removalists. For 5+ bedroom homes or complex moves we'll discuss team size when you get your quote.",
-  },
-  {
-    question: "Do you move pianos and heavy items?",
-    answer:
-      "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Let us know about specialty items when requesting your quote.",
-  },
-  {
-    question: "Do you cover all Cairns suburbs?",
-    answer:
-      "Yes — we cover the entire Cairns region including Cairns City, Smithfield, Trinity Beach, Palm Cove, Edge Hill, Redlynch, Gordonvale, Edmonton, Atherton, Mareeba, Port Douglas, Innisfail, and all surrounding areas.",
-  },
-  {
-    question: "Can I book a last-minute removal in Cairns?",
-    answer:
-      "We do our best to accommodate last-minute bookings in Cairns, subject to availability. Call us on 1300 959 498 to check our earliest available date. For guaranteed availability we recommend booking at least 1-2 weeks in advance.",
-  },
-  {
-    question: "Do you offer packing services in Cairns?",
-    answer:
-      "Yes — we offer full and partial packing services for Cairns moves. Our team can pack your entire home using quality materials, or just pack specific fragile items like TVs, artwork, glassware and mirrors. Ask about packing when you request your quote.",
-  },
-  {
-    question: "How far in advance should I book my Cairns move?",
-    answer:
-      "We recommend booking at least 2 weeks in advance for local Cairns moves, and 3-4 weeks during peak periods like November through January. That said, we always try to accommodate last-minute bookings — call 1300 959 498 to check availability.",
-  },
-  {
-    question: "Do you provide storage in Cairns?",
-    answer:
-      "Yes — R2G offers secure short and long-term storage in Cairns. This is ideal if there is a gap between your move-out and move-in dates. Contact us to discuss storage options when booking your move.",
-  },
-  {
-    question: "Are your removalists in Cairns fully insured?",
-    answer:
-      "Absolutely. Every R2G move in Cairns is covered by comprehensive public liability insurance and goods-in-transit insurance. Your belongings are protected from the moment we load the truck to the moment we unload at your new home.",
-  },
-  {
-    question: "Can you move me interstate from Cairns?",
-    answer:
-      "Yes — we offer interstate removals from Cairns to Brisbane, Sydney, Melbourne and all major Australian cities. We provide fixed-price interstate quotes based on volume and distance. Contact us for a tailored interstate quote.",
-  },
-  {
-    question: "What areas near Cairns do you service?",
-    answer:
-      "We service the entire Far North Queensland region including Cairns City, Smithfield, Trinity Beach, Palm Cove, Edge Hill, Redlynch, Gordonvale, Edmonton, Atherton, Mareeba, Port Douglas, Innisfail, Mossman, and all northern beaches suburbs.",
-  },
-];
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqItems.map((faq) => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: { "@type": "Answer", text: faq.answer },
-  })),
-};
+export async function generateStaticParams() {
+  return brisbaneSuburbs.map((s) => ({ suburb: s.slug }));
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // METADATA
 // ─────────────────────────────────────────────────────────────────────────────
-export const metadata: Metadata = {
-  title: {
-    absolute: "Removalists Cairns | R2G Transport & Storage | From $179/hr",
-  },
-  description:
-    "Trusted removalists in Cairns with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
-  keywords: [
-    "removalists cairns",
-    "cairns removalists",
-    "moving company cairns",
-    "house removals cairns",
-    "local removalists cairns",
-    "r2g transport and storage",
-  ],
-  alternates: { canonical: "https://r2g.com.au/removalists-cairns" },
-  openGraph: {
-    title: "Removalists Cairns | R2G Transport & Storage | From $179/hr",
-    description:
-      "Trusted removalists in Cairns with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees.",
-    url: "https://r2g.com.au/removalists-cairns",
-    type: "website",
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ suburb: string }>;
+}): Promise<Metadata> {
+  const { suburb: slug } = await params;
+  const suburb = getBrisbaneSuburb(slug);
+  if (!suburb) return {};
+
+  return {
+    title: { absolute: suburb.metaTitle },
+    description: suburb.metaDescription,
+    keywords: [
+      `removalists ${suburb.name.toLowerCase()}`,
+      `${suburb.name.toLowerCase()} removalists`,
+      `moving company ${suburb.name.toLowerCase()}`,
+      `house removals ${suburb.name.toLowerCase()}`,
+      `local removalists ${suburb.name.toLowerCase()}`,
+      "r2g transport and storage",
+    ],
+    alternates: { canonical: `https://r2gremovals.com.au/removalists-brisbane/${suburb.slug}` },
+    openGraph: {
+      title: suburb.metaTitle,
+      description: suburb.metaDescription,
+      url: `https://r2g.com.au/removalists-brisbane/${suburb.slug}`,
+      type: "website",
+    },
+  };
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// HELPERS
+// ─────────────────────────────────────────────────────────────────────────────
+const GENERIC_AREA_PILLS = [
+  "Brisbane City",
+  "Sunnybank",
+  "Carindale",
+  "Chermside",
+  "Indooroopilly",
+  "Logan",
+  "Aspley",
+  "Mt Gravatt",
+];
+
+function getAreaPills(suburb: BrisbaneSuburb): string[] {
+  const used = new Set([suburb.name, ...suburb.nearbySubs]);
+  const generics = GENERIC_AREA_PILLS.filter((s) => !used.has(s)).slice(0, 6);
+  return [...new Set([...suburb.nearbySubs, "Brisbane City", ...generics])];
+}
+
+function getFaqItems(suburbName: string) {
+  return [
+    {
+      question: `How do you charge for local moves in ${suburbName}?`,
+      answer:
+        `We charge an hourly rate starting from $160/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $189/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.`,
+    },
+    {
+      question: "Do you move single items or just whole households?",
+      answer:
+        "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $110 with a minimum booking fee.",
+    },
+    {
+      question: "How many removalists will come on the day?",
+      answer:
+        "For 1-2 bedroom homes we typically send 2 experienced removalists plus a truck. For larger 3-4 bedroom homes we send 2-3 removalists. For 5+ bedroom homes or complex moves we'll discuss team size when you get your quote.",
+    },
+    {
+      question: "Do you move pianos and heavy items?",
+      answer:
+        "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Let us know about specialty items when requesting your quote.",
+    },
+    {
+      question: `Do you cover all of ${suburbName} and surrounding suburbs?`,
+      answer:
+        `Yes — we cover ${suburbName} and the entire surrounding region. We also service all Brisbane suburbs, South-East Queensland, and interstate routes. Call 1300 959 498 if you have any questions about your specific location.`,
+    },
+    {
+      question: `Can I book a last-minute removal in ${suburbName}?`,
+      answer:
+        `We do our best to accommodate last-minute bookings in ${suburbName}, subject to availability. Call us on 1300 959 498 to check our earliest available date. For guaranteed availability we recommend booking at least 1-2 weeks in advance.`,
+    },
+  ];
+}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PAGE
 // ─────────────────────────────────────────────────────────────────────────────
-export default function RemovalistsCairnsPage() {
+export default async function RemovalistsBrisbaneSuburbPage({
+  params,
+}: {
+  params: Promise<{ suburb: string }>;
+}) {
+  const { suburb: slug } = await params;
+  const suburb = getBrisbaneSuburb(slug);
+  if (!suburb) notFound();
+
+  const faqItems = getFaqItems(suburb.name);
+  const areaPills = getAreaPills(suburb);
+
+  const businessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `R2G Transport & Storage - Removalists ${suburb.name}`,
+    description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
+    url: `https://r2gremovals.com.au/removalists-brisbane/${suburb.slug}`,
+    telephone: "1300959498",
+    priceRange: "$160 - $359",
+    image: "https://r2gremovals.com.au/images/r2g-logo.png",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "122 Ashover Circuit",
+      addressLocality: suburb.name,
+      addressRegion: "QLD",
+      postalCode: suburb.postcode,
+      addressCountry: "AU",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: suburb.latitude,
+      longitude: suburb.longitude,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "07:00",
+      closes: "18:00",
+    },
+    areaServed: {
+      "@type": "City",
+      name: suburb.name,
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Removalist Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: `Local Removals ${suburb.name}`,
+          },
+          price: "160",
+          priceCurrency: "AUD",
+        },
+      ],
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "900",
+      bestRating: "5",
+    },
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
+    })),
+  };
+
+  const steps = [
+    {
+      number: "01",
+      title: "Get Your Free Quote",
+      text: `Contact us online or call ${PHONE}. Tell us about your ${suburb.name} move — suburb, home size, and preferred date. We'll provide a clear, upfront quote with no hidden fees.`,
+    },
+    {
+      number: "02",
+      title: "We Pack & Load",
+      text: `Our professional removalists arrive on time on moving day. We carefully wrap, pack (if required), and load all your belongings onto our modern, well-equipped truck — treating everything as if it were our own.`,
+    },
+    {
+      number: "03",
+      title: "Settle In With Ease",
+      text: `We transport your belongings safely to your new ${suburb.name} home and unload everything exactly where you want it. We won't leave until you're completely happy — it's that simple.`,
+    },
+  ];
+
+  const tips = suburb.tips;
+
   return (
     <>
       {/* JSON-LD */}
@@ -201,27 +220,29 @@ export default function RemovalistsCairnsPage() {
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             <span className="text-gray-400">Services</span>
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            <span className="text-[#F5C400]">Removalists Cairns</span>
+            <Link href="/removalists-brisbane" className="hover:text-[#F5C400] transition-colors">Removalists Brisbane</Link>
+            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            <span className="text-[#F5C400]">Removalists {suburb.name}</span>
           </nav>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-16 items-center">
 
-            {/* ── Left: heading + subtext + phone + trust badges ── */}
+            {/* ── Left ── */}
             <div>
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-10 h-0.5 bg-[#F5C400]" />
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">
-                  {pageConfig.serviceArea}
+                  {suburb.serviceArea}
                 </span>
               </div>
               <h1 className="text-5xl sm:text-6xl font-black text-white leading-tight mb-5">
-                {pageConfig.h1}
+                Removalists {suburb.name}
               </h1>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                {heroSubtitle("Cairns")}
+                {heroSubtitle(suburb.name, "South-East Queensland")}
               </p>
 
-              {/* Widget — mobile only (between subtext and phone) */}
+              {/* Widget — mobile only */}
               <div className="lg:hidden mb-8">
                 <HeroQuoteWidget />
               </div>
@@ -252,38 +273,37 @@ export default function RemovalistsCairnsPage() {
       </section>
 
       {/* ── SECTION 2: TRUST BADGES BAR ─────────────────────────────────────── */}
-      <section className="py-16 bg-white border-b border-gray-100">
+      <section className="bg-white py-14 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>,
+                icon: <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>,
                 title: "Fully Insured",
-                description: "Comprehensive public liability & goods-in-transit insurance on every move",
+                text: "Comprehensive public liability & goods-in-transit insurance on every move",
               },
               {
-                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>,
-                title: "5-Star Rated",
-                description: "4.9 stars across 900+ verified Google reviews",
-              },
-              {
-                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>,
+                icon: <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>,
                 title: "10+ Years Experience",
-                description: "Trusted by hundreds of families and businesses across Australia",
+                text: "Trusted by hundreds of families and businesses across Brisbane",
+              },
+              {
+                icon: <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>,
+                title: "5-Star Rated",
+                text: "4.9 stars across 900+ verified Google reviews",
+              },
+              {
+                icon: <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>,
+                title: "Brisbane Based",
+                text: "Local depot at Archerfield — covering all South-East Queensland",
               },
             ].map((badge) => (
-              <div
-                key={badge.title}
-                className="relative overflow-hidden flex flex-col items-center text-center p-6 rounded-xl bg-gray-50 hover:bg-yellow-50 transition-colors group"
-              >
-                <svg aria-hidden="true" className="absolute top-0 right-0 text-[#F5C400] opacity-0 group-hover:opacity-100 transition-opacity duration-300" width="36" height="36" viewBox="0 0 36 36" fill="currentColor">
-                  <path d="M0 0 L36 0 L36 36 Z" opacity="0.18"/>
-                </svg>
-                <div className="text-[#F5C400] mb-4 group-hover:scale-110 transition-transform">
-                  {badge.icon}
+              <div key={badge.title} className="flex items-start gap-4 bg-gray-50 rounded-xl p-5 border border-gray-100">
+                <div className="text-[#F5C400] shrink-0">{badge.icon}</div>
+                <div>
+                  <p className="font-bold text-[#1A1A1A] text-sm mb-1">{badge.title}</p>
+                  <p className="text-gray-500 text-xs leading-relaxed">{badge.text}</p>
                 </div>
-                <p className="font-bold text-[#1A1A1A] text-lg mb-2">{badge.title}</p>
-                <p className="text-gray-500 text-sm leading-relaxed">{badge.description}</p>
               </div>
             ))}
           </div>
@@ -300,14 +320,14 @@ export default function RemovalistsCairnsPage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">About Our Service</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Cairns&apos; Local Moving Specialists
+                {suburb.name}&apos;s Local Moving Specialists
               </h2>
 
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">
                 <Image
                   src="/images/r2g-cairns-removalists-loading-truck.webp"
-                  alt="R2G removalists truck in Cairns"
-                  title="R2G Removalists Cairns - Professional Local Moving Team"
+                  alt={`R2G removalists truck in ${suburb.name}, Brisbane`}
+                  title={`R2G Removalists ${suburb.name} - Professional Local Moving Team`}
                   fill
                   className="object-cover"
                   loading="lazy"
@@ -315,22 +335,9 @@ export default function RemovalistsCairnsPage() {
               </div>
 
               <div className="space-y-5 text-gray-600 leading-relaxed">
-                <p>
-                  When it comes to moving within Cairns, local knowledge makes all the difference.
-                  R2G Transport &amp; Storage has been helping Cairns families and individuals move
-                  for over a decade — and we know every suburb, street, and staircase in the region.
-                </p>
-                <p>
-                  Whether you&apos;re moving from a studio apartment in Cairns City to a family home
-                  in Redlynch, relocating from Edge Hill to Gordonvale, or simply moving a few streets
-                  over — our experienced team of Cairns removalists handles every move with the same
-                  level of care and professionalism.
-                </p>
-                <p>
-                  We arrive on time, work efficiently, and treat your belongings as if they were our
-                  own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
-                </p>
+                <p>{suburb.uniquePara1}</p>
+                <p>{suburb.uniquePara2}</p>
+                <p>{suburb.uniquePara3}</p>
                 <p>
                   Our modern trucks are clean, well-maintained, and stocked with premium moving
                   equipment including furniture blankets, tie-down straps, dollies, and protective
@@ -383,9 +390,9 @@ export default function RemovalistsCairnsPage() {
                     </p>
                     <div className="space-y-2">
                       {[
-                        { label: "Packing Services", href: "/packing-services-cairns" },
-                        { label: "Storage Cairns", href: "/storage-cairns" },
-                        { label: "Interstate Removals", href: "/interstate-removals-cairns" },
+                        { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+                        { label: "Interstate Removals", href: "/interstate-removals-brisbane" },
+                        { label: "Storage Brisbane", href: "/storage-brisbane" },
                       ].map((link) => (
                         <Link
                           key={link.href}
@@ -417,7 +424,7 @@ export default function RemovalistsCairnsPage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-              Cairns Removalist Pricing for Local Moves
+              {suburb.name} Removalist Pricing for Local Moves
             </h2>
             <p className="text-gray-600 text-lg">Transparent rates. No hidden fees. No surprises.</p>
           </div>
@@ -433,7 +440,7 @@ export default function RemovalistsCairnsPage() {
                 "Professional loading & unloading",
                 "Furniture wrapping & blankets",
                 "Disassembly & reassembly",
-                "All Cairns suburbs covered",
+                "All Brisbane suburbs covered",
                 "Heavy item specialists",
                 "Careful, trained removalists",
                 "Modern, clean trucks",
@@ -461,7 +468,7 @@ export default function RemovalistsCairnsPage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">Simple Process</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-                How Your Cairns Move Works
+                How Your {suburb.name} Move Works
               </h2>
               <div className="flex mb-8">
                 <svg aria-hidden="true" width="100" height="8" viewBox="0 0 100 8" fill="none">
@@ -469,23 +476,7 @@ export default function RemovalistsCairnsPage() {
                 </svg>
               </div>
               <div className="space-y-8">
-                {[
-                  {
-                    number: "01",
-                    title: "Get Your Free Quote",
-                    text: "Contact us online or call 1300 959 498. Tell us about your Cairns move — suburbs, home size, and preferred date. We'll provide a clear, upfront quote with no hidden fees.",
-                  },
-                  {
-                    number: "02",
-                    title: "We Pack & Load",
-                    text: "Our professional Cairns removalists arrive on time on moving day. We carefully wrap, pack (if required), and load all your belongings onto our modern, well-equipped truck — treating everything as if it were our own.",
-                  },
-                  {
-                    number: "03",
-                    title: "Settle In With Ease",
-                    text: "We transport your belongings safely to your new Cairns location and unload everything exactly where you want it. We won't leave until you're completely happy — it's that simple.",
-                  },
-                ].map((step) => (
+                {steps.map((step) => (
                   <div key={step.number} className="flex items-start gap-5">
                     <div className="w-16 h-16 rounded-full bg-[#F5C400] flex items-center justify-center text-[#1A1A1A] font-black text-lg shadow-md shrink-0">
                       {step.number}
@@ -502,8 +493,8 @@ export default function RemovalistsCairnsPage() {
             <div className="relative h-[420px] lg:h-[540px] rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/r2g-professional-packing-service-cairns.webp"
-                alt="R2G removalist team serving Cairns"
-                title="R2G Professional Packing Service Cairns"
+                alt={`R2G removalist team serving ${suburb.name} Brisbane`}
+                title={`R2G Professional Packing Service ${suburb.name}`}
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -513,7 +504,7 @@ export default function RemovalistsCairnsPage() {
         </div>
       </section>
 
-      {/* ── SECTION 6: SUBURBS & TIPS ───────────────────────────────────────── */}
+      {/* ── SECTION 6: SERVICE AREA & TIPS ──────────────────────────────────── */}
       <section className="bg-[#1A1A1A] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -523,32 +514,26 @@ export default function RemovalistsCairnsPage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-3">
-              Cairns Suburbs We Service
+              {suburb.name} and Surrounding Areas
             </h2>
             <p className="text-gray-400 text-base max-w-2xl mx-auto">
-              We cover the entire Cairns region — from the northern beaches to Gordonvale in the
-              south, and out to the Atherton Tablelands. If you&apos;re not sure whether we cover
-              your area, just give us a call.
+              We cover {suburb.name} and all surrounding suburbs throughout {suburb.region}.
+              Our locally-based team knows the streets and access challenges in this part of Brisbane.
+              If you&apos;re unsure whether we service your address, just give us a call.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-2 justify-center mb-14">
-            {[
-              "Cairns City", "Edge Hill", "Whitfield", "Freshwater", "Redlynch",
-              "Gordonvale", "Babinda", "Atherton", "Mareeba", "Port Douglas",
-              "Innisfail", "Mossman", "Smithfield", "Yorkeys Knob", "Palm Cove",
-              "Trinity Beach", "Clifton Beach", "Kewarra Beach", "Machans Beach",
-              "Holloways Beach",
-            ].map((suburb) => {
-              const href = getSuburbHref(suburb);
+            {areaPills.map((s) => {
+              const href = getBrisbaneSuburbHref(s);
               const classes = "px-3 py-1.5 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
               return href ? (
-                <Link key={suburb} href={href} title={`Removalists ${suburb} - R2G Transport & Storage`} className={classes}>
-                  {suburb}
+                <Link key={s} href={href} title={`Removalists ${s} - R2G Transport & Storage`} className={classes}>
+                  {s}
                 </Link>
               ) : (
-                <span key={suburb} className={classes}>
-                  {suburb}
+                <span key={s} className={classes}>
+                  {s}
                 </span>
               );
             })}
@@ -556,27 +541,10 @@ export default function RemovalistsCairnsPage() {
 
           <div className="border-t border-white/10 pt-12">
             <h3 className="text-2xl font-black text-white text-center mb-8">
-              Tips for a Smooth Cairns Move
+              Tips for a Smooth {suburb.name} Move
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {[
-                {
-                  heading: "Book early, especially in summer.",
-                  text: "Cairns removal services get very busy from November through January. If you're moving during the holiday season, aim to book at least 3–4 weeks in advance to secure your preferred date.",
-                },
-                {
-                  heading: "Consider the wet season.",
-                  text: "Cairns' monsoon season (November–April) can bring heavy rain and flooding. Our team is experienced at moving in tropical weather and takes extra precautions to protect your belongings — but keep an eye on forecasts and communicate with us if conditions are extreme.",
-                },
-                {
-                  heading: "Declutter before you move.",
-                  text: "The less you move, the less you pay. Take the opportunity to sell, donate, or dispose of items you no longer need. Our team can also advise on what's worth moving versus replacing.",
-                },
-                {
-                  heading: "Pack non-essentials first.",
-                  text: "Start packing seasonal items and things you don't use daily weeks before your move. Label boxes by room — it makes unpacking much faster and our team can place boxes directly in the right rooms at your new home.",
-                },
-              ].map((tip) => (
+              {tips.map((tip) => (
                 <div key={tip.heading} className="bg-white/5 border border-white/10 rounded-xl p-6">
                   <p className="text-white font-bold mb-2">{tip.heading}</p>
                   <p className="text-gray-400 text-sm leading-relaxed">{tip.text}</p>
@@ -591,7 +559,7 @@ export default function RemovalistsCairnsPage() {
       <GoogleReviews />
 
       {/* ── SECTION 8: FAQ ──────────────────────────────────────────────────── */}
-      <FAQ items={faqItems} heading="Local Removals FAQ" />
+      <FAQ items={faqItems} heading={`${suburb.name} Removals FAQ`} />
 
       {/* ── SECTION 9: FINAL CTA ────────────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-[#F5C400] py-20">
@@ -603,7 +571,7 @@ export default function RemovalistsCairnsPage() {
         </svg>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-4">
-            Ready to Move in Cairns?
+            Ready to move to or from {suburb.name}?
           </h2>
           <p className="text-[#1A1A1A]/70 text-lg mb-10 max-w-2xl mx-auto">
             Get a free, no-obligation quote and we&apos;ll be in touch as soon as possible — usually within the hour.
@@ -628,7 +596,7 @@ export default function RemovalistsCairnsPage() {
         </div>
       </section>
 
-      {/* Spacer so mobile sticky bar doesn't cover the CTA */}
+      {/* Spacer for mobile sticky bar */}
       <div className="h-20 lg:hidden" />
 
       {/* ── MOBILE STICKY BOTTOM BAR ────────────────────────────────────────── */}

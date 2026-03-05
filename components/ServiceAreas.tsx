@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getSuburbHref } from "@/data/suburbs";
+import { getBrisbaneSuburbHref } from "@/data/brisbane-suburbs";
 
 const areaGroups = [
   {
@@ -41,7 +42,7 @@ const pillClasses =
   "flex items-center gap-2 bg-white/5 hover:bg-[#F5C400]/10 border border-white/10 hover:border-[#F5C400]/30 rounded-lg px-3 py-2.5 transition-colors";
 
 function SuburbPill({ area }: { area: string }) {
-  const href = getSuburbHref(area);
+  const href = getSuburbHref(area) ?? getBrisbaneSuburbHref(area);
   const inner = (
     <>
       <svg className="w-3 h-3 text-[#F5C400] shrink-0" fill="currentColor" viewBox="0 0 20 20">

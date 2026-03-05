@@ -1,12 +1,18 @@
-const companies = [
-  "Woolworths",
-  "JCU",
-  "Cairns Hospital",
-  "Ergon Energy",
-  "Queensland Rail",
-  "Toll Group",
-  "Australia Post",
-  "Cairns Council",
+import Image from "next/image";
+
+const logos = [
+  { src: "/logos/acu.png", alt: "ACU" },
+  { src: "/logos/alliance_airlines.png", alt: "Alliance Airlines" },
+  { src: "/logos/allianz.png", alt: "Allianz" },
+  { src: "/logos/ambulance_qld.png", alt: "Ambulance Queensland" },
+  { src: "/logos/aurizon.png", alt: "Aurizon" },
+  { src: "/logos/beam.png", alt: "Beam" },
+  { src: "/logos/ndis.png", alt: "NDIS" },
+  { src: "/logos/nsw_police.png", alt: "NSW Police" },
+  { src: "/logos/qld_gov.png", alt: "Queensland Government" },
+  { src: "/logos/qld_police.png", alt: "Queensland Police" },
+  { src: "/logos/qut.png", alt: "QUT" },
+  { src: "/logos/uq.png", alt: "UQ" },
 ];
 
 export default function LogoMarquee() {
@@ -20,21 +26,24 @@ export default function LogoMarquee() {
       `}</style>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <p className="text-center text-sm font-semibold uppercase tracking-widest text-gray-400">
-          Businesses We&apos;ve Moved
+          Queensland&apos;s Most Trusted Organisations Choose R2G
         </p>
       </div>
       <div className="relative">
         <div
-          className="flex w-max gap-16 px-8"
+          className="flex w-max items-center gap-16 px-8"
           style={{ animation: "marquee 35s linear infinite" }}
         >
-          {[...companies, ...companies].map((name, i) => (
-            <span
-              key={i}
-              className="text-2xl font-bold text-gray-300 whitespace-nowrap select-none"
-            >
-              {name}
-            </span>
+          {[...logos, ...logos].map((logo, i) => (
+            <div key={i} className="flex-shrink-0">
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain"
+              />
+            </div>
           ))}
         </div>
       </div>
