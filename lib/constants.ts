@@ -11,7 +11,7 @@ export const HOURS = "9:00 AM – 5:00 PM"
 
 export const SERVICES = [
   { label: "Moving Home", href: "/removalists-cairns" },
-  { label: "Moving Office", href: "/office-removals-cairns" },
+  { label: "Moving Office", href: "/office-removals" },
   { label: "Moving Interstate", href: "/interstate-removals-cairns" },
   { label: "Packing", href: "/packing-services-cairns" },
   { label: "Boxes", href: "/boxes" },
@@ -36,7 +36,7 @@ export const NAV_LINKS = [
       { label: "Brisbane to Cairns", href: "/removalists-brisbane" },
     ],
   },
-  { label: "Office Relocations", href: "/office-removals-cairns" },
+  { label: "Office Relocations", href: "/office-removals" },
   { label: "Blogs", href: "/blogs" },
   { label: "Contact Us", href: "/contact" },
 ]

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Office Removals Cairns | Commercial Moving | R2G Transport & Storage",
     description: "Professional office relocations in Cairns. Minimal downtime, weekend availability. Get a free quote today.",
-    url: "https://r2g.com.au/office-removals-cairns",
+    url: "https://r2g.com.au/office-removals",
   },
 };
 

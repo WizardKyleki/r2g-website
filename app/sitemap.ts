@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/quote`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/contact`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/office-removals-cairns`, priority: 0.8, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/office-removals`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-cairns`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const },
