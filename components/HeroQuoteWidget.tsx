@@ -18,65 +18,31 @@ export default function HeroQuoteWidget() {
 
     const attachAutocomplete = () => {
       if (initializedRef.current) return;
-      const g = window.google;
-      if (!g?.maps?.places) return;
+      const g = (window as any).google;
+      if (!g?.maps?.places?.Autocomplete) return;
       initializedRef.current = true;
 
-      const LegacyAC = g.maps.places.Autocomplete;
-      const PlaceAC = g.maps.places.PlaceAutocompleteElement;
-
-      const pairs = [
+      const pairs: { ref: React.RefObject<HTMLInputElement | null>; setter: (v: string) => void }[] = [
         { ref: fromInputRef, setter: setFrom },
         { ref: toInputRef, setter: setTo },
       ];
 
-      if (LegacyAC) {
-        pairs.forEach(({ ref, setter }) => {
-          if (!ref.current) return;
-          const ac = new LegacyAC(ref.current, {
-            componentRestrictions: { country: "au" },
-            types: ["geocode"],
-          });
-          ac.addListener("place_changed", () => {
-            const place = ac.getPlace();
-            setter(place.formatted_address || place.name || "");
-          });
+      pairs.forEach(({ ref, setter }) => {
+        if (!ref.current) return;
+        const ac = new g.maps.places.Autocomplete(ref.current, {
+          componentRestrictions: { country: "au" },
+          types: ["geocode"],
         });
-      } else if (PlaceAC) {
-        pairs.forEach(({ ref, setter }) => {
-          if (!ref.current) return;
-          const wrapper = ref.current.parentElement;
-          if (!wrapper) return;
-          wrapper.style.position = "relative";
-          const el = new PlaceAC({
-            componentRestrictions: { country: "au" },
-            types: ["geocode"],
-          });
-          Object.assign(el.style, {
-            position: "absolute", top: "0", left: "0",
-            width: "100%", height: "100%", opacity: "0", zIndex: "10",
-          });
-          wrapper.appendChild(el);
-          el.addEventListener("gmp-select", async (e) => {
-            try {
-              const place = e.placePrediction.toPlace();
-              await place.fetchFields({ fields: ["formattedAddress", "displayName"] });
-              const addr = place.formattedAddress || place.displayName || "";
-              setter(addr);
-              if (ref.current) ref.current.value = addr;
-            } catch {
-              const raw = e.placePrediction?.text?.toString() || "";
-              setter(raw);
-              if (ref.current) ref.current.value = raw;
-            }
-          });
+        ac.addListener("place_changed", () => {
+          const place = ac.getPlace();
+          setter(place.formatted_address || place.name || "");
         });
-      }
+      });
     };
 
     const loadMaps = () => {
       if (document.querySelector('script[src*="maps.googleapis.com"]')) {
-        if (window.google?.maps?.places) {
+        if ((window as any).google?.maps?.places) {
           attachAutocomplete();
         } else {
           document.querySelector('script[src*="maps.googleapis.com"]')
@@ -87,7 +53,6 @@ export default function HeroQuoteWidget() {
       const script = document.createElement("script");
       script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&loading=async`;
       script.async = true;
-      script.defer = true;
       script.onload = attachAutocomplete;
       document.head.appendChild(script);
     };
@@ -96,7 +61,7 @@ export default function HeroQuoteWidget() {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!from.trim() || !to.trim()) {
       setError("Please enter both suburbs to continue");
@@ -118,31 +83,27 @@ export default function HeroQuoteWidget() {
             <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
               From Suburb
             </label>
-            <div className="relative">
-              <input
-                ref={fromInputRef}
-                type="text"
-                value={from}
-                onChange={(e) => setFrom(e.target.value)}
-                placeholder="e.g. Cairns City"
-                className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
-              />
-            </div>
+            <input
+              ref={fromInputRef}
+              type="text"
+              value={from}
+              onChange={(e) => setFrom(e.target.value)}
+              placeholder="e.g. Cairns City"
+              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+            />
           </div>
           <div className="flex-1">
             <label className="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
               To Suburb
             </label>
-            <div className="relative">
-              <input
-                ref={toInputRef}
-                type="text"
-                value={to}
-                onChange={(e) => setTo(e.target.value)}
-                placeholder="e.g. Brisbane CBD"
-                className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
-              />
-            </div>
+            <input
+              ref={toInputRef}
+              type="text"
+              value={to}
+              onChange={(e) => setTo(e.target.value)}
+              placeholder="e.g. Brisbane CBD"
+              className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-sm text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+            />
           </div>
         </div>
         {error && <p className="text-red-500 text-sm font-medium">{error}</p>}
