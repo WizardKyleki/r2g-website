@@ -11,20 +11,26 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Missing API key" }, { status: 500 });
   }
 
-  const url = new URL("https://maps.googleapis.com/maps/api/place/autocomplete/json");
-  url.searchParams.set("input", input);
-  url.searchParams.set("key", apiKey);
-  url.searchParams.set("components", "country:au");
-  url.searchParams.set("types", "geocode");
-  url.searchParams.set("language", "en-AU");
+  const body = {
+    input,
+    includedRegionCodes: ["au"],
+    languageCode: "en-AU",
+  };
 
-  const res = await fetch(url.toString());
+  const res = await fetch(
+    "https://places.googleapis.com/v1/places:autocomplete",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": apiKey,
+      },
+      body: JSON.stringify(body),
+    }
+  );
+
   const data = await res.json();
 
-  return NextResponse.json({
-    predictions: data.predictions?.map((p: any) => ({
-      description: p.description,
-      place_id: p.place_id,
-    })) ?? [],
-  });
+  // Return full response so we can see what Google says
+  return NextResponse.json({ status: res.status, data });
 }
