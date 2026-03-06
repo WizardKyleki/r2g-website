@@ -1,6 +1,6 @@
 export const SITE_NAME = "R2G Transport & Storage"
 export const TAGLINE = "Removalists You Can Trust"
-export const DOMAIN = "https://r2g.com.au"
+export const DOMAIN = "https://www.r2g.com.au"
 
 export const PHONE = "1300 959 498"
 export const PHONE_HREF = "tel:1300959498"

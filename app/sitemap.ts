@@ -1,4 +1,6 @@
 import { MetadataRoute } from "next";
+import { getAllRouteSlugs } from "@/lib/interstate-routes";
+import { getAllCitySlugs } from "@/lib/interstate-cities";
 
 const BASE_URL = "https://www.r2g.com.au";
 
@@ -52,5 +54,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs];
+  // Interstate route pages
+  const interstateRoutes = getAllRouteSlugs().map((slug) => ({
+    url: `${BASE_URL}/interstate-removalists/${slug}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  // Interstate city pages
+  const interstateCities = getAllCitySlugs().map((slug) => ({
+    url: `${BASE_URL}/interstate-removalists/${slug}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...interstateRoutes, ...interstateCities];
 }
