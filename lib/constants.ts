@@ -12,7 +12,7 @@ export const HOURS = "9:00 AM – 5:00 PM"
 export const SERVICES = [
   { label: "Moving Home", href: "/removalists-cairns" },
   { label: "Moving Office", href: "/office-removals" },
-  { label: "Moving Interstate", href: "/interstate-removals-cairns" },
+  { label: "Moving Interstate", href: "/interstate-removalists" },
   { label: "Packing", href: "/packing-services-cairns" },
   { label: "Boxes", href: "/boxes" },
   { label: "Storage", href: "/storage-cairns" },
