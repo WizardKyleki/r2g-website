@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.r2g.com.au/interstate-removalists",
   },
+  robots: { index: true, follow: true },
+  other: {
+    "geo.region": "AU-QLD",
+    "geo.placename": "Queensland, Australia",
+  },
 };
 
 const schemaMarkup = {
@@ -65,6 +70,17 @@ const schemaMarkup = {
         reviewCount: "900",
         bestRating: "5",
       },
+      sameAs: [
+        "https://www.facebook.com/r2gtransport",
+        "https://www.google.com/maps?cid=11773202456138120338",
+      ],
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.r2g.com.au" },
+        { "@type": "ListItem", position: 2, name: "Interstate Removalists", item: "https://www.r2g.com.au/interstate-removalists" },
+      ],
     },
     {
       "@type": "FAQPage",
