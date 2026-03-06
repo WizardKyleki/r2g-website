@@ -6,7 +6,7 @@ import HeroTrustBadges from "@/components/HeroTrustBadges";
 import FAQ from "@/components/FAQ";
 
 export const metadata: Metadata = {
-  title: "Interstate Removalists Cairns to Brisbane | Fully Insured & 5-Star Rated",
+  title: "Interstate Removalists | Fully Insured, Long Distance Moves",
   description:
     "R2G Transport & Storage — interstate removalists operating from Cairns and Brisbane. Door-to-door moves across QLD, NSW and VIC. Fully insured, 900+ five-star reviews. Get a free quote today.",
   openGraph: {
