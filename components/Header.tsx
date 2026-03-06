@@ -47,7 +47,7 @@ export default function Header() {
     : "R2G Transport & Storage — Cairns Removalists";
 
   const isActive          = (href: string)                   => pathname === href;
-  const isGroupActive     = (children: { href: string }[])  => children.some((c) => pathname === c.href);
+  const isGroupActive     = (children: { href: string }[])  => children.some((c) => pathname === c.href || pathname.startsWith(c.href + "/"));
   const label             = (l: string)                      => labelMap[l] ?? l;
 
   return (

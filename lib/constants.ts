@@ -31,6 +31,15 @@ export const NAV_LINKS = [
   {
     label: "Interstate",
     href: "/interstate-removalists",
+    children: [
+      { label: "All Interstate Routes", href: "/interstate-removalists" },
+      { label: "Interstate Removalists Brisbane", href: "/interstate-removalists/brisbane" },
+      { label: "Interstate Removalists Sydney", href: "/interstate-removalists/sydney" },
+      { label: "Interstate Removalists Melbourne", href: "/interstate-removalists/melbourne" },
+      { label: "Interstate Removalists Gold Coast", href: "/interstate-removalists/gold-coast" },
+      { label: "Interstate Removalists Sunshine Coast", href: "/interstate-removalists/sunshine-coast" },
+      { label: "Interstate Removalists Cairns", href: "/interstate-removalists/cairns" },
+    ],
   },
   { label: "Office Relocations", href: "/office-removals" },
   { label: "Blogs", href: "/blogs" },
