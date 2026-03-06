@@ -6,9 +6,9 @@ import HeroTrustBadges from "@/components/HeroTrustBadges";
 import FAQ from "@/components/FAQ";
 
 export const metadata: Metadata = {
-  title: "Interstate Removalists Cairns & Brisbane | R2G Transport",
+  title: "Interstate Removalists Cairns to Brisbane | Fully Insured & 5-Star Rated",
   description:
-    "Trusted interstate removalists servicing Queensland, New South Wales and Victoria. Door-to-door, fully insured, shared & exclusive loads. Cairns and Brisbane depots. Call 1300 959 498.",
+    "R2G Transport & Storage — interstate removalists operating from Cairns and Brisbane. Door-to-door moves across QLD, NSW and VIC. Fully insured, 900+ five-star reviews. Get a free quote today.",
   openGraph: {
     title: "Interstate Removalists | R2G Transport & Storage",
     description:
@@ -178,7 +178,8 @@ export default function InterstateRemovalistsPage() {
               </div>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-[0.95] mb-6">
                 Interstate <br />
-                <span className="text-[#F5A800]">Removalists</span>
+                <span className="text-[#F5A800]">Removalists</span> <br />
+                <span className="text-2xl sm:text-3xl lg:text-4xl text-gray-300 font-bold">Cairns, Brisbane &amp; Queensland</span>
               </h1>
               <p className="text-lg text-gray-300 max-w-xl mb-8 leading-relaxed">
                 Door-to-door interstate moves across Queensland, New South Wales and Victoria.
