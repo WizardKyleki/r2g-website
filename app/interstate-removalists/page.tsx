@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 import HeroTrustBadges from "@/components/HeroTrustBadges";
+import FAQ from "@/components/FAQ";
 
 export const metadata: Metadata = {
   title: "Interstate Removalists Cairns & Brisbane | R2G Transport",
@@ -645,53 +646,35 @@ export default function InterstateRemovalistsPage() {
       </section>
 
       {/* ── FAQ ── */}
-      <section className="bg-white py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="flex items-center justify-center gap-3 mb-3">
-              <div className="h-[2px] w-8 bg-[#F5A800]" />
-              <span className="text-[#F5A800] text-sm font-semibold tracking-widest uppercase">FAQs</span>
-              <div className="h-[2px] w-8 bg-[#F5A800]" />
-            </div>
-            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A]">
-              Frequently Asked Questions
-            </h2>
-          </div>
-          <div className="space-y-4">
-            {[
-              {
-                q: "What interstate routes does R2G service?",
-                a: "R2G services the full Queensland coastal corridor from Cairns to Brisbane, the QLD mining and resources belt including Moranbah, Emerald and Dysart, and long-haul routes south to Sydney and Melbourne. We operate from depots in Cairns City and Archerfield, Brisbane.",
-              },
-              {
-                q: "How long does an interstate move from Cairns to Brisbane take?",
-                a: "Cairns to Brisbane typically takes 2–3 transit days. Shared loads may take slightly longer due to consolidation scheduling. Exclusive loads offer faster, more direct delivery. We provide estimated delivery windows at time of booking.",
-              },
-              {
-                q: "What is the difference between a shared load and an exclusive load?",
-                a: "A shared load means your belongings travel on the same truck as other customers heading in the same direction — reducing cost significantly. An exclusive load dedicates the entire truck to your move, offering faster transit and full control over scheduling.",
-              },
-              {
-                q: "Is my furniture insured during the interstate move?",
-                a: "Yes. Every interstate move includes goods-in-transit insurance and full public liability insurance as standard. Your belongings are covered from the moment we load them to final delivery.",
-              },
-              {
-                q: "Do you service mining towns like Moranbah and Emerald?",
-                a: "Yes. R2G regularly services the QLD mining and resources belt including Moranbah, Emerald, Dysart, Middlemount and Charters Towers. We\u2019re experienced with FIFO relocations and the logistics of moves in and out of resource industry towns.",
-              },
-              {
-                q: "How far in advance should I book my interstate move?",
-                a: "We recommend booking 3–4 weeks ahead where possible, particularly for end-of-month dates and the December–January peak season. The earlier you book, the better your options on timing and load type.",
-              },
-            ].map((faq) => (
-              <div key={faq.q} className="border border-gray-200 rounded-xl p-6">
-                <h3 className="font-bold text-[#1A1A1A] text-lg mb-3">{faq.q}</h3>
-                <p className="text-gray-600 leading-relaxed">{faq.a}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <FAQ
+        heading="Interstate Removals FAQ"
+        items={[
+          {
+            question: "What interstate routes does R2G service?",
+            answer: "R2G services the full Queensland coastal corridor from Cairns to Brisbane, the QLD mining and resources belt including Moranbah, Emerald and Dysart, and long-haul routes south to Sydney and Melbourne. We operate from depots in Cairns City and Archerfield, Brisbane.",
+          },
+          {
+            question: "How long does an interstate move from Cairns to Brisbane take?",
+            answer: "Cairns to Brisbane typically takes 2\u20133 transit days. Shared loads may take slightly longer due to consolidation scheduling. Exclusive loads offer faster, more direct delivery. We provide estimated delivery windows at time of booking.",
+          },
+          {
+            question: "What is the difference between a shared load and an exclusive load?",
+            answer: "A shared load means your belongings travel on the same truck as other customers heading in the same direction \u2014 reducing cost significantly. An exclusive load dedicates the entire truck to your move, offering faster transit and full control over scheduling.",
+          },
+          {
+            question: "Is my furniture insured during the interstate move?",
+            answer: "Yes. Every interstate move includes goods-in-transit insurance and full public liability insurance as standard. Your belongings are covered from the moment we load them to final delivery.",
+          },
+          {
+            question: "Do you service mining towns like Moranbah and Emerald?",
+            answer: "Yes. R2G regularly services the QLD mining and resources belt including Moranbah, Emerald, Dysart, Middlemount and Charters Towers. We\u2019re experienced with FIFO relocations and the logistics of moves in and out of resource industry towns.",
+          },
+          {
+            question: "How far in advance should I book my interstate move?",
+            answer: "We recommend booking 3\u20134 weeks ahead where possible, particularly for end-of-month dates and the December\u2013January peak season. The earlier you book, the better your options on timing and load type.",
+          },
+        ]}
+      />
 
       {/* ── INTERNAL LINKS ── */}
       <section className="bg-gray-50 py-16">
