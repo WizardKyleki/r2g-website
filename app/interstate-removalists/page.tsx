@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 import HeroTrustBadges from "@/components/HeroTrustBadges";
 
@@ -230,7 +231,8 @@ export default function InterstateRemovalistsPage() {
       {/* ── INTRO / SEO COPY ── */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left — copy */}
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="h-[2px] w-8 bg-[#F5A800]" />
@@ -266,6 +268,22 @@ export default function InterstateRemovalistsPage() {
                 </p>
               </div>
             </div>
+            {/* Right — truck image */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/r2g-removal-truck-cairns.webp"
+                alt="R2G interstate removalists truck delivering furniture from Cairns to Brisbane Queensland"
+                width={600}
+                height={400}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+
+          {/* Feature cards + reviews image */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mt-16">
+            {/* Left — feature cards */}
             <div className="space-y-4">
               {[
                 {
@@ -297,6 +315,17 @@ export default function InterstateRemovalistsPage() {
                   </div>
                 </div>
               ))}
+            </div>
+            {/* Right — reviews image */}
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <Image
+                src="/images/r2g-cairns-removalists-reviews.webp"
+                alt="Interstate removals team loading household furniture for door-to-door move from Queensland"
+                width={600}
+                height={400}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
         </div>
