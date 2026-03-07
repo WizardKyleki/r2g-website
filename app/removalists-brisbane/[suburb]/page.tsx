@@ -123,19 +123,20 @@ export default async function RemovalistsBrisbaneSuburbPage({
 
   const businessSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: `R2G Transport & Storage - Removalists ${suburb.name}`,
+    "@type": "MovingCompany",
+    name: `R2G Transport & Storage — Removalists ${suburb.name}`,
     description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
     url: `https://www.r2g.com.au/removalists-brisbane/${suburb.slug}`,
-    telephone: "1300959498",
+    telephone: "1300 959 498",
+    email: "contact@r2g.com.au",
     priceRange: "$160 - $359",
     image: "https://www.r2g.com.au/images/r2g-logo.png",
     address: {
       "@type": "PostalAddress",
       streetAddress: "122 Ashover Circuit",
-      addressLocality: suburb.name,
+      addressLocality: "Archerfield",
       addressRegion: "QLD",
-      postalCode: suburb.postcode,
+      postalCode: "4108",
       addressCountry: "AU",
     },
     geo: {
@@ -149,10 +150,7 @@ export default async function RemovalistsBrisbaneSuburbPage({
       opens: "07:00",
       closes: "18:00",
     },
-    areaServed: {
-      "@type": "City",
-      name: suburb.name,
-    },
+    areaServed: [suburb.name, ...suburb.nearbySubs, "Brisbane"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Removalist Services",
@@ -162,9 +160,14 @@ export default async function RemovalistsBrisbaneSuburbPage({
           itemOffered: {
             "@type": "Service",
             name: `Local Removals ${suburb.name}`,
+            description: `Professional removalist services in ${suburb.name} and surrounding Brisbane suburbs.`,
           },
-          price: "160",
-          priceCurrency: "AUD",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: "160",
+            priceCurrency: "AUD",
+            unitText: "per hour",
+          },
         },
       ],
     },

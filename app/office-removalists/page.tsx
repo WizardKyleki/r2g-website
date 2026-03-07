@@ -34,7 +34,8 @@ const jsonLdSchema = {
       description:
         "Professional office removalists with 10+ years experience. Commercial relocations across Queensland and Australia with minimal downtime. Fully insured.",
       url: pageConfig.canonicalUrl,
-      telephone: "1300959498",
+      telephone: "1300 959 498",
+      email: "contact@r2g.com.au",
       priceRange: "$$",
       image: "https://www.r2g.com.au/images/r2g-logo.png",
       areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
@@ -50,6 +51,12 @@ const jsonLdSchema = {
             postalCode: "4870",
             addressCountry: "AU",
           },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: -16.9186,
+            longitude: 145.7781,
+          },
+          telephone: "1300 959 498",
         },
         {
           "@type": "Place",
@@ -62,6 +69,12 @@ const jsonLdSchema = {
             postalCode: "4108",
             addressCountry: "AU",
           },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: -27.5665,
+            longitude: 153.0085,
+          },
+          telephone: "1300 959 498",
         },
       ],
       openingHoursSpecification: {

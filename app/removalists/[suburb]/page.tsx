@@ -123,19 +123,20 @@ export default async function RemovalistsSuburbPage({
 
   const businessSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: `R2G Transport & Storage - Removalists ${suburb.name}`,
+    "@type": "MovingCompany",
+    name: `R2G Transport & Storage — Removalists ${suburb.name}`,
     description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
     url: `https://www.r2g.com.au/removalists-${suburb.slug}`,
-    telephone: "1300959498",
+    telephone: "1300 959 498",
+    email: "contact@r2g.com.au",
     priceRange: "$179 - $359",
     image: "https://www.r2g.com.au/images/r2g-logo.png",
     address: {
       "@type": "PostalAddress",
       streetAddress: "36 Abbott St",
-      addressLocality: suburb.name,
+      addressLocality: "Cairns City",
       addressRegion: "QLD",
-      postalCode: suburb.postcode,
+      postalCode: "4870",
       addressCountry: "AU",
     },
     geo: {
@@ -149,10 +150,7 @@ export default async function RemovalistsSuburbPage({
       opens: "07:00",
       closes: "18:00",
     },
-    areaServed: {
-      "@type": "City",
-      name: suburb.name,
-    },
+    areaServed: [suburb.name, ...suburb.nearbySubs, "Cairns"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Removalist Services",
@@ -162,9 +160,14 @@ export default async function RemovalistsSuburbPage({
           itemOffered: {
             "@type": "Service",
             name: `Local Removals ${suburb.name}`,
+            description: `Professional removalist services in ${suburb.name} and surrounding Cairns suburbs.`,
           },
-          price: "179",
-          priceCurrency: "AUD",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: "179",
+            priceCurrency: "AUD",
+            unitText: "per hour",
+          },
         },
       ],
     },

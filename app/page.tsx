@@ -32,8 +32,9 @@ const homepageSchema = {
   description:
     "Trusted removalists across Cairns, Brisbane, Gold Coast and Sunshine Coast. 10+ years experience in residential, interstate and office removals.",
   url: "https://www.r2g.com.au",
-  telephone: "+611300959498",
+  telephone: "1300 959 498",
   email: "contact@r2g.com.au",
+  image: "https://www.r2g.com.au/images/r2g-logo.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "36 Abbott St",
@@ -47,6 +48,44 @@ const homepageSchema = {
     latitude: -16.9186,
     longitude: 145.7781,
   },
+  location: [
+    {
+      "@type": "Place",
+      name: "R2G Transport & Storage — Cairns",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "36 Abbott St",
+        addressLocality: "Cairns City",
+        addressRegion: "QLD",
+        postalCode: "4870",
+        addressCountry: "AU",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: -16.9186,
+        longitude: 145.7781,
+      },
+      telephone: "1300 959 498",
+    },
+    {
+      "@type": "Place",
+      name: "R2G Transport & Storage — Brisbane",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "122 Ashover Circuit",
+        addressLocality: "Archerfield",
+        addressRegion: "QLD",
+        postalCode: "4108",
+        addressCountry: "AU",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: -27.5665,
+        longitude: 153.0085,
+      },
+      telephone: "1300 959 498",
+    },
+  ],
   areaServed: [
     "Cairns",
     "Far North Queensland",
@@ -56,20 +95,12 @@ const homepageSchema = {
     "Sunshine Coast",
     "Australia",
   ],
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-      ],
-      opens: "09:00",
-      closes: "17:00",
-    },
-  ],
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "07:00",
+    closes: "18:00",
+  },
   priceRange: "$$",
   aggregateRating: {
     "@type": "AggregateRating",
@@ -80,6 +111,7 @@ const homepageSchema = {
   sameAs: [
     "https://www.facebook.com/r2gtransport",
     "https://www.instagram.com/r2gtransport",
+    "https://www.google.com/maps?cid=11773202456138120338",
   ],
 };
 

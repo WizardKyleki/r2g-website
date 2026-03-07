@@ -34,10 +34,12 @@ const schemaMarkup = {
       "@id": "https://www.r2g.com.au/#organization",
       name: "R2G Transport & Storage",
       url: "https://www.r2g.com.au",
-      telephone: "+611300959498",
+      telephone: "1300 959 498",
+      email: "contact@r2g.com.au",
       description:
         "Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, 900+ five-star reviews.",
-      logo: "https://www.r2g.com.au/images/logo-r2g-white.png",
+      logo: "https://www.r2g.com.au/images/r2g-logo.png",
+      image: "https://www.r2g.com.au/images/r2g-logo.png",
       areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
       location: [
         {
@@ -51,20 +53,38 @@ const schemaMarkup = {
             postalCode: "4870",
             addressCountry: "AU",
           },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: -16.9186,
+            longitude: 145.7781,
+          },
+          telephone: "1300 959 498",
         },
         {
           "@type": "Place",
           name: "R2G Transport & Storage — Brisbane",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "122 Ashover Cct",
+            streetAddress: "122 Ashover Circuit",
             addressLocality: "Archerfield",
             addressRegion: "QLD",
             postalCode: "4108",
             addressCountry: "AU",
           },
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: -27.5665,
+            longitude: 153.0085,
+          },
+          telephone: "1300 959 498",
         },
       ],
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        opens: "07:00",
+        closes: "18:00",
+      },
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",
@@ -73,6 +93,7 @@ const schemaMarkup = {
       },
       sameAs: [
         "https://www.facebook.com/r2gtransport",
+        "https://www.instagram.com/r2gtransport",
         "https://www.google.com/maps?cid=11773202456138120338",
       ],
     },

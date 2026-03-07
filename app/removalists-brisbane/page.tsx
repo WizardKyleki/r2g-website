@@ -29,12 +29,13 @@ const pageConfig = {
 // ─────────────────────────────────────────────────────────────────────────────
 const businessSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "MovingCompany",
   name: "R2G Transport & Storage",
   description:
     "Professional removalists in Brisbane with 10+ years experience. Local and interstate moves from $160/hr. Fully insured.",
   url: "https://www.r2g.com.au/removalists-brisbane",
-  telephone: "1300959498",
+  telephone: "1300 959 498",
+  email: "contact@r2g.com.au",
   priceRange: "$160 - $359",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
   address: {
@@ -47,8 +48,8 @@ const businessSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: -27.4698,
-    longitude: 153.0251,
+    latitude: -27.5665,
+    longitude: 153.0085,
   },
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
@@ -56,10 +57,18 @@ const businessSchema = {
     opens: "07:00",
     closes: "18:00",
   },
-  areaServed: {
-    "@type": "City",
-    name: "Brisbane",
-  },
+  areaServed: [
+    "Brisbane",
+    "Brisbane City",
+    "South East Queensland",
+    "Sunnybank",
+    "Carindale",
+    "Chermside",
+    "Indooroopilly",
+    "Logan",
+    "Ipswich",
+    "Gold Coast",
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Removalist Services",
@@ -69,9 +78,14 @@ const businessSchema = {
         itemOffered: {
           "@type": "Service",
           name: "Local Removals Brisbane",
+          description: "Professional local moving services in Brisbane and South East Queensland.",
         },
-        price: "160",
-        priceCurrency: "AUD",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          price: "160",
+          priceCurrency: "AUD",
+          unitText: "per hour",
+        },
       },
     ],
   },
@@ -81,6 +95,11 @@ const businessSchema = {
     reviewCount: "900",
     bestRating: "5",
   },
+  sameAs: [
+    "https://www.facebook.com/r2gtransport",
+    "https://www.instagram.com/r2gtransport",
+    "https://www.google.com/maps?cid=11773202456138120338",
+  ],
 };
 
 const faqItems = [

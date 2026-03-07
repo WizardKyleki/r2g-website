@@ -109,13 +109,14 @@ export default async function OfficeRemovalistsLocationPage({
         name: `R2G Transport & Storage — Office Removalists ${location.name}`,
         description: `Professional office removalists in ${location.name}. Commercial relocations with minimal downtime. Fully insured. 10+ years experience.`,
         url: `https://www.r2g.com.au/office-removalists/${location.slug}`,
-        telephone: "1300959498",
+        telephone: "1300 959 498",
+        email: "contact@r2g.com.au",
         priceRange: "$$",
         image: "https://www.r2g.com.au/images/r2g-logo.png",
         address: {
           "@type": "PostalAddress",
           streetAddress: location.address.split(",")[0],
-          addressLocality: location.name,
+          addressLocality: location.address.split(",")[1]?.trim() || location.name,
           addressRegion: location.state,
           postalCode: location.postcode,
           addressCountry: "AU",
@@ -127,21 +128,11 @@ export default async function OfficeRemovalistsLocationPage({
         },
         openingHoursSpecification: {
           "@type": "OpeningHoursSpecification",
-          dayOfWeek: [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-          ],
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           opens: "07:00",
           closes: "18:00",
         },
-        areaServed: {
-          "@type": "City",
-          name: location.name,
-        },
+        areaServed: [location.name, location.state, "Australia"],
         hasOfferCatalog: {
           "@type": "OfferCatalog",
           name: "Office Removalist Services",
@@ -151,6 +142,7 @@ export default async function OfficeRemovalistsLocationPage({
               itemOffered: {
                 "@type": "Service",
                 name: `Office Removals ${location.name}`,
+                description: `Professional office and commercial relocations in ${location.name}. Minimal downtime, fully insured.`,
               },
             },
           ],

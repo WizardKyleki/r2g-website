@@ -29,12 +29,13 @@ const pageConfig = {
 // ─────────────────────────────────────────────────────────────────────────────
 const businessSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "MovingCompany",
   name: "R2G Transport & Storage",
   description:
     "Professional removalists in Cairns with 10+ years experience. Local and interstate moves from $179/hr. Fully insured.",
   url: "https://www.r2g.com.au/removalists-cairns",
-  telephone: "1300959498",
+  telephone: "1300 959 498",
+  email: "contact@r2g.com.au",
   priceRange: "$179 - $359",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
   address: {
@@ -56,10 +57,18 @@ const businessSchema = {
     opens: "07:00",
     closes: "18:00",
   },
-  areaServed: {
-    "@type": "City",
-    name: "Cairns",
-  },
+  areaServed: [
+    "Cairns",
+    "Cairns City",
+    "Far North Queensland",
+    "Smithfield",
+    "Trinity Beach",
+    "Palm Cove",
+    "Edge Hill",
+    "Redlynch",
+    "Edmonton",
+    "Gordonvale",
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Removalist Services",
@@ -69,9 +78,14 @@ const businessSchema = {
         itemOffered: {
           "@type": "Service",
           name: "Local Removals Cairns",
+          description: "Professional local moving services in Cairns and Far North Queensland.",
         },
-        price: "179",
-        priceCurrency: "AUD",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          price: "179",
+          priceCurrency: "AUD",
+          unitText: "per hour",
+        },
       },
     ],
   },
@@ -81,6 +95,11 @@ const businessSchema = {
     reviewCount: "900",
     bestRating: "5",
   },
+  sameAs: [
+    "https://www.facebook.com/r2gtransport",
+    "https://www.instagram.com/r2gtransport",
+    "https://www.google.com/maps?cid=11773202456138120338",
+  ],
 };
 
 const faqItems = [
