@@ -42,7 +42,7 @@ export default function Hero() {
     <section className="relative bg-[#1A1A1A] min-h-screen flex items-center overflow-hidden">
 
       {/* ── Background ── */}
-      <div className="absolute inset-0 pointer-events-none">
+      <div className="absolute inset-0 pointer-events-none" style={{ contentVisibility: "auto" }}>
         <div className="absolute inset-0 bg-gradient-to-br from-[#0f0f0f] via-[#1A1A1A] to-[#252525]" />
         <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#F5C400]/8 to-transparent" />
         <div className="absolute bottom-1/4 right-0 w-[600px] h-[600px] bg-[#F5C400]/5 rounded-full blur-3xl" />

@@ -11,12 +11,14 @@ import { SITE_NAME, TAGLINE, DOMAIN, EMAIL } from "@/lib/constants";
 
 const inter = Inter({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-inter",
   display: "swap",
 });
 
 const montserrat = Montserrat({
   subsets: ["latin"],
+  weight: ["700", "800", "900"],
   variable: "--font-montserrat",
   display: "swap",
 });

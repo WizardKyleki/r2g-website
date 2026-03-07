@@ -41,6 +41,7 @@ export default function LogoMarquee() {
                 alt={logo.alt}
                 width={120}
                 height={60}
+                loading="lazy"
                 className="h-12 w-auto object-contain"
               />
             </div>

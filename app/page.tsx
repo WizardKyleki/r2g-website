@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-const Hero = dynamic(() => import("@/components/Hero"));
+import Hero from "@/components/Hero";
 const LogoMarquee = dynamic(() => import("@/components/LogoMarquee"));
 const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
 const ServicesGrid = dynamic(() => import("@/components/ServicesGrid"));
