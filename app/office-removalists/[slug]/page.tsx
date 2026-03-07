@@ -46,12 +46,12 @@ export async function generateMetadata({
       "r2g transport and storage",
     ],
     alternates: {
-      canonical: `https://r2g.com.au/office-removalists/${location.slug}`,
+      canonical: `https://www.r2g.com.au/office-removalists/${location.slug}`,
     },
     openGraph: {
       title: location.metaTitle,
       description: location.metaDescription,
-      url: `https://r2g.com.au/office-removalists/${location.slug}`,
+      url: `https://www.r2g.com.au/office-removalists/${location.slug}`,
       type: "website",
     },
   };
@@ -108,10 +108,10 @@ export default async function OfficeRemovalistsLocationPage({
         "@id": `https://www.r2g.com.au/office-removalists/${location.slug}#business`,
         name: `R2G Transport & Storage — Office Removalists ${location.name}`,
         description: `Professional office removalists in ${location.name}. Commercial relocations with minimal downtime. Fully insured. 10+ years experience.`,
-        url: `https://r2g.com.au/office-removalists/${location.slug}`,
+        url: `https://www.r2g.com.au/office-removalists/${location.slug}`,
         telephone: "1300959498",
         priceRange: "$$",
-        image: "https://r2g.com.au/images/r2g-logo.png",
+        image: "https://www.r2g.com.au/images/r2g-logo.png",
         address: {
           "@type": "PostalAddress",
           streetAddress: location.address.split(",")[0],

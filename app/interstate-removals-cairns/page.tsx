@@ -20,10 +20,11 @@ export const metadata: Metadata = {
     "cairns to sydney removalists",
     "cairns to melbourne removalists",
   ],
+  alternates: { canonical: "https://www.r2g.com.au/interstate-removals-cairns" },
   openGraph: {
     title: "Interstate Removals Cairns | R2G Transport & Storage",
     description: "Reliable interstate removals from Cairns to Brisbane, Sydney, Melbourne and beyond. Fully insured. Shared & exclusive loads. Get a free quote today.",
-    url: "https://r2g.com.au/interstate-removals-cairns",
+    url: "https://www.r2g.com.au/interstate-removals-cairns",
   },
 };
 

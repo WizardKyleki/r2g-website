@@ -33,10 +33,10 @@ const businessSchema = {
   name: "R2G Transport & Storage",
   description:
     "Professional removalists in Brisbane with 10+ years experience. Local and interstate moves from $160/hr. Fully insured.",
-  url: "https://r2g.com.au/removalists-brisbane",
+  url: "https://www.r2g.com.au/removalists-brisbane",
   telephone: "1300959498",
   priceRange: "$160 - $359",
-  image: "https://r2g.com.au/images/r2g-logo.png",
+  image: "https://www.r2g.com.au/images/r2g-logo.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "122 Ashover Circuit",
@@ -173,12 +173,12 @@ export const metadata: Metadata = {
     "local removalists brisbane",
     "r2g transport and storage",
   ],
-  alternates: { canonical: "https://r2g.com.au/removalists-brisbane" },
+  alternates: { canonical: "https://www.r2g.com.au/removalists-brisbane" },
   openGraph: {
     title: "Removalists Brisbane | R2G Transport & Storage | From $160/hr",
     description:
       "Trusted removalists in Brisbane with 10+ years experience. Local & interstate moves from $160/hr. Fully insured, no hidden fees.",
-    url: "https://r2g.com.au/removalists-brisbane",
+    url: "https://www.r2g.com.au/removalists-brisbane",
     type: "website",
   },
 };

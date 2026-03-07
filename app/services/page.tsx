@@ -9,10 +9,11 @@ export const metadata: Metadata = {
   title: "Moving Services Cairns | R2G Transport & Storage",
   description:
     "Explore R2G Transport & Storage's complete range of moving services in Cairns — local removals, interstate moves, office relocations, and professional packing.",
+  alternates: { canonical: "https://www.r2g.com.au/services" },
   openGraph: {
     title: "Moving Services Cairns | R2G Transport & Storage",
     description: "Complete moving services in Cairns: local, interstate, office, and packing. Get a free quote today.",
-    url: "https://r2g.com.au/services",
+    url: "https://www.r2g.com.au/services",
   },
 };
 

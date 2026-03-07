@@ -17,11 +17,11 @@ export const metadata: Metadata = {
   description:
     "R2G Transport & Storage — trusted removalists across Cairns, Brisbane, Gold Coast and Sunshine Coast. 10+ years experience in residential, interstate and office removals. Fully insured. Get a free quote today.",
   keywords: ["removalists cairns", "removalists brisbane", "removalists gold coast", "removalists sunshine coast", "interstate removalists", "r2g transport and storage", "cairns removalists", "brisbane removalists"],
-  alternates: { canonical: "https://r2g.com.au" },
+  alternates: { canonical: "https://www.r2g.com.au" },
   openGraph: {
     title: "R2G Transport & Storage | Removalists Cairns, Brisbane, Gold Coast & Sunshine Coast",
     description: "10+ years experience moving families and businesses across Queensland and Australia. Fully insured, no hidden fees. Get a free quote today.",
-    url: "https://r2g.com.au",
+    url: "https://www.r2g.com.au",
   },
 };
 

@@ -8,10 +8,11 @@ export const metadata: Metadata = {
   title: "Contact Us | R2G Transport & Storage",
   description:
     "Contact R2G Transport & Storage. Call 1300 959 498, email us, or use our online quote wizard to get a free, no-obligation moving quote.",
+  alternates: { canonical: "https://www.r2g.com.au/contact" },
   openGraph: {
     title: "Contact R2G Transport & Storage",
     description: "Get in touch with R2G Transport & Storage. Free, no-obligation quotes for all moves.",
-    url: "https://r2g.com.au/contact",
+    url: "https://www.r2g.com.au/contact",
   },
 };
 

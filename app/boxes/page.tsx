@@ -11,10 +11,11 @@ export const metadata: Metadata = {
   description:
     "Quality moving boxes and packing supplies in Cairns and Brisbane. R2G Transport & Storage stocks everything you need to pack safely. Order online or pick up in store.",
   keywords: ["moving boxes cairns", "packing boxes brisbane", "moving supplies australia", "cardboard boxes moving"],
+  alternates: { canonical: "https://www.r2g.com.au/boxes" },
   openGraph: {
     title: "Moving Boxes & Packing Supplies | R2G Transport & Storage",
     description: "Quality moving boxes and packing supplies in Cairns and Brisbane. Get a bundle deal today.",
-    url: "https://r2g.com.au/boxes",
+    url: "https://www.r2g.com.au/boxes",
   },
 };
 

@@ -13,10 +13,11 @@ export const metadata: Metadata = {
   description:
     "Professional packing services in Cairns. R2G Transport & Storage's trained packers handle your belongings with care using quality materials. Full or partial packing available. Get a free quote.",
   keywords: ["packing services cairns", "professional packers cairns", "packing boxes cairns", "removal packing cairns"],
+  alternates: { canonical: "https://www.r2g.com.au/packing-services-cairns" },
   openGraph: {
     title: "Packing Services Cairns | Professional Packers | R2G Transport & Storage",
     description: "Professional packing services in Cairns. Quality materials, expert packers, full or partial service. Get a free quote today.",
-    url: "https://r2g.com.au/packing-services-cairns",
+    url: "https://www.r2g.com.au/packing-services-cairns",
   },
 };
 

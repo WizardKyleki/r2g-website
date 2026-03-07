@@ -13,10 +13,11 @@ export const metadata: Metadata = {
   description:
     "Secure, clean storage in Cairns. R2G Transport & Storage offers flexible short and long-term storage solutions — perfect between moves, renovations, or for business needs. Get a free quote.",
   keywords: ["storage cairns", "self storage cairns", "moving and storage cairns", "short term storage cairns", "long term storage cairns"],
+  alternates: { canonical: "https://www.r2g.com.au/storage-cairns" },
   openGraph: {
     title: "Storage Cairns | Short & Long-Term Storage | R2G Transport & Storage",
     description: "Secure, flexible storage in Cairns. Short or long-term, no lock-in contracts. Get a free quote today.",
-    url: "https://r2g.com.au/storage-cairns",
+    url: "https://www.r2g.com.au/storage-cairns",
   },
 };
 

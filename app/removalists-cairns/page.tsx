@@ -33,10 +33,10 @@ const businessSchema = {
   name: "R2G Transport & Storage",
   description:
     "Professional removalists in Cairns with 10+ years experience. Local and interstate moves from $179/hr. Fully insured.",
-  url: "https://r2g.com.au/removalists-cairns",
+  url: "https://www.r2g.com.au/removalists-cairns",
   telephone: "1300959498",
   priceRange: "$179 - $359",
-  image: "https://r2g.com.au/images/r2g-logo.png",
+  image: "https://www.r2g.com.au/images/r2g-logo.png",
   address: {
     "@type": "PostalAddress",
     streetAddress: "36 Abbott St",
@@ -173,12 +173,12 @@ export const metadata: Metadata = {
     "local removalists cairns",
     "r2g transport and storage",
   ],
-  alternates: { canonical: "https://r2g.com.au/removalists-cairns" },
+  alternates: { canonical: "https://www.r2g.com.au/removalists-cairns" },
   openGraph: {
     title: "Removalists Cairns | R2G Transport & Storage | From $179/hr",
     description:
       "Trusted removalists in Cairns with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees.",
-    url: "https://r2g.com.au/removalists-cairns",
+    url: "https://www.r2g.com.au/removalists-cairns",
     type: "website",
   },
 };

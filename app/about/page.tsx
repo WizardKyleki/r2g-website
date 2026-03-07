@@ -10,10 +10,11 @@ export const metadata: Metadata = {
   title: "About R2G Transport & Storage | Removalists You Can Trust",
   description:
     "Learn about R2G Transport & Storage — a family-owned, fully insured removalist company operating across Cairns, Brisbane, and all of Australia since 2014.",
+  alternates: { canonical: "https://www.r2g.com.au/about" },
   openGraph: {
     title: "About R2G Transport & Storage",
     description: "Family-owned, fully insured removalists based in Cairns and Brisbane. Serving Australia since 2014.",
-    url: "https://r2g.com.au/about",
+    url: "https://www.r2g.com.au/about",
   },
 };
 

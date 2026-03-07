@@ -306,10 +306,10 @@ function ThankYou({ data }: { data: QuoteData }) {
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link
-            href="/"
+            href="/blog"
             className="bg-[#F5C400] hover:bg-[#d4a900] text-[#1A1A1A] font-bold px-8 py-3 rounded-xl transition-colors"
           >
-            Back to Home
+            Check Our Tips &amp; Tricks
           </Link>
           <a
             href={PHONE_HREF}

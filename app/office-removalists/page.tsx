@@ -17,7 +17,7 @@ const pageConfig = {
   eyebrow: "Commercial Removalists",
   subtitle:
     "Professional office and commercial relocations across Queensland and Australia. Minimal downtime, weekend availability, and fully insured moves — trusted by businesses of all sizes.",
-  canonicalUrl: "https://r2g.com.au/office-removalists",
+  canonicalUrl: "https://www.r2g.com.au/office-removalists",
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -36,7 +36,7 @@ const jsonLdSchema = {
       url: pageConfig.canonicalUrl,
       telephone: "1300959498",
       priceRange: "$$",
-      image: "https://r2g.com.au/images/r2g-logo.png",
+      image: "https://www.r2g.com.au/images/r2g-logo.png",
       areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
       location: [
         {
