@@ -122,7 +122,7 @@ export async function POST(request: Request) {
 
     const { data: result, error: sendError } = await resend.emails.send({
       from: "R2G Website <onboarding@resend.dev>",
-      to: "contact@r2g.com.au",
+      to: "kyle@r2g.com.au",
       subject: `New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
       replyTo: email,
       html,
