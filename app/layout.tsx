@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 const Footer = dynamic(() => import("@/components/Footer"));
 const AnimationObserver = dynamic(() => import("@/components/AnimationObserver"));
 const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
+const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
 import { SITE_NAME, TAGLINE, DOMAIN, EMAIL } from "@/lib/constants";
 
 const inter = Inter({
@@ -115,6 +116,7 @@ export default function RootLayout({
         <Footer />
         <MobileStickyBar />
         <AnimationObserver />
+        <ExitIntentPopup />
       </body>
     </html>
   );
