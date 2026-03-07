@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import FAQ from "@/components/FAQ";
+const FAQ = dynamic(() => import("@/components/FAQ"));
 import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
-import PricingTable from "@/components/PricingTable";
-import HeroTrustBadges from "@/components/HeroTrustBadges";
+const PricingTable = dynamic(() => import("@/components/PricingTable"));
+const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
 import { getBrisbaneSuburbHref } from "@/data/brisbane-suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));

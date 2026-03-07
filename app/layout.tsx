@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import AnimationObserver from "@/components/AnimationObserver";
-import MobileStickyBar from "@/components/MobileStickyBar";
+import dynamic from "next/dynamic";
+const Footer = dynamic(() => import("@/components/Footer"));
+const AnimationObserver = dynamic(() => import("@/components/AnimationObserver"));
+const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 import { SITE_NAME, TAGLINE, DOMAIN, EMAIL } from "@/lib/constants";
 
 const inter = Inter({

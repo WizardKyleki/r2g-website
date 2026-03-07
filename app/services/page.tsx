@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import PageHero from "@/components/PageHero";
-import CTABanner from "@/components/CTABanner";
+import dynamic from "next/dynamic";
+const PageHero = dynamic(() => import("@/components/PageHero"));
+const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE_HREF, PHONE } from "@/lib/constants";
 
 export const metadata: Metadata = {

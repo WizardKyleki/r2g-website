@@ -4,8 +4,8 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
-import HeroTrustBadges from "@/components/HeroTrustBadges";
-import FAQ from "@/components/FAQ";
+const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
+const FAQ = dynamic(() => import("@/components/FAQ"));
 import {
   ROUTES,
   CITIES,

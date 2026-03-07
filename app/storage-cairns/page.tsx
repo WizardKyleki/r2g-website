@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import PageHero from "@/components/PageHero";
-import TrustBadges from "@/components/TrustBadges";
-import FAQ from "@/components/FAQ";
-import CTABanner from "@/components/CTABanner";
+import dynamic from "next/dynamic";
+const PageHero = dynamic(() => import("@/components/PageHero"));
+const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
+const FAQ = dynamic(() => import("@/components/FAQ"));
+const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, CAIRNS_ADDRESS, BRISBANE_ADDRESS } from "@/lib/constants";
 
 export const metadata: Metadata = {

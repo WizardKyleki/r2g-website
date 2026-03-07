@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import PageHero from "@/components/PageHero";
-import EnquiryForm from "@/components/EnquiryForm";
+import dynamic from "next/dynamic";
+const PageHero = dynamic(() => import("@/components/PageHero"));
+const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"));
 import { PHONE, PHONE_HREF, EMAIL, CAIRNS_ADDRESS, BRISBANE_ADDRESS, HOURS } from "@/lib/constants";
 
 export const metadata: Metadata = {

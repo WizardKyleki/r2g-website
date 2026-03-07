@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import Hero from "@/components/Hero";
 import dynamic from "next/dynamic";
+const Hero = dynamic(() => import("@/components/Hero"));
 const LogoMarquee = dynamic(() => import("@/components/LogoMarquee"));
-import TrustBadges from "@/components/TrustBadges";
-import ServicesGrid from "@/components/ServicesGrid";
-import WhyChooseR2G from "@/components/WhyChooseR2G";
-import HowItWorks from "@/components/HowItWorks";
+const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
+const ServicesGrid = dynamic(() => import("@/components/ServicesGrid"));
+const WhyChooseR2G = dynamic(() => import("@/components/WhyChooseR2G"));
+const HowItWorks = dynamic(() => import("@/components/HowItWorks"));
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
-import ServiceAreas from "@/components/ServiceAreas";
-import FAQ from "@/components/FAQ";
-import CTABanner from "@/components/CTABanner";
+const ServiceAreas = dynamic(() => import("@/components/ServiceAreas"));
+const FAQ = dynamic(() => import("@/components/FAQ"));
+const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { HOME_FAQS } from "@/lib/constants";
 
 export const metadata: Metadata = {
