@@ -713,9 +713,9 @@ export default function InterstateRemovalistsPage() {
                 href: "/removalists-brisbane",
               },
               {
-                title: "Office Relocations",
+                title: "Office Removalists",
                 desc: "Commercial moving for businesses across QLD and beyond.",
-                href: "/office-removals",
+                href: "/office-removalists",
               },
             ].map((link) => (
               <Link

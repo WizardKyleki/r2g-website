@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { getAllRouteSlugs } from "@/lib/interstate-routes";
 import { getAllCitySlugs } from "@/lib/interstate-cities";
+import { getAllOfficeLocationSlugs } from "@/data/office-locations";
 
 const BASE_URL = "https://www.r2g.com.au";
 
@@ -12,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/quote`, priority: 0.9, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/contact`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/office-removals`, priority: 0.8, changeFrequency: "monthly" as const },
+    { url: `${BASE_URL}/office-removalists`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-cairns`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const },
@@ -70,5 +71,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...interstateRoutes, ...interstateCities];
+  // Office removalists location pages
+  const officeLocations = getAllOfficeLocationSlugs().map((slug) => ({
+    url: `${BASE_URL}/office-removalists/${slug}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...interstateRoutes, ...interstateCities, ...officeLocations];
 }

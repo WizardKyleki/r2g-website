@@ -10,7 +10,7 @@ import { PHONE, PHONE_HREF, NAV_LINKS } from "@/lib/constants";
 const labelMap: Record<string, string> = {
   "Local Removalists":     "Local Moves",
   "Interstate Removalists":"Interstate",
-  "Office Relocations":    "Office",
+  "Office Removalists":    "Office",
   "Blogs":                 "Blog",
   "Contact Us":            "Contact",
 };
@@ -171,7 +171,7 @@ export default function Header() {
               {/* Phone */}
               <a
                 href={PHONE_HREF}
-                className="flex items-center gap-2 text-white/75 hover:text-white text-[13px] font-semibold tracking-[0.02em] transition-colors duration-200 group"
+                className="flex items-center gap-2 text-white/75 hover:text-white text-[13px] font-semibold tracking-[0.02em] transition-colors duration-200 group whitespace-nowrap"
               >
                 <span className="w-7 h-7 rounded-full border border-white/20 group-hover:border-[#F5C400]/50 flex items-center justify-center transition-colors duration-200">
                   <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
@@ -187,7 +187,7 @@ export default function Header() {
               {/* Quote CTA */}
               <Link
                 href="/quote"
-                className="inline-flex items-center bg-[#F5C400] text-[#1A1A1A] font-bold px-5 py-[10px] rounded-md text-[13px] tracking-wider leading-none transition-colors duration-200 hover:bg-[#d4a900]"
+                className="inline-flex items-center bg-[#F5C400] text-[#1A1A1A] font-bold px-5 py-[10px] rounded-md text-[13px] tracking-wider leading-none transition-colors duration-200 hover:bg-[#d4a900] whitespace-nowrap"
               >
                 Get a Quote
               </Link>

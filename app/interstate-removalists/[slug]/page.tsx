@@ -1452,7 +1452,7 @@ function InternalLinks() {
           {[
             { title: "Removalists Cairns", desc: "Local moves across Cairns and Far North Queensland.", href: "/removalists-cairns" },
             { title: "Removalists Brisbane", desc: "Professional removalists across Brisbane and South East QLD.", href: "/removalists-brisbane" },
-            { title: "Office Relocations", desc: "Commercial moving for businesses across QLD and beyond.", href: "/office-removals" },
+            { title: "Office Removalists", desc: "Commercial moving for businesses across QLD and beyond.", href: "/office-removalists" },
           ].map((link) => (
             <Link
               key={link.href}
