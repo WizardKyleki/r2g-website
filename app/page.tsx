@@ -25,9 +25,71 @@ export const metadata: Metadata = {
   },
 };
 
+const homepageSchema = {
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  name: "R2G Transport & Storage",
+  description:
+    "Trusted removalists across Cairns, Brisbane, Gold Coast and Sunshine Coast. 10+ years experience in residential, interstate and office removals.",
+  url: "https://www.r2g.com.au",
+  telephone: "+611300959498",
+  email: "contact@r2g.com.au",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "36 Abbott St",
+    addressLocality: "Cairns City",
+    addressRegion: "QLD",
+    postalCode: "4870",
+    addressCountry: "AU",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: -16.9186,
+    longitude: 145.7781,
+  },
+  areaServed: [
+    "Cairns",
+    "Far North Queensland",
+    "Townsville",
+    "Brisbane",
+    "Gold Coast",
+    "Sunshine Coast",
+    "Australia",
+  ],
+  openingHoursSpecification: [
+    {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+      ],
+      opens: "09:00",
+      closes: "17:00",
+    },
+  ],
+  priceRange: "$$",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "900",
+    bestRating: "5",
+  },
+  sameAs: [
+    "https://www.facebook.com/r2gtransport",
+    "https://www.instagram.com/r2gtransport",
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageSchema) }}
+      />
       <Hero />
       <p className="sr-only">R2G Transport &amp; Storage are professional removalists servicing Cairns, Brisbane, Gold Coast and Sunshine Coast. With over 10 years experience in residential removals, office relocations, interstate removals and packing services across Queensland and Australia.</p>
       <LogoMarquee />

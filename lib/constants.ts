@@ -50,7 +50,7 @@ export const NAV_LINKS = [
       { label: "Office Removalists Brisbane", href: "/office-removalists/brisbane" },
     ],
   },
-  { label: "Blogs", href: "/blogs" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact Us", href: "/contact" },
 ]
 

@@ -2,6 +2,8 @@ import { MetadataRoute } from "next";
 import { getAllRouteSlugs } from "@/lib/interstate-routes";
 import { getAllCitySlugs } from "@/lib/interstate-cities";
 import { getAllOfficeLocationSlugs } from "@/data/office-locations";
+import { getAllOfficeSuburbParams } from "@/data/office-suburbs";
+import { getAllBlogSlugs } from "@/data/blog-posts";
 
 const BASE_URL = "https://www.r2g.com.au";
 
@@ -17,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-cairns`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const },
+    { url: `${BASE_URL}/ndis-removalists`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/interstate-removalists`, priority: 0.9, changeFrequency: "monthly" as const },
   ].map((page) => ({ ...page, lastModified: today }));
 
@@ -79,5 +82,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...interstateRoutes, ...interstateCities, ...officeLocations];
+  // Office removalists suburb pages
+  const officeSuburbs = getAllOfficeSuburbParams().map(({ city, suburb }) => ({
+    url: `${BASE_URL}/office-removalists/${city}/${suburb}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  // Blog posts
+  const blogPosts = getAllBlogSlugs().map((slug) => ({
+    url: `${BASE_URL}/blog/${slug}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
 }

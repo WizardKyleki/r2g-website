@@ -52,6 +52,26 @@ export interface OfficeLocation {
   businessDistricts: string[];
   /** CTA section subtitle */
   ctaSubtitle: string;
+
+  // ── Deep-SEO differentiation fields ────────────────────────────────────────
+  /** Local industries R2G serves — rendered as a 4-col grid */
+  industrySpecializations: {
+    title: string;
+    description: string;
+  }[];
+  /** Location-specific moving challenges & knowledge */
+  localKnowledge: {
+    heading: string;
+    paragraphs: string[];
+  };
+  /** Brief real-world move story for social proof */
+  caseStudy: {
+    headline: string;
+    business: string;
+    challenge: string;
+    solution: string;
+    result: string;
+  };
 }
 
 // ═══════════════════════════════════════════════════════
@@ -104,21 +124,39 @@ export const officeLocations: OfficeLocation[] = [
         answer:
           "This depends on the size of your office. A small office (5-10 staff) can often be completed in a single day. Larger corporate environments may require a phased approach over a weekend. We'll provide a detailed timeline during our pre-move consultation.",
       },
+      {
+        question: "Do you move medical equipment like dental chairs and X-ray machines in Cairns?",
+        answer:
+          "Yes. We regularly relocate dental practices, specialist clinics, and pathology labs across Cairns. Our team is trained to handle heavy medical equipment including dental chairs, X-ray units, autoclaves, and examination beds. We use specialist padding and secure tie-down systems to protect sensitive instruments during transit.",
+      },
+      {
+        question: "Can you coordinate with our Cairns IT provider for server relocation?",
+        answer:
+          "Absolutely. We regularly work alongside local Cairns IT providers to coordinate server disconnections, rack relocations, and reconnections at the new premises. We can schedule the IT cutover as part of our move timeline so your network is back online as quickly as possible.",
+      },
     ],
     tips: [
       {
         heading: "Book around the dry season if possible.",
-        text: "Cairns' wet season (November–April) can bring heavy rain. While our team is experienced at moving in tropical weather, scheduling your office move during the dry season means fewer weather-related delays.",
+        text: "Cairns' wet season (November–April) can bring heavy rain and occasional cyclone warnings. While our team is experienced at moving in tropical conditions with waterproof wrapping as standard, scheduling your office move between May and October means fewer weather-related delays and more predictable timelines.",
       },
       {
         heading: "Coordinate building access early.",
-        text: "Many Cairns CBD office buildings require advance notice for loading dock access and lift bookings. Let us know your building details when booking so we can arrange access with management ahead of time.",
+        text: "Many Cairns CBD office buildings — particularly along Abbott St, Shields St, and Lake St — require advance notice for loading dock access and lift bookings. Let us know your building details when booking so we can arrange permits and coordinate with management ahead of time.",
+      },
+      {
+        heading: "Notify your IT provider before the move.",
+        text: "If your Cairns office uses a local managed IT provider, coordinate with them at least two weeks before moving day. Server disconnection, network cabling at the new premises, and phone system transfers all need lead time. R2G can liaise directly with your IT team on the day.",
+      },
+      {
+        heading: "Plan for stair carries in older CBD buildings.",
+        text: "Several commercial buildings in the Cairns CBD and along Grafton St were built before freight lifts were standard. Our team is experienced with stair carries for heavy furniture and equipment — but knowing in advance lets us allocate the right crew size and protective equipment.",
       },
     ],
     metaTitle:
-      "Office Removalists Cairns | Commercial Moving | R2G Transport & Storage",
+      "Office Removalists Cairns | Trusted Commercial Movers",
     metaDescription:
-      "Professional office removalists in Cairns. Weekend & after-hours moves, fully insured, minimal downtime. 10+ years experience. Call 1300 959 498 or get a free quote.",
+      "Expert office removalists in Cairns. Weekend & after-hours moves, fully insured, zero downtime. Get a free quote today.",
 
     // ── Unique content fields ──────────────────────────────────────────────
     heroSubtitle:
@@ -232,6 +270,48 @@ export const officeLocations: OfficeLocation[] = [
     ],
     ctaSubtitle:
       "Get a free, no-obligation quote tailored to your Cairns office. We'll assess your site, plan around tropical weather, and have a detailed proposal back to you — usually within the hour.",
+
+    // ── Deep-SEO differentiation ───────────────────────────────────────────
+    industrySpecializations: [
+      {
+        title: "Healthcare & Medical",
+        description:
+          "Dental practices, specialist clinics, pathology labs, and allied health offices across Cairns CBD, Smithfield, and Edmonton. We handle dental chairs, X-ray units, autoclaves, and patient records with privacy-compliant protocols.",
+      },
+      {
+        title: "Tourism & Hospitality",
+        description:
+          "Tour operators, dive companies, travel agencies, and hotel administration offices throughout the Cairns tourism district. We understand seasonal timing pressures and can schedule moves around peak visitor periods.",
+      },
+      {
+        title: "Legal & Financial",
+        description:
+          "Law firms, accounting practices, financial advisors, and real estate agencies in the Cairns CBD and Earlville commercial precincts. Secure handling of confidential files, heavy safes, and sensitive client records.",
+      },
+      {
+        title: "Government & Education",
+        description:
+          "Council offices, James Cook University departments, TAFE Queensland campuses, and government agencies across the Cairns region. We meet public-sector compliance requirements and work around academic calendars.",
+      },
+    ],
+    localKnowledge: {
+      heading: "Why Cairns Office Moves Need Local Expertise",
+      paragraphs: [
+        "Cairns CBD has some of the tightest commercial loading zones in regional Queensland. Abbott St, Lake St, and Grafton St all have restricted parking windows, and council permits are required for extended loading. R2G pre-arranges these permits as part of every CBD office move — so there are no surprises or parking fines on moving day.",
+        "Many of the older commercial buildings along Shields St and Spence St were built without freight lifts. Stair carries for heavy desks, server racks, and filing cabinets require extra crew and specialist equipment. Our team has moved offices out of nearly every major Cairns CBD building and knows exactly what each one requires.",
+        "Far North Queensland's wet season (November to April) brings heavy tropical downpours that can start without warning. Every Cairns office move includes waterproof wrapping for electronics, documents, and upholstered furniture as standard — not as an optional extra. If a cyclone warning is issued, we reschedule at no cost and prioritise your move once conditions clear.",
+      ],
+    },
+    caseStudy: {
+      headline: "Cairns Medical Practice — Weekend Relocation",
+      business: "A 15-person dental and specialist medical practice relocating from Cairns CBD to a purpose-built clinic in Smithfield.",
+      challenge:
+        "The practice couldn't afford to close during weekday appointments. Heavy equipment included three dental chairs, two X-ray units, an autoclave room, and a server rack with patient management systems. The old building had no freight lift — everything had to go down two flights of stairs.",
+      solution:
+        "R2G completed the entire move over a single weekend. Friday evening: IT provider disconnected servers while our crew wrapped and stair-carried all heavy equipment. Saturday: dental chairs and medical gear were transported to Smithfield and positioned per the new floor plan. Sunday morning: workstations reassembled, IT reconnected, and a full walk-through completed with the practice manager.",
+      result:
+        "The practice opened Monday at 8 am with zero missed appointments. All patient records were intact, every piece of medical equipment was operational, and the total downtime was limited to the weekend.",
+    },
   },
   {
     slug: "brisbane",
@@ -278,21 +358,39 @@ export const officeLocations: OfficeLocation[] = [
         answer:
           "We cover all Brisbane suburbs and the greater South East Queensland region — from the CBD and inner city to suburbs like Chermside, Mt Gravatt, Carindale, Indooroopilly, and out to Logan, Ipswich, and the Gold Coast corridor.",
       },
+      {
+        question: "Can you handle high-rise office moves in Brisbane CBD?",
+        answer:
+          "Yes — high-rise moves are one of our specialties. We coordinate freight lift bookings, loading dock scheduling, and strata requirements for Brisbane CBD towers. Our team has experience with buildings from 5 to 40+ floors and can manage phased moves to work within building access windows.",
+      },
+      {
+        question: "Do you offer phased office relocations for larger Brisbane businesses?",
+        answer:
+          "Yes. For offices with 20+ staff, we recommend a phased approach — typically moving non-essential items and storage on Friday evening, then workstations and IT equipment on Saturday. This means your team can be fully operational by Monday morning with minimal disruption.",
+      },
     ],
     tips: [
       {
         heading: "Book loading dock access early.",
-        text: "Brisbane CBD buildings often require advance booking for loading docks, freight lifts, and after-hours access. Let us know your building details when you book so we can coordinate with management.",
+        text: "Brisbane CBD high-rises and Fortitude Valley commercial buildings often require advance booking for loading docks, freight lifts, and after-hours access. Strata committees may need 2–4 weeks' notice. Let us know your building details when you book so we can coordinate with management.",
       },
       {
         heading: "Consider a phased move for large offices.",
-        text: "For offices with 20+ staff, a phased move over a Friday evening and Saturday can minimise disruption. We can move non-essential items first and finish with workstations so your team is operational by Monday.",
+        text: "For offices with 20+ staff, a phased move over a Friday evening and Saturday can minimise disruption. We move non-essential items, filing cabinets, and breakroom equipment on Friday night, then finish with workstations and IT Saturday morning so your team is operational by Monday.",
+      },
+      {
+        heading: "Check your new lease for fit-out timelines.",
+        text: "Many Brisbane commercial leases allow early access for fit-out before the lease start date. If your new space needs cabling, partitions, or furniture assembly, coordinate with your fit-out contractor so R2G can deliver furniture and equipment as soon as the space is ready.",
+      },
+      {
+        heading: "Plan around Brisbane's summer storm season.",
+        text: "Brisbane's storm season (October–March) can produce sudden heavy downpours and hail. Our trucks are enclosed and all items are wrapped, but scheduling loading and unloading between storm windows can save time. We monitor BOM forecasts and adjust logistics on the day.",
       },
     ],
     metaTitle:
-      "Office Removalists Brisbane | Commercial Moving | R2G Transport & Storage",
+      "Office Removalists Brisbane | #1 Commercial Movers SEQ",
     metaDescription:
-      "Professional office removalists in Brisbane. Weekend & after-hours moves, fully insured, minimal downtime. 10+ years experience. Call 1300 959 498 or get a free quote.",
+      "Top-rated office removalists in Brisbane. High-rise specialists, fully insured, weekend & after-hours moves. Get a free quote now.",
 
     // ── Unique content fields ──────────────────────────────────────────────
     heroSubtitle:
@@ -406,6 +504,48 @@ export const officeLocations: OfficeLocation[] = [
     ],
     ctaSubtitle:
       "Get a free, no-obligation quote for your Brisbane office move. Our Archerfield team will assess your site, coordinate building access, and deliver a detailed proposal — usually within the hour.",
+
+    // ── Deep-SEO differentiation ───────────────────────────────────────────
+    industrySpecializations: [
+      {
+        title: "Corporate & Professional Services",
+        description:
+          "Law firms, accounting practices, consultancies, and financial services across Brisbane CBD, Spring Hill, and Fortitude Valley. Secure handling of confidential records, heavy safes, and boardroom furniture.",
+      },
+      {
+        title: "Technology & Startups",
+        description:
+          "Tech companies, SaaS startups, and digital agencies in Fortitude Valley, Newstead, and Teneriffe. Server rack relocation, standing desk logistics, and open-plan reconfiguration for agile workspaces.",
+      },
+      {
+        title: "Healthcare & Allied Health",
+        description:
+          "Medical centres, physiotherapy clinics, dental practices, and pathology labs across Brisbane's inner suburbs. Equipment-specific handling for examination beds, imaging machines, and pharmacy fit-outs.",
+      },
+      {
+        title: "Government & Not-for-Profit",
+        description:
+          "State and local government departments, NGOs, and community organisations across South East Queensland. We meet procurement compliance requirements and coordinate with facility management teams.",
+      },
+    ],
+    localKnowledge: {
+      heading: "Why Brisbane Office Moves Need Local Expertise",
+      paragraphs: [
+        "Brisbane CBD has strict freight access windows — most towers limit loading dock use to before 9 am, after 5 pm, or weekends only. Buildings like 111 Eagle St, Waterfront Place, and the Queens Wharf precinct each have different strata rules for commercial moves. R2G has moved offices in and out of nearly every major Brisbane CBD building and handles dock bookings, lift reservations, and floor-protection requirements as standard.",
+        "Fortitude Valley and Newstead have become Brisbane's fastest-growing commercial precincts, but many of the converted warehouse spaces have unusual access challenges — narrow roller doors, mezzanine levels without lifts, and shared loading areas. Our team knows which buildings need special equipment and crew configurations.",
+        "Brisbane's storm season (October to March) can bring sudden afternoon downpours and destructive hail. All items are wrapped and loaded under cover where possible, and our Archerfield depot provides secure staging if weather forces a delay. Unlike some operators, we never leave furniture exposed on the street waiting for a loading dock.",
+      ],
+    },
+    caseStudy: {
+      headline: "Brisbane Digital Agency — Fortitude Valley Relocation",
+      business: "A 40-person digital agency moving from a 10th-floor CBD tower to a converted warehouse in Fortitude Valley.",
+      challenge:
+        "The CBD building restricted freight lift access to after 6 pm on weekdays. The new Fortitude Valley warehouse had a narrow roller-door entry and a mezzanine level with no lift. The agency needed to be fully operational by Monday morning including a 12-seat server rack and 40 standing desks.",
+      solution:
+        "R2G split the move into two phases. Friday 6 pm: a dedicated IT crew disconnected and padded the server rack while the main team wrapped and loaded 40 standing desks, chairs, and meeting room furniture via the freight lift. Saturday 7 am: everything was delivered to Fortitude Valley, with a stair-carry team handling the mezzanine level and the server rack reconnected by midday.",
+      result:
+        "The agency held their Monday standup at 9 am in the new space with all systems online. Total downtime was limited to the weekend — no client deadlines were missed.",
+    },
   },
 ];
 

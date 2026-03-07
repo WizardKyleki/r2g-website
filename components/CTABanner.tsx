@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
+import BlogPostsWidget from "@/components/BlogPostsWidget";
 
 interface CTABannerProps {
   heading?: string;
@@ -11,6 +12,8 @@ export default function CTABanner({
   subtext = "Servicing Cairns, Brisbane, Gold Coast, Sunshine Coast and all of Australia. Call us on 1300 959 498 or get an instant quote online.",
 }: CTABannerProps) {
   return (
+    <>
+    <BlogPostsWidget />
     <section className="relative overflow-hidden py-20 bg-[#F5C400]">
       {/* Background decorations */}
       <svg aria-hidden="true" className="absolute top-4 left-4 text-[#1A1A1A] opacity-[0.07]" width="60" height="60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -44,5 +47,6 @@ export default function CTABanner({
         </div>
       </div>
     </section>
+    </>
   );
 }
