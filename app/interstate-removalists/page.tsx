@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import HeroQuoteWidget from "@/components/HeroQuoteWidget";
+import dynamic from "next/dynamic";
+const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 import HeroTrustBadges from "@/components/HeroTrustBadges";
 import FAQ from "@/components/FAQ";
 

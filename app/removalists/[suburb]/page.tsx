@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import FAQ from "@/components/FAQ";
-import HeroQuoteWidget from "@/components/HeroQuoteWidget";
+import dynamic from "next/dynamic";
+const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 import PricingTable from "@/components/PricingTable";
 import HeroTrustBadges from "@/components/HeroTrustBadges";
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
-import GoogleReviews from "@/components/GoogleReviews";
+const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 import { suburbs, getSuburb, getSuburbHref, type CairnsSuburb } from "@/data/suburbs";
 
 // ─────────────────────────────────────────────────────────────────────────────

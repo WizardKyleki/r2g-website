@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AnimationObserver from "@/components/AnimationObserver";
+import MobileStickyBar from "@/components/MobileStickyBar";
 import { SITE_NAME, TAGLINE, DOMAIN, EMAIL } from "@/lib/constants";
 
 const inter = Inter({
@@ -111,6 +112,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <MobileStickyBar />
         <AnimationObserver />
       </body>
     </html>

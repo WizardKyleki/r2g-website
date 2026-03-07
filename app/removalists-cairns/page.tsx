@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import FAQ from "@/components/FAQ";
-import HeroQuoteWidget from "@/components/HeroQuoteWidget";
+import dynamic from "next/dynamic";
+const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 import PricingTable from "@/components/PricingTable";
 import HeroTrustBadges from "@/components/HeroTrustBadges";
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
 import { getSuburbHref } from "@/data/suburbs";
-import GoogleReviews from "@/components/GoogleReviews";
+const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PAGE CONFIG — change only this object to duplicate for Brisbane, Gold Coast etc

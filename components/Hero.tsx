@@ -1,5 +1,11 @@
+import dynamic from "next/dynamic";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
-import HeroQuoteWidget from "@/components/HeroQuoteWidget";
+
+const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"), {
+  loading: () => (
+    <div className="w-full h-[280px] bg-white/5 rounded-2xl animate-pulse" />
+  ),
+});
 
 const badges = [
   {

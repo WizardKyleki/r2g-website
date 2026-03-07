@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
-import LogoMarquee from "@/components/LogoMarquee";
+import dynamic from "next/dynamic";
+const LogoMarquee = dynamic(() => import("@/components/LogoMarquee"));
 import TrustBadges from "@/components/TrustBadges";
 import ServicesGrid from "@/components/ServicesGrid";
 import WhyChooseR2G from "@/components/WhyChooseR2G";
 import HowItWorks from "@/components/HowItWorks";
-import GoogleReviews from "@/components/GoogleReviews";
+const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 import ServiceAreas from "@/components/ServiceAreas";
 import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
