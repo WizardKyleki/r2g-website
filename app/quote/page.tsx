@@ -597,7 +597,14 @@ function QuoteWizard() {
     (step === 3 && !data.moveSize) ||
     (step === 4 && (!data.from || !data.to || !data.date));
 
-  const isSubmitDisabled = submitting || !data.name || !data.phone || !data.email;
+  // Australian phone: 04XX (mobile), 02/03/07/08 (landline), 1300/1800, or +61
+  const isValidAusPhone = (phone: string) => {
+    const digits = phone.replace(/[\s\-()]+/g, "");
+    return /^(\+?61|0)[2-478]\d{8}$/.test(digits) || /^1[38]00\d{6}$/.test(digits);
+  };
+
+  const phoneValid = !data.phone || isValidAusPhone(data.phone);
+  const isSubmitDisabled = submitting || !data.name || !data.phone || !phoneValid || !data.email;
 
   if (submitted) return <ThankYou data={data} />;
 
@@ -955,8 +962,13 @@ function QuoteWizard() {
                         value={data.phone}
                         onChange={(e) => update("phone", e.target.value)}
                         placeholder="04XX XXX XXX"
-                        className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+                        className={`w-full border-2 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none transition-colors ${
+                          !phoneValid ? "border-red-400 focus:border-red-400" : "border-gray-200 focus:border-[#F5C400]"
+                        }`}
                       />
+                      {!phoneValid && (
+                        <p className="text-red-500 text-xs mt-1">Please enter a valid Australian phone number</p>
+                      )}
                     </div>
                   </div>
 

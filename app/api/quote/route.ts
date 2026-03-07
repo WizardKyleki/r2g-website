@@ -6,9 +6,30 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: Request) {
   try {
     const data = await request.json();
-    const { from, to, propertyType, bedrooms, moveSize, date, time, name, phone, email, notes } = data;
+    const {
+      from, to, propertyType, movingTo, bedrooms, fromFloor, toBedrooms, toFloor,
+      moveSize, date, time, name, phone, email, extras, notes,
+    } = data as Record<string, string | string[]>;
 
     const submittedAt = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" });
+
+    const floorLabel = (v: string | undefined) => {
+      if (!v && v !== "0") return null;
+      const n = parseInt(v as string, 10);
+      if (isNaN(n)) return null;
+      if (n === 0) return "Ground Floor";
+      if (n === 1) return "1st Floor";
+      if (n === 2) return "2nd Floor";
+      if (n === 3) return "3rd Floor";
+      if (n >= 31) return "30+ Floor";
+      return `${n}th Floor`;
+    };
+
+    const moveSizeLabel =
+      propertyType === "Office" ? "Office Size (Staff)" :
+      propertyType === "Storage" ? "Storage Size" : "Furnishing Level";
+
+    const extrasStr = Array.isArray(extras) && extras.length > 0 ? extras.join(", ") : null;
 
     const html = `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #333;">
@@ -21,33 +42,53 @@ export async function POST(request: Request) {
           <h2 style="font-size: 16px; color: #1a1a1a; margin: 0 0 12px; border-bottom: 2px solid #f5c518; padding-bottom: 8px;">Moving Details</h2>
           <table style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">
             <tr>
-              <td style="padding: 8px 0; color: #666; width: 140px; vertical-align: top;">From</td>
+              <td style="padding: 8px 0; color: #666; width: 140px; vertical-align: top;">Pick-up</td>
               <td style="padding: 8px 0; font-weight: 600;">${from || "Not specified"}</td>
             </tr>
             <tr>
-              <td style="padding: 8px 0; color: #666; vertical-align: top;">To</td>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Drop-off</td>
               <td style="padding: 8px 0; font-weight: 600;">${to || "Not specified"}</td>
             </tr>
             <tr>
-              <td style="padding: 8px 0; color: #666; vertical-align: top;">Property Type</td>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Moving From</td>
               <td style="padding: 8px 0;">${propertyType || "Not specified"}</td>
             </tr>
+            ${bedrooms ? `<tr>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Bedrooms (from)</td>
+              <td style="padding: 8px 0;">${bedrooms}</td>
+            </tr>` : ""}
+            ${floorLabel(fromFloor as string | undefined) ? `<tr>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Floor (from)</td>
+              <td style="padding: 8px 0;">${floorLabel(fromFloor as string | undefined)}</td>
+            </tr>` : ""}
+            ${movingTo ? `<tr>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Moving To</td>
+              <td style="padding: 8px 0;">${movingTo}</td>
+            </tr>` : ""}
+            ${toBedrooms ? `<tr>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Bedrooms (to)</td>
+              <td style="padding: 8px 0;">${toBedrooms}</td>
+            </tr>` : ""}
+            ${floorLabel(toFloor as string | undefined) ? `<tr>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Floor (to)</td>
+              <td style="padding: 8px 0;">${floorLabel(toFloor as string | undefined)}</td>
+            </tr>` : ""}
             <tr>
-              <td style="padding: 8px 0; color: #666; vertical-align: top;">Bedrooms</td>
-              <td style="padding: 8px 0;">${bedrooms || "Not specified"}</td>
-            </tr>
-            <tr>
-              <td style="padding: 8px 0; color: #666; vertical-align: top;">Move Size</td>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">${moveSizeLabel}</td>
               <td style="padding: 8px 0;">${moveSize || "Not specified"}</td>
             </tr>
             <tr>
               <td style="padding: 8px 0; color: #666; vertical-align: top;">Moving Date</td>
               <td style="padding: 8px 0; font-weight: 600;">${date || "Not specified"}</td>
             </tr>
-            <tr>
+            ${time ? `<tr>
               <td style="padding: 8px 0; color: #666; vertical-align: top;">Preferred Time</td>
-              <td style="padding: 8px 0;">${time || "Not specified"}</td>
-            </tr>
+              <td style="padding: 8px 0;">${time}</td>
+            </tr>` : ""}
+            ${extrasStr ? `<tr>
+              <td style="padding: 8px 0; color: #666; vertical-align: top;">Extra Services</td>
+              <td style="padding: 8px 0;">${extrasStr}</td>
+            </tr>` : ""}
           </table>
 
           <h2 style="font-size: 16px; color: #1a1a1a; margin: 0 0 12px; border-bottom: 2px solid #f5c518; padding-bottom: 8px;">Contact Details</h2>
@@ -81,7 +122,7 @@ export async function POST(request: Request) {
 
     const { data: result, error: sendError } = await resend.emails.send({
       from: "R2G Website <onboarding@resend.dev>",
-      to: "kyle@r2g.com.au",
+      to: "contact@r2g.com.au",
       subject: `New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
       replyTo: email,
       html,
