@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         destination: "/interstate-removalists",
         permanent: true,
       },
+      {
+        source: "/office-removals",
+        destination: "/office-removalists",
+        permanent: true,
+      },
     ];
   },
   async rewrites() {
