@@ -9,7 +9,11 @@ interface QuoteData {
   from: string;
   to: string;
   propertyType: string;
+  movingTo: string;
   bedrooms: string;
+  fromFloor: string;
+  toBedrooms: string;
+  toFloor: string;
   moveSize: string;
   date: string;
   time: string;
@@ -63,8 +67,12 @@ function SelectCard({
 function ThankYou({ data }: { data: QuoteData }) {
   const summary: [string, string][] = [
     ["Route", `${data.from} → ${data.to}`],
-    ["Property", data.propertyType],
-    ["Bedrooms", data.bedrooms],
+    ["Moving from", data.propertyType],
+    [`${data.propertyType} bedrooms`, data.bedrooms],
+    ...(data.fromFloor ? [["From floor", data.fromFloor] as [string, string]] : []),
+    ...(data.movingTo ? [["Moving to", data.movingTo] as [string, string]] : []),
+    ...(data.toBedrooms ? [["To bedrooms", data.toBedrooms] as [string, string]] : []),
+    ...(data.toFloor ? [["To floor", data.toFloor] as [string, string]] : []),
     ["Move size", data.moveSize],
     ["Moving date", data.date],
     ["Preferred time", data.time],
@@ -131,7 +139,11 @@ function QuoteWizard() {
     from: searchParams.get("from") || "",
     to: searchParams.get("to") || "",
     propertyType: "",
+    movingTo: "",
     bedrooms: "",
+    fromFloor: "",
+    toBedrooms: "",
+    toFloor: "",
     moveSize: "",
     date: "",
     time: "",
@@ -145,6 +157,11 @@ function QuoteWizard() {
     setData((prev) => ({ ...prev, [key]: value }));
 
   const goToStep = (next: number) => {
+    // Office skips step 3 (move size already captured in step 2)
+    if (data.propertyType === "Office") {
+      if (next === 3 && step === 2) next = 4;
+      if (next === 3 && step === 4) next = 2;
+    }
     setVisible(false);
     setTimeout(() => {
       setStep(next);
@@ -191,10 +208,10 @@ function QuoteWizard() {
   ];
 
   const moveSizes = [
-    { value: "Full House", icon: "🏠", label: "Full House", desc: "All furniture & belongings" },
-    { value: "A few rooms", icon: "📦", label: "A few rooms", desc: "Selected rooms only" },
-    { value: "A few items", icon: "🛋️", label: "A few items", desc: "Some pieces of furniture" },
-    { value: "A single item", icon: "📫", label: "A single item", desc: "One specific item" },
+    { value: "Heavily Furnished", icon: "🏠", label: "Heavily Furnished", desc: "Full house of furniture & belongings" },
+    { value: "Moderately Furnished", icon: "📦", label: "Moderately Furnished", desc: "A fair amount of furniture & items" },
+    { value: "Lightly Furnished", icon: "🛋️", label: "Lightly Furnished", desc: "Minimal furniture & belongings" },
+    { value: "A Couple of Items", icon: "📌", label: "A Couple of Items / Single Item", desc: "Just a few pieces or one specific item" },
   ];
 
   const timeOptions = [
@@ -204,10 +221,14 @@ function QuoteWizard() {
   ];
 
   const isNextDisabled =
-    (step === 1 && !data.propertyType) ||
-    (step === 2 && !data.bedrooms) ||
+    (step === 1 && (!data.propertyType || (data.propertyType !== "Office" && !data.movingTo))) ||
+    (step === 2 && data.propertyType === "Office" && !data.moveSize) ||
+    (step === 2 && data.propertyType !== "Office" && !data.bedrooms) ||
+    (step === 2 && data.propertyType === "Apartment" && !data.fromFloor) ||
+    (step === 2 && data.propertyType !== "Office" && data.movingTo !== "Storage" && !data.toBedrooms) ||
+    (step === 2 && data.propertyType !== "Office" && data.movingTo === "Apartment" && !data.toFloor) ||
     (step === 3 && !data.moveSize) ||
-    (step === 4 && !data.date);
+    (step === 4 && (!data.from || !data.to || !data.date));
 
   const isSubmitDisabled = submitting || !data.name || !data.phone || !data.email;
 
@@ -273,27 +294,148 @@ function QuoteWizard() {
                     />
                   ))}
                 </div>
+
+                {data.propertyType && data.propertyType !== "Office" && (
+                  <div className="mt-8">
+                    <p className="text-sm font-semibold text-[#1A1A1A] mb-4">What type of property are you moving to?</p>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                      {[
+                        { value: "House", icon: "🏠", label: "House" },
+                        { value: "Apartment", icon: "🏢", label: "Apartment" },
+                        { value: "Townhouse", icon: "🏘️", label: "Townhouse" },
+                        { value: "Villa", icon: "🏡", label: "Villa" },
+                        { value: "Storage", icon: "📦", label: "Storage" },
+                      ].map((pt) => (
+                        <SelectCard
+                          key={pt.value}
+                          icon={pt.icon}
+                          label={pt.label}
+                          selected={data.movingTo === pt.value}
+                          onClick={() => update("movingTo", pt.value)}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
-            {/* ── STEP 2: Bedrooms ── */}
-            {step === 2 && (
+            {/* ── STEP 2: Office Size ── */}
+            {step === 2 && data.propertyType === "Office" && (
               <div>
                 <p className="text-[#F5C400] font-semibold text-xs uppercase tracking-widest mb-2">Step 2 of 5</p>
                 <h2 className="text-2xl lg:text-3xl font-black text-[#1A1A1A] mb-2">
-                  How many bedrooms are you moving in total?
+                  How many staff are in your office?
                 </h2>
-                <p className="text-gray-500 mb-8">Include all bedrooms across your property.</p>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                  {bedroomOptions.map((b) => (
+                <p className="text-gray-500 mb-8">This helps us estimate the size and complexity of your move.</p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {[
+                    { value: "1-10", icon: "🏢", label: "1 – 10 Staff", desc: "Small office or startup" },
+                    { value: "10-30", icon: "🏗️", label: "10 – 30 Staff", desc: "Medium business" },
+                    { value: "30+", icon: "🏙️", label: "30+ Staff", desc: "Large or corporate office" },
+                  ].map((o) => (
                     <SelectCard
-                      key={b.value}
-                      label={b.label}
-                      selected={data.bedrooms === b.value}
-                      onClick={() => update("bedrooms", b.value)}
+                      key={o.value}
+                      icon={o.icon}
+                      label={o.label}
+                      desc={o.desc}
+                      selected={data.moveSize === o.value}
+                      onClick={() => update("moveSize", o.value)}
                     />
                   ))}
                 </div>
+              </div>
+            )}
+
+            {/* ── STEP 2: Property Details (non-Office) ── */}
+            {step === 2 && data.propertyType !== "Office" && (
+              <div>
+                <p className="text-[#F5C400] font-semibold text-xs uppercase tracking-widest mb-2">Step 2 of 5</p>
+                <h2 className="text-2xl lg:text-3xl font-black text-[#1A1A1A] mb-2">
+                  Tell us about both properties
+                </h2>
+                <p className="text-gray-500 mb-8">This helps us plan your move accurately.</p>
+
+                {/* ── Moving FROM details ── */}
+                <div className="mb-8">
+                  <p className="text-sm font-semibold text-[#1A1A1A] mb-3">
+                    Moving <span className="text-[#F5C400]">from</span> — {data.propertyType}
+                  </p>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                    {bedroomOptions.map((b) => (
+                      <SelectCard
+                        key={b.value}
+                        label={b.label}
+                        selected={data.bedrooms === b.value}
+                        onClick={() => update("bedrooms", b.value)}
+                      />
+                    ))}
+                  </div>
+                  {data.propertyType === "Apartment" && (
+                    <div className="mt-4">
+                      <p className="text-sm font-semibold text-[#1A1A1A] mb-3">What floor are you on?</p>
+                      <div className="grid grid-cols-2 gap-3">
+                        {[
+                          { value: "Ground", label: "Ground Floor" },
+                          { value: "1-3", label: "1st – 3rd Floor" },
+                          { value: "4-10", label: "4th – 10th Floor" },
+                          { value: "10+", label: "10th Floor+" },
+                        ].map((f) => (
+                          <SelectCard
+                            key={f.value}
+                            label={f.label}
+                            selected={data.fromFloor === f.value}
+                            onClick={() => update("fromFloor", f.value)}
+                          />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* ── Moving TO details (appears after FROM is filled) ── */}
+                {data.movingTo !== "Storage" &&
+                  data.bedrooms &&
+                  (data.propertyType !== "Apartment" || data.fromFloor) && (
+                  <>
+                    <div className="border-t border-gray-200 my-6" />
+                    <div>
+                      <p className="text-sm font-semibold text-[#1A1A1A] mb-3">
+                        Moving <span className="text-[#F5C400]">to</span> — {data.movingTo}
+                      </p>
+                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                        {bedroomOptions.map((b) => (
+                          <SelectCard
+                            key={b.value}
+                            label={b.label}
+                            selected={data.toBedrooms === b.value}
+                            onClick={() => update("toBedrooms", b.value)}
+                          />
+                        ))}
+                      </div>
+                      {data.movingTo === "Apartment" && (
+                        <div className="mt-4">
+                          <p className="text-sm font-semibold text-[#1A1A1A] mb-3">What floor is the apartment on?</p>
+                          <div className="grid grid-cols-2 gap-3">
+                            {[
+                              { value: "Ground", label: "Ground Floor" },
+                              { value: "1-3", label: "1st – 3rd Floor" },
+                              { value: "4-10", label: "4th – 10th Floor" },
+                              { value: "10+", label: "10th Floor+" },
+                            ].map((f) => (
+                              <SelectCard
+                                key={f.value}
+                                label={f.label}
+                                selected={data.toFloor === f.value}
+                                onClick={() => update("toFloor", f.value)}
+                              />
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </>
+                )}
               </div>
             )}
 
@@ -320,18 +462,47 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 4: Moving Date ── */}
+            {/* ── STEP 4: Addresses & Date ── */}
             {step === 4 && (
               <div>
                 <p className="text-[#F5C400] font-semibold text-xs uppercase tracking-widest mb-2">Step 4 of 5</p>
                 <h2 className="text-2xl lg:text-3xl font-black text-[#1A1A1A] mb-2">
-                  When do you need your goods picked up?
+                  Where and when are you moving?
                 </h2>
                 <p className="text-gray-500 mb-8">
-                  We&apos;ll check availability and confirm your booking window.
+                  Enter your addresses and preferred date.
                 </p>
 
                 <div className="space-y-6">
+                  {/* Pick-up address */}
+                  <div>
+                    <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
+                      Pick-up Address <span className="text-red-400">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      value={data.from}
+                      onChange={(e) => update("from", e.target.value)}
+                      placeholder="e.g. 36 Abbott St, Cairns City QLD 4870"
+                      className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+                    />
+                  </div>
+
+                  {/* Drop-off address */}
+                  <div>
+                    <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
+                      Drop-off Address <span className="text-red-400">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      value={data.to}
+                      onChange={(e) => update("to", e.target.value)}
+                      placeholder="e.g. 122 Ashover Circuit, Brisbane QLD 4108"
+                      className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+                    />
+                  </div>
+
+                  {/* Moving date */}
                   <div>
                     <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
                       Moving Date <span className="text-red-400">*</span>
@@ -345,6 +516,7 @@ function QuoteWizard() {
                     />
                   </div>
 
+                  {/* Preferred time */}
                   <div>
                     <label className="block text-sm font-semibold text-[#1A1A1A] mb-3">
                       Preferred Arrival Time
