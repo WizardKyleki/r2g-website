@@ -158,7 +158,7 @@ function QuoteWizard() {
 
   const goToStep = (next: number) => {
     // Office skips step 3 (move size already captured in step 2)
-    if (data.propertyType === "Office") {
+    if (data.propertyType === "Office" || data.propertyType === "Storage") {
       if (next === 3 && step === 2) next = 4;
       if (next === 3 && step === 4) next = 2;
     }
@@ -197,6 +197,7 @@ function QuoteWizard() {
     { value: "Townhouse", icon: "🏘️", label: "Townhouse" },
     { value: "Villa", icon: "🏡", label: "Villa" },
     { value: "Office", icon: "💼", label: "Office" },
+    { value: "Storage", icon: "📦", label: "Storage" },
   ];
 
   const bedroomOptions = [
@@ -223,10 +224,13 @@ function QuoteWizard() {
   const isNextDisabled =
     (step === 1 && (!data.propertyType || (data.propertyType !== "Office" && !data.movingTo))) ||
     (step === 2 && data.propertyType === "Office" && !data.moveSize) ||
-    (step === 2 && data.propertyType !== "Office" && !data.bedrooms) ||
+    (step === 2 && data.propertyType === "Storage" && !data.moveSize) ||
+    (step === 2 && data.propertyType === "Storage" && data.moveSize && data.movingTo !== "Storage" && !data.toBedrooms) ||
+    (step === 2 && data.propertyType === "Storage" && data.moveSize && data.movingTo === "Apartment" && !data.toFloor) ||
+    (step === 2 && data.propertyType !== "Office" && data.propertyType !== "Storage" && !data.bedrooms) ||
     (step === 2 && data.propertyType === "Apartment" && !data.fromFloor) ||
-    (step === 2 && data.propertyType !== "Office" && data.movingTo !== "Storage" && !data.toBedrooms) ||
-    (step === 2 && data.propertyType !== "Office" && data.movingTo === "Apartment" && !data.toFloor) ||
+    (step === 2 && data.propertyType !== "Office" && data.propertyType !== "Storage" && data.movingTo !== "Storage" && !data.toBedrooms) ||
+    (step === 2 && data.propertyType !== "Office" && data.propertyType !== "Storage" && data.movingTo === "Apartment" && !data.toFloor) ||
     (step === 3 && !data.moveSize) ||
     (step === 4 && (!data.from || !data.to || !data.date));
 
@@ -347,8 +351,77 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 2: Property Details (non-Office) ── */}
-            {step === 2 && data.propertyType !== "Office" && (
+            {/* ── STEP 2: Storage Size ── */}
+            {step === 2 && data.propertyType === "Storage" && (
+              <div>
+                <p className="text-[#F5C400] font-semibold text-xs uppercase tracking-widest mb-2">Step 2 of 5</p>
+                <h2 className="text-2xl lg:text-3xl font-black text-[#1A1A1A] mb-2">
+                  How much are you moving out of storage?
+                </h2>
+                <p className="text-gray-500 mb-8">This helps us send the right team and truck.</p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {[
+                    { value: "Few boxes", icon: "📦", label: "A Few Boxes", desc: "Small personal items" },
+                    { value: "Partial load", icon: "🛋️", label: "Partial Load", desc: "Some furniture & boxes" },
+                    { value: "Full unit", icon: "🏠", label: "Full Storage Unit", desc: "Full unit of belongings" },
+                  ].map((o) => (
+                    <SelectCard
+                      key={o.value}
+                      icon={o.icon}
+                      label={o.label}
+                      desc={o.desc}
+                      selected={data.moveSize === o.value}
+                      onClick={() => update("moveSize", o.value)}
+                    />
+                  ))}
+                </div>
+
+                {/* Moving TO details (appears after storage size is filled) */}
+                {data.moveSize && data.movingTo !== "Storage" && (
+                  <>
+                    <div className="border-t border-gray-200 my-6" />
+                    <div>
+                      <p className="text-sm font-semibold text-[#1A1A1A] mb-3">
+                        Moving <span className="text-[#F5C400]">to</span> — {data.movingTo}
+                      </p>
+                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                        {bedroomOptions.map((b) => (
+                          <SelectCard
+                            key={b.value}
+                            label={b.label}
+                            selected={data.toBedrooms === b.value}
+                            onClick={() => update("toBedrooms", b.value)}
+                          />
+                        ))}
+                      </div>
+                      {data.movingTo === "Apartment" && (
+                        <div className="mt-4">
+                          <p className="text-sm font-semibold text-[#1A1A1A] mb-3">What floor is the apartment on?</p>
+                          <div className="grid grid-cols-2 gap-3">
+                            {[
+                              { value: "Ground", label: "Ground Floor" },
+                              { value: "1-3", label: "1st – 3rd Floor" },
+                              { value: "4-10", label: "4th – 10th Floor" },
+                              { value: "10+", label: "10th Floor+" },
+                            ].map((f) => (
+                              <SelectCard
+                                key={f.value}
+                                label={f.label}
+                                selected={data.toFloor === f.value}
+                                onClick={() => update("toFloor", f.value)}
+                              />
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </>
+                )}
+              </div>
+            )}
+
+            {/* ── STEP 2: Property Details (non-Office/Storage) ── */}
+            {step === 2 && data.propertyType !== "Office" && data.propertyType !== "Storage" && (
               <div>
                 <p className="text-[#F5C400] font-semibold text-xs uppercase tracking-widest mb-2">Step 2 of 5</p>
                 <h2 className="text-2xl lg:text-3xl font-black text-[#1A1A1A] mb-2">
