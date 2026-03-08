@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   if (!post) return {};
 
   return {
-    title: { absolute: post.metaTitle },
+    title: post.metaTitle,
     description: post.metaDescription,
     keywords: post.keywords,
     alternates: {

@@ -7,7 +7,7 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE_HREF, PHONE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About R2G Transport & Storage | Removalists You Can Trust",
+  title: "About Us — Trusted QLD Removalists",
   description:
     "Learn about R2G Transport & Storage — a family-owned, fully insured removalist company operating across Cairns, Brisbane, and all of Australia since 2014.",
   alternates: { canonical: "https://www.r2g.com.au/about" },

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { PHONE_HREF } from "@/lib/constants";
+import { trackPhoneClick } from "@/lib/gtag";
 
 export default function MobileStickyBar() {
   const pathname = usePathname();
@@ -28,6 +29,7 @@ export default function MobileStickyBar() {
       <div className="flex gap-0 bg-[#1A1A1A] border-t border-white/10" style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}>
         <a
           href={PHONE_HREF}
+          onClick={() => trackPhoneClick("mobile_sticky_bar")}
           className="flex-1 flex items-center justify-center gap-2 py-3.5 text-white font-semibold text-sm transition-colors active:bg-white/10"
         >
           <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">

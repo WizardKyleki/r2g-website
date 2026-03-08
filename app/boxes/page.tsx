@@ -7,13 +7,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Moving Boxes & Packing Supplies | R2G Transport & Storage",
+  title: "Moving Boxes & Packing Supplies Cairns",
   description:
     "Quality moving boxes and packing supplies in Cairns and Brisbane. R2G Transport & Storage stocks everything you need to pack safely. Order online or pick up in store.",
   keywords: ["moving boxes cairns", "packing boxes brisbane", "moving supplies australia", "cardboard boxes moving"],
   alternates: { canonical: "https://www.r2g.com.au/boxes" },
   openGraph: {
-    title: "Moving Boxes & Packing Supplies | R2G Transport & Storage",
+    title: "Moving Boxes & Packing Supplies Cairns | R2G Transport & Storage",
     description: "Quality moving boxes and packing supplies in Cairns and Brisbane. Get a bundle deal today.",
     url: "https://www.r2g.com.au/boxes",
   },
@@ -69,9 +69,28 @@ const supplies = [
   "Fragile stickers",
 ];
 
+const boxesSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Moving Boxes & Packing Supplies",
+  description:
+    "Quality moving boxes and packing supplies in Cairns and Brisbane. R2G Transport & Storage stocks everything you need to pack safely.",
+  provider: {
+    "@type": "MovingCompany",
+    name: "R2G Transport & Storage",
+    telephone: "1300 959 498",
+    url: "https://www.r2g.com.au",
+  },
+  areaServed: ["Cairns", "Brisbane"],
+};
+
 export default function BoxesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(boxesSchema) }}
+      />
       <PageHero
         title="Moving Boxes & Packing Supplies"
         subtitle="Everything you need to pack your home safely — quality boxes and supplies available in Cairns and Brisbane."

@@ -4,6 +4,7 @@ import { useState, useRef, useCallback, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { trackQuoteSubmit, trackQuoteStep, trackPhoneClick } from "@/lib/gtag";
 
 interface QuoteData {
   from: string;
@@ -313,6 +314,7 @@ function ThankYou({ data }: { data: QuoteData }) {
           </Link>
           <a
             href={PHONE_HREF}
+            onClick={() => trackPhoneClick("quote_thankyou")}
             className="border-2 border-gray-200 hover:border-[#F5C400] text-[#1A1A1A] font-bold px-8 py-3 rounded-xl transition-colors"
           >
             Call Us: {PHONE}
@@ -510,6 +512,8 @@ function QuoteWizard() {
       if (next === 3 && step === 4) next = 2;
     }
     setVisible(false);
+    const stepNames = ["", "Property Type", "Details", "Move Size", "Location & Date", "Your Info"];
+    trackQuoteStep(next, stepNames[next] || `Step ${next}`);
     setTimeout(() => {
       setStep(next);
       setVisible(true);
@@ -528,6 +532,7 @@ function QuoteWizard() {
       });
       if (!res.ok) throw new Error("Failed to send");
       setSubmitted(true);
+      trackQuoteSubmit(data.propertyType);
     } catch {
       setError("Something went wrong. Please call us directly on " + PHONE);
     } finally {
@@ -1172,6 +1177,7 @@ function QuoteWizard() {
       <div className="fixed bottom-6 right-6 z-50">
         <a
           href={PHONE_HREF}
+          onClick={() => trackPhoneClick("quote_sidebar")}
           className="flex items-center gap-3 bg-white shadow-2xl rounded-2xl px-5 py-3.5 border border-gray-100 hover:shadow-3xl transition-all hover:-translate-y-0.5 group"
         >
           <div className="w-9 h-9 bg-[#F5C400] rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">

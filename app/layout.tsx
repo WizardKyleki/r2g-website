@@ -27,7 +27,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: {
     template: "%s | R2G Transport & Storage",
-    default: "R2G Transport & Storage — Cairns & Brisbane Removalists",
+    default: "Removalists Cairns & Brisbane | R2G Transport & Storage",
   },
   icons: {
     icon: "/images/r2g-symbol.png",

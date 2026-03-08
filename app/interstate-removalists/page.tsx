@@ -7,7 +7,7 @@ const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 
 export const metadata: Metadata = {
-  title: "Interstate Removalists | Fully Insured, Long Distance Moves",
+  title: { absolute: "Interstate Removalists | Insured Moves | R2G Transport & Storage" },
   description:
     "R2G Transport & Storage — interstate removalists operating from Cairns and Brisbane. Door-to-door moves across QLD, NSW and VIC. Fully insured, 900+ five-star reviews. Get a free quote today.",
   openGraph: {

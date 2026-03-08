@@ -139,7 +139,10 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-sm">&copy; {year} {SITE_NAME}. All rights reserved.</p>
-          <p className="text-gray-600 text-xs">Proudly serving Cairns, Brisbane &amp; all of Australia</p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy" className="text-gray-500 hover:text-[#F5C400] text-xs transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="text-gray-500 hover:text-[#F5C400] text-xs transition-colors">Terms of Service</Link>
+          </div>
         </div>
       </div>
     </footer>

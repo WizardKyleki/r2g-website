@@ -13,13 +13,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { HOME_FAQS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "R2G Transport & Storage | Removalists Cairns, Brisbane, Gold Coast & Sunshine Coast",
+  title: { absolute: "Removalists Cairns & Brisbane | R2G Transport & Storage" },
   description:
     "R2G Transport & Storage — trusted removalists across Cairns, Brisbane, Gold Coast and Sunshine Coast. 10+ years experience in residential, interstate and office removals. Fully insured. Get a free quote today.",
   keywords: ["removalists cairns", "removalists brisbane", "removalists gold coast", "removalists sunshine coast", "interstate removalists", "r2g transport and storage", "cairns removalists", "brisbane removalists"],
   alternates: { canonical: "https://www.r2g.com.au" },
   openGraph: {
-    title: "R2G Transport & Storage | Removalists Cairns, Brisbane, Gold Coast & Sunshine Coast",
+    title: "Removalists Cairns & Brisbane | R2G Transport & Storage",
     description: "10+ years experience moving families and businesses across Queensland and Australia. Fully insured, no hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au",
   },
@@ -121,6 +121,20 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: HOME_FAQS.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
+        }}
       />
       <Hero />
       <p className="sr-only">R2G Transport &amp; Storage are professional removalists servicing Cairns, Brisbane, Gold Coast and Sunshine Coast. With over 10 years experience in residential removals, office relocations, interstate removals and packing services across Queensland and Australia.</p>

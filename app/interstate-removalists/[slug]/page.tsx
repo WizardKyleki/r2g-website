@@ -36,13 +36,13 @@ export async function generateMetadata({ params }: MetaProps): Promise<Metadata>
   // City page metadata
   const city = getCityPageBySlug(slug);
   if (city) {
-    const title = `Interstate Removalists ${city.name} | Fully Insured Long Distance Moves`;
+    const title = `Interstate Removalists ${city.name} | R2G Transport & Storage`;
     const description = `R2G Transport & Storage — interstate removalists in ${city.name}. Door-to-door moves to Cairns, Sydney, Melbourne and beyond. Fully insured, 900+ five-star reviews. Free quote.`;
     const url = `https://www.r2g.com.au/interstate-removalists/${city.slug}`;
     const geo = getGeoMeta(city.name);
 
     return {
-      title,
+      title: { absolute: title },
       description,
       openGraph: {
         title: `Interstate Removalists ${city.name} | R2G Transport & Storage`,
@@ -63,14 +63,14 @@ export async function generateMetadata({ params }: MetaProps): Promise<Metadata>
   const route = getRouteBySlug(slug);
   if (!route) return {};
 
-  const title = `${route.from} to ${route.to} Removalists | Fully Insured Interstate Move`;
+  const title = `${route.from} to ${route.to} Removalists | R2G Transport & Storage`;
   const ds = getDaysSuffix(route.days);
   const description = `Moving from ${route.from} to ${route.to}? R2G Transport & Storage offer fully insured, door-to-door interstate removals. ${route.km} km, ${route.days} ${ds} transit. 900+ five-star reviews. Get a free quote.`;
   const url = `https://www.r2g.com.au/interstate-removalists/${route.slug}`;
   const geo = getGeoMeta(route.from);
 
   return {
-    title,
+    title: { absolute: title },
     description,
     openGraph: {
       title: `${route.from} to ${route.to} Removalists | R2G Transport & Storage`,

@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { PHONE, PHONE_HREF, NAV_LINKS } from "@/lib/constants";
+import { trackPhoneClick } from "@/lib/gtag";
 
 // Shorter display labels for the nav bar
 const labelMap: Record<string, string> = {
@@ -171,6 +172,7 @@ export default function Header() {
               {/* Phone */}
               <a
                 href={PHONE_HREF}
+                onClick={() => trackPhoneClick("header_desktop")}
                 className="flex items-center gap-2 text-white/75 hover:text-white text-[13px] font-semibold tracking-[0.02em] transition-colors duration-200 group whitespace-nowrap"
               >
                 <span className="w-7 h-7 rounded-full border border-white/20 group-hover:border-[#F5C400]/50 flex items-center justify-center transition-colors duration-200">
@@ -275,6 +277,7 @@ export default function Header() {
             <div className="mt-5 flex flex-col gap-3">
               <a
                 href={PHONE_HREF}
+                onClick={() => trackPhoneClick("header_mobile")}
                 className="flex items-center justify-center gap-2 w-full border border-white/20 hover:border-[#F5C400]/60 text-white hover:text-[#F5C400] font-semibold py-3.5 rounded-lg text-sm transition-colors"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">

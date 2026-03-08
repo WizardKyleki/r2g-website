@@ -5,7 +5,7 @@ const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"));
 import { PHONE, PHONE_HREF, EMAIL, CAIRNS_ADDRESS, BRISBANE_ADDRESS, HOURS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact Us | R2G Transport & Storage",
+  title: "Contact Us — Call 1300 959 498",
   description:
     "Contact R2G Transport & Storage. Call 1300 959 498, email us, or use our online quote wizard to get a free, no-obligation moving quote.",
   alternates: { canonical: "https://www.r2g.com.au/contact" },
@@ -43,9 +43,46 @@ const contactDetails = [
   },
 ];
 
+const contactSchema = {
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  name: "R2G Transport & Storage",
+  telephone: "1300 959 498",
+  email: "contact@r2g.com.au",
+  url: "https://www.r2g.com.au",
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "36 Abbott St",
+      addressLocality: "Cairns City",
+      addressRegion: "QLD",
+      postalCode: "4870",
+      addressCountry: "AU",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "122 Ashover Circuit",
+      addressLocality: "Archerfield",
+      addressRegion: "QLD",
+      postalCode: "4108",
+      addressCountry: "AU",
+    },
+  ],
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "09:00",
+    closes: "17:00",
+  },
+};
+
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
+      />
       <PageHero
         title="Get in Touch"
         subtitle="Use our free quote wizard, call us direct, or drop us an email — we'll get back to you fast."
@@ -112,6 +149,64 @@ export default function ContactPage() {
                   {PHONE}
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Google Maps ── */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">
+                Our Locations
+              </span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A]">
+              Find Us
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Cairns Office */}
+            <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+              <div className="bg-[#1A1A1A] px-6 py-4">
+                <h3 className="text-white font-bold text-lg">Cairns Office</h3>
+                <p className="text-gray-400 text-sm">{CAIRNS_ADDRESS}</p>
+              </div>
+              <iframe
+                title="R2G Transport & Storage — Cairns Office"
+                src="https://www.google.com/maps?q=R2G+Transport+%26+Storage,+36+Abbott+St,+Cairns+City+QLD+4870&output=embed"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full"
+              />
+            </div>
+
+            {/* Brisbane Office */}
+            <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+              <div className="bg-[#1A1A1A] px-6 py-4">
+                <h3 className="text-white font-bold text-lg">Brisbane Office</h3>
+                <p className="text-gray-400 text-sm">{BRISBANE_ADDRESS}</p>
+              </div>
+              <iframe
+                title="R2G Transport & Storage — Brisbane Office"
+                src="https://www.google.com/maps?q=R2G+Transport+%26+Storage,+122+Ashover+Circuit,+Archerfield+QLD+4108&output=embed"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full"
+              />
             </div>
           </div>
         </div>

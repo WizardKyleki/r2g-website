@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, CAIRNS_ADDRESS, BRISBANE_ADDRESS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Storage Cairns | Short & Long-Term Storage | R2G Transport & Storage",
+  title: "Storage Cairns — Secure Short & Long-Term",
   description:
     "Secure, clean storage in Cairns. R2G Transport & Storage offers flexible short and long-term storage solutions — perfect between moves, renovations, or for business needs. Get a free quote.",
   keywords: ["storage cairns", "self storage cairns", "moving and storage cairns", "short term storage cairns", "long term storage cairns"],
   alternates: { canonical: "https://www.r2g.com.au/storage-cairns" },
   openGraph: {
-    title: "Storage Cairns | Short & Long-Term Storage | R2G Transport & Storage",
+    title: "Storage Cairns — Secure Short & Long-Term | R2G Transport & Storage",
     description: "Secure, flexible storage in Cairns. Short or long-term, no lock-in contracts. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-cairns",
   },
@@ -57,6 +57,20 @@ const faqs = [
 export default function StorageCairnsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
+        }}
+      />
       <PageHero
         title="Storage Cairns"
         subtitle="Secure, clean, and flexible storage solutions in Cairns — short-term, long-term, or combined with your removal service."

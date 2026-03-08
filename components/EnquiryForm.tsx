@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEnquirySubmit } from "@/lib/gtag";
 
 export default function EnquiryForm() {
   const [fields, setFields] = useState({
@@ -29,6 +30,7 @@ export default function EnquiryForm() {
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
+      trackEnquirySubmit();
     } catch {
       setError("Something went wrong. Please try calling us directly.");
     } finally {

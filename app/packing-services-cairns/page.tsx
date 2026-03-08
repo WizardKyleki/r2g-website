@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Packing Services Cairns | Professional Packers | R2G Transport & Storage",
+  title: "Packing Services Cairns — From $179/hr",
   description:
     "Professional packing services in Cairns. R2G Transport & Storage's trained packers handle your belongings with care using quality materials. Full or partial packing available. Get a free quote.",
   keywords: ["packing services cairns", "professional packers cairns", "packing boxes cairns", "removal packing cairns"],
   alternates: { canonical: "https://www.r2g.com.au/packing-services-cairns" },
   openGraph: {
-    title: "Packing Services Cairns | Professional Packers | R2G Transport & Storage",
+    title: "Packing Services Cairns — From $179/hr | R2G Transport & Storage",
     description: "Professional packing services in Cairns. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-cairns",
   },
@@ -55,9 +55,50 @@ const materials = [
   { name: "Wardrobe Boxes", desc: "Keep your clothes crease-free" },
 ];
 
+const packingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Packing Services Cairns",
+  description:
+    "Professional packing services in Cairns. Trained packers handle your belongings with care using quality materials. Full or partial packing available.",
+  provider: {
+    "@type": "MovingCompany",
+    name: "R2G Transport & Storage",
+    telephone: "1300 959 498",
+    url: "https://www.r2g.com.au",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "36 Abbott St",
+      addressLocality: "Cairns City",
+      addressRegion: "QLD",
+      postalCode: "4870",
+      addressCountry: "AU",
+    },
+  },
+  areaServed: "Cairns",
+};
+
 export default function PackingServicesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(packingSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.question,
+              acceptedAnswer: { "@type": "Answer", text: faq.answer },
+            })),
+          }),
+        }}
+      />
       <PageHero
         title="Packing Services Cairns"
         subtitle="Professional, careful packing using premium materials — so your belongings arrive at your new home in perfect condition."

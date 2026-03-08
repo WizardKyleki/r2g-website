@@ -190,7 +190,7 @@ jsonLdSchema["@graph"].push({
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Office Removalists | Commercial Moving | R2G Transport & Storage",
+    absolute: "Office Removalists | R2G Transport & Storage",
   },
   description:
     "Professional office removalists with 10+ years experience. Weekend & after-hours moves, fully insured, minimal downtime. Call 1300 959 498 or get a free quote online.",
@@ -204,7 +204,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: pageConfig.canonicalUrl },
   openGraph: {
-    title: "Office Removalists | Commercial Moving | R2G Transport & Storage",
+    title: "Office Removalists | R2G Transport & Storage",
     description:
       "Professional office removalists. Weekend & after-hours moves, fully insured, minimal downtime. Get a free quote today.",
     url: pageConfig.canonicalUrl,
