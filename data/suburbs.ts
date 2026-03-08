@@ -1,3 +1,11 @@
+import { cairnsInnerSuburbs } from "./cairns-suburbs-inner";
+import { cairnsBeachSuburbs } from "./cairns-suburbs-beaches";
+import { cairnsSouthSuburbs } from "./cairns-suburbs-south";
+import { cairnsTablelandsSuburbs } from "./cairns-suburbs-tablelands";
+import { cairnsDouglasSuburbs } from "./cairns-suburbs-douglas";
+import { cairnsCassowarySuburbs } from "./cairns-suburbs-cassowary";
+import { cairnsCookShireSuburbs } from "./cairns-suburbs-cookshire";
+
 export interface Suburb {
   slug: string;
   name: string;
@@ -24,7 +32,7 @@ export interface CairnsSuburb extends Suburb {
   uniquePara3: string;
 }
 
-export const suburbs: CairnsSuburb[] = [
+const coreSuburbs: CairnsSuburb[] = [
   {
     slug: "smithfield",
     name: "Smithfield",
@@ -1265,6 +1273,17 @@ export const suburbs: CairnsSuburb[] = [
       },
     ],
   },
+];
+
+export const suburbs: CairnsSuburb[] = [
+  ...coreSuburbs,
+  ...cairnsInnerSuburbs,
+  ...cairnsBeachSuburbs,
+  ...cairnsSouthSuburbs,
+  ...cairnsTablelandsSuburbs,
+  ...cairnsDouglasSuburbs,
+  ...cairnsCassowarySuburbs,
+  ...cairnsCookShireSuburbs,
 ];
 
 export function getSuburb(slug: string): CairnsSuburb | undefined {

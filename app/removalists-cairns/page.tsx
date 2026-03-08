@@ -7,7 +7,7 @@ const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
-import { getSuburbHref } from "@/data/suburbs";
+import { suburbs as cairnsSuburbs } from "@/data/suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -546,30 +546,36 @@ export default function RemovalistsCairnsPage() {
               Cairns Suburbs We Service
             </h2>
             <p className="text-gray-400 text-base max-w-2xl mx-auto">
-              We cover the entire Cairns region — from the northern beaches to Gordonvale in the
-              south, and out to the Atherton Tablelands. If you&apos;re not sure whether we cover
-              your area, just give us a call.
+              We cover the entire Far North Queensland region — from Cooktown in the north to
+              Ingham in the south, the Northern Beaches, Atherton Tablelands, Douglas Shire,
+              and the Cassowary Coast. If you&apos;re not sure whether we cover your area, just give us a call.
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center mb-14">
-            {[
-              "Cairns City", "Edge Hill", "Whitfield", "Freshwater", "Redlynch",
-              "Gordonvale", "Babinda", "Atherton", "Mareeba", "Port Douglas",
-              "Innisfail", "Mossman", "Smithfield", "Yorkeys Knob", "Palm Cove",
-              "Trinity Beach", "Clifton Beach", "Kewarra Beach", "Machans Beach",
-              "Holloways Beach",
-            ].map((suburb) => {
-              const href = getSuburbHref(suburb);
-              const classes = "px-3 py-1.5 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
-              return href ? (
-                <Link key={suburb} href={href} title={`Removalists ${suburb} - R2G Transport & Storage`} className={classes}>
-                  {suburb}
-                </Link>
-              ) : (
-                <span key={suburb} className={classes}>
-                  {suburb}
-                </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
+            {["Cairns Inner City", "Northern Beaches", "Northern Cairns", "Cairns Inner North", "Cairns Western Suburbs", "Cairns South", "Atherton Tablelands", "Douglas Shire", "Cassowary Coast", "Cook Shire"].map((region) => {
+              const regionSuburbs = cairnsSuburbs
+                .filter((s) => s.region === region)
+                .sort((a, b) => a.name.localeCompare(b.name));
+              if (regionSuburbs.length === 0) return null;
+              return (
+                <div key={region}>
+                  <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
+                    {region}
+                  </h3>
+                  <div className="flex flex-wrap gap-1.5">
+                    {regionSuburbs.map((suburb) => (
+                      <Link
+                        key={suburb.slug}
+                        href={`/removalists-${suburb.slug}`}
+                        title={`Removalists ${suburb.name}`}
+                        className="px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors"
+                      >
+                        {suburb.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               );
             })}
           </div>

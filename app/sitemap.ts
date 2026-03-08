@@ -4,6 +4,7 @@ import { getAllCitySlugs } from "@/lib/interstate-cities";
 import { getAllOfficeLocationSlugs } from "@/data/office-locations";
 import { getAllOfficeSuburbParams } from "@/data/office-suburbs";
 import { getAllBlogSlugs } from "@/data/blog-posts";
+import { suburbs as cairnsSuburbsData } from "@/data/suburbs";
 import { brisbaneSuburbs } from "@/data/brisbane-suburbs";
 import { goldCoastSuburbs } from "@/data/gold-coast-suburbs";
 import { sunshineCoastSuburbs } from "@/data/sunshine-coast-suburbs";
@@ -28,17 +29,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/interstate-removalists`, priority: 0.9, changeFrequency: "monthly" as const },
   ].map((page) => ({ ...page, lastModified: today }));
 
-  // Cairns suburb pages
-  const cairnsSuburbs = [
-    "cairns-city", "cairns-north", "cairns-south", "edge-hill", "manunda",
-    "parramatta-park", "whitfield", "westcourt", "portsmith", "woree",
-    "earlville", "bentley-park", "mount-sheridan", "gordonvale", "smithfield",
-    "trinity-beach", "palm-cove", "clifton-beach", "kewarra-beach", "machans-beach",
-    "holloways-beach", "yorkeys-knob", "trinity-park", "caravonica", "freshwater",
-    "redlynch", "lake-placid", "barron", "mooroobool", "brinsmead",
-    "kanimbla", "bayview-heights", "white-rock", "aloomba", "goldsborough",
-  ].map((suburb) => ({
-    url: `${BASE_URL}/removalists/${suburb}`,
+  // Cairns suburb pages (dynamically from data)
+  const cairnsSuburbs = cairnsSuburbsData.map((s) => ({
+    url: `${BASE_URL}/removalists/${s.slug}`,
     lastModified: today,
     changeFrequency: "monthly" as const,
     priority: 0.8,
