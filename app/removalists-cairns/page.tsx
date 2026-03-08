@@ -553,7 +553,7 @@ export default function RemovalistsCairnsPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
-            {["Inner Cairns", "Northern Cairns", "Western Suburbs", "Eastern Suburbs", "Southern Suburbs"].map((region) => {
+            {["Inner Cairns", "Northern Cairns", "Western Suburbs", "Southern Suburbs"].map((region) => {
               const regionSuburbs = cairnsSuburbs
                 .filter((s) => s.region === region)
                 .sort((a, b) => a.name.localeCompare(b.name));
