@@ -4,6 +4,9 @@ import { getAllCitySlugs } from "@/lib/interstate-cities";
 import { getAllOfficeLocationSlugs } from "@/data/office-locations";
 import { getAllOfficeSuburbParams } from "@/data/office-suburbs";
 import { getAllBlogSlugs } from "@/data/blog-posts";
+import { brisbaneSuburbs } from "@/data/brisbane-suburbs";
+import { goldCoastSuburbs } from "@/data/gold-coast-suburbs";
+import { sunshineCoastSuburbs } from "@/data/sunshine-coast-suburbs";
 
 const BASE_URL = "https://www.r2g.com.au";
 
@@ -41,46 +44,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Brisbane suburb pages
-  const brisbaneSuburbs = [
-    "brisbane-cbd", "south-brisbane", "fortitude-valley", "new-farm", "teneriffe",
-    "west-end", "woolloongabba", "spring-hill", "paddington", "red-hill",
-    "ashgrove", "bardon", "toowong", "auchenflower", "milton",
-    "kelvin-grove", "herston", "bowen-hills", "newstead", "albion",
-    "chermside", "nundah", "clayfield", "ascot", "hamilton",
-    "hendra", "eagle-farm", "port-of-brisbane", "cannon-hill", "morningside",
-    "hawthorne", "balmoral", "bulimba", "camp-hill", "coorparoo",
-    "greenslopes", "mount-gravatt", "upper-mount-gravatt", "eight-mile-plains", "sunnybank",
-    "acacia-ridge", "salisbury", "yeronga", "annerley", "moorooka",
-    "rocklea", "oxley", "corinda", "graceville", "chelmer",
-  ].map((suburb) => ({
-    url: `${BASE_URL}/removalists-brisbane/${suburb}`,
+  // Brisbane suburb pages (dynamically from data)
+  const brisbaneSuburbPages = brisbaneSuburbs.map((s) => ({
+    url: `${BASE_URL}/removalists-brisbane/${s.slug}`,
     lastModified: today,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  // Gold Coast suburb pages
-  const goldCoastSuburbs = [
-    "surfers-paradise", "southport", "robina", "nerang", "burleigh-heads",
-    "broadbeach", "coomera", "helensvale", "varsity-lakes", "mudgeeraba",
-    "pacific-pines", "ashmore", "mermaid-beach", "coolangatta", "palm-beach",
-    "tugun", "ormeau", "runaway-bay", "labrador", "currumbin",
-  ].map((suburb) => ({
-    url: `${BASE_URL}/removalists-gold-coast/${suburb}`,
+  // Gold Coast suburb pages (dynamically from data)
+  const goldCoastSuburbPages = goldCoastSuburbs.map((s) => ({
+    url: `${BASE_URL}/removalists-gold-coast/${s.slug}`,
     lastModified: today,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  // Sunshine Coast suburb pages
-  const sunshineCoastSuburbs = [
-    "maroochydore", "caloundra", "noosa-heads", "mooloolaba", "buderim",
-    "nambour", "sippy-downs", "kawana-waters", "coolum-beach", "peregian-springs",
-    "palmwoods", "beerwah", "landsborough", "maleny", "glass-house-mountains",
-    "bli-bli", "yandina", "woombye", "eudlo", "kenilworth",
-  ].map((suburb) => ({
-    url: `${BASE_URL}/removalists-sunshine-coast/${suburb}`,
+  // Sunshine Coast suburb pages (dynamically from data)
+  const sunshineCoastSuburbPages = sunshineCoastSuburbs.map((s) => ({
+    url: `${BASE_URL}/removalists-sunshine-coast/${s.slug}`,
     lastModified: today,
     changeFrequency: "monthly" as const,
     priority: 0.8,
@@ -126,5 +108,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...goldCoastSuburbs, ...sunshineCoastSuburbs, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbPages, ...goldCoastSuburbPages, ...sunshineCoastSuburbPages, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
 }
