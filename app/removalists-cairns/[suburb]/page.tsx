@@ -41,11 +41,11 @@ export async function generateMetadata({
       `local removalists ${suburb.name.toLowerCase()}`,
       "r2g transport and storage",
     ],
-    alternates: { canonical: `https://www.r2g.com.au/removalists-${suburb.slug}` },
+    alternates: { canonical: `https://www.r2g.com.au/removalists-cairns/${suburb.slug}` },
     openGraph: {
       title: suburb.metaTitle,
       description: suburb.metaDescription,
-      url: `https://www.r2g.com.au/removalists-${suburb.slug}`,
+      url: `https://www.r2g.com.au/removalists-cairns/${suburb.slug}`,
       type: "website",
     },
   };
@@ -126,7 +126,7 @@ export default async function RemovalistsSuburbPage({
     "@type": "MovingCompany",
     name: `R2G Transport & Storage — Removalists ${suburb.name}`,
     description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
-    url: `https://www.r2g.com.au/removalists-${suburb.slug}`,
+    url: `https://www.r2g.com.au/removalists-cairns/${suburb.slug}`,
     telephone: "1300 959 498",
     email: "contact@r2g.com.au",
     priceRange: "$179 - $359",
@@ -222,9 +222,9 @@ export default async function RemovalistsSuburbPage({
           <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-gray-500 mb-8">
             <Link href="/" className="hover:text-[#F5C400] transition-colors">Home</Link>
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            <span className="text-gray-400">Services</span>
+            <Link href="/removalists-cairns" className="hover:text-[#F5C400] transition-colors">Removalists Cairns</Link>
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            <span className="text-[#F5C400]">Removalists {suburb.name}</span>
+            <span className="text-[#F5C400]">{suburb.name}</span>
           </nav>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-16 items-center">
@@ -392,8 +392,10 @@ export default async function RemovalistsSuburbPage({
                     </p>
                     <div className="space-y-2">
                       {[
+                        { label: "Removalists Cairns", href: "/removalists-cairns" },
                         { label: "Packing Services", href: "/packing-services-cairns" },
                         { label: "Storage Cairns", href: "/storage-cairns" },
+                        { label: "Moving Boxes", href: "/boxes" },
                         { label: "Interstate Removals", href: "/interstate-removalists" },
                       ].map((link) => (
                         <Link
@@ -541,7 +543,21 @@ export default async function RemovalistsSuburbPage({
             })}
           </div>
 
-          <div className="border-t border-white/10 pt-12">
+          {/* Cross-city links */}
+          <div className="flex flex-wrap gap-2 justify-center mt-6">
+            <p className="w-full text-center text-gray-500 text-xs uppercase tracking-widest font-semibold mb-2">Also Servicing</p>
+            {[
+              { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+              { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          <div className="border-t border-white/10 pt-12 mt-10">
             <h3 className="text-2xl font-black text-white text-center mb-8">
               Tips for a Smooth {suburb.name} Move
             </h3>

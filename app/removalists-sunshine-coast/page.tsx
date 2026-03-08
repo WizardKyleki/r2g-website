@@ -404,7 +404,7 @@ export default function RemovalistsSunshineCoastPage() {
                     </p>
                     <div className="space-y-2">
                       {[
-                        { label: "Interstate Removals", href: "/interstate-removals-brisbane" },
+                        { label: "Interstate Removals", href: "/interstate-removalists" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
                       ].map((link) => (
@@ -580,7 +580,21 @@ export default function RemovalistsSunshineCoastPage() {
             })}
           </div>
 
-          <div className="border-t border-white/10 pt-12">
+          {/* Cross-city links */}
+          <div className="flex flex-wrap gap-2 justify-center mt-6">
+            <p className="w-full text-center text-gray-500 text-xs uppercase tracking-widest font-semibold mb-2">Also Servicing</p>
+            {[
+              { label: "Removalists Cairns", href: "/removalists-cairns" },
+              { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          <div className="border-t border-white/10 pt-12 mt-10">
             <h3 className="text-2xl font-black text-white text-center mb-8">
               Tips for a Smooth Sunshine Coast Move
             </h3>

@@ -31,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Cairns suburb pages (dynamically from data)
   const cairnsSuburbs = cairnsSuburbsData.map((s) => ({
-    url: `${BASE_URL}/removalists/${s.slug}`,
+    url: `${BASE_URL}/removalists-cairns/${s.slug}`,
     lastModified: today,
     changeFrequency: "monthly" as const,
     priority: 0.8,

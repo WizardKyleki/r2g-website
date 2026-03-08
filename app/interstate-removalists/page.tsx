@@ -721,7 +721,7 @@ export default function InterstateRemovalistsPage() {
           <div className="text-center mb-10">
             <h2 className="text-2xl font-black text-[#1A1A1A]">Our Other Services</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 title: "Removalists Cairns",
@@ -732,6 +732,16 @@ export default function InterstateRemovalistsPage() {
                 title: "Removalists Brisbane",
                 desc: "Professional removalists across Brisbane and South East QLD.",
                 href: "/removalists-brisbane",
+              },
+              {
+                title: "Removalists Gold Coast",
+                desc: "Local removalists covering all Gold Coast suburbs.",
+                href: "/removalists-gold-coast",
+              },
+              {
+                title: "Removalists Sunshine Coast",
+                desc: "Professional movers across the Sunshine Coast region.",
+                href: "/removalists-sunshine-coast",
               },
               {
                 title: "Office Removalists",

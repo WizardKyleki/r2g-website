@@ -246,6 +246,7 @@ export default function InterstateRemovalsPage() {
                   <p className="text-[#F5C400] text-xs font-bold uppercase tracking-widest mb-3">Related Services</p>
                   <div className="space-y-2">
                     {[
+                      { label: "Interstate Removalists", href: "/interstate-removalists" },
                       { label: "Packing Services", href: "/packing-services-cairns" },
                       { label: "Storage Cairns", href: "/storage-cairns" },
                       { label: "Local Removalists", href: "/removalists-cairns" },

@@ -1293,7 +1293,7 @@ export function getSuburb(slug: string): CairnsSuburb | undefined {
 /** Map of suburb display name → route path for suburbs that have a built page. */
 const suburbRouteMap: Record<string, string> = {
   "Cairns City": "/removalists-cairns",
-  ...Object.fromEntries(suburbs.map((s) => [s.name, `/removalists-${s.slug}`])),
+  ...Object.fromEntries(suburbs.map((s) => [s.name, `/removalists-cairns/${s.slug}`])),
 };
 
 /** Returns the route path for a suburb if a page exists, otherwise undefined. */
