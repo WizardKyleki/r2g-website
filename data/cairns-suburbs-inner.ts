@@ -4,7 +4,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "cairns-city",
     name: "Cairns City",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "0km",
     postcode: "4870",
@@ -67,7 +67,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "cairns-north",
     name: "Cairns North",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "2km north",
     postcode: "4870",
@@ -130,7 +130,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "cairns-south",
     name: "Cairns South",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "2km south",
     postcode: "4870",
@@ -193,7 +193,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "manunda",
     name: "Manunda",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "3km west",
     postcode: "4870",
@@ -255,7 +255,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "parramatta-park",
     name: "Parramatta Park",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "2km southwest",
     postcode: "4870",
@@ -318,7 +318,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "westcourt",
     name: "Westcourt",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "3km west",
     postcode: "4870",
@@ -380,7 +380,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "portsmith",
     name: "Portsmith",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "3km south",
     postcode: "4870",
@@ -442,7 +442,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "woree",
     name: "Woree",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "5km southwest",
     postcode: "4870",
@@ -504,7 +504,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "earlville",
     name: "Earlville",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "4km southwest",
     postcode: "4870",
@@ -566,7 +566,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "mooroobool",
     name: "Mooroobool",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "4km west",
     postcode: "4870",
@@ -629,7 +629,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "brinsmead",
     name: "Brinsmead",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "5km northwest",
     postcode: "4870",
@@ -692,7 +692,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "kanimbla",
     name: "Kanimbla",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "4km west",
     postcode: "4870",
@@ -754,7 +754,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
     slug: "manoora",
     name: "Manoora",
-    region: "Cairns Inner City",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "2km northwest",
     postcode: "4870",

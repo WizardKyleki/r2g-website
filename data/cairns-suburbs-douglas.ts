@@ -4,26 +4,26 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "craiglie",
     name: "Craiglie",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "60km north",
     postcode: "4877",
     latitude: -16.524,
     longitude: 145.4652,
     uniquePara1:
-      "Craiglie is a quiet residential gateway suburb sitting just off the Captain Cook Highway between Cairns and Port Douglas. Its central Douglas Shire location makes it a popular base for workers in the region's thriving tourism industry, and we regularly assist families and professionals relocating to and from this growing community.",
+      "Craiglie is a quiet residential gateway suburb sitting just off the Captain Cook Highway between Cairns and Port Douglas. Its central Northern Cairns location makes it a popular base for workers in the region's thriving tourism industry, and we regularly assist families and professionals relocating to and from this growing community.",
     uniquePara2:
       "Homes in Craiglie tend to be freestanding tropical Queensland houses on generous blocks, often with large outdoor entertaining areas and covered carports suited to the wet season. Our team is well-prepared for the longer drive north from Cairns and plans every move around the narrow sections of the Captain Cook Highway.",
     uniquePara3:
-      "The main access route through Craiglie runs directly off the Captain Cook Highway, which can experience heavy tourist traffic particularly in the dry season between May and October. We time truck departures from Cairns to avoid peak highway congestion and carry strapping equipment to secure loads over the winding coastal road north. Wet season moves require extra planning as afternoon rain squalls can limit visibility on the range sections of the highway approaching Douglas Shire.",
+      "The main access route through Craiglie runs directly off the Captain Cook Highway, which can experience heavy tourist traffic particularly in the dry season between May and October. We time truck departures from Cairns to avoid peak highway congestion and carry strapping equipment to secure loads over the winding coastal road north. Wet season moves require extra planning as afternoon rain squalls can limit visibility on the range sections of the highway approaching Northern Cairns.",
     nearbySubs: ["Port Douglas", "Oak Beach", "Mossman"],
     priceFrom: "$179/hr",
-    serviceArea: "Craiglie & Douglas Shire",
+    serviceArea: "Craiglie & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Craiglie | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Trusted removalists in Craiglie, Douglas Shire. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas & surrounds. Call 1300 959 498.",
+      "Trusted removalists in Craiglie, Northern Cairns. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas & surrounds. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to Craiglie and the whole process was incredibly smooth. They knew exactly how to handle the Captain Cook Highway run and arrived right on time. Couldn't fault them.",
@@ -51,7 +51,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book well ahead in dry season.",
-        text: "Douglas Shire is extremely busy from May to October as tourists flood the region. Removal bookings in and around Craiglie fill up quickly during this period — we recommend booking at least three to four weeks in advance to secure your preferred date.",
+        text: "Northern Cairns is extremely busy from May to October as tourists flood the region. Removal bookings in and around Craiglie fill up quickly during this period — we recommend booking at least three to four weeks in advance to secure your preferred date.",
       },
       {
         heading: "Prepare for wet season afternoon storms.",
@@ -66,7 +66,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "cooya-beach",
     name: "Cooya Beach",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "62km north",
     postcode: "4873",
@@ -80,13 +80,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       "Cooya Beach sits on a low coastal flat and some access tracks leading to beachfront properties can become very soft after sustained wet season rain. Our team brings high-clearance vehicles when needed and uses hand trolleys and shuttle loads to reach properties that are inaccessible to a full-size removal truck. We plan the drive from Cairns around Captain Cook Highway conditions and always carry a full weather check for the day.",
     nearbySubs: ["Mossman", "Port Douglas", "Newell"],
     priceFrom: "$179/hr",
-    serviceArea: "Cooya Beach & Douglas Shire",
+    serviceArea: "Cooya Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Removalists Cooya Beach | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Expert removalists in Cooya Beach, Douglas Shire. Local moves from $179/hr. Coastal property specialists. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Expert removalists in Cooya Beach, Northern Cairns. Local moves from $179/hr. Coastal property specialists. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
     reviews: [
       {
         text: "R2G handled our move to Cooya Beach brilliantly. The access track to our place is tight and sandy but the team came prepared with the right equipment. Professional and punctual all the way.",
@@ -129,7 +129,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "daintree",
     name: "Daintree",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "110km north",
     postcode: "4873",
@@ -143,12 +143,12 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       "Moving to or from Daintree Village involves a 110km run from Cairns, including sections of narrow rainforest road past Mossman. During the wet season the roads north of Daintree can close entirely, but the village itself is generally accessible year-round via the sealed Cape Tribulation Road. We carry all essential equipment in the truck for the full round trip and schedule Daintree moves as full-day jobs to ensure the team is never rushed on the remote road home.",
     nearbySubs: ["Cape Tribulation", "Cow Bay", "Mossman"],
     priceFrom: "$179/hr",
-    serviceArea: "Daintree & Douglas Shire",
+    serviceArea: "Daintree & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Daintree | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Specialist removalists in Daintree Village, Far North Queensland. Remote rainforest moves from $179/hr. Fully insured. Serving Douglas Shire. Call 1300 959 498.",
+      "Specialist removalists in Daintree Village, Far North Queensland. Remote rainforest moves from $179/hr. Fully insured. Serving Northern Cairns. Call 1300 959 498.",
     reviews: [
       {
         text: "Moving to Daintree seemed daunting but R2G made it completely painless. They planned the long drive, knew the road conditions and had everything at our new place by early afternoon. Exceptional service.",
@@ -191,7 +191,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "cape-tribulation",
     name: "Cape Tribulation",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "140km north",
     postcode: "4873",
@@ -205,7 +205,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       "Cape Tribulation moves require crossing the Daintree River on the cable ferry — a barge that carries only a handful of vehicles at a time and operates on a first-come, first-served basis. We account for potential waiting time at the ferry in every job estimate. North of the Daintree ferry, the road to Cape Tribulation is sealed but narrow with limited passing opportunities. We brief all clients on wet season road closure risks, as this road can become impassable after extreme rainfall events, and we may need to reschedule if conditions are unsafe.",
     nearbySubs: ["Daintree", "Cow Bay", "Thornton Beach"],
     priceFrom: "$179/hr",
-    serviceArea: "Cape Tribulation & Douglas Shire",
+    serviceArea: "Cape Tribulation & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -254,7 +254,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "wonga-beach",
     name: "Wonga Beach",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "80km north",
     postcode: "4873",
@@ -263,18 +263,18 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Wonga Beach is a laid-back coastal village between Mossman and Port Douglas, offering an unhurried tropical lifestyle close to the Coral Sea. Popular with retirees and those seeking affordable coastal living away from the tourist crowds, it is a growing destination for sea-changers making the move to Far North Queensland.",
     uniquePara2:
-      "Housing in Wonga Beach is predominantly low-set and elevated tropical Queensland homes on generous blocks with large yards and established gardens. The beachfront streets are unsealed in places, and our team comes prepared for the access conditions specific to coastal villages in this part of Douglas Shire.",
+      "Housing in Wonga Beach is predominantly low-set and elevated tropical Queensland homes on generous blocks with large yards and established gardens. The beachfront streets are unsealed in places, and our team comes prepared for the access conditions specific to coastal villages in this part of Northern Cairns.",
     uniquePara3:
       "The 80km run up the Captain Cook Highway from Cairns to Wonga Beach passes through some of the most spectacular coastal scenery in Queensland. We plan all Wonga Beach moves as half-day or full-day jobs depending on property size, departing early from Cairns to take advantage of quieter highway conditions before tourist coaches begin their daily runs north to Port Douglas and the Daintree.",
     nearbySubs: ["Miallo", "Mossman", "Newell"],
     priceFrom: "$179/hr",
-    serviceArea: "Wonga Beach & Douglas Shire",
+    serviceArea: "Wonga Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Removalists Wonga Beach | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Reliable removalists in Wonga Beach, Douglas Shire. Coastal moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas region. Call 1300 959 498.",
+      "Reliable removalists in Wonga Beach, Northern Cairns. Coastal moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas region. Call 1300 959 498.",
     reviews: [
       {
         text: "Moved from Cairns to Wonga Beach with R2G and it was seamless. They were on time, loaded the truck fast and drove carefully on the coastal road. Everything arrived safely — genuinely great service.",
@@ -310,33 +310,33 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book well ahead for dry season.",
-        text: "Douglas Shire is at peak demand between June and September. Wonga Beach moves during this period book up fast — contact us at least three to four weeks in advance to secure your preferred moving date.",
+        text: "Northern Cairns is at peak demand between June and September. Wonga Beach moves during this period book up fast — contact us at least three to four weeks in advance to secure your preferred moving date.",
       },
     ],
   },
   {
     slug: "newell",
     name: "Newell",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "65km north",
     postcode: "4873",
     latitude: -16.47,
     longitude: 145.44,
     uniquePara1:
-      "Newell is a small, quiet community tucked behind the coast midway between Port Douglas and Mossman, offering residents a genuinely peaceful rural lifestyle within easy reach of Douglas Shire's iconic beaches and reef attractions. It remains one of the lesser-known gems of Far North Queensland for those seeking space and seclusion.",
+      "Newell is a small, quiet community tucked behind the coast midway between Port Douglas and Mossman, offering residents a genuinely peaceful rural lifestyle within easy reach of Northern Cairns's iconic beaches and reef attractions. It remains one of the lesser-known gems of Far North Queensland for those seeking space and seclusion.",
     uniquePara2:
-      "Properties in Newell are typically on large rural blocks with established tropical gardens and wide verandahs, reflecting the unhurried character of the area. Our team handles the full range of rural property moves common in this part of Douglas Shire, from large farm-style homes to compact private retreats.",
+      "Properties in Newell are typically on large rural blocks with established tropical gardens and wide verandahs, reflecting the unhurried character of the area. Our team handles the full range of rural property moves common in this part of Northern Cairns, from large farm-style homes to compact private retreats.",
     uniquePara3:
       "Getting to Newell involves turning off the Captain Cook Highway onto narrower back roads through the cane-farming landscape between Port Douglas and Mossman. These rural roads are generally well-maintained but can be affected by wet season flooding around low-lying cane paddocks. We always confirm access conditions before departure from Cairns and communicate any delays immediately.",
     nearbySubs: ["Cooya Beach", "Mossman", "Miallo"],
     priceFrom: "$179/hr",
-    serviceArea: "Newell & Douglas Shire",
+    serviceArea: "Newell & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Newell | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Trusted removalists in Newell, Douglas Shire. Rural and remote moves from $179/hr. Fully insured, no hidden fees. Serving the Port Douglas & Mossman region. Call 1300 959 498.",
+      "Trusted removalists in Newell, Northern Cairns. Rural and remote moves from $179/hr. Fully insured, no hidden fees. Serving the Port Douglas & Mossman region. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved us from Cairns to our property in Newell and handled the rural access road with complete confidence. The lads were careful with all our gear and finished well within the estimate. Very pleased.",
@@ -379,26 +379,26 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "miallo",
     name: "Miallo",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "72km north",
     postcode: "4873",
     latitude: -16.4386,
     longitude: 145.4194,
     uniquePara1:
-      "Miallo is a small rural town set in the farming country between Mossman and the coast, surrounded by sugarcane fields and tropical fruit orchards. It is a working agricultural community with a strong local character, and we are experienced in the practical demands of moving to and from this productive corner of Douglas Shire.",
+      "Miallo is a small rural town set in the farming country between Mossman and the coast, surrounded by sugarcane fields and tropical fruit orchards. It is a working agricultural community with a strong local character, and we are experienced in the practical demands of moving to and from this productive corner of Northern Cairns.",
     uniquePara2:
-      "Many properties in and around Miallo are working farms or hobby farms with large sheds, rural equipment and significant outdoor items requiring careful handling. Our team is comfortable with agricultural property moves and brings appropriate equipment for large or irregularly shaped loads common in rural Douglas Shire.",
+      "Many properties in and around Miallo are working farms or hobby farms with large sheds, rural equipment and significant outdoor items requiring careful handling. Our team is comfortable with agricultural property moves and brings appropriate equipment for large or irregularly shaped loads common in rural Northern Cairns.",
     uniquePara3:
-      "Miallo is accessed via rural roads running inland from the Captain Cook Highway through the Douglas Shire cane-farming belt. Cane harvesting season from June to December brings heavy cane trucks to the local roads, which can affect travel times and road surface conditions near the crushing mill. We plan around harvest schedules where possible and keep loads secure on roads shared with agricultural vehicles.",
+      "Miallo is accessed via rural roads running inland from the Captain Cook Highway through the Northern Cairns cane-farming belt. Cane harvesting season from June to December brings heavy cane trucks to the local roads, which can affect travel times and road surface conditions near the crushing mill. We plan around harvest schedules where possible and keep loads secure on roads shared with agricultural vehicles.",
     nearbySubs: ["Wonga Beach", "Mossman", "Newell"],
     priceFrom: "$179/hr",
-    serviceArea: "Miallo & Douglas Shire",
+    serviceArea: "Miallo & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Miallo | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Experienced removalists in Miallo, Douglas Shire. Rural farm and residential moves from $179/hr. Fully insured. Serving Mossman & surrounds. Call 1300 959 498.",
+      "Experienced removalists in Miallo, Northern Cairns. Rural farm and residential moves from $179/hr. Fully insured. Serving Mossman & surrounds. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our whole farm household from Miallo to Cairns without a hitch. They handled bulky outdoor items, farm furniture and fragile pieces with equal care. A professional team doing a genuinely tough job.",
@@ -422,7 +422,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Plan around cane harvest season.",
-        text: "Cane harvesting runs from roughly June to December in the Douglas Shire farming belt around Miallo. Heavy cane haulage trucks use the local roads frequently during this period. We schedule moves to avoid peak harvest traffic times and ensure our truck can pass safely on narrow rural roads.",
+        text: "Cane harvesting runs from roughly June to December in the Northern Cairns farming belt around Miallo. Heavy cane haulage trucks use the local roads frequently during this period. We schedule moves to avoid peak harvest traffic times and ensure our truck can pass safely on narrow rural roads.",
       },
       {
         heading: "Include farm and shed items in your quote.",
@@ -441,27 +441,27 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "shannonvale",
     name: "Shannonvale",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "58km north",
     postcode: "4873",
     latitude: -16.56,
     longitude: 145.38,
     uniquePara1:
-      "Shannonvale is a small rural locality in the southern reaches of Douglas Shire, set among tropical fruit orchards and farming land on the inland side of the Captain Cook Highway. Its rural character and proximity to both Port Douglas and Mossman make it an appealing address for those who want space without sacrificing access to coastal amenities.",
+      "Shannonvale is a small rural locality in the southern reaches of Northern Cairns, set among tropical fruit orchards and farming land on the inland side of the Captain Cook Highway. Its rural character and proximity to both Port Douglas and Mossman make it an appealing address for those who want space without sacrificing access to coastal amenities.",
     uniquePara2:
-      "Properties in Shannonvale are typically on large rural acreage with fruit orchards, hobby farms and spacious family homes. Our team is experienced in acreage moves throughout Douglas Shire and brings the tools required for difficult driveways, large outbuildings and oversized rural furniture.",
+      "Properties in Shannonvale are typically on large rural acreage with fruit orchards, hobby farms and spacious family homes. Our team is experienced in acreage moves throughout Northern Cairns and brings the tools required for difficult driveways, large outbuildings and oversized rural furniture.",
     uniquePara3:
-      "Shannonvale sits at the southern edge of Douglas Shire, making it one of the closer rural localities to Cairns in the region at just 58km from the CBD. Despite its relatively close distance, the final approach involves rural roads off the Captain Cook Highway that can be affected by wet season runoff from the ranges behind the farming land. We factor this into all move day planning and keep clients informed of any access challenges.",
+      "Shannonvale sits at the southern edge of Northern Cairns, making it one of the closer rural localities to Cairns in the region at just 58km from the CBD. Despite its relatively close distance, the final approach involves rural roads off the Captain Cook Highway that can be affected by wet season runoff from the ranges behind the farming land. We factor this into all move day planning and keep clients informed of any access challenges.",
     nearbySubs: ["Craiglie", "Port Douglas", "Oak Beach"],
     priceFrom: "$179/hr",
-    serviceArea: "Shannonvale & Douglas Shire",
+    serviceArea: "Shannonvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Removalists Shannonvale | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Reliable removalists in Shannonvale, Douglas Shire. Acreage and rural moves from $179/hr. Fully insured. Serving Port Douglas & Cairns region. Call 1300 959 498.",
+      "Reliable removalists in Shannonvale, Northern Cairns. Acreage and rural moves from $179/hr. Fully insured. Serving Port Douglas & Cairns region. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved us out of our Shannonvale orchard property to Cairns and they were fantastic. They handled large outdoor items, orchard equipment and household furniture all in one load. Very efficient team.",
@@ -489,7 +489,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Captain Cook Highway gives a fast start.",
-        text: "The Captain Cook Highway covers most of the 58km from Cairns to the Shannonvale area quickly, making this one of the more time-efficient Douglas Shire moves despite its rural nature. We aim to arrive at your property mid-morning after an early Cairns departure.",
+        text: "The Captain Cook Highway covers most of the 58km from Cairns to the Shannonvale area quickly, making this one of the more time-efficient Northern Cairns moves despite its rural nature. We aim to arrive at your property mid-morning after an early Cairns departure.",
       },
       {
         heading: "Pack shed and orchard items separately.",
@@ -504,27 +504,27 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "oak-beach",
     name: "Oak Beach",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "55km north",
     postcode: "4877",
     latitude: -16.589,
     longitude: 145.524,
     uniquePara1:
-      "Oak Beach is a quiet beachside enclave at the southern end of Douglas Shire, perched on a headland between Cairns and Port Douglas with stunning views across the Coral Sea. Its small permanent population values privacy and seclusion, and we have helped many sea-changers make the move to this beautiful and underrated coastal community.",
+      "Oak Beach is a quiet beachside enclave at the southern end of Northern Cairns, perched on a headland between Cairns and Port Douglas with stunning views across the Coral Sea. Its small permanent population values privacy and seclusion, and we have helped many sea-changers make the move to this beautiful and underrated coastal community.",
     uniquePara2:
       "Homes at Oak Beach are often elevated tropical builds taking advantage of the coastal hill position, with sweeping sea views and open verandahs. The steep and winding access road to some properties requires careful truck assessment before move day, and we visit or assess remotely when required.",
     uniquePara3:
       "Oak Beach is accessed via a turning off the Captain Cook Highway south of Port Douglas, winding down to the coast on a road that can be narrow in sections. The steep coastal terrain means some properties are best served by a smaller truck or shuttle loading from a safe flat parking area. We assess every Oak Beach property individually and plan the safest and most efficient loading approach for your specific home.",
     nearbySubs: ["Craiglie", "Port Douglas", "Shannonvale"],
     priceFrom: "$179/hr",
-    serviceArea: "Oak Beach & Douglas Shire",
+    serviceArea: "Oak Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Removalists Oak Beach | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Specialist removalists in Oak Beach, Douglas Shire. Coastal hill property moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas region. Call 1300 959 498.",
+      "Specialist removalists in Oak Beach, Northern Cairns. Coastal hill property moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas region. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our family into Oak Beach and handled the steep access road brilliantly. They assessed the driveway before move day, brought the right sized truck and had everything inside before noon. Couldn't be happier.",
@@ -567,7 +567,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "cow-bay",
     name: "Cow Bay",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "115km north",
     postcode: "4873",
@@ -581,7 +581,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       "Every Cow Bay move requires crossing the Daintree River cable ferry, which imposes weight and length limits on vehicles. We select appropriately sized trucks for all ferry crossings and plan our arrival at the ferry to minimise waiting time. North of the ferry, the road to Cow Bay passes through dense tropical rainforest with limited passing places. During the wet season, fallen trees and road washouts can occasionally close sections of this route, and we maintain close contact with local road authorities in the days before your scheduled move.",
     nearbySubs: ["Cape Tribulation", "Daintree", "Thornton Beach"],
     priceFrom: "$179/hr",
-    serviceArea: "Cow Bay & Douglas Shire",
+    serviceArea: "Cow Bay & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Cow Bay | R2G Transport & Storage | From $179/hr",
@@ -629,7 +629,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
     slug: "thornton-beach",
     name: "Thornton Beach",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "125km north",
     postcode: "4873",
@@ -643,7 +643,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       "Reaching Thornton Beach involves crossing the Daintree River on the cable ferry and continuing north through the rainforest for a further 20 minutes beyond the ferry landing. This route is breathtakingly beautiful but logistically demanding. Wet season road closures are a genuine risk — in severe events the road can close for several days. We require clients booking Thornton Beach moves to discuss wet season contingency options at the time of booking so we have a clear agreed plan if rescheduling becomes necessary due to road or ferry conditions.",
     nearbySubs: ["Cape Tribulation", "Cow Bay", "Daintree"],
     priceFrom: "$179/hr",
-    serviceArea: "Thornton Beach & Douglas Shire",
+    serviceArea: "Thornton Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:

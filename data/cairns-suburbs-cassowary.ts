@@ -4,7 +4,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "mission-beach",
     name: "Mission Beach",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "140km south",
     postcode: "4852",
@@ -13,12 +13,12 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Mission Beach is one of North Queensland's most spectacular coastal communities, strung across four villages — Bingil Bay, Mission Beach, Wongaling Beach and South Mission Beach — backed by World Heritage Wet Tropics rainforest and fronted by the Coral Sea. Our team regularly helps families and retirees relocate to and from this stunning stretch of tropical coastline.",
     uniquePara2:
-      "The area is one of the last known strongholds for the endangered southern cassowary, and rainforest surrounds many residential properties here. Our drivers are experienced navigating the winding access roads through Cassowary Coast towns and take particular care on unsealed driveways and properties backing onto dense vegetation.",
+      "The area is one of the last known strongholds for the endangered southern cassowary, and rainforest surrounds many residential properties here. Our drivers are experienced navigating the winding access roads through Southern Suburbs towns and take particular care on unsealed driveways and properties backing onto dense vegetation.",
     uniquePara3:
-      "The Bruce Highway turnoff at El Arish adds roughly 20 minutes of coastal road driving to reach Mission Beach. Our team factors this into scheduling and departs Cairns early to avoid peak-hour delays near Innisfail. Cyclone season brings the risk of flooding on low-lying access roads between November and April — we monitor road conditions closely and will reschedule when the Cassowary Coast road network is unsafe.",
+      "The Bruce Highway turnoff at El Arish adds roughly 20 minutes of coastal road driving to reach Mission Beach. Our team factors this into scheduling and departs Cairns early to avoid peak-hour delays near Innisfail. Cyclone season brings the risk of flooding on low-lying access roads between November and April — we monitor road conditions closely and will reschedule when the Southern Suburbs road network is unsafe.",
     nearbySubs: ["Wongaling Beach", "Bingil Bay", "El Arish", "Tully"],
     priceFrom: "$179/hr",
-    serviceArea: "Mission Beach & Cassowary Coast",
+    serviceArea: "Mission Beach & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -67,21 +67,21 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "tully",
     name: "Tully",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "150km south",
     postcode: "4854",
     latitude: -17.9350,
     longitude: 145.9230,
     uniquePara1:
-      "Tully is famously the wettest town in Australia, surrounded by extensive banana and sugar cane plantations that define the landscape of the Cassowary Coast hinterland. The town sits at the base of Mount Tyson and serves as a key service hub for the farming communities spread across the Tully River valley.",
+      "Tully is famously the wettest town in Australia, surrounded by extensive banana and sugar cane plantations that define the landscape of the Southern Suburbs hinterland. The town sits at the base of Mount Tyson and serves as a key service hub for the farming communities spread across the Tully River valley.",
     uniquePara2:
       "The farming character of Tully means many residents have large rural properties, sheds full of equipment and substantial outdoor furniture built for the tropics. Our team is equipped for agricultural-area moves, including navigating plantation access roads and loading oversized rural items.",
     uniquePara3:
       "The Bruce Highway runs through the centre of Tully and is the main artery connecting the town to Cairns, roughly 150km to the north. Our drivers know the seasonal conditions on this stretch — including the risk of cane-truck traffic during harvest season (June to November) — and plan departure times accordingly. Wet season flooding on the flats south of town can occasionally cut off Cardwell-direction routes, which we monitor closely for moves in that direction.",
     nearbySubs: ["Mission Beach", "El Arish", "Cardwell", "Tully Heads"],
     priceFrom: "$179/hr",
-    serviceArea: "Tully & Cassowary Coast",
+    serviceArea: "Tully & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Tully | R2G Transport & Storage | From $179/hr",
@@ -129,7 +129,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "cardwell",
     name: "Cardwell",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "175km south",
     postcode: "4849",
@@ -143,7 +143,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
       "At 175km from Cairns via the Bruce Highway, Cardwell is our southernmost regular service point in the region. Our team departs Cairns early to ensure a prompt arrival and plans the full day around the return drive. The stretch of Bruce Highway through the Cardwell Range is steep and winding — we use the right truck size for both the load and the road, ensuring safe transit through the range.",
     nearbySubs: ["Ingham", "Tully", "Tully Heads"],
     priceFrom: "$179/hr",
-    serviceArea: "Cardwell & Cassowary Coast",
+    serviceArea: "Cardwell & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Cardwell | R2G Transport & Storage | From $179/hr",
@@ -176,7 +176,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
       },
       {
         heading: "The Cardwell Range requires the right truck.",
-        text: "The Bruce Highway climbs steeply through the Cardwell Range section. Overloaded or poorly-maintained trucks can overheat or lose braking capacity on this descent. We ensure every truck is properly loaded and serviced before long-distance Cassowary Coast runs.",
+        text: "The Bruce Highway climbs steeply through the Cardwell Range section. Overloaded or poorly-maintained trucks can overheat or lose braking capacity on this descent. We ensure every truck is properly loaded and serviced before long-distance Southern Suburbs runs.",
       },
       {
         heading: "Protect cyclone-rated fittings.",
@@ -191,21 +191,21 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "ingham",
     name: "Ingham",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "220km south",
     postcode: "4850",
     latitude: -18.6501,
     longitude: 146.1621,
     uniquePara1:
-      "Ingham is the heart of the Herbert River sugar cane district and the largest town in the Hinchinbrook Shire, known for its strong Italian heritage and its sprawling cane fields that stretch to the coast. The town serves as a regional centre for the broad agricultural community across the lower Cassowary Coast.",
+      "Ingham is the heart of the Herbert River sugar cane district and the largest town in the Hinchinbrook Shire, known for its strong Italian heritage and its sprawling cane fields that stretch to the coast. The town serves as a regional centre for the broad agricultural community across the lower Southern Suburbs.",
     uniquePara2:
       "Sugar cane farming dominates the land around Ingham, and many properties in the district are associated with the industry — from town residences occupied by cane farming families to mill worker housing and rural leasehold properties. Our team is experienced with agricultural community moves and understands the practical demands of rural Far North Queensland relocations.",
     uniquePara3:
-      "At 220km from Cairns, Ingham is the furthest point we regularly service on the Cassowary Coast. Our team treats these moves as full-day operations, departing Cairns before dawn and working efficiently to complete loading and delivery within a single day. The Bruce Highway is the only practical route, and we schedule around the cane harvest season (June to November) when heavy haulage traffic on this corridor is at its peak.",
+      "At 220km from Cairns, Ingham is the furthest point we regularly service on the Southern Suburbs. Our team treats these moves as full-day operations, departing Cairns before dawn and working efficiently to complete loading and delivery within a single day. The Bruce Highway is the only practical route, and we schedule around the cane harvest season (June to November) when heavy haulage traffic on this corridor is at its peak.",
     nearbySubs: ["Cardwell", "Tully"],
     priceFrom: "$179/hr",
-    serviceArea: "Ingham & Cassowary Coast",
+    serviceArea: "Ingham & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Ingham | R2G Transport & Storage | From $179/hr",
@@ -253,21 +253,21 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "silkwood",
     name: "Silkwood",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "125km south",
     postcode: "4856",
     latitude: -17.7528,
     longitude: 145.9928,
     uniquePara1:
-      "Silkwood is a small farming community on the Cassowary Coast, surrounded by banana plantations and sugar cane fields between Innisfail and Mission Beach. The town has a close-knit agricultural character, with many residents working the fertile volcanic soil of the Johnstone River district.",
+      "Silkwood is a small farming community on the Southern Suburbs, surrounded by banana plantations and sugar cane fields between Innisfail and Mission Beach. The town has a close-knit agricultural character, with many residents working the fertile volcanic soil of the Johnstone River district.",
     uniquePara2:
-      "Properties in and around Silkwood often include farm sheds, fruit storage facilities and rural outbuildings alongside the main residence. Our team is experienced with moves that involve agricultural equipment, large outdoor items and the practical realities of rural property access on the Cassowary Coast.",
+      "Properties in and around Silkwood often include farm sheds, fruit storage facilities and rural outbuildings alongside the main residence. Our team is experienced with moves that involve agricultural equipment, large outdoor items and the practical realities of rural property access on the Southern Suburbs.",
     uniquePara3:
       "The Bruce Highway passes close to Silkwood and is the main route for Cairns-bound moves, approximately 125km north. During banana harvest periods, the local road network sees increased small-truck traffic moving fruit between packing sheds and the highway. Our team works around these patterns and communicates clearly on move-day timing to keep your relocation on schedule through any delays.",
     nearbySubs: ["Mourilyan", "El Arish", "Mission Beach", "South Johnstone"],
     priceFrom: "$179/hr",
-    serviceArea: "Silkwood & Cassowary Coast",
+    serviceArea: "Silkwood & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Silkwood | R2G Transport & Storage | From $179/hr",
@@ -315,7 +315,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "mourilyan",
     name: "Mourilyan",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "95km south",
     postcode: "4858",
@@ -329,7 +329,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
       "Mourilyan sits on the Kennedy Highway junction near Innisfail, approximately 95km south of Cairns on the Bruce Highway — placing it within a comfortable single-day move range. The local road network around the harbour precinct involves some narrow sections and industrial vehicle traffic related to the crushing season. We schedule Mourilyan moves with these local conditions in mind and time arrivals to avoid peak harbour-vehicle periods.",
     nearbySubs: ["South Johnstone", "Silkwood", "Mission Beach"],
     priceFrom: "$179/hr",
-    serviceArea: "Mourilyan & Cassowary Coast",
+    serviceArea: "Mourilyan & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -378,7 +378,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "south-johnstone",
     name: "South Johnstone",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "100km south",
     postcode: "4859",
@@ -389,10 +389,10 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara2:
       "Banana farming defines the character of South Johnstone — packing sheds, irrigation infrastructure and farm machinery are common features on local properties. Our team is well-versed in moves involving rural properties with agricultural outbuildings and can handle practical farm relocation requirements efficiently.",
     uniquePara3:
-      "South Johnstone sits just inland from the Bruce Highway near Innisfail, making it approximately 100km from Cairns and an efficient move destination. The local road network connects the community to the main highway via flat cane-country roads that are generally easy to navigate but can flood quickly when the Johnstone River rises during the wet season. We track river levels and road closures before every Cassowary Coast move.",
+      "South Johnstone sits just inland from the Bruce Highway near Innisfail, making it approximately 100km from Cairns and an efficient move destination. The local road network connects the community to the main highway via flat cane-country roads that are generally easy to navigate but can flood quickly when the Johnstone River rises during the wet season. We track river levels and road closures before every Southern Suburbs move.",
     nearbySubs: ["Mourilyan", "Silkwood", "El Arish"],
     priceFrom: "$179/hr",
-    serviceArea: "South Johnstone & Cassowary Coast",
+    serviceArea: "South Johnstone & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -441,21 +441,21 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "el-arish",
     name: "El Arish",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "130km south",
     postcode: "4855",
     latitude: -17.8147,
     longitude: 146.0135,
     uniquePara1:
-      "El Arish is a small agricultural township on the Cassowary Coast, sitting at the junction of the Bruce Highway and the road to Mission Beach. The town is surrounded by sugar cane and banana farming country and serves as a gateway community for those heading to the coastal villages of the Mission Beach area.",
+      "El Arish is a small agricultural township on the Southern Suburbs, sitting at the junction of the Bruce Highway and the road to Mission Beach. The town is surrounded by sugar cane and banana farming country and serves as a gateway community for those heading to the coastal villages of the Mission Beach area.",
     uniquePara2:
       "The community of El Arish is closely tied to the surrounding cane district, and many properties are either farming or rural residential. The town also attracts those seeking a quiet lifestyle within easy reach of Mission Beach's beaches and the World Heritage Wet Tropics rainforest.",
     uniquePara3:
-      "El Arish's position on the Bruce Highway junction makes it a practical access point for removals heading deeper into the Mission Beach corridor. Our team uses El Arish as a reference point on Cassowary Coast moves and knows the surrounding road network well, including which roads become inaccessible during wet season flooding on the adjacent agricultural flats. The 130km Bruce Highway run from Cairns is straightforward for a well-planned early-start move.",
+      "El Arish's position on the Bruce Highway junction makes it a practical access point for removals heading deeper into the Mission Beach corridor. Our team uses El Arish as a reference point on Southern Suburbs moves and knows the surrounding road network well, including which roads become inaccessible during wet season flooding on the adjacent agricultural flats. The 130km Bruce Highway run from Cairns is straightforward for a well-planned early-start move.",
     nearbySubs: ["Mission Beach", "Silkwood", "Tully", "Bingil Bay"],
     priceFrom: "$179/hr",
-    serviceArea: "El Arish & Cassowary Coast",
+    serviceArea: "El Arish & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists El Arish | R2G Transport & Storage | From $179/hr",
@@ -503,21 +503,21 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "kurrimine-beach",
     name: "Kurrimine Beach",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "120km south",
     postcode: "4871",
     latitude: -17.7720,
     longitude: 146.1200,
     uniquePara1:
-      "Kurrimine Beach is a small, peaceful coastal community on the Cassowary Coast, known for its pristine swimming beaches, productive coral reef fishing and a relaxed lifestyle far removed from city pressures. The town attracts retirees, fishing enthusiasts and those seeking an authentic Far North Queensland coastal experience.",
+      "Kurrimine Beach is a small, peaceful coastal community on the Southern Suburbs, known for its pristine swimming beaches, productive coral reef fishing and a relaxed lifestyle far removed from city pressures. The town attracts retirees, fishing enthusiasts and those seeking an authentic Far North Queensland coastal experience.",
     uniquePara2:
       "The residential character of Kurrimine Beach is dominated by holiday homes, fishing shacks and permanent residences set back from the beachfront. Properties here tend to be low-set or raised timber homes built for tropical living, and many include boat storage, fishing gear and outdoor entertaining areas that require thoughtful packing and loading.",
     uniquePara3:
-      "Kurrimine Beach is accessed via a sealed road from the Bruce Highway, adding approximately 15 minutes to the drive from Cairns — 120km away. The coastal approach road passes through cane farming country and can flood at creek crossing points during intense wet season rain. Our team monitors these conditions before every Cassowary Coast coastal move and plans arrival windows that avoid the worst of the afternoon storm season.",
+      "Kurrimine Beach is accessed via a sealed road from the Bruce Highway, adding approximately 15 minutes to the drive from Cairns — 120km away. The coastal approach road passes through cane farming country and can flood at creek crossing points during intense wet season rain. Our team monitors these conditions before every Southern Suburbs coastal move and plans arrival windows that avoid the worst of the afternoon storm season.",
     nearbySubs: ["El Arish", "Mission Beach", "Silkwood", "Bingil Bay"],
     priceFrom: "$179/hr",
-    serviceArea: "Kurrimine Beach & Cassowary Coast",
+    serviceArea: "Kurrimine Beach & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -566,7 +566,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "bingil-bay",
     name: "Bingil Bay",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "135km south",
     postcode: "4852",
@@ -580,7 +580,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
       "Bingil Bay is reached via the Mission Beach road from the Bruce Highway at El Arish, approximately 135km from Cairns. The entire coastal corridor through the Mission Beach villages is a narrow, winding road through dense vegetation — unsuitable for large articulated trucks. We use appropriately-sized vehicles for all Bingil Bay moves and plan vehicle access to each property before the move day to avoid any on-the-day surprises.",
     nearbySubs: ["Mission Beach", "Wongaling Beach", "El Arish"],
     priceFrom: "$179/hr",
-    serviceArea: "Bingil Bay & Cassowary Coast",
+    serviceArea: "Bingil Bay & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Bingil Bay | R2G Transport & Storage | From $179/hr",
@@ -628,7 +628,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "tully-heads",
     name: "Tully Heads",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "155km south",
     postcode: "4854",
@@ -642,7 +642,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
       "Tully Heads sits approximately 155km from Cairns, adding a coastal access road beyond Tully to the Bruce Highway travel time. This access road passes through low-lying cane flats that are particularly vulnerable to flooding when the Tully River is running high during the wet season. Our team tracks Tully River conditions before every move to this location and maintains clear communication with clients if weather conditions require rescheduling.",
     nearbySubs: ["Tully", "Mission Beach", "Cardwell"],
     priceFrom: "$179/hr",
-    serviceArea: "Tully Heads & Cassowary Coast",
+    serviceArea: "Tully Heads & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -691,7 +691,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
   {
     slug: "wongaling-beach",
     name: "Wongaling Beach",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "142km south",
     postcode: "4852",
@@ -702,10 +702,10 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara2:
       "Wongaling Beach has a mix of beachfront holiday apartments, permanent family homes and elevated timber residences set in lush tropical gardens. Our team is experienced with the variety of property types found across the Mission Beach villages and handles the coastal move environment — including salt air, narrow access roads and sandy driveways — with the care it requires.",
     uniquePara3:
-      "As the most central of the Mission Beach villages, Wongaling Beach is approximately 142km from Cairns via the Bruce Highway and Mission Beach Road. The village sits within one of Australia's most active cyclone impact zones — Cyclone Yasi crossed directly over this area in 2011 — and residents take cyclone season seriously. We monitor Bureau of Meteorology cyclone watches closely for every wet-season move along the Cassowary Coast.",
+      "As the most central of the Mission Beach villages, Wongaling Beach is approximately 142km from Cairns via the Bruce Highway and Mission Beach Road. The village sits within one of Australia's most active cyclone impact zones — Cyclone Yasi crossed directly over this area in 2011 — and residents take cyclone season seriously. We monitor Bureau of Meteorology cyclone watches closely for every wet-season move along the Southern Suburbs.",
     nearbySubs: ["Mission Beach", "Bingil Bay", "El Arish", "Tully"],
     priceFrom: "$179/hr",
-    serviceArea: "Wongaling Beach & Cassowary Coast",
+    serviceArea: "Wongaling Beach & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
@@ -747,7 +747,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book well ahead during the dry season.",
-        text: "June to October is the most popular period for Cassowary Coast moves due to the reliable dry weather. Demand for removal services peaks during these months — book 3 to 4 weeks in advance to secure your preferred date, especially for weekend moves.",
+        text: "June to October is the most popular period for Southern Suburbs moves due to the reliable dry weather. Demand for removal services peaks during these months — book 3 to 4 weeks in advance to secure your preferred date, especially for weekend moves.",
       },
     ],
   },

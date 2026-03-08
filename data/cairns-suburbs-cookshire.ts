@@ -4,7 +4,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
   {
     slug: "cooktown",
     name: "Cooktown",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "330km north",
     postcode: "4895",
@@ -13,12 +13,12 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Cooktown holds a unique place in Australian history as the site where Captain James Cook beached the Endeavour for repairs in 1770, making it one of the oldest European contact points on the continent. Moving to or from this remote coastal town requires advance planning — the drive up the Mulligan Highway from Cairns is sealed all the way, but the town's distance and limited local labour mean booking well ahead is essential for a stress-free relocation.",
     uniquePara2:
-      "As the main service centre for Cook Shire, Cooktown supports a small but resilient permanent community alongside tourism operators, health workers and government staff. We assist with interstate and long-distance moves for those posting in or out of the region, and we understand the logistical challenges that come with one of Far North Queensland's most remote towns.",
+      "As the main service centre for Northern Cairns, Cooktown supports a small but resilient permanent community alongside tourism operators, health workers and government staff. We assist with interstate and long-distance moves for those posting in or out of the region, and we understand the logistical challenges that come with one of Far North Queensland's most remote towns.",
     uniquePara3:
       "Cooktown's streets range from sealed roads in the town centre to unsealed access tracks on the fringes. During the wet season (November to April), some outer properties become inaccessible without a 4WD. We plan all Cooktown moves for the dry season where possible, and always confirm road conditions in advance. Storage at our Cairns depot is available if your moving window falls during a wet-season closure.",
-    nearbySubs: ["Rossville", "Hope Vale", "Laura"],
+    nearbySubs: ["Rossville", "Hope Vale", "Lakeland"],
     priceFrom: "$179/hr",
-    serviceArea: "Cooktown & Cook Shire",
+    serviceArea: "Cooktown & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Cooktown | R2G Transport & Storage | From $179/hr",
@@ -66,7 +66,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
   {
     slug: "bloomfield",
     name: "Bloomfield",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "230km north",
     postcode: "4895",
@@ -80,7 +80,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
       "Because the Bloomfield Track requires a 4WD or high-clearance vehicle, we use purpose-suited vehicles for the final section of your move. Larger furniture may need to be disassembled prior to transport to fit safely along the narrow, steep track. Our team will advise you at the quoting stage on any items that need special preparation so there are no surprises on moving day.",
     nearbySubs: ["Ayton", "Cooktown", "Rossville"],
     priceFrom: "$179/hr",
-    serviceArea: "Bloomfield & Cook Shire",
+    serviceArea: "Bloomfield & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Bloomfield | R2G Transport & Storage | From $179/hr",
@@ -128,21 +128,21 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
   {
     slug: "rossville",
     name: "Rossville",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "280km north",
     postcode: "4895",
     latitude: -15.6898,
     longitude: 145.2280,
     uniquePara1:
-      "Rossville is a quiet rainforest community situated along the Mulligan Highway roughly halfway between Cooktown and the Daintree region. The sealed highway makes access more reliable than many other Cook Shire locations, though the surrounding areas feature a mix of farming properties and rainforest retreats with unsealed access roads that require careful planning.",
+      "Rossville is a quiet rainforest community situated along the Mulligan Highway roughly halfway between Cooktown and the Daintree region. The sealed highway makes access more reliable than many other Northern Cairns locations, though the surrounding areas feature a mix of farming properties and rainforest retreats with unsealed access roads that require careful planning.",
     uniquePara2:
       "The community around Rossville attracts those seeking a genuinely remote lifestyle surrounded by some of Australia's most pristine rainforest. We assist with relocations for farmers, conservation workers and tree-changers moving to or from the area, and we are familiar with the range of property types — from small homesteads to larger rural blocks along side tracks off the Mulligan Highway.",
     uniquePara3:
       "Rossville sits in an area that receives high wet-season rainfall, and while the Mulligan Highway itself is generally reliable, side tracks to rural properties can become impassable from November through April. We assess each property's access individually and recommend dry-season moves for any home not directly on the sealed highway. Our Cairns storage facility provides a practical buffer if your dates straddle a wet-season period.",
     nearbySubs: ["Cooktown", "Helenvale", "Bloomfield"],
     priceFrom: "$179/hr",
-    serviceArea: "Rossville & Cook Shire",
+    serviceArea: "Rossville & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Rossville | R2G Transport & Storage | From $179/hr",
@@ -190,7 +190,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
   {
     slug: "ayton",
     name: "Ayton",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "220km north",
     postcode: "4895",
@@ -204,7 +204,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
       "The Bloomfield River crossing near Ayton can be affected by heavy rain and seasonal flooding, occasionally cutting the town off temporarily. We monitor water levels and road conditions before departing Cairns and maintain open communication with clients throughout the moving process. For added peace of mind, our secure Cairns storage facility can hold your belongings until road conditions are confirmed safe.",
     nearbySubs: ["Bloomfield", "Rossville", "Cooktown"],
     priceFrom: "$179/hr",
-    serviceArea: "Ayton & Cook Shire",
+    serviceArea: "Ayton & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Ayton | R2G Transport & Storage | From $179/hr",
@@ -252,7 +252,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
   {
     slug: "helenvale",
     name: "Helenvale",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "270km north",
     postcode: "4895",
@@ -266,7 +266,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
       "Helenvale's location roughly midway between Cairns and Cooktown makes it a natural stopping point for long-haul moves along the Cape York corridor. Our crew is experienced with this stretch of the Mulligan Highway and knows how to manage long-distance moves efficiently, including arranging break stops and planning loadings to take advantage of the cooler morning hours in this part of Far North Queensland.",
     nearbySubs: ["Rossville", "Cooktown", "Bloomfield"],
     priceFrom: "$179/hr",
-    serviceArea: "Helenvale & Cook Shire",
+    serviceArea: "Helenvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Helenvale | R2G Transport & Storage | From $179/hr",
@@ -314,7 +314,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
   {
     slug: "hope-vale",
     name: "Hope Vale",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "370km north",
     postcode: "4895",
@@ -326,9 +326,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
       "Access to Hope Vale is via an unsealed road from Cooktown, which makes wet-season moves essentially impossible and limits the suitable moving window to the dry months between May and October. We work closely with community members and families to plan moves that align with access conditions and community schedules, ensuring a smooth and considerate relocation experience.",
     uniquePara3:
       "As Hope Vale sits on community land, some properties and access arrangements differ from standard residential moves. We recommend contacting the Hope Vale Aboriginal Shire Council prior to confirming your moving date to ensure any access requirements or local protocols are met. Our team is experienced working in remote Indigenous community contexts and will always follow local guidance throughout the move.",
-    nearbySubs: ["Cooktown", "Laura", "Rossville"],
+    nearbySubs: ["Cooktown", "Lakeland", "Rossville"],
     priceFrom: "$179/hr",
-    serviceArea: "Hope Vale & Cook Shire",
+    serviceArea: "Hope Vale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Hope Vale | R2G Transport & Storage | From $179/hr",
@@ -369,76 +369,14 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Advance planning is essential at this distance.",
-        text: "Hope Vale is 370km from our Cairns base — the most remote destination in our Cook Shire service area. We require at least 4-6 weeks notice to plan the logistics, confirm access conditions and schedule the crew appropriately.",
-      },
-    ],
-  },
-  {
-    slug: "laura",
-    name: "Laura",
-    region: "Cook Shire",
-    state: "QLD",
-    distanceFromCBD: "350km northwest",
-    postcode: "4892",
-    latitude: -15.5505,
-    longitude: 144.4465,
-    uniquePara1:
-      "Laura is an outback township on the Palmer River Road, historically significant as a former goldfield hub and now renowned for the nearby Quinkan rock art sites, which are among the most important Aboriginal heritage sites in Australia. The town serves as a supply and rest stop for travellers heading up the Peninsula Development Road towards Weipa and the tip of Cape York.",
-    uniquePara2:
-      "Laura is accessed via the Peninsula Development Road, which is sealed as far as Laura from the south but transitions to predominantly unsealed conditions heading further north. Moves to Laura require thorough planning — our team is experienced with remote inland Queensland destinations and understands the particular challenges of long-haul moves on outback roads well away from the coast.",
-    uniquePara3:
-      "The Palmer River floodplain around Laura is highly sensitive to wet-season rain, with the Peninsula Development Road regularly closing north and south of the town from November through April. We plan all Laura moves for the dry season and strongly advise against flexible wet-season bookings in this area. Our Cairns depot can store your belongings safely if your schedule needs adjusting around seasonal conditions.",
-    nearbySubs: ["Cooktown", "Hope Vale", "Lakeland"],
-    priceFrom: "$179/hr",
-    serviceArea: "Laura & Cook Shire",
-    address: "36 Abbott St, Cairns City QLD 4870",
-    phone: "1300 959 498",
-    metaTitle: "Removalists Laura QLD | R2G Transport & Storage | From $179/hr",
-    metaDescription:
-      "Remote removalists serving Laura on the Peninsula Development Road. Outback moves planned for dry-season access. From $179/hr, fully insured. Call 1300 959 498.",
-    reviews: [
-      {
-        text: "R2G moved us to our property near Laura in June. They knew the Peninsula Development Road conditions, planned the trip carefully and arrived on time despite the distance. Everything was handled with care — great service.",
-        name: "Wayne D.",
-        location: "Laura",
-        date: "June 2024",
-      },
-      {
-        text: "Moving from Laura to Cairns with R2G was an excellent experience. They factored in the road conditions, kept us informed and the whole move ran smoothly. Couldn't ask for better removalists for such a remote job.",
-        name: "Karen A.",
-        location: "Laura → Cairns",
-        date: "August 2024",
-      },
-      {
-        text: "We appreciated how R2G treated our outback move with the same professionalism as a city job. Respectful of the country, careful with our gear and totally reliable. Highly recommend for Cape York moves.",
-        name: "Rob S.",
-        location: "Laura",
-        date: "September 2024",
-      },
-    ],
-    tips: [
-      {
-        heading: "Only move in the dry season.",
-        text: "The Peninsula Development Road around Laura can close from November through April due to wet-season flooding on the Palmer River floodplain. All moves must be planned for May to October to guarantee road access.",
-      },
-      {
-        heading: "Confirm road conditions via RACQ or local sources.",
-        text: "Even in the dry season, road conditions on the Peninsula Development Road can vary after localised rain. We check current conditions through RACQ Queensland Road Closures before departing Cairns on your moving day.",
-      },
-      {
-        heading: "Plan for fuel and rest stops on the 350km haul.",
-        text: "Laura is a long drive from Cairns via Mareeba and Mt Carbine. Our crew plans fuel and rest stops on the Peninsula Development Road approach. Ensure your property is fully ready for unloading on arrival to make the most of available daylight.",
-      },
-      {
-        heading: "Use storage if your dates are near the season changeover.",
-        text: "If your move falls near the start or end of the wet season, consider using our Cairns depot storage as a buffer. This gives you flexibility to move when the road is safely confirmed open rather than being locked to a risky date.",
+        text: "Hope Vale is 370km from our Cairns base — the most remote destination in our Northern Cairns service area. We require at least 4-6 weeks notice to plan the logistics, confirm access conditions and schedule the crew appropriately.",
       },
     ],
   },
   {
     slug: "lakeland",
     name: "Lakeland",
-    region: "Cook Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "260km north",
     postcode: "4871",
@@ -447,12 +385,12 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Lakeland is a small rural township at the junction of the Mulligan Highway and the Peninsula Development Road — the last sealed road intersection before the Cape York Peninsula proper begins. The township serves travellers and residents heading to Laura, Cooktown or further north, and its agricultural surrounds include cattle and sugarcane farming on the Lakeland Downs plateau.",
     uniquePara2:
-      "Moves to and from Lakeland benefit from good sealed access on the Mulligan Highway, making this one of the more accessible remote locations in Cook Shire. However, the rural properties surrounding the township are typically on unsealed tracks that can deteriorate significantly during the wet season. We assess individual property access carefully and recommend dry-season moves for all off-highway destinations.",
+      "Moves to and from Lakeland benefit from good sealed access on the Mulligan Highway, making this one of the more accessible remote locations in Northern Cairns. However, the rural properties surrounding the township are typically on unsealed tracks that can deteriorate significantly during the wet season. We assess individual property access carefully and recommend dry-season moves for all off-highway destinations.",
     uniquePara3:
       "Lakeland's position at the junction of two major Cape York highways makes it a practical staging point for complex multi-destination moves further up the peninsula. If you are relocating to multiple properties or coordinating a move that extends beyond Lakeland towards Laura or Cooktown, our team can plan a combined run to maximise efficiency and reduce overall cost.",
-    nearbySubs: ["Laura", "Cooktown", "Rossville"],
+    nearbySubs: ["Cooktown", "Rossville", "Lakeland"],
     priceFrom: "$179/hr",
-    serviceArea: "Lakeland & Cook Shire",
+    serviceArea: "Lakeland & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Lakeland QLD | R2G Transport & Storage | From $179/hr",
@@ -481,7 +419,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "The Mulligan Highway provides reliable sealed access.",
-        text: "Unlike many Cook Shire locations, Lakeland township sits directly on the sealed Mulligan Highway, making it more accessible than surrounding areas. However, confirm your specific property address and any unsealed approach roads when booking.",
+        text: "Unlike many Northern Cairns locations, Lakeland township sits directly on the sealed Mulligan Highway, making it more accessible than surrounding areas. However, confirm your specific property address and any unsealed approach roads when booking.",
       },
       {
         heading: "Rural properties should move in the dry season.",

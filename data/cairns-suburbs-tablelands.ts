@@ -4,7 +4,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "kuranda",
     name: "Kuranda",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "25km northwest",
     postcode: "4881",
@@ -18,7 +18,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
       "Access to Kuranda is via the Kennedy Highway through Barron Gorge, a winding mountain road with hairpin bends that requires careful navigation in a removal truck. We use appropriately sized vehicles for Kuranda moves and ensure loads are secured tightly for the mountain ascent. The cooler, more humid conditions up the range also mean we take extra care wrapping timber furniture and electronics that can be sensitive to sudden changes in temperature and moisture.",
     nearbySubs: ["Smithfield", "Caravonica", "Mareeba"],
     priceFrom: "$179/hr",
-    serviceArea: "Kuranda & Atherton Tablelands",
+    serviceArea: "Kuranda & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Kuranda | R2G Transport & Storage | From $179/hr",
@@ -66,7 +66,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "malanda",
     name: "Malanda",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "75km southwest",
     postcode: "4885",
@@ -80,12 +80,12 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
       "Malanda is accessed via the Palmerston Highway from the coast or through Atherton and Yungaburra from the north. Both routes involve significant elevation changes and winding road sections. We assess the best approach route for each move depending on load size, destination and current road conditions. At over 700 metres above sea level, Malanda can experience genuine cold snaps — we carry moving blankets rated for Tablelands temperatures to keep your furniture protected during loading and unloading.",
     nearbySubs: ["Yungaburra", "Atherton", "Millaa Millaa"],
     priceFrom: "$179/hr",
-    serviceArea: "Malanda & Atherton Tablelands",
+    serviceArea: "Malanda & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Malanda | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Experienced removalists in Malanda serving the Atherton Tablelands dairy country. Local & regional moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498.",
+      "Experienced removalists in Malanda serving the Western Suburbs dairy country. Local & regional moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G helped us move our entire farmhouse from Malanda to a smaller property near Yungaburra. They were careful with all our older timber furniture and knew the Tablelands roads well. Highly recommend for any rural Tablelands move.",
@@ -128,21 +128,21 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "ravenshoe",
     name: "Ravenshoe",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "115km southwest",
     postcode: "4888",
     latitude: -17.6064,
     longitude: 145.4842,
     uniquePara1:
-      "Ravenshoe is Queensland's highest town, sitting at over 900 metres above sea level on the southern edge of the Atherton Tablelands. Known for its wind farms, cool climate and surrounding dry rainforest, Ravenshoe attracts tree-changers and farming families seeking a quieter lifestyle well away from the coast.",
+      "Ravenshoe is Queensland's highest town, sitting at over 900 metres above sea level on the southern edge of the Western Suburbs. Known for its wind farms, cool climate and surrounding dry rainforest, Ravenshoe attracts tree-changers and farming families seeking a quieter lifestyle well away from the coast.",
     uniquePara2:
       "Moving to or from Ravenshoe involves some of the most demanding driving conditions our team encounters in Far North Queensland. The approach from Cairns via the Kennedy Highway and Herberton is long, winding and involves considerable elevation gain — we come fully prepared for these mountain conditions on every Ravenshoe job.",
     uniquePara3:
       "At 930 metres elevation, Ravenshoe experiences genuine cold winters with overnight temperatures occasionally dropping near zero. We carry heavy-duty moving blankets for all Ravenshoe moves to protect furniture during loading in cold conditions. The distance from Cairns — roughly two hours each way — means we typically allow a full day for a Ravenshoe move and quote accordingly to ensure there are no surprises on the bill.",
     nearbySubs: ["Herberton", "Millaa Millaa", "Atherton"],
     priceFrom: "$179/hr",
-    serviceArea: "Ravenshoe & Atherton Tablelands",
+    serviceArea: "Ravenshoe & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Ravenshoe | R2G Transport & Storage | From $179/hr",
@@ -190,26 +190,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "herberton",
     name: "Herberton",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "85km southwest",
     postcode: "4887",
     latitude: -17.3839,
     longitude: 145.3844,
     uniquePara1:
-      "Herberton is a historic tin-mining town on the western edge of the Atherton Tablelands, known for its famous Historic Village outdoor museum and cooler climate. The town retains much of its original character with classic Queenslander homes and large timber properties that require careful, experienced handling during a move.",
+      "Herberton is a historic tin-mining town on the western edge of the Western Suburbs, known for its famous Historic Village outdoor museum and cooler climate. The town retains much of its original character with classic Queenslander homes and large timber properties that require careful, experienced handling during a move.",
     uniquePara2:
       "The Herberton Range Road that connects the town to the Kennedy Highway is one of the steepest and most winding mountain roads in Queensland. Our drivers are well-practised on this route and approach every Herberton move with the extra planning and care this demanding road demands.",
     uniquePara3:
       "Many Herberton properties are older homes with narrow hallways, steep internal staircases and heritage timber floors that require protective coverings during a move. Our team carries floor runners and door-frame protectors as standard on Herberton jobs. The high altitude also means temperatures can be significantly cooler than coastal Cairns — we work efficiently to minimise the time your belongings are exposed during loading and unloading in cold conditions.",
     nearbySubs: ["Atherton", "Ravenshoe", "Tolga"],
     priceFrom: "$179/hr",
-    serviceArea: "Herberton & Atherton Tablelands",
+    serviceArea: "Herberton & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Herberton | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Experienced removalists in Herberton on the Atherton Tablelands. Heritage home specialists and mountain road experts. From $179/hr. Fully insured. Call 1300 959 498.",
+      "Experienced removalists in Herberton on the Western Suburbs. Heritage home specialists and mountain road experts. From $179/hr. Fully insured. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our large Queenslander furniture from Herberton down to Atherton. They were incredibly careful with all the antique timber pieces, used floor runners in both properties and the Herberton Range Road section was no problem for their driver. Excellent service.",
@@ -252,26 +252,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "yungaburra",
     name: "Yungaburra",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "60km southwest",
     postcode: "4884",
     latitude: -17.2708,
     longitude: 145.5831,
     uniquePara1:
-      "Yungaburra is one of the most charming towns on the Atherton Tablelands, a heritage-listed village surrounded by volcanic crater lakes and dairy farmland. The town draws artists, families and retirees seeking the Tablelands' cooler climate and relaxed community lifestyle — and R2G regularly helps people make this popular lifestyle move.",
+      "Yungaburra is one of the most charming towns on the Western Suburbs, a heritage-listed village surrounded by volcanic crater lakes and dairy farmland. The town draws artists, families and retirees seeking the Tablelands' cooler climate and relaxed community lifestyle — and R2G regularly helps people make this popular lifestyle move.",
     uniquePara2:
       "Yungaburra's heritage streetscape means many of its homes are older Queenslanders with large verandas, steep internal stairs and heritage timber features. Our team treats every Yungaburra move with the care that these beautiful older properties deserve.",
     uniquePara3:
       "Most moves to and from Yungaburra travel via the Gillies Highway, one of Queensland's most scenic but also most challenging mountain roads. The Gillies features 263 curves between Gordonvale on the coast and the Tablelands plateau — loaded trucks navigate this road at reduced speed and require an experienced driver comfortable with sustained mountain driving. We always factor the Gillies Highway into our time estimates so your quote accurately reflects the true duration of a Yungaburra move.",
     nearbySubs: ["Malanda", "Lake Eacham", "Atherton"],
     priceFrom: "$179/hr",
-    serviceArea: "Yungaburra & Atherton Tablelands",
+    serviceArea: "Yungaburra & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Yungaburra | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Trusted removalists in Yungaburra on the Atherton Tablelands. Gillies Highway experts and heritage home specialists. From $179/hr. Fully insured. Call 1300 959 498.",
+      "Trusted removalists in Yungaburra on the Western Suburbs. Gillies Highway experts and heritage home specialists. From $179/hr. Fully insured. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved us from Gordonvale up to Yungaburra via the Gillies Highway and it was faultless. The driver was calm and experienced on the mountain bends, the team took great care with our furniture and we were fully unpacked by late afternoon.",
@@ -314,26 +314,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "tolga",
     name: "Tolga",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "55km southwest",
     postcode: "4882",
     latitude: -17.2107,
     longitude: 145.4780,
     uniquePara1:
-      "Tolga is a small farming community on the Atherton Tablelands plateau, best known for its woodworks gallery and surrounding peanut and maize farms. The town offers affordable acreage living at Tablelands altitude and we regularly assist families making the move to this relaxed agricultural community.",
+      "Tolga is a small farming community on the Western Suburbs plateau, best known for its woodworks gallery and surrounding peanut and maize farms. The town offers affordable acreage living at Tablelands altitude and we regularly assist families making the move to this relaxed agricultural community.",
     uniquePara2:
       "Properties around Tolga frequently include large blocks with sheds, machinery and the kind of heavy rural equipment that requires proper loading equipment and experienced handling. Our team is equipped for farm and lifestyle property moves throughout the Tablelands region.",
     uniquePara3:
       "Tolga sits on the flat Tablelands plateau between Atherton and Mareeba, making it one of the more straightforward Tablelands locations to access by road for a removal truck. The cooler plateau temperatures — often 5 to 8 degrees below coastal Cairns — make for more comfortable moving conditions in summer, though winter mornings can be genuinely cold and we come prepared with the appropriate gear and truck rugs for furniture protection.",
     nearbySubs: ["Atherton", "Walkamin", "Mareeba"],
     priceFrom: "$179/hr",
-    serviceArea: "Tolga & Atherton Tablelands",
+    serviceArea: "Tolga & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Tolga | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Reliable removalists in Tolga on the Atherton Tablelands. Farm and lifestyle property specialists. Local moves from $179/hr. Fully insured. Call 1300 959 498 for a free quote.",
+      "Reliable removalists in Tolga on the Western Suburbs. Farm and lifestyle property specialists. Local moves from $179/hr. Fully insured. Call 1300 959 498 for a free quote.",
     reviews: [
       {
         text: "R2G moved our farm contents from a property near Tolga into Atherton township. They handled all our heavy rural gear without any problems and were efficient, professional and good value. Definitely using them again.",
@@ -376,26 +376,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "walkamin",
     name: "Walkamin",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "50km west",
     postcode: "4882",
     latitude: -17.1367,
     longitude: 145.4243,
     uniquePara1:
-      "Walkamin is a quiet agricultural community on the Atherton Tablelands, home to the CSIRO research station and surrounded by sugarcane and vegetable farming country. The area appeals to those seeking a rural lifestyle within reach of both Atherton and Mareeba services.",
+      "Walkamin is a quiet agricultural community on the Western Suburbs, home to the CSIRO research station and surrounded by sugarcane and vegetable farming country. The area appeals to those seeking a rural lifestyle within reach of both Atherton and Mareeba services.",
     uniquePara2:
       "The flat plateau terrain around Walkamin makes for relatively easy truck access compared to many other Tablelands locations, though rural property driveways can be long and occasionally require a smaller vehicle for the final approach. Our team plans every Walkamin move around the specific access requirements of your property.",
     uniquePara3:
       "Walkamin sits between Mareeba to the north and Atherton to the south, making it a well-connected Tablelands community despite its small size. The cooler plateau climate — well above the humidity of coastal Cairns — means furniture and boxes travel well in the drier conditions. We often handle moves for CSIRO and research community staff transferring to and from this location, so we are familiar with the specific access requirements of the area.",
     nearbySubs: ["Mareeba", "Tolga", "Atherton"],
     priceFrom: "$179/hr",
-    serviceArea: "Walkamin & Atherton Tablelands",
+    serviceArea: "Walkamin & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Walkamin | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Removalists in Walkamin on the Atherton Tablelands. Rural and research community moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 today.",
+      "Removalists in Walkamin on the Western Suburbs. Rural and research community moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 today.",
     reviews: [
       {
         text: "R2G moved us into our new place in Walkamin from Cairns City and were brilliant. They found our rural property without any hassle, handled the long driveway perfectly and had us fully unloaded by early afternoon. Great team.",
@@ -438,7 +438,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "millaa-millaa",
     name: "Millaa Millaa",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "90km south",
     postcode: "4886",
@@ -452,12 +452,12 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
       "Millaa Millaa's high elevation and elevated annual rainfall mean the area experiences genuine cold and dampness that is unusual for Far North Queensland. We use additional furniture blankets, plastic wrapping and sealed storage solutions for Millaa Millaa moves to protect against the climate. The distance and complexity of the Palmerston Highway route means Millaa Millaa jobs are always quoted as full-day assignments with honest, transparent pricing from the outset.",
     nearbySubs: ["Malanda", "Ravenshoe", "Atherton"],
     priceFrom: "$179/hr",
-    serviceArea: "Millaa Millaa & Atherton Tablelands",
+    serviceArea: "Millaa Millaa & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Millaa Millaa | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Removalists in Millaa Millaa on the southern Atherton Tablelands. Palmerston Highway specialists. Full-day moves from $179/hr. Fully insured. Call 1300 959 498.",
+      "Removalists in Millaa Millaa on the southern Western Suburbs. Palmerston Highway specialists. Full-day moves from $179/hr. Fully insured. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to a dairy property outside Millaa Millaa. The Palmerston Highway was no problem for their driver and every piece of furniture arrived in perfect condition. Thorough, professional and worth every cent.",
@@ -500,26 +500,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "tinaroo",
     name: "Tinaroo",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "50km southwest",
     postcode: "4884",
     latitude: -17.1762,
     longitude: 145.5558,
     uniquePara1:
-      "Tinaroo is a peaceful lakeside community on the shores of Lake Tinaroo — the Atherton Tablelands' largest lake and a popular recreation destination. Holiday homes, permanent residences and rural retreats surround the lake, and R2G assists with moves throughout the Tinaroo area year-round.",
+      "Tinaroo is a peaceful lakeside community on the shores of Lake Tinaroo — the Western Suburbs' largest lake and a popular recreation destination. Holiday homes, permanent residences and rural retreats surround the lake, and R2G assists with moves throughout the Tinaroo area year-round.",
     uniquePara2:
       "Many Tinaroo properties sit on steep, bush-clad hillsides descending to the lake foreshore with narrow unsealed driveways that require careful vehicle selection. Our team inspects access details for every Tinaroo job before arrival to ensure the right equipment and vehicle size is on site.",
     uniquePara3:
       "The Tinaroo area experiences the classic Tablelands climate — significantly cooler and wetter than coastal Cairns, with morning mists rolling across the lake common throughout much of the year. We bring additional furniture protection for Tinaroo moves to guard against moisture, and our drivers are experienced with the narrow, winding roads that thread through the lake foreshore communities. Lake-level rises during the wet season can temporarily affect low-lying access tracks, so we always confirm road conditions ahead of wet season moves.",
     nearbySubs: ["Atherton", "Yungaburra", "Kairi"],
     priceFrom: "$179/hr",
-    serviceArea: "Tinaroo & Atherton Tablelands",
+    serviceArea: "Tinaroo & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Tinaroo | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Removalists in Tinaroo on Lake Tinaroo, Atherton Tablelands. Lakeside property specialists with mountain road experience. From $179/hr. Fully insured. Call 1300 959 498.",
+      "Removalists in Tinaroo on Lake Tinaroo, Western Suburbs. Lakeside property specialists with mountain road experience. From $179/hr. Fully insured. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved us into our lake-view retreat on Tinaroo and the whole experience was excellent. They handled the narrow dirt driveway down to our property without any dramas and were incredibly careful with our furniture in the morning mist. Highly recommended.",
@@ -562,26 +562,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "kairi",
     name: "Kairi",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "55km southwest",
     postcode: "4882",
     latitude: -17.2171,
     longitude: 145.5461,
     uniquePara1:
-      "Kairi is a small farming community on the Atherton Tablelands plateau, surrounded by tobacco history, tobacco barns and modern vegetable growing operations. The town offers a quiet rural lifestyle and affordable acreage, attracting families who want the Tablelands' cooler climate without the crowds of larger plateau towns.",
+      "Kairi is a small farming community on the Western Suburbs plateau, surrounded by tobacco history, tobacco barns and modern vegetable growing operations. The town offers a quiet rural lifestyle and affordable acreage, attracting families who want the Tablelands' cooler climate without the crowds of larger plateau towns.",
     uniquePara2:
       "Agricultural properties around Kairi often include large sheds, farm machinery and extensive outdoor equipment that require experienced handling and appropriate loading gear. Our team is well-practised with rural Tablelands moves and brings the right equipment for heavy and bulky farm contents.",
     uniquePara3:
       "Kairi sits centrally on the plateau between Atherton, Tinaroo and Tolga, making it accessible via several plateau road routes. The flat terrain in and around town allows for relatively straightforward truck access compared to range-side communities, though rural property tracks can be challenging after rain. The Tablelands plateau climate around Kairi is noticeably cooler and drier than the coast, with refreshingly comfortable temperatures for moving in summer and genuinely cold mornings during the dry season winter months.",
     nearbySubs: ["Atherton", "Tinaroo", "Tolga"],
     priceFrom: "$179/hr",
-    serviceArea: "Kairi & Atherton Tablelands",
+    serviceArea: "Kairi & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Kairi | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Trusted removalists in Kairi on the Atherton Tablelands. Rural and farming property specialists. Local moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498.",
+      "Trusted removalists in Kairi on the Western Suburbs. Rural and farming property specialists. Local moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our farm property contents from Kairi into Atherton and did a fantastic job. They knew how to handle all the heavy rural equipment and the two-man crew worked incredibly efficiently. Will definitely use them again.",
@@ -624,26 +624,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "lake-eacham",
     name: "Lake Eacham",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "65km southwest",
     postcode: "4884",
     latitude: -17.2883,
     longitude: 145.6264,
     uniquePara1:
-      "Lake Eacham is a stunning volcanic crater lake within the Wet Tropics World Heritage Area, surrounded by ancient rainforest on the Atherton Tablelands. The small community around the lake includes nature-based tourism properties, rural retreats and permanent residences that attract people seeking a truly exceptional natural environment to call home.",
+      "Lake Eacham is a stunning volcanic crater lake within the Wet Tropics World Heritage Area, surrounded by ancient rainforest on the Western Suburbs. The small community around the lake includes nature-based tourism properties, rural retreats and permanent residences that attract people seeking a truly exceptional natural environment to call home.",
     uniquePara2:
       "Properties around Lake Eacham are typically set within or adjacent to dense rainforest, with narrow access roads that require careful navigation. The protected nature of the surrounding World Heritage Area means access and vehicle movement around the lake must be planned thoughtfully — something our experienced Tablelands team does as a matter of course.",
     uniquePara3:
       "Lake Eacham's location within the Wet Tropics World Heritage Area means that some access roads have strict conditions around vehicle size and noise. We review access requirements for each Lake Eacham move individually and select the appropriate vehicle to ensure compliance with any relevant restrictions. The elevated humidity and high rainfall of the crater lake environment also require us to use thorough moisture protection for all furniture and contents, including plastic wrapping for upholstery and sealed boxes for any moisture-sensitive items.",
     nearbySubs: ["Yungaburra", "Malanda", "Atherton"],
     priceFrom: "$179/hr",
-    serviceArea: "Lake Eacham & Atherton Tablelands",
+    serviceArea: "Lake Eacham & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Lake Eacham | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Removalists in Lake Eacham, Atherton Tablelands. World Heritage rainforest property specialists. Local & Tablelands moves from $179/hr. Fully insured. Call 1300 959 498.",
+      "Removalists in Lake Eacham, Western Suburbs. World Heritage rainforest property specialists. Local & Tablelands moves from $179/hr. Fully insured. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G helped us move into our rainforest property near Lake Eacham and they were exceptional. They understood the access sensitivities of the area, chose the right vehicle and handled all our furniture carefully in the humid rainforest conditions. Couldn't be happier.",
@@ -686,26 +686,26 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
   {
     slug: "mount-garnet",
     name: "Mount Garnet",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "150km southwest",
     postcode: "4872",
     latitude: -17.6835,
     longitude: 145.1147,
     uniquePara1:
-      "Mount Garnet is a remote mining and cattle community on the western edge of the Atherton Tablelands, situated in dry savanna country at the transition between the tropical tablelands and the Outback. The town services a large surrounding station and mining district and attracts those seeking genuine outback-fringe living at Tablelands elevation.",
+      "Mount Garnet is a remote mining and cattle community on the western edge of the Western Suburbs, situated in dry savanna country at the transition between the tropical tablelands and the Outback. The town services a large surrounding station and mining district and attracts those seeking genuine outback-fringe living at Tablelands elevation.",
     uniquePara2:
       "At 150 kilometres from Cairns, Mount Garnet is one of our most remote regular service destinations. The journey via the Kennedy Highway and Atherton involves a long mountain descent and significant outback driving — something our experienced drivers handle professionally as part of our commitment to serving all of the Tablelands region.",
     uniquePara3:
       "Mount Garnet moves are always quoted as full-day or multi-day assignments depending on the load size, and we are completely transparent about this from the first inquiry. The Kennedy Highway between Atherton and Mount Garnet traverses open savanna country and can be subject to cattle on the road and heat shimmer in summer — our drivers are briefed on these conditions. Despite its remoteness, Mount Garnet has a strong community and we are proud to provide professional removalist services to this part of Far North Queensland that is often overlooked by other operators.",
     nearbySubs: ["Ravenshoe", "Atherton", "Herberton"],
     priceFrom: "$179/hr",
-    serviceArea: "Mount Garnet & Atherton Tablelands",
+    serviceArea: "Mount Garnet & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Mount Garnet | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Removalists in Mount Garnet on the western Atherton Tablelands. Remote and station property moves from $179/hr. Fully insured. Call 1300 959 498 for a free quote.",
+      "Removalists in Mount Garnet on the western Western Suburbs. Remote and station property moves from $179/hr. Fully insured. Call 1300 959 498 for a free quote.",
     reviews: [
       {
         text: "R2G is one of the few removal companies willing to service Mount Garnet and they do it superbly. Full-day job handled professionally from start to finish. The driver knew the Kennedy Highway well and every item arrived in great condition.",
