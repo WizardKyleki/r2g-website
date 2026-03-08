@@ -1,4 +1,7 @@
 import type { Suburb } from "./suburbs";
+import { sunshineCoastCoastalSuburbs } from "./sunshine-coast-suburbs-coastal";
+import { sunshineCoastCentralSuburbs } from "./sunshine-coast-suburbs-central";
+import { sunshineCoastHinterlandSuburbs } from "./sunshine-coast-suburbs-hinterland";
 
 export interface SunshineCoastSuburb extends Suburb {
   reviews: { text: string; name: string; location: string; date: string }[];
@@ -6,7 +9,7 @@ export interface SunshineCoastSuburb extends Suburb {
   uniquePara3: string;
 }
 
-export const sunshineCoastSuburbs: SunshineCoastSuburb[] = [
+const coreSuburbs: SunshineCoastSuburb[] = [
   {
     slug: "maroochydore",
     name: "Maroochydore",
@@ -1248,6 +1251,13 @@ export const sunshineCoastSuburbs: SunshineCoastSuburb[] = [
       },
     ],
   },
+];
+
+export const sunshineCoastSuburbs: SunshineCoastSuburb[] = [
+  ...coreSuburbs,
+  ...sunshineCoastCoastalSuburbs,
+  ...sunshineCoastCentralSuburbs,
+  ...sunshineCoastHinterlandSuburbs,
 ];
 
 export function getSunshineCoastSuburb(slug: string): SunshineCoastSuburb | undefined {
