@@ -26,6 +26,8 @@ export const NAV_LINKS = [
     children: [
       { label: "Removalists Cairns", href: "/removalists-cairns" },
       { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+      { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+      { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
     ],
   },
   {

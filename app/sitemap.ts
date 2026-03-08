@@ -19,6 +19,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-cairns`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const },
+    { url: `${BASE_URL}/removalists-gold-coast`, priority: 1.0, changeFrequency: "weekly" as const },
+    { url: `${BASE_URL}/removalists-sunshine-coast`, priority: 1.0, changeFrequency: "weekly" as const },
     { url: `${BASE_URL}/ndis-removalists`, priority: 0.8, changeFrequency: "monthly" as const },
     { url: `${BASE_URL}/interstate-removalists`, priority: 0.9, changeFrequency: "monthly" as const },
   ].map((page) => ({ ...page, lastModified: today }));
@@ -53,6 +55,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "rocklea", "oxley", "corinda", "graceville", "chelmer",
   ].map((suburb) => ({
     url: `${BASE_URL}/removalists-brisbane/${suburb}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  // Gold Coast suburb pages
+  const goldCoastSuburbs = [
+    "surfers-paradise", "southport", "robina", "nerang", "burleigh-heads",
+    "broadbeach", "coomera", "helensvale", "varsity-lakes", "mudgeeraba",
+    "pacific-pines", "ashmore", "mermaid-beach", "coolangatta", "palm-beach",
+    "tugun", "ormeau", "runaway-bay", "labrador", "currumbin",
+  ].map((suburb) => ({
+    url: `${BASE_URL}/removalists-gold-coast/${suburb}`,
+    lastModified: today,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  // Sunshine Coast suburb pages
+  const sunshineCoastSuburbs = [
+    "maroochydore", "caloundra", "noosa-heads", "mooloolaba", "buderim",
+    "nambour", "sippy-downs", "kawana-waters", "coolum-beach", "peregian-springs",
+    "palmwoods", "beerwah", "landsborough", "maleny", "glass-house-mountains",
+    "bli-bli", "yandina", "woombye", "eudlo", "kenilworth",
+  ].map((suburb) => ({
+    url: `${BASE_URL}/removalists-sunshine-coast/${suburb}`,
     lastModified: today,
     changeFrequency: "monthly" as const,
     priority: 0.8,
@@ -98,5 +126,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbs, ...goldCoastSuburbs, ...sunshineCoastSuburbs, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
 }
