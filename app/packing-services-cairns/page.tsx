@@ -187,6 +187,26 @@ export default function PackingServicesPage() {
       </section>
 
       <FAQ items={faqs} heading="Packing Services FAQ" />
+
+      {/* ── RELATED SERVICES ──────────────────────────────────────────────── */}
+      <section className="bg-gray-50 py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl font-black text-[#1A1A1A] text-center mb-6">Related Services</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {[
+              { title: "Moving Boxes & Supplies", desc: "Quality boxes and packing materials delivered to your door.", href: "/boxes" },
+              { title: "Storage Cairns", desc: "Secure short and long-term storage facilities.", href: "/storage-cairns" },
+              { title: "Removalists Cairns", desc: "Local moves across Cairns and Far North Queensland.", href: "/removalists-cairns" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="group p-5 bg-white border border-gray-100 rounded-xl hover:border-[#F5C400] transition-colors">
+                <h3 className="font-bold text-[#1A1A1A] mb-1 group-hover:text-[#F5C400] transition-colors">{link.title}</h3>
+                <p className="text-gray-500 text-sm">{link.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CTABanner
         heading="Ready to Take the Stress Out of Packing?"
         subtext="Our professional packers in Cairns are ready to help. Get a free, no-obligation quote today."

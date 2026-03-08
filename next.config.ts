@@ -19,14 +19,6 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async rewrites() {
-    return [
-      {
-        source: "/removalists-:suburb",
-        destination: "/removalists/:suburb",
-      },
-    ];
-  },
 };
 
 export default nextConfig;

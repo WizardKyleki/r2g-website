@@ -386,6 +386,29 @@ export default async function BlogPostPage({
         </section>
       )}
 
+      {/* ── SERVICE LINKS ─────────────────────────────────────────────────── */}
+      <section className="py-12 border-t border-gray-100">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-4">Our Services</p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { label: "Removalists Cairns", href: "/removalists-cairns" },
+              { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+              { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Interstate Removals", href: "/interstate-removalists" },
+              { label: "Packing Services", href: "/packing-services-cairns" },
+              { label: "Storage", href: "/storage-cairns" },
+              { label: "Moving Boxes", href: "/boxes" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="px-3 py-1.5 bg-gray-50 text-gray-600 rounded-full text-sm border border-gray-200 hover:border-[#F5C400] hover:text-[#F5C400] transition-colors">
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
       <CTABanner
         heading="Ready to Book Your Move?"

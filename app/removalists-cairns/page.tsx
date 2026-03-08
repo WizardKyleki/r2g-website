@@ -552,7 +552,7 @@ export default function RemovalistsCairnsPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-14">
             {["Inner Cairns", "Northern Cairns", "Western Suburbs", "Southern Suburbs"].map((region) => {
               const regionSuburbs = cairnsSuburbs
                 .filter((s) => s.region === region)
@@ -567,7 +567,7 @@ export default function RemovalistsCairnsPage() {
                     {regionSuburbs.map((suburb) => (
                       <Link
                         key={suburb.slug}
-                        href={`/removalists-${suburb.slug}`}
+                        href={`/removalists-cairns/${suburb.slug}`}
                         title={`Removalists ${suburb.name}`}
                         className="px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors"
                       >
@@ -580,7 +580,21 @@ export default function RemovalistsCairnsPage() {
             })}
           </div>
 
-          <div className="border-t border-white/10 pt-12">
+          {/* Cross-city links */}
+          <div className="flex flex-wrap gap-2 justify-center mt-6">
+            <p className="w-full text-center text-gray-500 text-xs uppercase tracking-widest font-semibold mb-2">Also Servicing</p>
+            {[
+              { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+              { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          <div className="border-t border-white/10 pt-12 mt-10">
             <h3 className="text-2xl font-black text-white text-center mb-8">
               Tips for a Smooth Cairns Move
             </h3>
