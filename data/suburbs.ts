@@ -1,3 +1,11 @@
+import { cairnsInnerSuburbs } from "./cairns-suburbs-inner";
+import { cairnsBeachSuburbs } from "./cairns-suburbs-beaches";
+import { cairnsSouthSuburbs } from "./cairns-suburbs-south";
+import { cairnsTablelandsSuburbs } from "./cairns-suburbs-tablelands";
+import { cairnsDouglasSuburbs } from "./cairns-suburbs-douglas";
+import { cairnsCassowarySuburbs } from "./cairns-suburbs-cassowary";
+import { cairnsCookShireSuburbs } from "./cairns-suburbs-cookshire";
+
 export interface Suburb {
   slug: string;
   name: string;
@@ -24,7 +32,7 @@ export interface CairnsSuburb extends Suburb {
   uniquePara3: string;
 }
 
-export const suburbs: CairnsSuburb[] = [
+const coreSuburbs: CairnsSuburb[] = [
   {
     slug: "smithfield",
     name: "Smithfield",
@@ -90,7 +98,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "trinity-beach",
     name: "Trinity Beach",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "25km north of Cairns City",
     postcode: "4879",
@@ -104,7 +112,7 @@ export const suburbs: CairnsSuburb[] = [
       "Properties along the Trinity Beach Esplanade and surrounding streets often have steep, narrow driveways that require careful truck positioning. Our drivers know the area well and come prepared with ramps and trolleys suited to elevated coastal homes. We also take extra precautions wrapping outdoor furniture and items exposed to salt air to prevent any transit damage.",
     nearbySubs: ["Kewarra Beach", "Clifton Beach", "Smithfield"],
     priceFrom: "$179/hr",
-    serviceArea: "Trinity Beach & Northern Beaches",
+    serviceArea: "Trinity Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Trinity Beach | R2G Transport & Storage | From $179/hr",
@@ -152,7 +160,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "palm-cove",
     name: "Palm Cove",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "27km north of Cairns City",
     postcode: "4879",
@@ -166,7 +174,7 @@ export const suburbs: CairnsSuburb[] = [
       "Many Palm Cove properties are located within resort complexes or gated communities that have specific access times, loading dock requirements and lift booking procedures. Our team liaises directly with body corporates and building managers ahead of time to ensure your move runs without delays. We also carry specialised padding for marble floors and premium finishes commonly found in Palm Cove residences.",
     nearbySubs: ["Trinity Beach", "Kewarra Beach", "Ellis Beach"],
     priceFrom: "$179/hr",
-    serviceArea: "Palm Cove & Northern Beaches",
+    serviceArea: "Palm Cove & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Palm Cove | R2G Transport & Storage | From $179/hr",
@@ -214,7 +222,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "edge-hill",
     name: "Edge Hill",
-    region: "Cairns Inner North",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "4km north of Cairns City",
     postcode: "4870",
@@ -276,7 +284,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "redlynch",
     name: "Redlynch",
-    region: "Cairns Western Suburbs",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "12km west of Cairns City",
     postcode: "4870",
@@ -338,7 +346,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "gordonvale",
     name: "Gordonvale",
-    region: "Cairns South",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "24km south of Cairns City",
     postcode: "4865",
@@ -400,7 +408,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "yorkeys-knob",
     name: "Yorkeys Knob",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "18km north of Cairns City",
     postcode: "4878",
@@ -414,7 +422,7 @@ export const suburbs: CairnsSuburb[] = [
       "The Half Moon Bay estate and marina precinct in Yorkeys Knob feature a mix of modern homes and canal-front properties with boat ramps and outdoor entertaining areas. Our team is experienced with handling kayaks, fishing gear, outdoor kitchens and marine equipment that are common in these coastal homes. We also know the single-access road into Yorkeys Knob well and plan accordingly to avoid bottlenecks.",
     nearbySubs: ["Holloways Beach", "Smithfield", "Caravonica"],
     priceFrom: "$179/hr",
-    serviceArea: "Yorkeys Knob & Northern Beaches",
+    serviceArea: "Yorkeys Knob & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Yorkeys Knob | R2G Transport & Storage | From $179/hr",
@@ -462,7 +470,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "whitfield",
     name: "Whitfield",
-    region: "Cairns Inner North",
+    region: "Inner Cairns",
     state: "QLD",
     distanceFromCBD: "5km north of Cairns City",
     postcode: "4870",
@@ -524,7 +532,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "freshwater",
     name: "Freshwater",
-    region: "Cairns Inner North",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "8km north of Cairns City",
     postcode: "4870",
@@ -586,7 +594,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "edmonton",
     name: "Edmonton",
-    region: "Cairns South",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "12km south of Cairns City",
     postcode: "4869",
@@ -648,26 +656,26 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "atherton",
     name: "Atherton",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "80km southwest of Cairns City",
     postcode: "4883",
     latitude: -17.2667,
     longitude: 145.4833,
     uniquePara1:
-      "Atherton is the commercial heart of the Atherton Tablelands, a thriving rural community known for its rich volcanic soil, dairy farms and stunning natural scenery. We regularly help families and businesses relocate to and from the Tablelands region.",
+      "Atherton is the commercial heart of the Western Suburbs, a thriving rural community known for its rich volcanic soil, dairy farms and stunning natural scenery. We regularly help families and businesses relocate to and from the Tablelands region.",
     uniquePara2:
       "Moves to and from Atherton often involve acreage properties, farm equipment and large household volumes. Our team is experienced with rural property access and the mountain road conditions between Cairns and the Tablelands.",
     uniquePara3:
       "The drive between Cairns and Atherton involves either the Gillies Highway or the Kuranda Range Road — both winding mountain passes that require careful load securing. Our drivers are experienced with these routes and tie down every item for the mountain journey. Atherton properties range from compact town homes near the main street to sprawling rural blocks on the outskirts, and our team brings the right combination of vehicles to handle both.",
     nearbySubs: ["Mareeba", "Innisfail", "Cairns City"],
     priceFrom: "$179/hr",
-    serviceArea: "Atherton Tablelands",
+    serviceArea: "Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Atherton | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Trusted removalists in Atherton and the Atherton Tablelands. Local and interstate moves from $179/hr. Fully insured, experienced with rural properties.",
+      "Trusted removalists in Atherton and the Western Suburbs. Local and interstate moves from $179/hr. Fully insured, experienced with rural properties.",
     reviews: [
       {
         text: "R2G moved our entire farm workshop and household from Atherton to a new property outside Mareeba. They brought two trucks, handled the range road with no issues and had everything in place by the end of the day. Couldn't believe how smooth it was.",
@@ -710,26 +718,26 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "innisfail",
     name: "Innisfail",
-    region: "Cassowary Coast",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "88km south of Cairns City",
     postcode: "4860",
     latitude: -17.5237,
     longitude: 146.0317,
     uniquePara1:
-      "Innisfail is a charming Art Deco town south of Cairns, known for its multicultural heritage, banana and sugar cane farming, and proximity to the World Heritage Wet Tropics rainforest. We service Innisfail and the surrounding Cassowary Coast region regularly.",
+      "Innisfail is a charming Art Deco town south of Cairns, known for its multicultural heritage, banana and sugar cane farming, and proximity to the World Heritage Wet Tropics rainforest. We service Innisfail and the surrounding Southern Suburbs region regularly.",
     uniquePara2:
       "The mix of heritage Queenslanders and modern homes in Innisfail means our team comes prepared for all property types. We understand the unique challenges of moving in tropical Far North Queensland and plan accordingly.",
     uniquePara3:
       "Innisfail is one of Australia's wettest towns, receiving over 3,500mm of rain annually. Our team takes extra waterproofing precautions on every Innisfail move — using heavy-duty plastic wrap and waterproof covers on all furniture and boxes. Many older Innisfail homes are raised high on stilts as flood mitigation, which means navigating steep external stairs. We bring stairclimber equipment and extra hands when needed for these elevated properties.",
     nearbySubs: ["Cairns City", "Gordonvale", "Atherton"],
     priceFrom: "$179/hr",
-    serviceArea: "Cassowary Coast and Far North Queensland",
+    serviceArea: "Southern Suburbs and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Innisfail | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Professional removalists in Innisfail and the Cassowary Coast. Local and long distance moves from $179/hr. Fully insured with 10+ years experience.",
+      "Professional removalists in Innisfail and the Southern Suburbs. Local and long distance moves from $179/hr. Fully insured with 10+ years experience.",
     reviews: [
       {
         text: "R2G moved us from an elevated Queenslander in Innisfail to a modern home in Edmonton. The stairs at our old place were steep and narrow but the crew handled our heavy furniture down them like absolute pros. Nothing damaged.",
@@ -772,7 +780,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "port-douglas",
     name: "Port Douglas",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "67km north of Cairns City",
     postcode: "4877",
@@ -786,7 +794,7 @@ export const suburbs: CairnsSuburb[] = [
       "The Port Douglas peninsula has narrow one-way streets around Macrossan Street and the marina precinct that require careful truck navigation. Many apartments and resort villas have body corporate rules about loading times and lift bookings — our team coordinates with building managers ahead of your move to avoid delays. The scenic Captain Cook Highway drive from Cairns is stunning but winding, and we secure every load thoroughly for the journey.",
     nearbySubs: ["Mossman", "Palm Cove", "Cairns City"],
     priceFrom: "$179/hr",
-    serviceArea: "Douglas Shire and Far North Queensland",
+    serviceArea: "Northern Cairns and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Port Douglas | R2G Transport & Storage | From $179/hr",
@@ -834,26 +842,26 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "mareeba",
     name: "Mareeba",
-    region: "Atherton Tablelands",
+    region: "Western Suburbs",
     state: "QLD",
     distanceFromCBD: "60km west of Cairns City",
     postcode: "4880",
     latitude: -17.0017,
     longitude: 145.4233,
     uniquePara1:
-      "Mareeba is a vibrant agricultural town on the Atherton Tablelands, famous for its coffee, mangoes and rodeo. It serves as a major hub for the surrounding rural communities and we regularly complete moves throughout the Mareeba district.",
+      "Mareeba is a vibrant agricultural town on the Western Suburbs, famous for its coffee, mangoes and rodeo. It serves as a major hub for the surrounding rural communities and we regularly complete moves throughout the Mareeba district.",
     uniquePara2:
       "Properties in Mareeba range from compact town homes to sprawling rural acreage. Our team is well-versed in the Tablelands road network and comes equipped for large-volume rural moves with the right trucks and protective materials.",
     uniquePara3:
       "Mareeba sits in the dry tropics, and the red dust common on rural properties can affect furniture and belongings during a move. Our team uses dust covers and sealed wrapping for Mareeba moves to keep items clean in transit. Properties on the outskirts — along Dimbulah Road, Biboohra Road and the surrounding farming areas — often have long unsealed driveways, and we bring vehicles suited to gravel and dirt access.",
     nearbySubs: ["Atherton", "Cairns City", "Port Douglas"],
     priceFrom: "$179/hr",
-    serviceArea: "Mareeba & Atherton Tablelands",
+    serviceArea: "Mareeba & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Mareeba | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Removalists in Mareeba and the Atherton Tablelands. Rural and residential moves from $179/hr. Fully insured with 10+ years experience. Call 1300 959 498.",
+      "Removalists in Mareeba and the Western Suburbs. Rural and residential moves from $179/hr. Fully insured with 10+ years experience. Call 1300 959 498.",
     reviews: [
       {
         text: "R2G moved our family from a mango farm outside Mareeba into town. They handled the long dirt driveway, loaded the truck carefully despite the dust, and had us settled in the new place by sunset. Really good operators.",
@@ -896,7 +904,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "babinda",
     name: "Babinda",
-    region: "Cairns South",
+    region: "Southern Suburbs",
     state: "QLD",
     distanceFromCBD: "58km south of Cairns City",
     postcode: "4861",
@@ -910,7 +918,7 @@ export const suburbs: CairnsSuburb[] = [
       "Babinda holds the record as one of Australia's wettest towns, and the lush tropical vegetation around properties can make access challenging — especially during the wet season when overgrown paths and muddy yards are common. Our team brings protective ground covers and wears appropriate footwear for muddy conditions. The town's compact layout means most Babinda moves are straightforward once we're on site, but the Bruce Highway drive from Cairns takes about 45 minutes and we plan accordingly.",
     nearbySubs: ["Innisfail", "Gordonvale", "Cairns City"],
     priceFrom: "$179/hr",
-    serviceArea: "Cairns South and Far North Queensland",
+    serviceArea: "Southern Suburbs and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Babinda | R2G Transport & Storage | From $179/hr",
@@ -958,26 +966,26 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "mossman",
     name: "Mossman",
-    region: "Douglas Shire",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "75km north of Cairns City",
     postcode: "4873",
     latitude: -16.4667,
     longitude: 145.3667,
     uniquePara1:
-      "Mossman is the gateway to the Daintree Rainforest and a charming rural town in the Douglas Shire, known for the Mossman Gorge and its sugar cane heritage. We regularly move families and professionals to and from Mossman and the broader Douglas Shire region.",
+      "Mossman is the gateway to the Daintree Rainforest and a charming rural town in the Northern Cairns, known for the Mossman Gorge and its sugar cane heritage. We regularly move families and professionals to and from Mossman and the broader Northern Cairns region.",
     uniquePara2:
-      "The relaxed lifestyle and natural beauty of Mossman attracts a mix of long-term locals and sea-changers. Our team understands the unique character of Douglas Shire properties and delivers moves with the care and professionalism the community expects.",
+      "The relaxed lifestyle and natural beauty of Mossman attracts a mix of long-term locals and sea-changers. Our team understands the unique character of Northern Cairns properties and delivers moves with the care and professionalism the community expects.",
     uniquePara3:
       "Mossman's older town centre features workers' cottages and weatherboard homes on smaller lots with narrow street access, while properties along the Mossman-Daintree Road and surrounding cane country sit on larger rural blocks. Our team adjusts vehicles and crew size accordingly — sometimes a smaller truck is best for the town streets while larger properties need our full-size vehicle. The Captain Cook Highway drive from Cairns is scenic but takes over an hour with a loaded truck, and we secure every item for the journey.",
     nearbySubs: ["Port Douglas", "Cairns City", "Palm Cove"],
     priceFrom: "$179/hr",
-    serviceArea: "Douglas Shire and Far North Queensland",
+    serviceArea: "Northern Cairns and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Mossman | R2G Transport & Storage | From $179/hr",
     metaDescription:
-      "Trusted removalists in Mossman and the Douglas Shire. Local and interstate moves from $179/hr. Fully insured, experienced with Far North Queensland properties.",
+      "Trusted removalists in Mossman and the Northern Cairns. Local and interstate moves from $179/hr. Fully insured, experienced with Far North Queensland properties.",
     reviews: [
       {
         text: "R2G moved us from Cairns to Mossman when we decided to make the tree change. They drove the Captain Cook Highway carefully, secured everything perfectly and even helped us arrange items in our new cottage. Excellent service.",
@@ -1020,7 +1028,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "clifton-beach",
     name: "Clifton Beach",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "22km north of Cairns City",
     postcode: "4879",
@@ -1034,7 +1042,7 @@ export const suburbs: CairnsSuburb[] = [
       "Clifton Beach properties on the elevated side of Captain Cook Highway sit on sloping blocks with steep driveways and multi-level homes. Our drivers assess these properties before moving day and choose the right truck size for safe driveway access. The beachside streets are quieter but often lined with parked cars — we arrive early to secure the best loading position near your property.",
     nearbySubs: ["Trinity Beach", "Kewarra Beach", "Palm Cove"],
     priceFrom: "$179/hr",
-    serviceArea: "Northern Beaches Cairns",
+    serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Clifton Beach | R2G Transport & Storage | From $179/hr",
@@ -1082,7 +1090,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "kewarra-beach",
     name: "Kewarra Beach",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "23km north of Cairns City",
     postcode: "4879",
@@ -1096,7 +1104,7 @@ export const suburbs: CairnsSuburb[] = [
       "Kewarra Beach's leafy streets and mature tropical trees create a beautiful canopy but can restrict truck access on some properties. Our drivers know which streets can handle a full-size truck and where we need to use a smaller vehicle. The resort-style properties common along Kewarra Street and near the Kewarra Beach Resort often have pool furniture, sun shelters and tropical garden features that need careful handling alongside standard household items.",
     nearbySubs: ["Clifton Beach", "Trinity Beach", "Palm Cove"],
     priceFrom: "$179/hr",
-    serviceArea: "Northern Beaches Cairns",
+    serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Kewarra Beach | R2G Transport & Storage | From $179/hr",
@@ -1144,7 +1152,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "machans-beach",
     name: "Machans Beach",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "12km north of Cairns City",
     postcode: "4878",
@@ -1158,7 +1166,7 @@ export const suburbs: CairnsSuburb[] = [
       "Machans Beach is a compact suburb with narrow residential streets that weren't originally designed for large trucks. Our team often uses medium-sized vehicles for Machans Beach moves to navigate the tight corners and limited turnaround space. Many of the older beach houses are built on stilts with steep timber stairs — we bring stairclimber trolleys and use furniture sliders to protect both your belongings and the timber steps.",
     nearbySubs: ["Holloways Beach", "Yorkeys Knob", "Cairns City"],
     priceFrom: "$179/hr",
-    serviceArea: "Northern Beaches Cairns",
+    serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Machans Beach | R2G Transport & Storage | From $179/hr",
@@ -1206,7 +1214,7 @@ export const suburbs: CairnsSuburb[] = [
   {
     slug: "holloways-beach",
     name: "Holloways Beach",
-    region: "Northern Beaches",
+    region: "Northern Cairns",
     state: "QLD",
     distanceFromCBD: "10km north of Cairns City",
     postcode: "4878",
@@ -1220,7 +1228,7 @@ export const suburbs: CairnsSuburb[] = [
       "Holloways Beach is one of the closest northern beaches suburbs to Cairns Airport, and flight noise can be a factor for moves requiring concentration on packing fragile items. Our team is used to working in this environment and stays focused regardless. The suburb's quiet residential streets have good access for medium and large trucks, and the flat terrain makes loading straightforward compared to hillier northern beaches suburbs.",
     nearbySubs: ["Machans Beach", "Yorkeys Knob", "Cairns City"],
     priceFrom: "$179/hr",
-    serviceArea: "Northern Beaches Cairns",
+    serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Holloways Beach | R2G Transport & Storage | From $179/hr",
@@ -1265,6 +1273,17 @@ export const suburbs: CairnsSuburb[] = [
       },
     ],
   },
+];
+
+export const suburbs: CairnsSuburb[] = [
+  ...coreSuburbs,
+  ...cairnsInnerSuburbs,
+  ...cairnsBeachSuburbs,
+  ...cairnsSouthSuburbs,
+  ...cairnsTablelandsSuburbs,
+  ...cairnsDouglasSuburbs,
+  ...cairnsCassowarySuburbs,
+  ...cairnsCookShireSuburbs,
 ];
 
 export function getSuburb(slug: string): CairnsSuburb | undefined {
