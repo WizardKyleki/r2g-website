@@ -7,7 +7,7 @@ const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
-import { getSunshineCoastSuburbHref } from "@/data/sunshine-coast-suburbs";
+import { sunshineCoastSuburbs } from "@/data/sunshine-coast-suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -552,23 +552,30 @@ export default function RemovalistsSunshineCoastPage() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center mb-14">
-            {[
-              "Maroochydore", "Caloundra", "Noosa Heads", "Mooloolaba", "Buderim", "Nambour",
-              "Sippy Downs", "Kawana Waters", "Coolum Beach", "Peregian Springs",
-              "Palmwoods", "Beerwah", "Landsborough", "Maleny", "Glass House Mountains",
-              "Bli Bli", "Yandina", "Woombye", "Eudlo", "Kenilworth",
-            ].map((suburb) => {
-              const href = getSunshineCoastSuburbHref(suburb);
-              const classes = "px-3 py-1.5 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
-              return href ? (
-                <Link key={suburb} href={href} title={`Removalists ${suburb} - R2G Transport & Storage`} className={classes}>
-                  {suburb}
-                </Link>
-              ) : (
-                <span key={suburb} className={classes}>
-                  {suburb}
-                </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
+            {["Sunshine Coast South", "Sunshine Coast Central", "Sunshine Coast North", "Noosa", "Noosa Hinterland", "Sunshine Coast Hinterland"].map((region) => {
+              const suburbs = sunshineCoastSuburbs
+                .filter((s) => s.region === region)
+                .sort((a, b) => a.name.localeCompare(b.name));
+              if (suburbs.length === 0) return null;
+              return (
+                <div key={region}>
+                  <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
+                    {region}
+                  </h3>
+                  <div className="flex flex-wrap gap-1.5">
+                    {suburbs.map((suburb) => (
+                      <Link
+                        key={suburb.slug}
+                        href={`/removalists-sunshine-coast/${suburb.slug}`}
+                        title={`Removalists ${suburb.name}`}
+                        className="px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors"
+                      >
+                        {suburb.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               );
             })}
           </div>

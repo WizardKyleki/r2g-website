@@ -553,26 +553,72 @@ export default function RemovalistsBrisbanePage() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center mb-14">
-            {[
-              "Brisbane City", "Brisbane CBD", "Sunnybank", "Carindale", "Chermside", "Logan",
-              "Springfield", "Ipswich", "Redcliffe", "Caboolture", "Mt Gravatt",
-              "Indooroopilly", "Paddington", "Toowong", "Bulimba", "Wynnum",
-              "Cleveland", "Redlands", "Kenmore", "Aspley", "Coorparoo", "Annerley",
-              "Archerfield",
-            ].map((suburb) => {
-              const href = getBrisbaneSuburbHref(suburb);
-              const classes = "px-3 py-1.5 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
-              return href ? (
-                <Link key={suburb} href={href} title={`Removalists ${suburb} - R2G Transport & Storage`} className={classes}>
-                  {suburb}
-                </Link>
-              ) : (
-                <span key={suburb} className={classes}>
-                  {suburb}
-                </span>
-              );
-            })}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
+            {([
+              {
+                council: "Brisbane City",
+                suburbs: [
+                  "Brisbane CBD", "New Farm", "West End", "Woolloongabba", "Paddington",
+                  "Teneriffe", "Fortitude Valley", "South Brisbane", "Bulimba", "Chermside",
+                  "Indooroopilly", "Toowong", "Sunnybank", "Carindale", "Aspley",
+                  "The Gap", "Mt Gravatt", "Kenmore", "Wynnum", "Coorparoo",
+                  "Nundah", "Clayfield", "Taringa", "Yeronga", "Moorooka",
+                ],
+              },
+              {
+                council: "Logan City",
+                suburbs: [
+                  "Logan", "Logan Central", "Springwood", "Woodridge", "Beenleigh",
+                  "Underwood", "Shailer Park", "Daisy Hill", "Slacks Creek", "Browns Plains",
+                  "Marsden", "Loganholme", "Yarrabilba", "Jimboomba", "Tanah Merah",
+                ],
+              },
+              {
+                council: "Ipswich City",
+                suburbs: [
+                  "Ipswich", "Springfield", "Springfield Central", "Springfield Lakes",
+                  "Redbank Plains", "Raceview", "Ripley", "Goodna", "Booval",
+                  "Brassall", "Bundamba", "Rosewood", "Riverview", "Yamanto",
+                ],
+              },
+              {
+                council: "Moreton Bay",
+                suburbs: [
+                  "North Lakes", "Caboolture", "Redcliffe", "Strathpine", "Kallangur",
+                  "Mango Hill", "Burpengary", "Morayfield", "Narangba", "Petrie",
+                  "Sandgate", "Brendale", "Warner", "Samford Village", "Everton Hills",
+                ],
+              },
+              {
+                council: "Redland City",
+                suburbs: [
+                  "Cleveland", "Capalaba", "Victoria Point", "Redland Bay",
+                  "Alexandra Hills", "Wellington Point", "Ormiston", "Thornlands",
+                  "Mount Cotton", "Birkdale",
+                ],
+              },
+            ] as const).map((group) => (
+              <div key={group.council}>
+                <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
+                  {group.council}
+                </h3>
+                <div className="flex flex-wrap gap-1.5">
+                  {group.suburbs.map((suburb) => {
+                    const href = getBrisbaneSuburbHref(suburb);
+                    const classes = "px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
+                    return href ? (
+                      <Link key={suburb} href={href} title={`Removalists ${suburb}`} className={classes}>
+                        {suburb}
+                      </Link>
+                    ) : (
+                      <span key={suburb} className={classes}>
+                        {suburb}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
 
           <div className="border-t border-white/10 pt-12">

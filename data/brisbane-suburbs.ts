@@ -1,4 +1,19 @@
 import type { Suburb } from "./suburbs";
+import { batch1Suburbs } from "./brisbane-suburbs-batch1";
+import { batch2Suburbs } from "./brisbane-suburbs-batch2";
+import { batch3Suburbs } from "./brisbane-suburbs-batch3";
+import { batch4Suburbs } from "./brisbane-suburbs-batch4";
+import { batch5Suburbs } from "./brisbane-suburbs-batch5";
+import { ipswichSuburbs } from "./brisbane-suburbs-ipswich";
+import { ipswich2Suburbs } from "./brisbane-suburbs-ipswich2";
+import { loganSuburbs } from "./brisbane-suburbs-logan";
+import { moreton1Suburbs } from "./brisbane-suburbs-moreton1";
+import { moreton2Suburbs } from "./brisbane-suburbs-moreton2";
+import { batch6Suburbs } from "./brisbane-suburbs-batch6";
+import { batch7Suburbs } from "./brisbane-suburbs-batch7";
+import { logan2Suburbs } from "./brisbane-suburbs-logan2";
+import { moreton3Suburbs } from "./brisbane-suburbs-moreton3";
+import { redlandSuburbs } from "./brisbane-suburbs-redland";
 
 export interface BrisbaneSuburb extends Suburb {
   reviews: { text: string; name: string; location: string; date: string }[];
@@ -6,7 +21,7 @@ export interface BrisbaneSuburb extends Suburb {
   uniquePara3: string;
 }
 
-export const brisbaneSuburbs: BrisbaneSuburb[] = [
+const coreSuburbs: BrisbaneSuburb[] = [
   {
     slug: "sunnybank",
     name: "Sunnybank",
@@ -1371,6 +1386,25 @@ export const brisbaneSuburbs: BrisbaneSuburb[] = [
       },
     ],
   },
+];
+
+export const brisbaneSuburbs: BrisbaneSuburb[] = [
+  ...coreSuburbs,
+  ...batch1Suburbs,
+  ...batch2Suburbs,
+  ...batch3Suburbs,
+  ...batch4Suburbs,
+  ...batch5Suburbs,
+  ...batch6Suburbs,
+  ...batch7Suburbs,
+  ...ipswichSuburbs,
+  ...ipswich2Suburbs,
+  ...loganSuburbs,
+  ...logan2Suburbs,
+  ...moreton1Suburbs,
+  ...moreton2Suburbs,
+  ...moreton3Suburbs,
+  ...redlandSuburbs,
 ];
 
 export function getBrisbaneSuburb(slug: string): BrisbaneSuburb | undefined {
