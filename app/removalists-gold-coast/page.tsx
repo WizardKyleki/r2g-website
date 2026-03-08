@@ -553,25 +553,64 @@ export default function RemovalistsGoldCoastPage() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center mb-14">
-            {[
-              "Surfers Paradise", "Southport", "Robina", "Nerang", "Burleigh Heads", "Broadbeach",
-              "Coomera", "Helensvale", "Varsity Lakes", "Mudgeeraba",
-              "Pacific Pines", "Ashmore", "Mermaid Beach", "Coolangatta", "Palm Beach",
-              "Tugun", "Ormeau", "Runaway Bay", "Labrador", "Currumbin",
-            ].map((suburb) => {
-              const href = getGoldCoastSuburbHref(suburb);
-              const classes = "px-3 py-1.5 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
-              return href ? (
-                <Link key={suburb} href={href} title={`Removalists ${suburb} - R2G Transport & Storage`} className={classes}>
-                  {suburb}
-                </Link>
-              ) : (
-                <span key={suburb} className={classes}>
-                  {suburb}
-                </span>
-              );
-            })}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
+            {([
+              {
+                area: "Gold Coast North",
+                suburbs: [
+                  "Coomera", "Upper Coomera", "Pimpama", "Ormeau", "Ormeau Hills",
+                  "Helensvale", "Oxenford", "Hope Island", "Sanctuary Cove",
+                  "Pacific Pines", "Yatala", "Wongawallan", "Jacobs Well",
+                ],
+              },
+              {
+                area: "Gold Coast Central",
+                suburbs: [
+                  "Surfers Paradise", "Southport", "Broadbeach", "Ashmore",
+                  "Labrador", "Runaway Bay", "Nerang", "Robina", "Bundall",
+                  "Benowa", "Carrara", "Main Beach", "Mermaid Beach",
+                  "Mermaid Waters", "Paradise Point", "Arundel", "Molendinar",
+                ],
+              },
+              {
+                area: "Gold Coast South",
+                suburbs: [
+                  "Burleigh Heads", "Palm Beach", "Coolangatta", "Tugun",
+                  "Currumbin", "Miami", "Elanora", "Bilinga",
+                  "Burleigh Waters", "Varsity Lakes", "Reedy Creek",
+                  "Tallebudgera", "Currumbin Waters",
+                ],
+              },
+              {
+                area: "Gold Coast Hinterland",
+                suburbs: [
+                  "Mudgeeraba", "Highland Park", "Springbrook", "Bonogin",
+                  "Tallai", "Gilston", "Advancetown", "Austinville",
+                  "Numinbah Valley", "Mount Nathan",
+                ],
+              },
+            ] as const).map((group) => (
+              <div key={group.area}>
+                <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
+                  {group.area}
+                </h3>
+                <div className="flex flex-wrap gap-1.5">
+                  {group.suburbs.map((suburb) => {
+                    const href = getGoldCoastSuburbHref(suburb);
+                    const classes = "px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
+                    return href ? (
+                      <Link key={suburb} href={href} title={`Removalists ${suburb}`} className={classes}>
+                        {suburb}
+                      </Link>
+                    ) : (
+                      <span key={suburb} className={classes}>
+                        {suburb}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
 
           <div className="border-t border-white/10 pt-12">

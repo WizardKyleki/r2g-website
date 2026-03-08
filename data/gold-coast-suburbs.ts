@@ -1,4 +1,7 @@
 import type { Suburb } from "./suburbs";
+import { goldCoastNorthSuburbs } from "./gold-coast-suburbs-north";
+import { goldCoastCentralSuburbs } from "./gold-coast-suburbs-central";
+import { goldCoastHinterlandSuburbs } from "./gold-coast-suburbs-hinterland";
 
 export interface GoldCoastSuburb extends Suburb {
   reviews: { text: string; name: string; location: string; date: string }[];
@@ -6,7 +9,7 @@ export interface GoldCoastSuburb extends Suburb {
   uniquePara3: string;
 }
 
-export const goldCoastSuburbs: GoldCoastSuburb[] = [
+const coreSuburbs: GoldCoastSuburb[] = [
   {
     slug: "surfers-paradise",
     name: "Surfers Paradise",
@@ -1207,6 +1210,13 @@ export const goldCoastSuburbs: GoldCoastSuburb[] = [
       },
     ],
   },
+];
+
+export const goldCoastSuburbs: GoldCoastSuburb[] = [
+  ...coreSuburbs,
+  ...goldCoastNorthSuburbs,
+  ...goldCoastCentralSuburbs,
+  ...goldCoastHinterlandSuburbs,
 ];
 
 export function getGoldCoastSuburb(slug: string): GoldCoastSuburb | undefined {
