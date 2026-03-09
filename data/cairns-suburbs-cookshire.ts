@@ -21,9 +21,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Cooktown & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Cooktown | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Cooktown | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cooktown with experience in remote Cape York moves. Local & long-distance from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Cooktown with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Cairns up to Cooktown for a work posting. They planned everything around the dry season, communicated clearly about the long haul, and every item arrived in perfect condition. Couldn't have asked for a smoother move to such a remote location.",
@@ -83,9 +83,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Bloomfield & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Bloomfield | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Andrew S. | Reliable & Affordable",
     metaDescription:
-      "Expert removalists in Bloomfield with experience on the Bloomfield Track. Dry-season moves planned carefully for safe 4WD access. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Andrew S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moving into Bloomfield felt impossible until we called R2G. They knew the track, planned around the dry season, and used the right vehicle for the approach. Everything made it through the rainforest without a scratch.",
@@ -145,9 +145,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Rossville & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Rossville | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Claire M. | Reliable & Affordable",
     metaDescription:
-      "Reliable removalists in Rossville and surrounds. Remote rainforest moves handled with care. From $179/hr, fully insured. Call 1300 959 498 or get a free quote.",
+      "Trusted removalists in Claire M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us to our rainforest property near Rossville in July. They confirmed road conditions beforehand, brought the right vehicle for the unsealed track and were careful with all our items. Great communication throughout.",
@@ -207,9 +207,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Ayton & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Ayton | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Helen G. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Ayton, near the Bloomfield River. Remote moves planned for dry-season access. From $179/hr, fully insured. Call 1300 959 498 today.",
+      "Trusted removalists in Helen G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns to Ayton in August. They checked road conditions beforehand, were upfront about costs and timing, and every single item arrived undamaged. Outstanding service for such a remote destination.",
@@ -269,9 +269,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Helenvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Helenvale | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists David L. | Reliable & Affordable",
     metaDescription:
-      "Experienced removalists in Helenvale on the Mulligan Highway. Remote and rural moves handled professionally. From $179/hr, fully insured. Call 1300 959 498.",
+      "Trusted removalists in David L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our whole household to a rural property near Helenvale. They knew the Mulligan Highway well, were punctual despite the distance, and everything arrived without damage. Really solid remote move experience.",
@@ -331,9 +331,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Hope Vale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Hope Vale | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Greg H. | Reliable & Affordable",
     metaDescription:
-      "Respectful and experienced removalists serving Hope Vale Aboriginal Community. Dry-season moves planned carefully for remote access. From $179/hr. Call 1300 959 498.",
+      "Trusted removalists in Greg H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to Hope Vale in July. They were respectful of the community, worked around local requirements and delivered everything safely. We really appreciated how professionally they handled such a sensitive move.",
@@ -393,9 +393,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Lakeland & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Lakeland QLD | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Elaine M. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Lakeland at the gateway to Cape York. Rural and remote moves on the Mulligan Highway from $179/hr. Fully insured. Call 1300 959 498.",
+      "Trusted removalists in Elaine M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us to our farming property at Lakeland from Cairns. They knew the Mulligan Highway inside out, arrived on time and handled our large furniture and farm equipment with care. Excellent service all round.",

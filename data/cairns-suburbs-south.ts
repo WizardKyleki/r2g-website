@@ -22,9 +22,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Bentley Park | R2G Transport & Storage | From $179/hr",
+      "Removalists Bentley Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bentley Park with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Bentley Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a rental in Bentley Park into our first home in the same estate. They were on time, incredibly efficient and had us settled in before lunch. The price was exactly what they quoted — no surprises.",
@@ -85,9 +85,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Mount Sheridan | R2G Transport & Storage | From $179/hr",
+      "Removalists Lachlan & Amy T. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mount Sheridan with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Lachlan & Amy T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a steep-driveway house in Mount Sheridan to a flat block in Gordonvale. They assessed the driveway first, used a shuttle for the upper section and had everything on the main truck efficiently. Great planning.",
@@ -148,9 +148,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists White Rock | R2G Transport & Storage | From $179/hr",
+      "Removalists Mark & Julie O. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in White Rock with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Mark & Julie O. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a rental in White Rock into a bigger home in Bayview Heights. The move was smooth, the guys were great with our kids' furniture and the bill came in under the estimate. Very happy.",
@@ -211,9 +211,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Bayview Heights | R2G Transport & Storage | From $179/hr",
+      "Removalists Claire & Nathan W. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bayview Heights with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Claire & Nathan W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a large home in Bayview Heights to a property in Gordonvale. They handled the steep driveway at our end professionally and had everything loaded quickly. Great crew, fair price.",
@@ -274,9 +274,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Aloomba | R2G Transport & Storage | From $179/hr",
+      "Removalists Peter & Diane H. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Aloomba with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Peter & Diane H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a rural property in Aloomba to a house in Edmonton. They handled the long driveway and muddy conditions from recent rain without any fuss and had everything loaded efficiently. Very impressed.",
@@ -337,9 +337,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Goldsborough | R2G Transport & Storage | From $179/hr",
+      "Removalists Kevin & Sue R. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Goldsborough with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Kevin & Sue R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Getting a removalist to service Goldsborough is not easy, but R2G did it without complaint. They sent a smaller truck for the rainforest road, made two shuttle trips and had our home cleared efficiently. Professional and experienced.",
@@ -400,9 +400,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Mount Peter | R2G Transport & Storage | From $179/hr",
+      "Removalists Andrew & Carol N. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mount Peter with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Andrew & Carol N. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "We moved into our brand new Mount Peter home with R2G. The team was incredibly careful with the freshly painted walls and new tiled floors — they laid floor protection throughout before moving a single item. Couldn't be happier.",
@@ -463,9 +463,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Wrights Creek | R2G Transport & Storage | From $179/hr",
+      "Removalists Josh & Caitlin R. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wrights Creek with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Josh & Caitlin R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Wrights Creek to a home in Bentley Park. They handled the long dirt driveway without any problems and had our four-bedroom house cleared by noon. Great value and very professional.",
@@ -526,9 +526,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Little Mulgrave | R2G Transport & Storage | From $179/hr",
+      "Removalists Terry & Mandy S. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Little Mulgrave with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Terry & Mandy S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a cane farm in Little Mulgrave to a house in Gordonvale. They handled the rural access, worked through the shed contents and moved everything in one load. Experienced, reliable and great value.",
@@ -589,9 +589,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Deeral | R2G Transport & Storage | From $179/hr",
+      "Removalists Bill & Sharon A. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Deeral with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Bill & Sharon A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Deeral to a home in Gordonvale. They were fully prepared for the rural access, handled all our outdoor and farming equipment and completed the move efficiently. Very professional and reliable team.",
@@ -652,9 +652,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Mirriwinni | R2G Transport & Storage | From $179/hr",
+      "Removalists Craig & Vicki P. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mirriwinni with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Craig & Vicki P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Mirriwinni-to-Cairns move without hesitation. They arrived on time, handled our large acreage property efficiently despite the remote location and had everything delivered to our new home before afternoon storms rolled in.",

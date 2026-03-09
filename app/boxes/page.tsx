@@ -7,13 +7,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Moving Boxes & Packing Supplies Cairns",
+  title: "Moving Boxes & Packing Supplies | Cairns & Brisbane",
   description:
-    "Quality moving boxes and packing supplies in Cairns and Brisbane. R2G Transport & Storage stocks everything you need to pack safely. Order online or pick up in store.",
+    "Quality moving boxes and packing supplies in Cairns and Brisbane. Everything you need to pack safely. Order online or pick up in store.",
   keywords: ["moving boxes cairns", "packing boxes brisbane", "moving supplies australia", "cardboard boxes moving"],
   alternates: { canonical: "https://www.r2g.com.au/boxes" },
   openGraph: {
-    title: "Moving Boxes & Packing Supplies Cairns | R2G Transport & Storage",
+    title: "Moving Boxes & Packing Supplies | Cairns & Brisbane",
     description: "Quality moving boxes and packing supplies in Cairns and Brisbane. Get a bundle deal today.",
     url: "https://www.r2g.com.au/boxes",
   },

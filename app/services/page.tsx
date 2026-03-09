@@ -8,7 +8,7 @@ import { PHONE_HREF, PHONE } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Moving Services Cairns & Brisbane",
   description:
-    "Explore R2G Transport & Storage's complete range of moving services in Cairns — local removals, interstate moves, office relocations, and professional packing.",
+    "Full range of moving services — local removals, interstate moves, office relocations & professional packing. Get a free quote today.",
   alternates: { canonical: "https://www.r2g.com.au/services" },
   openGraph: {
     title: "Moving Services Cairns & Brisbane | R2G Transport & Storage",

@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Brisbane | R2G Transport & Storage | From $160/hr",
+    absolute: "Professional Removalists Brisbane | Reliable & Affordable",
   },
   description:
-    "Trusted removalists in Brisbane with 10+ years experience. Local & interstate moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+    "Trusted removalists in Brisbane with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
   keywords: [
     "removalists brisbane",
     "brisbane removalists",
@@ -194,9 +194,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-brisbane" },
   openGraph: {
-    title: "Removalists Brisbane | R2G Transport & Storage | From $160/hr",
+    title: "Professional Removalists Brisbane | Reliable & Affordable",
     description:
-      "Trusted removalists in Brisbane with 10+ years experience. Local & interstate moves from $160/hr. Fully insured, no hidden fees.",
+      "Trusted removalists in Brisbane with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-brisbane",
     type: "website",
   },

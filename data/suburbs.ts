@@ -53,9 +53,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Smithfield & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Smithfield | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Smithfield | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Smithfield with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Smithfield with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit near JCU into a house in Caravonica. The R2G lads were quick, careful and knew exactly where to park the truck near campus. Everything arrived without a scratch — couldn't be happier.",
@@ -115,9 +115,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Trinity Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Trinity Beach | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Daniel W. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Trinity Beach. Coastal property specialists with 10+ years experience. Local moves from $179/hr. Fully insured, no hidden fees. Get a free quote today.",
+      "Trusted removalists in Daniel W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a townhouse in Trinity Beach to a house in Kewarra Beach. The team was incredibly careful carrying furniture down our steep front stairs and nothing was damaged. Really professional service.",
@@ -177,9 +177,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Palm Cove & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Palm Cove | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Megan H. | Reliable & Affordable",
     metaDescription:
-      "Premium removalists in Palm Cove. Luxury and beachfront property specialists. Local moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Megan H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a luxury apartment on Williams Esplanade to a home in Port Douglas. They coordinated with our building manager, protected the marble lobby floors and treated our antique furniture with real care. First-class service.",
@@ -239,9 +239,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Edge Hill & Inner North Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Edge Hill | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Geoff & Diana S. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Edge Hill specialising in Queenslander homes and character properties. 10+ years experience. From $179/hr. Fully insured, no hidden fees. Get a free quote.",
+      "Trusted removalists in Geoff & Diana S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us out of a raised Queenslander on Collins Avenue. The staircase was narrow and steep but the guys handled every piece of heavy furniture without a single bump on the walls. Genuinely impressed.",
@@ -301,9 +301,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Redlynch & Western Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Redlynch | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Paula J. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Redlynch. Family home and new estate specialists with 10+ years experience. From $179/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Paula J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our 5-bedroom family home from Redlynch to a new build in the Knolls estate. With three kids' worth of stuff it was a big job, but the team had everything packed and relocated in one day. Exceptional effort.",
@@ -363,9 +363,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Gordonvale & South Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Gordonvale | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Andrew & Kate B. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Gordonvale. Rural and acreage property specialists. Local and Cairns moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Andrew & Kate B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a house in Cairns North down to a 5-acre property in Gordonvale. They navigated the long gravel driveway without any issues and even helped us move the ride-on mower into the new shed. Top blokes.",
@@ -425,9 +425,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Yorkeys Knob & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Yorkeys Knob | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Wayne R. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Yorkeys Knob. Coastal and waterfront property specialists. Local moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote today.",
+      "Trusted removalists in Wayne R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from the Half Moon Bay estate to a home in Palm Cove. They handled our outdoor kitchen setup, kayak and all the fishing gear alongside the household furniture. Everything arrived perfectly. Great crew.",
@@ -487,9 +487,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Whitfield & Inner North Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Whitfield | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Brett F. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Whitfield. Premium residential and executive property specialists. Local moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Brett F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our executive relocation from Whitfield to a new position in Brisbane. They packed our entire 5-bedroom home, managed the storage of items we weren't taking, and delivered everything to our Brisbane home a week later. Seamless.",
@@ -549,9 +549,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Freshwater & Inner North Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Freshwater | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Dr. Anthony C. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Freshwater with 10+ years local experience. All property types from Queenslanders to modern builds. From $179/hr. Fully insured, no hidden fees. Free quote online.",
+      "Trusted removalists in Dr. Anthony C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an older Queenslander in Freshwater to a modern home in Redlynch. They were fantastic navigating the steep stairs at our old place and super-efficient loading at the new house. Best removalists we've used in Cairns.",
@@ -611,9 +611,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Edmonton & South Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Edmonton | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Tim & Lucy O. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Edmonton. Family home and new estate specialists with 10+ years experience. Local moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 today.",
+      "Trusted removalists in Tim & Lucy O. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our first home in the Mount Peter estate. They were great — really friendly, careful with everything, and even gave us tips on settling in. Best value removalists in Cairns.",
@@ -673,9 +673,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Atherton | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Bryce & Emma H. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Atherton and the Western Suburbs. Local and interstate moves from $179/hr. Fully insured, experienced with rural properties.",
+      "Trusted removalists in Bryce & Emma H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our entire farm workshop and household from Atherton to a new property outside Mareeba. They brought two trucks, handled the range road with no issues and had everything in place by the end of the day. Couldn't believe how smooth it was.",
@@ -735,9 +735,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Southern Suburbs and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Innisfail | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Warren & Jo T. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Innisfail and the Southern Suburbs. Local and long distance moves from $179/hr. Fully insured with 10+ years experience.",
+      "Trusted removalists in Warren & Jo T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an elevated Queenslander in Innisfail to a modern home in Edmonton. The stairs at our old place were steep and narrow but the crew handled our heavy furniture down them like absolute pros. Nothing damaged.",
@@ -797,9 +797,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Northern Cairns and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Port Douglas | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Tony & Maria C. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Port Douglas. Premium local and interstate moves from $179/hr. Fully insured, experienced with luxury properties and resort relocations.",
+      "Trusted removalists in Tony & Maria C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a villa near Four Mile Beach to a home in Palm Cove. They coordinated with our body corporate, protected the common area floors and handled our artwork with gallery-level care. Exceptional service.",
@@ -859,9 +859,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Mareeba & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Mareeba | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists David & Helen M. | Reliable & Affordable",
     metaDescription:
-      "Removalists in Mareeba and the Western Suburbs. Rural and residential moves from $179/hr. Fully insured with 10+ years experience. Call 1300 959 498.",
+      "Trusted removalists in David & Helen M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a mango farm outside Mareeba into town. They handled the long dirt driveway, loaded the truck carefully despite the dust, and had us settled in the new place by sunset. Really good operators.",
@@ -921,9 +921,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Southern Suburbs and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Babinda | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Darren & Sue K. | Reliable & Affordable",
     metaDescription:
-      "Reliable removalists in Babinda and surrounding areas. Local and long distance moves from $179/hr. Fully insured with 10+ years experience in Far North Queensland.",
+      "Trusted removalists in Darren & Sue K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Babinda to Cairns City. Despite the wet weather and muddy driveway at our old place, the team handled everything carefully and wrapped our furniture extra well for the highway drive. Very reliable crew.",
@@ -983,9 +983,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Northern Cairns and Far North Queensland",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Mossman | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists John & Mary B. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mossman and the Northern Cairns. Local and interstate moves from $179/hr. Fully insured, experienced with Far North Queensland properties.",
+      "Trusted removalists in John & Mary B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns to Mossman when we decided to make the tree change. They drove the Captain Cook Highway carefully, secured everything perfectly and even helped us arrange items in our new cottage. Excellent service.",
@@ -1045,9 +1045,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Clifton Beach | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Phil & Jane A. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Clifton Beach, Cairns. Local and interstate moves from $179/hr. Fully insured, experienced with northern beaches properties.",
+      "Trusted removalists in Phil & Jane A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a unit in Cairns City to a house in Clifton Beach. The team navigated the steep driveway at our new place perfectly and set everything up exactly where we wanted it. Great attention to detail.",
@@ -1107,9 +1107,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Kewarra Beach | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Laura & Simon J. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Kewarra Beach, Cairns. Local and interstate moves from $179/hr. Fully insured with expert knowledge of the northern beaches area.",
+      "Trusted removalists in Laura & Simon J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a resort-style home in Kewarra Beach to a townhouse in Smithfield. They wrapped our pool furniture and outdoor items just as carefully as the indoor pieces. Everything arrived spotless.",
@@ -1169,9 +1169,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Machans Beach | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Christine V. | Reliable & Affordable",
     metaDescription:
-      "Reliable removalists in Machans Beach, Cairns. Local and interstate moves from $179/hr. Fully insured with 10+ years experience in Far North Queensland.",
+      "Trusted removalists in Christine V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an old beach house on stilts in Machans Beach. The steep stairs were a challenge but the team had the right equipment and got everything down safely. Not a single scratch on our furniture or the staircase.",
@@ -1231,9 +1231,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Northern Cairns Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Holloways Beach | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Kevin D. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Holloways Beach, Cairns. Local and interstate moves from $179/hr. Fully insured, experienced with beachside property moves.",
+      "Trusted removalists in Kevin D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Holloways Beach to a bigger home in Smithfield. They arrived right on time, the flat streets at Holloways made loading quick, and the team placed every box in the right room at our new place. Seamless move.",

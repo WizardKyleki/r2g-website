@@ -16,7 +16,7 @@ const pageConfig = {
   h1: "Office Removalists",
   eyebrow: "Commercial Removalists",
   subtitle:
-    "Professional office and commercial relocations across Queensland and Australia. Minimal downtime, weekend availability, and fully insured moves — trusted by businesses of all sizes.",
+    "Professional office relocations across Queensland. Minimal downtime, fully insured — trusted by businesses of all sizes.",
   canonicalUrl: "https://www.r2g.com.au/office-removalists",
 };
 
@@ -190,10 +190,10 @@ jsonLdSchema["@graph"].push({
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Office Removalists | R2G Transport & Storage",
+    absolute: "Office Removalists | Fully Insured, Zero Downtime",
   },
   description:
-    "Professional office removalists with 10+ years experience. Weekend & after-hours moves, fully insured, minimal downtime. Call 1300 959 498 or get a free quote online.",
+    "Professional office removalists with 10+ years experience. Weekend & after-hours moves, fully insured, minimal downtime. Get a free quote today.",
   keywords: [
     "office removalists",
     "commercial removalists",

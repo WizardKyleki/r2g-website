@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     apple: "/images/r2g-symbol.png",
   },
   description:
-    "R2G Transport & Storage — Cairns' most trusted removalists. Professional moving, packing, and storage services across Cairns, Brisbane, and all of Australia. Fully insured. Get a free quote today.",
+    "R2G Transport & Storage — trusted removalists in Cairns & Brisbane. Moving, packing & storage across Queensland. Fully insured. Get a free quote.",
   metadataBase: new URL(DOMAIN),
   robots: { index: true, follow: true },
   openGraph: {

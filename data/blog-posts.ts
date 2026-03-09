@@ -39,7 +39,7 @@ export const blogPosts: BlogPost[] = [
     title: "10 Tips for Packing Your Kitchen Like a Pro",
     metaTitle: "10 Kitchen Packing Tips That Prevent Breakages",
     metaDescription:
-      "Learn how to pack glasses, plates, appliances and pantry items without breakages. Practical kitchen packing tips from experienced removalists. Get a free quote today.",
+      "Learn how to pack glasses, plates & appliances without breakages. Practical kitchen packing tips from experienced removalists.",
     excerpt:
       "The kitchen is the hardest room to pack. These 10 practical tips will help you protect fragile items, organise appliances, and save hours on moving day.",
     category: "Packing Tips",
@@ -190,7 +190,7 @@ export const blogPosts: BlogPost[] = [
     title: "Moving Interstate? Here's Everything You Need to Know",
     metaTitle: "Interstate Moving Guide Australia: Plan Your Move",
     metaDescription:
-      "Complete interstate moving checklist with timelines, cost tips, and what to expect on moving day. Plan your move from Cairns to Brisbane and beyond. Get a free quote.",
+      "Complete interstate moving checklist with timelines, cost tips & what to expect on moving day. Plan your long-distance move with confidence.",
     excerpt:
       "Moving interstate is a major undertaking. This comprehensive guide covers planning timelines, choosing removalists, managing costs, insurance, and everything in between.",
     category: "Interstate Moving",
@@ -401,7 +401,7 @@ export const blogPosts: BlogPost[] = [
     title: "How to Choose the Right Moving Company in Australia",
     metaTitle: "How to Choose a Removalist: 8 Things to Check First",
     metaDescription:
-      "Know what to look for (and what to avoid) when choosing a moving company. Learn the red flags, key questions, and how to compare removalist quotes. Get a free quote.",
+      "Know what to look for when choosing a moving company. Learn the red flags, key questions & how to compare removalist quotes.",
     excerpt:
       "Not all removalists are created equal. Learn the red flags, essential questions, and insider tips to choose a moving company you can actually trust with your belongings.",
     category: "Moving Advice",

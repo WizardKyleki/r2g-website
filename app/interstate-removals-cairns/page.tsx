@@ -9,9 +9,9 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: { absolute: "Interstate Removals Cairns | R2G Transport & Storage" },
+  title: { absolute: "Interstate Removalists Cairns | Reliable & Affordable" },
   description:
-    "Planning an interstate move from Cairns? R2G Transport & Storage offers reliable, fully insured interstate removals to Brisbane, Sydney, Melbourne, and everywhere in between. Shared & exclusive loads. Get a free quote.",
+    "Interstate removalists Cairns - the real specialists in long-distance moves. Fully insured, affordable & reliable. Book now.",
   keywords: [
     "interstate removals cairns",
     "cairns to brisbane removalists",

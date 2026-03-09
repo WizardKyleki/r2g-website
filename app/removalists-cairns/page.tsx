@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Cairns | R2G Transport & Storage | From $179/hr",
+    absolute: "Professional Removalists Cairns | Reliable & Affordable",
   },
   description:
-    "Trusted removalists in Cairns with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+    "Trusted removalists in Cairns with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
   keywords: [
     "removalists cairns",
     "cairns removalists",
@@ -194,9 +194,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-cairns" },
   openGraph: {
-    title: "Removalists Cairns | R2G Transport & Storage | From $179/hr",
+    title: "Professional Removalists Cairns | Reliable & Affordable",
     description:
-      "Trusted removalists in Cairns with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees.",
+      "Trusted removalists in Cairns with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-cairns",
     type: "website",
   },

@@ -21,9 +21,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Bahrs Scrub & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Bahrs Scrub | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Bahrs Scrub | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Bahrs Scrub with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Bahrs Scrub with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a rental in Beenleigh to our acreage property in Bahrs Scrub. The R2G team handled the long driveway perfectly and took great care with our piano. Excellent service from start to finish.",
@@ -83,9 +83,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Bannockburn & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Bannockburn | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Craig W. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Bannockburn with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Craig W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved our entire 4-bedroom acreage home in Bannockburn to a new property just down the road. R2G handled every piece with care, including our outdoor spa. Fantastic effort by the team.",
@@ -145,9 +145,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Beenleigh & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Beenleigh | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Wayne K. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Beenleigh with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Wayne K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a Queenslander in Beenleigh to a new build in Yarrabilba. The team was brilliant navigating the steep stairs at the old house. Everything arrived safely and on time.",
@@ -207,9 +207,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Belivah & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Belivah | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Lisa G. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Belivah with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Lisa G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a rental in Eagleby to our own home in Belivah. R2G were quick, careful and very reasonably priced. The two guys who came were strong and efficient.",
@@ -269,9 +269,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Berrinba & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Berrinba | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Nathan B. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Berrinba with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Nathan B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Berrinba to a townhouse in Marsden. R2G were on time, efficient and handled all the wrapping themselves. Great experience for our first professional move.",
@@ -331,9 +331,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Bethania & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Bethania | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Kelly A. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Bethania with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Kelly A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a townhouse near Bethania station to a house in Holmview. They handled the narrow staircase and tight parking perfectly. Efficient and professional from start to finish.",
@@ -393,9 +393,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Boronia Heights & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Boronia Heights | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Jodie F. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Boronia Heights with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Jodie F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved our 4-bedroom home in Boronia Heights to a new property in Park Ridge. R2G handled the cul-de-sac access like pros and everything was wrapped beautifully. No damage whatsoever.",
@@ -455,9 +455,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Browns Plains & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Browns Plains | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Michelle R. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Browns Plains with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Michelle R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a 3-bedroom in Browns Plains to a bigger home in Greenbank. They were fast, efficient and the pricing was very fair. Everything arrived in perfect condition.",
@@ -517,9 +517,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Buccan & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Buccan | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Rachael K. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Buccan with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Rachael K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our entire acreage property in Buccan, including workshop tools and outdoor furniture. They brought a large truck and had three strong guys who made light work of it all.",
@@ -579,9 +579,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Carbrook & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Carbrook | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Brett J. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Carbrook with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Brett J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated our family from Carbrook to a new estate in Ormeau. They were careful with our antique dining set and navigated the winding Carbrook roads without issue. Top-notch service.",
@@ -641,9 +641,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Cedar Creek & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Cedar Creek | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Sandra L. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Cedar Creek with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Sandra L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Springwood to our dream acreage in Cedar Creek. They navigated the steep driveway and creek crossing like seasoned pros. Everything arrived perfectly.",
@@ -703,9 +703,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Cedar Grove & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Cedar Grove | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Robyn H. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Cedar Grove with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Robyn H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family to a 5-acre property in Cedar Grove from Browns Plains. They handled the big furniture items with ease and were very respectful of our new home. Excellent job.",
@@ -765,9 +765,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Cedar Vale & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Cedar Vale | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Steve B. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Cedar Vale with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Steve B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a townhouse in Marsden to an acreage in Cedar Vale. R2G were outstanding — careful on the dirt road, quick to load and very friendly. Worth every dollar.",
@@ -827,9 +827,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Chambers Flat & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Chambers Flat | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Darren F. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Chambers Flat with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Darren F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our brand-new home in a Chambers Flat estate. They were careful with the new floors and carpets, and even put down protective runners. Perfect move.",
@@ -889,9 +889,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Cornubia & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Cornubia | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Sarah G. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Cornubia with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Sarah G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a split-level in Cornubia to a new home in Shailer Park. The steep driveway was no problem for them. Everything was wrapped and delivered without a scratch.",
@@ -951,9 +951,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Crestmead & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Crestmead | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Jennifer W. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Crestmead with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Jennifer W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from our first home in Crestmead to a bigger place in Marsden. R2G were brilliant — fast, affordable and really careful with our baby furniture. Great service.",
@@ -1013,9 +1013,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Daisy Hill & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Daisy Hill | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Ashleigh D. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Daisy Hill with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Ashleigh D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Daisy Hill to a new build in Yarrabilba. They navigated the steep driveway perfectly and wrapped every piece of furniture with care. Outstanding team.",
@@ -1075,9 +1075,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Eagleby & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Eagleby | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Rebecca A. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Eagleby with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Rebecca A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Eagleby to a new estate in Yarrabilba. They were friendly, fast and the price was exactly what they quoted. Really happy with the whole experience.",
@@ -1137,9 +1137,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Edens Landing & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Edens Landing | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Megan T. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Edens Landing with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Megan T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved our 3-bedroom home in Edens Landing to a larger house in Holmview. R2G arrived on time, worked quickly and didn't leave a mark on any walls. Excellent result.",
@@ -1199,9 +1199,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Flagstone & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Flagstone | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Katie H. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Flagstone with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Katie H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a rental in Marsden into our brand-new Flagstone home. They brought floor protectors and were incredibly careful with our new walls. Couldn't be happier.",
@@ -1261,9 +1261,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Forestdale & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Forestdale | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Hayley P. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Forestdale with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Hayley P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Forestdale to Forest Lake. Short distance but a large 4-bedroom home. They had three guys and finished in four hours. Exceptional efficiency.",
@@ -1323,9 +1323,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Greenbank & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Greenbank | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Paula B. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Greenbank with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Paula B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move from a rental in Springwood to our new build in Greenbank. They knew exactly how to navigate the estate roads and protected our brand-new floors beautifully.",
@@ -1385,9 +1385,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Heritage Park & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Heritage Park | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Kirsty L. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Heritage Park with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Kirsty L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved our family from Heritage Park to a bigger home in Park Ridge. R2G were efficient, careful and had everything done in one trip. The pricing was fair and transparent.",
@@ -1447,9 +1447,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Hillcrest & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Hillcrest | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Nicole J. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Hillcrest with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Nicole J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Hillcrest to a new home in Park Ridge. R2G were fast and professional. They had the whole 3-bedroom house packed on the truck in under two hours. Great team.",
@@ -1509,9 +1509,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Holmview & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Holmview | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Caitlin S. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Holmview with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Caitlin S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our brand-new home in Holmview. They brought floor protectors and were so careful with the new walls. Not a single mark. Absolutely outstanding service.",
@@ -1571,9 +1571,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Jimboomba & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Jimboomba | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Brooke T. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Jimboomba with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Brooke T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our large family from a Jimboomba acreage to a new estate home in the same suburb. They handled everything from the pool table to the ride-on mower. Incredible service.",
@@ -1633,9 +1633,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Kingston & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Kingston | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Greg A. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Kingston with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Greg A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a Queenslander in Kingston to a new townhouse in Meadowbrook. R2G handled the narrow staircase expertly and got everything loaded without a scratch. Really professional.",
@@ -1695,9 +1695,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Logan Central & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Logan Central | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Maya R. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Logan Central with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Maya R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Logan Central to a new home in Marsden. They handled our high-set Queenslander stairs with ease. Friendly, fast and no damage to anything.",
@@ -1757,9 +1757,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Logan Reserve & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Logan Reserve | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Trent B. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Logan Reserve with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Trent B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our first home in a Logan Reserve estate. They protected every floor and wall and were incredibly careful. Zero marks on our brand-new house. Amazing service.",
@@ -1819,9 +1819,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Logan Village & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Logan Village | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Bec P. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Logan Village with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Bec P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated our family from a rental in Springwood to our acreage in Logan Village. They were careful on the winding roads and took amazing care of our furniture. First-class service.",
@@ -1881,9 +1881,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Loganholme & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Loganholme | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Sarah V. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Loganholme with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Sarah V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Loganholme to a house in Ormeau. They avoided the Hyperdome traffic by using the back streets and had everything loaded quickly. Smart and efficient team.",
@@ -1943,9 +1943,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Loganlea & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Loganlea | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Danielle H. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Loganlea with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Danielle H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved me from a student share house in Loganlea to my first apartment in Springwood. Quick, careful and very affordable. Perfect for a budget-conscious move.",
@@ -2005,9 +2005,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Marsden & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Marsden | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Josh T. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Marsden with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Josh T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a 3-bedroom in Marsden to a new estate in Logan Reserve. On time, affordable and very careful with our belongings. The team was fantastic.",
@@ -2067,9 +2067,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Meadowbrook & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Meadowbrook | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Linda J. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Meadowbrook with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Linda J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved me from a Meadowbrook unit near the hospital to a house in Waterford. They were flexible with my shift schedule and worked around my odd start time. Great service.",
@@ -2130,9 +2130,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Mount Warren Park | R2G Transport & Storage | From $160/hr",
+      "Removalists Nurse Kate L. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Mount Warren Park with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Nurse Kate L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Mount Warren Park to a new home in Ormeau. They handled the steep driveway with professionalism and wrapped every item carefully. Excellent service.",
@@ -2192,9 +2192,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Mundoolun & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Mundoolun | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Leanne G. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Mundoolun with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Leanne G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a Brisbane suburb to our farm in Mundoolun. They handled the unsealed road and long driveway without any problems and took excellent care of our furniture.",
@@ -2254,9 +2254,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "New Beith & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists New Beith | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Grant H. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in New Beith with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Grant H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Browns Plains to our new acreage in New Beith. They handled the long gravel driveway like pros and had everything set up beautifully. Great team.",
@@ -2316,9 +2316,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "North Maclean & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists North Maclean | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Scott M. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in North Maclean with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Scott M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Marsden to a new estate in North Maclean. They brought floor runners for our brand-new home and were incredibly careful. Fantastic service.",
@@ -2378,9 +2378,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Park Ridge & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Park Ridge | R2G Transport & Storage | From $160/hr",
+    metaTitle: "Professional Removalists Joanne B. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Park Ridge with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Joanne B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our new Park Ridge home. They brought floor and wall protectors and treated our brand-new house with the utmost care. Not a single mark. Brilliant team.",
@@ -2441,9 +2441,9 @@ export const loganSuburbs: BrisbaneSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Park Ridge South | R2G Transport & Storage | From $160/hr",
+      "Professional Removalists Samantha H. | Reliable & Affordable",
     metaDescription:
-      "Professional removalists in Park Ridge South with 10+ years experience. Local moves from $160/hr. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Samantha H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Logan Central to a new home in Park Ridge South. They found the property easily despite the new estate streets and protected our new floors beautifully.",

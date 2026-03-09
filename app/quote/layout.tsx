@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Moving Quote — Instant Estimate",
+  title: "Free Moving Quote | R2G Transport & Storage",
   description:
-    "Get a free, no-obligation moving quote from R2G Transport & Storage. Instant online quotes for local, interstate, and office relocations across Cairns and Brisbane.",
+    "Get a free, no-obligation moving quote. Instant online estimates for local, interstate & office moves across Queensland.",
   alternates: { canonical: "https://www.r2g.com.au/quote" },
   openGraph: {
-    title: "Free Moving Quote — Instant Estimate | R2G Transport & Storage",
+    title: "Free Moving Quote | R2G Transport & Storage",
     description:
-      "Get a free, no-obligation moving quote. Local, interstate, and office relocations across Cairns and Brisbane.",
+      "Get a free, no-obligation moving quote. Instant online estimates for local, interstate & office moves across Queensland.",
     url: "https://www.r2g.com.au/quote",
   },
 };

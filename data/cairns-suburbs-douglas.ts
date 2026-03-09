@@ -21,9 +21,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Craiglie & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Craiglie | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Craiglie | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Craiglie, Northern Cairns. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas & surrounds. Call 1300 959 498.",
+      "Trusted removalists in Craiglie with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to Craiglie and the whole process was incredibly smooth. They knew exactly how to handle the Captain Cook Highway run and arrived right on time. Couldn't fault them.",
@@ -84,9 +84,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Cooya Beach | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Brett L. | Reliable & Affordable",
     metaDescription:
-      "Expert removalists in Cooya Beach, Northern Cairns. Local moves from $179/hr. Coastal property specialists. Fully insured, no hidden fees. Call 1300 959 498 for a free quote.",
+      "Trusted removalists in Brett L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our move to Cooya Beach brilliantly. The access track to our place is tight and sandy but the team came prepared with the right equipment. Professional and punctual all the way.",
@@ -146,9 +146,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Daintree & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Daintree | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Donna T. | Reliable & Affordable",
     metaDescription:
-      "Specialist removalists in Daintree Village, Far North Queensland. Remote rainforest moves from $179/hr. Fully insured. Serving Northern Cairns. Call 1300 959 498.",
+      "Trusted removalists in Donna T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moving to Daintree seemed daunting but R2G made it completely painless. They planned the long drive, knew the road conditions and had everything at our new place by early afternoon. Exceptional service.",
@@ -209,9 +209,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Cape Tribulation | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Claire H. | Reliable & Affordable",
     metaDescription:
-      "Remote removalists serving Cape Tribulation in the Daintree. Specialist moves crossing the Daintree ferry from $179/hr. Fully insured. Call 1300 959 498.",
+      "Trusted removalists in Claire H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Cape Tribulation move when no other removalist would. They handled the Daintree ferry, the narrow rainforest road and a steep property access track all without complaint. Truly exceptional.",
@@ -272,9 +272,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Wonga Beach | R2G Transport & Storage | From $179/hr",
+      "Removalists Paul and Jess R. | Reliable & Affordable",
     metaDescription:
-      "Reliable removalists in Wonga Beach, Northern Cairns. Coastal moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas region. Call 1300 959 498.",
+      "Trusted removalists in Paul and Jess R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Cairns to Wonga Beach with R2G and it was seamless. They were on time, loaded the truck fast and drove carefully on the coastal road. Everything arrived safely — genuinely great service.",
@@ -334,9 +334,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Newell & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Newell | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Professional Removalists Helen D. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Newell, Northern Cairns. Rural and remote moves from $179/hr. Fully insured, no hidden fees. Serving the Port Douglas & Mossman region. Call 1300 959 498.",
+      "Trusted removalists in Helen D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns to our property in Newell and handled the rural access road with complete confidence. The lads were careful with all our gear and finished well within the estimate. Very pleased.",
@@ -396,9 +396,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Miallo & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Miallo | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Tony and Carol S. | Reliable & Affordable",
     metaDescription:
-      "Experienced removalists in Miallo, Northern Cairns. Rural farm and residential moves from $179/hr. Fully insured. Serving Mossman & surrounds. Call 1300 959 498.",
+      "Trusted removalists in Tony and Carol S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our whole farm household from Miallo to Cairns without a hitch. They handled bulky outdoor items, farm furniture and fragile pieces with equal care. A professional team doing a genuinely tough job.",
@@ -459,9 +459,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Shannonvale | R2G Transport & Storage | From $179/hr",
+      "Removalists Doug and Pam H. | Reliable & Affordable",
     metaDescription:
-      "Reliable removalists in Shannonvale, Northern Cairns. Acreage and rural moves from $179/hr. Fully insured. Serving Port Douglas & Cairns region. Call 1300 959 498.",
+      "Trusted removalists in Doug and Pam H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us out of our Shannonvale orchard property to Cairns and they were fantastic. They handled large outdoor items, orchard equipment and household furniture all in one load. Very efficient team.",
@@ -522,9 +522,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Oak Beach | R2G Transport & Storage | From $179/hr",
+      "Removalists Andrew and Michelle G. | Reliable & Affordable",
     metaDescription:
-      "Specialist removalists in Oak Beach, Northern Cairns. Coastal hill property moves from $179/hr. Fully insured, no hidden fees. Serving Port Douglas region. Call 1300 959 498.",
+      "Trusted removalists in Andrew and Michelle G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family into Oak Beach and handled the steep access road brilliantly. They assessed the driveway before move day, brought the right sized truck and had everything inside before noon. Couldn't be happier.",
@@ -584,9 +584,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Cow Bay & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Cow Bay | R2G Transport & Storage | From $179/hr",
+    metaTitle: "Removalists Michael and Sue B. | Reliable & Affordable",
     metaDescription:
-      "Remote removalists serving Cow Bay in the Daintree. Specialist moves via the Daintree ferry from $179/hr. Fully insured. Far North Queensland experts. Call 1300 959 498.",
+      "Trusted removalists in Michael and Sue B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G were incredible for our Cow Bay move. They managed the Daintree ferry crossing, the rainforest road and our off-grid property without any fuss. Professional, calm and fully prepared. We are very grateful.",
@@ -647,9 +647,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Thornton Beach | R2G Transport & Storage | From $179/hr",
+      "Removalists Sophie and Mark T. | Reliable & Affordable",
     metaDescription:
-      "Remote removalists serving Thornton Beach in the Daintree Rainforest. Ferry crossing specialists from $179/hr. Fully insured. Far North Queensland. Call 1300 959 498.",
+      "Trusted removalists in Sophie and Mark T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Thornton Beach move when every other removalist we contacted said the location was too remote. They were thoroughly prepared, crossed the ferry with no issues and delivered everything in perfect condition.",

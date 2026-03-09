@@ -8,16 +8,16 @@ const PageHero = dynamic(() => import("@/components/PageHero"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
 
 export const metadata: Metadata = {
-  title: { absolute: "Moving Tips & Packing Guides | R2G Transport & Storage" },
+  title: { absolute: "Moving Tips & Packing Guides | R2G Blog" },
   description:
-    "Expert moving tips, packing guides, and relocation advice to make your next move stress-free. Practical checklists and insider tips from professional removalists.",
+    "Expert moving tips, packing guides & relocation advice to make your next move stress-free. Practical checklists from professional removalists.",
   alternates: {
     canonical: "https://www.r2g.com.au/blog",
   },
   openGraph: {
-    title: "Moving Tips & Packing Guides | R2G Transport & Storage",
+    title: "Moving Tips & Packing Guides | R2G Blog",
     description:
-      "Expert moving tips, packing guides, and relocation advice to make your next move stress-free.",
+      "Expert moving tips, packing guides & relocation advice to make your next move stress-free. Practical checklists from professional removalists.",
     url: "https://www.r2g.com.au/blog",
     siteName: "R2G Transport & Storage",
     type: "website",

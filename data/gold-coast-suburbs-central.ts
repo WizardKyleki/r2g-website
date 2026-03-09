@@ -23,9 +23,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Arundel | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Arundel | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Arundel with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Arundel with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from our family home on Ashton Street in Arundel to a townhouse in Helensvale. The R2G crew were fast, careful and wrapped every piece of furniture properly. Very happy with the service.",
@@ -86,9 +86,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Benowa | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Tanya R. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Benowa with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Tanya R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal home on Dorado Court in Benowa Waters to a new build in Robina. They protected our hardwood floors and handled the piano with real care. Exceptional team.",
@@ -149,9 +149,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Biggera Waters | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Helen G. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Biggera Waters with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Helen G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a small unit on Doyles Road in Biggera Waters to a house in Helensvale. R2G sent two blokes who were quick, polite and took great care of our furniture. Will use them again.",
@@ -212,9 +212,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Broadbeach Waters | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Craig T. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Broadbeach Waters with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Craig T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a canal-front home on Rio Vista Boulevard to a unit in Broadbeach. They were super careful carrying furniture past the pool and down the side path. Really impressed.",
@@ -275,9 +275,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Bundall | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Nina F. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bundall with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Nina F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal-front home on Doreen Street in Bundall to a property in Benowa Hills. They wrapped every piece of art and handled my wife's antique dresser with real care. Fantastic crew.",
@@ -338,9 +338,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Carrara | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Andrew M. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Carrara with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Andrew M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from The Observatory estate in Carrara to a house in Mudgeeraba. R2G handled our pool table, gym equipment and three bedrooms worth of furniture in one trip. Outstanding effort.",
@@ -401,9 +401,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Clear Island Waters | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Steve B. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Clear Island Waters with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Steve B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our lake-front home on Doreen Crescent in Clear Island Waters to an apartment in Broadbeach. They protected all the door frames and tiled floors beautifully. Couldn't fault them.",
@@ -464,9 +464,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Coombabah | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Wendy S. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Coombabah with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Wendy S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home on Dobell Drive in Coombabah to a single-storey house in Helensvale. They managed the steep driveway and internal stairs without any dramas. Top-notch service.",
@@ -527,9 +527,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Gaven | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Paul E. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Gaven with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Paul E. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a four-bedroom home in Gaven to Ormeau. They had the whole house packed onto the truck in under three hours and nothing was damaged. Excellent value for money.",
@@ -590,9 +590,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Hollywell | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Ryan S. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Hollywell with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Ryan S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our waterfront home on Doyle Avenue in Hollywell to a villa in Runaway Bay. They were extremely careful across the lawn and around the boat shed. Couldn't have asked for better.",
@@ -653,9 +653,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Main Beach | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Graham D. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Main Beach with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Graham D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a penthouse on Tedder Avenue to a house in Benowa. They handled our artwork collection and designer furniture with absolute precision. The best removalists we have ever used.",
@@ -716,9 +716,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Maudsland | R2G Transport & Storage | From $179/hr",
+      "Removalists Christine R. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Maudsland with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Christine R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an acreage property in Maudsland to a home in Pacific Pines. They loaded our ride-on mower, workshop bench and the entire house in one trip. Impressive team.",
@@ -779,9 +779,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Mermaid Waters | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Wayne C. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mermaid Waters with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Wayne C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal home on Doreen Drive in Mermaid Waters to a new build in Varsity Lakes. They navigated past our pool and pontoon flawlessly and everything arrived perfect.",
@@ -842,9 +842,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Merrimac | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Lisa A. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Merrimac with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Lisa A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move from our three-bedroom home on Doreen Street in Merrimac to a bigger house in Mudgeeraba. They manoeuvred our king-size bed through the narrow hallway like pros. Really happy.",
@@ -905,9 +905,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Molendinar | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Jason L. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Molendinar with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Jason L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an older home near Molendinar Road to a new townhouse in Arundel. They handled the steep front steps and narrow hallway perfectly. Everything arrived in great condition.",
@@ -968,9 +968,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Parkwood | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Peter V. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Parkwood with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Peter V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped me move from a student flat near Griffith Uni in Parkwood to a shared house in Southport. Small job but they treated it with the same professionalism as a big move. Really appreciated.",
@@ -1031,9 +1031,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Paradise Point | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Emily T. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Paradise Point with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Emily T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our waterfront home on The Esplanade at Paradise Point to a property in Hope Island. They navigated the steep garden path to the jetty and moved everything including our outdoor furniture. Brilliant.",
@@ -1094,9 +1094,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists South Stradbroke | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Margaret H. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in South Stradbroke with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Margaret H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G coordinated the barge, packing and delivery for our move to South Stradbroke Island. They worked around the tides and had everything wrapped in waterproof covers. Incredibly well-organised.",
@@ -1159,9 +1159,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Bilinga | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists John F. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bilinga with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in John F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move from a beachfront unit on Miles Street in Bilinga to a house in Elanora. They navigated the narrow laneway behind our block perfectly and had everything loaded in two hours. Great work.",
@@ -1222,9 +1222,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Burleigh Waters | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Donna M. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Burleigh Waters with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Donna M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a four-bedroom home on Doreen Court in Burleigh Waters to Varsity Lakes. They wrapped every item carefully and had the whole house loaded in one trip. Really efficient team.",
@@ -1285,9 +1285,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Currumbin Valley | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Mark S. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Currumbin Valley with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Mark S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our acreage property deep in Currumbin Valley to a townhouse in Palm Beach. They used a shuttle vehicle for our steep driveway and had every piece of furniture wrapped and protected. Outstanding.",
@@ -1348,9 +1348,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Currumbin Waters | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Fiona R. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Currumbin Waters with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Fiona R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a creek-side home on Doreen Parade in Currumbin Waters to a unit in Coolangatta. They managed the sloped backyard and narrow side path expertly. Not a scratch on anything.",
@@ -1411,9 +1411,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Elanora | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Bev T. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Elanora with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Bev T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a four-bedroom house near The Pines in Elanora to Burleigh Heads. They had the house packed, loaded and delivered in under five hours. Incredible efficiency.",
@@ -1474,9 +1474,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Miami | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Mel A. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Miami with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Mel A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a beach cottage on Sydney Street in Miami to a house in Burleigh Waters. They navigated the narrow laneway and tight front door like seasoned professionals. Everything arrived perfect.",
@@ -1537,9 +1537,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Reedy Creek | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Ben R. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Reedy Creek with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Ben R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home on Observatory Drive in Reedy Creek to a single-storey house in Varsity Lakes. They handled the steep driveway and internal stairs with real expertise. Very professional.",
@@ -1600,9 +1600,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Tallebudgera | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Natalie C. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tallebudgera with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Natalie C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a large acreage property on Doreen Street in Tallebudgera to a waterfront home in Burleigh Heads. They handled two sheds, a pool room and five bedrooms in one day. Remarkable effort.",
@@ -1663,9 +1663,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Tallebudgera Valley | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Grant D. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tallebudgera Valley with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Grant D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a 10-acre property deep in Tallebudgera Valley to a house in Mudgeeraba. They used a shuttle van for our steep dirt driveway and had the whole property cleared in one day. Extremely professional.",
@@ -1726,9 +1726,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
     metaTitle:
-      "Removalists Worongary | R2G Transport & Storage | From $179/hr",
+      "Professional Removalists Bruce L. | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Worongary with 10+ years experience. Local & interstate moves from $179/hr. Fully insured, no hidden fees. Call 1300 959 498 or get a free quote online.",
+      "Trusted removalists in Bruce L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home on Doreen Drive in Worongary to a flat-block house in Varsity Lakes. They handled the steep driveway and internal stairs without any issues. Fast and professional.",

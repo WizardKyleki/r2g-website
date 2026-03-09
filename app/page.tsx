@@ -13,9 +13,9 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { HOME_FAQS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: { absolute: "Removalists Cairns & Brisbane | R2G Transport & Storage" },
+  title: { absolute: "R2G Removalists | Local & Interstate | Reliable & Affordable" },
   description:
-    "R2G Transport & Storage — trusted removalists across Cairns, Brisbane, Gold Coast and Sunshine Coast. 10+ years experience in residential, interstate and office removals. Fully insured. Get a free quote today.",
+    "Make the right move with R2G — 10+ years experience, 900+ five-star reviews, fully insured. Local & interstate removalists. Get a free quote now.",
   keywords: ["removalists cairns", "removalists brisbane", "removalists gold coast", "removalists sunshine coast", "interstate removalists", "r2g transport and storage", "cairns removalists", "brisbane removalists"],
   alternates: { canonical: "https://www.r2g.com.au" },
   openGraph: {
