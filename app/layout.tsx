@@ -9,6 +9,7 @@ const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
 import { SITE_NAME, TAGLINE, DOMAIN } from "@/lib/constants";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -58,8 +59,10 @@ export default function RootLayout({
     <html lang="en-AU">
       <head>
         <GoogleAnalytics />
+        <GoogleTagManagerHead />
       </head>
       <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
+        <GoogleTagManagerBody />
         <Header />
         <main>{children}</main>
         <Footer />
