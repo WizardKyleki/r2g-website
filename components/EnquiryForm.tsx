@@ -26,11 +26,15 @@ export default function EnquiryForm() {
       const res = await fetch("/api/enquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(fields),
+        body: JSON.stringify({ ...fields, pageUrl: window.location.href }),
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
-      trackEnquirySubmit();
+      trackEnquirySubmit({
+        email: fields.email,
+        phone: fields.phone,
+        name: fields.name,
+      });
     } catch {
       setError("Something went wrong. Please try calling us directly.");
     } finally {

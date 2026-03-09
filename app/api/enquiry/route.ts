@@ -3,7 +3,7 @@ import nodemailer from "nodemailer";
 
 export async function POST(request: Request) {
   try {
-    const { name, phone, email, topic, description } = await request.json();
+    const { name, phone, email, topic, description, pageUrl } = await request.json();
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -26,6 +26,7 @@ Message:
 ${description}
 
 =========================
+Page:      ${pageUrl || "Unknown"}
 Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" })}
     `.trim();
 

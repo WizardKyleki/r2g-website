@@ -8,7 +8,7 @@ export async function POST(request: Request) {
     const data = await request.json();
     const {
       from, to, propertyType, movingTo, bedrooms, fromFloor, toBedrooms, toFloor,
-      moveSize, date, time, name, phone, email, extras, notes,
+      moveSize, date, time, name, phone, email, extras, notes, pageUrl,
     } = data as Record<string, string | string[]>;
 
     const submittedAt = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" });
@@ -112,6 +112,7 @@ export async function POST(request: Request) {
           </table>
 
           <div style="background-color: #f9f9f9; padding: 12px 16px; border-radius: 6px; font-size: 13px; color: #888;">
+            Page: ${pageUrl || "Unknown"}<br/>
             Submitted: ${submittedAt} (AEST)
           </div>
         </div>

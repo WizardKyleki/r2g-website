@@ -4,7 +4,11 @@ import { useState, useRef, useCallback, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { PHONE, PHONE_HREF } from "@/lib/constants";
-import { trackQuoteSubmit, trackQuoteStep, trackPhoneClick } from "@/lib/gtag";
+import {
+  trackQuoteSubmit,
+  trackQuoteStep,
+  trackPhoneClick,
+} from "@/lib/gtag";
 
 interface QuoteData {
   from: string;
@@ -528,11 +532,15 @@ function QuoteWizard() {
       const res = await fetch("/api/quote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, pageUrl: window.location.href }),
       });
       if (!res.ok) throw new Error("Failed to send");
       setSubmitted(true);
-      trackQuoteSubmit(data.propertyType);
+      trackQuoteSubmit(data.propertyType, {
+        email: data.email,
+        phone: data.phone,
+        name: data.name,
+      });
     } catch {
       setError("Something went wrong. Please call us directly on " + PHONE);
     } finally {
