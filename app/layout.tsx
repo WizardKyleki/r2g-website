@@ -7,6 +7,7 @@ const Footer = dynamic(() => import("@/components/Footer"));
 const AnimationObserver = dynamic(() => import("@/components/AnimationObserver"));
 const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
+const ChatWidgetLoader = dynamic(() => import("@/components/ChatWidgetLoader"));
 import { SITE_NAME, TAGLINE, DOMAIN } from "@/lib/constants";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
@@ -69,6 +70,7 @@ export default function RootLayout({
         <MobileStickyBar />
         <AnimationObserver />
         <ExitIntentPopup />
+        <ChatWidgetLoader />
       </body>
     </html>
   );
