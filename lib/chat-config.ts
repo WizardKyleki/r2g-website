@@ -149,9 +149,9 @@ If the customer volunteers any of these upfront (e.g., says their name in the fi
 - 2-hour minimum. All rates include GST.
 
 **Local Pricing (Brisbane):**
-- 2 movers + truck: **$170/hr** weekdays, **$189/hr** Sat, **$269/hr** Sun/PH
+- 2 movers + truck: **$179/hr** weekdays, **$199/hr** Sat, **$269/hr** Sun/PH
 - 2 movers + large truck: **$189/hr** weekdays, **$210/hr** Sat, **$290/hr** Sun/PH
-- 3 movers + large truck: **$220/hr** weekdays, **$245/hr** Sat, **$325/hr** Sun/PH
+- 3 movers + large truck: **$269/hr** weekdays, **$279/hr** Sat, **$359/hr** Sun/PH
 - 5+ bedrooms / commercial: custom quote needed
 - 2-hour minimum. All rates include GST.
 

@@ -101,6 +101,7 @@ export default function ChatWidget() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const abortRef = useRef<AbortController | null>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
 
   // Typing simulation refs
   const typingBufferRef = useRef("");
@@ -116,6 +117,41 @@ export default function ChatWidget() {
       if (typingTimerRef.current) clearInterval(typingTimerRef.current);
     };
   }, []);
+
+  // ── iOS keyboard viewport fix ────────────────────────────────────────────
+  // On iOS Safari, the virtual keyboard shrinks the visual viewport but
+  // `100dvh` / `inset-0` still uses the full viewport height, creating a
+  // huge blank space below the chat. We listen to visualViewport resize
+  // events and manually set the container height + offset.
+  const [viewportHeight, setViewportHeight] = useState<number | null>(null);
+  const [viewportOffset, setViewportOffset] = useState(0);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const vv = window.visualViewport;
+    if (!vv) return;
+
+    function handleResize() {
+      const vv = window.visualViewport;
+      if (!vv) return;
+      setViewportHeight(vv.height);
+      setViewportOffset(vv.offsetTop);
+    }
+
+    // Set initial values
+    handleResize();
+
+    vv.addEventListener("resize", handleResize);
+    vv.addEventListener("scroll", handleResize);
+
+    return () => {
+      vv.removeEventListener("resize", handleResize);
+      vv.removeEventListener("scroll", handleResize);
+      setViewportHeight(null);
+      setViewportOffset(0);
+    };
+  }, [isOpen]);
 
   /** Start a typing simulation — shows thinking delay then gradual text */
   function startTypingEffect(msgId: string) {
@@ -186,6 +222,37 @@ export default function ChatWidget() {
   useEffect(() => {
     if (isOpen && inputRef.current) inputRef.current.focus();
   }, [isOpen]);
+
+  // Prevent body scroll when chat is open on mobile
+  useEffect(() => {
+    if (!isOpen) return;
+    const isMobile = window.innerWidth < 1024;
+    if (!isMobile) return;
+
+    // Lock body scroll
+    const scrollY = window.scrollY;
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.left = "0";
+    document.body.style.right = "0";
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.left = "";
+      document.body.style.right = "";
+      document.body.style.overflow = "";
+      window.scrollTo(0, scrollY);
+    };
+  }, [isOpen]);
+
+  // Scroll to bottom when keyboard opens (viewport height changes)
+  useEffect(() => {
+    if (viewportHeight != null) {
+      scrollToBottom();
+    }
+  }, [viewportHeight, scrollToBottom]);
 
   // ── Open / close ────────────────────────────────────────────────────────
 
@@ -470,10 +537,25 @@ export default function ChatWidget() {
       {/* ── Chat window ─────────────────────────────────────────────────── */}
       {isOpen && (
         <div
+          ref={chatContainerRef}
           className="fixed z-[60] flex flex-col overflow-hidden animate-chatSlideUp
-            inset-0
             lg:inset-auto lg:bottom-6 lg:right-6 lg:w-[420px] lg:h-[600px] lg:rounded-2xl lg:shadow-2xl lg:border lg:border-gray-200"
-          style={{ maxHeight: "100dvh" }}
+          style={
+            viewportHeight != null
+              ? {
+                  // iOS keyboard-aware: position to the visual viewport
+                  top: viewportOffset,
+                  left: 0,
+                  right: 0,
+                  height: viewportHeight,
+                  maxHeight: viewportHeight,
+                }
+              : {
+                  // Desktop / non-iOS fallback
+                  inset: 0,
+                  maxHeight: "100dvh",
+                }
+          }
         >
           {/* ── Header ────────────────────────────────────────────────── */}
           <div className="relative bg-gradient-to-r from-[#1A1A1A] to-[#2d2d2d] text-white px-5 py-4 shrink-0">
