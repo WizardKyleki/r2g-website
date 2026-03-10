@@ -96,6 +96,7 @@ export default function ChatWidget() {
   const [input, setInput] = useState("");
   const [isStreaming, setIsStreaming] = useState(false);
   const [hasOpened, setHasOpened] = useState(false);
+  const [leadSubmitted, setLeadSubmitted] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
@@ -332,6 +333,15 @@ export default function ChatWidget() {
 
   async function handleToolCall(name: string, input: Record<string, string>, toolUseId: string, assistantMsgId: string, conversationSoFar: ChatMessage[]) {
     if (name === "submit_lead") {
+      // Prevent duplicate submissions
+      if (leadSubmitted) {
+        const confirmMsg: ChatMessage = { id: uid(), role: "assistant", content: "", isLeadConfirmation: true, toolCall: { name, input, id: toolUseId } };
+        setMessages((prev) => [...prev, confirmMsg]);
+        await continueAfterToolUse(toolUseId, name, input, "Lead was already submitted earlier in this conversation. Do not submit again.", conversationSoFar);
+        return;
+      }
+      setLeadSubmitted(true);
+
       let success = false;
       try { const res = await fetch("/api/chat/submit-lead", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(input) }); success = res.ok; } catch { success = false; }
 
