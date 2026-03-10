@@ -118,11 +118,14 @@ export default function ChatWidget() {
     };
   }, []);
 
-  // ── iOS keyboard viewport fix ────────────────────────────────────────────
-  // On iOS Safari, the virtual keyboard shrinks the visual viewport but
-  // `100dvh` / `inset-0` still uses the full viewport height, creating a
-  // huge blank space below the chat. We listen to visualViewport resize
-  // events and manually set the container height + offset.
+  // ── Mobile keyboard viewport fix ─────────────────────────────────────────
+  // iOS Safari: virtual keyboard shrinks visualViewport but NOT the layout
+  //   viewport, so `100dvh` / `inset-0` still includes the keyboard area.
+  // Android Chrome: the browser resizes the layout viewport automatically,
+  //   so CSS `inset: 0` already works. We only need the JS fix for iOS.
+  // Detection: on iOS, when the keyboard opens, visualViewport.height
+  //   becomes significantly smaller than window.innerHeight. On Android,
+  //   both shrink together, so the difference stays near zero.
   const [viewportHeight, setViewportHeight] = useState<number | null>(null);
   const [viewportOffset, setViewportOffset] = useState(0);
 
@@ -132,20 +135,42 @@ export default function ChatWidget() {
     const vv = window.visualViewport;
     if (!vv) return;
 
+    // Only activate the JS-based height on mobile screens
+    const isMobile = window.innerWidth < 1024;
+    if (!isMobile) return;
+
     function handleResize() {
       const vv = window.visualViewport;
       if (!vv) return;
-      setViewportHeight(vv.height);
-      setViewportOffset(vv.offsetTop);
+
+      // Detect if this is an iOS-like browser where the layout viewport
+      // does NOT shrink with the keyboard. On Android, innerHeight ≈
+      // visualViewport.height so the CSS approach works fine.
+      const layoutHeight = window.innerHeight;
+      const visualHeight = vv.height;
+      const diff = layoutHeight - visualHeight;
+
+      // If the difference is > 100px, the keyboard is open and the
+      // browser didn't resize the layout viewport (iOS behavior).
+      // Also apply on initial open to set a clean baseline on iOS.
+      if (diff > 100) {
+        setViewportHeight(visualHeight);
+        setViewportOffset(vv.offsetTop);
+      } else {
+        // Android or keyboard closed — let CSS handle it
+        setViewportHeight(null);
+        setViewportOffset(0);
+      }
     }
 
-    // Set initial values
-    handleResize();
+    // Small delay to let the browser settle after opening
+    const initTimer = setTimeout(handleResize, 50);
 
     vv.addEventListener("resize", handleResize);
     vv.addEventListener("scroll", handleResize);
 
     return () => {
+      clearTimeout(initTimer);
       vv.removeEventListener("resize", handleResize);
       vv.removeEventListener("scroll", handleResize);
       setViewportHeight(null);
@@ -229,13 +254,24 @@ export default function ChatWidget() {
     const isMobile = window.innerWidth < 1024;
     if (!isMobile) return;
 
-    // Lock body scroll
+    // Lock body scroll — works on both iOS and Android
     const scrollY = window.scrollY;
+    const htmlEl = document.documentElement;
     document.body.style.position = "fixed";
     document.body.style.top = `-${scrollY}px`;
     document.body.style.left = "0";
     document.body.style.right = "0";
     document.body.style.overflow = "hidden";
+    htmlEl.style.overflow = "hidden";
+
+    // Block touchmove on the body to prevent Android pull-to-refresh
+    function preventScroll(e: TouchEvent) {
+      // Allow scrolling inside the chat messages area
+      const target = e.target as HTMLElement;
+      if (target.closest?.(".chat-messages-scroll")) return;
+      e.preventDefault();
+    }
+    document.addEventListener("touchmove", preventScroll, { passive: false });
 
     return () => {
       document.body.style.position = "";
@@ -243,6 +279,8 @@ export default function ChatWidget() {
       document.body.style.left = "";
       document.body.style.right = "";
       document.body.style.overflow = "";
+      htmlEl.style.overflow = "";
+      document.removeEventListener("touchmove", preventScroll);
       window.scrollTo(0, scrollY);
     };
   }, [isOpen]);
@@ -538,7 +576,7 @@ export default function ChatWidget() {
       {isOpen && (
         <div
           ref={chatContainerRef}
-          className="fixed z-[60] flex flex-col overflow-hidden animate-chatSlideUp
+          className="fixed z-[60] flex flex-col overflow-hidden animate-chatSlideUp bg-white
             lg:inset-auto lg:bottom-6 lg:right-6 lg:w-[420px] lg:h-[600px] lg:rounded-2xl lg:shadow-2xl lg:border lg:border-gray-200"
           style={
             viewportHeight != null
@@ -549,11 +587,13 @@ export default function ChatWidget() {
                   right: 0,
                   height: viewportHeight,
                   maxHeight: viewportHeight,
+                  overscrollBehavior: "none",
                 }
               : {
-                  // Desktop / non-iOS fallback
+                  // Desktop + Android fallback (CSS handles keyboard)
                   inset: 0,
                   maxHeight: "100dvh",
+                  overscrollBehavior: "none",
                 }
           }
         >
@@ -586,7 +626,7 @@ export default function ChatWidget() {
           </div>
 
           {/* ── Messages ──────────────────────────────────────────────── */}
-          <div className="flex-1 overflow-y-auto bg-[#f8f9fa] px-4 py-5 space-y-4">
+          <div className="chat-messages-scroll flex-1 overflow-y-auto bg-[#f8f9fa] px-4 py-5 space-y-4" style={{ overscrollBehaviorY: "contain", WebkitOverflowScrolling: "touch" }}>
             {messages.map((msg) => {
               // Lead confirmation card
               if (msg.isLeadConfirmation) {
@@ -688,7 +728,10 @@ export default function ChatWidget() {
                 placeholder="Type a message..."
                 disabled={isStreaming}
                 rows={1}
-                className="flex-1 bg-transparent text-sm outline-none resize-none min-h-[24px] max-h-[100px] leading-relaxed disabled:opacity-50 placeholder:text-gray-400"
+                inputMode="text"
+                autoComplete="off"
+                autoCorrect="on"
+                className="flex-1 bg-transparent text-[16px] sm:text-sm outline-none resize-none min-h-[24px] max-h-[100px] leading-relaxed disabled:opacity-50 placeholder:text-gray-400"
               />
               <button
                 onClick={() => sendMessage(input)}
