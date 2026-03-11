@@ -5,7 +5,31 @@ import type {
   ConversationWithMessages,
   DashboardStats,
   LeadStatus,
+  NotificationType,
 } from "@/lib/dashboard-types";
+
+// ── Notifications ────────────────────────────────────────────────────────────
+
+/** Fire-and-forget: insert a notification into the notifications table. */
+export async function createNotification(params: {
+  type: NotificationType;
+  title: string;
+  body: string;
+  conversation_id: string;
+  metadata?: Record<string, unknown>;
+}): Promise<void> {
+  try {
+    await supabase.from("notifications").insert({
+      type: params.type,
+      title: params.title,
+      body: params.body,
+      conversation_id: params.conversation_id,
+      metadata: params.metadata || {},
+    });
+  } catch (err) {
+    console.error("Failed to create notification:", err);
+  }
+}
 
 // ── Save / Update Conversations ─────────────────────────────────────────────
 
@@ -44,6 +68,15 @@ export async function saveConversationMessages(
         user_message_count: 1,
         page_url: pageUrl || null,
       });
+
+      // Notify: new chat started
+      createNotification({
+        type: "new_conversation",
+        title: "New Chat Started",
+        body: `Customer started a conversation${pageUrl ? ` on ${pageUrl}` : ""}`,
+        conversation_id: conversationId,
+        metadata: { page_url: pageUrl || null },
+      }).catch(() => {});
     }
 
     // Insert user message
@@ -103,6 +136,14 @@ export async function saveUserMessageOnly(
       role: "user",
       content: userMessage,
     });
+
+    // Notify: customer replied during admin takeover
+    createNotification({
+      type: "new_message",
+      title: "Customer Reply (Takeover)",
+      body: userMessage.length > 100 ? userMessage.slice(0, 100) + "…" : userMessage,
+      conversation_id: conversationId,
+    }).catch(() => {});
   } catch (err) {
     console.error("Failed to save user message:", err);
   }
@@ -134,6 +175,15 @@ export async function updateConversationLead(
         updated_at: new Date().toISOString(),
       })
       .eq("id", conversationId);
+
+    // Notify: new lead captured
+    createNotification({
+      type: "new_lead",
+      title: "New Lead Captured",
+      body: `${leadData.name || "Unknown"}${leadData.phone ? ` — ${leadData.phone}` : ""}`,
+      conversation_id: conversationId,
+      metadata: { ...leadData },
+    }).catch(() => {});
   } catch (err) {
     console.error("Failed to update conversation lead:", err);
   }
@@ -590,6 +640,14 @@ export async function detectStruggle(
       .from("conversations")
       .update({ tags: [...existingTags, "needs-review"] })
       .eq("id", conversationId);
+
+    // Notify: customer frustrated
+    createNotification({
+      type: "frustrated_customer",
+      title: "Customer Frustrated",
+      body: userText.length > 100 ? userText.slice(0, 100) + "…" : userText,
+      conversation_id: conversationId,
+    }).catch(() => {});
   } catch (err) {
     console.error("Struggle detection failed:", err);
   }

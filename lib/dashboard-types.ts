@@ -190,3 +190,28 @@ export interface ABTest {
   completed_at: string | null;
   created_at: string;
 }
+
+// ── Notifications ──────────────────────────────────────────────────────────
+
+export type NotificationType =
+  | "new_conversation"
+  | "new_message"
+  | "new_lead"
+  | "frustrated_customer"
+  | "negative_rating";
+
+export interface Notification {
+  id: string;
+  type: NotificationType;
+  title: string;
+  body: string;
+  conversation_id: string;
+  is_read: boolean;
+  created_at: string;
+  metadata: Record<string, unknown>;
+}
+
+export interface NotificationsResponse {
+  notifications: Notification[];
+  unread_count: number;
+}

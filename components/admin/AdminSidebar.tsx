@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import NotificationCenter from "@/components/admin/NotificationCenter";
 
 const navItems = [
   {
@@ -148,6 +149,11 @@ export default function AdminSidebar() {
         })}
       </nav>
 
+      {/* Notifications */}
+      <div className="px-3 py-2 border-t border-pink-100/40">
+        <NotificationCenter />
+      </div>
+
       {/* Logout */}
       <div className="px-3 py-4 border-t border-pink-100/40">
         <button
@@ -189,8 +195,8 @@ export default function AdminSidebar() {
           </span>
         </Link>
 
-        {/* Spacer for centering */}
-        <div className="w-9" />
+        {/* Notification bell (mobile) */}
+        <NotificationCenter mobile />
       </header>
 
       {/* ─── Mobile Drawer Overlay ─────────────────────────────────────── */}
