@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat } from "next/font/google";
+import { Inter, Montserrat, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
@@ -8,6 +8,7 @@ const AnimationObserver = dynamic(() => import("@/components/AnimationObserver")
 const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
 const ChatWidgetLoader = dynamic(() => import("@/components/ChatWidgetLoader"));
+import SiteChrome from "@/components/SiteChrome";
 import { SITE_NAME, TAGLINE, DOMAIN } from "@/lib/constants";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
@@ -23,6 +24,13 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["700", "800", "900"],
   variable: "--font-montserrat",
+  display: "swap",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-dm-sans",
   display: "swap",
 });
 
@@ -62,14 +70,18 @@ export default function RootLayout({
         <GoogleAnalytics />
         <GoogleTagManagerHead />
       </head>
-      <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
+      <body className={`${inter.variable} ${montserrat.variable} ${dmSans.variable} antialiased`} suppressHydrationWarning>
         <GoogleTagManagerBody />
-        <Header />
+        <SiteChrome>
+          <Header />
+        </SiteChrome>
         <main>{children}</main>
-        <Footer />
-        <MobileStickyBar />
-        <AnimationObserver />
-        <ExitIntentPopup />
+        <SiteChrome>
+          <Footer />
+          <MobileStickyBar />
+          <AnimationObserver />
+          <ExitIntentPopup />
+        </SiteChrome>
         <ChatWidgetLoader />
       </body>
     </html>

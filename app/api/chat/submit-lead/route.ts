@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { updateConversationLead, fireWebhook, recordABTestLead } from "@/lib/dashboard-db";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: Request) {
   try {
     const data = await request.json();
-    const { name, phone, email, moving_from, moving_to, move_type, property_type, bedrooms, preferred_date, notes, description } = data;
+    const { name, phone, email, moving_from, moving_to, move_type, property_type, bedrooms, preferred_date, notes, description, conversationId } = data;
 
     const submittedAt = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" });
 
@@ -81,8 +82,8 @@ export async function POST(request: Request) {
 
     const { data: result, error: sendError } = await resend.emails.send({
       from: "R2G Website <noreply@r2g.com.au>",
-      to: "contact@r2g.com.au",
-      subject: `New Chat Lead — ${name || "Unknown"} — ${move_type || "General Enquiry"}`,
+      to: ["contact@r2g.com.au", "kyle@r2g.com.au"],
+      subject: `🔔 New Chat Lead — ${name || "Unknown"} — ${move_type || "General Enquiry"}`,
       replyTo: email || undefined,
       html,
     });
@@ -93,6 +94,27 @@ export async function POST(request: Request) {
     }
 
     console.log("Chat lead email sent, id:", result?.id);
+
+    // Store lead data in Supabase (fire-and-forget)
+    if (conversationId) {
+      updateConversationLead(conversationId, {
+        name, phone, email, moving_from, moving_to, move_type,
+      }).catch((err) => console.error("Failed to store lead data:", err));
+    }
+
+    // Track A/B test lead conversion (fire-and-forget)
+    if (conversationId) {
+      recordABTestLead(conversationId)
+        .catch((err) => console.error("A/B lead record failed:", err));
+    }
+
+    // Fire webhook notification (fire-and-forget)
+    fireWebhook({
+      conversationId: conversationId || "unknown",
+      name, phone, email, moving_from, moving_to, move_type,
+      page_url: data.page_url,
+    }).catch((err) => console.error("Webhook failed:", err));
+
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("Chat lead email error:", err);
