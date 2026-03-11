@@ -43,4 +43,7 @@ next-env.d.ts
 # claude code
 .claude/
 
+# brightlocal images
+public/images-brightlocal/
+
 .vercel
