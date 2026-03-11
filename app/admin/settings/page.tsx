@@ -61,6 +61,9 @@ export default function SettingsPage() {
   const [aiName, setAiName] = useState(DEFAULT_AI_NAME);
   const [aiGender, setAiGender] = useState<"female" | "male">(DEFAULT_AI_GENDER);
   const [greeting, setGreeting] = useState(DEFAULT_GREETING);
+  const [avatarPreview, setAvatarPreview] = useState<string | null>(null);
+  const [avatarUploading, setAvatarUploading] = useState(false);
+  const [hasCustomAvatar, setHasCustomAvatar] = useState(false);
 
   // Webhook
   const [webhookUrl, setWebhookUrl] = useState("");
@@ -92,6 +95,10 @@ export default function SettingsPage() {
             if (val.name) setAiName(val.name as string);
             if (val.gender) setAiGender(val.gender as "female" | "male");
             if (val.greeting) setGreeting(val.greeting as string);
+            if (val.avatarBase64) {
+              setAvatarPreview(val.avatarBase64 as string);
+              setHasCustomAvatar(true);
+            }
             break;
           case "webhook":
             setWebhookUrl((val.url as string) || "");
@@ -147,6 +154,66 @@ export default function SettingsPage() {
         )}
       </div>
     );
+  }
+
+  async function handleAvatarUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    const allowedTypes = ["image/jpeg", "image/png", "image/webp", "image/gif"];
+    if (!allowedTypes.includes(file.type)) {
+      alert("Please upload a JPG, PNG, WebP, or GIF image.");
+      return;
+    }
+    if (file.size > 2 * 1024 * 1024) {
+      alert("Image must be under 2 MB.");
+      return;
+    }
+
+    // Instant local preview
+    const reader = new FileReader();
+    reader.onload = () => setAvatarPreview(reader.result as string);
+    reader.readAsDataURL(file);
+
+    // Upload to server
+    setAvatarUploading(true);
+    try {
+      const formData = new FormData();
+      formData.append("file", file);
+      const res = await fetch("/api/admin/settings/avatar", {
+        method: "POST",
+        body: formData,
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        alert(data.error || "Upload failed");
+        return;
+      }
+      setHasCustomAvatar(true);
+      setSaved(true);
+      setTimeout(() => setSaved(false), 2000);
+    } catch {
+      alert("Failed to upload avatar");
+    } finally {
+      setAvatarUploading(false);
+    }
+  }
+
+  async function handleAvatarRemove() {
+    setAvatarUploading(true);
+    try {
+      const res = await fetch("/api/admin/settings/avatar", { method: "DELETE" });
+      if (res.ok) {
+        setAvatarPreview(null);
+        setHasCustomAvatar(false);
+        setSaved(true);
+        setTimeout(() => setSaved(false), 2000);
+      }
+    } catch {
+      alert("Failed to remove avatar");
+    } finally {
+      setAvatarUploading(false);
+    }
   }
 
   if (loading) {
@@ -205,6 +272,62 @@ export default function SettingsPage() {
             </p>
 
             <div className="space-y-6">
+              {/* Profile Picture */}
+              <div className="pb-6 border-b border-gray-100">
+                <label className="text-xs font-semibold text-fuchsia-600 uppercase tracking-wider mb-4 block">
+                  Profile Picture
+                </label>
+                <div className="flex items-center gap-5">
+                  {/* Circular preview */}
+                  <div className="relative w-20 h-20 rounded-full overflow-hidden border-2 border-fuchsia-100 bg-gradient-to-br from-fuchsia-50 to-violet-50 shrink-0">
+                    {avatarPreview ? (
+                      <img
+                        src={avatarPreview}
+                        alt="Avatar preview"
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <img
+                        src="/images/zoey-avatar.jpg"
+                        alt="Default avatar"
+                        className="w-full h-full object-cover"
+                      />
+                    )}
+                    {avatarUploading && (
+                      <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                        <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Upload + Remove buttons */}
+                  <div className="flex flex-col gap-2">
+                    <label className="zoey-btn px-4 py-2 text-xs cursor-pointer text-center inline-block">
+                      {avatarUploading ? "Uploading..." : "Upload Photo"}
+                      <input
+                        type="file"
+                        accept="image/jpeg,image/png,image/webp,image/gif"
+                        onChange={handleAvatarUpload}
+                        className="sr-only"
+                        disabled={avatarUploading}
+                      />
+                    </label>
+                    {hasCustomAvatar && (
+                      <button
+                        onClick={handleAvatarRemove}
+                        disabled={avatarUploading}
+                        className="text-xs text-gray-400 hover:text-red-500 transition-colors disabled:opacity-40"
+                      >
+                        Remove photo
+                      </button>
+                    )}
+                    <p className="text-[11px] text-gray-400">
+                      JPG, PNG, WebP, or GIF. Max 2 MB.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               {/* AI Name */}
               <div>
                 <label className="text-xs font-semibold text-fuchsia-600 uppercase tracking-wider mb-2 block">
@@ -312,8 +435,12 @@ export default function SettingsPage() {
               <div className="bg-gradient-to-br from-fuchsia-50/50 via-white to-violet-50/30 border border-fuchsia-100/50 rounded-xl p-5">
                 <p className="text-xs font-semibold text-fuchsia-600 mb-3">Preview</p>
                 <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-fuchsia-400 to-violet-400 flex items-center justify-center text-white text-xs font-bold shrink-0">
-                    {aiName.charAt(0).toUpperCase()}
+                  <div className="w-8 h-8 rounded-full overflow-hidden shrink-0">
+                    <img
+                      src={avatarPreview || "/images/zoey-avatar.jpg"}
+                      alt={aiName}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-gray-900">{aiName || "AI"}</p>
@@ -323,7 +450,12 @@ export default function SettingsPage() {
               </div>
             </div>
 
-            <SaveButton onClick={() => saveSetting("ai_identity", { name: aiName, gender: aiGender, greeting })} />
+            <SaveButton onClick={() => saveSetting("ai_identity", {
+              name: aiName,
+              gender: aiGender,
+              greeting,
+              ...(hasCustomAvatar && avatarPreview ? { avatarBase64: avatarPreview } : {}),
+            })} />
           </div>
         )}
 

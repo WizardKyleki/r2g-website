@@ -2,7 +2,6 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import { usePathname, useRouter } from "next/navigation";
-import Image from "next/image";
 import type { ChatMessage } from "@/lib/chat-config";
 import {
   trackEvent,
@@ -119,8 +118,8 @@ function getProactiveConfig(pathname: string | null): { delay: number; message: 
 function AiAvatar({ size = 32, name = DEFAULT_AI_NAME }: { size?: number; name?: string }) {
   return (
     <div className="relative shrink-0">
-      <Image
-        src="/images/zoey-avatar.jpg"
+      <img
+        src="/api/chat/avatar"
         alt={name}
         width={size}
         height={size}
@@ -881,8 +880,8 @@ export default function ChatWidget() {
             {/* Mobile: just the avatar circle */}
             <div className="lg:hidden relative">
               <div className="w-14 h-14 rounded-full overflow-hidden shadow-lg border-[3px] border-[#F5C400] hover:border-[#d4a900] transition-colors">
-                <Image
-                  src="/images/zoey-avatar.jpg"
+                <img
+                  src="/api/chat/avatar"
                   alt={`Chat with ${aiName}`}
                   width={56}
                   height={56}
@@ -902,21 +901,20 @@ export default function ChatWidget() {
       {isOpen && (
         <div
           ref={chatContainerRef}
-          className="fixed z-[60] flex flex-col overflow-hidden animate-chatSlideUp bg-white
-            lg:inset-auto lg:bottom-6 lg:right-6 lg:w-[420px] lg:h-[600px] lg:rounded-2xl lg:shadow-2xl lg:border lg:border-gray-200"
+          className="fixed z-[60] inset-0 max-h-dvh flex flex-col overflow-hidden animate-chatSlideUp bg-white
+            lg:inset-auto lg:max-h-none lg:bottom-6 lg:right-6 lg:w-[420px] lg:h-[600px] lg:rounded-2xl lg:shadow-2xl lg:border lg:border-gray-200"
           style={
             viewportHeight != null
               ? {
                   top: viewportOffset,
                   left: 0,
                   right: 0,
+                  bottom: "auto",
                   height: viewportHeight,
                   maxHeight: viewportHeight,
                   overscrollBehavior: "none",
                 }
               : {
-                  inset: 0,
-                  maxHeight: "100dvh",
                   overscrollBehavior: "none",
                 }
           }
