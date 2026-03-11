@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat, DM_Sans } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
@@ -7,7 +7,6 @@ const Footer = dynamic(() => import("@/components/Footer"));
 const AnimationObserver = dynamic(() => import("@/components/AnimationObserver"));
 const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
-const ChatWidgetLoader = dynamic(() => import("@/components/ChatWidgetLoader"));
 import SiteChrome from "@/components/SiteChrome";
 import { SITE_NAME, TAGLINE, DOMAIN } from "@/lib/constants";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
@@ -24,13 +23,6 @@ const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["700", "800", "900"],
   variable: "--font-montserrat",
-  display: "swap",
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-dm-sans",
   display: "swap",
 });
 
@@ -70,7 +62,7 @@ export default function RootLayout({
         <GoogleAnalytics />
         <GoogleTagManagerHead />
       </head>
-      <body className={`${inter.variable} ${montserrat.variable} ${dmSans.variable} antialiased`} suppressHydrationWarning>
+      <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
         <GoogleTagManagerBody />
         <SiteChrome>
           <Header />
@@ -82,7 +74,6 @@ export default function RootLayout({
           <AnimationObserver />
           <ExitIntentPopup />
         </SiteChrome>
-        <ChatWidgetLoader />
       </body>
     </html>
   );
