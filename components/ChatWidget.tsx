@@ -294,74 +294,78 @@ export default function ChatWidget() {
   }, [conversationId, historyLoaded]);
 
   // ── Live agent polling ──────────────────────────────────────────────────
-  const startPolling = useCallback(() => {
-    if (pollTimerRef.current) return; // Already polling
+  // Track which admin message IDs we've already added (prevent duplicates)
+  const seenAdminMsgIds = useRef(new Set<string>());
 
-    // Set the timestamp to now so we only get NEW messages
-    lastPollTimeRef.current = new Date().toISOString();
+  const doPoll = useCallback(async () => {
+    try {
+      const afterParam = lastPollTimeRef.current
+        ? `&after=${encodeURIComponent(lastPollTimeRef.current)}`
+        : "";
+      const res = await fetch(
+        `/api/chat/poll?id=${conversationId}${afterParam}`,
+      );
+      if (!res.ok) return;
+      const data = await res.json();
 
-    pollTimerRef.current = setInterval(async () => {
-      try {
-        const res = await fetch(
-          `/api/chat/poll?id=${conversationId}&after=${encodeURIComponent(lastPollTimeRef.current)}`,
-        );
-        if (!res.ok) return;
-        const data = await res.json();
+      // Detect takeover status change
+      if (data.takeover && !isLiveAgent) {
+        setIsLiveAgent(true);
+      } else if (!data.takeover && isLiveAgent) {
+        setIsLiveAgent(false);
+      }
 
-        // Add new admin messages to the chat
-        if (data.messages && data.messages.length > 0) {
-          const newMsgs: ChatMessage[] = [];
-          for (const m of data.messages) {
-            // Only add assistant (admin) messages — user messages are already in state
-            if (m.role === "assistant" && m.is_admin) {
-              newMsgs.push({
-                id: `live_${m.id}`,
-                role: "assistant",
-                content: m.content,
-              });
-            }
-          }
-          if (newMsgs.length > 0) {
-            setMessages((prev) => [...prev, ...newMsgs]);
-          }
-          // Update timestamp to latest message
-          const lastMsg = data.messages[data.messages.length - 1];
-          if (lastMsg?.created_at) {
-            lastPollTimeRef.current = lastMsg.created_at;
+      // Add new admin messages to the chat
+      if (data.messages && data.messages.length > 0) {
+        const newMsgs: ChatMessage[] = [];
+        for (const m of data.messages) {
+          if (m.role === "assistant" && m.is_admin && !seenAdminMsgIds.current.has(m.id)) {
+            seenAdminMsgIds.current.add(m.id);
+            newMsgs.push({
+              id: `live_${m.id}`,
+              role: "assistant",
+              content: m.content,
+            });
           }
         }
-
-        // Check if takeover ended
-        if (!data.takeover) {
-          setIsLiveAgent(false);
-          if (pollTimerRef.current) {
-            clearInterval(pollTimerRef.current);
-            pollTimerRef.current = null;
-          }
+        if (newMsgs.length > 0) {
+          setMessages((prev) => [...prev, ...newMsgs]);
         }
-      } catch {
-        // Ignore poll errors
+        // Update timestamp to latest message
+        const lastMsg = data.messages[data.messages.length - 1];
+        if (lastMsg?.created_at) {
+          lastPollTimeRef.current = lastMsg.created_at;
+        }
       }
-    }, 3000);
-  }, [conversationId]);
-
-  // Start/stop polling when live agent mode changes
-  useEffect(() => {
-    if (isLiveAgent) {
-      startPolling();
-    } else {
-      if (pollTimerRef.current) {
-        clearInterval(pollTimerRef.current);
-        pollTimerRef.current = null;
-      }
+    } catch {
+      // Ignore poll errors
     }
+  }, [conversationId, isLiveAgent]);
+
+  // Poll whenever the chat window is open and user has sent at least 1 message
+  useEffect(() => {
+    const hasSentMessage = messages.some((m) => m.role === "user");
+    if (!isOpen || !hasSentMessage) return;
+
+    // Initialize poll timestamp if not set
+    if (!lastPollTimeRef.current) {
+      lastPollTimeRef.current = new Date(Date.now() - 10000).toISOString();
+    }
+
+    // Fast polling during takeover (3s), slower background check otherwise (6s)
+    const interval = isLiveAgent ? 3000 : 6000;
+    pollTimerRef.current = setInterval(doPoll, interval);
+
+    // Also do an immediate poll
+    doPoll();
+
     return () => {
       if (pollTimerRef.current) {
         clearInterval(pollTimerRef.current);
         pollTimerRef.current = null;
       }
     };
-  }, [isLiveAgent, startPolling]);
+  }, [isOpen, isLiveAgent, doPoll, messages]);
 
   // ── Proactive chat triggers ──────────────────────────────────────────────
   useEffect(() => {
@@ -869,17 +873,17 @@ export default function ChatWidget() {
 
           <button
             onClick={handleOpen}
-            className={`group flex items-center gap-3 transition-all duration-300 hover:scale-[1.02] ${!hasOpened ? "animate-chatPulse" : ""}`}
+            className={`group flex items-center gap-3 transition-all duration-300 hover:scale-[1.03] ${!hasOpened ? "animate-chatBubblePulse" : ""}`}
             aria-label="Open chat"
           >
             {/* Greeting pill */}
-            <div className="hidden lg:flex items-center bg-white rounded-full pl-4 pr-2 py-2 shadow-lg border border-gray-100 gap-2 group-hover:shadow-xl transition-shadow">
-              <span className="text-sm text-gray-700 font-medium whitespace-nowrap">Chat with {aiName}</span>
+            <div className="hidden lg:flex items-center bg-white rounded-full pl-4 pr-2 py-2 shadow-lg border border-pink-100/60 gap-2 group-hover:shadow-xl transition-shadow">
+              <span className="text-sm text-fuchsia-700 font-medium whitespace-nowrap">Chat with {aiName}</span>
               <AiAvatar size={32} name={aiName} />
             </div>
             {/* Mobile: just the avatar circle */}
             <div className="lg:hidden relative">
-              <div className="w-14 h-14 rounded-full overflow-hidden shadow-lg border-[3px] border-[#F5C400] hover:border-[#d4a900] transition-colors">
+              <div className="w-14 h-14 rounded-full overflow-hidden shadow-lg border-[3px] border-fuchsia-400 hover:border-violet-500 transition-colors">
                 <img
                   src="/api/chat/avatar"
                   alt={`Chat with ${aiName}`}
@@ -888,7 +892,7 @@ export default function ChatWidget() {
                   className="object-cover w-full h-full"
                 />
               </div>
-              <span className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-white" />
+              <span className="absolute -top-1 -right-1 w-4 h-4 bg-emerald-400 rounded-full border-2 border-white" />
               {proactiveBubble && (
                 <span className="absolute -top-1 -left-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white animate-pulse" />
               )}
@@ -902,7 +906,7 @@ export default function ChatWidget() {
         <div
           ref={chatContainerRef}
           className="fixed z-[60] inset-0 max-h-dvh flex flex-col overflow-hidden animate-chatSlideUp bg-white
-            lg:inset-auto lg:max-h-none lg:bottom-6 lg:right-6 lg:w-[420px] lg:h-[600px] lg:rounded-2xl lg:shadow-2xl lg:border lg:border-gray-200"
+            lg:inset-auto lg:max-h-none lg:bottom-6 lg:right-6 lg:w-[420px] lg:h-[600px] lg:rounded-2xl lg:shadow-[0_8px_40px_rgba(168,85,247,0.15)] lg:border lg:border-pink-100/60"
           style={
             viewportHeight != null
               ? {
@@ -920,22 +924,32 @@ export default function ChatWidget() {
           }
         >
           {/* ── Header ────────────────────────────────────────────────── */}
-          <div className="relative bg-gradient-to-r from-[#1A1A1A] to-[#2d2d2d] text-white px-5 py-4 shrink-0">
+          <div className="relative bg-gradient-to-r from-fuchsia-600 via-violet-600 to-purple-600 text-white px-5 py-4 shrink-0">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <AiAvatar size={40} name={aiName} />
+                <div className="relative shrink-0 ring-2 ring-white/30 rounded-full">
+                  <img
+                    src="/api/chat/avatar"
+                    alt={aiName}
+                    width={40}
+                    height={40}
+                    className="rounded-full object-cover"
+                    style={{ width: 40, height: 40 }}
+                  />
+                  <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-fuchsia-600" />
+                </div>
                 <div>
                   <p className="font-bold text-[15px] leading-tight">{aiName}</p>
                   <div className="flex items-center gap-1.5 mt-0.5">
-                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />
-                    <span className="text-gray-400 text-xs">Online now</span>
+                    <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full" />
+                    <span className="text-white/70 text-xs">Online now</span>
                   </div>
                 </div>
               </div>
               <div className="flex items-center gap-1">
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="text-gray-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-white/10"
+                  className="text-white/60 hover:text-white transition-colors p-2 rounded-lg hover:bg-white/10"
                   aria-label="Close chat"
                 >
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -948,7 +962,7 @@ export default function ChatWidget() {
           </div>
 
           {/* ── Messages ──────────────────────────────────────────────── */}
-          <div className="chat-messages-scroll flex-1 overflow-y-auto bg-[#f8f9fa] px-4 py-5 space-y-4" style={{ overscrollBehaviorY: "contain", WebkitOverflowScrolling: "touch" }}>
+          <div className="chat-messages-scroll flex-1 overflow-y-auto bg-gradient-to-b from-white to-pink-50/30 px-4 py-5 space-y-4" style={{ overscrollBehaviorY: "contain", WebkitOverflowScrolling: "touch" }}>
             {messages.map((msg) => {
               // Lead confirmation card
               if (msg.isLeadConfirmation) {
@@ -979,7 +993,7 @@ export default function ChatWidget() {
                         trackEvent("chat_quote_redirect", { event_category: "engagement", event_label: "Chat Quote Button Click" });
                         router.push("/quote");
                       }}
-                      className="bg-[#F5C400] hover:bg-[#d4a900] text-[#1A1A1A] font-bold text-sm py-3.5 px-6 rounded-2xl rounded-tl-md transition-all hover:shadow-md w-auto"
+                      className="bg-gradient-to-r from-fuchsia-500 to-violet-500 hover:from-fuchsia-600 hover:to-violet-600 text-white font-bold text-sm py-3.5 px-6 rounded-2xl rounded-tl-md transition-all hover:shadow-md w-auto"
                     >
                       Get Your Detailed Quote &rarr;
                     </button>
@@ -993,11 +1007,11 @@ export default function ChatWidget() {
                   <div key={msg.id} className="flex items-start gap-2.5">
                     <AiAvatar size={28} />
                     <div className="bg-white border border-gray-200 rounded-2xl rounded-tl-md p-4 max-w-[85%] shadow-sm">
-                      <p className="text-gray-800 font-semibold text-sm mb-2.5">Speak with our team</p>
+                      <p className="text-gray-700 font-semibold text-sm mb-2.5">Speak with our team</p>
                       <a
                         href="tel:1300959498"
                         onClick={() => trackPhoneClick("chat_widget")}
-                        className="inline-flex items-center gap-2 bg-[#1A1A1A] hover:bg-[#333] text-white font-bold text-sm py-2.5 px-4 rounded-xl transition-colors"
+                        className="inline-flex items-center gap-2 bg-gradient-to-r from-fuchsia-600 to-violet-600 hover:from-fuchsia-700 hover:to-violet-700 text-white font-bold text-sm py-2.5 px-4 rounded-xl transition-colors"
                       >
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
@@ -1040,7 +1054,7 @@ export default function ChatWidget() {
               if (msg.role === "user") {
                 return (
                   <div key={msg.id} className="flex justify-end">
-                    <div className="bg-[#F5C400] text-[#1A1A1A] rounded-2xl rounded-br-md px-4 py-3 max-w-[80%] text-sm leading-relaxed whitespace-pre-wrap shadow-sm">
+                    <div className="bg-gradient-to-br from-fuchsia-500 to-violet-600 text-white rounded-2xl rounded-br-md px-4 py-3 max-w-[80%] text-sm leading-relaxed whitespace-pre-wrap shadow-sm">
                       {msg.content}
                     </div>
                   </div>
@@ -1051,7 +1065,7 @@ export default function ChatWidget() {
               return (
                 <div key={msg.id} className="flex items-start gap-2.5">
                   <AiAvatar size={28} />
-                  <div className="bg-white text-[#1A1A1A] rounded-2xl rounded-tl-md px-4 py-3 max-w-[80%] text-sm leading-relaxed whitespace-pre-wrap shadow-sm border border-gray-100">
+                  <div className="bg-white text-gray-800 rounded-2xl rounded-tl-md px-4 py-3 max-w-[80%] text-sm leading-relaxed whitespace-pre-wrap shadow-sm border border-pink-100/60">
                     {msg.content ? renderMarkdown(msg.content) : (isStreaming ? <TypingDots /> : null)}
                   </div>
                 </div>
@@ -1065,7 +1079,7 @@ export default function ChatWidget() {
                   <button
                     key={reply}
                     onClick={() => sendMessage(reply)}
-                    className="bg-white hover:bg-[#F5C400]/10 border border-gray-200 hover:border-[#F5C400] text-gray-700 hover:text-[#1A1A1A] text-sm px-3.5 py-2 rounded-xl transition-all hover:shadow-sm"
+                    className="bg-white hover:bg-fuchsia-50 border border-pink-100/60 hover:border-fuchsia-300 text-gray-600 hover:text-fuchsia-700 text-sm px-3.5 py-2 rounded-xl transition-all hover:shadow-sm"
                   >
                     {reply}
                   </button>
@@ -1120,20 +1134,20 @@ export default function ChatWidget() {
 
           {/* ── Live agent banner ────────────────────────────────────── */}
           {isLiveAgent && (
-            <div className="bg-blue-50 border-t border-blue-100 px-4 py-2 shrink-0">
+            <div className="bg-gradient-to-r from-fuchsia-50 to-violet-50 border-t border-fuchsia-100/60 px-4 py-2 shrink-0">
               <div className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-                <span className="text-xs font-medium text-blue-700">You&apos;re chatting with a team member</span>
+                <span className="w-2 h-2 bg-fuchsia-500 rounded-full animate-pulse" />
+                <span className="text-xs font-semibold text-fuchsia-700">You&apos;re chatting with a team member</span>
               </div>
             </div>
           )}
 
           {/* ── Input area ────────────────────────────────────────────── */}
           <div
-            className="bg-white border-t border-gray-200 px-4 py-3 shrink-0"
+            className="bg-white border-t border-pink-100/40 px-4 py-3 shrink-0"
             style={{ paddingBottom: "calc(0.75rem + env(safe-area-inset-bottom, 0px))" }}
           >
-            <div className="flex items-end gap-2 bg-gray-50 rounded-2xl border border-gray-200 focus-within:border-[#F5C400] focus-within:ring-2 focus-within:ring-[#F5C400]/20 transition-all px-4 py-2">
+            <div className="flex items-end gap-2 bg-gray-50/80 rounded-2xl border border-pink-100/60 focus-within:border-fuchsia-300 focus-within:ring-2 focus-within:ring-fuchsia-100 transition-all px-4 py-2">
               <textarea
                 ref={inputRef}
                 value={input}
@@ -1150,10 +1164,10 @@ export default function ChatWidget() {
               <button
                 onClick={() => sendMessage(input)}
                 disabled={!input.trim() || isStreaming}
-                className="shrink-0 w-8 h-8 bg-[#F5C400] hover:bg-[#d4a900] disabled:opacity-30 disabled:cursor-not-allowed rounded-full flex items-center justify-center transition-all hover:scale-105"
+                className="shrink-0 w-8 h-8 bg-gradient-to-r from-fuchsia-500 to-violet-500 hover:from-fuchsia-600 hover:to-violet-600 disabled:opacity-30 disabled:cursor-not-allowed rounded-full flex items-center justify-center transition-all hover:scale-105"
                 aria-label="Send message"
               >
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <line x1="22" y1="2" x2="11" y2="13" />
                   <polygon points="22 2 15 22 11 13 2 9 22 2" />
                 </svg>
