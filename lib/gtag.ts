@@ -13,14 +13,21 @@ declare global {
   }
 }
 
-/** Fire a GA4 custom event. */
+/** Fire a GA4 custom event + push to dataLayer for GTM triggers. */
 export function trackEvent(
   action: string,
   params?: Record<string, string | number | boolean>,
 ) {
-  if (typeof window !== "undefined" && window.gtag) {
+  if (typeof window === "undefined") return;
+
+  // GA4 direct (via gtag.js)
+  if (window.gtag) {
     window.gtag("event", action, params);
   }
+
+  // GTM dataLayer push — fires Custom Event triggers for Google Ads tags
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({ event: action, ...params });
 }
 
 // ── Enhanced Conversions ────────────────────────────────────────────────────
