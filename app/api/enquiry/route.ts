@@ -38,25 +38,27 @@ Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane"
       replyTo: email,
     });
 
-    // Send lead data to n8n webhook (non-blocking — don't delay user response)
+    // Send lead data to n8n webhook (must await on Vercel serverless)
     const n8nWebhookUrl = process.env.N8N_WEBHOOK_URL;
     if (n8nWebhookUrl) {
-      fetch(n8nWebhookUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          source: "enquiry_form",
-          name,
-          phone,
-          email,
-          topic,
-          description,
-          pageUrl,
-          submittedAt: new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" }),
-        }),
-      }).catch((webhookErr) => {
+      try {
+        await fetch(n8nWebhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            source: "enquiry_form",
+            name,
+            phone,
+            email,
+            topic,
+            description,
+            pageUrl,
+            submittedAt: new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" }),
+          }),
+        });
+      } catch (webhookErr) {
         console.error("n8n webhook error:", webhookErr);
-      });
+      }
     }
 
     return NextResponse.json({ success: true });
