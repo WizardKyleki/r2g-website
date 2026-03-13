@@ -83,9 +83,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Malanda & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Sarah & Tom B. | Reliable & Affordable",
+    metaTitle: "Removalists Malanda | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Sarah & Tom B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Malanda with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move our entire farmhouse from Malanda to a smaller property near Yungaburra. They were careful with all our older timber furniture and knew the Tablelands roads well. Highly recommend for any rural Tablelands move.",
@@ -145,9 +145,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Ravenshoe & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Greg & June F. | Reliable & Affordable",
+    metaTitle: "Removalists Ravenshoe | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Greg & June F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ravenshoe with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our move from Ravenshoe down to Cairns and did a superb job. They were upfront about the full-day commitment, arrived early and had the truck loaded and down the mountain in good time. Very professional outfit.",
@@ -207,9 +207,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Herberton & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Warren & Bev T. | Reliable & Affordable",
+    metaTitle: "Removalists Herberton | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Warren & Bev T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Herberton with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our large Queenslander furniture from Herberton down to Atherton. They were incredibly careful with all the antique timber pieces, used floor runners in both properties and the Herberton Range Road section was no problem for their driver. Excellent service.",
@@ -269,9 +269,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Yungaburra & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Lorraine K. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Yungaburra | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Lorraine K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Yungaburra with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Gordonvale up to Yungaburra via the Gillies Highway and it was faultless. The driver was calm and experienced on the mountain bends, the team took great care with our furniture and we were fully unpacked by late afternoon.",
@@ -331,9 +331,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Tolga & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Mark & Julie P. | Reliable & Affordable",
+    metaTitle: "Removalists Tolga | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mark & Julie P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Tolga with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our farm contents from a property near Tolga into Atherton township. They handled all our heavy rural gear without any problems and were efficient, professional and good value. Definitely using them again.",
@@ -393,9 +393,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Walkamin & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Keith & Robyn A. | Reliable & Affordable",
+    metaTitle: "Removalists Walkamin | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Keith & Robyn A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Walkamin with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our new place in Walkamin from Cairns City and were brilliant. They found our rural property without any hassle, handled the long driveway perfectly and had us fully unloaded by early afternoon. Great team.",
@@ -455,9 +455,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Millaa Millaa & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Trish & Leon M. | Reliable & Affordable",
+    metaTitle: "Removalists Millaa Millaa | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Trish & Leon M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Millaa Millaa with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to a dairy property outside Millaa Millaa. The Palmerston Highway was no problem for their driver and every piece of furniture arrived in perfect condition. Thorough, professional and worth every cent.",
@@ -517,9 +517,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Tinaroo & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Paul & Anna G. | Reliable & Affordable",
+    metaTitle: "Removalists Tinaroo | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Paul & Anna G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Tinaroo with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our lake-view retreat on Tinaroo and the whole experience was excellent. They handled the narrow dirt driveway down to our property without any dramas and were incredibly careful with our furniture in the morning mist. Highly recommended.",
@@ -579,9 +579,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Kairi & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Tony & Claire W. | Reliable & Affordable",
+    metaTitle: "Removalists Kairi | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tony & Claire W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Kairi with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our farm property contents from Kairi into Atherton and did a fantastic job. They knew how to handle all the heavy rural equipment and the two-man crew worked incredibly efficiently. Will definitely use them again.",
@@ -641,9 +641,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Lake Eacham & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Gary & Sue T. | Reliable & Affordable",
+    metaTitle: "Removalists Lake Eacham | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Gary & Sue T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Lake Eacham with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move into our rainforest property near Lake Eacham and they were exceptional. They understood the access sensitivities of the area, chose the right vehicle and handled all our furniture carefully in the humid rainforest conditions. Couldn't be happier.",
@@ -703,9 +703,9 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     serviceArea: "Mount Garnet & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Peter & Fiona L. | Reliable & Affordable",
+    metaTitle: "Removalists Mount Garnet | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Peter & Fiona L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Garnet with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G is one of the few removal companies willing to service Mount Garnet and they do it superbly. Full-day job handled professionally from start to finish. The driver knew the Kennedy Highway well and every item arrived in great condition.",

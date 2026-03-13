@@ -85,10 +85,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Cotton Tree & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Jenna R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Cotton Tree | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Jenna R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cotton Tree with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a second-floor unit in Cotton Tree to a new build in Bli Bli. R2G were punctual, polite and super careful on the stairs. The whole move was wrapped up by early afternoon.",
@@ -148,10 +147,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Kuluin & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Karen S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Kuluin | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Karen S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Kuluin with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved our four-bedroom home from Kuluin to Palmwoods. R2G sent three guys and a big truck — had the whole house packed and delivered in one load. Brilliant efficiency.",
@@ -211,10 +209,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Mountain Creek & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Michael T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mountain Creek | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Michael T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mountain Creek with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a three-bedroom in Brightwater to a bigger home just up the road. R2G had us fully relocated in four hours. Super efficient and nothing was damaged.",
@@ -274,10 +271,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Mooloolah Valley & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Rebecca H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mooloolah Valley | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Rebecca H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mooloolah Valley with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a house in Caloundra to five acres in Mooloolah Valley. They managed the steep gravel driveway like pros and treated our furniture with real care. Highly recommend.",
@@ -337,10 +333,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Palmview & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Scott W. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Palmview | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Scott W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Palmview with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Just built in Palmview Harmony and R2G were our movers from Nambour. Brand new house means lots of careful manoeuvring — they didn't mark a single wall. Impressive.",
@@ -400,10 +395,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Glenview & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Daniel K. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Glenview | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Daniel K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Glenview with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from suburban Buderim to our new acreage in Glenview. R2G brought a smaller truck for the dirt driveway section and shuttled everything up without any issues. Really well organised.",
@@ -463,10 +457,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Forest Glen & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Brett H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Forest Glen | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Brett H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Forest Glen with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home in Forest Glen to a flat block in Sippy Downs. They handled the awkward staircase like champions and nothing was scratched. Really pleased.",
@@ -526,10 +519,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Mons & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Angela W. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mons | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Angela W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mons with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our five-bedroom acreage home in Mons to a townhouse in Maroochydore. They managed the steep driveway with a shuttle truck and had everything done in a single day. Outstanding.",
@@ -589,10 +581,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Tanawha & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists David L. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Tanawha | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in David L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Tanawha with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from North Lakes to Tanawha for work at the hospital. R2G handled the interstate-style distance and navigated our steep new driveway with ease. Everything arrived in perfect order.",
@@ -652,10 +643,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Kunda Park & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Priya S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Kunda Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Priya S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Kunda Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated our entire office from a warehouse in Kunda Park to a bigger unit down the road. Desks, servers, filing cabinets — all moved over a weekend with zero downtime. Top-notch.",
@@ -715,10 +705,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Diddillibah & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Craig T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Diddillibah | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Craig T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Diddillibah with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a house in Buderim to an acreage estate in Diddillibah. R2G managed the winding driveway expertly and protected every piece of furniture. Truly professional service.",
@@ -778,10 +767,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Kiels Mountain & Sunshine Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Victoria P. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Kiels Mountain | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Victoria P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Kiels Mountain with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Sold our Kiels Mountain acreage and moved to a unit in Maroochydore. R2G downsized our load, placed items into storage and delivered the rest — all in one day. Excellent coordination.",
@@ -843,10 +831,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Cooroy & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Ian G. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Cooroy | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ian G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooroy with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Relocated from a cottage in Cooroy to a new build in Noosa Heads. R2G were on time, efficient and protected all our vintage furniture beautifully. Excellent service.",
@@ -906,10 +893,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Cooroy Mountain & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Denise B. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Cooroy Mountain | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Denise B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooroy Mountain with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a suburban home in Buderim to our dream acreage on Cooroy Mountain. They used a shuttle system for the last kilometre of rough track and everything arrived safely. Brilliant effort.",
@@ -969,10 +955,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Pomona & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Patrick O. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Pomona | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Patrick O. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Pomona with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a Queenslander in Pomona to a modern home in Noosaville. R2G carefully navigated the narrow cottage hallways and wrapped everything to perfection. Not a single scratch.",
@@ -1032,10 +1017,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Cooran & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Catherine E. | Reliable & Affordable",
+    metaTitle: "Removalists Cooran | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Catherine E. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooran with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a Brisbane apartment to our new hobby farm in Cooran. R2G handled the long drive and tricky creek crossing access like seasoned pros. Everything arrived safe and sound.",
@@ -1095,10 +1079,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Kin Kin & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Leo S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Kin Kin | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Leo S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Kin Kin with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Noosa to our new eco-property in Kin Kin. They carefully navigated a 2km dirt track and handled solar equipment, furniture and art with equal care. Faultless job.",
@@ -1158,10 +1141,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Cooroibah & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Ingrid M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Cooroibah | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ingrid M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooroibah with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a riverfront home in Cooroibah to an apartment in Sunshine Beach. R2G handled the narrow lakeside street and steep driveway access without a problem. Excellent work.",
@@ -1221,10 +1203,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Tinbeerwah & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Sandra V. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Tinbeerwah | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Sandra V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Tinbeerwah with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Tewantin to an acreage in Tinbeerwah. They navigated the narrow bush track to our new home expertly and handled the heavy timber dining table with great care.",
@@ -1284,10 +1265,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Lake Macdonald & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Doug H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Lake Macdonald | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Doug H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Lake Macdonald with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Maroochydore to our dream acreage on Lake Macdonald. The team managed a narrow bush driveway and delivered everything without a single mark. Outstanding job.",
@@ -1347,10 +1327,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Eumundi & Noosa Hinterland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Gareth M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Eumundi | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Gareth M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Eumundi with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an old Queenslander in Eumundi to a new house in Peregian Springs. They expertly manoeuvred furniture through narrow hallways and down steep verandah stairs. Top-quality service.",
@@ -1412,10 +1391,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Yandina Creek & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Nicole A. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Yandina Creek | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Nicole A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Yandina Creek with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a townhouse in Coolum to five acres in Yandina Creek. R2G managed the long dirt track beautifully and even moved our small horse float. Exceptional crew.",
@@ -1475,10 +1453,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "North Arm & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Belinda J. | Reliable & Affordable",
+    metaTitle: "Professional Removalists North Arm | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Belinda J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in North Arm with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a suburban block in Nambour to our new acreage in North Arm. They handled the gravel driveway and creek crossing without hesitation. Furniture arrived in perfect shape.",
@@ -1538,10 +1515,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Maroochy River & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Stuart B. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Maroochy River | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Stuart B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Maroochy River with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit in Mooloolaba to a riverfront home in Maroochy River. R2G placed everything carefully around the house and even set up the outdoor furniture by the jetty. Fantastic crew.",
@@ -1601,10 +1577,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Ninderry & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Rachel D. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Ninderry | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Rachel D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ninderry with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Coolum Beach to our new acreage on Mount Ninderry. R2G carefully navigated the steep driveway and positioned the truck perfectly for easy unloading. Professional all the way.",
@@ -1664,10 +1639,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Belli Park & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Leanne K. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Belli Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Leanne K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Belli Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a unit in Noosaville to our new hobby farm in Belli Park. They handled the dirt road access and steep paddock gate perfectly. Everything arrived in great condition.",
@@ -1727,10 +1701,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Eerwah Vale & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Geoff S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Eerwah Vale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Geoff S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Eerwah Vale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Mooloolaba to a beautiful acreage in Eerwah Vale. R2G handled the winding hill road and gravel driveway expertly. Everything was delivered in perfect condition.",
@@ -1790,10 +1763,9 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Cooloolabin & Sunshine Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Christine B. | Reliable & Affordable",
+    metaTitle: "Removalists Cooloolabin | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Christine B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooloolabin with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Nambour to our new property near Cooloolabin Dam. They managed a tricky forest road and a long steep driveway with complete confidence. All furniture arrived safely.",

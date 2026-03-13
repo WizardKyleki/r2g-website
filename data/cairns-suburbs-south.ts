@@ -84,10 +84,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Mount Sheridan & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Lachlan & Amy T. | Reliable & Affordable",
+    metaTitle: "Removalists Mount Sheridan | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Lachlan & Amy T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Sheridan with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a steep-driveway house in Mount Sheridan to a flat block in Gordonvale. They assessed the driveway first, used a shuttle for the upper section and had everything on the main truck efficiently. Great planning.",
@@ -147,10 +146,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "White Rock & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Mark & Julie O. | Reliable & Affordable",
+    metaTitle: "Removalists White Rock | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mark & Julie O. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in White Rock with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a rental in White Rock into a bigger home in Bayview Heights. The move was smooth, the guys were great with our kids' furniture and the bill came in under the estimate. Very happy.",
@@ -210,10 +208,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Bayview Heights & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Claire & Nathan W. | Reliable & Affordable",
+    metaTitle: "Removalists Bayview Heights | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Claire & Nathan W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bayview Heights with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a large home in Bayview Heights to a property in Gordonvale. They handled the steep driveway at our end professionally and had everything loaded quickly. Great crew, fair price.",
@@ -273,10 +270,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Aloomba & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Peter & Diane H. | Reliable & Affordable",
+    metaTitle: "Removalists Aloomba | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Peter & Diane H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Aloomba with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a rural property in Aloomba to a house in Edmonton. They handled the long driveway and muddy conditions from recent rain without any fuss and had everything loaded efficiently. Very impressed.",
@@ -336,10 +332,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Goldsborough & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Kevin & Sue R. | Reliable & Affordable",
+    metaTitle: "Removalists Goldsborough | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Kevin & Sue R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Goldsborough with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Getting a removalist to service Goldsborough is not easy, but R2G did it without complaint. They sent a smaller truck for the rainforest road, made two shuttle trips and had our home cleared efficiently. Professional and experienced.",
@@ -399,10 +394,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Mount Peter & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Andrew & Carol N. | Reliable & Affordable",
+    metaTitle: "Removalists Mount Peter | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Andrew & Carol N. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Peter with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "We moved into our brand new Mount Peter home with R2G. The team was incredibly careful with the freshly painted walls and new tiled floors — they laid floor protection throughout before moving a single item. Couldn't be happier.",
@@ -462,10 +456,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Wrights Creek & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Josh & Caitlin R. | Reliable & Affordable",
+    metaTitle: "Removalists Wrights Creek | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Josh & Caitlin R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wrights Creek with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Wrights Creek to a home in Bentley Park. They handled the long dirt driveway without any problems and had our four-bedroom house cleared by noon. Great value and very professional.",
@@ -525,10 +518,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Little Mulgrave & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Terry & Mandy S. | Reliable & Affordable",
+    metaTitle: "Removalists Little Mulgrave | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Terry & Mandy S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Little Mulgrave with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a cane farm in Little Mulgrave to a house in Gordonvale. They handled the rural access, worked through the shed contents and moved everything in one load. Experienced, reliable and great value.",
@@ -588,10 +580,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Deeral & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Bill & Sharon A. | Reliable & Affordable",
+    metaTitle: "Removalists Deeral | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bill & Sharon A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Deeral with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Deeral to a home in Gordonvale. They were fully prepared for the rural access, handled all our outdoor and farming equipment and completed the move efficiently. Very professional and reliable team.",
@@ -651,10 +642,9 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     serviceArea: "Mirriwinni & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Craig & Vicki P. | Reliable & Affordable",
+    metaTitle: "Removalists Mirriwinni | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Craig & Vicki P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mirriwinni with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Mirriwinni-to-Cairns move without hesitation. They arrived on time, handled our large acreage property efficiently despite the remote location and had everything delivered to our new home before afternoon storms rolled in.",

@@ -83,9 +83,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Bloomfield & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Andrew S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Bloomfield | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Andrew S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bloomfield with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moving into Bloomfield felt impossible until we called R2G. They knew the track, planned around the dry season, and used the right vehicle for the approach. Everything made it through the rainforest without a scratch.",
@@ -145,9 +145,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Rossville & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Claire M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Rossville | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Claire M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Rossville with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us to our rainforest property near Rossville in July. They confirmed road conditions beforehand, brought the right vehicle for the unsealed track and were careful with all our items. Great communication throughout.",
@@ -207,9 +207,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Ayton & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Helen G. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Ayton | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Helen G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ayton with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns to Ayton in August. They checked road conditions beforehand, were upfront about costs and timing, and every single item arrived undamaged. Outstanding service for such a remote destination.",
@@ -269,9 +269,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Helenvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists David L. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Helenvale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in David L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Helenvale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our whole household to a rural property near Helenvale. They knew the Mulligan Highway well, were punctual despite the distance, and everything arrived without damage. Really solid remote move experience.",
@@ -331,9 +331,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Hope Vale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Greg H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Hope Vale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Greg H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Hope Vale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to Hope Vale in July. They were respectful of the community, worked around local requirements and delivered everything safely. We really appreciated how professionally they handled such a sensitive move.",
@@ -393,9 +393,9 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     serviceArea: "Lakeland & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Elaine M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Lakeland | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Elaine M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Lakeland with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us to our farming property at Lakeland from Cairns. They knew the Mulligan Highway inside out, arrived on time and handled our large furniture and farm equipment with care. Excellent service all round.",

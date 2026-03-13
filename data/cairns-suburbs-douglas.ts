@@ -83,10 +83,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Cooya Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Brett L. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Cooya Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Brett L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooya Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our move to Cooya Beach brilliantly. The access track to our place is tight and sandy but the team came prepared with the right equipment. Professional and punctual all the way.",
@@ -146,9 +145,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Daintree & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Donna T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Daintree | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Donna T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Daintree with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moving to Daintree seemed daunting but R2G made it completely painless. They planned the long drive, knew the road conditions and had everything at our new place by early afternoon. Exceptional service.",
@@ -208,10 +207,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Cape Tribulation & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Claire H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Cape Tribulation | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Claire H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cape Tribulation with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Cape Tribulation move when no other removalist would. They handled the Daintree ferry, the narrow rainforest road and a steep property access track all without complaint. Truly exceptional.",
@@ -271,10 +269,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Wonga Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Paul and Jess R. | Reliable & Affordable",
+    metaTitle: "Removalists Wonga Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Paul and Jess R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wonga Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Cairns to Wonga Beach with R2G and it was seamless. They were on time, loaded the truck fast and drove carefully on the coastal road. Everything arrived safely — genuinely great service.",
@@ -334,9 +331,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Newell & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Helen D. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Newell | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Helen D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Newell with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns to our property in Newell and handled the rural access road with complete confidence. The lads were careful with all our gear and finished well within the estimate. Very pleased.",
@@ -396,9 +393,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Miallo & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Tony and Carol S. | Reliable & Affordable",
+    metaTitle: "Removalists Miallo | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tony and Carol S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Miallo with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our whole farm household from Miallo to Cairns without a hitch. They handled bulky outdoor items, farm furniture and fragile pieces with equal care. A professional team doing a genuinely tough job.",
@@ -458,10 +455,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Shannonvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Doug and Pam H. | Reliable & Affordable",
+    metaTitle: "Removalists Shannonvale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Doug and Pam H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Shannonvale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us out of our Shannonvale orchard property to Cairns and they were fantastic. They handled large outdoor items, orchard equipment and household furniture all in one load. Very efficient team.",
@@ -521,10 +517,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Oak Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Andrew and Michelle G. | Reliable & Affordable",
+    metaTitle: "Removalists Oak Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Andrew and Michelle G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Oak Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family into Oak Beach and handled the steep access road brilliantly. They assessed the driveway before move day, brought the right sized truck and had everything inside before noon. Couldn't be happier.",
@@ -584,9 +579,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Cow Bay & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Removalists Michael and Sue B. | Reliable & Affordable",
+    metaTitle: "Removalists Cow Bay | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Michael and Sue B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cow Bay with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G were incredible for our Cow Bay move. They managed the Daintree ferry crossing, the rainforest road and our off-grid property without any fuss. Professional, calm and fully prepared. We are very grateful.",
@@ -646,10 +641,9 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     serviceArea: "Thornton Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Sophie and Mark T. | Reliable & Affordable",
+    metaTitle: "Removalists Thornton Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Sophie and Mark T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Thornton Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Thornton Beach move when every other removalist we contacted said the location was too remote. They were thoroughly prepared, crossed the ferry with no issues and delivered everything in perfect condition.",

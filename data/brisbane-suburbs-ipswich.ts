@@ -83,9 +83,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Augustine Heights & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Craig W. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Augustine Heights | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Craig W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Augustine Heights with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved into our new build in Augustine Heights from Goodna. R2G were careful not to scuff the new floors and wrapped everything perfectly. The crew even wore shoe covers inside. Excellent service.",
@@ -145,9 +145,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Bellbird Park & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Sarah M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Bellbird Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Sarah M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bellbird Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a unit in Goodna to our first home in Bellbird Park. The team was fantastic — wrapped everything carefully and worked quickly. No hidden costs either, which was a nice surprise.",
@@ -207,9 +207,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Blackstone & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Amy R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Blackstone | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Amy R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Blackstone with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our old Queenslander in Blackstone to a modern home in Redbank Plains. They handled the steep stairs brilliantly and wrapped all our antique furniture with extra care. Outstanding job.",
@@ -269,9 +269,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Booval & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Wendy F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Booval | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wendy F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Booval with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved our family from Booval to a bigger home in Brassall. R2G was punctual, well-organised and the price was exactly what they quoted. No surprises, no damage. Will definitely use again.",
@@ -331,9 +331,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Brassall & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Rachel G. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Brassall | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Rachel G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Brassall with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our 4-bedroom home in Brassall. Three-man crew, everything wrapped and loaded in under three hours. They reassembled all the beds at the new place too. Top-notch service.",
@@ -393,9 +393,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Brookwater & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Paul A. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Brookwater | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Paul A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Brookwater with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our new home in Brookwater from Sydney. They handled our designer furniture and artwork with exceptional care. Everything arrived in pristine condition. Highly recommend.",
@@ -455,9 +455,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Bundamba & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Andrew C. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Bundamba | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Andrew C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bundamba with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Bundamba to Springfield Lakes. They were fast, professional and really affordable. The crew handled our heavy fridge and washing machine with ease. Great job all round.",
@@ -517,9 +517,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Camira & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Steve B. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Camira | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Steve B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Camira with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our 4-bedroom home from Camira to a new estate in Springfield Lakes. The team navigated our long driveway and bushland block perfectly. Everything arrived safely. Brilliant service.",
@@ -579,9 +579,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Carole Park & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Simon P. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Carole Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Simon P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Carole Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move from Carole Park to a bigger home in Bellbird Park. Quick, professional and very affordable. They handled the motorway traffic perfectly and arrived right on time.",
@@ -641,9 +641,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Churchill & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Tony R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Churchill | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tony R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Churchill with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our hilltop home in Churchill to a townhouse in Springfield. They handled the steep driveway and stairs like absolute pros. Not a mark on anything. Superb team.",
@@ -703,9 +703,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Chuwar & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Helen V. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Chuwar | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Helen V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Chuwar with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our acreage move in Chuwar brilliantly. They moved everything from the house plus all the workshop equipment from the shed. Professional, efficient and very well priced.",
@@ -765,9 +765,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Deebing Heights & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Bruce A. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Deebing Heights | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bruce A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Deebing Heights with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our brand-new home in Deebing Heights from Goodna. They were so careful with the new floors and walls — not a single mark anywhere. Exceptional service.",
@@ -827,9 +827,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "East Ipswich & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Jessica T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists East Ipswich | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Jessica T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in East Ipswich with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our Queenslander in East Ipswich to a new build in Ripley. They navigated the steep stairs and narrow hallways perfectly. Every piece of furniture was protected and delivered without a scratch.",
@@ -889,9 +889,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Ebenezer & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Margaret O. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Ebenezer | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Margaret O. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ebenezer with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our acreage in Ebenezer to a townhouse in Springfield. They handled everything — house, shed, even the ride-on mower. Incredible team effort over a full day.",
@@ -951,9 +951,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Fernvale & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Warren F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Fernvale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Warren F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Fernvale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G drove out to Fernvale to move our family to a new estate in Redbank Plains. The price was fair considering the distance and they treated our belongings like their own. Excellent service.",
@@ -1013,9 +1013,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Flinders View & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Sharon D. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Flinders View | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Sharon D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Flinders View with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our hilltop home in Flinders View to a flat block in Yamanto. They managed the steep driveway perfectly and had everything loaded without a scratch. Top-quality removalists.",
@@ -1075,9 +1075,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Gailes & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Kevin R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Gailes | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Kevin R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Gailes with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from our rental in Gailes to a new home in Bellbird Park. R2G was affordable, fast and the crew handled everything carefully. Best value removalists in the area.",
@@ -1137,9 +1137,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Goodna & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Jason F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Goodna | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Jason F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Goodna with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Goodna to a new home in Augustine Heights. They were punctual, incredibly careful and the price was exactly what they quoted. Could not be happier with the service.",
@@ -1199,9 +1199,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Haigslea & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Lisa N. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Haigslea | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Lisa N. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Haigslea with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our entire acreage property in Haigslea — house, shed and workshop. Two trucks and a brilliant crew. Everything was handled professionally and arrived safely at our new home.",
@@ -1261,9 +1261,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Ipswich CBD & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Geoff N. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Ipswich CBD | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Geoff N. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ipswich CBD with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our Ipswich CBD apartment to a house in Brassall. They managed the tight parking and building access brilliantly and had everything loaded before the parking meter ran out. Great planning.",
@@ -1323,9 +1323,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Karalee & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Tina R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Karalee | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tina R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Karalee with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our large family home in Karalee. Five-man crew, two trucks, and they had everything done in one day. They handled the winding driveway and bushland access flawlessly. Outstanding.",
@@ -1385,9 +1385,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Karrabin & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Howard J. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Karrabin | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Howard J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Karrabin with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G drove out to Karrabin and moved our entire property — house, shed and all. They treated the long trip like a local move with the same care and professionalism. Very happy.",
@@ -1447,9 +1447,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Leichhardt & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Colin T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Leichhardt | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Colin T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Leichhardt with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our older home in Leichhardt to a modern house in Redbank Plains. They handled the narrow hallways at our old place with care and were incredibly efficient. Great value.",
@@ -1509,9 +1509,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Lowood & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Joanne L. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Lowood | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Joanne L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Lowood with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G came all the way to Lowood to move our family to Springfield. The crew was fantastic — packed everything securely and drove carefully. Fair pricing for the distance. Would recommend.",
@@ -1571,9 +1571,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Marburg & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Glenn R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Marburg | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Glenn R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Marburg with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our heritage home in Marburg — steep stairs, narrow doors, the lot. They handled every challenge with skill and patience. Not a mark on the old place or the furniture. Brilliant.",
@@ -1633,9 +1633,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Mount Marrow & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Janet C. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mount Marrow | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Janet C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Marrow with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our acreage move in Mount Marrow with real expertise. Two trucks, a full day of work and everything arrived at our new home in perfect condition. Outstanding service.",
@@ -1695,9 +1695,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Muirlea & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Terry N. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Muirlea | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Terry N. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Muirlea with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our entire rural property in Muirlea. House, sheds and workshop — the crew handled everything with care and the pricing was very fair for the volume. Excellent job.",
@@ -1757,9 +1757,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "New Chum & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Brian E. | Reliable & Affordable",
+    metaTitle: "Professional Removalists New Chum | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Brian E. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in New Chum with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our new build in New Chum from a rental in Goodna. They were incredibly careful with the brand-new home — floor runners, corner guards, the lot. Zero damage. Impressive.",
@@ -1819,9 +1819,9 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     serviceArea: "Newtown & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Samantha B. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Newtown | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Samantha B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Newtown with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our grand old Queenslander in Newtown. They handled the steep stairs, narrow doors and delicate heritage features with incredible skill. Not a scratch on anything. True professionals.",

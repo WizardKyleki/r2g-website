@@ -84,10 +84,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Caravonica & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Ashley T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Caravonica | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ashley T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Caravonica with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit in Smithfield to an acreage property in Caravonica and R2G were absolutely brilliant. They navigated the long gravel driveway without any hesitation and handled all our farm equipment carefully. Really pleased with the service.",
@@ -147,10 +146,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Lake Placid & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Greg F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Lake Placid | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Greg F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Lake Placid with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a Redlynch townhouse to an older Queenslander in Lake Placid. They were careful with all the original timber joinery and navigated the tricky driveway perfectly. Highly professional team.",
@@ -210,9 +208,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Barron & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Claire N. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Barron | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Claire N. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Barron with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our move from a Barron acreage property to a house in Redlynch Valley. The team came prepared for the long driveway and large shed contents — everything was packed and loaded in one efficient run. Great crew.",
@@ -272,10 +270,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Stratford & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Ian C. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Stratford | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ian C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Stratford with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a large Queenslander in Stratford to a new home in Freshwater. The guys were careful navigating the high stumps at our old place and had everything loaded quickly. Excellent service from start to finish.",
@@ -335,10 +332,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Aeroglen & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Lisa W. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Aeroglen | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Lisa W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Aeroglen with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Aeroglen to a new home in Stratford in under three hours. The team was fast, professional and treated all our furniture with real care. Competitive pricing and no surprises on the invoice.",
@@ -398,10 +394,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Smithfield Heights & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Chris J. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Smithfield Heights | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Chris J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Smithfield Heights with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Smithfield Heights to a new home in Trinity Park. The steep driveway at our old place was no problem for the team — they had it all loaded quickly and safely. Really professional service.",
@@ -461,10 +456,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Buchan Point & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Amanda V. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Buchan Point | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Amanda V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Buchan Point with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our holiday home contents from Buchan Point into storage while we renovated. They wrapped everything immaculately to protect against the salt air and were careful on the steep stairs to our deck. Could not fault the service.",
@@ -524,10 +518,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Wangetti & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Stuart E. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Wangetti | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Stuart E. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wangetti with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns City all the way to our new home in Wangetti. They planned the long trip perfectly, arrived exactly on schedule and handled the unsealed driveway with no fuss. Outstanding service for such a remote location.",
@@ -587,10 +580,9 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     serviceArea: "Ellis Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Michael T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Ellis Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Michael T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ellis Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our beachfront home contents from Ellis Beach to a retirement village in Palm Cove. The team were meticulous with wrapping our coastal furniture, navigated the highway route perfectly and had everything delivered well within the quoted time.",

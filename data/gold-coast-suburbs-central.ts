@@ -85,10 +85,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Benowa & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Tanya R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Benowa | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Tanya R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Benowa with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal home on Dorado Court in Benowa Waters to a new build in Robina. They protected our hardwood floors and handled the piano with real care. Exceptional team.",
@@ -148,10 +147,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Biggera Waters & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Helen G. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Biggera Waters | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Helen G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Biggera Waters with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a small unit on Doyles Road in Biggera Waters to a house in Helensvale. R2G sent two blokes who were quick, polite and took great care of our furniture. Will use them again.",
@@ -211,10 +209,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Broadbeach Waters & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Craig T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Broadbeach Waters | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Craig T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Broadbeach Waters with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a canal-front home on Rio Vista Boulevard to a unit in Broadbeach. They were super careful carrying furniture past the pool and down the side path. Really impressed.",
@@ -274,10 +271,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Bundall & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Nina F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Bundall | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Nina F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bundall with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal-front home on Doreen Street in Bundall to a property in Benowa Hills. They wrapped every piece of art and handled my wife's antique dresser with real care. Fantastic crew.",
@@ -337,10 +333,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Carrara & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Andrew M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Carrara | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Andrew M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Carrara with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from The Observatory estate in Carrara to a house in Mudgeeraba. R2G handled our pool table, gym equipment and three bedrooms worth of furniture in one trip. Outstanding effort.",
@@ -400,10 +395,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Clear Island Waters & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Steve B. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Clear Island Waters | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Steve B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Clear Island Waters with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our lake-front home on Doreen Crescent in Clear Island Waters to an apartment in Broadbeach. They protected all the door frames and tiled floors beautifully. Couldn't fault them.",
@@ -463,10 +457,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Coombabah & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Wendy S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Coombabah | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wendy S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Coombabah with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home on Dobell Drive in Coombabah to a single-storey house in Helensvale. They managed the steep driveway and internal stairs without any dramas. Top-notch service.",
@@ -526,10 +519,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Gaven & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Paul E. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Gaven | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Paul E. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Gaven with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a four-bedroom home in Gaven to Ormeau. They had the whole house packed onto the truck in under three hours and nothing was damaged. Excellent value for money.",
@@ -589,10 +581,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Hollywell & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Ryan S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Hollywell | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ryan S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Hollywell with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our waterfront home on Doyle Avenue in Hollywell to a villa in Runaway Bay. They were extremely careful across the lawn and around the boat shed. Couldn't have asked for better.",
@@ -652,10 +643,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Main Beach & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Graham D. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Main Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Graham D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Main Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a penthouse on Tedder Avenue to a house in Benowa. They handled our artwork collection and designer furniture with absolute precision. The best removalists we have ever used.",
@@ -715,10 +705,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Maudsland & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Christine R. | Reliable & Affordable",
+    metaTitle: "Removalists Maudsland | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Christine R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Maudsland with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an acreage property in Maudsland to a home in Pacific Pines. They loaded our ride-on mower, workshop bench and the entire house in one trip. Impressive team.",
@@ -778,10 +767,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Mermaid Waters & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Wayne C. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mermaid Waters | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wayne C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mermaid Waters with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal home on Doreen Drive in Mermaid Waters to a new build in Varsity Lakes. They navigated past our pool and pontoon flawlessly and everything arrived perfect.",
@@ -841,10 +829,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Merrimac & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Lisa A. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Merrimac | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Lisa A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Merrimac with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move from our three-bedroom home on Doreen Street in Merrimac to a bigger house in Mudgeeraba. They manoeuvred our king-size bed through the narrow hallway like pros. Really happy.",
@@ -904,10 +891,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Molendinar & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Jason L. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Molendinar | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Jason L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Molendinar with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an older home near Molendinar Road to a new townhouse in Arundel. They handled the steep front steps and narrow hallway perfectly. Everything arrived in great condition.",
@@ -967,10 +953,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Parkwood & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Peter V. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Parkwood | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Peter V. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Parkwood with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped me move from a student flat near Griffith Uni in Parkwood to a shared house in Southport. Small job but they treated it with the same professionalism as a big move. Really appreciated.",
@@ -1030,10 +1015,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Paradise Point & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Emily T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Paradise Point | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Emily T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Paradise Point with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our waterfront home on The Esplanade at Paradise Point to a property in Hope Island. They navigated the steep garden path to the jetty and moved everything including our outdoor furniture. Brilliant.",
@@ -1093,10 +1077,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "South Stradbroke & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Margaret H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists South Stradbroke | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Margaret H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in South Stradbroke with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G coordinated the barge, packing and delivery for our move to South Stradbroke Island. They worked around the tides and had everything wrapped in waterproof covers. Incredibly well-organised.",
@@ -1158,10 +1141,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Bilinga & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists John F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Bilinga | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in John F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bilinga with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G helped us move from a beachfront unit on Miles Street in Bilinga to a house in Elanora. They navigated the narrow laneway behind our block perfectly and had everything loaded in two hours. Great work.",
@@ -1221,10 +1203,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Burleigh Waters & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Donna M. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Burleigh Waters | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Donna M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Burleigh Waters with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a four-bedroom home on Doreen Court in Burleigh Waters to Varsity Lakes. They wrapped every item carefully and had the whole house loaded in one trip. Really efficient team.",
@@ -1284,10 +1265,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Currumbin Valley & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Mark S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Currumbin Valley | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mark S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Currumbin Valley with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from our acreage property deep in Currumbin Valley to a townhouse in Palm Beach. They used a shuttle vehicle for our steep driveway and had every piece of furniture wrapped and protected. Outstanding.",
@@ -1347,10 +1327,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Currumbin Waters & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Fiona R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Currumbin Waters | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Fiona R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Currumbin Waters with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a creek-side home on Doreen Parade in Currumbin Waters to a unit in Coolangatta. They managed the sloped backyard and narrow side path expertly. Not a scratch on anything.",
@@ -1410,10 +1389,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Elanora & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Bev T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Elanora | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bev T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Elanora with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a four-bedroom house near The Pines in Elanora to Burleigh Heads. They had the house packed, loaded and delivered in under five hours. Incredible efficiency.",
@@ -1473,10 +1451,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Miami & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Mel A. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Miami | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mel A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Miami with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a beach cottage on Sydney Street in Miami to a house in Burleigh Waters. They navigated the narrow laneway and tight front door like seasoned professionals. Everything arrived perfect.",
@@ -1536,10 +1513,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Reedy Creek & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Ben R. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Reedy Creek | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ben R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Reedy Creek with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home on Observatory Drive in Reedy Creek to a single-storey house in Varsity Lakes. They handled the steep driveway and internal stairs with real expertise. Very professional.",
@@ -1599,10 +1575,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Tallebudgera & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Natalie C. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Tallebudgera | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Natalie C. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Tallebudgera with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a large acreage property on Doreen Street in Tallebudgera to a waterfront home in Burleigh Heads. They handled two sheds, a pool room and five bedrooms in one day. Remarkable effort.",
@@ -1662,10 +1637,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Tallebudgera Valley & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Grant D. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Tallebudgera Valley | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Grant D. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Tallebudgera Valley with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a 10-acre property deep in Tallebudgera Valley to a house in Mudgeeraba. They used a shuttle van for our steep dirt driveway and had the whole property cleared in one day. Extremely professional.",
@@ -1725,10 +1699,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Worongary & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Bruce L. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Worongary | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bruce L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Worongary with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a split-level home on Doreen Drive in Worongary to a flat-block house in Varsity Lakes. They handled the steep driveway and internal stairs without any issues. Fast and professional.",

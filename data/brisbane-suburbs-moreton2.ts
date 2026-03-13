@@ -83,9 +83,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Margate & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Sarah K. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Margate | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Sarah K. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Margate with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Relocated our beach cottage in Margate to a newer home in Scarborough. R2G handled our antique timber furniture with real care — everything arrived without a scratch. Great team.",
@@ -145,10 +145,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Morayfield & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Margaret P. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Morayfield | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Margaret P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Morayfield with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a rental in Caboolture to our first home in Morayfield. R2G were fantastic — on time, careful with our new floors and very affordable. Couldn't ask for a better experience.",
@@ -208,10 +207,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Mount Mee & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Jess H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mount Mee | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Jess H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Mee with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Petrie up to our acreage in Mount Mee. They handled the winding mountain road brilliantly and nothing was damaged despite the steep driveway. Really professional crew.",
@@ -271,10 +269,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Mount Pleasant & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Graham F. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Mount Pleasant | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Graham F. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Pleasant with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Strathpine to our new acreage in Mount Pleasant. They used a smaller truck for our dirt driveway and shuttled everything in two loads. Very smart approach and nothing damaged.",
@@ -334,10 +331,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Murrumba Downs & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Geoff T. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Murrumba Downs | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Geoff T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Murrumba Downs with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Murrumba Downs to North Lakes. Quick, professional and they took extra care wrapping our glass display cabinet. Everything arrived in perfect condition. Great team.",
@@ -397,10 +393,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Narangba & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Phil A. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Narangba | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Phil A. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Narangba with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Kallangur to a bigger block in Narangba. R2G were brilliant — they handled a steep driveway and split-level layout without any fuss. Everything wrapped and delivered safely.",
@@ -460,9 +455,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Newport & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Dean S. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Newport | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Dean S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Newport with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our canal-front home in Newport. They were incredibly careful with our designer furniture and took the time to place everything exactly as requested. Five-star service.",
@@ -522,10 +517,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "North Lakes & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Andrew & Kate B. | Reliable & Affordable",
+    metaTitle: "Removalists North Lakes | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Andrew & Kate B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in North Lakes with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G have moved us twice now in North Lakes — once into a townhouse and then into our family home. Both times were seamless. They know the estate inside out and always deliver great service.",
@@ -585,9 +579,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Ningi & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Amy & Scott P. | Reliable & Affordable",
+    metaTitle: "Removalists Ningi | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Amy & Scott P. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ningi with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Caboolture to our acreage in Ningi. They handled the long dirt driveway with confidence and everything arrived in great condition. Friendly, professional crew.",
@@ -647,9 +641,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Petrie & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Shane O. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Petrie | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Shane O. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Petrie with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an old Queenslander in Petrie to a new townhouse at the university precinct. They handled the tricky stairs from our old place and were super careful with the new walls. Great work.",
@@ -709,10 +703,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Pine Rivers & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Luke H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Pine Rivers | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Luke H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Pine Rivers with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Bray Park to a house in Eatons Hill. They handled everything professionally and the price was very competitive. Careful with our antique sideboard and crystal cabinet.",
@@ -772,10 +765,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Rothwell & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Peter G. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Rothwell | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Peter G. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Rothwell with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from Rothwell to Scarborough. R2G were on time, careful and very reasonably priced. They even dismantled and reassembled our kids' beds without us having to ask. Great service.",
@@ -835,10 +827,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Samford Valley & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Kelly J. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Samford Valley | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Kelly J. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Samford Valley with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from The Gap to our dream acreage in Samford Valley. They handled the winding roads and long driveway expertly, and took incredible care with our grand piano. Couldn't fault the service.",
@@ -898,10 +889,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Samsonvale & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Michael & Diane R. | Reliable & Affordable",
+    metaTitle: "Removalists Samsonvale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Michael & Diane R. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Samsonvale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Eatons Hill out to our hobby farm in Samsonvale. They handled the narrow winding road and gravel driveway brilliantly. Everything arrived safely despite the challenging access.",
@@ -961,10 +951,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Sandstone Point & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Neil H. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Sandstone Point | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Neil H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Sandstone Point with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from North Lakes to our retirement home in Sandstone Point. They were patient, careful with our antiques and very friendly. A really positive moving experience for a stressful time.",
@@ -1024,10 +1013,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Scarborough & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Barry & Lorraine T. | Reliable & Affordable",
+    metaTitle: "Removalists Scarborough | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Barry & Lorraine T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Scarborough with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our waterfront apartment in Scarborough. They navigated the underground car park and lift access perfectly. Every piece of furniture was wrapped and delivered without a scratch.",
@@ -1087,10 +1075,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Sideling Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Richard & Anna M. | Reliable & Affordable",
+    metaTitle: "Removalists Sideling Creek | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Richard & Anna M. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Sideling Creek with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G were the only company willing to move us into our Sideling Creek property. They assessed the access road beforehand and brought the right small truck. Outstanding effort by the whole team.",
@@ -1150,10 +1137,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Strathpine & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Professional Removalists Colin W. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Strathpine | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Colin W. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Strathpine with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit near Strathpine Station to a house in Warner. R2G were quick, careful and very affordable. They wrapped every piece of furniture and reassembled beds at the new place. Excellent.",
@@ -1213,9 +1199,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Toorbul & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Karen B. | Reliable & Affordable",
+    metaTitle: "Professional Removalists Toorbul | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Karen B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Toorbul with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Caboolture to our retirement cottage in Toorbul. They were punctual, careful and very respectful. The whole move was stress-free. Thoroughly recommend.",
@@ -1275,10 +1261,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Upper Caboolture & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Ron & Pat S. | Reliable & Affordable",
+    metaTitle: "Removalists Upper Caboolture | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ron & Pat S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Upper Caboolture with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit in Caboolture to our first acreage in Upper Caboolture. R2G handled the longer driveway and bigger volume with ease. Three-man crew, very efficient, no damage. Great value.",
@@ -1338,9 +1323,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Wamuran & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Aaron & Bec T. | Reliable & Affordable",
+    metaTitle: "Removalists Wamuran | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Aaron & Bec T. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wamuran with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Morayfield to our farm in Wamuran. They brought the right truck for our dirt road and handled everything from the house and shed. Fantastic team, very careful with our furniture.",
@@ -1400,9 +1385,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Warner & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Brian & Sue L. | Reliable & Affordable",
+    metaTitle: "Removalists Warner | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Brian & Sue L. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Warner with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an apartment in Chermside to our new home in Warner. They handled the two-storey layout expertly and took great care on the new carpet. Friendly, professional team.",
@@ -1462,10 +1447,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Whiteside & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Matt & Lauren S. | Reliable & Affordable",
+    metaTitle: "Removalists Whiteside | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Matt & Lauren S. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Whiteside with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Lawnton to our acreage in Whiteside. They handled the long driveway and bushland setting without any problems. Very careful with our leather lounge suite. Great team.",
@@ -1525,9 +1509,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Woorim & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Ken & Trish B. | Reliable & Affordable",
+    metaTitle: "Removalists Woorim | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ken & Trish B. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Woorim with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Caboolture to our beach house in Woorim. They timed the bridge crossing perfectly and handled everything with care. Our surf boards and outdoor furniture all arrived safely.",
@@ -1587,10 +1571,9 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Woody Point & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle:
-      "Removalists Nick & Sam H. | Reliable & Affordable",
+    metaTitle: "Removalists Woody Point | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Nick & Sam H. with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Woody Point with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us into our character cottage in Woody Point. They were careful with the narrow front stairs and heritage features. Everything placed exactly where we wanted it. Lovely experience.",
