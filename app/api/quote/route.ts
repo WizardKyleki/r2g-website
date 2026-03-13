@@ -135,6 +135,39 @@ export async function POST(request: Request) {
     }
 
     console.log("Email sent successfully, id:", result?.id);
+
+    // Send lead data to n8n webhook (non-blocking — don't delay user response)
+    const n8nWebhookUrl = process.env.N8N_WEBHOOK_URL;
+    if (n8nWebhookUrl) {
+      fetch(n8nWebhookUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "quote_form",
+          name,
+          phone,
+          email,
+          from,
+          to,
+          propertyType,
+          movingTo,
+          bedrooms,
+          fromFloor,
+          toBedrooms,
+          toFloor,
+          moveSize,
+          date,
+          time,
+          extras,
+          notes,
+          pageUrl,
+          submittedAt,
+        }),
+      }).catch((webhookErr) => {
+        console.error("n8n webhook error:", webhookErr);
+      });
+    }
+
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error("Quote email error:", err);
