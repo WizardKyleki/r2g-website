@@ -14,58 +14,63 @@ const BASE_URL = "https://www.r2g.com.au";
 export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date().toISOString();
 
-  // Static pages
-  const staticPages = [
-    { url: `${BASE_URL}/`, priority: 1.0, changeFrequency: "weekly" as const },
-    { url: `${BASE_URL}/quote`, priority: 0.9, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/contact`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/office-removalists`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const },
-    { url: `${BASE_URL}/removalists-cairns`, priority: 1.0, changeFrequency: "weekly" as const },
-    { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const },
-    { url: `${BASE_URL}/removalists-gold-coast`, priority: 1.0, changeFrequency: "weekly" as const },
-    { url: `${BASE_URL}/removalists-sunshine-coast`, priority: 1.0, changeFrequency: "weekly" as const },
-    { url: `${BASE_URL}/ndis-removalists`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/interstate-removalists`, priority: 0.9, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/boxes`, priority: 0.7, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/packing-services-cairns`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/packing-services-brisbane`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/storage-cairns`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/storage-brisbane`, priority: 0.8, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/services`, priority: 0.7, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/about`, priority: 0.6, changeFrequency: "monthly" as const },
-    { url: `${BASE_URL}/privacy`, priority: 0.3, changeFrequency: "yearly" as const },
-    { url: `${BASE_URL}/terms`, priority: 0.3, changeFrequency: "yearly" as const },
-  ].map((page) => ({ ...page, lastModified: today }));
+  // Fixed dates for service pages that don't change frequently
+  // This prevents Google from showing dates in search results (makes pages look like blog posts)
+  const SERVICE_PAGE_DATE = "2025-01-01T00:00:00.000Z";
+  const SUBURB_PAGE_DATE = "2025-01-01T00:00:00.000Z";
 
-  // Cairns suburb pages (dynamically from data)
+  // Static pages — hub pages and frequently updated pages use today, others use fixed date
+  const staticPages = [
+    { url: `${BASE_URL}/`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: today },
+    { url: `${BASE_URL}/quote`, priority: 0.9, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/contact`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/office-removalists`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/blog`, priority: 0.7, changeFrequency: "weekly" as const, lastModified: today },
+    { url: `${BASE_URL}/removalists-cairns`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalists-gold-coast`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalists-sunshine-coast`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/ndis-removalists`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/interstate-removalists`, priority: 0.9, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/boxes`, priority: 0.7, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/packing-services-cairns`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/packing-services-brisbane`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/storage-cairns`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/storage-brisbane`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/services`, priority: 0.7, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/about`, priority: 0.6, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/privacy`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/terms`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: SERVICE_PAGE_DATE },
+  ];
+
+  // Cairns suburb pages — fixed date so Google doesn't show dates in search results
   const cairnsSuburbs = cairnsSuburbsData.map((s) => ({
     url: `${BASE_URL}/removalists-cairns/${s.slug}`,
-    lastModified: today,
+    lastModified: SUBURB_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  // Brisbane suburb pages (dynamically from data)
+  // Brisbane suburb pages
   const brisbaneSuburbPages = brisbaneSuburbs.map((s) => ({
     url: `${BASE_URL}/removalists-brisbane/${s.slug}`,
-    lastModified: today,
+    lastModified: SUBURB_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  // Gold Coast suburb pages (dynamically from data)
+  // Gold Coast suburb pages
   const goldCoastSuburbPages = goldCoastSuburbs.map((s) => ({
     url: `${BASE_URL}/removalists-gold-coast/${s.slug}`,
-    lastModified: today,
+    lastModified: SUBURB_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
 
-  // Sunshine Coast suburb pages (dynamically from data)
+  // Sunshine Coast suburb pages
   const sunshineCoastSuburbPages = sunshineCoastSuburbs.map((s) => ({
     url: `${BASE_URL}/removalists-sunshine-coast/${s.slug}`,
-    lastModified: today,
+    lastModified: SUBURB_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
@@ -73,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Interstate route pages
   const interstateRoutes = getAllRouteSlugs().map((slug) => ({
     url: `${BASE_URL}/interstate-removalists/${slug}`,
-    lastModified: today,
+    lastModified: SERVICE_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
@@ -81,7 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Interstate city pages
   const interstateCities = getAllCitySlugs().map((slug) => ({
     url: `${BASE_URL}/interstate-removalists/${slug}`,
-    lastModified: today,
+    lastModified: SERVICE_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.9,
   }));
@@ -89,7 +94,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Office removalists location pages
   const officeLocations = getAllOfficeLocationSlugs().map((slug) => ({
     url: `${BASE_URL}/office-removalists/${slug}`,
-    lastModified: today,
+    lastModified: SERVICE_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }));
@@ -97,12 +102,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Office removalists suburb pages
   const officeSuburbs = getAllOfficeSuburbParams().map(({ city, suburb }) => ({
     url: `${BASE_URL}/office-removalists/${city}/${suburb}`,
-    lastModified: today,
+    lastModified: SERVICE_PAGE_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
-  // Blog posts
+  // Blog posts — these SHOULD use today's date as they are content pages
   const blogPosts = getAllBlogSlugs().map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,
     lastModified: today,
