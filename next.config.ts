@@ -236,6 +236,114 @@ const nextConfig: NextConfig = {
         destination: "/office-removalists/brisbane",
         permanent: true,
       },
+
+      // ─── Old WordPress blog posts (root-level URLs) ────────────
+      {
+        source: "/weekend-vs-weekday-moving-when-is-the-best-time-to-hire-brisbane-removalists",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/how-to-get-the-right-removalists-brisbane",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/finding-the-reliable-brisbane-removalists-for-your-next-move-to-a-new-home",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/how-hiring-professional-removalists-in-brisbane-saves-you-time-and-money",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/moving-company-in-brisbane-what-are-the-different-types-of-services-available",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/8-tips-to-move-your-office-smoothly-with-removalists-brisbane",
+        destination: "/office-removalists/brisbane",
+        permanent: true,
+      },
+
+      // ─── Old WordPress pages & misc legacy URLs ────────────────
+      {
+        source: "/removalists-innisfail",
+        destination: "/removalists-cairns/innisfail",
+        permanent: true,
+      },
+      {
+        source: "/blogs",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/terms-and-conditions",
+        destination: "/terms",
+        permanent: true,
+      },
+      {
+        source: "/cairns-promo",
+        destination: "/removalists-cairns",
+        permanent: true,
+      },
+      {
+        source: "/afra-australian-furniture-removers-association",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/contact-us/:path*",
+        destination: "/contact",
+        permanent: true,
+      },
+
+      // ─── More dead interstate routes from GSC ──────────────────
+      {
+        source: "/interstate-removalists/brisbane-to-bundaberg",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-hervey-bay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-gladstone",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-byron-bay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-mackay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-sunshine-coast",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+
+      // ─── WordPress RSS feed URLs ───────────────────────────────
+      {
+        source: "/feed",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/:slug/feed",
+        destination: "/blog",
+        permanent: true,
+      },
     ];
   },
 };
