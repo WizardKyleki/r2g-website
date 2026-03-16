@@ -47,7 +47,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/how-can-i-hire-professional-removalists-in-brisbane",
-        destination: "/removalists-brisbane",
+        destination: "/blog/hiring-professional-removalists-brisbane",
         permanent: true,
       },
       {
@@ -237,35 +237,35 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
-      // ─── Old WordPress blog posts (root-level URLs) ────────────
+      // ─── Old WordPress blog posts → new blog posts ────────────
       {
         source: "/weekend-vs-weekday-moving-when-is-the-best-time-to-hire-brisbane-removalists",
-        destination: "/blog",
+        destination: "/blog/best-time-to-move-brisbane",
         permanent: true,
       },
       {
         source: "/how-to-get-the-right-removalists-brisbane",
-        destination: "/removalists-brisbane",
+        destination: "/blog/how-to-choose-removalists-brisbane",
         permanent: true,
       },
       {
         source: "/finding-the-reliable-brisbane-removalists-for-your-next-move-to-a-new-home",
-        destination: "/removalists-brisbane",
+        destination: "/blog/finding-reliable-removalists-brisbane",
         permanent: true,
       },
       {
         source: "/how-hiring-professional-removalists-in-brisbane-saves-you-time-and-money",
-        destination: "/removalists-brisbane",
+        destination: "/blog/hiring-professional-removalists-brisbane",
         permanent: true,
       },
       {
         source: "/moving-company-in-brisbane-what-are-the-different-types-of-services-available",
-        destination: "/removalists-brisbane",
+        destination: "/blog/types-of-moving-services-brisbane",
         permanent: true,
       },
       {
         source: "/8-tips-to-move-your-office-smoothly-with-removalists-brisbane",
-        destination: "/office-removalists/brisbane",
+        destination: "/blog/office-moving-tips-brisbane",
         permanent: true,
       },
 
