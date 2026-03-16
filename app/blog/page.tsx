@@ -25,11 +25,29 @@ export const metadata: Metadata = {
   },
 };
 
+const blogSchema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "R2G Moving Tips & Advice Blog",
+  description:
+    "Expert moving tips, packing guides & relocation advice from professional removalists in Cairns and Brisbane.",
+  url: "https://www.r2g.com.au/blog",
+  publisher: {
+    "@type": "Organization",
+    name: "R2G Transport & Storage",
+    url: "https://www.r2g.com.au",
+  },
+};
+
 export default function BlogPage() {
   const posts = getAllBlogPosts();
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+      />
       <PageHero
         title="Moving Tips & Advice"
         subtitle="Expert guides, packing tips, and relocation advice from professional removalists."

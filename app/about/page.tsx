@@ -52,9 +52,50 @@ const reasons = [
   "Secure storage facilities",
 ];
 
+const aboutSchema = {
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  name: "R2G Transport & Storage",
+  description:
+    "Family-owned, fully insured removalist company operating across Cairns, Brisbane, and all of Australia since 2014.",
+  url: "https://www.r2g.com.au",
+  telephone: "1300 959 498",
+  email: "contact@r2g.com.au",
+  foundingDate: "2014",
+  areaServed: ["Cairns", "Brisbane", "Gold Coast", "Sunshine Coast", "Australia"],
+  address: [
+    {
+      "@type": "PostalAddress",
+      streetAddress: "36 Abbott St",
+      addressLocality: "Cairns City",
+      addressRegion: "QLD",
+      postalCode: "4870",
+      addressCountry: "AU",
+    },
+    {
+      "@type": "PostalAddress",
+      streetAddress: "122 Ashover Circuit",
+      addressLocality: "Archerfield",
+      addressRegion: "QLD",
+      postalCode: "4108",
+      addressCountry: "AU",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.8",
+    reviewCount: "833",
+    bestRating: "5",
+  },
+};
+
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <PageHero
         title="About R2G Transport & Storage"
         subtitle="Cairns and Brisbane-based, community-driven, and committed to making your move as stress-free as possible."

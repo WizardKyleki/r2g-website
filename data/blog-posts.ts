@@ -1271,7 +1271,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-16",
     readTime: "6 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-interstate-moving.webp",
+    image: "/images/blog-best-time-move.webp",
     imageAlt: "Brisbane removalists loading a moving truck on a quiet weekday morning in a suburban street",
     keywords: [
       "best time to move brisbane",
@@ -1404,7 +1404,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-15",
     readTime: "7 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-choose-moving-company.webp",
+    image: "/images/blog-choose-removalist.webp",
     imageAlt: "Professional Brisbane removalists carefully loading wrapped furniture onto a moving truck",
     keywords: [
       "how to choose removalists brisbane",
@@ -1524,7 +1524,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-14",
     readTime: "6 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-choose-moving-company.webp",
+    image: "/images/blog-hiring-removalists.webp",
     imageAlt: "Professional removalists efficiently loading a Brisbane home with proper equipment and blankets",
     keywords: [
       "professional removalists brisbane",
@@ -1641,7 +1641,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-13",
     readTime: "7 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-packing-kitchen.webp",
+    image: "/images/blog-moving-services.webp",
     imageAlt: "Range of removalist services in Brisbane including furniture moving, packing, and storage",
     keywords: [
       "types of removalist services",
@@ -1755,7 +1755,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-12",
     readTime: "6 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-office-relocation.webp",
+    image: "/images/blog-office-moving.webp",
     imageAlt: "Office removalists in Brisbane moving desks and IT equipment during a weekend business relocation",
     keywords: [
       "office moving tips brisbane",
@@ -1865,7 +1865,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-11",
     readTime: "5 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-interstate-moving.webp",
+    image: "/images/blog-reliable-removalists.webp",
     imageAlt: "Reliable Brisbane removalists team with a fully equipped moving truck in a suburban Brisbane street",
     keywords: [
       "reliable removalists brisbane",
