@@ -179,6 +179,55 @@ export default async function RemovalistsSuburbPage({
     },
   };
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.r2g.com.au/" },
+      { "@type": "ListItem", position: 2, name: "Removalists Cairns", item: "https://www.r2g.com.au/removalists-cairns" },
+      { "@type": "ListItem", position: 3, name: `Removalists ${suburb.name}`, item: `https://www.r2g.com.au/removalists-cairns/${suburb.slug}` },
+    ],
+  };
+
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `R2G Transport & Storage — ${suburb.name}`,
+    description: `Removalist services in ${suburb.name}, Cairns. Local moves from $179/hr, fully insured, 4.8★ rated.`,
+    url: `https://www.r2g.com.au/removalists-cairns/${suburb.slug}`,
+    telephone: "1300 959 498",
+    email: "contact@r2g.com.au",
+    image: "https://www.r2g.com.au/images/r2g-logo.png",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: suburb.name,
+      addressRegion: "QLD",
+      addressCountry: "AU",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: suburb.latitude,
+      longitude: suburb.longitude,
+    },
+    areaServed: {
+      "@type": "GeoCircle",
+      geoMidpoint: { "@type": "GeoCoordinates", latitude: suburb.latitude, longitude: suburb.longitude },
+      geoRadius: "20000",
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "07:00",
+      closes: "18:00",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "900",
+      bestRating: "5",
+    },
+  };
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -214,6 +263,8 @@ export default async function RemovalistsSuburbPage({
       {/* JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
 
       {/* ── SECTION 1: HERO ─────────────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] pt-32 pb-20">
