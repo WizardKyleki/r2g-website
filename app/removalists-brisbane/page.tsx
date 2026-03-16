@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Professional Removalists Brisbane | Reliable & Affordable",
+    absolute: "Removalists Brisbane — From $160/hr | R2G Transport & Storage",
   },
   description:
-    "Trusted removalists in Brisbane with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+    "Brisbane removalists with 10+ years experience. Local moves from $160/hr, 4.8★ Google rating (700+ reviews), fully insured. 421 suburbs covered. Free quote today.",
   keywords: [
     "removalists brisbane",
     "brisbane removalists",

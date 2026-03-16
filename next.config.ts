@@ -47,7 +47,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/how-can-i-hire-professional-removalists-in-brisbane",
-        destination: "/removalists-brisbane",
+        destination: "/blog/hiring-professional-removalists-brisbane",
         permanent: true,
       },
       {
@@ -73,6 +73,62 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // ─── Old WordPress /brisbane/removalists-in-{suburb} pattern ──
+      {
+        source: "/brisbane/removalists-in-corparoo",
+        destination: "/removalists-brisbane/coorparoo",
+        permanent: true,
+      },
+      {
+        source: "/brisbane/removalists-in-:suburb",
+        destination: "/removalists-brisbane/:suburb",
+        permanent: true,
+      },
+
+      // ─── Old WordPress /brisbane-removalists URL (high impressions) ─
+      {
+        source: "/brisbane-removalists",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+
+      // ─── Old WordPress misc URLs ───────────────────────────────
+      {
+        source: "/altherton-removalists",
+        destination: "/removalists-cairns",
+        permanent: true,
+      },
+      {
+        source: "/local-removalists-brisbane-promo",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/brisbane-to-cairns-removalists",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/comments/feed",
+        destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/author/:slug",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/how-can-i-hire-professional-removalists-in-brisbane/feed",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/weekend-vs-weekday-moving-when-is-the-best-time-to-hire-brisbane-removalists/feed",
+        destination: "/blog",
+        permanent: true,
+      },
+
       // ─── Old Cairns suburb pattern: /removalists/{slug} ──────────
       // Specific exceptions first (non-Cairns destinations)
       {
@@ -95,10 +151,77 @@ const nextConfig: NextConfig = {
         destination: "/interstate-removalists",
         permanent: true,
       },
+      {
+        source: "/removalists/gold-coast",
+        destination: "/removalists-gold-coast",
+        permanent: true,
+      },
+      {
+        source: "/removalists/sunshine-coast",
+        destination: "/removalists-sunshine-coast",
+        permanent: true,
+      },
+      {
+        source: "/removalists/brisbane-northside",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/removalists/brisbane-southside",
+        destination: "/removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/removalists/gold-coast-to-ballina",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
       // Wildcard: all remaining /removalists/{slug} → /removalists-cairns/{slug}
       {
         source: "/removalists/:slug",
         destination: "/removalists-cairns/:slug",
+        permanent: true,
+      },
+
+      // ─── Old interstate route URLs (dead pages not in ROUTES) ───
+      {
+        source: "/interstate-removalists/brisbane-to-newcastle",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-townsville",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-coffs-harbour",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-port-macquarie",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-ballina",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-rockhampton",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/ipswich-to-rockhampton",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/new-south-wales",
+        destination: "/interstate-removalists",
         permanent: true,
       },
 
@@ -111,6 +234,114 @@ const nextConfig: NextConfig = {
       {
         source: "/office-removalists/brisbane/:suburb",
         destination: "/office-removalists/brisbane",
+        permanent: true,
+      },
+
+      // ─── Old WordPress blog posts → new blog posts ────────────
+      {
+        source: "/weekend-vs-weekday-moving-when-is-the-best-time-to-hire-brisbane-removalists",
+        destination: "/blog/best-time-to-move-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/how-to-get-the-right-removalists-brisbane",
+        destination: "/blog/how-to-choose-removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/finding-the-reliable-brisbane-removalists-for-your-next-move-to-a-new-home",
+        destination: "/blog/finding-reliable-removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/how-hiring-professional-removalists-in-brisbane-saves-you-time-and-money",
+        destination: "/blog/hiring-professional-removalists-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/moving-company-in-brisbane-what-are-the-different-types-of-services-available",
+        destination: "/blog/types-of-moving-services-brisbane",
+        permanent: true,
+      },
+      {
+        source: "/8-tips-to-move-your-office-smoothly-with-removalists-brisbane",
+        destination: "/blog/office-moving-tips-brisbane",
+        permanent: true,
+      },
+
+      // ─── Old WordPress pages & misc legacy URLs ────────────────
+      {
+        source: "/removalists-innisfail",
+        destination: "/removalists-cairns/innisfail",
+        permanent: true,
+      },
+      {
+        source: "/blogs",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/terms-and-conditions",
+        destination: "/terms",
+        permanent: true,
+      },
+      {
+        source: "/cairns-promo",
+        destination: "/removalists-cairns",
+        permanent: true,
+      },
+      {
+        source: "/afra-australian-furniture-removers-association",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/contact-us/:path*",
+        destination: "/contact",
+        permanent: true,
+      },
+
+      // ─── More dead interstate routes from GSC ──────────────────
+      {
+        source: "/interstate-removalists/brisbane-to-bundaberg",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-hervey-bay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-gladstone",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-byron-bay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-mackay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-sunshine-coast",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+
+      // ─── WordPress RSS feed URLs ───────────────────────────────
+      {
+        source: "/feed",
+        destination: "/blog",
+        permanent: true,
+      },
+      {
+        source: "/:slug/feed",
+        destination: "/blog",
         permanent: true,
       },
     ];

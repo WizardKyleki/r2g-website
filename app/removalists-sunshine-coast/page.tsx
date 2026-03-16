@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Sunshine Coast | Reliable & Affordable",
+    absolute: "Removalists Sunshine Coast — From $179/hr | R2G Transport & Storage",
   },
   description:
-    "Trusted removalists on the Sunshine Coast with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+    "Sunshine Coast removalists — Noosa to Caloundra. Local moves from $179/hr, fully insured, 10+ years experience. 107 suburbs covered. Get a free quote today.",
   keywords: [
     "removalists sunshine coast",
     "sunshine coast removalists",
