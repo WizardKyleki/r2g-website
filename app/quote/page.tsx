@@ -9,6 +9,7 @@ import {
   trackQuoteStep,
   trackPhoneClick,
 } from "@/lib/gtag";
+import { trackMetaLead } from "@/lib/fbpixel";
 
 interface QuoteData {
   from: string;
@@ -540,6 +541,12 @@ function QuoteWizard() {
         email: data.email,
         phone: data.phone,
         name: data.name,
+      });
+      trackMetaLead({
+        email: data.email,
+        phone: data.phone,
+        name: data.name,
+        propertyType: data.propertyType,
       });
     } catch {
       setError("Something went wrong. Please call us directly on " + PHONE);

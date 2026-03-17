@@ -11,6 +11,7 @@ import SiteChrome from "@/components/SiteChrome";
 import { SITE_NAME, TAGLINE, DOMAIN } from "@/lib/constants";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
+import MetaPixel from "@/components/MetaPixel";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -64,6 +65,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
         <GoogleTagManagerBody />
+        <MetaPixel />
         <SiteChrome>
           <Header />
         </SiteChrome>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { trackEnquirySubmit } from "@/lib/gtag";
+import { trackMetaContact } from "@/lib/fbpixel";
 
 export default function EnquiryForm() {
   const [fields, setFields] = useState({
@@ -31,6 +32,11 @@ export default function EnquiryForm() {
       if (!res.ok) throw new Error();
       setSubmitted(true);
       trackEnquirySubmit({
+        email: fields.email,
+        phone: fields.phone,
+        name: fields.name,
+      });
+      trackMetaContact({
         email: fields.email,
         phone: fields.phone,
         name: fields.name,
