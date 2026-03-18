@@ -45,7 +45,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Hermit Park | R2G Townsville",
     metaDescription:
-      "Trusted removalists in Hermit Park, Townsville. Experienced with Queenslanders, flood-raised homes & local moves. Fully insured. Free quotes — 1300 959 498.",
+      "Trusted removalists in Hermit Park, Townsville. Experienced with Queenslanders, flood-raised homes & local moves. Fully insured. Get a free quote today.",
     reviews: [
       {
         text: "Moved our renovated Queenslander on Herbert Street to a new build in Kirwan. The guys handled the steep front stairs and narrow hallway without a scratch on anything. Had the whole house done by midday.",
@@ -128,7 +128,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Mundingburra | Trusted Local Movers",
     metaDescription:
-      "Reliable removalists in Mundingburra, Townsville. Fast lowset home moves, flood-aware scheduling & fair hourly rates. Free quote — call 1300 959 498.",
+      "Reliable removalists in Mundingburra, Townsville. Fast lowset home moves, flood-aware scheduling & fair hourly rates. Get a free quote today.",
     reviews: [
       {
         text: "Moved a four-bedroom lowset from Mundingburra to Kelso. The R2G crew had the entire house loaded in under three hours and nothing was damaged. Best movers we have used in Townsville.",
@@ -211,7 +211,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Pimlico | Trusted Local Movers",
     metaDescription:
-      "Local removalists in Pimlico, Townsville. Hospital precinct moves, Queenslander specialists & early morning starts. Fully insured — call 1300 959 498.",
+      "Local removalists in Pimlico, Townsville. Hospital precinct moves, Queenslander specialists & early morning starts. Fully insured. Free quote today.",
     reviews: [
       {
         text: "Relocated from a unit near Townsville Hospital to a house in Bushland Beach. R2G worked around my shift roster and had everything moved before 10am. Fantastic service for a great price.",
@@ -294,7 +294,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Currajong | R2G Townsville",
     metaDescription:
-      "Affordable removalists in Currajong, Townsville. Easy-access lowset homes, shed clearances & fast local moves. Fully insured — free quote 1300 959 498.",
+      "Affordable removalists in Currajong, Townsville. Easy-access lowset homes, shed clearances & fast local moves. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our three-bedroom brick home in Currajong to a new build in Bohle Plains. They cleared the house and the shed in one load. Done by eleven — brilliant effort.",
@@ -377,7 +377,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Rosslea | Trusted Local Movers",
     metaDescription:
-      "Experienced removalists in Rosslea, Townsville. Flood-aware moves, raised home specialists & early starts. Fully insured — get a free quote 1300 959 498.",
+      "Experienced removalists in Rosslea, Townsville. Flood-aware moves, raised home specialists & early starts. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Moved from a raised Queenslander on Iron Street to a new estate in Burdell. R2G handled the steep stairs with ease and wrapped every piece of furniture perfectly. Outstanding crew.",
@@ -460,7 +460,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Mysterton | R2G Townsville",
     metaDescription:
-      "Quiet suburb, easy moves. Removalists in Mysterton, Townsville — timber homes, lowset brick & local relocations. Fully insured. Call 1300 959 498.",
+      "Quiet suburb, easy moves. Removalists in Mysterton, Townsville — timber homes, lowset brick & local relocations. Fully insured. Get a free quote today.",
     reviews: [
       {
         text: "Moved our timber home on Edgar Street to a new build in Mount Louisa. R2G handled the old house beautifully — careful on the verandah steps and nothing scratched. Done before lunch.",
@@ -543,7 +543,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Hyde Park | Trusted Local Movers",
     metaDescription:
-      "Careful removalists in Hyde Park, Townsville. Heritage home experts, timber floor protection & inner-city moves. Fully insured — call 1300 959 498.",
+      "Careful removalists in Hyde Park, Townsville. Heritage home experts, timber floor protection & inner-city moves. Fully insured. Free quote today.",
     reviews: [
       {
         text: "R2G moved our heritage Queenslander on Paxton Street to a townhouse in Douglas. They protected the timber floors and original fretwork perfectly. Not a mark anywhere. Exceptional crew.",
@@ -626,7 +626,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Gulliver | R2G Townsville",
     metaDescription:
-      "Affordable removalists in Gulliver, Townsville. Large sheds, flat blocks & fast local moves. Fully insured — get a free quote today. Call 1300 959 498.",
+      "Affordable removalists in Gulliver, Townsville. Large sheds, flat blocks & fast local moves. Fully insured. Get a free quote today.",
     reviews: [
       {
         text: "Moved a three-bedroom plus a packed shed from Gulliver to Bohle Plains. R2G brought a big truck and loaded everything in one run. The chest freezer and workbench were handled like they do it every day — because they probably do.",
@@ -709,7 +709,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Cranbrook | Trusted Local Movers",
     metaDescription:
-      "Experienced removalists in Cranbrook, Townsville. New estates, older homes & Riverway precinct moves. Fully insured — get your free quote. 1300 959 498.",
+      "Experienced removalists in Cranbrook, Townsville. New estates, older homes & Riverway precinct moves. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Moved from the old part of Cranbrook to a new build in the western estate. R2G dismantled and reassembled the pool table perfectly. The whole house was done by noon. Top job.",
@@ -792,7 +792,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Aitkenvale | R2G Townsville",
     metaDescription:
-      "Reliable removalists in Aitkenvale, Townsville. Defence moves, Stockland precinct & interstate relocations. Fully insured — free quote 1300 959 498.",
+      "Reliable removalists in Aitkenvale, Townsville. Defence moves, Stockland precinct & interstate relocations. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Defence posting move from Aitkenvale to Cairns. R2G packed and loaded our four-bedroom home in one day and delivered to Cairns the next morning. Everything arrived perfectly. Highly recommend for posting moves.",
@@ -875,7 +875,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Vincent | Trusted Local Movers",
     metaDescription:
-      "Removalists in Vincent, Townsville. Defence posting moves, DHA-compliant & local relocations. Fully insured — get your free quote. Call 1300 959 498.",
+      "Removalists in Vincent, Townsville. Defence posting moves, DHA-compliant & local relocations. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Defence posting move from Vincent to Kirwan. R2G understood the DHA requirements and had our house packed, moved and set up in one morning. Absolutely seamless. Best movers we have used in three postings.",
@@ -958,7 +958,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Douglas | Trusted Local Movers",
     metaDescription:
-      "Removalists in Douglas, Townsville. JCU student moves, Defence relocations & family homes. Fully insured — get a free quote. Call 1300 959 498.",
+      "Removalists in Douglas, Townsville. JCU student moves, Defence relocations & family homes. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Moved into a share house near JCU and R2G collected my bed and desk from one place, a fridge from another and delivered it all in one run. Perfect for students on a budget.",
@@ -1042,7 +1042,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Bohle | R2G Townsville",
     metaDescription:
-      "Acreage removalists in Bohle, Townsville. Large sheds, elevated homes & wet season scheduling. Fully insured — get your free quote. Call 1300 959 498.",
+      "Acreage removalists in Bohle, Townsville. Large sheds, elevated homes & wet season scheduling. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Moved a five-acre property in Bohle including a massive shed full of gear. R2G sent three blokes and a big truck and had everything done in one load. Professional and well-organised.",
@@ -1125,7 +1125,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Bohle Plains | Trusted Local Movers",
     metaDescription:
-      "New home moves in Bohle Plains, Townsville. Wide streets, easy access & fast loading. Fully insured removalists — free quote. Call 1300 959 498.",
+      "New home moves in Bohle Plains, Townsville. Wide streets, easy access & fast loading. Fully insured removalists Get a free quote today.",
     reviews: [
       {
         text: "First home in Bohle Plains and R2G made moving day a breeze. The truck backed straight into the garage and everything was placed exactly where we wanted it. Done by 11am. Brilliant.",
@@ -1208,7 +1208,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Bushland Beach | R2G Townsville",
     metaDescription:
-      "Removalists in Bushland Beach, Townsville. New estate specialists, fast moves & modern home access. Fully insured — free quote. Call 1300 959 498.",
+      "Removalists in Bushland Beach, Townsville. New estate specialists, fast moves & modern home access. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Moved from Pimlico to a brand new home in Bushland Beach. R2G had everything loaded, transported and set up in under five hours. The crew assembled all the beds and positioned every piece of furniture perfectly. Outstanding service.",
@@ -1291,7 +1291,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Burdell | Trusted Local Movers",
     metaDescription:
-      "Affordable removalists in Burdell, Townsville. New estate moves, first-home specialists & fast service. Fully insured — free quote. Call 1300 959 498.",
+      "Affordable removalists in Burdell, Townsville. New estate moves, first-home specialists & fast service. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "First home move from a rental in Mundingburra to our new build in Burdell. R2G made it so easy for us. The guys were patient, professional and placed everything exactly where we wanted. Best decision we made.",
@@ -1374,7 +1374,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Deeragun | R2G Townsville",
     metaDescription:
-      "Experienced removalists in Deeragun, Townsville. Established homes, large sheds & northern suburb moves. Fully insured — free quote. Call 1300 959 498.",
+      "Experienced removalists in Deeragun, Townsville. Established homes, large sheds & northern suburb moves. Fully insured Get a free quote today.",
     reviews: [
       {
         text: "Moved from a four-bedroom in Deeragun to a new build in Jensen. R2G managed the tight cul-de-sac access perfectly and had everything delivered and set up by noon. Great team.",

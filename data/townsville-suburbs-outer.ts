@@ -331,7 +331,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Saunders Beach, Townsville | R2G Transport",
     metaDescription:
-      "Reliable removalists in Saunders Beach, Townsville. Coastal property moves with full insurance. No hidden fees, free quotes. Call 1300 959 498.",
+      "Reliable removalists in Saunders Beach, Townsville. Coastal property moves with full insurance. No hidden fees, Get a free quote today.",
   },
   {
     slug: "toomulla",
@@ -414,7 +414,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Toomulla, Townsville | R2G Transport",
     metaDescription:
-      "Professional removalists in Toomulla, Townsville. Coastal property specialists, boat & trailer moves. Fully insured. Call 1300 959 498 for a free quote.",
+      "Professional removalists in Toomulla, Townsville. Coastal property specialists, boat & trailer moves. Fully insured. Get a free quote today.",
   },
   {
     slug: "rollingstone",
@@ -580,7 +580,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Balgal Beach, Townsville | R2G Transport",
     metaDescription:
-      "Removalists servicing Balgal Beach, Townsville. Experienced with remote beachside moves. Fully insured, honest quotes. Call 1300 959 498.",
+      "Removalists servicing Balgal Beach, Townsville. Experienced with remote beachside moves. Fully insured, honest quotes. Get a free quote today.",
   },
   {
     slug: "black-river",
@@ -663,7 +663,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Black River, Townsville | R2G Transport",
     metaDescription:
-      "Local removalists in Black River, Townsville. Modern estates and acreage moves. Fully insured, no hidden fees. Free quotes — call 1300 959 498.",
+      "Local removalists in Black River, Townsville. Modern estates and acreage moves. Fully insured, no hidden fees. Get a free quote today.",
   },
   {
     slug: "alligator-creek",
@@ -746,7 +746,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Alligator Creek, Townsville | R2G Transport",
     metaDescription:
-      "Rural property removalists in Alligator Creek, Townsville. Workshop, homestead & equestrian moves. Fully insured. Call 1300 959 498 for a free quote.",
+      "Rural property removalists in Alligator Creek, Townsville. Workshop, homestead & equestrian moves. Fully insured. Get a free quote today.",
   },
   {
     slug: "riverside-gardens",
@@ -829,7 +829,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Riverside Gardens, Townsville | R2G Transport",
     metaDescription:
-      "Fast, efficient removalists in Riverside Gardens, Townsville. Modern home specialists. Fully insured, no hidden fees. Get a free quote — 1300 959 498.",
+      "Fast, efficient removalists in Riverside Gardens, Townsville. Modern home specialists. Fully insured, no hidden fees. Get a free quote today.",
   },
   {
     slug: "nelly-bay",
@@ -912,7 +912,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Nelly Bay, Magnetic Island | R2G Transport",
     metaDescription:
-      "Specialist Magnetic Island removalists servicing Nelly Bay. Vehicle barge logistics, steep terrain experience. Fully insured. Call 1300 959 498.",
+      "Specialist Magnetic Island removalists servicing Nelly Bay. Vehicle barge logistics, steep terrain experience. Fully insured. Get a free quote today.",
   },
   {
     slug: "arcadia",
@@ -995,7 +995,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Arcadia, Magnetic Island | R2G Transport",
     metaDescription:
-      "Experienced Magnetic Island removalists in Arcadia. Steep terrain specialists, barge logistics included. Fully insured. Call 1300 959 498.",
+      "Experienced Magnetic Island removalists in Arcadia. Steep terrain specialists, barge logistics included. Fully insured. Get a free quote today.",
   },
   {
     slug: "horseshoe-bay",
@@ -1078,7 +1078,7 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Horseshoe Bay, Magnetic Island | R2G Transport",
     metaDescription:
-      "Professional removalists in Horseshoe Bay, Magnetic Island. Piano moves, barge logistics, steep terrain. Fully insured. Free quote — 1300 959 498.",
+      "Professional removalists in Horseshoe Bay, Magnetic Island. Piano moves, barge logistics, steep terrain. Fully insured. Get a free quote today.",
   },
   {
     slug: "picnic-bay",
@@ -1161,6 +1161,6 @@ export const townsvilleOuterSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Picnic Bay, Magnetic Island | R2G Transport",
     metaDescription:
-      "Local removalists in Picnic Bay, Magnetic Island. Vintage cottage specialists, barge logistics handled. Fully insured. Call 1300 959 498.",
+      "Local removalists in Picnic Bay, Magnetic Island. Vintage cottage specialists, barge logistics handled. Fully insured. Get a free quote today.",
   },
 ];
