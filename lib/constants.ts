@@ -28,6 +28,7 @@ export const NAV_LINKS = [
       { label: "Removalists Brisbane", href: "/removalists-brisbane" },
       { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
       { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+      { label: "Removalists Townsville", href: "/removalists-townsville" },
     ],
   },
   {

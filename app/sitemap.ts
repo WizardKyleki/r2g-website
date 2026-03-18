@@ -8,6 +8,7 @@ import { suburbs as cairnsSuburbsData } from "@/data/suburbs";
 import { brisbaneSuburbs } from "@/data/brisbane-suburbs";
 import { goldCoastSuburbs } from "@/data/gold-coast-suburbs";
 import { sunshineCoastSuburbs } from "@/data/sunshine-coast-suburbs";
+import { townsvilleSuburbs } from "@/data/townsville-suburbs";
 
 const BASE_URL = "https://www.r2g.com.au";
 
@@ -30,6 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/removalists-brisbane`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/removalists-gold-coast`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/removalists-sunshine-coast`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalists-townsville`, priority: 1.0, changeFrequency: "weekly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/ndis-removalists`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/interstate-removalists`, priority: 0.9, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/boxes`, priority: 0.7, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
@@ -75,6 +77,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Townsville suburb pages
+  const townsvilleSuburbPages = townsvilleSuburbs.map((s) => ({
+    url: `${BASE_URL}/removalists-townsville/${s.slug}`,
+    lastModified: SUBURB_PAGE_DATE,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   // Interstate route pages
   const interstateRoutes = getAllRouteSlugs().map((slug) => ({
     url: `${BASE_URL}/interstate-removalists/${slug}`,
@@ -115,5 +125,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbPages, ...goldCoastSuburbPages, ...sunshineCoastSuburbPages, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbPages, ...goldCoastSuburbPages, ...sunshineCoastSuburbPages, ...townsvilleSuburbPages, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
 }

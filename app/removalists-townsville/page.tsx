@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 const FAQ = dynamic(() => import("@/components/FAQ"));
@@ -8,251 +7,210 @@ const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
+import { townsvilleSuburbs } from "@/data/townsville-suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
-import { sunshineCoastSuburbs, getSunshineCoastSuburb, getSunshineCoastSuburbHref, type SunshineCoastSuburb } from "@/data/sunshine-coast-suburbs";
 
 // ─────────────────────────────────────────────────────────────────────────────
-// STATIC PARAMS — one page per suburb
+// PAGE CONFIG
 // ─────────────────────────────────────────────────────────────────────────────
-export async function generateStaticParams() {
-  return sunshineCoastSuburbs.map((s) => ({ suburb: s.slug }));
-}
+const pageConfig = {
+  location: "Townsville",
+  locationFull: "Townsville, QLD",
+  h1: "Removalists Townsville",
+  suburb: "Townsville City",
+  postcode: "4810",
+  address: "36 Abbott St, Cairns City QLD 4870",
+  priceFrom: "$179/hr",
+  serviceArea: "Townsville and North Queensland",
+};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// JSON-LD SCHEMAS
+// ─────────────────────────────────────────────────────────────────────────────
+const businessSchema = {
+  "@context": "https://schema.org",
+  "@type": "MovingCompany",
+  name: "R2G Transport & Storage — Removalists Townsville",
+  description:
+    "Professional removalists in Townsville with 10+ years experience. Local and interstate moves from $179/hr. Fully insured.",
+  url: "https://www.r2g.com.au/removalists-townsville",
+  telephone: "1300 959 498",
+  email: "contact@r2g.com.au",
+  priceRange: "$179 - $359",
+  image: "https://www.r2g.com.au/images/r2g-logo.png",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "36 Abbott St",
+    addressLocality: "Cairns City",
+    addressRegion: "QLD",
+    postalCode: "4870",
+    addressCountry: "AU",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: -19.2577,
+    longitude: 146.8082,
+  },
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "07:00",
+    closes: "18:00",
+  },
+  areaServed: [
+    "Townsville",
+    "Townsville City",
+    "Aitkenvale",
+    "Kirwan",
+    "Douglas",
+    "North Ward",
+    "Bushland Beach",
+    "Magnetic Island",
+    "Thuringowa Central",
+    "Belgian Gardens",
+  ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Removalist Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Local Removals Townsville",
+          description: "Professional local moving services in Townsville and North Queensland.",
+        },
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          price: "179",
+          priceCurrency: "AUD",
+          unitText: "per hour",
+        },
+      },
+    ],
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "4.9",
+    reviewCount: "900",
+    bestRating: "5",
+  },
+  sameAs: [
+    "https://www.facebook.com/r2gtransport",
+    "https://www.instagram.com/r2gtransport",
+    "https://www.google.com/maps?cid=11773202456138120338",
+  ],
+};
+
+const faqItems = [
+  {
+    question: "How do you charge for local moves in Townsville?",
+    answer:
+      "We charge an hourly rate starting from $179/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $189/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.",
+  },
+  {
+    question: "Do you move single items or just whole households?",
+    answer:
+      "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $110 with a minimum booking fee.",
+  },
+  {
+    question: "How many removalists will come on the day?",
+    answer:
+      "For 1-2 bedroom homes we typically send 2 experienced removalists plus a truck. For larger 3-4 bedroom homes we send 2-3 removalists. For 5+ bedroom homes or complex moves we\u2019ll discuss team size when you get your quote.",
+  },
+  {
+    question: "Do you move pianos and heavy items in Townsville?",
+    answer:
+      "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Let us know about specialty items when requesting your quote.",
+  },
+  {
+    question: "Do you cover all Townsville suburbs?",
+    answer:
+      "Yes \u2014 we cover the entire Townsville region including Townsville City, North Ward, Aitkenvale, Kirwan, Douglas, Bushland Beach, Thuringowa Central, Condon, Kelso, and all surrounding areas. We also service Magnetic Island.",
+  },
+  {
+    question: "Can I book a last-minute removal in Townsville?",
+    answer:
+      "We do our best to accommodate last-minute bookings in Townsville, subject to availability. Call us on 1300 959 498 to check our earliest available date. For guaranteed availability we recommend booking at least 1-2 weeks in advance.",
+  },
+  {
+    question: "Do you offer packing services in Townsville?",
+    answer:
+      "Yes \u2014 we offer full and partial packing services for Townsville moves. Our team can pack your entire home using quality materials, or just pack specific fragile items like TVs, artwork, glassware and mirrors. Ask about packing when you request your quote.",
+  },
+  {
+    question: "Do you move to and from Magnetic Island?",
+    answer:
+      "Yes. We handle Magnetic Island moves regularly. We book the vehicle barge from the Townsville terminal to Nelly Bay and use smaller trucks suited to the island\u2019s narrow roads. Ferry and barge costs are quoted separately. Give us at least 2 weeks notice for Maggie Island moves so we can secure barge bookings.",
+  },
+  {
+    question: "Do you handle military relocations from Lavarack Barracks?",
+    answer:
+      "Absolutely. We move military families in and out of the Townsville area frequently. We understand the timelines, the paperwork, and the need for careful handling of household goods. Whether it\u2019s a posting to or from Townsville, we can manage the full relocation.",
+  },
+  {
+    question: "How far in advance should I book my Townsville move?",
+    answer:
+      "We recommend booking at least 2 weeks in advance for local Townsville moves, and 3-4 weeks during peak periods like the dry season (May\u2013September) when most people relocate. That said, we always try to accommodate last-minute bookings \u2014 call 1300 959 498 to check availability.",
+  },
+  {
+    question: "Are your removalists in Townsville fully insured?",
+    answer:
+      "Every R2G move in Townsville is covered by comprehensive public liability insurance and goods-in-transit insurance. Your belongings are protected from the moment we load the truck to the moment we unload at your new home.",
+  },
+  {
+    question: "Can you move me interstate from Townsville?",
+    answer:
+      "Yes \u2014 we offer interstate removals from Townsville to Brisbane, Cairns, Sydney, Melbourne and all major Australian cities. We provide fixed-price interstate quotes based on volume and distance. Contact us for a tailored interstate quote.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
 
 // ─────────────────────────────────────────────────────────────────────────────
 // METADATA
 // ─────────────────────────────────────────────────────────────────────────────
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ suburb: string }>;
-}): Promise<Metadata> {
-  const { suburb: slug } = await params;
-  const suburb = getSunshineCoastSuburb(slug);
-  if (!suburb) return {};
-
-  return {
-    title: { absolute: suburb.metaTitle },
-    description: suburb.metaDescription,
-    keywords: [
-      `removalists ${suburb.name.toLowerCase()}`,
-      `${suburb.name.toLowerCase()} removalists`,
-      `moving company ${suburb.name.toLowerCase()}`,
-      `house removals ${suburb.name.toLowerCase()}`,
-      `local removalists ${suburb.name.toLowerCase()}`,
-      `removalists sunshine coast`,
-      "r2g transport and storage",
-    ],
-    alternates: { canonical: `https://www.r2g.com.au/removalists-sunshine-coast/${suburb.slug}` },
-    openGraph: {
-      title: suburb.metaTitle,
-      description: suburb.metaDescription,
-      url: `https://www.r2g.com.au/removalists-sunshine-coast/${suburb.slug}`,
-      type: "website",
-    },
-  };
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// HELPERS
-// ─────────────────────────────────────────────────────────────────────────────
-const GENERIC_AREA_PILLS = [
-  "Maroochydore",
-  "Caloundra",
-  "Noosa Heads",
-  "Mooloolaba",
-  "Buderim",
-  "Nambour",
-  "Coolum Beach",
-  "Kawana Waters",
-];
-
-function getAreaPills(suburb: SunshineCoastSuburb): string[] {
-  const used = new Set([suburb.name, ...suburb.nearbySubs]);
-  const generics = GENERIC_AREA_PILLS.filter((s) => !used.has(s)).slice(0, 6);
-  return [...new Set([...suburb.nearbySubs, "Maroochydore", ...generics])];
-}
-
-function getFaqItems(suburb: SunshineCoastSuburb) {
-  const genericFaqs = [
-    {
-      question: `How do you charge for local moves in ${suburb.name}?`,
-      answer:
-        `We charge an hourly rate starting from $179/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $209/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.`,
-    },
-    {
-      question: "Do you move single items or just whole households?",
-      answer:
-        "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $130 with a minimum booking fee.",
-    },
-    {
-      question: "Do you move pianos and heavy items?",
-      answer:
-        "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Let us know about specialty items when requesting your quote.",
-    },
-  ];
-  const localFaqs = suburb.localFaqs ?? [];
-  return [...localFaqs, ...genericFaqs];
-}
+export const metadata: Metadata = {
+  title: {
+    absolute: "Removalists Townsville \u2014 From $179/hr | R2G Transport & Storage",
+  },
+  description:
+    "Townsville removalists you can trust. Local moves from $179/hr, fully insured, no hidden fees. All suburbs covered including Magnetic Island. Free quote.",
+  keywords: [
+    "removalists townsville",
+    "townsville removalists",
+    "moving company townsville",
+    "house removals townsville",
+    "local removalists townsville",
+    "r2g transport and storage",
+  ],
+  alternates: { canonical: "https://www.r2g.com.au/removalists-townsville" },
+  openGraph: {
+    title: "Professional Removalists Townsville | Reliable & Affordable",
+    description:
+      "Trusted removalists in Townsville with 10+ years experience. Reliable, affordable & fully insured \u2014 no hidden fees. Get a free quote today.",
+    url: "https://www.r2g.com.au/removalists-townsville",
+    type: "website",
+  },
+};
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PAGE
 // ─────────────────────────────────────────────────────────────────────────────
-export default async function RemovalistsSunshineCoastSuburbPage({
-  params,
-}: {
-  params: Promise<{ suburb: string }>;
-}) {
-  const { suburb: slug } = await params;
-  const suburb = getSunshineCoastSuburb(slug);
-  if (!suburb) notFound();
-
-  const faqItems = getFaqItems(suburb);
-  const areaPills = getAreaPills(suburb);
-
-  const businessSchema = {
-    "@context": "https://schema.org",
-    "@type": "MovingCompany",
-    name: `R2G Transport & Storage — Removalists ${suburb.name}`,
-    description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
-    url: `https://www.r2g.com.au/removalists-sunshine-coast/${suburb.slug}`,
-    telephone: "1300 959 498",
-    email: "contact@r2g.com.au",
-    priceRange: "$179 - $359",
-    image: "https://www.r2g.com.au/images/r2g-logo.png",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "122 Ashover Circuit",
-      addressLocality: "Archerfield",
-      addressRegion: "QLD",
-      postalCode: "4108",
-      addressCountry: "AU",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: suburb.latitude,
-      longitude: suburb.longitude,
-    },
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "07:00",
-      closes: "18:00",
-    },
-    areaServed: [suburb.name, ...suburb.nearbySubs, "Sunshine Coast"],
-    hasOfferCatalog: {
-      "@type": "OfferCatalog",
-      name: "Removalist Services",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: `Local Removals ${suburb.name}`,
-            description: `Professional removalist services in ${suburb.name} and surrounding Sunshine Coast suburbs.`,
-          },
-          priceSpecification: {
-            "@type": "PriceSpecification",
-            price: "179",
-            priceCurrency: "AUD",
-            unitText: "per hour",
-          },
-        },
-      ],
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "900",
-      bestRating: "5",
-    },
-  };
-
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.r2g.com.au/" },
-      { "@type": "ListItem", position: 2, name: "Removalists Sunshine Coast", item: "https://www.r2g.com.au/removalists-sunshine-coast" },
-      { "@type": "ListItem", position: 3, name: `Removalists ${suburb.name}`, item: `https://www.r2g.com.au/removalists-sunshine-coast/${suburb.slug}` },
-    ],
-  };
-
-  const localBusinessSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: `R2G Transport & Storage — ${suburb.name}`,
-    description: `Removalist services in ${suburb.name}, Sunshine Coast. Local moves from $179/hr, fully insured, 4.8★ rated.`,
-    url: `https://www.r2g.com.au/removalists-sunshine-coast/${suburb.slug}`,
-    telephone: "1300 959 498",
-    email: "contact@r2g.com.au",
-    image: "https://www.r2g.com.au/images/r2g-logo.png",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: suburb.name,
-      addressRegion: "QLD",
-      addressCountry: "AU",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: suburb.latitude,
-      longitude: suburb.longitude,
-    },
-    areaServed: {
-      "@type": "GeoCircle",
-      geoMidpoint: { "@type": "GeoCoordinates", latitude: suburb.latitude, longitude: suburb.longitude },
-      geoRadius: "20000",
-    },
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      opens: "07:00",
-      closes: "18:00",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "900",
-      bestRating: "5",
-    },
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqItems.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: { "@type": "Answer", text: faq.answer },
-    })),
-  };
-
-  const steps = [
-    {
-      number: "01",
-      title: "Get Your Free Quote",
-      text: `Contact us online or call ${PHONE}. Tell us about your ${suburb.name} move — suburb, home size, and preferred date. We'll provide a clear, upfront quote with no hidden fees.`,
-    },
-    {
-      number: "02",
-      title: "We Pack & Load",
-      text: `Our professional Sunshine Coast removalists arrive on time on moving day. We carefully wrap, pack (if required), and load all your belongings onto our modern, well-equipped truck — treating everything as if it were our own.`,
-    },
-    {
-      number: "03",
-      title: "Settle In With Ease",
-      text: `We transport your belongings safely to your new ${suburb.name} home and unload everything exactly where you want it. We won't leave until you're completely happy — it's that simple.`,
-    },
-  ];
-
-  const tips = suburb.tips;
-
+export default function RemovalistsTownsvillePage() {
   return (
     <>
       {/* JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
 
       {/* ── SECTION 1: HERO ─────────────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] pt-32 pb-20">
@@ -263,9 +221,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             <span className="text-gray-400">Services</span>
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            <Link href="/removalists-sunshine-coast" className="hover:text-[#F5C400] transition-colors">Removalists Sunshine Coast</Link>
-            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            <span className="text-[#F5C400]">Removalists {suburb.name}</span>
+            <span className="text-[#F5C400]">Removalists Townsville</span>
           </nav>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-16 items-center">
@@ -275,14 +231,14 @@ export default async function RemovalistsSunshineCoastSuburbPage({
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-10 h-0.5 bg-[#F5C400]" />
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">
-                  {suburb.serviceArea}
+                  {pageConfig.serviceArea}
                 </span>
               </div>
               <h1 className="text-5xl sm:text-6xl font-black text-white leading-tight mb-5">
-                Removalists {suburb.name}
+                {pageConfig.h1}
               </h1>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                {heroSubtitle(suburb.name, "South-East Queensland")}
+                {heroSubtitle("Townsville", "North Queensland")}
               </p>
 
               {/* Widget — mobile only */}
@@ -316,37 +272,38 @@ export default async function RemovalistsSunshineCoastSuburbPage({
       </section>
 
       {/* ── SECTION 2: TRUST BADGES BAR ─────────────────────────────────────── */}
-      <section className="bg-white py-14 border-b border-gray-100">
+      <section className="py-16 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>,
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>,
                 title: "Fully Insured",
-                text: "Comprehensive public liability & goods-in-transit insurance on every move",
+                description: "Comprehensive public liability & goods-in-transit insurance on every move",
               },
               {
-                icon: <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>,
-                title: "10+ Years Experience",
-                text: "Trusted by hundreds of families and businesses across the Sunshine Coast",
-              },
-              {
-                icon: <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" /></svg>,
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" /></svg>,
                 title: "5-Star Rated",
-                text: "4.9 stars across 900+ verified Google reviews",
+                description: "4.9 stars across 900+ verified Google reviews",
               },
               {
-                icon: <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>,
-                title: "Sunshine Coast Covered",
-                text: "Local depot at Archerfield — covering the entire Sunshine Coast region",
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>,
+                title: "10+ Years Experience",
+                description: "Trusted by hundreds of families and businesses across North Queensland",
               },
             ].map((badge) => (
-              <div key={badge.title} className="flex items-start gap-4 bg-gray-50 rounded-xl p-5 border border-gray-100">
-                <div className="text-[#F5C400] shrink-0">{badge.icon}</div>
-                <div>
-                  <p className="font-bold text-[#1A1A1A] text-sm mb-1">{badge.title}</p>
-                  <p className="text-gray-500 text-xs leading-relaxed">{badge.text}</p>
+              <div
+                key={badge.title}
+                className="relative overflow-hidden flex flex-col items-center text-center p-6 rounded-xl bg-gray-50 hover:bg-yellow-50 transition-colors group"
+              >
+                <svg aria-hidden="true" className="absolute top-0 right-0 text-[#F5C400] opacity-0 group-hover:opacity-100 transition-opacity duration-300" width="36" height="36" viewBox="0 0 36 36" fill="currentColor">
+                  <path d="M0 0 L36 0 L36 36 Z" opacity="0.18"/>
+                </svg>
+                <div className="text-[#F5C400] mb-4 group-hover:scale-110 transition-transform">
+                  {badge.icon}
                 </div>
+                <p className="font-bold text-[#1A1A1A] text-lg mb-2">{badge.title}</p>
+                <p className="text-gray-500 text-sm leading-relaxed">{badge.description}</p>
               </div>
             ))}
           </div>
@@ -363,14 +320,14 @@ export default async function RemovalistsSunshineCoastSuburbPage({
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">About Our Service</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                {suburb.name}&apos;s Local Moving Specialists
+                Townsville&apos;s Local Moving Specialists
               </h2>
 
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">
                 <Image
                   src="/images/r2g-cairns-removalists-loading-truck.webp"
-                  alt={`R2G removalists truck in ${suburb.name}, Sunshine Coast`}
-                  title={`R2G Removalists ${suburb.name} - Professional Local Moving Team`}
+                  alt="R2G removalists truck in Townsville"
+                  title="R2G Removalists Townsville - Professional Local Moving Team"
                   fill
                   className="object-cover"
                   loading="lazy"
@@ -378,12 +335,28 @@ export default async function RemovalistsSunshineCoastSuburbPage({
               </div>
 
               <div className="space-y-5 text-gray-600 leading-relaxed">
-                <p>{suburb.uniquePara1}</p>
-                <p>{suburb.uniquePara2}</p>
-                <p>{suburb.uniquePara3}</p>
                 <p>
-                  {suburb.serviceSummary ??
-                    "Our modern trucks are clean, well-maintained, and stocked with premium moving equipment including furniture blankets, tie-down straps, dollies, and protective padding. You won't find bare timber floors or loose loads with R2G."}
+                  R2G Transport &amp; Storage has been moving families and businesses across North Queensland
+                  for over a decade. Our Townsville operation is run by experienced local crews who know the
+                  city inside out &mdash; from the steep driveways of Castle Hill to the ferry logistics of
+                  Magnetic Island.
+                </p>
+                <p>
+                  We handle everything from small unit moves in South Townsville and student relocations near
+                  JCU in Douglas, through to large family home moves in Kirwan, Bushland Beach and the
+                  northern suburbs. Military families relocating to or from Lavarack Barracks are a regular
+                  part of our Townsville work &mdash; we understand the timelines and the need for careful,
+                  efficient service.
+                </p>
+                <p>
+                  Townsville&apos;s dry tropics climate means our crew schedules around the heat. We start
+                  early in summer to get the heavy lifting done before midday, and we carry extra water and
+                  weatherproof wrapping for the wet season storms that roll in from November through April.
+                </p>
+                <p>
+                  Our trucks are clean, well-maintained, and stocked with premium moving gear &mdash;
+                  furniture blankets, tie-down straps, dollies, and protective padding. Every move is fully
+                  insured with comprehensive public liability and goods-in-transit cover.
                 </p>
               </div>
             </div>
@@ -432,10 +405,10 @@ export default async function RemovalistsSunshineCoastSuburbPage({
                     </p>
                     <div className="space-y-2">
                       {[
-                        { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
                         { label: "Interstate Removals", href: "/interstate-removalists" },
-                        { label: "Removalists Brisbane", href: "/removalists-brisbane" },
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
+                        { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+                        { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
                       ].map((link) => (
                         <Link
                           key={link.href}
@@ -457,30 +430,6 @@ export default async function RemovalistsSunshineCoastSuburbPage({
         </div>
       </section>
 
-      {/* ── SECTION 3B: MOVING DAY (only if suburb has moveDay content) ───── */}
-      {suburb.moveDay && (
-        <section className="bg-gray-50 py-16 border-t border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl">
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-0.5 bg-[#F5C400]" />
-                <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">
-                  What to Expect
-                </span>
-              </div>
-              <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Moving Day in {suburb.name}
-              </h2>
-              <div className="space-y-4 text-gray-600 leading-relaxed">
-                {suburb.moveDay.split("\n\n").map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* ── SECTION 4: PRICING ──────────────────────────────────────────────── */}
       <section className="bg-[#FFFBEB] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -491,7 +440,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-              {suburb.name} Removalist Pricing for Local Moves
+              Townsville Removalist Pricing for Local Moves
             </h2>
             <p className="text-gray-600 text-lg">Transparent rates. No hidden fees. No surprises.</p>
           </div>
@@ -507,7 +456,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
                 "Professional loading & unloading",
                 "Furniture wrapping & blankets",
                 "Disassembly & reassembly",
-                "All Sunshine Coast suburbs covered",
+                "All Townsville suburbs covered",
                 "Heavy item specialists",
                 "Careful, trained removalists",
                 "Modern, clean trucks",
@@ -535,7 +484,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">Simple Process</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-                How Your {suburb.name} Move Works
+                How Your Townsville Move Works
               </h2>
               <div className="flex mb-8">
                 <svg aria-hidden="true" width="100" height="8" viewBox="0 0 100 8" fill="none">
@@ -543,7 +492,23 @@ export default async function RemovalistsSunshineCoastSuburbPage({
                 </svg>
               </div>
               <div className="space-y-8">
-                {steps.map((step) => (
+                {[
+                  {
+                    number: "01",
+                    title: "Get Your Free Quote",
+                    text: "Contact us online or call 1300 959 498. Tell us about your Townsville move \u2014 suburbs, home size, and preferred date. We\u2019ll provide a clear, upfront quote with no hidden fees.",
+                  },
+                  {
+                    number: "02",
+                    title: "We Pack & Load",
+                    text: "Our professional Townsville removalists arrive on time on moving day. We carefully wrap, pack (if required), and load all your belongings onto our modern, well-equipped truck \u2014 treating everything as if it were our own.",
+                  },
+                  {
+                    number: "03",
+                    title: "Settle In With Ease",
+                    text: "We transport your belongings safely to your new Townsville home and unload everything exactly where you want it. We won\u2019t leave until you\u2019re completely happy \u2014 it\u2019s that simple.",
+                  },
+                ].map((step) => (
                   <div key={step.number} className="flex items-start gap-5">
                     <div className="w-16 h-16 rounded-full bg-[#F5C400] flex items-center justify-center text-[#1A1A1A] font-black text-lg shadow-md shrink-0">
                       {step.number}
@@ -560,8 +525,8 @@ export default async function RemovalistsSunshineCoastSuburbPage({
             <div className="relative h-[420px] lg:h-[540px] rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/r2g-professional-packing-service-cairns.webp"
-                alt={`R2G removalist team serving ${suburb.name}, Sunshine Coast`}
-                title={`R2G Professional Packing Service ${suburb.name}`}
+                alt="R2G removalist team serving Townsville"
+                title="R2G Professional Packing Service Townsville"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -571,7 +536,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
         </div>
       </section>
 
-      {/* ── SECTION 6: SERVICE AREA & TIPS ──────────────────────────────────── */}
+      {/* ── SECTION 6: SUBURBS & TIPS ───────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
@@ -581,27 +546,38 @@ export default async function RemovalistsSunshineCoastSuburbPage({
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-3">
-              {suburb.name} and Surrounding Areas
+              Townsville Suburbs We Service
             </h2>
             <p className="text-gray-400 text-base max-w-2xl mx-auto">
-              We cover {suburb.name} and all surrounding suburbs throughout {suburb.region}.
-              Our locally-based team knows the streets and access challenges in this part of the Sunshine Coast.
-              If you&apos;re unsure whether we service your address, just give us a call.
+              We cover the entire Townsville region &mdash; from Balgal Beach in the north to Alligator Creek
+              in the south, and west to Kelso and Condon. We also service Magnetic Island via the vehicle barge.
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-2 justify-center mb-14">
-            {areaPills.map((s) => {
-              const href = getSunshineCoastSuburbHref(s);
-              const classes = "px-3 py-1.5 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
-              return href ? (
-                <Link key={s} href={href} title={`Removalists ${s} - R2G Transport & Storage`} className={classes}>
-                  {s}
-                </Link>
-              ) : (
-                <span key={s} className={classes}>
-                  {s}
-                </span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
+            {["Townsville Central", "Townsville Inner", "Townsville North", "Townsville West", "Townsville South", "Northern Beaches", "Magnetic Island"].map((region) => {
+              const suburbs = townsvilleSuburbs
+                .filter((s) => s.region === region)
+                .sort((a, b) => a.name.localeCompare(b.name));
+              if (suburbs.length === 0) return null;
+              return (
+                <div key={region}>
+                  <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
+                    {region}
+                  </h3>
+                  <div className="flex flex-wrap gap-1.5">
+                    {suburbs.map((suburb) => (
+                      <Link
+                        key={suburb.slug}
+                        href={`/removalists-townsville/${suburb.slug}`}
+                        title={`Removalists ${suburb.name}`}
+                        className="px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors"
+                      >
+                        {suburb.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               );
             })}
           </div>
@@ -613,7 +589,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
               { label: "Removalists Cairns", href: "/removalists-cairns" },
               { label: "Removalists Brisbane", href: "/removalists-brisbane" },
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
-              { label: "Removalists Townsville", href: "/removalists-townsville" },
+              { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
                 {link.label}
@@ -623,10 +599,27 @@ export default async function RemovalistsSunshineCoastSuburbPage({
 
           <div className="border-t border-white/10 pt-12 mt-10">
             <h3 className="text-2xl font-black text-white text-center mb-8">
-              Tips for a Smooth {suburb.name} Move
+              Tips for a Smooth Townsville Move
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {tips.map((tip) => (
+              {[
+                {
+                  heading: "Start early to beat the tropical heat.",
+                  text: "Townsville regularly hits 35\u00B0C+ in summer. We schedule morning starts so the heaviest physical work is done before midday. Staying hydrated and keeping doors open for airflow during loading makes a real difference.",
+                },
+                {
+                  heading: "Plan around cyclone season.",
+                  text: "From November through April, Townsville can cop severe storms and cyclones. If you are moving during wet season, secure all outdoor items immediately after unloading. Our crew brings extra weatherproof wrapping as standard during these months.",
+                },
+                {
+                  heading: "Book early for dry-season moves.",
+                  text: "May to September is Townsville\u2019s peak moving season \u2014 cooler weather, school transitions, and military postings all hit at once. Book at least 3 weeks ahead during the dry season to lock in your preferred date.",
+                },
+                {
+                  heading: "Tell us about steep driveways and stairs.",
+                  text: "Townsville has plenty of elevated homes, especially around Castle Hill, Mount Louisa and the older inner suburbs. Share your driveway details when booking so we bring the right truck and stair equipment.",
+                },
+              ].map((tip) => (
                 <div key={tip.heading} className="bg-white/5 border border-white/10 rounded-xl p-6">
                   <p className="text-white font-bold mb-2">{tip.heading}</p>
                   <p className="text-gray-400 text-sm leading-relaxed">{tip.text}</p>
@@ -641,7 +634,7 @@ export default async function RemovalistsSunshineCoastSuburbPage({
       <GoogleReviews />
 
       {/* ── SECTION 8: FAQ ──────────────────────────────────────────────────── */}
-      <FAQ items={faqItems} heading={`${suburb.name} Removals FAQ`} />
+      <FAQ items={faqItems} heading="Townsville Removals FAQ" />
 
       {/* ── SECTION 9: FINAL CTA ────────────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-[#F5C400] py-20">
@@ -653,10 +646,10 @@ export default async function RemovalistsSunshineCoastSuburbPage({
         </svg>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-4">
-            Ready to move to or from {suburb.name}?
+            Ready to Move in Townsville?
           </h2>
           <p className="text-[#1A1A1A]/70 text-lg mb-10 max-w-2xl mx-auto">
-            Get a free, no-obligation quote and we&apos;ll be in touch as soon as possible — usually within the hour.
+            Get a free, no-obligation quote and we&apos;ll be in touch as soon as possible &mdash; usually within the hour.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link

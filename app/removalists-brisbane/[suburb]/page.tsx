@@ -612,6 +612,7 @@ export default async function RemovalistsBrisbaneSuburbPage({
               { label: "Removalists Cairns", href: "/removalists-cairns" },
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Removalists Townsville", href: "/removalists-townsville" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
                 {link.label}
