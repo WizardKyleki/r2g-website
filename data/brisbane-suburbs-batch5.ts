@@ -1501,6 +1501,27 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     postcode: "4034",
     latitude: -27.3560,
     longitude: 153.0410,
+    moveDay:
+      "Most Zillmere jobs start mid-morning once the Handford Road rush clears out. Our two-person crew pulls up on the residential streets between Murphy Road and the train line, backs the truck in close to the front gate, and walks through the house with you before anything gets touched. We tag fragile items and work out the loading order based on your new place's layout.\n\nThe older fibro and timber cottages along Zillmere Road and around the state school are high-set — that means narrow internal stairs, tight landings at the top, and verandah posts to navigate around with bulky furniture. King beds and large lounges usually need to come down at an angle. Our crew brings extra furniture blankets and corner guards specifically for these stair jobs. The newer townhouse complexes near the station are a different story — low garage clearances, tight internal stairwells, and shared walls where you have to watch every corner to avoid scuffing.\n\nA standard three-bedroom high-set in Zillmere takes about three and a half hours with two blokes. The townhouses are quicker, closer to two and a half hours for a two-bedroom. We load methodically — heavy items and whitegoods first, boxes stacked tight against the walls, mattresses and softs on top. Once we are at the new place, we place everything room by room so you are not spending the night shuffling boxes around.",
+    localFaqs: [
+      {
+        question: "How long does a typical Zillmere move take?",
+        answer:
+          "A 3-bedroom high-set cottage in Zillmere takes our team about 3 to 4 hours. If you are in one of the older places near Zillmere State School with steep front stairs, add 30 to 45 minutes for the extra stair work. The newer townhouses close to the train station are generally quicker — around 2 to 3 hours for a 2-bedroom.",
+      },
+      {
+        question: "Is truck access an issue in Zillmere?",
+        answer:
+          "Mostly no. The residential streets off Handford Road and Murphy Road are wide and flat with good kerb access. Some of the newer townhouse complexes have narrow shared driveways where we park on the street and use trolleys. Our drivers know the back streets well enough to avoid the Aspley Hypermarket intersection when it gets congested.",
+      },
+      {
+        question: "What size team do you send for Zillmere moves?",
+        answer:
+          "Two removalists for units and 2-bedroom homes. For the larger 3 to 4 bedroom houses, especially the high-set ones with stairs, we send a 3-person crew. The extra person makes a big difference on stair jobs — quicker, safer, and less wear on your furniture.",
+      },
+    ],
+    serviceSummary:
+      "Zillmere's mix of high-set timber cottages and modern townhouse complexes means our crew turns up prepared for both. We bring extra stair equipment for the older places and furniture runners for the townhouse garages. Our Archerfield depot is a straight 25-minute drive down Gympie Road, so we can get a crew to Zillmere quickly — including for last-minute bookings when slots open up.",
     uniquePara1:
       "Zillmere is an affordable and practical northern suburb with its own train station, good access to the Bruce Highway and proximity to the Aspley Hypermarket shopping precinct. R2G regularly helps first-home buyers, renters and families settle into this well-connected suburb that offers genuine value within Brisbane's city limits.",
     uniquePara2:

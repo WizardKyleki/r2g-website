@@ -713,6 +713,27 @@ const coreSuburbs: BrisbaneSuburb[] = [
     postcode: "4066",
     latitude: -27.4833,
     longitude: 152.9833,
+    moveDay:
+      "Toowong keeps our crew busy — we do more apartment moves here than just about anywhere else on the westside. A typical job starts with our driver calling the building manager from the truck to confirm the loading dock is clear and the service lift is keyed on. Most of the towers along Sherwood Road and around Toowong Village give you a two-hour lift window, so we work fast.\n\nOur two-person crew brings a tall trolley and furniture runners up first, lays protection across the lift floor and the corridor to your unit, then starts loading from the furthest room out. Beds get dismantled, mattresses go into plastic covers, and we stack boxes on the trolley in groups of six. It is a tight rotation — one bloke loads the trolley in the apartment while the other runs it down to the truck. A one-bedroom unit usually takes about ninety minutes. A two-bedroom with a balcony full of pot plants and outdoor furniture pushes it closer to two and a half hours.\n\nFor the older houses and townhouses on the hill streets off Miskin Street and High Street, the challenge is different. Steep driveways, limited street parking, and lots of stairs. We sometimes need to park the truck one street over and trolley everything across. The Queenslanders up on Jephson Street have beautiful verandahs but the hallways are tight — bedroom doors are narrower than modern standard, so we disassemble bed frames and remove lounge legs before carrying them through.",
+    localFaqs: [
+      {
+        question: "How do apartment moves in Toowong work?",
+        answer:
+          "We handle the body corporate coordination for you. Most Toowong towers require a service lift booking and loading dock reservation — we confirm this with building management before moving day. We bring floor runners and lift protection, and our crew works in a fast rotation to get everything loaded within the allotted lift window.",
+      },
+      {
+        question: "Is parking difficult for the truck in Toowong?",
+        answer:
+          "Apartment buildings along Sherwood Road and near Toowong Village have dedicated loading docks, so that is sorted. For the houses on the hilly streets off Miskin Street and High Street, street parking can be tight. Our driver does a drive-by the day before if needed to plan the best truck position.",
+      },
+      {
+        question: "Do you get busy with student moves near UQ?",
+        answer:
+          "Very busy at the end of each UQ semester — late June and late November are peak student move periods. We run extra crews during those weeks, but slots fill up fast. If you need to move during semester changeover, book at least three weeks ahead. Outside those windows, we usually have same-week availability for Toowong.",
+      },
+    ],
+    serviceSummary:
+      "Toowong is apartment country, and that means we come prepared with tall trolleys, lift floor protection, and mattress covers on every job. For the older hill houses off Miskin Street we bring extra stair equipment and furniture blankets. Our crew knows the body corporate requirements for most Toowong buildings — lift windows, floor runners, loading dock rules — and sorts all of that out before moving day.",
     uniquePara1:
       "Toowong is a popular inner-western suburb of Brisbane, offering excellent public transport, proximity to the University of Queensland and a strong mix of apartment living and family homes. Students, professionals and families frequently move to and from Toowong.",
     uniquePara2:

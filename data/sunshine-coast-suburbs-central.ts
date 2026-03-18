@@ -570,6 +570,27 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     postcode: "4556",
     latitude: -26.7080,
     longitude: 153.0200,
+    moveDay:
+      "Tanawha jobs come in two flavours — the standard residential lots near the hospital precinct and the larger acreage blocks up in the eastern hills. For the residential lots along Stringybark Road and the streets near Siena Catholic Primary, our full-size truck has no trouble. Wide residential streets, concrete driveways, double garages. A three-bedroom here takes about three and a half hours.\n\nThe acreage is where it gets interesting. Some of these properties are on one-to-three acre lots reached by single-lane sealed roads with no passing bays. Our driver goes out the day before to check the approach, work out where to park the truck, and identify a turnaround point. A couple of the places on the steeper sections have driveways that are too narrow for anything bigger than a small rigid — we shuttle loads down to the main road where the larger truck waits.\n\nTiming matters in Tanawha. Sippy Downs Drive is the main access road and it cops serious traffic during hospital shift changes at seven in the morning, three in the afternoon and again at seven at night. We schedule our arrivals to dodge those windows. The actual loading on the acreage properties takes longer than a standard house because there is always extra stuff — shed contents, garden furniture, outdoor settings scattered across the block. We do a thorough walk of the full property before we quote so nothing gets missed on the day.",
+    localFaqs: [
+      {
+        question: "How do you access the acreage properties in Tanawha?",
+        answer:
+          "Our driver checks your specific property access the day before. Some acreage blocks in Tanawha have narrow single-lane driveways that only fit a small truck. For those properties we shuttle loads to the main road. The residential lots closer to the hospital are straightforward — wide streets and proper driveways.",
+      },
+      {
+        question: "When is the best time to move in Tanawha?",
+        answer:
+          "Avoid hospital shift changes. Sippy Downs Drive gets congested at 7am, 3pm and 7pm when shifts change at the Sunshine Coast University Hospital. We schedule Tanawha moves to arrive between those windows — usually around 8:30am or early afternoon works best.",
+      },
+      {
+        question: "Do acreage moves in Tanawha cost more?",
+        answer:
+          "They take longer, which affects the hourly total. Acreage properties have more ground to cover — sheds, workshops, outdoor areas — and sometimes need a smaller truck plus a shuttle run. We quote based on a site check so you know the cost upfront. A typical acreage move runs about five to six hours versus three to four hours for a standard residential lot.",
+      },
+    ],
+    serviceSummary:
+      "Tanawha sits between the hospital precinct and the acreage hills, and our service adjusts to match. We carry stair-climbing gear and extra blankets for the elevated acreage homes, and we time every Tanawha job around the hospital shift-change traffic on Sippy Downs Drive. For the larger properties we do a free pre-move site check to plan truck selection and crew size.",
     uniquePara1:
       "Tanawha is a leafy, elevated suburb between Buderim and Sippy Downs, perhaps best known as home to the Sunshine Coast University Hospital and the expanding health precinct. Beyond the medical hub, Tanawha is a desirable residential area with bushland-bordered acreage and established family homes.",
     uniquePara2:
@@ -1566,6 +1587,27 @@ export const sunshineCoastCentralSuburbs: SunshineCoastSuburb[] = [
     postcode: "4561",
     latitude: -26.5350,
     longitude: 152.9350,
+    moveDay:
+      "Every Ninderry job starts with a driveway assessment. The suburb wraps around Mount Ninderry and most properties sit on two-to-ten acre blocks with long driveways that climb through native bush. Some are sealed, some are gravel, and a few are basically bush tracks with a concrete pad at the top. Our driver goes out the day before to check gradient, surface condition, overhead clearance from the trees, and where the truck can turn around.\n\nThe homes themselves are usually well-built — solid hardwood frames, big open-plan living areas, and wide doorways. Plenty of room to move a king bed or a dining table out without dismantling anything. The challenge is everything else on the property. Ninderry acreage owners tend to accumulate — workshop tools, outdoor furniture sets, ride-on mowers, pool equipment, hot tubs on the deck. We walk the entire property and all outbuildings before we give a final quote because there is always more than what fits on the inventory list.\n\nWet weather is the deal-breaker up here. A steep gravel driveway that is fine in dry conditions turns into a skating rink after overnight rain. We will not send a loaded truck down a slope that is not safe — it is not worth the risk to your gear or our crew. If rain is forecast, we talk to you a couple of days beforehand and either reschedule or plan to park on the main road and shuttle loads up by hand if it is only a short distance.",
+    localFaqs: [
+      {
+        question: "Can a full-size truck get to my Ninderry property?",
+        answer:
+          "It depends on your driveway. Some Ninderry properties have wide sealed driveways that handle a full-size rigid truck no problem. Others have steep gravel tracks through the bush that need a smaller vehicle. We check your specific property before dispatch. If a big truck cannot reach the house, we shuttle loads from the nearest safe access point.",
+      },
+      {
+        question: "How long does an acreage move in Ninderry take?",
+        answer:
+          "A standard four-bedroom home on acreage takes about five to six hours with a three-person crew. If you have large outbuildings with workshop contents, outdoor furniture, and heavy items like a pool table or piano, it can stretch to a full day. We base the quote on a property walkthrough so you get an accurate estimate.",
+      },
+      {
+        question: "What happens if it rains before my Ninderry move?",
+        answer:
+          "Safety comes first. We check conditions the day before and the morning of. If your driveway is too slippery for a loaded truck, we talk through options — reschedule for free, or if the distance from the road is short, shuttle loads by hand using trolleys. We never send a loaded truck down an unsafe slope.",
+      },
+    ],
+    serviceSummary:
+      "Ninderry moves need rural experience and the right gear. We do a pre-move driveway assessment for every property around Mount Ninderry to check gradient, surface, clearance and turnaround space. Our crew comes with extra trolleys for long driveway shuttles, heavy-duty blankets for the bush-track transit, and the flexibility to adjust truck size on the day. Rain plans are sorted in advance.",
     uniquePara1:
       "Ninderry is a sought-after rural-residential suburb nestled around the distinctive Mount Ninderry, midway between Yandina and Coolum Beach. The suburb is valued for its elevated acreage blocks, native bushland and the sense of seclusion that comes with living at the base of a mountain landmark.",
     uniquePara2:

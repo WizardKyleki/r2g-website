@@ -320,6 +320,27 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     postcode: "4007",
     latitude: -27.4310,
     longitude: 153.0590,
+    moveDay:
+      "Ascot jobs need a bit more planning than your average Brisbane move. We usually send a three-person crew for the heritage homes along Lancaster Road and Douro Road — those grand old Queenslanders have wide verandahs but narrow hallway entries, and the stairways up to the front door are often steep with turns. First thing our lead removalist does is walk the house and map out which items go through which door. Some of the larger sideboards and dining tables need to exit through rear french doors rather than the front.\n\nThe high-value stuff is what sets Ascot apart from most suburbs we work in. Oil paintings, antique cabinets, marble-top pieces — we wrap these individually in acid-free tissue and padded blankets before they go anywhere near the truck. Our crew lays protective runners across the polished timber floors and stair treads so we are not leaving scuff marks on hundred-year-old hardwood.\n\nFor the apartment jobs along Racecourse Road, it is a different game. Lift bookings need to be locked in with building management a week ahead. Most of those buildings give you a two-hour window for the service lift, so we load fast and tight. The loading bays are usually around the back off side streets — our driver sorts that out before moving day so there are no surprises. A typical Ascot heritage home takes four to five hours with three crew. Apartments are closer to two and a half hours.",
+    localFaqs: [
+      {
+        question: "Do you handle antiques and high-value furniture in Ascot?",
+        answer:
+          "Absolutely. Ascot is one of the suburbs where we handle the most high-value items — antique sideboards, oil paintings, marble pieces, grand pianos. We bring acid-free tissue wrap, custom blanket padding, and corner protectors for every Ascot job. Our senior removalists handle these items personally.",
+      },
+      {
+        question: "How do you protect heritage floors and fittings?",
+        answer:
+          "We lay padded runners across all polished timber floors and stairways before we start moving anything. We also use foam edge guards on doorframes and banisters. If there are heritage features like stained glass panels near entry points, we cover those with padded sheeting as well.",
+      },
+      {
+        question: "Should I avoid moving on race days at Eagle Farm?",
+        answer:
+          "Definitely worth checking. Major race days at Eagle Farm cause serious traffic around Lancaster Road, Racecourse Road and the side streets off Ascot Avenue. We can still do it, but the crew will need extra time to get in and out. Moving midweek or on non-race Saturdays is a lot smoother.",
+      },
+    ],
+    serviceSummary:
+      "Ascot moves call for a crew that knows how to handle high-value homes. We bring specialist wrapping materials for antiques and artwork, lay floor runners on polished timber, and use padded guards on heritage banisters and fittings. For the Racecourse Road apartments, we coordinate lift bookings and loading bay access with building management ahead of time so moving day runs to schedule.",
     uniquePara1:
       "Ascot is one of Brisbane's most prestigious suburbs, home to Eagle Farm Racecourse, the Royal Queensland Golf Club and tree-lined streets of elegant heritage homes. Families and professionals are drawn to Ascot for its refined character, excellent schools nearby including Ascot State School, and easy access to the CBD and airport.",
     uniquePara2:

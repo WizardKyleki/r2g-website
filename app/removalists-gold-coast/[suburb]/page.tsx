@@ -72,10 +72,10 @@ function getAreaPills(suburb: GoldCoastSuburb): string[] {
   return [...new Set([...suburb.nearbySubs, "Surfers Paradise", ...generics])];
 }
 
-function getFaqItems(suburbName: string) {
-  return [
+function getFaqItems(suburb: GoldCoastSuburb) {
+  const genericFaqs = [
     {
-      question: `How do you charge for local moves in ${suburbName}?`,
+      question: `How do you charge for local moves in ${suburb.name}?`,
       answer:
         `We charge an hourly rate starting from $179/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $209/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.`,
     },
@@ -85,26 +85,13 @@ function getFaqItems(suburbName: string) {
         "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $130 with a minimum booking fee.",
     },
     {
-      question: "How many removalists will come on the day?",
-      answer:
-        "For 1-2 bedroom homes we typically send 2 experienced removalists plus a truck. For larger 3-4 bedroom homes we send 2-3 removalists. For 5+ bedroom homes or complex moves we'll discuss team size when you get your quote.",
-    },
-    {
       question: "Do you move pianos and heavy items?",
       answer:
         "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Let us know about specialty items when requesting your quote.",
     },
-    {
-      question: `Do you cover all of ${suburbName} and surrounding suburbs?`,
-      answer:
-        `Yes — we cover ${suburbName} and the entire surrounding Gold Coast region. We also service all Gold Coast suburbs, South-East Queensland, and interstate routes. Call 1300 959 498 if you have any questions about your specific location.`,
-    },
-    {
-      question: `Can I book a last-minute removal in ${suburbName}?`,
-      answer:
-        `We do our best to accommodate last-minute bookings in ${suburbName}, subject to availability. Call us on 1300 959 498 to check our earliest available date. For guaranteed availability we recommend booking at least 1-2 weeks in advance.`,
-    },
   ];
+  const localFaqs = suburb.localFaqs ?? [];
+  return [...localFaqs, ...genericFaqs];
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -119,7 +106,7 @@ export default async function RemovalistsGoldCoastSuburbPage({
   const suburb = getGoldCoastSuburb(slug);
   if (!suburb) notFound();
 
-  const faqItems = getFaqItems(suburb.name);
+  const faqItems = getFaqItems(suburb);
   const areaPills = getAreaPills(suburb);
 
   const businessSchema = {
@@ -395,9 +382,8 @@ export default async function RemovalistsGoldCoastSuburbPage({
                 <p>{suburb.uniquePara2}</p>
                 <p>{suburb.uniquePara3}</p>
                 <p>
-                  Our modern trucks are clean, well-maintained, and stocked with premium moving
-                  equipment including furniture blankets, tie-down straps, dollies, and protective
-                  padding. You won&apos;t find bare timber floors or loose loads with R2G.
+                  {suburb.serviceSummary ??
+                    "Our modern trucks are clean, well-maintained, and stocked with premium moving equipment including furniture blankets, tie-down straps, dollies, and protective padding. You won't find bare timber floors or loose loads with R2G."}
                 </p>
               </div>
             </div>
@@ -470,6 +456,30 @@ export default async function RemovalistsGoldCoastSuburbPage({
           </div>
         </div>
       </section>
+
+      {/* ── SECTION 3B: MOVING DAY (only if suburb has moveDay content) ───── */}
+      {suburb.moveDay && (
+        <section className="bg-gray-50 py-16 border-t border-gray-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-3xl">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-0.5 bg-[#F5C400]" />
+                <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">
+                  What to Expect
+                </span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
+                Moving Day in {suburb.name}
+              </h2>
+              <div className="space-y-4 text-gray-600 leading-relaxed">
+                {suburb.moveDay.split("\n\n").map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── SECTION 4: PRICING ──────────────────────────────────────────────── */}
       <section className="bg-[#FFFBEB] py-16">

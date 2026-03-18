@@ -825,6 +825,27 @@ const coreSuburbs: SunshineCoastSuburb[] = [
     postcode: "4552",
     latitude: -26.7614,
     longitude: 152.8475,
+    moveDay:
+      "Getting a truck up to Maleny is half the job. We come up the Landsborough-Maleny Road — twenty minutes of switchbacks, steep grades, and blind corners. Our driver picks the truck the day before based on your property. Anything on Obi Obi Road or the north side of town is fine for a full-size truck. The places up on Mountain View Road or along the McCarthy Road side with unsealed driveways — we send a smaller rigid so we can actually turn around without reversing half a kilometre.\n\nOnce on site, the loading is pretty standard country house work. Maleny homes tend to be solid — hardwood floors, wide doorways, decent ceiling height. The acreage places have separate workshops and studios where people have been storing furniture and boxes for years, so we always do a full walk of every outbuilding before quoting. It is not unusual to find an extra half-truckload in the shed that nobody mentioned.\n\nThe weather up on the range is its own thing. Maleny gets more rain than anywhere else on the Coast, and it can roll in fast. We bring extra plastic sheeting and weatherproof wrapping for every Maleny job as standard. If it is bucketing down during loading, we set up a covered staging area at the back of the truck and run items out under tarp. A three-bedroom on a standard block takes about four hours. Acreage with outbuildings — plan for five to six.",
+    localFaqs: [
+      {
+        question: "Can your trucks handle the Maleny range roads?",
+        answer:
+          "Yes, but we choose the truck carefully. The Landsborough-Maleny Road is steep and winding with tight corners. For properties right in town we can use a full-size truck. For rural blocks off Mountain View Road or along the range with narrow driveways, we send a smaller rigid truck. Some jobs we shuttle in two loads rather than risk a big truck on an unsealed slope.",
+      },
+      {
+        question: "How much extra does a Maleny move cost compared to coastal suburbs?",
+        answer:
+          "Maleny moves cost more in travel time, not in hourly rate. The range road adds about 40 minutes each way compared to a coastal suburb. We factor that into the quote upfront so there are no surprises. The actual loading and unloading takes about the same time as anywhere else.",
+      },
+      {
+        question: "What if it rains on moving day in Maleny?",
+        answer:
+          "Rain is common up on the Blackall Range — Maleny gets significantly more than the coast. We come prepared with extra plastic sheeting and weatherproof blankets on every Maleny job. Light rain does not stop us. If it is genuinely unsafe — heavy downpour on a steep unsealed driveway — we will call you early and reschedule to the next dry day at no extra charge.",
+      },
+    ],
+    serviceSummary:
+      "Maleny moves need a crew that knows the range roads and comes ready for the weather. We select our truck based on your specific property access — full-size for town, smaller rigid for the rural driveways off the range. Every Maleny job includes extra weatherproof wrapping and plastic sheeting because the rainfall up on the Blackall Range is unpredictable. We also walk every outbuilding on acreage properties before quoting, so nothing gets left behind.",
     uniquePara1:
       "Maleny is a picturesque hinterland town perched atop the Blackall Range, known for its lush green dairy country, thriving arts community, boutique shopping strip and spectacular views across the Glass House Mountains. The town attracts tree-changers, retirees and creative professionals seeking a cooler-climate lifestyle away from the coast.",
     uniquePara2:
@@ -949,6 +970,27 @@ const coreSuburbs: SunshineCoastSuburb[] = [
     postcode: "4560",
     latitude: -26.6257,
     longitude: 153.0347,
+    moveDay:
+      "Bli Bli is two different jobs depending on which part of the suburb you are in. The Parklakes estate and the newer developments off David Low Way are the easy ones — wide streets, double garages, flat driveways. Our truck reverses straight into the driveway and we load directly from the garage. These houses are mostly four-bedroom, two-storey builds with attached double garage. Two blokes can have a place like that packed and loaded in about four hours.\n\nThe riverside properties along the Maroochy River are a completely different story. Older Queenslanders, sometimes on stilts, with narrow gravel access roads that flood after heavy rain. We send a smaller truck for these and usually park at the closest hard surface then trolley everything down. Some of the blocks off Lefoes Road back onto the river with only one way in and one way out — our driver checks these the day before.\n\nA lot of Bli Bli moves right now are new-build settlements. Families who have been renting in Maroochydore or Nambour while their house gets finished, then doing a full household move the day they get the keys. We coordinate with builders and do a pre-move check to make sure the house is actually ready — nothing worse than turning up with a full truck and finding the carpet bloke still working in the master bedroom. We ask every Bli Bli customer to confirm handover before we roll.",
+    localFaqs: [
+      {
+        question: "Is Bli Bli easy for truck access?",
+        answer:
+          "Parklakes and the newer estates — very easy. Wide streets, proper driveways, no issues with a full-size truck. The older riverside properties are trickier. Narrow access roads, sometimes gravel, and limited space to turn. We check your address and pick the right truck for the job.",
+      },
+      {
+        question: "Do you handle new-build settlement moves in Bli Bli?",
+        answer:
+          "We do a lot of these. Bli Bli has heaps of new builds settling every month. We coordinate with your builder or settlement agent and do a pre-move check to make sure the house is ready before we load the truck. If handover gets delayed, we reschedule at no extra cost with reasonable notice.",
+      },
+      {
+        question: "What about flood risk for riverside properties?",
+        answer:
+          "The Maroochy River can flood after prolonged rain, and some Bli Bli properties sit in affected zones. If there has been heavy rain, we check conditions before dispatching. We also prioritise loading valuable and electronics items first on riverside moves so they are last off the truck and closest to the cabin.",
+      },
+    ],
+    serviceSummary:
+      "Bli Bli moves split neatly between the wide-open new estates and the tighter riverside properties along the Maroochy. We pick the right truck for each — large rigid for Parklakes, smaller vehicle for the older riverside blocks. For the new-build settlements that Bli Bli sees so many of, we coordinate with builders and confirm handover before rolling the truck out.",
     uniquePara1:
       "Bli Bli is a rapidly growing riverside suburb on the Sunshine Coast, situated along the Maroochy River and home to Bli Bli Castle and the expanding Parklakes estate. The suburb has transformed from a quiet cane farming area into one of the Coast's most popular family destinations, with new schools, shops and community facilities.",
     uniquePara2:

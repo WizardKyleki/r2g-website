@@ -24,6 +24,9 @@ export interface Suburb {
   phone: string;
   metaTitle: string;
   metaDescription: string;
+  moveDay?: string;
+  localFaqs?: { question: string; answer: string }[];
+  serviceSummary?: string;
 }
 
 export interface CairnsSuburb extends Suburb {
