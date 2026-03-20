@@ -480,6 +480,29 @@ function QuoteWizard() {
   const [error, setError] = useState("");
   const { tick: carouselTick, fading: carouselFading } = useSyncedCarousel();
 
+  // Capture the page the user was on before navigating to /quote
+  const referrerPage = useRef<string>("");
+  useEffect(() => {
+    // Priority 1: ?ref= query param (set by internal links)
+    const refParam = searchParams.get("ref");
+    if (refParam) {
+      referrerPage.current = refParam;
+      return;
+    }
+    // Priority 2: document.referrer (browser-provided, works for same-origin navigations)
+    if (typeof document !== "undefined" && document.referrer) {
+      try {
+        const url = new URL(document.referrer);
+        // Only capture same-origin referrers (our own site pages)
+        if (url.origin === window.location.origin) {
+          referrerPage.current = url.pathname;
+        }
+      } catch {
+        // Invalid referrer URL, ignore
+      }
+    }
+  }, [searchParams]);
+
   const [data, setData] = useState<QuoteData>({
     from: searchParams.get("from") || "",
     to: searchParams.get("to") || "",
@@ -533,7 +556,7 @@ function QuoteWizard() {
       const res = await fetch("/api/quote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, pageUrl: window.location.href }),
+        body: JSON.stringify({ ...data, pageUrl: window.location.href, referrerPage: referrerPage.current }),
       });
       if (!res.ok) throw new Error("Failed to send");
       setSubmitted(true);

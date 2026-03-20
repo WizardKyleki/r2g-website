@@ -9,7 +9,7 @@ export async function POST(request: Request) {
     const data = await request.json();
     const {
       from, to, propertyType, movingTo, bedrooms, fromFloor, toBedrooms, toFloor,
-      moveSize, date, time, name, phone, email, extras, notes, pageUrl,
+      moveSize, date, time, name, phone, email, extras, notes, pageUrl, referrerPage,
     } = data as Record<string, string | string[]>;
 
     const submittedAt = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" });
@@ -133,7 +133,7 @@ export async function POST(request: Request) {
 
           <div style="background-color: ${leadSource.startsWith("Google Ads") ? "#e8f5e9" : "#f9f9f9"}; padding: 12px 16px; border-radius: 6px; font-size: 13px; border: ${leadSource.startsWith("Google Ads") ? "2px solid #4caf50" : "1px solid #e0e0e0"};">
             <strong style="color: ${leadSource.startsWith("Google Ads") ? "#2e7d32" : "#555"};">Source: ${leadSource}</strong><br/>
-            Page: ${pageUrl || "Unknown"}<br/>
+            ${referrerPage ? `Referred from: ${referrerPage}<br/>` : ""}Page: ${pageUrl || "Unknown"}<br/>
             Submitted: ${submittedAt} (AEST)
           </div>
         </div>
@@ -183,6 +183,7 @@ export async function POST(request: Request) {
             extras,
             notes,
             pageUrl,
+            referrerPage,
             leadSource,
             submittedAt,
           }),
