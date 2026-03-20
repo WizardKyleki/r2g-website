@@ -6,6 +6,34 @@ import dynamic from "next/dynamic";
 import { getBlogPost, type ContentBlock } from "@/data/blog-posts";
 
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
+const FAQ = dynamic(() => import("@/components/FAQ"));
+
+const ndisFaqs = [
+  {
+    question: "What is an NDIS removalist?",
+    answer: "An NDIS removalist is a moving company registered as an NDIS provider that helps participants relocate. They understand the unique needs of people with disabilities and provide patient, supportive moving services that can be funded through NDIS plans.",
+  },
+  {
+    question: "Can I use my NDIS funding for removalist services?",
+    answer: "Yes, NDIS participants can use their plan funding for removalist services when relocating. The cost is typically covered under Core Supports or Capacity Building budgets. Speak with your support coordinator or plan manager to confirm your funding allocation.",
+  },
+  {
+    question: "Does R2G work with plan managers and support coordinators?",
+    answer: "Yes, R2G works directly with plan managers and support coordinators to arrange NDIS moves. We handle the invoicing and paperwork so you can focus on settling into your new home.",
+  },
+  {
+    question: "What areas do you cover for NDIS removals?",
+    answer: "R2G provides NDIS removals across Brisbane, Cairns, Gold Coast, Sunshine Coast, and interstate. We cover over 708 suburbs across Queensland.",
+  },
+  {
+    question: "How do I book an NDIS removal with R2G?",
+    answer: "You can book an NDIS removal by calling 1300 959 498 or requesting a free quote online at r2g.com.au/quote. Let us know you're an NDIS participant and we'll guide you through the process.",
+  },
+  {
+    question: "Is R2G insured for NDIS moves?",
+    answer: "Yes, all R2G moves include full transit insurance. Your belongings are fully covered from pickup to delivery, giving you complete peace of mind during your relocation.",
+  },
+];
 
 const POST_SLUG = "ndis-removalists";
 
@@ -201,6 +229,14 @@ export default function NdisRemovalistsPage() {
           },
         ],
       },
+      {
+        "@type": "FAQPage",
+        mainEntity: ndisFaqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: { "@type": "Answer", text: faq.answer },
+        })),
+      },
     ],
   };
 
@@ -284,6 +320,9 @@ export default function NdisRemovalistsPage() {
           {post.content.map((block, i) => renderBlock(block, i))}
         </div>
       </article>
+
+      {/* ── FAQ ───────────────────────────────────────────────────────────── */}
+      <FAQ items={ndisFaqs} heading="NDIS Removalists FAQ" />
 
       {/* ── CTA ───────────────────────────────────────────────────────────── */}
       <CTABanner

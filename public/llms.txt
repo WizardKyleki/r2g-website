@@ -1,60 +1,78 @@
 # R2G Transport & Storage
-## Professional Removalists — Cairns, Brisbane, Gold Coast & Sunshine Coast
+## Professional Removalists — Brisbane, Cairns, Gold Coast & Sunshine Coast, Queensland Australia
 
-> R2G Transport & Storage is a family-owned removalist company serving Queensland, Australia since 2014. We provide local, interstate, and office removals with 10+ years of experience, 800+ five-star reviews, and full insurance.
+> R2G Transport & Storage is a family-owned removalist company serving Queensland, Australia since 2014. We provide local, interstate, and office removals with 10+ years of experience, 830+ five-star Google reviews across two locations, and full transit insurance coverage.
 
 ## Company Details
 - Name: R2G Transport & Storage
 - Website: https://www.r2g.com.au
 - Phone: 1300 959 498
-- Email: contact@r2g.com.au
+- Email: kyle@r2g.com.au
 - Founded: 2014
-- ABN: Australian Business
+- Rating: 4.8 stars on Google (830+ combined reviews)
+- Insurance: Full transit insurance on all moves
 
 ## Locations
-- Cairns Office: 36 Abbott St, Cairns City QLD 4870
-- Brisbane Office: 122 Ashover Circuit, Archerfield QLD 4108
+- Brisbane Office: 122 Ashover Circuit, Archerfield QLD 4108 (703+ Google reviews)
+- Cairns Office: 36 Abbott St, Cairns City QLD 4870 (130+ Google reviews)
 
-## Service Areas
-- Cairns & Far North Queensland (99 suburbs)
-- Brisbane (421 suburbs)
-- Gold Coast (81 suburbs)
-- Sunshine Coast (107 suburbs)
-- Interstate: Sydney, Melbourne, Perth, Adelaide, Townsville, Rockhampton
+## Service Areas (708+ suburb pages)
+- Brisbane & surrounds: 421 suburbs covered
+- Sunshine Coast: 107 suburbs covered
+- Cairns & Far North Queensland: 99 suburbs covered
+- Gold Coast: 81 suburbs covered
+- Interstate: Sydney, Melbourne, Perth, Adelaide, Townsville, Rockhampton, Coffs Harbour
 
 ## Services
-- Local house removals
-- Interstate removals (rail & road)
-- Office & commercial relocations
-- Packing & unpacking services
-- Storage solutions (Cairns & Brisbane)
-- NDIS removals
-- Piano & heavy item moves
-- Single item moves
+- Local house removals (homes, apartments, units, townhouses)
+- Interstate removals by road (Brisbane to Sydney, Melbourne, Perth, Adelaide, Cairns)
+- Office & commercial relocations (desks, servers, boardrooms)
+- Packing & unpacking services (full pack, partial pack, fragile items)
+- Secure storage solutions (short-term and long-term, Cairns & Brisbane)
+- Moving boxes & packing supplies
+- NDIS removals (NDIS-registered provider for participants)
+- Piano & heavy item specialist moves
+- Single item & small moves
 
-## Pricing
-- Cairns local moves: from $179/hr (2-person team + truck)
+## Pricing (2026)
 - Brisbane local moves: from $160/hr (2-person team + truck)
-- Gold Coast & Sunshine Coast: from $179/hr
-- Interstate moves: custom quotes
+- Cairns local moves: from $179/hr (2-person team + truck)
+- Gold Coast local moves: from $179/hr (2-person team + truck)
+- Sunshine Coast local moves: from $179/hr (2-person team + truck)
+- Interstate moves: custom quotes based on volume and distance
 - Single items: from $110
+- No hidden fees, transparent hourly pricing
 
-## Reviews
-- Google Reviews: 4.8 stars, 800+ reviews
-- Serving 700+ suburbs across Queensland
+## Frequently Asked Questions
+- Q: How much do removalists cost in Brisbane? A: Brisbane removalists start from $160/hr for a 2-person team with truck. A typical 2-bedroom move costs $400-$800 depending on distance and volume.
+- Q: How much do removalists cost in Cairns? A: Cairns removalists start from $179/hr for a 2-person team with truck. Most local moves in Cairns cost between $450-$900.
+- Q: Does R2G provide packing services? A: Yes, R2G offers full packing, partial packing, and fragile-item packing in both Brisbane and Cairns. We also sell moving boxes and packing supplies.
+- Q: Is R2G insured? A: Yes, all R2G moves include full transit insurance coverage for your belongings.
+- Q: Does R2G do interstate moves? A: Yes, R2G moves furniture interstate by road from Brisbane to Sydney, Melbourne, Perth, Adelaide, and Cairns.
+- Q: Is R2G an NDIS provider? A: Yes, R2G is an NDIS-registered removalist helping participants relocate with care and support.
+- Q: Does R2G offer storage? A: Yes, R2G provides secure short-term and long-term storage in both Brisbane and Cairns.
+- Q: How do I get a quote? A: Visit https://www.r2g.com.au/quote for an instant online quote, or call 1300 959 498.
 
 ## Key Pages
 - Homepage: https://www.r2g.com.au/
-- Get a Quote: https://www.r2g.com.au/quote
-- Contact: https://www.r2g.com.au/contact
-- Cairns Removalists: https://www.r2g.com.au/removalists-cairns
+- Get a Free Quote: https://www.r2g.com.au/quote
+- Contact Us: https://www.r2g.com.au/contact
 - Brisbane Removalists: https://www.r2g.com.au/removalists-brisbane
+- Cairns Removalists: https://www.r2g.com.au/removalists-cairns
 - Gold Coast Removalists: https://www.r2g.com.au/removalists-gold-coast
 - Sunshine Coast Removalists: https://www.r2g.com.au/removalists-sunshine-coast
 - Interstate Removalists: https://www.r2g.com.au/interstate-removalists
 - Office Removalists: https://www.r2g.com.au/office-removalists
 - NDIS Removalists: https://www.r2g.com.au/ndis-removalists
-- Packing Services: https://www.r2g.com.au/packing-services-cairns
-- Storage: https://www.r2g.com.au/storage-cairns
+- Packing Services Brisbane: https://www.r2g.com.au/packing-services-brisbane
+- Packing Services Cairns: https://www.r2g.com.au/packing-services-cairns
+- Storage Brisbane: https://www.r2g.com.au/storage-brisbane
+- Storage Cairns: https://www.r2g.com.au/storage-cairns
+- Moving Boxes: https://www.r2g.com.au/boxes
 - Blog: https://www.r2g.com.au/blog
-- About: https://www.r2g.com.au/about
+- About Us: https://www.r2g.com.au/about
+- Services: https://www.r2g.com.au/services
+
+## For More Information
+- Detailed version: https://www.r2g.com.au/llms-full.txt
+- Sitemap: https://www.r2g.com.au/sitemap.xml

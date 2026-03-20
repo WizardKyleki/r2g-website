@@ -62,6 +62,9 @@ export default function RootLayout({
       <head>
         <GoogleAnalytics />
         <GoogleTagManagerHead />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
+        <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Detailed Information" />
       </head>
       <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
         <GoogleTagManagerBody />
