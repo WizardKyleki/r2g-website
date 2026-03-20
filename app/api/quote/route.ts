@@ -14,6 +14,25 @@ export async function POST(request: Request) {
 
     const submittedAt = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" });
 
+    // Detect lead source from UTM parameters
+    const detectSource = (url: string | undefined): string => {
+      if (!url) return "Direct";
+      try {
+        const params = new URL(url).searchParams;
+        const utmSource = params.get("utm_source");
+        const utmMedium = params.get("utm_medium");
+        const utmCampaign = params.get("utm_campaign");
+        if (utmSource === "google" && utmMedium === "cpc") {
+          return `Google Ads${utmCampaign ? ` (${utmCampaign})` : ""}`;
+        }
+        if (utmSource) return `${utmSource}${utmMedium ? ` / ${utmMedium}` : ""}`;
+        const ref = params.get("ref") || params.get("fbclid") ? "Facebook" : null;
+        if (ref) return ref;
+        return "Organic";
+      } catch { return "Organic"; }
+    };
+    const leadSource = detectSource(pageUrl as string);
+
     const floorLabel = (v: string | undefined) => {
       if (!v && v !== "0") return null;
       const n = parseInt(v as string, 10);
@@ -112,7 +131,8 @@ export async function POST(request: Request) {
             </tr>
           </table>
 
-          <div style="background-color: #f9f9f9; padding: 12px 16px; border-radius: 6px; font-size: 13px; color: #888;">
+          <div style="background-color: ${leadSource.startsWith("Google Ads") ? "#e8f5e9" : "#f9f9f9"}; padding: 12px 16px; border-radius: 6px; font-size: 13px; border: ${leadSource.startsWith("Google Ads") ? "2px solid #4caf50" : "1px solid #e0e0e0"};">
+            <strong style="color: ${leadSource.startsWith("Google Ads") ? "#2e7d32" : "#555"};">Source: ${leadSource}</strong><br/>
             Page: ${pageUrl || "Unknown"}<br/>
             Submitted: ${submittedAt} (AEST)
           </div>
@@ -125,7 +145,7 @@ export async function POST(request: Request) {
     const { data: result, error: sendError } = await resend.emails.send({
       from: "R2G Website <noreply@r2g.com.au>",
       to: "contact@r2g.com.au",
-      subject: `New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
+      subject: `${leadSource.startsWith("Google Ads") ? "[PAID] " : ""}New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
       replyTo: email,
       html,
     });
@@ -163,6 +183,7 @@ export async function POST(request: Request) {
             extras,
             notes,
             pageUrl,
+            leadSource,
             submittedAt,
           }),
         });

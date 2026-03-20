@@ -98,19 +98,3 @@ export function trackPhoneClick(location: string) {
   });
 }
 
-// ── Chat widget events ──────────────────────────────────────────────────────
-
-/** Chat lead submitted via AI chat widget. */
-export function trackChatLeadSubmit(
-  moveType?: string,
-  userData?: { email?: string; phone?: string; name?: string },
-) {
-  if (userData) pushEnhancedConversionData(userData);
-  trackEvent("generate_lead", {
-    event_category: "engagement",
-    event_label: "Chat Lead Submit",
-    currency: "AUD",
-    value: 0,
-    ...(moveType ? { move_type: moveType } : {}),
-  });
-}

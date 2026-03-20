@@ -5,6 +5,23 @@ export async function POST(request: Request) {
   try {
     const { name, phone, email, topic, description, pageUrl } = await request.json();
 
+    // Detect lead source from UTM parameters
+    const detectSource = (url: string | undefined): string => {
+      if (!url) return "Direct";
+      try {
+        const params = new URL(url).searchParams;
+        const utmSource = params.get("utm_source");
+        const utmMedium = params.get("utm_medium");
+        const utmCampaign = params.get("utm_campaign");
+        if (utmSource === "google" && utmMedium === "cpc") {
+          return `Google Ads${utmCampaign ? ` (${utmCampaign})` : ""}`;
+        }
+        if (utmSource) return `${utmSource}${utmMedium ? ` / ${utmMedium}` : ""}`;
+        return "Organic";
+      } catch { return "Organic"; }
+    };
+    const leadSource = detectSource(pageUrl);
+
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
@@ -14,9 +31,10 @@ export async function POST(request: Request) {
     });
 
     const emailBody = `
-NEW ENQUIRY — R2G WEBSITE
+${leadSource.startsWith("Google Ads") ? "💰 PAID LEAD" : "🌿 ORGANIC LEAD"} — R2G WEBSITE
 =========================
 
+Source:  ${leadSource}
 From:    ${name}
 Phone:   ${phone}
 Email:   ${email}
@@ -33,7 +51,7 @@ Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane"
     await transporter.sendMail({
       from: `"R2G Website" <${process.env.EMAIL_USER}>`,
       to: "contact@r2g.com.au",
-      subject: `New Enquiry — ${topic}`,
+      subject: `${leadSource.startsWith("Google Ads") ? "[PAID] " : ""}New Enquiry — ${topic}`,
       text: emailBody,
       replyTo: email,
     });
@@ -53,6 +71,7 @@ Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane"
             topic,
             description,
             pageUrl,
+            leadSource,
             submittedAt: new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" }),
           }),
         });
