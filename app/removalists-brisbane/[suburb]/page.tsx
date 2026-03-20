@@ -432,9 +432,11 @@ export default async function RemovalistsBrisbaneSuburbPage({
                     <div className="space-y-2">
                       {[
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+                        { label: "Packing Services Brisbane", href: "/packing-services-brisbane" },
+                        { label: "Storage Brisbane", href: "/storage-brisbane" },
                         { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Office Removalists", href: "/office-removalists" },
                         { label: "Moving Boxes", href: "/boxes" },
-                        { label: "Storage", href: "/storage-cairns" },
                       ].map((link) => (
                         <Link
                           key={link.href}

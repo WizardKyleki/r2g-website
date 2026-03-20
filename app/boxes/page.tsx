@@ -169,10 +169,13 @@ export default function BoxesPage() {
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg>
                   Call {PHONE}
                 </a>
-                <div className="mt-8 pt-6 border-t border-white/10">
+                <div className="mt-8 pt-6 border-t border-white/10 space-y-2">
                   <p className="text-gray-400 text-sm mb-3">Want someone else to do the packing?</p>
-                  <Link href="/packing-services-cairns" className="block w-full border border-[#F5C400]/40 text-[#F5C400] hover:bg-[#F5C400] hover:text-[#1A1A1A] font-semibold px-6 py-3 rounded-lg transition-colors text-center text-sm">
-                    View Packing Services
+                  <Link href="/packing-services-brisbane" className="block w-full border border-[#F5C400]/40 text-[#F5C400] hover:bg-[#F5C400] hover:text-[#1A1A1A] font-semibold px-6 py-3 rounded-lg transition-colors text-center text-sm">
+                    Packing Services Brisbane
+                  </Link>
+                  <Link href="/packing-services-cairns" className="block w-full border border-white/20 text-gray-400 hover:border-[#F5C400] hover:text-[#F5C400] font-semibold px-6 py-3 rounded-lg transition-colors text-center text-sm">
+                    Packing Services Cairns
                   </Link>
                 </div>
               </div>
@@ -187,8 +190,11 @@ export default function BoxesPage() {
           <h2 className="text-xl font-black text-[#1A1A1A] text-center mb-6">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: "Packing Services", desc: "Let our pros pack your home for you.", href: "/packing-services-cairns" },
+              { title: "Packing Services Brisbane", desc: "Professional packing in Brisbane.", href: "/packing-services-brisbane" },
+              { title: "Packing Services Cairns", desc: "Let our pros pack your home.", href: "/packing-services-cairns" },
+              { title: "Storage Brisbane", desc: "Secure storage in Brisbane.", href: "/storage-brisbane" },
               { title: "Storage Cairns", desc: "Secure storage between moves.", href: "/storage-cairns" },
+              { title: "Removalists Brisbane", desc: "Local moves across Brisbane.", href: "/removalists-brisbane" },
               { title: "Removalists Cairns", desc: "Local moves across Cairns and FNQ.", href: "/removalists-cairns" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="group p-5 bg-white border border-gray-100 rounded-xl hover:border-[#F5C400] transition-colors">

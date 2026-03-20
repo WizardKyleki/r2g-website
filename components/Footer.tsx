@@ -9,6 +9,7 @@ import {
   HOURS,
   SITE_NAME,
   SERVICES,
+  SERVICE_AREAS,
   NAV_LINKS,
 } from "@/lib/constants";
 
@@ -18,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1A1A1A] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
@@ -57,6 +58,20 @@ export default function Footer() {
                 </svg>
               </a>
             </div>
+          </div>
+
+          {/* Service Areas */}
+          <div>
+            <h3 className="text-white font-bold mb-4 text-sm uppercase tracking-wider">Service Areas</h3>
+            <ul className="space-y-2">
+              {SERVICE_AREAS.map((s) => (
+                <li key={s.href}>
+                  <Link href={s.href} className="text-gray-400 hover:text-[#F5C400] text-sm transition-colors">
+                    {s.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           {/* Services */}

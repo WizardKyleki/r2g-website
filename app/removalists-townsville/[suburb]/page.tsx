@@ -434,9 +434,10 @@ export default async function RemovalistsTownsvilleSuburbPage({
                     <div className="space-y-2">
                       {[
                         { label: "Removalists Townsville", href: "/removalists-townsville" },
-                        { label: "Interstate Removals", href: "/interstate-removalists" },
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
-                        { label: "Storage", href: "/storage-cairns" },
+                        { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+                        { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Moving Boxes", href: "/boxes" },
                       ].map((link) => (
                         <Link
                           key={link.href}

@@ -243,9 +243,12 @@ export default function StorageCairnsPage() {
           <h2 className="text-xl font-black text-[#1A1A1A] text-center mb-6">Related Services</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {[
-              { title: "Packing Services", desc: "Professional packing for your Cairns move.", href: "/packing-services-cairns" },
+              { title: "Packing Services Cairns", desc: "Professional packing for your Cairns move.", href: "/packing-services-cairns" },
+              { title: "Storage Brisbane", desc: "Secure storage in Brisbane.", href: "/storage-brisbane" },
               { title: "Moving Boxes & Supplies", desc: "Quality boxes and packing materials.", href: "/boxes" },
-              { title: "Removalists Cairns", desc: "Local moves across Cairns and Far North Queensland.", href: "/removalists-cairns" },
+              { title: "Removalists Cairns", desc: "Local moves across Cairns and FNQ.", href: "/removalists-cairns" },
+              { title: "Removalists Brisbane", desc: "Local moves across Brisbane.", href: "/removalists-brisbane" },
+              { title: "Interstate Removals", desc: "Move between cities Australia-wide.", href: "/interstate-removalists" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="group p-5 bg-white border border-gray-100 rounded-xl hover:border-[#F5C400] transition-colors">
                 <h3 className="font-bold text-[#1A1A1A] mb-1 group-hover:text-[#F5C400] transition-colors">{link.title}</h3>

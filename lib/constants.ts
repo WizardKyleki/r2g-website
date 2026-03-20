@@ -9,13 +9,21 @@ export const CAIRNS_ADDRESS = "36 Abbott St, Cairns City QLD 4870"
 export const BRISBANE_ADDRESS = "122 Ashover Circuit, Archerfield, Brisbane QLD 4108"
 export const HOURS = "9:00 AM – 5:00 PM"
 
+export const SERVICE_AREAS = [
+  { label: "Removalists Cairns", href: "/removalists-cairns" },
+  { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+  { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+  { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+  { label: "Removalists Townsville", href: "/removalists-townsville" },
+]
+
 export const SERVICES = [
-  { label: "Moving Home", href: "/removalists-cairns" },
+  { label: "Interstate Removals", href: "/interstate-removalists" },
   { label: "Office Removalists", href: "/office-removalists" },
-  { label: "Moving Interstate", href: "/interstate-removalists" },
-  { label: "Packing", href: "/packing-services-cairns" },
-  { label: "Boxes", href: "/boxes" },
-  { label: "Storage", href: "/storage-cairns" },
+  { label: "Packing Services", href: "/packing-services-brisbane" },
+  { label: "Storage Brisbane", href: "/storage-brisbane" },
+  { label: "Moving Boxes", href: "/boxes" },
+  { label: "NDIS Removalists", href: "/ndis-removalists" },
 ]
 
 export const NAV_LINKS = [

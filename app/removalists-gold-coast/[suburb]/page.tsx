@@ -433,9 +433,11 @@ export default async function RemovalistsGoldCoastSuburbPage({
                     <div className="space-y-2">
                       {[
                         { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
-                        { label: "Interstate Removals", href: "/interstate-removalists" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
-                        { label: "Removalists Cairns", href: "/removalists-cairns" },
+                        { label: "Packing Services Brisbane", href: "/packing-services-brisbane" },
+                        { label: "Storage Brisbane", href: "/storage-brisbane" },
+                        { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Moving Boxes", href: "/boxes" },
                       ].map((link) => (
                         <Link
                           key={link.href}

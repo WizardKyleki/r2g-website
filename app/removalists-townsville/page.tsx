@@ -671,6 +671,30 @@ export default function RemovalistsTownsvillePage() {
         </div>
       </section>
 
+      {/* ── OTHER SERVICE AREAS ──────────────────────────────────────────── */}
+      <section className="py-12 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl font-black text-[#1A1A1A] text-center mb-2">We Also Serve</h2>
+          <p className="text-gray-500 text-sm text-center mb-6">R2G operates across Queensland and interstate</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { label: "Removalists Cairns", href: "/removalists-cairns" },
+              { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+              { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Interstate Removals", href: "/interstate-removalists" },
+              { label: "Office Removalists", href: "/office-removalists" },
+              { label: "Moving Boxes", href: "/boxes" },
+              { label: "NDIS Removalists", href: "/ndis-removalists" },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="px-4 py-3 bg-gray-50 text-gray-700 rounded-lg text-sm text-center border border-gray-100 hover:border-[#F5C400] hover:text-[#F5C400] transition-colors">
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Spacer for mobile sticky bar */}
       <div className="h-20 lg:hidden" />
 

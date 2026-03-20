@@ -396,10 +396,14 @@ export default async function BlogPostPage({
               { label: "Removalists Brisbane", href: "/removalists-brisbane" },
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Removalists Townsville", href: "/removalists-townsville" },
               { label: "Interstate Removals", href: "/interstate-removalists" },
-              { label: "Packing Services", href: "/packing-services-cairns" },
-              { label: "Storage", href: "/storage-cairns" },
+              { label: "Packing Services Brisbane", href: "/packing-services-brisbane" },
+              { label: "Packing Services Cairns", href: "/packing-services-cairns" },
+              { label: "Storage Brisbane", href: "/storage-brisbane" },
+              { label: "Storage Cairns", href: "/storage-cairns" },
               { label: "Moving Boxes", href: "/boxes" },
+              { label: "NDIS Removalists", href: "/ndis-removalists" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-3 py-1.5 bg-gray-50 text-gray-600 rounded-full text-sm border border-gray-200 hover:border-[#F5C400] hover:text-[#F5C400] transition-colors">
                 {link.label}

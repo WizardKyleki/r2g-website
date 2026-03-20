@@ -430,10 +430,11 @@ export default async function RemovalistsSuburbPage({
                     <div className="space-y-2">
                       {[
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
-                        { label: "Packing Services", href: "/packing-services-cairns" },
+                        { label: "Packing Services Cairns", href: "/packing-services-cairns" },
                         { label: "Storage Cairns", href: "/storage-cairns" },
-                        { label: "Moving Boxes", href: "/boxes" },
+                        { label: "Removalists Brisbane", href: "/removalists-brisbane" },
                         { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Moving Boxes", href: "/boxes" },
                       ].map((link) => (
                         <Link
                           key={link.href}
