@@ -76,7 +76,7 @@ const DEFAULT_TABS = [
   {
     id: 1,
     label: "2 Movers + Large Truck",
-    sublabel: "Medium Move",
+    sublabel: "Medium-Large Move",
     title: "2 Movers + Large Truck",
     price: "From $189/hr",
     bestFor: "3-4 bedroom homes",
@@ -92,7 +92,7 @@ const DEFAULT_TABS = [
   {
     id: 2,
     label: "3 Movers + Large Truck",
-    sublabel: "Large Move",
+    sublabel: "XL Large Move",
     title: "3 Movers + Large Truck",
     price: "From $220/hr",
     bestFor: "Large homes, offices",
