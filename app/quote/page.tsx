@@ -653,6 +653,7 @@ function QuoteWizard() {
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row">
+      <h1 className="sr-only">Get a Free Moving Quote — R2G Transport & Storage</h1>
       <style>{`
         @keyframes reviewProgress {
           from { width: 0; }
