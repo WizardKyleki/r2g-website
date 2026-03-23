@@ -65,6 +65,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Detailed Information" />
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="URYFtNox7eR9I3W12rlXvA" async />
       </head>
       <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
         <GoogleTagManagerBody />
