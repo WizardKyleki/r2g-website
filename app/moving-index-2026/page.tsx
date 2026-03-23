@@ -46,10 +46,10 @@ export const metadata: Metadata = {
     authors: ["R2G Transport & Storage Research Team"],
     images: [
       {
-        url: `${DOMAIN}/og-image.jpg`,
+        url: `${DOMAIN}/moving-index-2026/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: "The R2G Moving Index 2026 — Queensland Migration & Housing Trends",
+        alt: "R2G Moving Index 2026 — Migration scorecard and housing data for Queensland",
       },
     ],
   },
