@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Townsville \u2014 From $179/hr | R2G Transport & Storage",
+    absolute: "Removalists Townsville — Trusted Local Movers | R2G Transport & Storage",
   },
   description:
-    "Townsville removalists you can trust. Local moves from $179/hr, fully insured, no hidden fees. All suburbs covered including Magnetic Island. Free quote.",
+    "Townsville removalists you can trust. Fully insured with no hidden fees. All suburbs covered including Magnetic Island. 830+ five-star reviews. Free quote.",
   keywords: [
     "removalists townsville",
     "townsville removalists",

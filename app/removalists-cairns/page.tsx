@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Cairns — From $179/hr | R2G Transport & Storage",
+    absolute: "Removalists Cairns — Trusted Local Movers | R2G Transport & Storage",
   },
   description:
-    "Cairns' trusted removalists since 2014. Local moves from $179/hr, 4.8★ Google rating (130+ reviews), fully insured. All Cairns suburbs covered. Free quote in 2 minutes.",
+    "Cairns' trusted removalists since 2014. 4.8★ Google rating (130+ reviews), fully insured with no hidden fees. All Cairns suburbs covered. Free quote in 2 minutes.",
   keywords: [
     "removalists cairns",
     "cairns removalists",

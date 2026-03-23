@@ -180,10 +180,10 @@ const faqSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Gold Coast — From $179/hr | R2G Transport & Storage",
+    absolute: "Removalists Gold Coast — Trusted Local Movers | R2G Transport & Storage",
   },
   description:
-    "Gold Coast removalists you can trust. Local moves from $179/hr, fully insured, no hidden fees. Surfers Paradise to Coolangatta — all 81 suburbs covered. Free quote.",
+    "Gold Coast removalists you can trust. Fully insured with no hidden fees. Surfers Paradise to Coolangatta — all 81 suburbs covered. 830+ five-star reviews. Free quote.",
   keywords: [
     "removalists gold coast",
     "gold coast removalists",
