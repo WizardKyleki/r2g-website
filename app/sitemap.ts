@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/about`, priority: 0.6, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/privacy`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/terms`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/moving-index-2026`, priority: 0.8, changeFrequency: "yearly" as const, lastModified: "2026-03-23T00:00:00.000Z" },
   ];
 
   // Cairns suburb pages — fixed date so Google doesn't show dates in search results

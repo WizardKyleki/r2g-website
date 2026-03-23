@@ -104,6 +104,11 @@ export default function Footer() {
                   Get A Quote
                 </Link>
               </li>
+              <li>
+                <Link href="/moving-index-2026" className="text-gray-400 hover:text-[#F5C400] text-sm transition-colors">
+                  2026 Moving Index
+                </Link>
+              </li>
             </ul>
           </div>
 
