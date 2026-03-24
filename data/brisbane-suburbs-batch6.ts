@@ -574,7 +574,7 @@ export const batch6Suburbs: BrisbaneSuburb[] = [
       "Property in Richlands ranges from original fibro and timber cottages on larger blocks to new townhouse and duplex developments near the train station. Our crews are accustomed to working with both older homes that have narrow access and modern builds with standard garage entry.",
     uniquePara3:
       "Parts of Richlands are low-lying and can be affected by localised flooding after heavy rain. Our team monitors weather conditions closely before moving day and adjusts scheduling if needed. We also take extra care wrapping items when navigating older properties with uneven flooring and narrow internal doorways.",
-    nearbySubs: ["Inala", "Darra", "Forest Lake"],
+    nearbySubs: ["Inala", "Darra", "Forest Lake", "Wacol"],
     priceFrom: "$160/hr",
     serviceArea: "Richlands & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -636,7 +636,7 @@ export const batch6Suburbs: BrisbaneSuburb[] = [
       "Housing in Robertson includes a mix of original 1970s brick homes, renovated timber houses and newer townhouse complexes built on subdivided blocks. Many homes have single-car garages or carports, and our team is skilled at manoeuvring large furniture through narrower access points typical of the suburb.",
     uniquePara3:
       "Robertson's streets off Padstow Road can be narrow with limited turning space, especially near the Police Academy. Some properties also have shared driveways or body corporate access restrictions. Our crew liaises with neighbours and property managers to ensure smooth, disruption-free moves.",
-    nearbySubs: ["Sunnybank", "Macgregor", "Coopers Plains"],
+    nearbySubs: ["Sunnybank", "Macgregor", "Coopers Plains", "MacGregor"],
     priceFrom: "$160/hr",
     serviceArea: "Robertson & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -698,7 +698,7 @@ export const batch6Suburbs: BrisbaneSuburb[] = [
       "The vast majority of Rochedale housing consists of newly built two-storey family homes in estates such as Stockland Rochedale, alongside some original acreage properties on the outskirts. New homes feature wide double garages, open-plan living and modern finishes that our crews take extra care to protect.",
     uniquePara3:
       "Rochedale's rapid development means that road access and estate entrances can change frequently. Construction vehicles, temporary traffic management and freshly laid kerbs are common. Our drivers stay updated on the latest access points and use protective matting to prevent tyre marks on new driveways and verges.",
-    nearbySubs: ["Rochedale South", "Priestdale", "Eight Mile Plains"],
+    nearbySubs: ["Rochedale South", "Priestdale", "Eight Mile Plains", "Mackenzie"],
     priceFrom: "$160/hr",
     serviceArea: "Rochedale & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1008,7 +1008,7 @@ export const batch6Suburbs: BrisbaneSuburb[] = [
       "The suburb boasts a beautiful mix of elevated Queenslanders, renovated mid-century homes, and modern architecturally designed houses on established blocks. Many properties are set on hillside terrain with high stumps, steep front stairs and wraparound verandahs that demand careful furniture handling.",
     uniquePara3:
       "Tarragindi's hilly streets and cul-de-sacs can limit truck access, and some elevated homes require items to be carried up 20 or more stairs from street level. Our experienced crews bring additional equipment including stair trolleys and long ramp boards to safely manage these challenging access points without damage to your property.",
-    nearbySubs: ["Holland Park", "Moorooka", "Salisbury"],
+    nearbySubs: ["Holland Park", "Moorooka", "Salisbury", "Holland Park West"],
     priceFrom: "$160/hr",
     serviceArea: "Tarragindi & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

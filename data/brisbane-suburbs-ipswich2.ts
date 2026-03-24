@@ -16,7 +16,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "The suburb features a mix of modern apartments above retail spaces, contemporary townhouses and detached homes in nearby pockets. Our crews are experienced with high-rise apartment moves involving lifts and loading docks as well as standard residential relocations.",
     uniquePara3:
       "Springfield Central's busy town centre streets and multi-level car parks can make truck positioning challenging, particularly on weekends. Our drivers plan access routes in advance and coordinate with building managers to secure loading bays, ensuring a smooth move without disrupting other residents.",
-    nearbySubs: ["Springfield", "Springfield Lakes", "Augustine Heights"],
+    nearbySubs: ["Springfield", "Springfield Lakes", "Augustine Heights", "Spring Mountain"],
     priceFrom: "$160/hr",
     serviceArea: "Springfield Central & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -141,7 +141,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "The suburb offers a broad mix of brand-new project homes in master-planned estates, older Queenslander-style houses on larger blocks and modern townhouse developments near the Redbank Plains Road corridor. Our crews are equipped for all property types.",
     uniquePara3:
       "Construction traffic and developing road infrastructure in newer Redbank Plains estates can slow access on moving day. Our team checks estate conditions before your move and brings appropriately sized trucks to navigate new streets, temporary speed humps and unfinished kerbing.",
-    nearbySubs: ["Collingwood Park", "Bellbird Park", "Redbank"],
+    nearbySubs: ["Collingwood Park", "Bellbird Park", "Redbank", "Swanbank"],
     priceFrom: "$160/hr",
     serviceArea: "Redbank Plains & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -265,7 +265,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "Most homes in Ripley are brand-new single and double-storey project homes in modern estates with wide driveways and double garages. Our crews are accustomed to new-build moves and take extra care to protect freshly finished surfaces.",
     uniquePara3:
       "Ripley's rapidly developing estates mean some streets may still have construction activity, temporary road surfaces or incomplete footpaths on moving day. Our drivers check conditions ahead of time and use smaller vehicles when estate roads are narrow or obstructed by building works.",
-    nearbySubs: ["South Ripley", "Deebing Heights", "Flinders View"],
+    nearbySubs: ["South Ripley", "Deebing Heights", "Flinders View", "Swanbank"],
     priceFrom: "$160/hr",
     serviceArea: "Ripley & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -637,7 +637,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "Properties in Rosewood range from heritage Queenslander homes in the town centre to modern acreage homes on the outskirts and working rural properties. Our team brings the right equipment for every scenario, from narrow period-home hallways to long gravel driveways.",
     uniquePara3:
       "Rosewood's rural setting means some properties are accessed via unsealed roads or long driveways. Our drivers assess conditions before each move and can arrange smaller shuttle vehicles for the final stretch when a full-size truck cannot reach the property.",
-    nearbySubs: ["Walloon", "Marburg", "Calvert"],
+    nearbySubs: ["Walloon", "Marburg", "Calvert", "Mount Marrow"],
     priceFrom: "$160/hr",
     serviceArea: "Rosewood & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -699,7 +699,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "The suburb features a mix of acreage properties, established family homes near the village centre and newer residential estates. Our team is experienced with both rural and suburban property moves, adapting truck size and crew numbers to suit each job.",
     uniquePara3:
       "Walloon's larger rural blocks can have long driveways, cattle grids and limited turning areas for large trucks. Our team plans each move carefully, scouting access points in advance and arranging shuttle vehicles when full-sized trucks cannot reach the property.",
-    nearbySubs: ["Rosewood", "Karrabin", "Willowbank"],
+    nearbySubs: ["Rosewood", "Karrabin", "Willowbank", "Mount Marrow"],
     priceFrom: "$160/hr",
     serviceArea: "Walloon & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1257,7 +1257,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "Properties in One Mile are predominantly older timber cottages and post-war homes on standard blocks, with some modern renovations throughout the suburb. Our crew handles the mix of old and new with equal care and professionalism.",
     uniquePara3:
       "One Mile's established street layout features older infrastructure including narrow roads and limited kerb space. Our drivers are experienced in positioning trucks in tight suburban settings and use equipment like long runners and trolleys to manage the distance to your front door.",
-    nearbySubs: ["Ipswich CBD", "Coalfalls", "West Ipswich"],
+    nearbySubs: ["Ipswich CBD", "Coalfalls", "West Ipswich", "Leichhardt"],
     priceFrom: "$160/hr",
     serviceArea: "One Mile & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1505,7 +1505,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "Properties in Pine Mountain include character homes on large acreage blocks, modern houses with wide verandahs and some smaller hobby farms. Our crew brings equipment suited to rural access including ramps, long runners and protective wrapping for homestead-style furniture.",
     uniquePara3:
       "Pine Mountain's rural roads, long private driveways and occasional steep inclines can limit access for full-size moving trucks. Our team scouts each property beforehand and arranges smaller shuttle vehicles when the main truck cannot reach the homestead directly.",
-    nearbySubs: ["Chuwar", "Karalee", "North Tivoli"],
+    nearbySubs: ["Chuwar", "Karalee", "North Tivoli", "Barellan Point"],
     priceFrom: "$160/hr",
     serviceArea: "Pine Mountain & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1939,7 +1939,7 @@ export const ipswich2Suburbs: BrisbaneSuburb[] = [
       "Housing in Wulkuraka consists primarily of post-war timber homes and workers' cottages, with some modernised properties and newer infill developments. Our team is well-versed in the access challenges typical of this older inner-Ipswich suburb.",
     uniquePara3:
       "Wulkuraka's compact street layout and proximity to the rail corridor mean some properties have tight truck access and nearby rail level crossings that can cause brief delays. Our crew plans around these conditions to keep your move on schedule.",
-    nearbySubs: ["West Ipswich", "One Mile", "Karrabin"],
+    nearbySubs: ["West Ipswich", "One Mile", "Karrabin", "Leichhardt"],
     priceFrom: "$160/hr",
     serviceArea: "Wulkuraka & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

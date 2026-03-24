@@ -37,7 +37,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "The mix of modern townhouses, established family homes and apartment complexes in Sunnybank means our team comes prepared for everything from tight unit access to large multi-level household moves.",
     uniquePara3:
       "Many Sunnybank properties share driveways or have compact garages typical of the area's medium-density developments. Our drivers are skilled at positioning trucks in tight spaces, and our team uses furniture trolleys and protective runners to navigate narrow paths between neighbouring properties without causing damage.",
-    nearbySubs: ["Mt Gravatt", "Carindale", "Annerley"],
+    nearbySubs: ["Mt Gravatt", "Carindale", "Annerley", "MacGregor"],
     priceFrom: "$160/hr",
     serviceArea: "Sunnybank & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -99,7 +99,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "With a mix of spacious family homes, townhouse complexes and newer estate developments, Carindale moves often involve large household volumes. Our team is experienced with the area's varied property types and access requirements.",
     uniquePara3:
       "The hilly terrain around Carindale and neighbouring Carina Heights means many homes are split-level or built on elevated blocks with steep driveways. Our team arrives with the right equipment — including heavy-duty dollies and ramp boards — to handle multi-level access safely and efficiently.",
-    nearbySubs: ["Coorparoo", "Mt Gravatt", "Wynnum"],
+    nearbySubs: ["Coorparoo", "Mt Gravatt", "Wynnum", "Mackenzie"],
     priceFrom: "$160/hr",
     serviceArea: "Carindale & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -471,7 +471,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "Properties in Caboolture range from compact town homes to larger acreage blocks on the outskirts. Our team is well-versed in the area's road network and comes equipped for large-volume moves with the right trucks and protective materials.",
     uniquePara3:
       "Caboolture's semi-rural outskirts around Morayfield, Burpengary and Narangba include properties on unsealed driveways and larger acreage blocks. Our team brings the right trucks for rural access and plans routes carefully to avoid any issues with soft ground or narrow rural lanes.",
-    nearbySubs: ["Redcliffe", "Aspley", "Brisbane City"],
+    nearbySubs: ["Redcliffe", "Aspley", "Brisbane City", "Caboolture South", "Bracalba", "Elimbah", "Meldale", "Bellmere", "Godwin Beach", "Moorina", "Moodlu"],
     priceFrom: "$160/hr",
     serviceArea: "Caboolture & Moreton Bay North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -595,7 +595,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "The larger, well-appointed homes in Indooroopilly often involve significant furniture volumes and high-value items. Our team takes particular care with premium furnishings and ensures everything arrives in perfect condition.",
     uniquePara3:
       "Indooroopilly's leafy, established streets mean many properties are shaded by mature trees with overhanging branches. Our drivers are skilled at positioning trucks to avoid low branches, and we take care to protect garden beds and landscaping during the move — your home's kerb appeal matters to us.",
-    nearbySubs: ["Toowong", "Kenmore", "Paddington"],
+    nearbySubs: ["Toowong", "Kenmore", "Paddington", "Fig Tree Pocket"],
     priceFrom: "$160/hr",
     serviceArea: "Indooroopilly & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -926,7 +926,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "The mix of established family homes, waterfront properties and newer developments in Cleveland means our team arrives prepared for all property types. We understand the unique character of Redlands properties and deliver every move with care.",
     uniquePara3:
       "Cleveland's position as the Redlands hub means we often help families relocate between Cleveland, Victoria Point, Thornlands and the bay islands via the Toondah Harbour ferry. We coordinate moves that involve ferry schedules and island logistics, providing a seamless experience for bayside and island residents.",
-    nearbySubs: ["Wynnum", "Carindale", "Brisbane City"],
+    nearbySubs: ["Wynnum", "Carindale", "Brisbane City", "Point Lookout"],
     priceFrom: "$160/hr",
     serviceArea: "Cleveland & Redlands",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -988,7 +988,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "The larger homes and generous block sizes in Kenmore typically involve significant furniture volumes. Our team is experienced with high-volume family home moves and comes fully equipped for the suburb's varied terrain and access requirements.",
     uniquePara3:
       "Kenmore and Kenmore Hills properties often back onto bushland reserves, which means some homes have long driveways, steep access and limited turning areas for larger trucks. We assess access before the move and select the right vehicle to ensure a smooth, damage-free relocation every time.",
-    nearbySubs: ["Indooroopilly", "Toowong", "Brisbane City"],
+    nearbySubs: ["Indooroopilly", "Toowong", "Brisbane City", "Fig Tree Pocket"],
     priceFrom: "$160/hr",
     serviceArea: "Kenmore & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1112,7 +1112,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
       "The mix of beautifully renovated Queenslanders, modern townhouses and apartment developments in Coorparoo means our team handles a wide variety of property types with the expertise that inner-city moves demand.",
     uniquePara3:
       "Coorparoo's popularity has brought a wave of new apartment and townhouse developments alongside its heritage homes. Our team is equally comfortable navigating a loading dock in a modern complex as we are carrying a sofa down the stairs of a century-old Queenslander — versatility is key in this suburb.",
-    nearbySubs: ["Bulimba", "Annerley", "Carindale"],
+    nearbySubs: ["Bulimba", "Annerley", "Carindale", "Stones Corner"],
     priceFrom: "$160/hr",
     serviceArea: "Coorparoo & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

@@ -140,7 +140,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Properties on Bribie Island range from modern canal homes to modest beach cottages. Our team is experienced with island access logistics and takes extra care protecting furnishings from the coastal environment during transit.",
     uniquePara3:
       "Moving to or from Bribie Island means crossing the Bribie Island Bridge, which can create bottlenecks during peak holiday periods and weekends. We plan our Banksia Beach moves with bridge traffic in mind, scheduling early starts and avoiding peak crossing times to keep your move efficient and on schedule.",
-    nearbySubs: ["Bellara", "Bongaree", "Caboolture"],
+    nearbySubs: ["Bellara", "Bongaree", "Caboolture", "Bribie Island North"],
     priceFrom: "$160/hr",
     serviceArea: "Banksia Beach & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -326,7 +326,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "The housing mix in Bongaree includes older beach cottages, modern townhouses, apartment complexes and canal-front homes. Our team adapts to every property type and is experienced with the unique logistics of island moves.",
     uniquePara3:
       "As the commercial centre of Bribie Island, Bongaree's main streets see regular traffic from shoppers and visitors. We time our moves to avoid the busiest periods along Welsby Parade and the bridge approach, and position our trucks carefully in the older residential streets where parking can be limited.",
-    nearbySubs: ["Bellara", "Banksia Beach", "Caboolture"],
+    nearbySubs: ["Bellara", "Banksia Beach", "Caboolture", "Bribie Island North"],
     priceFrom: "$160/hr",
     serviceArea: "Bongaree & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -450,7 +450,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Housing in Bray Park consists largely of lowset brick homes from the 1980s and 1990s alongside pockets of newer townhouse developments. Our team is well-practised with the standard layouts and access typical of this era of housing.",
     uniquePara3:
       "Bray Park's grid-style residential streets are generally good for truck access, but some properties have carports or single garages that require furniture to be carried along side paths. We assess each property and plan the most efficient carry route, using trolleys and protective runners to keep the move fast and damage-free.",
-    nearbySubs: ["Strathpine", "Lawnton", "Kallangur"],
+    nearbySubs: ["Strathpine", "Lawnton", "Kallangur", "Pine Rivers", "Joyner"],
     priceFrom: "$160/hr",
     serviceArea: "Bray Park & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -512,7 +512,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "The property mix in Burpengary ranges from older homes on larger semi-rural blocks to modern estate builds in developments like Burpengary Meadows. Our team comes prepared for both standard suburban moves and larger-volume relocations from acreage properties.",
     uniquePara3:
       "Burpengary's rapid growth means some newer estate roads can be busy with construction vehicles and partially completed infrastructure. We check estate road conditions before moving day and coordinate with any site access requirements to make sure your move goes ahead without delay.",
-    nearbySubs: ["Morayfield", "Narangba", "Deception Bay"],
+    nearbySubs: ["Morayfield", "Narangba", "Deception Bay", "Caboolture South", "Burpengary East", "Bellmere", "Moorina"],
     priceFrom: "$160/hr",
     serviceArea: "Burpengary & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -698,7 +698,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Properties in Cashmere range from sprawling acreage homes to modern builds on generous lots. The larger block sizes often mean higher furniture volumes and additional items like ride-on mowers, outdoor equipment and workshop tools.",
     uniquePara3:
       "Cashmere's hilly bushland setting means many properties are accessed via long, winding driveways — some steep, some unsealed. Our team scouts access conditions in advance and uses the right-sized truck to navigate safely. We also take care with the natural surroundings, respecting gardens and driveways during loading.",
-    nearbySubs: ["Warner", "Albany Creek", "Eatons Hill"],
+    nearbySubs: ["Warner", "Albany Creek", "Eatons Hill", "Joyner"],
     priceFrom: "$160/hr",
     serviceArea: "Cashmere & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -946,7 +946,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Properties in Dayboro range from character homes in the township to sprawling acreage on the outskirts with stables, sheds and extensive outdoor areas. Our team is equipped for the larger-volume, more complex moves that rural properties demand.",
     uniquePara3:
       "The winding road between Dayboro and Brisbane passes through hilly terrain with limited overtaking opportunities. Our drivers know the route well and plan departure times to avoid slow-moving traffic. For properties off the main roads, we assess driveway and gate access in advance to ensure our truck can reach your door safely.",
-    nearbySubs: ["Samford", "Closeburn", "King Scrub"],
+    nearbySubs: ["Samford", "Closeburn", "King Scrub", "Sideling Creek", "Rush Creek"],
     priceFrom: "$160/hr",
     serviceArea: "Dayboro & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1008,7 +1008,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "The housing stock in Deception Bay ranges from established brick homes and older timber houses to newer developments and townhouse complexes. Our team is familiar with the varied property types and access conditions throughout the suburb.",
     uniquePara3:
       "Deception Bay's waterfront properties and low-lying streets near the bay can be affected by king tides and stormwater during heavy rain. We monitor conditions before every move and adjust our schedule if needed. For foreshore properties, we use protective wrapping to guard against the moisture-rich coastal air.",
-    nearbySubs: ["Rothwell", "North Lakes", "Burpengary"],
+    nearbySubs: ["Rothwell", "North Lakes", "Burpengary", "Burpengary East"],
     priceFrom: "$160/hr",
     serviceArea: "Deception Bay & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1194,7 +1194,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "The housing stock in Griffin is almost exclusively modern, with contemporary family homes, townhouses and duplexes built within the last 15 years. Our team is experienced with the newer estate layouts and the access considerations of these well-planned communities.",
     uniquePara3:
       "Griffin's modern estates have wide, well-designed streets that are generally easy for truck access. However, some cul-de-sacs and internal pocket roads have restricted parking zones and narrow turning points. We know the Griffin estate layouts and select the right truck for your street to keep the move efficient.",
-    nearbySubs: ["North Lakes", "Mango Hill", "Kallangur"],
+    nearbySubs: ["North Lakes", "Mango Hill", "Kallangur", "Murrumba Downs"],
     priceFrom: "$160/hr",
     serviceArea: "Griffin & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1318,7 +1318,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Homes in Highvale are typically set on large blocks with established gardens, generous outdoor entertaining areas and often workshops or stables. The larger property sizes translate to higher-volume moves that require experienced planning and the right equipment.",
     uniquePara3:
       "Highvale's hinterland position means elevated, winding roads and many properties are accessed via steep private driveways that may not suit a full-sized truck. We assess every Highvale property's access in advance and use the appropriate vehicle — sometimes a smaller truck for the driveway with a shuttle approach for larger moves.",
-    nearbySubs: ["Samford", "Closeburn", "Ferny Hills"],
+    nearbySubs: ["Samford", "Closeburn", "Ferny Hills", "Mount Samson"],
     priceFrom: "$160/hr",
     serviceArea: "Highvale & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1442,7 +1442,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "The housing mix in Kallangur spans older established homes, renovated properties and newer townhouse developments. Our team handles the full range of property types and is familiar with the suburb's varying access requirements.",
     uniquePara3:
       "Kallangur's older streets can be narrower than modern estates, with some properties relying on single driveways or carports for access. Our team uses trolleys and carry equipment to navigate tight side paths efficiently, and our drivers know the best parking positions on Kallangur's busier residential streets.",
-    nearbySubs: ["Dakabin", "North Lakes", "Petrie"],
+    nearbySubs: ["Dakabin", "North Lakes", "Petrie", "Murrumba Downs"],
     priceFrom: "$160/hr",
     serviceArea: "Kallangur & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1628,7 +1628,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Properties in Kurwongbah range from standard residential homes to larger acreage blocks with sheds and outbuildings. The varied property sizes mean our team prepares for everything from standard suburban moves to more complex rural relocations.",
     uniquePara3:
       "Kurwongbah's semi-rural character means some properties sit on unsealed driveways or require access through bushland corridors with limited clearance for larger vehicles. We check access conditions for every Kurwongbah move and use the right-sized truck to navigate safely without damaging driveways or surrounding vegetation.",
-    nearbySubs: ["Petrie", "Kallangur", "Dakabin"],
+    nearbySubs: ["Petrie", "Kallangur", "Dakabin", "Whiteside", "Murrumba Downs"],
     priceFrom: "$160/hr",
     serviceArea: "Kurwongbah & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1690,7 +1690,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
       "Housing in Lawnton features a blend of older established homes, modern renovations and a growing number of townhouse developments. Our team is well-practised with the variety of property styles and access considerations found across the suburb.",
     uniquePara3:
       "Lawnton's position along Gympie Road means properties on or near the main corridor can experience traffic congestion, especially during peak hours. Our team plans arrival and departure routes to avoid the worst of the Gympie Road traffic, and we time moves on busier streets to start early for smooth truck access.",
-    nearbySubs: ["Strathpine", "Petrie", "Bray Park"],
+    nearbySubs: ["Strathpine", "Petrie", "Bray Park", "Pine Rivers", "Whiteside"],
     priceFrom: "$160/hr",
     serviceArea: "Lawnton & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

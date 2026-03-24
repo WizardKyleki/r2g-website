@@ -79,7 +79,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in Beachmere are predominantly single-storey homes on generous blocks, with a mix of modern brick builds, raised timber cottages and newer project homes in developing estates. The flat terrain and wide streets make most properties straightforward to access.",
     uniquePara3:
       "While Beachmere's flat layout is generally truck-friendly, homes near the waterfront can have sandy driveways and soft verges that require careful truck positioning. Our drivers assess ground conditions on arrival, and we use ramps and trolleys suited to softer surfaces to keep your move running smoothly.",
-    nearbySubs: ["Caboolture", "Ningi", "Sandstone Point"],
+    nearbySubs: ["Caboolture", "Ningi", "Sandstone Point", "Meldale"],
     priceFrom: "$160/hr",
     serviceArea: "Beachmere & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -203,7 +203,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Homes in Clear Mountain are predominantly set on large acreage blocks and include contemporary architecturally designed residences, rural homesteads and renovated Queenslanders. The elevated position means many properties enjoy sweeping valley views from expansive decks and living areas.",
     uniquePara3:
       "Clear Mountain's steep, winding access roads and long private driveways demand experienced drivers and careful truck selection. Our crew assesses gradient and turning clearances before positioning the truck, and we bring extra trolleys and relay equipment to cover the distance between driveways and front doors on larger blocks.",
-    nearbySubs: ["Albany Creek", "Cashmere", "Highvale"],
+    nearbySubs: ["Albany Creek", "Cashmere", "Highvale", "Mount Samson"],
     priceFrom: "$160/hr",
     serviceArea: "Clear Mountain & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -327,7 +327,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in D'Aguilar range from original timber cottages and weatherboard homes in the township to larger rural holdings and acreage blocks on the surrounding hillsides. The area retains a strong country-town feel with many heritage-era buildings still in use.",
     uniquePara3:
       "The distance from Brisbane and the winding mountain roads leading to D'Aguilar require experienced drivers and well-maintained trucks. Our team plans travel time carefully and arrives fully equipped to handle the narrow driveways and older-style homes typical of this rural township.",
-    nearbySubs: ["Woodford", "Kilcoy", "Mount Mee"],
+    nearbySubs: ["Woodford", "Kilcoy", "Mount Mee", "Stony Creek", "Mount Delaney", "Stanmore"],
     priceFrom: "$160/hr",
     serviceArea: "D'Aguilar & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -389,7 +389,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Homes in Mount Glorious are typically set on steep, heavily vegetated blocks and include timber cottages, eco-friendly builds and artist retreats. The small, close-knit community values its secluded bush setting and proximity to the national park.",
     uniquePara3:
       "Moving to or from Mount Glorious involves navigating the narrow, winding Mount Glorious Road with its hairpin bends and limited passing opportunities. Our experienced drivers select appropriately sized trucks for these mountain roads, and our crew handles the steep block access with careful use of trolleys and relay techniques.",
-    nearbySubs: ["Mount Nebo", "Samford Valley", "The Gap"],
+    nearbySubs: ["Mount Nebo", "Samford Valley", "The Gap", "Sideling Creek"],
     priceFrom: "$160/hr",
     serviceArea: "Mount Glorious & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -451,7 +451,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in Mount Nebo range from charming timber cottages and elevated pole homes to contemporary architect-designed residences, all set among dense native bush on steep, spacious blocks. The suburb has a strong artistic and environmentally conscious community.",
     uniquePara3:
       "Mount Nebo's winding access road and steep block gradients demand careful planning. Our drivers are experienced on the mountain route and select the right truck size to handle the bends, while our movers use stair-climbing equipment and relay techniques to navigate the often steep pathways between driveways and front doors.",
-    nearbySubs: ["Mount Glorious", "The Gap", "Samford Valley"],
+    nearbySubs: ["Mount Glorious", "The Gap", "Samford Valley", "Wights Mountain"],
     priceFrom: "$160/hr",
     serviceArea: "Mount Nebo & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -575,7 +575,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in Ocean View consist of acreage blocks with a mix of modern country homes, established farmhouses and smaller hobby farm residences. The area attracts families and retirees seeking a rural lifestyle within commuting distance of Brisbane.",
     uniquePara3:
       "Moves in Ocean View involve hilly terrain, winding rural roads and long private driveways that are frequently unsealed. Our team plans routes in advance and selects trucks that handle these conditions well, bringing relay equipment and extra protective padding for the extended carries common on these larger properties.",
-    nearbySubs: ["Dayboro", "Laceys Creek", "Mount Mee"],
+    nearbySubs: ["Dayboro", "Laceys Creek", "Mount Mee", "Rush Creek"],
     priceFrom: "$160/hr",
     serviceArea: "Ocean View & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -637,7 +637,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Homes in Samford Village include beautifully maintained Queenslanders, renovated cottages and newer family homes on leafy residential streets. The village character is protected by planning controls that maintain a cohesive heritage aesthetic throughout the area.",
     uniquePara3:
       "While Samford Village itself is relatively flat and accessible, some surrounding properties sit on sloping blocks with heritage features that require careful handling during moves. Our team brings protective runners and corner guards to navigate the polished timber floors and narrow verandahs typical of the area's Queenslander-style homes.",
-    nearbySubs: ["Samford Valley", "Draper", "Ferny Hills"],
+    nearbySubs: ["Samford Valley", "Draper", "Ferny Hills", "Wights Mountain"],
     priceFrom: "$160/hr",
     serviceArea: "Samford Village & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -823,7 +823,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Homes in Laceys Creek are set on spacious acreage blocks and range from older timber homesteads and renovated cottages to contemporary rural builds. The area's creekside settings and native vegetation give properties a distinctive bush character.",
     uniquePara3:
       "Moving in Laceys Creek often involves navigating narrow rural roads and long private driveways that may be unsealed or cross low-level creek beds. Our team plans routes in advance, selects appropriately sized trucks and brings extra protective equipment for the challenging access conditions typical of this hinterland locality.",
-    nearbySubs: ["Ocean View", "Dayboro", "Mount Mee"],
+    nearbySubs: ["Ocean View", "Dayboro", "Mount Mee", "Rush Creek"],
     priceFrom: "$160/hr",
     serviceArea: "Laceys Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1071,7 +1071,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in Neurum consist of large rural blocks with a range of homestead-style residences, older timber cottages and purpose-built country homes. The area is popular with families seeking an affordable rural lifestyle with space for horses and small-scale farming.",
     uniquePara3:
       "The drive to Neurum from Brisbane involves winding hinterland roads, and local properties often have unsealed driveways and uneven terrain. Our experienced drivers handle these conditions with care, and we secure furniture thoroughly for transport over rural roads to ensure everything arrives in pristine condition.",
-    nearbySubs: ["D'Aguilar", "Kilcoy", "Woodford"],
+    nearbySubs: ["D'Aguilar", "Kilcoy", "Woodford", "Stony Creek"],
     priceFrom: "$160/hr",
     serviceArea: "Neurum & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1133,7 +1133,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in Rocksberg include a mix of older timber homes on large rural lots, newer project homes in developing pockets and established farmhouses. The area attracts buyers looking for affordable land with a rural feel close to town amenities.",
     uniquePara3:
       "While Rocksberg is relatively accessible from the Bruce Highway, some properties sit on larger blocks with gravel driveways and undulating terrain. Our team assesses access conditions on arrival and brings trolleys and ramps suited to the varied surfaces found across this semi-rural suburb.",
-    nearbySubs: ["Caboolture", "Morayfield", "Upper Caboolture"],
+    nearbySubs: ["Caboolture", "Morayfield", "Upper Caboolture", "Moodlu"],
     priceFrom: "$160/hr",
     serviceArea: "Rocksberg & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1257,7 +1257,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
       "Properties in Donnybrook range from modest single-storey homes and older fibro cottages to newer project-style builds. The flat terrain and wide streets make most properties straightforward to access, and the proximity to the waterfront attracts retirees and first-home buyers alike.",
     uniquePara3:
       "Donnybrook's coastal location means some properties near the waterfront have sandy or soft verges that can challenge truck positioning. Our drivers assess ground conditions on arrival and use ramps and wide-wheel trolleys to manage the softer surfaces found in bayside sections of this suburb.",
-    nearbySubs: ["Beachmere", "Ningi", "Caboolture"],
+    nearbySubs: ["Beachmere", "Ningi", "Caboolture", "Meldale"],
     priceFrom: "$160/hr",
     serviceArea: "Donnybrook & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

@@ -140,7 +140,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Properties range from charming Queenslander homes on raised stumps to modern brick-and-tile houses and newer townhouse developments near the town centre. Our team is well-versed in the varied access requirements across Beenleigh's different property styles.",
     uniquePara3:
       "Beenleigh's town centre streets can be busy, particularly around the train station and main shopping precinct. Our drivers know the area well and plan routes to avoid congestion, using side streets and timing loads around peak traffic periods for a smoother move.",
-    nearbySubs: ["Eagleby", "Bahrs Scrub", "Mount Warren Park"],
+    nearbySubs: ["Eagleby", "Bahrs Scrub", "Mount Warren Park", "Belivah"],
     priceFrom: "$160/hr",
     serviceArea: "Beenleigh & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -450,7 +450,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "The suburb features a broad mix of housing, from established family homes and duplexes to modern townhouse developments and retirement village units. Our team adapts to every property type, from tight unit carparks to large family garages.",
     uniquePara3:
       "Traffic around Grand Plaza and the Browns Plains Road corridor can be heavy, particularly on weekends and during school pick-up times. We plan our routes to avoid the busiest intersections and schedule loading times to work around peak congestion.",
-    nearbySubs: ["Hillcrest", "Forestdale", "Heritage Park"],
+    nearbySubs: ["Hillcrest", "Forestdale", "Heritage Park", "Regents Park"],
     priceFrom: "$160/hr",
     serviceArea: "Browns Plains & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -698,7 +698,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Properties here are predominantly large acreage estates, with many featuring modern rural-style homes complete with wide verandahs, separate garages and paddock areas. Our team is well-practised in the logistics of moving large rural households.",
     uniquePara3:
       "Access to Cedar Grove properties often involves long driveways off the main road, some of which are steep or winding. We assess these in advance through satellite imagery and client consultation to ensure our trucks can reach each property safely.",
-    nearbySubs: ["Jimboomba", "Cedar Creek", "Cedar Vale"],
+    nearbySubs: ["Jimboomba", "Cedar Creek", "Cedar Vale", "Glenlogan"],
     priceFrom: "$160/hr",
     serviceArea: "Cedar Grove & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1070,7 +1070,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Housing in Eagleby is primarily single-storey brick-and-tile homes on standard suburban blocks, with some newer duplex developments. The straightforward property layouts make for efficient loading and unloading on moving day.",
     uniquePara3:
       "Eagleby's proximity to the Albert River means some low-lying streets can be affected during flood events. Our team monitors weather conditions and works with clients to plan around any potential wet-weather access issues during the move.",
-    nearbySubs: ["Beenleigh", "Edens Landing", "Mount Warren Park"],
+    nearbySubs: ["Beenleigh", "Edens Landing", "Mount Warren Park", "Belivah"],
     priceFrom: "$160/hr",
     serviceArea: "Eagleby & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1380,7 +1380,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Properties in Heritage Park are predominantly neat single-storey brick-and-tile homes built through the 1990s and 2000s, with some newer infill townhouses. These well-planned family homes provide straightforward access and efficient moving conditions.",
     uniquePara3:
       "Heritage Park benefits from well-designed residential streets with adequate width for truck access. The suburb's central position in Logan means we can quickly reach major motorway connections, keeping transit times and your hourly costs to a minimum.",
-    nearbySubs: ["Browns Plains", "Boronia Heights", "Hillcrest"],
+    nearbySubs: ["Browns Plains", "Boronia Heights", "Hillcrest", "Regents Park"],
     priceFrom: "$160/hr",
     serviceArea: "Heritage Park & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1442,7 +1442,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "The suburb features a mix of low-set brick homes, timber houses and some newer townhouse developments. Properties are mostly on standard suburban blocks with single or double garages, making for well-planned and efficient moves.",
     uniquePara3:
       "Hillcrest's central location within Logan provides excellent road access in all directions. Our team uses the nearby motorway connections to minimise travel time between Hillcrest and destinations across Brisbane, keeping your move efficient and cost-effective.",
-    nearbySubs: ["Browns Plains", "Boronia Heights", "Heritage Park"],
+    nearbySubs: ["Browns Plains", "Boronia Heights", "Heritage Park", "Regents Park"],
     priceFrom: "$160/hr",
     serviceArea: "Hillcrest & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1566,7 +1566,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Properties in Jimboomba range from new estate homes to established acreage, rural homesteads and lifestyle blocks. This variety means our team handles everything from compact three-bedroom moves to large-volume relocations involving sheds, workshops and outdoor equipment.",
     uniquePara3:
       "Jimboomba is accessed primarily via the Mount Lindesay Highway, which can be busy during peak commuter times. Our drivers plan departures to minimise time in traffic and use local knowledge of back roads to reach properties in the surrounding area efficiently.",
-    nearbySubs: ["Flagstone", "Cedar Grove", "Cedar Creek"],
+    nearbySubs: ["Flagstone", "Cedar Grove", "Cedar Creek", "Glenlogan"],
     priceFrom: "$160/hr",
     serviceArea: "Jimboomba & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1814,7 +1814,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Properties here range from heritage Queenslanders and established rural homes to modern acreage builds on generous lots. Many feature wrap-around verandahs, large garages and outdoor structures that add volume and complexity to a move.",
     uniquePara3:
       "Logan Village roads retain a rural character with some narrow sections and winding curves. Our drivers are familiar with the local road network and select truck sizes that can navigate these roads safely while accommodating the larger volumes common in the area.",
-    nearbySubs: ["Buccan", "Waterford", "Chambers Flat"],
+    nearbySubs: ["Buccan", "Waterford", "Chambers Flat", "Lyons"],
     priceFrom: "$160/hr",
     serviceArea: "Logan Village & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -2124,7 +2124,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Homes in Mount Warren Park are predominantly single-storey brick-and-tile family homes from the 1980s and 1990s, with some featuring elevated builds that take advantage of the area's hilly terrain. Many properties have generous yards and double garages.",
     uniquePara3:
       "The gently undulating terrain of Mount Warren Park means some driveways are steeper than average. Our team assesses slopes before arrival and brings equipment like ramp boards and heavy-duty trolleys to manage elevation changes safely during loading.",
-    nearbySubs: ["Beenleigh", "Eagleby", "Bahrs Scrub"],
+    nearbySubs: ["Beenleigh", "Eagleby", "Bahrs Scrub", "Belivah"],
     priceFrom: "$160/hr",
     serviceArea: "Mount Warren Park & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -2434,7 +2434,7 @@ export const loganSuburbs: BrisbaneSuburb[] = [
       "Properties here include brand-new estate homes alongside older rural-residential holdings. Our team is well-practised with both new-build precision and the larger volumes associated with acreage moves in this evolving suburb.",
     uniquePara3:
       "Like neighbouring Park Ridge, road infrastructure in Park Ridge South continues to develop. Some streets are newly completed while others remain under construction. We stay informed about current access conditions to reach every property safely and efficiently.",
-    nearbySubs: ["Park Ridge", "North Maclean", "Chambers Flat"],
+    nearbySubs: ["Park Ridge", "North Maclean", "Chambers Flat", "Lyons"],
     priceFrom: "$160/hr",
     serviceArea: "Park Ridge South & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

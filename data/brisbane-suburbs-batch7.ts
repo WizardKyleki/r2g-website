@@ -265,7 +265,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
       "Most homes in Wakerley are relatively new, ranging from single-storey brick-and-tile family houses to double-storey renders in estates like Grassdale and Sentinel. The consistent modern construction means wide internal doorways and double garages, which generally makes furniture access straightforward.",
     uniquePara3:
       "Wakerley's estate roads can be narrow with cars parked on both sides, and some cul-de-sacs make turning a large truck difficult. Our drivers are experienced with these layouts and will pre-plan the best approach to park as close to your front door as possible.",
-    nearbySubs: ["Tingalpa", "Chandler", "Manly West"],
+    nearbySubs: ["Tingalpa", "Chandler", "Manly West", "Ransome", "Gumdale"],
     priceFrom: "$160/hr",
     serviceArea: "Wakerley & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -639,7 +639,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
       "Homes in Mount Ommaney are predominantly brick-and-tile family residences from the 1970s and 1980s on generous blocks, along with some newer duplex developments. Many feature double garages, covered entertaining areas and established gardens, making for substantial household moves.",
     uniquePara3:
       "Mount Ommaney's cul-de-sac street layout provides a quiet living environment but can limit truck manoeuvrability. Our drivers are experienced with these street designs and position vehicles to maintain clear access while minimising disruption to your neighbours.",
-    nearbySubs: ["Riverhills", "Jindalee", "Westlake"],
+    nearbySubs: ["Riverhills", "Jindalee", "Westlake", "Seventeen Mile Rocks"],
     priceFrom: "$160/hr",
     serviceArea: "Mount Ommaney & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1011,7 +1011,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
       "Housing in The Gap ranges from older post-war homes near the main road to modern family houses in estates higher up the hillside. Elevated properties often have multi-level layouts and steep driveways, while homes along Settlement Road tend to be more accessible.",
     uniquePara3:
       "Waterworks Road and Settlement Road are the main routes in and out of The Gap, and both can become congested during school and commuter peak times. Our drivers know the side-street shortcuts and time arrivals to keep your move running on schedule.",
-    nearbySubs: ["Ashgrove", "Upper Kedron", "Ferny Grove"],
+    nearbySubs: ["Ashgrove", "Upper Kedron", "Ferny Grove", "Seven Hills", "Enoggera Reservoir"],
     priceFrom: "$160/hr",
     serviceArea: "The Gap & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1135,7 +1135,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
       "Almost all homes in Upper Kedron are recently built, ranging from contemporary single-storey designs to large double-storey family homes in estates like Cedar Woods and Creekwood. The modern construction means wide hallways and generous garages, but sloping block foundations can create access challenges.",
     uniquePara3:
       "Upper Kedron's new estate roads are well-paved but can be narrow with limited on-street parking during settlement periods when multiple families move in simultaneously. Our drivers are familiar with the estate layouts and plan positioning to avoid congesting newly occupied streets.",
-    nearbySubs: ["The Gap", "Ferny Grove", "Keperra"],
+    nearbySubs: ["The Gap", "Ferny Grove", "Keperra", "Enoggera Reservoir"],
     priceFrom: "$160/hr",
     serviceArea: "Upper Kedron & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

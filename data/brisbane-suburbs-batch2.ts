@@ -16,7 +16,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Housing in Darra is predominantly older post-war timber homes on generous blocks, many of which have been renovated or extended over the years. There is also a growing number of modern townhouse developments and duplexes filling in former industrial lots.",
     uniquePara3:
       "Darra's proximity to the Ipswich Motorway makes truck access straightforward for moves heading west or south, but local streets near the rail line can be narrow with limited turning space. Our drivers know which streets to avoid with larger trucks and plan efficient routes around the one-way sections near Darra station.",
-    nearbySubs: ["Oxley", "Inala", "Sumner"],
+    nearbySubs: ["Oxley", "Inala", "Sumner", "Wacol"],
     priceFrom: "$160/hr",
     serviceArea: "Darra & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -388,7 +388,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Residential properties in Eagle Farm are predominantly high-end apartments, modern townhouses and warehouse conversions in the Teneriffe-adjacent precinct. Many developments feature secure basement parking, concierge services and premium finishes that require careful handling during moves.",
     uniquePara3:
       "Eagle Farm moves often involve strict building management protocols including loading dock bookings, lift reservations and limited moving windows. Our team regularly coordinates with building managers in the area and is experienced with the access requirements of premium residential complexes along Lancaster Road and Racecourse Road.",
-    nearbySubs: ["Hamilton", "Hendra", "Ascot"],
+    nearbySubs: ["Hamilton", "Hendra", "Ascot", "Brisbane Airport"],
     priceFrom: "$160/hr",
     serviceArea: "Eagle Farm & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -822,7 +822,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Properties in Ferny Grove include established family homes on large leafy blocks, renovated Queenslanders and newer estates. Many homes back onto bushland reserves, offering privacy and a semi-rural atmosphere within easy commuting distance of the CBD.",
     uniquePara3:
       "Ferny Grove's location at the foot of the D'Aguilar Range means some properties are on steep blocks with winding driveways and bush-edge access roads. Creek crossings and low-clearance areas near Cedar Creek can also impact truck routing during wet weather. Our team knows the local roads and plans moves to avoid these pinch points.",
-    nearbySubs: ["Ferny Hills", "Keperra", "Upper Kedron"],
+    nearbySubs: ["Ferny Hills", "Keperra", "Upper Kedron", "Enoggera Reservoir"],
     priceFrom: "$160/hr",
     serviceArea: "Ferny Grove & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -884,7 +884,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Housing in Ferny Hills is predominantly established brick and timber family homes from the 1970s to 1990s on good-sized blocks. Many homes have been extended or renovated, and there are some newer townhouse developments along the suburb's main roads.",
     uniquePara3:
       "Ferny Hills' gently undulating terrain and wide suburban streets make for relatively straightforward truck access. The main challenges are cul-de-sacs in some of the older estates and overhanging trees along bush-bordered properties. Our team plans turning points in advance and uses appropriate vehicle sizes for each street.",
-    nearbySubs: ["Ferny Grove", "Arana Hills", "Bunya"],
+    nearbySubs: ["Ferny Grove", "Arana Hills", "Bunya", "Wights Mountain"],
     priceFrom: "$160/hr",
     serviceArea: "Ferny Hills & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1442,7 +1442,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Housing in Greenslopes is a mix of character Queenslanders on the hillier streets, post-war cottages, brick and tile homes and modern apartment developments along the main roads. The suburb's variety of housing types attracts a diverse mix of residents from young professionals to established families.",
     uniquePara3:
       "Greenslopes' hilly terrain — as the name suggests — means many homes sit on sloped blocks with steep driveways or elevated front stairs. Logan Road can also be congested throughout the day, affecting access to properties along the main strip. Our team uses side-street approaches and smaller vehicles where needed to navigate the suburb's varied access challenges.",
-    nearbySubs: ["Coorparoo", "Holland Park", "Woolloongabba"],
+    nearbySubs: ["Coorparoo", "Holland Park", "Woolloongabba", "Stones Corner", "Holland Park West"],
     priceFrom: "$160/hr",
     serviceArea: "Greenslopes & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1752,7 +1752,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Properties in Hendra include grand heritage Queenslanders, stately character homes, renovated post-war houses and some modern townhouse developments. The suburb is one of Brisbane's most desirable residential pockets, with homes often featuring expansive gardens and period architectural details.",
     uniquePara3:
       "Hendra's tree-lined streets and character homes mean many moves involve raised houses with steep stairs, narrow hallways and limited driveway access. Race day traffic around the racecourses can also impact street access and parking. Our team schedules around the racing calendar and uses the right equipment for Hendra's beautiful but often challenging older properties.",
-    nearbySubs: ["Ascot", "Clayfield", "Eagle Farm"],
+    nearbySubs: ["Ascot", "Clayfield", "Eagle Farm", "Brisbane Airport"],
     priceFrom: "$160/hr",
     serviceArea: "Hendra & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1938,7 +1938,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Housing in Holland Park includes a mix of Queenslanders and character cottages in the older sections, post-war brick and timber homes, and newer townhouse and duplex developments on subdivided blocks. The suburb's varied housing stock accommodates families, professionals and downsizers alike.",
     uniquePara3:
       "Holland Park's gently undulating terrain and mix of old and new streetscapes create varied access conditions. Older streets have established trees and narrower frontages, while newer developments may have shared driveways and compact parking areas. Logan Road's constant traffic can also affect access. Our team knows the suburb's layout well and uses back-street routes to avoid congestion.",
-    nearbySubs: ["Greenslopes", "Coorparoo", "Tarragindi"],
+    nearbySubs: ["Greenslopes", "Coorparoo", "Tarragindi", "Holland Park West"],
     priceFrom: "$160/hr",
     serviceArea: "Holland Park & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -2186,7 +2186,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
       "Housing in Jindalee includes a mix of established brick and tile homes from the 1970s and 1980s, some original timber Queenslanders and newer townhouse developments. Many homes enjoy river views or back onto bushland, with generous block sizes and comfortable family layouts.",
     uniquePara3:
       "Jindalee's riverside location means some properties in lower-lying areas sit in flood-affected zones, and steep streets leading down to the river can challenge truck access. The suburb's cul-de-sac street design in the hillier sections also requires careful truck manoeuvring. Our team is familiar with Jindalee's terrain and plans each move with the right vehicle and access strategy.",
-    nearbySubs: ["Jamboree Heights", "Mt Ommaney", "Sinnamon Park"],
+    nearbySubs: ["Jamboree Heights", "Mt Ommaney", "Sinnamon Park", "Seventeen Mile Rocks"],
     priceFrom: "$160/hr",
     serviceArea: "Jindalee & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

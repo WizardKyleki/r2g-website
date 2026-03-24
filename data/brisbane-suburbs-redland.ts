@@ -140,7 +140,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
       "Capalaba offers everything from established family homes on spacious blocks to modern townhouse complexes and units near the shopping precinct. Our team handles the full range of property types found across this busy Redlands suburb.",
     uniquePara3:
       "Capalaba's busy commercial precinct means some residential streets experience heavy traffic, especially around the shopping centres. Our drivers know the quieter back routes through Capalaba and time arrivals to avoid peak shopping hours, keeping your move efficient and on schedule even on busy weekends.",
-    nearbySubs: ["Alexandra Hills", "Birkdale", "Thornlands"],
+    nearbySubs: ["Alexandra Hills", "Birkdale", "Thornlands", "Ransome"],
     priceFrom: "$160/hr",
     serviceArea: "Capalaba & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -450,7 +450,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
       "Properties on North Stradbroke Island range from classic beach houses and fibro cottages to modern elevated homes built to handle the coastal environment. Our team is experienced with island logistics and handles moves involving ferry coordination, salt-air protection and varied terrain access.",
     uniquePara3:
       "North Stradbroke Island moves require vehicular ferry coordination from Cleveland's Toondah Harbour. We pre-book ferry slots for our trucks, plan loading and unloading around the ferry timetable, and bring extra protective wrapping to shield furniture from salt air during the crossing. Our drivers know the island's roads from Dunwich through to Point Lookout.",
-    nearbySubs: ["Cleveland", "Ormiston", "Wellington Point"],
+    nearbySubs: ["Cleveland", "Ormiston", "Wellington Point", "Point Lookout"],
     priceFrom: "$160/hr",
     serviceArea: "North Stradbroke Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -512,7 +512,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
       "Ormiston features a mix of grand character homes, renovated Queenslanders and modern family residences on generous blocks. Many properties have significant furniture volumes and valuable items, and our team treats every Ormiston move with the attention to detail these homes deserve.",
     uniquePara3:
       "Ormiston's heritage homes and character properties often present unique moving challenges — narrow hallways, ornate timber staircases and verandah access points that require precise furniture manoeuvring. Our team brings blanket padding, corner protectors and stair-climbing trolleys to navigate these features without leaving a mark on your home.",
-    nearbySubs: ["Cleveland", "Wellington Point", "Birkdale"],
+    nearbySubs: ["Cleveland", "Wellington Point", "Birkdale", "Point Lookout"],
     priceFrom: "$160/hr",
     serviceArea: "Ormiston & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -636,7 +636,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
       "Properties in Redland Bay range from modern homes in expanding estates to older waterfront properties and rural-style blocks on the outskirts. Our team is experienced with the area's diverse housing stock and varied access requirements, from tight estate streets to larger rural lots.",
     uniquePara3:
       "Redland Bay's proximity to the island ferry terminal means we frequently combine mainland moves with island logistics for clients relocating to or from the Southern Moreton Bay Islands. We coordinate ferry schedules, plan truck positioning at the terminal and time the entire operation to minimise waiting and maximise efficiency.",
-    nearbySubs: ["Victoria Point", "Thornlands", "Mount Cotton"],
+    nearbySubs: ["Victoria Point", "Thornlands", "Mount Cotton", "Coochiemudlo Island"],
     priceFrom: "$160/hr",
     serviceArea: "Redland Bay & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -698,7 +698,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
       "The island features a wide range of properties — from timber cottages and modest homes to newer builds on bushland blocks. Many are on large, flat lots with established vegetation, and our team handles the island's unique access requirements with experience and care.",
     uniquePara3:
       "Russell Island's vehicular ferry from Redland Bay allows us to bring our trucks directly to the island, making logistics more straightforward than smaller neighbouring islands. We pre-book ferry slots, plan the full move around the ferry timetable and know the island's internal road network to navigate directly to your property.",
-    nearbySubs: ["Lamb Island", "Macleay Island", "Redland Bay"],
+    nearbySubs: ["Lamb Island", "Macleay Island", "Redland Bay", "Coochiemudlo Island"],
     priceFrom: "$160/hr",
     serviceArea: "Russell Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -946,7 +946,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
       "Properties in Victoria Point span modern estate homes, established family residences, waterfront properties and townhouse complexes near the shopping precinct. Our team handles the full spectrum of moves across this busy, diverse suburb with experience and care.",
     uniquePara3:
       "Victoria Point's role as the Coochiemudlo Island ferry gateway means we often coordinate moves that start or end at the nearby ferry terminal. We also navigate the suburb's busy Redland Bay Road corridor efficiently, timing moves to avoid peak shopping and ferry traffic for a smoother experience.",
-    nearbySubs: ["Redland Bay", "Thornlands", "Cleveland"],
+    nearbySubs: ["Redland Bay", "Thornlands", "Cleveland", "Coochiemudlo Island"],
     priceFrom: "$160/hr",
     serviceArea: "Victoria Point & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

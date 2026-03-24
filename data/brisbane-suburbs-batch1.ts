@@ -471,7 +471,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "The suburb has an eclectic mix of grand heritage homes, multi-storey apartment buildings and modern townhouses. Properties along Milton Road and Coronation Drive tend to be apartments, while the elevated streets feature character homes on steep blocks. Apartment moves often require coordinating with building managers and using goods lifts.",
     uniquePara3:
       "Auchenflower's steep streets and narrow laneways pose significant access challenges. Properties on streets like Haig Road and Park Road sit on dramatic slopes, sometimes requiring furniture to be carried up or down dozens of steps. Parking is limited near many homes, so our team often uses smaller shuttle vehicles to transfer items from the main truck.",
-    nearbySubs: ["Milton", "Toowong", "Paddington"],
+    nearbySubs: ["Milton", "Toowong", "Paddington", "Mount Coot-tha"],
     priceFrom: "$160/hr",
     serviceArea: "Auchenflower & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -719,7 +719,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "The suburb is characterised by elevated Queenslander homes, many renovated to a high standard, along with post-war cottages and contemporary family homes on sloping blocks. Multi-level living is common, and many properties have been built into the hillside with split-level floor plans that add complexity to moves.",
     uniquePara3:
       "Bardon's hilly terrain is among the most challenging in Brisbane for removalists. Streets like Simpsons Road wind steeply up the ridge, and many properties have long flights of stairs as their only access. Limited street parking on narrow roads means truck positioning requires local knowledge. Our team regularly works Bardon's hills and comes prepared with straps, dollies and extra crew.",
-    nearbySubs: ["Ashgrove", "Paddington", "Rainworth"],
+    nearbySubs: ["Ashgrove", "Paddington", "Rainworth", "Mount Coot-tha"],
     priceFrom: "$160/hr",
     serviceArea: "Bardon & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -843,7 +843,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "Housing in Belmont is a mix of established lowset brick homes from the 1970s and 1980s, renovated post-war cottages and some newer infill developments. Most homes are single-level on relatively flat blocks, making furniture loading and unloading straightforward for our team.",
     uniquePara3:
       "While Belmont is generally flat and accessible, Old Cleveland Road and the Gateway Motorway on-ramps nearby can create traffic during peak times. Some streets near the bushland reserve have narrower carriageways with mature trees limiting truck manoeuvrability. Our drivers know the best approach routes to keep your move running smoothly.",
-    nearbySubs: ["Carindale", "Tingalpa", "Carina"],
+    nearbySubs: ["Carindale", "Tingalpa", "Carina", "Gumdale"],
     priceFrom: "$160/hr",
     serviceArea: "Belmont & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1029,7 +1029,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "The suburb features a wide variety of housing, from classic 1970s brick-and-tile homes to modern townhouse complexes and newer estate developments. Most properties are single or double storey on flat-to-gently-sloping blocks, making moves generally straightforward in terms of physical access.",
     uniquePara3:
       "Bracken Ridge is well laid out with wide residential streets, but traffic on Bracken Ridge Road and Telegraph Road can be heavy during commuter hours. Some older sections of the suburb have cul-de-sacs with limited turning space. Our team knows the local street layout and plans efficient loading and route strategies for every Bracken Ridge move.",
-    nearbySubs: ["Bald Hills", "Carseldine", "Boondall"],
+    nearbySubs: ["Bald Hills", "Carseldine", "Boondall", "Fitzgibbon"],
     priceFrom: "$160/hr",
     serviceArea: "Bracken Ridge & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1649,7 +1649,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "Housing in Carseldine is predominantly established family homes from the 1970s and 1980s, mostly single-storey brick-and-tile on generous flat blocks. Some newer infill townhouses and duplexes have been built in recent years. The single-level homes and flat terrain generally make moves straightforward in this suburb.",
     uniquePara3:
       "Gympie Arterial Road borders Carseldine and carries heavy commuter traffic, which can affect truck travel times during peak hours. Some of the quieter streets deeper in the suburb have overhanging trees and limited turning space at dead ends. Our team schedules Carseldine moves to avoid arterial road congestion and selects the right truck for each street.",
-    nearbySubs: ["Aspley", "Bridgeman Downs", "Bracken Ridge"],
+    nearbySubs: ["Aspley", "Bridgeman Downs", "Bracken Ridge", "Fitzgibbon"],
     priceFrom: "$160/hr",
     serviceArea: "Carseldine & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1711,7 +1711,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "Properties in Chandler are typically large homes on acreage lots, with a mix of established homesteads and modern prestige builds. Many properties feature five or more bedrooms, separate workshops, stables and substantial outdoor entertaining areas. Moves from Chandler tend to be high-volume and require larger crews.",
     uniquePara3:
       "Chandler's semi-rural setting means many properties are accessed via long, sometimes unsealed driveways off Tilley Road or Old Cleveland Road Extension. Some roads have limited shoulders and no kerb-and-channel, making truck positioning tricky. Our team always confirms driveway conditions and access before a Chandler move to ensure we bring the right vehicles and equipment.",
-    nearbySubs: ["Burbank", "Capalaba", "Belmont"],
+    nearbySubs: ["Burbank", "Capalaba", "Belmont", "Ransome", "Gumdale"],
     priceFrom: "$160/hr",
     serviceArea: "Chandler & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1773,7 +1773,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
       "Housing in Chapel Hill is predominantly large family homes on generous, often sloping blocks. The suburb features a mix of established 1970s and 1980s brick homes, renovated dwellings and modern architecturally designed residences. Multi-level living is common due to the undulating terrain, with many homes having multiple sets of stairs.",
     uniquePara3:
       "Chapel Hill's hilly, winding streets can be narrow and steep, with some sections featuring tight bends that limit large truck access. Properties on streets near the Mt Coot-tha bushland fringe may have long driveways through vegetation. Our drivers have extensive experience navigating Chapel Hill's terrain and choose the right-sized vehicle for each street.",
-    nearbySubs: ["Kenmore", "Brookfield", "Indooroopilly"],
+    nearbySubs: ["Kenmore", "Brookfield", "Indooroopilly", "Fig Tree Pocket"],
     priceFrom: "$160/hr",
     serviceArea: "Chapel Hill & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

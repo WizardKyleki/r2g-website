@@ -715,6 +715,51 @@ export default function InterstateRemovalistsPage() {
         ]}
       />
 
+      {/* ── INTERSTATE CITY GUIDES ── */}
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl font-black text-[#1A1A1A]">Interstate Removalists by City</h2>
+            <p className="text-gray-500 text-base mt-2 max-w-xl mx-auto">Detailed guides for interstate moves to and from major Australian cities.</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                title: "Interstate Removalists Brisbane",
+                desc: "Interstate moving services to and from Brisbane.",
+                href: "/interstate-removalists/brisbane",
+              },
+              {
+                title: "Interstate Removalists Cairns",
+                desc: "Long-distance moves to and from Cairns and FNQ.",
+                href: "/interstate-removalists/cairns",
+              },
+              {
+                title: "Interstate Removalists Gold Coast",
+                desc: "Interstate relocations to and from the Gold Coast.",
+                href: "/interstate-removalists/gold-coast",
+              },
+              {
+                title: "Interstate Removalists Sunshine Coast",
+                desc: "Interstate moves to and from the Sunshine Coast.",
+                href: "/interstate-removalists/sunshine-coast",
+              },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="group p-6 bg-gray-50 border-2 border-gray-100 rounded-xl hover:border-[#F5A800] transition-colors"
+              >
+                <h3 className="font-black text-[#1A1A1A] text-lg mb-2 group-hover:text-[#F5A800] transition-colors">
+                  {link.title} →
+                </h3>
+                <p className="text-gray-500 text-sm">{link.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── INTERNAL LINKS ── */}
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

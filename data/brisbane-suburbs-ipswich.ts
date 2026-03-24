@@ -78,7 +78,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "The estate's modern homes feature wide internal hallways and double garages, making furniture placement straightforward. However, the uniform streetscapes and cul-de-sac layouts require careful navigation on moving day.",
     uniquePara3:
       "Augustine Heights streets can be narrow with cars parked on both sides, especially on weekends. Our drivers scout access routes in advance and position trucks to avoid blocking neighbours, ensuring a smooth move without disrupting the estate.",
-    nearbySubs: ["Springfield Lakes", "Springfield Central", "Brookwater"],
+    nearbySubs: ["Springfield Lakes", "Springfield Central", "Brookwater", "Spring Mountain"],
     priceFrom: "$160/hr",
     serviceArea: "Augustine Heights & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -388,7 +388,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "Homes in Brookwater tend to be large, high-value properties with premium finishes. Our team takes extra care with marble benchtops, custom joinery and designer furniture that are typical of moves in this estate.",
     uniquePara3:
       "Brookwater's estate roads are well-maintained but have strict parking and access guidelines enforced by the community body corporate. We coordinate with estate management before moving day and ensure our trucks comply with all access requirements to protect the manicured streetscape.",
-    nearbySubs: ["Augustine Heights", "Springfield Central", "Springfield Lakes"],
+    nearbySubs: ["Augustine Heights", "Springfield Central", "Springfield Lakes", "Spring Mountain"],
     priceFrom: "$160/hr",
     serviceArea: "Brookwater & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -450,7 +450,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "The mix of older weatherboard cottages, renovated Queenslanders and newer project homes in Bundamba keeps our team versatile. We adapt our approach for every property type, from raised timber homes to modern slab-on-ground builds.",
     uniquePara3:
       "Parts of Bundamba near the Bremer River sit in flood-prone zones, and some streets have limited access after heavy rain. Our team monitors weather conditions closely and plans alternative routes when needed to ensure your move proceeds safely and on schedule.",
-    nearbySubs: ["Booval", "Blackstone", "Riverview"],
+    nearbySubs: ["Booval", "Blackstone", "Riverview", "Leichhardt"],
     priceFrom: "$160/hr",
     serviceArea: "Bundamba & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -698,7 +698,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "Moves in Chuwar frequently involve rural-residential properties with sheds, workshops and outdoor equipment alongside standard household furniture. Our team is equipped to handle bulky items and machinery as well as delicate household belongings.",
     uniquePara3:
       "Chuwar's rural roads and long property driveways can be challenging for standard removal trucks. We assess access conditions before every Chuwar move and arrange appropriately sized vehicles, including smaller shuttles for properties reached via unsealed or narrow lanes.",
-    nearbySubs: ["Karalee", "Brassall", "Muirlea"],
+    nearbySubs: ["Karalee", "Brassall", "Muirlea", "Barellan Point"],
     priceFrom: "$160/hr",
     serviceArea: "Chuwar & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1070,7 +1070,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "Most Gailes properties are modest single-storey homes on standard residential blocks. Our team handles these straightforward moves efficiently, keeping costs down while maintaining the same high standard of care we bring to every job.",
     uniquePara3:
       "Gailes sits close to the Ipswich Motorway, and some streets experience higher traffic noise and flow during peak times. We plan arrival and departure routes to avoid motorway congestion, ensuring our trucks get in and out of the suburb smoothly.",
-    nearbySubs: ["Goodna", "Camira", "Carole Park"],
+    nearbySubs: ["Goodna", "Camira", "Carole Park", "Wacol"],
     priceFrom: "$160/hr",
     serviceArea: "Gailes & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1318,7 +1318,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "Properties in Karalee sit on generous blocks, often with multiple living areas, large garages and expansive outdoor entertaining spaces. Our team is well-equipped for these larger-volume moves and brings extra crew when needed.",
     uniquePara3:
       "Karalee's winding hillside roads and long driveways require experienced drivers who can manoeuvre trucks safely on narrow, tree-lined streets. We conduct access assessments before every Karalee move to select the right vehicle size and plan the safest approach.",
-    nearbySubs: ["Chuwar", "Brassall", "North Ipswich"],
+    nearbySubs: ["Chuwar", "Brassall", "North Ipswich", "Barellan Point"],
     priceFrom: "$160/hr",
     serviceArea: "Karalee & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1566,7 +1566,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "Moves in Marburg often involve older timber homes alongside newer builds on the township fringe. Our team brings the right mix of heritage home equipment and modern moving techniques to handle every Marburg property professionally.",
     uniquePara3:
       "Marburg's position along the Warrego Highway provides good main road access, but individual properties may be reached via winding rural roads. We plan our approach for each Marburg move, factoring in road conditions, gate access and driveway types.",
-    nearbySubs: ["Haigslea", "Walloon", "Rosewood"],
+    nearbySubs: ["Haigslea", "Walloon", "Rosewood", "Mount Marrow"],
     priceFrom: "$160/hr",
     serviceArea: "Marburg & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1752,7 +1752,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
       "The mix of older homes and brand-new estate builds in New Chum means our team encounters a variety of property types. We bring equipment suited to each, from stair trolleys for older raised homes to floor protectors for new builds.",
     uniquePara3:
       "New Chum's ongoing development means some streets are still being completed, and construction traffic can affect access. Our drivers stay updated on road conditions in developing areas and plan routes that avoid construction zones wherever possible.",
-    nearbySubs: ["Bundamba", "Redbank Plains", "Riverview"],
+    nearbySubs: ["Bundamba", "Redbank Plains", "Riverview", "Swanbank"],
     priceFrom: "$160/hr",
     serviceArea: "New Chum & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

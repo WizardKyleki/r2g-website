@@ -265,7 +265,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
       "The suburb offers a diverse property mix including pre-war workers' cottages, renovated Queenslanders on elevated blocks, modern apartment complexes and brand-new high-rise towers near the Gabba. Our team is experienced with both the narrow hallways of older homes and the loading dock logistics of new developments.",
     uniquePara3:
       "Game-day traffic around the Gabba creates major disruptions on Stanley Street and surrounding roads. Our crew checks the events calendar before every Woolloongabba move and plans alternative routes via Vulture Street or Logan Road to avoid delays and parking restrictions.",
-    nearbySubs: ["East Brisbane", "Kangaroo Point", "West End"],
+    nearbySubs: ["East Brisbane", "Kangaroo Point", "West End", "Stones Corner"],
     priceFrom: "$160/hr",
     serviceArea: "Woolloongabba & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1011,7 +1011,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
       "Residential properties in Pinkenba are typically older-style homes on large blocks, many dating from the suburb's earlier days as a working-class waterfront community. The few remaining houses sit alongside industrial warehouses and transport depots, giving the suburb a distinctive character.",
     uniquePara3:
       "Access to Pinkenba's residential streets is via Eagle Farm Road and Kingsford Smith Drive, both of which carry heavy freight traffic. Our drivers are experienced with the industrial road network around the airport precinct and know how to access residential pockets safely alongside truck and container traffic.",
-    nearbySubs: ["Eagle Farm", "Myrtletown", "Hamilton"],
+    nearbySubs: ["Eagle Farm", "Myrtletown", "Hamilton", "Brisbane Airport"],
     priceFrom: "$160/hr",
     serviceArea: "Pinkenba & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1135,7 +1135,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
       "Properties in Taigum are predominantly 1970s and 1980s brick-and-tile homes on standard suburban blocks, along with some newer townhouse developments and low-rise unit complexes. The relatively uniform housing stock means our team can plan moves efficiently with predictable access and layout.",
     uniquePara3:
       "Beams Road is the main arterial running through Taigum and carries heavy traffic, particularly near the Westfield Chermside turnoff. Internal streets are generally wide and flat, offering good truck access. Our drivers use Handford Road and the quieter cross streets to bypass the worst of the Beams Road congestion.",
-    nearbySubs: ["Zillmere", "Boondall", "Bracken Ridge"],
+    nearbySubs: ["Zillmere", "Boondall", "Bracken Ridge", "Fitzgibbon"],
     priceFrom: "$160/hr",
     serviceArea: "Taigum & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

@@ -885,7 +885,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
       "Homes in Stockleigh range from modern Queenslander-style builds on multi-acre lots to older rural homesteads with established gardens and outbuildings. R2G crews are prepared for the larger volumes and specialty items typical of acreage moves, including ride-on mowers, water tanks and horse equipment.",
     uniquePara3:
       "The roads through Stockleigh are narrow and winding with some unsealed sections, particularly on private access roads. Our drivers conduct route assessments before every move in the area and bring smaller rigid trucks when the standard pantechnicon cannot safely access your property.",
-    nearbySubs: ["Jimboomba", "South Maclean", "Cedar Grove"],
+    nearbySubs: ["Jimboomba", "South Maclean", "Cedar Grove", "Glenlogan"],
     priceFrom: "$160/hr",
     serviceArea: "Stockleigh & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -1009,7 +1009,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
       "Properties in Munruben are predominantly family homes on acreage of one to five acres, many featuring large garages, workshops, water tanks and established native gardens. R2G crews are experienced with the large-scale moves these properties demand, including relocating heavy outdoor equipment.",
     uniquePara3:
       "Many Munruben properties are accessed via long, sometimes unpaved, private driveways that wind through bushland. Our drivers assess access conditions ahead of time and will bring a smaller truck or shuttle loads from the main road if the driveway cannot safely accommodate a full-size vehicle.",
-    nearbySubs: ["Park Ridge South", "Greenbank", "North Maclean"],
+    nearbySubs: ["Park Ridge South", "Greenbank", "North Maclean", "Lyons"],
     priceFrom: "$160/hr",
     serviceArea: "Munruben & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

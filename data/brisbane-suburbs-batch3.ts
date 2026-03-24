@@ -698,7 +698,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
       "Mitchelton offers a diverse housing mix from post-war timber cottages and Queenslanders to modern infill townhouses and renovated character homes. Our team is experienced with the varied property types found on the suburb's undulating terrain.",
     uniquePara3:
       "Some Mitchelton streets, particularly those near the railway line and along the ridgeline, have narrow access and steep blocks. Our drivers know which streets accommodate larger trucks and where we need to bring smaller vehicles to ensure a safe, damage-free move.",
-    nearbySubs: ["Everton Park", "Gaythorne", "Keperra"],
+    nearbySubs: ["Everton Park", "Gaythorne", "Keperra", "Seven Hills"],
     priceFrom: "$160/hr",
     serviceArea: "Mitchelton & Brisbane North-West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

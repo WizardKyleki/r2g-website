@@ -202,7 +202,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
       "Housing in Sinnamon Park is predominantly large family homes on generous blocks built from the 1970s onwards, along with some newer townhouse developments. Properties typically have double garages, wide driveways and good truck access, making moves straightforward.",
     uniquePara3:
       "While most Sinnamon Park streets are wide and accessible, some properties back onto bushland reserves with limited rear access. The Centenary Motorway provides excellent connectivity but can be congested during peak hours. We plan our routes and timing to avoid motorway bottlenecks.",
-    nearbySubs: ["Westlake", "Mt Ommaney", "Jindalee"],
+    nearbySubs: ["Westlake", "Mt Ommaney", "Jindalee", "Seventeen Mile Rocks"],
     priceFrom: "$160/hr",
     serviceArea: "Sinnamon Park & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
@@ -450,7 +450,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
       "The suburb features a transitional mix of original post-war timber homes, extensively renovated Queenslanders and new townhouse and apartment developments. Many older properties are being raised and built-in underneath, creating split-level access that our team is experienced in handling.",
     uniquePara3:
       "Stafford's mix of old and new housing means street widths and access vary significantly. Some older streets are narrow with no footpaths, while newer developments have dedicated visitor parking and wider road frontages. Our drivers assess each property's access requirements before moving day.",
-    nearbySubs: ["Stafford Heights", "Kedron", "Chermside"],
+    nearbySubs: ["Stafford Heights", "Kedron", "Chermside", "Seven Hills"],
     priceFrom: "$160/hr",
     serviceArea: "Stafford & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",

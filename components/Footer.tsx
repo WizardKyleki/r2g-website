@@ -109,6 +109,11 @@ export default function Footer() {
                   2026 Moving Index
                 </Link>
               </li>
+              <li>
+                <Link href="/about" className="text-gray-400 hover:text-[#F5C400] text-sm transition-colors">
+                  About Us
+                </Link>
+              </li>
             </ul>
           </div>
 
