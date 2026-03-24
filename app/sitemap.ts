@@ -110,13 +110,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Office removalists suburb pages
-  const officeSuburbs = getAllOfficeSuburbParams().map(({ city, suburb }) => ({
-    url: `${BASE_URL}/office-removalists/${city}/${suburb}`,
-    lastModified: SERVICE_PAGE_DATE,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
+  // Office removalists suburb pages — REMOVED: these pages don't exist as routes
+  // (only /office-removalists/[slug] exists, not /office-removalists/[city]/[suburb])
+  // Including them in sitemap caused 62 x 308 redirects flagged by Ahrefs
 
   // Blog posts — these SHOULD use today's date as they are content pages
   const blogPosts = getAllBlogSlugs().map((slug) => ({
@@ -126,5 +122,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbPages, ...goldCoastSuburbPages, ...sunshineCoastSuburbPages, ...townsvilleSuburbPages, ...interstateRoutes, ...interstateCities, ...officeLocations, ...officeSuburbs, ...blogPosts];
+  return [...staticPages, ...cairnsSuburbs, ...brisbaneSuburbPages, ...goldCoastSuburbPages, ...sunshineCoastSuburbPages, ...townsvilleSuburbPages, ...interstateRoutes, ...interstateCities, ...officeLocations, ...blogPosts];
 }
