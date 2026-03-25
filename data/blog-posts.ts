@@ -1956,7 +1956,7 @@ export const blogPosts: BlogPost[] = [
   // ── Post 16: Fuel Prices & Moving Costs ─────────────
   {
     slug: "how-fuel-prices-affect-your-move",
-    title: "How Rising Fuel Prices Can Affect Your Move and How to Prepare",
+    title: "How Rising Fuel Prices Can Affect Your Move in 2026 and How to Prepare",
     metaTitle: "How Fuel Prices Affect Moving Costs in 2026 | R2G Transport",
     metaDescription:
       "Fuel prices in Australia have jumped 40% since early 2026. Learn how this affects your moving costs and 12 practical ways to keep your relocation affordable.",
@@ -1968,7 +1968,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "18 min read",
     author: "R2G Moving Team",
     image: "/images/blog-fuel-prices.webp",
-    imageAlt: "Fuel pump nozzle with Australian dollars, rising fuel prices and their impact on moving costs",
+    imageAlt: "Person holding a fuel pump nozzle while refuelling a car, representing rising fuel prices and their impact on moving costs",
     keywords: [
       "fuel prices moving costs",
       "how fuel prices affect removalists",
@@ -1978,8 +1978,12 @@ export const blogPosts: BlogPost[] = [
       "save money moving",
       "fuel crisis australia 2026",
       "interstate moving costs fuel",
+      "petrol prices brisbane 2026",
+      "diesel prices queensland",
+      "removalist fuel surcharge australia",
+      "affordable removalists brisbane",
     ],
-    relatedSlugs: ["ultimate-moving-day-checklist", "choose-right-moving-company", "moving-with-pets"],
+    relatedSlugs: ["ultimate-moving-day-checklist", "choose-right-moving-company", "moving-interstate-guide"],
     content: [
       {
         type: "paragraph",
@@ -2126,15 +2130,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "3. Get Multiple Quotes and Read the Fine Print",
-      },
-      {
-        type: "paragraph",
-        text: 'In a high-fuel-price environment, the difference between quotes can be significant. Some companies absorb fuel costs into their hourly rate while others add a separate surcharge. When comparing quotes, always ask: does this price include fuel, or will a surcharge be added? A quote that looks cheaper upfront but adds a 15 percent fuel surcharge on the day can end up costing more than a slightly higher all-inclusive rate. <a href="/quote">Get a free quote from R2G</a>. Our pricing is transparent with no hidden fees.',
-      },
-      {
-        type: "subheading",
-        text: "4. Be Packed and Ready on Moving Day",
+        text: "3. Be Packed and Ready on Moving Day",
       },
       {
         type: "paragraph",
@@ -2142,7 +2138,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "5. Choose the Right Truck Size",
+        text: "4. Choose the Right Truck Size",
       },
       {
         type: "paragraph",
@@ -2150,7 +2146,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "6. Consider a Consolidated Interstate Move",
+        text: "5. Consider a Consolidated Interstate Move",
       },
       {
         type: "paragraph",
@@ -2158,7 +2154,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "7. Avoid Peak Moving Periods",
+        text: "6. Avoid Peak Moving Periods",
       },
       {
         type: "paragraph",
@@ -2166,7 +2162,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "8. Reduce the Distance Where Possible",
+        text: "7. Reduce the Distance Where Possible",
       },
       {
         type: "paragraph",
@@ -2174,7 +2170,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "9. Pack Heavy Items in Small Boxes",
+        text: "8. Pack Heavy Items in Small Boxes",
       },
       {
         type: "paragraph",
@@ -2182,7 +2178,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "10. Lock in Your Quote Early",
+        text: "9. Lock in Your Quote Early",
       },
       {
         type: "paragraph",
@@ -2190,7 +2186,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "11. Ask About All-Inclusive Pricing",
+        text: "10. Ask About All-Inclusive Pricing",
       },
       {
         type: "paragraph",
@@ -2198,7 +2194,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "subheading",
-        text: "12. Consider Timing Your Interstate Move Strategically",
+        text: "11. Consider Timing Your Interstate Move Strategically",
       },
       {
         type: "paragraph",
