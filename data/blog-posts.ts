@@ -1952,6 +1952,315 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+
+  // ── Post 16: Fuel Prices & Moving Costs ─────────────
+  {
+    slug: "how-fuel-prices-affect-your-move",
+    title: "How Rising Fuel Prices Can Affect Your Move — And How to Prepare",
+    metaTitle: "How Fuel Prices Affect Moving Costs in 2026 | R2G Transport",
+    metaDescription:
+      "Fuel prices in Australia have jumped 40% since early 2026. Learn how this affects your moving costs and 12 practical ways to keep your relocation affordable.",
+    excerpt:
+      "With petrol hitting 253 cpl in Brisbane and diesel approaching $3/litre, fuel prices are directly impacting what Australians pay to move. Here is what is driving the spike and how you can prepare.",
+    category: "Moving Tips",
+    date: "March 2026",
+    publishedDate: "2026-03-25",
+    readTime: "18 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-fuel-prices.webp",
+    imageAlt: "Fuel pump nozzle with Australian dollars — rising fuel prices and their impact on moving costs",
+    keywords: [
+      "fuel prices moving costs",
+      "how fuel prices affect removalists",
+      "moving costs 2026",
+      "fuel surcharge removalists",
+      "cheap moving tips",
+      "save money moving",
+      "fuel crisis australia 2026",
+      "interstate moving costs fuel",
+    ],
+    relatedSlugs: ["ultimate-moving-day-checklist", "choose-right-moving-company", "moving-with-pets"],
+    content: [
+      {
+        type: "paragraph",
+        text: "If you have checked petrol prices at the bowser recently, you already know something has changed. In Brisbane, unleaded petrol has climbed past 253 cents per litre. Diesel — the fuel that powers every removalist truck on the road — is approaching $3 per litre across Queensland. These are not small fluctuations. Fuel prices in Australia have surged roughly 40 percent since the start of 2026, and the effects are rippling through every industry that relies on transport.",
+      },
+      {
+        type: "paragraph",
+        text: 'For anyone planning a move — whether it is a local relocation across <a href="/removalists-brisbane">Brisbane</a>, a coastal shift to the <a href="/removalists-gold-coast">Gold Coast</a>, or a full <a href="/interstate-removalists">interstate move</a> to Sydney or Melbourne — fuel costs now represent a larger share of your total moving bill than at any point in recent memory. Understanding why prices are rising, how they affect your move, and what you can do to manage the impact is essential for anyone relocating in 2026.',
+      },
+      {
+        type: "heading",
+        text: "What Is Driving Fuel Prices Up in 2026?",
+      },
+      {
+        type: "paragraph",
+        text: "The current fuel price spike is not a simple case of seasonal demand or refinery maintenance. It is rooted in a geopolitical crisis that has disrupted one of the most critical oil transit routes on the planet.",
+      },
+      {
+        type: "subheading",
+        text: "The Strait of Hormuz Crisis",
+      },
+      {
+        type: "paragraph",
+        text: "The escalating conflict between Iran, Israel, and the United States has placed the Strait of Hormuz — the narrow waterway between Iran and Oman through which roughly 20 percent of the world's oil supply passes daily — at the centre of global energy uncertainty. Naval tensions and the threat of a full or partial blockade have sent crude oil prices sharply higher on international markets.",
+      },
+      {
+        type: "paragraph",
+        text: "Australia is particularly vulnerable to disruptions in this region. The country imports almost 90 percent of its refined fuel from overseas, primarily from refineries in Singapore, South Korea, Japan, and Malaysia. When the cost of crude oil rises on global markets, that increase flows through to Australian bowsers within days, not weeks.",
+      },
+      {
+        type: "subheading",
+        text: "Australia's Fuel Supply Vulnerability",
+      },
+      {
+        type: "paragraph",
+        text: "Unlike many developed nations, Australia holds relatively low strategic fuel reserves. Current estimates suggest the country has approximately 36 days of petrol supply on hand — well short of the 90-day target recommended by the International Energy Agency. This limited buffer means that any sustained disruption to global oil supply chains has an outsized impact on Australian fuel prices and availability.",
+      },
+      {
+        type: "paragraph",
+        text: "The ACCC has escalated from quarterly to weekly fuel price monitoring in response to the crisis. In its 20 March 2026 update, the regulator noted that retail fuel prices in several capital cities increased as fast as or faster than wholesale prices — raising concerns about retailers widening margins during the crisis.",
+      },
+      {
+        type: "subheading",
+        text: "The Numbers Tell the Story",
+      },
+      {
+        type: "list",
+        items: [
+          "Brisbane petrol (ULP 91) jumped from approximately 219 cpl to 253 cpl in just two weeks — a rise of 34 cents per litre",
+          "National diesel prices reached 275.7 cpl across the five largest cities as of 18 March 2026",
+          "Queensland diesel averaged 296.5 cpl at state level by 23 March 2026",
+          "Analysts warn that regular unleaded could approach 350 cpl if the Strait of Hormuz situation deteriorates further",
+          "The fuel excise currently sits at 52.6 cpl following the February 2026 CPI indexation, and the Federal Treasurer has ruled out an excise cut",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How Fuel Prices Directly Affect Your Moving Costs",
+      },
+      {
+        type: "paragraph",
+        text: "Fuel is one of the largest variable costs in the removalist industry. For a typical removalist operation running a fleet of trucks, fuel accounts for 20 to 30 percent of total operating expenses. When diesel prices climb by 40 percent or more in the space of a few months, that cost increase has to go somewhere.",
+      },
+      {
+        type: "subheading",
+        text: "Local Moves: A Moderate Impact",
+      },
+      {
+        type: "paragraph",
+        text: 'For a standard <a href="/removalists-brisbane">local move within Brisbane</a> — say from <a href="/removalists-brisbane/paddington">Paddington</a> to <a href="/removalists-brisbane/mt-gravatt">Mt Gravatt</a> — the direct fuel cost component is relatively contained. A local move might involve 30 to 60 kilometres of driving between the depot, the pickup address, the delivery address, and back. At current diesel prices, the fuel cost for that journey in a large removalist truck might be $40 to $80.',
+      },
+      {
+        type: "paragraph",
+        text: "The impact on your final bill for a local move is real but manageable — you might see an increase of 5 to 10 percent compared to what the same move would have cost six months ago. The hourly rate structure of local moves means that fuel is only one part of the equation alongside labour, insurance, and equipment costs.",
+      },
+      {
+        type: "subheading",
+        text: "Interstate Moves: A Significant Impact",
+      },
+      {
+        type: "paragraph",
+        text: 'This is where the fuel crisis hits hardest. An <a href="/interstate-removalists/brisbane-to-sydney">interstate move from Brisbane to Sydney</a> covers roughly 920 kilometres one way. A large removalist truck averaging 35 to 40 litres of diesel per 100 kilometres will burn approximately 350 litres of fuel on that single journey. At current Queensland diesel prices approaching $3 per litre, that is over $1,000 in fuel for one direction alone — before the return trip.',
+      },
+      {
+        type: "paragraph",
+        text: 'For longer corridors like <a href="/interstate-removalists/brisbane-to-melbourne">Brisbane to Melbourne</a> (1,700 km) or <a href="/interstate-removalists/brisbane-to-perth">Brisbane to Perth</a> (4,300 km), fuel costs become a dominant factor in the total quote. Interstate moving costs can rise by anywhere from 10 to 30 percent during periods of sustained high fuel prices. On a $5,000 interstate move, that translates to an additional $500 to $1,500 that was not in the budget six months ago.',
+      },
+      {
+        type: "tip",
+        title: "Interstate fuel impact",
+        text: "A Brisbane-to-Sydney move that quoted at $4,500 in late 2025 may now come in at $5,000 to $5,400 — purely due to fuel. The longer the distance, the larger the fuel component. Brisbane-to-Perth moves have seen the steepest increases, with some quotes rising 25-30 percent since January 2026.",
+      },
+      {
+        type: "subheading",
+        text: "Fuel Surcharges Are Becoming Standard",
+      },
+      {
+        type: "paragraph",
+        text: "Across the Australian transport and logistics sector, fuel surcharges have become the primary mechanism for passing on elevated fuel costs. In March 2026, major carriers raised their fuel surcharges by 7.5 to 10 percent. Australia Post tripled its fuel surcharge from 4.8 percent to 12 percent for approximately 30,000 contract customers. StarTrack increased its surcharge from 15.5 to 22.7 percent.",
+      },
+      {
+        type: "paragraph",
+        text: "Removalist companies are following the same pattern. Many now apply a fuel surcharge — typically between 5 and 15 percent — on top of their standard rates. When comparing quotes, it is important to ask whether the quoted price includes a fuel surcharge or whether it will be added as a separate line item on your invoice.",
+      },
+      {
+        type: "heading",
+        text: "The Wider Economic Ripple Effects",
+      },
+      {
+        type: "paragraph",
+        text: "Fuel prices do not exist in isolation. When diesel climbs toward $3 per litre, the cost of everything that moves on a truck increases. Grocery prices rise. Building materials cost more. Online shopping delivery fees go up. For households already dealing with cost-of-living pressures, an expensive move can feel like one burden too many.",
+      },
+      {
+        type: "paragraph",
+        text: "The transport industry itself is under enormous strain. Trucking business liquidations in Australia are up 48 percent compared to 2025. Hundreds of smaller operators are at risk of collapse because they cannot absorb fuel costs quickly enough or pass them on to customers who are themselves under financial pressure. This contraction in available transport capacity can lead to longer wait times and reduced availability during peak moving periods.",
+      },
+      {
+        type: "paragraph",
+        text: "The Reserve Bank of Australia has acknowledged the challenge. Governor Michele Bullock stated that sustained $3 per litre fuel prices would create significant difficulties for consumers and complicate monetary policy decisions around interest rates. The underlying inflation rate sits at 3.7 percent, with headline inflation at 4.2 percent — and elevated fuel prices feed directly into both measures.",
+      },
+      {
+        type: "heading",
+        text: "12 Practical Ways to Reduce Your Moving Costs Despite High Fuel Prices",
+      },
+      {
+        type: "paragraph",
+        text: "The fuel situation is largely outside your control. What you can control is how you plan, prepare, and execute your move to minimise the total cost. Here are twelve practical strategies that work in any fuel price environment but become especially valuable when prices are elevated.",
+      },
+      {
+        type: "subheading",
+        text: "1. Move on a Weekday",
+      },
+      {
+        type: "paragraph",
+        text: "Weekend rates for removalists are typically 15 to 25 percent higher than weekday rates, and some companies charge even more for Sundays and public holidays. If you have any flexibility in your schedule, a Tuesday or Wednesday move can save hundreds of dollars regardless of fuel prices. The combination of lower hourly rates and less traffic — meaning faster driving times and lower fuel consumption — makes weekdays the smartest choice.",
+      },
+      {
+        type: "subheading",
+        text: "2. Declutter Before You Move",
+      },
+      {
+        type: "paragraph",
+        text: 'Every item you move costs money to transport. A thorough declutter before moving day reduces the total volume, which can mean the difference between needing a large truck and a smaller one. A smaller truck uses less fuel. Fewer items also means faster loading and unloading, which saves on hourly labour costs. Sell, donate, or dispose of anything you have not used in the past year. Your wallet and your new home will thank you. Need <a href="/packing-services-brisbane">professional packing help</a>? Our team can assist with sorting and packing efficiently.',
+      },
+      {
+        type: "subheading",
+        text: "3. Get Multiple Quotes — But Read the Fine Print",
+      },
+      {
+        type: "paragraph",
+        text: 'In a high-fuel-price environment, the difference between quotes can be significant. Some companies absorb fuel costs into their hourly rate while others add a separate surcharge. When comparing quotes, always ask: does this price include fuel, or will a surcharge be added? A quote that looks cheaper upfront but adds a 15 percent fuel surcharge on the day can end up costing more than a slightly higher all-inclusive rate. <a href="/quote">Get a free quote from R2G</a> — our pricing is transparent with no hidden fees.',
+      },
+      {
+        type: "subheading",
+        text: "4. Be Packed and Ready on Moving Day",
+      },
+      {
+        type: "paragraph",
+        text: "Time is money on moving day, literally. If your removalist crew arrives and you are still wrapping plates and emptying drawers, you are paying their hourly rate while they wait. Every extra hour the truck sits running adds fuel cost on top of labour cost. Have everything packed, labelled, and ready to walk out the door before the crew arrives. Disassemble beds and large furniture the night before if possible.",
+      },
+      {
+        type: "subheading",
+        text: "5. Choose the Right Truck Size",
+      },
+      {
+        type: "paragraph",
+        text: "An oversized truck wastes fuel. An undersized truck requires a second trip, which doubles the fuel cost. When you request a quote, be honest and detailed about the volume of your belongings. Provide a room-by-room inventory if you can. A good removalist will recommend the right truck size based on your inventory, avoiding both waste and the need for return trips.",
+      },
+      {
+        type: "subheading",
+        text: "6. Consider a Consolidated Interstate Move",
+      },
+      {
+        type: "paragraph",
+        text: 'If you are moving interstate and your timeline is flexible, ask about consolidated or backload options. This is where your belongings share truck space with another customer heading in the same direction. You split the fuel and transport cost with the other household, which can reduce your interstate moving bill by 30 to 50 percent. The trade-off is less flexibility on exact pickup and delivery dates. Ask us about <a href="/interstate-removalists">backload availability</a> on popular routes like Brisbane to Sydney or Cairns to Brisbane.',
+      },
+      {
+        type: "subheading",
+        text: "7. Avoid Peak Moving Periods",
+      },
+      {
+        type: "paragraph",
+        text: "End-of-month weekends, school holiday periods, and the weeks around Christmas and New Year are the busiest — and most expensive — times to move. Demand for trucks and crews is highest, availability is lowest, and some companies apply peak-season surcharges on top of their standard rates. If you can move mid-month on a weekday, you will find better availability, faster service, and often lower total costs.",
+      },
+      {
+        type: "subheading",
+        text: "8. Reduce the Distance Where Possible",
+      },
+      {
+        type: "paragraph",
+        text: "This sounds obvious, but it is worth thinking about strategically. If your removalist depot is in Archerfield (like ours) and your pickup address is in Ipswich, that is a shorter depot-to-pickup distance than if the depot were in North Brisbane. Less driving means less fuel means lower costs. When choosing a removalist, consider their depot location relative to your addresses. A company based near your area will burn less fuel getting to you.",
+      },
+      {
+        type: "subheading",
+        text: "9. Pack Heavy Items in Small Boxes",
+      },
+      {
+        type: "paragraph",
+        text: 'Weight affects fuel consumption. A truck loaded with efficiently packed boxes is easier on fuel than the same truck loaded with oversized, half-empty boxes that take up more space and require a bigger vehicle. Pack books, tools, and heavy kitchenware in small boxes. Use large boxes for lightweight items like linen, pillows, and clothing. Need <a href="/boxes">moving boxes</a>? We supply professional-grade packing materials.',
+      },
+      {
+        type: "subheading",
+        text: "10. Lock in Your Quote Early",
+      },
+      {
+        type: "paragraph",
+        text: "If fuel prices continue to rise — and many analysts believe they will through mid-2026 — quotes obtained today will likely be lower than quotes obtained in a month or two. Most removalist companies honour quoted prices for a set period (typically 14 to 30 days). If you know you are moving in the coming weeks, get your quote now and lock it in before potential further fuel price increases.",
+      },
+      {
+        type: "subheading",
+        text: "11. Ask About All-Inclusive Pricing",
+      },
+      {
+        type: "paragraph",
+        text: "The simplest way to avoid surprise costs on moving day is to work with a removalist that offers fully transparent, all-inclusive pricing. No fuel surcharges added after the fact. No stair charges you did not expect. No equipment fees for blankets and trolleys that should be standard. Ask upfront: is the quoted price the final price? At R2G, our quoted rate includes fuel, equipment, furniture blankets, and insurance. No hidden fees.",
+      },
+      {
+        type: "subheading",
+        text: "12. Consider Timing Your Interstate Move Strategically",
+      },
+      {
+        type: "paragraph",
+        text: "If your interstate move is not urgent, monitoring fuel price trends can save significant money. The ACCC publishes weekly fuel monitoring updates that track both wholesale and retail price movements. If analysts are forecasting a dip due to diplomatic progress on the Middle East situation or seasonal demand patterns, delaying your move by a few weeks could save hundreds of dollars on a long-distance relocation.",
+      },
+      {
+        type: "heading",
+        text: "What About the Government Fuel Excise?",
+      },
+      {
+        type: "paragraph",
+        text: "The federal fuel excise currently sits at 52.6 cents per litre, adjusted for CPI in February 2026. During the 2022 fuel price spike, the government temporarily halved the fuel excise for six months, providing approximately 22 cents per litre of relief. Many Australians were hoping for a similar measure in 2026.",
+      },
+      {
+        type: "paragraph",
+        text: "However, the Federal Treasurer has publicly stated that cutting the fuel excise is not something that we have been considering. The government's position is that the excise is an important revenue stream and that targeted cost-of-living support through other mechanisms is the preferred approach. This means consumers and businesses should plan for fuel prices to remain elevated for the foreseeable future.",
+      },
+      {
+        type: "heading",
+        text: "How R2G Is Managing Fuel Costs for Our Customers",
+      },
+      {
+        type: "paragraph",
+        text: 'At <a href="/">R2G Transport & Storage</a>, we understand that moving is already an expensive undertaking without fuel prices adding to the burden. Here is how we are managing the situation to keep our service affordable and transparent:',
+      },
+      {
+        type: "list",
+        items: [
+          "Transparent pricing — our quoted rates include fuel. We do not add hidden surcharges on moving day",
+          "Efficient route planning — our operations team plans the most fuel-efficient routes for every job, reducing unnecessary kilometres",
+          "Modern fleet — our trucks are well-maintained and fuel-efficient, consuming less diesel per kilometre than older vehicles",
+          "Right-sized trucks — we match the truck size to your move, avoiding the fuel waste that comes with oversized vehicles",
+          "Consolidated interstate loads — we offer backload options on popular corridors to share fuel costs between customers",
+          "No minimum kilometre charges — you only pay for the actual time and service, not inflated distance fees",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Looking Ahead: What to Expect for the Rest of 2026",
+      },
+      {
+        type: "paragraph",
+        text: "The fuel price outlook for the remainder of 2026 depends heavily on geopolitical developments. If the Iran-Israel-US conflict de-escalates and the Strait of Hormuz remains open to commercial shipping, fuel prices could stabilise and gradually ease back toward more normal levels. However, if the situation escalates further, analysts have warned that petrol prices could reach 350 cents per litre — territory that would put severe pressure on every industry that relies on road transport.",
+      },
+      {
+        type: "paragraph",
+        text: "For anyone planning a move in the coming months, the practical advice is straightforward: do not wait for prices to drop if you need to move. Get your quote now, lock it in, and use the strategies outlined above to minimise your total cost. The companies that survive this period will be those that operate efficiently, communicate honestly about pricing, and deliver genuine value to their customers.",
+      },
+      {
+        type: "paragraph",
+        text: "Moving is stressful enough without worrying about whether fuel prices will change your quote between now and moving day. Choose a removalist that offers transparent, all-inclusive pricing and a track record of doing what they say they will do.",
+      },
+      {
+        type: "heading",
+        text: "Ready to Get a Quote?",
+      },
+      {
+        type: "paragraph",
+        text: 'Whether you are moving locally within <a href="/removalists-brisbane">Brisbane</a>, relocating to <a href="/removalists-cairns">Cairns</a>, or heading <a href="/interstate-removalists">interstate</a>, R2G Transport & Storage provides fully insured moves with transparent pricing and no hidden fuel surcharges. With 830+ five-star Google reviews and over a decade of experience, we make every move stress-free — even when fuel prices are not. <a href="/quote">Get your free quote today</a> and lock in your rate before prices change.',
+      },
+    ],
+  },
 ];
 
 // ── HELPERS ────────────────────────────────────────────
