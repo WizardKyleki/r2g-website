@@ -111,7 +111,6 @@ export default async function OfficeRemovalistsLocationPage({
         url: `https://www.r2g.com.au/office-removalists/${location.slug}`,
         telephone: "1300 959 498",
         email: "contact@r2g.com.au",
-        priceRange: "$$",
         image: "https://www.r2g.com.au/images/r2g-logo.png",
         address: {
           "@type": "PostalAddress",

@@ -20,7 +20,6 @@ const pageConfig = {
   suburb: "Maroochydore",
   postcode: "4558",
   address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
-  priceFrom: "$179/hr",
   serviceArea: "Sunshine Coast and South-East Queensland",
 };
 
@@ -32,11 +31,10 @@ const businessSchema = {
   "@type": "MovingCompany",
   name: "R2G Transport & Storage",
   description:
-    "Professional removalists on the Sunshine Coast with 10+ years experience. Local and interstate moves from $179/hr. Fully insured.",
+    "Fully insured local and interstate removalists on the Sunshine Coast. 4.8-star rated with 830+ reviews. 10+ years experience.",
   url: "https://www.r2g.com.au/removalists-sunshine-coast",
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
-  priceRange: "$179 - $359",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
   address: {
     "@type": "PostalAddress",
@@ -80,12 +78,6 @@ const businessSchema = {
           name: "Local Removals Sunshine Coast",
           description: "Professional local moving services on the Sunshine Coast and South-East Queensland.",
         },
-        priceSpecification: {
-          "@type": "PriceSpecification",
-          price: "179",
-          priceCurrency: "AUD",
-          unitText: "per hour",
-        },
       },
     ],
   },
@@ -106,12 +98,12 @@ const faqItems = [
   {
     question: "How do you charge for local moves on the Sunshine Coast?",
     answer:
-      "We charge an hourly rate starting from $179/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $209/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.",
+      "We charge competitive hourly rates based on team size and job requirements. 1-2 bedroom homes are typically handled by a 2-man team and truck, while larger homes require 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.",
   },
   {
     question: "Do you move single items or just whole households?",
     answer:
-      "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $130 with a minimum booking fee.",
+      "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Contact us for current pricing on single item moves — a minimum booking fee applies.",
   },
   {
     question: "How many removalists will come on the day?",

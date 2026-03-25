@@ -36,7 +36,6 @@ const jsonLdSchema = {
       url: pageConfig.canonicalUrl,
       telephone: "1300 959 498",
       email: "contact@r2g.com.au",
-      priceRange: "$$",
       image: "https://www.r2g.com.au/images/r2g-logo.png",
       areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
       location: [

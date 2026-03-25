@@ -77,12 +77,12 @@ function getFaqItems(suburb: GoldCoastSuburb) {
     {
       question: `How do you charge for local moves in ${suburb.name}?`,
       answer:
-        `We charge an hourly rate starting from $179/hr for a 2-man team and truck for 1-2 bedroom homes. Larger homes (3-4 bedrooms) are charged at $209/hr with 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.`,
+        `We charge competitive hourly rates based on team size and job requirements. 1-2 bedroom homes are typically handled by a 2-man team and truck, while larger homes require 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.`,
     },
     {
       question: "Do you move single items or just whole households?",
       answer:
-        "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Single item moves start from $130 with a minimum booking fee.",
+        "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Contact us for current pricing on single item moves — a minimum booking fee applies.",
     },
     {
       question: "Do you move pianos and heavy items?",
@@ -113,11 +113,10 @@ export default async function RemovalistsGoldCoastSuburbPage({
     "@context": "https://schema.org",
     "@type": "MovingCompany",
     name: `R2G Transport & Storage — Removalists ${suburb.name}`,
-    description: `Professional removalists in ${suburb.name} with 10+ years experience. Local and interstate moves from ${suburb.priceFrom}. Fully insured.`,
+    description: `Fully insured removalists in ${suburb.name}, Gold Coast. 4.8-star rated with 830+ reviews. 10+ years experience.`,
     url: `https://www.r2g.com.au/removalists-gold-coast/${suburb.slug}`,
     telephone: "1300 959 498",
     email: "contact@r2g.com.au",
-    priceRange: "$179 - $359",
     image: "https://www.r2g.com.au/images/r2g-logo.png",
     address: {
       "@type": "PostalAddress",
@@ -150,12 +149,6 @@ export default async function RemovalistsGoldCoastSuburbPage({
             name: `Local Removals ${suburb.name}`,
             description: `Professional removalist services in ${suburb.name} and surrounding Gold Coast suburbs.`,
           },
-          priceSpecification: {
-            "@type": "PriceSpecification",
-            price: "179",
-            priceCurrency: "AUD",
-            unitText: "per hour",
-          },
         },
       ],
     },
@@ -181,7 +174,7 @@ export default async function RemovalistsGoldCoastSuburbPage({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: `R2G Transport & Storage — ${suburb.name}`,
-    description: `Removalist services in ${suburb.name}, Gold Coast. Local moves from $179/hr, fully insured, 4.8★ rated.`,
+    description: `Fully insured removalist services in ${suburb.name}, Gold Coast. 4.8-star rated with 830+ reviews.`,
     url: `https://www.r2g.com.au/removalists-gold-coast/${suburb.slug}`,
     telephone: "1300 959 498",
     email: "contact@r2g.com.au",

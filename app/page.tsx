@@ -101,7 +101,6 @@ const homepageSchema = {
     opens: "07:00",
     closes: "18:00",
   },
-  priceRange: "$$",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
