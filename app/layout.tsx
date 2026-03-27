@@ -13,6 +13,7 @@ import Script from "next/script";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
 import MetaPixel from "@/components/MetaPixel";
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -87,6 +88,7 @@ export default function RootLayout({
           <AnimationObserver />
           <ExitIntentPopup />
         </SiteChrome>
+        <Analytics />
       </body>
     </html>
   );
