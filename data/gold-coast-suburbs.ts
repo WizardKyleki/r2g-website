@@ -93,7 +93,7 @@ const coreSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Southport & Gold Coast North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Southport | Reliable & Affordable",
+    metaTitle: "Removalists Southport | R2G Transport & Storage",
     metaDescription:
       "Trusted removalists in Southport with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
@@ -267,7 +267,7 @@ const coreSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Burleigh Heads & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Burleigh Heads | Reliable & Affordable",
+    metaTitle: "Removalists Burleigh Heads | R2G Transport & Storage",
     metaDescription:
       "Trusted removalists in Burleigh Heads with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
@@ -1149,7 +1149,7 @@ const coreSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Currumbin & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Currumbin | Reliable & Affordable",
+    metaTitle: "Removalists Currumbin | R2G Transport & Storage",
     metaDescription:
       "Trusted removalists in Currumbin with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [

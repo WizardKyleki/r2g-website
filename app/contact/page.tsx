@@ -5,7 +5,7 @@ const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"));
 import { PHONE, PHONE_HREF, EMAIL, CAIRNS_ADDRESS, BRISBANE_ADDRESS, HOURS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Call 1300 959 498",
+  title: "Contact Us - Call 1300 959 498",
   description:
     "Contact R2G Transport & Storage. Call 1300 959 498, email us, or use our online quote wizard to get a free, no-obligation moving quote.",
   alternates: { canonical: "https://www.r2g.com.au/contact" },

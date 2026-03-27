@@ -518,7 +518,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Waterford West & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Waterford West | Reliable & Affordable",
+    metaTitle: "Removalists Waterford West | R2G Transport & Storage",
     metaDescription:
       "Trusted removalists in Waterford West with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [

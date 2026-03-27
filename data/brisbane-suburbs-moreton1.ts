@@ -579,7 +579,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Burpengary East & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Burpengary East | Reliable & Affordable",
+    metaTitle: "Removalists Burpengary East | R2G Transport & Storage",
     metaDescription:
       "Trusted removalists in Burpengary East with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
@@ -641,7 +641,7 @@ export const moreton1Suburbs: BrisbaneSuburb[] = [
     serviceArea: "Caboolture South & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Caboolture South | Reliable & Affordable",
+    metaTitle: "Removalists Caboolture South | R2G Transport & Storage",
     metaDescription:
       "Trusted removalists in Caboolture South with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [
