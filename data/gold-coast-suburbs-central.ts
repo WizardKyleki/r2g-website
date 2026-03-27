@@ -271,7 +271,7 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Bundall & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Bundall | R2G Transport & Storage",
+    metaTitle: "Removalists Bundall | Professional Movers",
     metaDescription:
       "Trusted removalists in Bundall with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
     reviews: [

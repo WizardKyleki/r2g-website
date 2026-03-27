@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: MetaProps): Promise<Metadata>
   const route = getRouteBySlug(slug);
   if (!route) return {};
 
-  const title = `${route.from} to ${route.to} Removalists | R2G Transport & Storage`;
+  const title = `${route.from} to ${route.to} Removalists | Professional Movers`;
   const ds = getDaysSuffix(route.days);
   const description = `${route.from} to ${route.to} interstate removalists - the real specialists in long-distance moves. Fully insured, affordable & reliable. Book now.`;
   const url = `https://www.r2g.com.au/interstate-removalists/${route.slug}`;
