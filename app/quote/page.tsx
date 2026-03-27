@@ -480,6 +480,22 @@ function QuoteWizard() {
   const [error, setError] = useState("");
   const { tick: carouselTick, fading: carouselFading } = useSyncedCarousel();
 
+  // Session ID for partial lead capture & deduplication
+  const quoteSessionId = useRef<string>("");
+  const partialSentData = useRef<{ name: string; phone: string; email: string } | null>(null);
+  const partialLeadTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    const stored = sessionStorage.getItem("r2g_quote_session_id");
+    if (stored) {
+      quoteSessionId.current = stored;
+    } else {
+      const id = crypto.randomUUID();
+      quoteSessionId.current = id;
+      sessionStorage.setItem("r2g_quote_session_id", id);
+    }
+  }, []);
+
   // Capture the page the user was on before navigating to /quote
   const referrerPage = useRef<string>("");
   useEffect(() => {
@@ -534,13 +550,42 @@ function QuoteWizard() {
     }));
 
   const goToStep = (next: number) => {
-    // Office & Storage skip step 3 (size already captured in step 2)
+    // Office & Storage skip step 4 (size already captured in step 3)
     if (data.propertyType === "Office" || data.propertyType === "Storage") {
-      if (next === 3 && step === 2) next = 4;
-      if (next === 3 && step === 4) next = 2;
+      if (next === 4 && step === 3) next = 5;
+      if (next === 4 && step === 5) next = 3;
     }
+
+    // Partial lead capture: save name + phone when leaving Step 1
+    // Delayed by 15 minutes so we don't send abandoned alerts for users who complete the form
+    if (step === 1 && next === 2) {
+      const current = { name: data.name, phone: data.phone, email: data.email };
+      const prev = partialSentData.current;
+      const changed = !prev || prev.name !== current.name || prev.phone !== current.phone || prev.email !== current.email;
+      if (changed) {
+        partialSentData.current = current;
+        // Clear any existing timer before starting a new one
+        if (partialLeadTimer.current) clearTimeout(partialLeadTimer.current);
+        partialLeadTimer.current = setTimeout(() => {
+          fetch("/api/partial-lead", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              quoteSessionId: quoteSessionId.current,
+              name: data.name,
+              phone: data.phone,
+              email: data.email,
+              extras: data.extras,
+              pageUrl: window.location.href,
+              referrerPage: referrerPage.current,
+            }),
+          }).catch(() => {});
+        }, 15 * 60 * 1000); // 15 minutes
+      }
+    }
+
     setVisible(false);
-    const stepNames = ["", "Property Type", "Details", "Move Size", "Location & Date", "Your Info"];
+    const stepNames = ["", "Your Info", "Property Type", "Details", "Move Size", "Location & Date"];
     trackQuoteStep(next, stepNames[next] || `Step ${next}`);
     setTimeout(() => {
       setStep(next);
@@ -556,10 +601,16 @@ function QuoteWizard() {
       const res = await fetch("/api/quote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, pageUrl: window.location.href, referrerPage: referrerPage.current }),
+        body: JSON.stringify({ ...data, quoteSessionId: quoteSessionId.current, pageUrl: window.location.href, referrerPage: referrerPage.current }),
       });
       if (!res.ok) throw new Error("Failed to send");
+      // Cancel the abandoned quote timer since the form was completed
+      if (partialLeadTimer.current) {
+        clearTimeout(partialLeadTimer.current);
+        partialLeadTimer.current = null;
+      }
       setSubmitted(true);
+      sessionStorage.removeItem("r2g_quote_session_id");
       trackQuoteSubmit(data.propertyType, {
         email: data.email,
         phone: data.phone,
@@ -634,12 +685,6 @@ function QuoteWizard() {
     return false;
   })();
 
-  const isNextDisabled =
-    (step === 1 && isStep1Incomplete) ||
-    (step === 2 && isStep2Incomplete) ||
-    (step === 3 && !data.moveSize) ||
-    (step === 4 && (!data.from || !data.to || !data.date));
-
   // Australian phone: 04XX (mobile), 02/03/07/08 (landline), 1300/1800, or +61
   const isValidAusPhone = (phone: string) => {
     const digits = phone.replace(/[\s\-()]+/g, "");
@@ -647,7 +692,13 @@ function QuoteWizard() {
   };
 
   const phoneValid = !data.phone || isValidAusPhone(data.phone);
-  const isSubmitDisabled = submitting || !data.name || !data.phone || !phoneValid || !data.email;
+
+  const isNextDisabled =
+    (step === 1 && (!data.name || !data.phone || !phoneValid)) ||
+    (step === 2 && isStep1Incomplete) ||
+    (step === 3 && isStep2Incomplete) ||
+    (step === 4 && !data.moveSize);
+  const isSubmitDisabled = submitting || !data.name || !data.phone || !phoneValid || !data.from || !data.to || !data.date;
 
   if (submitted) return <ThankYou data={data} />;
 
@@ -699,8 +750,105 @@ function QuoteWizard() {
             }}
           >
 
-            {/* ── STEP 1: Property Type ── */}
+            {/* ── STEP 1: Contact Details (collect name/phone/email first) ── */}
             {step === 1 && (
+              <div>
+                <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
+                  Let&apos;s start with your details
+                </h2>
+                <p className="text-gray-500 text-sm mb-4">
+                  We&apos;ll use this to send your personalised, no-obligation quote.
+                </p>
+
+                <div className="space-y-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
+                        Full Name <span className="text-red-400">*</span>
+                      </label>
+                      <input
+                        type="text"
+                        value={data.name}
+                        onChange={(e) => update("name", e.target.value)}
+                        placeholder="e.g. Sarah Thompson"
+                        className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
+                        Phone <span className="text-red-400">*</span>
+                      </label>
+                      <input
+                        type="tel"
+                        value={data.phone}
+                        onChange={(e) => update("phone", e.target.value)}
+                        placeholder="04XX XXX XXX"
+                        className={`w-full border-2 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none transition-colors ${
+                          !phoneValid ? "border-red-400 focus:border-red-400" : "border-gray-200 focus:border-[#F5C400]"
+                        }`}
+                      />
+                      {!phoneValid && (
+                        <p className="text-red-500 text-xs mt-1">Please enter a valid Australian phone number</p>
+                      )}
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
+                      Email Address{" "}
+                      <span className="text-gray-400 font-normal">(optional)</span>
+                    </label>
+                    <input
+                      type="email"
+                      value={data.email}
+                      onChange={(e) => update("email", e.target.value)}
+                      placeholder="you@example.com"
+                      className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
+                    />
+                  </div>
+
+                  {/* Extra services */}
+                  <div>
+                    <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
+                      Need any extra services?{" "}
+                      <span className="text-gray-400 font-normal">(optional)</span>
+                    </label>
+                    <div className="grid grid-cols-2 gap-2">
+                      {[
+                        { icon: "📦", label: "Packing & Supplies" },
+                        { icon: "🧹", label: "Bond Cleaning" },
+                        { icon: "🏢", label: "Storage" },
+                        { icon: "💪", label: "Extra Manpower (3+ Removalists)" },
+                      ].map(({ icon, label }) => (
+                        <button
+                          key={label}
+                          type="button"
+                          onClick={() => toggleExtra(label)}
+                          className={`relative flex items-center gap-2 px-3 py-2.5 rounded-xl border-2 text-left text-sm transition-all ${
+                            data.extras.includes(label)
+                              ? "border-[#F5C400] bg-[#F5C400]/10 font-semibold text-[#1A1A1A]"
+                              : "border-gray-200 bg-white hover:border-gray-300 text-gray-600"
+                          }`}
+                        >
+                          <span className="text-base">{icon}</span>
+                          <span className="text-xs">{label}</span>
+                          {data.extras.includes(label) && (
+                            <span className="absolute top-1 right-1 w-4 h-4 bg-[#F5C400] rounded-full flex items-center justify-center">
+                              <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                              </svg>
+                            </span>
+                          )}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* ── STEP 2: Property Type ── */}
+            {step === 2 && (
               <div>
                 <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
                   What kind of property are you moving from?
@@ -737,8 +885,8 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 2: Office Size ── */}
-            {step === 2 && data.propertyType === "Office" && (
+            {/* ── STEP 3: Office Size ── */}
+            {step === 3 && data.propertyType === "Office" && (
               <div>
                 <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
                   How many staff are in your office?
@@ -763,8 +911,8 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 2: Storage Size ── */}
-            {step === 2 && data.propertyType === "Storage" && (
+            {/* ── STEP 3: Storage Size ── */}
+            {step === 3 && data.propertyType === "Storage" && (
               <div>
                 <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
                   How much are you moving out of storage?
@@ -814,8 +962,8 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 2: Property Details (non-Office/Storage) ── */}
-            {step === 2 && data.propertyType !== "Office" && data.propertyType !== "Storage" && (
+            {/* ── STEP 3: Property Details (non-Office/Storage) ── */}
+            {step === 3 && data.propertyType !== "Office" && data.propertyType !== "Storage" && (
               <div>
                 <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
                   Tell us about both properties
@@ -871,8 +1019,8 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 3: Move Size ── */}
-            {step === 3 && (
+            {/* ── STEP 4: Move Size ── */}
+            {step === 4 && (
               <div>
                 <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
                   What are you moving?
@@ -893,8 +1041,8 @@ function QuoteWizard() {
               </div>
             )}
 
-            {/* ── STEP 4: Addresses & Date ── */}
-            {step === 4 && (
+            {/* ── STEP 5: Addresses, Date & Special Notes (last step) ── */}
+            {step === 5 && (
               <div>
                 <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
                   Where and when are you moving?
@@ -969,103 +1117,8 @@ function QuoteWizard() {
                       ))}
                     </div>
                   </div>
-                </div>
-              </div>
-            )}
 
-            {/* ── STEP 5: Contact Details ── */}
-            {step === 5 && (
-              <div>
-                <h2 className="text-xl lg:text-2xl font-black text-[#1A1A1A] mb-1">
-                  Almost done! How can we reach you?
-                </h2>
-                <p className="text-gray-500 text-sm mb-4">
-                  We&apos;ll use this to send your personalised, no-obligation quote.
-                </p>
-
-                <div className="space-y-4">
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                        Full Name <span className="text-red-400">*</span>
-                      </label>
-                      <input
-                        type="text"
-                        value={data.name}
-                        onChange={(e) => update("name", e.target.value)}
-                        placeholder="e.g. Sarah Thompson"
-                        className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                        Phone <span className="text-red-400">*</span>
-                      </label>
-                      <input
-                        type="tel"
-                        value={data.phone}
-                        onChange={(e) => update("phone", e.target.value)}
-                        placeholder="04XX XXX XXX"
-                        className={`w-full border-2 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none transition-colors ${
-                          !phoneValid ? "border-red-400 focus:border-red-400" : "border-gray-200 focus:border-[#F5C400]"
-                        }`}
-                      />
-                      {!phoneValid && (
-                        <p className="text-red-500 text-xs mt-1">Please enter a valid Australian phone number</p>
-                      )}
-                    </div>
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                      Email Address <span className="text-red-400">*</span>
-                    </label>
-                    <input
-                      type="email"
-                      value={data.email}
-                      onChange={(e) => update("email", e.target.value)}
-                      placeholder="you@example.com"
-                      className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 text-[#1A1A1A] focus:outline-none focus:border-[#F5C400] transition-colors"
-                    />
-                  </div>
-
-                  {/* Extra services */}
-                  <div>
-                    <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                      Need any extra services?{" "}
-                      <span className="text-gray-400 font-normal">(optional)</span>
-                    </label>
-                    <div className="grid grid-cols-2 gap-2">
-                      {[
-                        { icon: "📦", label: "Packing & Supplies" },
-                        { icon: "🧹", label: "Bond Cleaning" },
-                        { icon: "🏢", label: "Storage" },
-                        { icon: "💪", label: "Extra Manpower (3+ Removalists)" },
-                      ].map(({ icon, label }) => (
-                        <button
-                          key={label}
-                          type="button"
-                          onClick={() => toggleExtra(label)}
-                          className={`relative flex items-center gap-2 px-3 py-2.5 rounded-xl border-2 text-left text-sm transition-all ${
-                            data.extras.includes(label)
-                              ? "border-[#F5C400] bg-[#F5C400]/10 font-semibold text-[#1A1A1A]"
-                              : "border-gray-200 bg-white hover:border-gray-300 text-gray-600"
-                          }`}
-                        >
-                          <span className="text-base">{icon}</span>
-                          <span className="text-xs">{label}</span>
-                          {data.extras.includes(label) && (
-                            <span className="absolute top-1 right-1 w-4 h-4 bg-[#F5C400] rounded-full flex items-center justify-center">
-                              <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                              </svg>
-                            </span>
-                          )}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-
+                  {/* Special Notes (moved here from old step 5) */}
                   <div>
                     <label className="block text-sm font-semibold text-[#1A1A1A] mb-2">
                       Special Notes{" "}
@@ -1088,6 +1141,7 @@ function QuoteWizard() {
                 </div>
               </div>
             )}
+
 
             {/* ── Navigation buttons ── */}
             <div className="flex items-center gap-4 mt-6">
@@ -1143,7 +1197,7 @@ function QuoteWizard() {
             {/* Step hint */}
             {step === 1 && (
               <p className="text-center text-gray-400 text-xs mt-6">
-                Select an option above to continue — takes about 90 seconds
+                Fill in your details above to continue — takes about 30 seconds
               </p>
             )}
           </div>
