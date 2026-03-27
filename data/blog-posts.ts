@@ -2069,12 +2069,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'For longer corridors like <a href="/interstate-removalists/brisbane-to-melbourne">Brisbane to Melbourne</a> (1,700 km) or <a href="/interstate-removalists/brisbane-to-perth">Brisbane to Perth</a> (4,300 km), fuel costs become a dominant factor in the total quote. Interstate moving costs can rise by anywhere from 10 to 30 percent during periods of sustained high fuel prices. On a $5,000 interstate move, that translates to an additional $500 to $1,500 that was not in the budget six months ago.',
+        text: 'For longer corridors like <a href="/interstate-removalists/brisbane-to-melbourne">Brisbane to Melbourne</a> (1,700 km) or <a href="/interstate-removalists/brisbane-to-cairns">Brisbane to Cairns</a> (1,700 km), fuel costs become a dominant factor in the total quote. Interstate moving costs can rise by anywhere from 10 to 30 percent during periods of sustained high fuel prices. On a $5,000 interstate move, that translates to an additional $500 to $1,500 that was not in the budget six months ago.',
       },
       {
         type: "tip",
         title: "Interstate fuel impact",
-        text: "A Brisbane-to-Sydney move that quoted at $4,500 in late 2025 may now come in at $5,000 to $5,400, purely due to fuel. The longer the distance, the larger the fuel component. Brisbane-to-Perth moves have seen the steepest increases, with some quotes rising 25-30 percent since January 2026.",
+        text: "A Brisbane-to-Sydney move that quoted at $4,500 in late 2025 may now come in at $5,000 to $5,400, purely due to fuel. The longer the distance, the larger the fuel component. Brisbane-to-Cairns moves have seen the steepest increases, with some quotes rising 25-30 percent since January 2026.",
       },
       {
         type: "subheading",
