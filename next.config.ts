@@ -333,6 +333,338 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // ─── Dead interstate routes from GSC (Mar 2026) ────────────
+      {
+        source: "/interstate-removalists/cairns-to-mount-isa",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-mackay",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-atherton",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-innisfail",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-tully",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-cardwell",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-mission-beach",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-port-douglas",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/cairns-to-kuranda",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/brisbane-to-ipswich",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+      {
+        source: "/interstate-removalists/gold-coast-to-brisbane",
+        destination: "/interstate-removalists",
+        permanent: true,
+      },
+
+      // ─── Old root-level Cairns suburb pages (WordPress legacy) ──
+      // Original suburbs (suburbs.ts)
+      {
+        source: "/innisfail",
+        destination: "/removalists-cairns/innisfail",
+        permanent: true,
+      },
+      {
+        source: "/edmonton",
+        destination: "/removalists-cairns/edmonton",
+        permanent: true,
+      },
+      {
+        source: "/mossman",
+        destination: "/removalists-cairns/mossman",
+        permanent: true,
+      },
+      {
+        source: "/mareeba",
+        destination: "/removalists-cairns/mareeba",
+        permanent: true,
+      },
+      {
+        source: "/gordonvale",
+        destination: "/removalists-cairns/gordonvale",
+        permanent: true,
+      },
+      {
+        source: "/babinda",
+        destination: "/removalists-cairns/babinda",
+        permanent: true,
+      },
+      {
+        source: "/atherton",
+        destination: "/removalists-cairns/atherton",
+        permanent: true,
+      },
+      {
+        source: "/port-douglas",
+        destination: "/removalists-cairns/port-douglas",
+        permanent: true,
+      },
+      {
+        source: "/palm-cove",
+        destination: "/removalists-cairns/palm-cove",
+        permanent: true,
+      },
+      {
+        source: "/trinity-beach",
+        destination: "/removalists-cairns/trinity-beach",
+        permanent: true,
+      },
+      {
+        source: "/clifton-beach",
+        destination: "/removalists-cairns/clifton-beach",
+        permanent: true,
+      },
+      {
+        source: "/yorkeys-knob",
+        destination: "/removalists-cairns/yorkeys-knob",
+        permanent: true,
+      },
+      {
+        source: "/machans-beach",
+        destination: "/removalists-cairns/machans-beach",
+        permanent: true,
+      },
+      {
+        source: "/holloways-beach",
+        destination: "/removalists-cairns/holloways-beach",
+        permanent: true,
+      },
+      {
+        source: "/smithfield",
+        destination: "/removalists-cairns/smithfield",
+        permanent: true,
+      },
+      {
+        source: "/redlynch",
+        destination: "/removalists-cairns/redlynch",
+        permanent: true,
+      },
+      {
+        source: "/freshwater",
+        destination: "/removalists-cairns/freshwater",
+        permanent: true,
+      },
+      {
+        source: "/whitfield",
+        destination: "/removalists-cairns/whitfield",
+        permanent: true,
+      },
+      {
+        source: "/edge-hill",
+        destination: "/removalists-cairns/edge-hill",
+        permanent: true,
+      },
+      {
+        source: "/kuranda",
+        destination: "/removalists-cairns/kuranda",
+        permanent: true,
+      },
+      // Inner/south Cairns suburbs
+      {
+        source: "/earlville",
+        destination: "/removalists-cairns/earlville",
+        permanent: true,
+      },
+      {
+        source: "/westcourt",
+        destination: "/removalists-cairns/westcourt",
+        permanent: true,
+      },
+      {
+        source: "/woree",
+        destination: "/removalists-cairns/woree",
+        permanent: true,
+      },
+      {
+        source: "/manunda",
+        destination: "/removalists-cairns/manunda",
+        permanent: true,
+      },
+      {
+        source: "/manoora",
+        destination: "/removalists-cairns/manoora",
+        permanent: true,
+      },
+      {
+        source: "/mooroobool",
+        destination: "/removalists-cairns/mooroobool",
+        permanent: true,
+      },
+      {
+        source: "/kanimbla",
+        destination: "/removalists-cairns/kanimbla",
+        permanent: true,
+      },
+      {
+        source: "/parramatta-park",
+        destination: "/removalists-cairns/parramatta-park",
+        permanent: true,
+      },
+      {
+        source: "/bungalow",
+        destination: "/removalists-cairns/bungalow",
+        permanent: true,
+      },
+      {
+        source: "/stratford",
+        destination: "/removalists-cairns/stratford",
+        permanent: true,
+      },
+      {
+        source: "/bentley-park",
+        destination: "/removalists-cairns/bentley-park",
+        permanent: true,
+      },
+      {
+        source: "/brinsmead",
+        destination: "/removalists-cairns/brinsmead",
+        permanent: true,
+      },
+      {
+        source: "/caravonica",
+        destination: "/removalists-cairns/caravonica",
+        permanent: true,
+      },
+      {
+        source: "/bayview-heights",
+        destination: "/removalists-cairns/bayview-heights",
+        permanent: true,
+      },
+      {
+        source: "/mount-sheridan",
+        destination: "/removalists-cairns/mount-sheridan",
+        permanent: true,
+      },
+      {
+        source: "/white-rock",
+        destination: "/removalists-cairns/white-rock",
+        permanent: true,
+      },
+      {
+        source: "/aeroglen",
+        destination: "/removalists-cairns/aeroglen",
+        permanent: true,
+      },
+      {
+        source: "/portsmith",
+        destination: "/removalists-cairns/portsmith",
+        permanent: true,
+      },
+      // Regional towns
+      {
+        source: "/tully",
+        destination: "/removalists-cairns/tully",
+        permanent: true,
+      },
+      {
+        source: "/cardwell",
+        destination: "/removalists-cairns/cardwell",
+        permanent: true,
+      },
+      {
+        source: "/mission-beach",
+        destination: "/removalists-cairns/mission-beach",
+        permanent: true,
+      },
+      {
+        source: "/mourilyan",
+        destination: "/removalists-cairns/mourilyan",
+        permanent: true,
+      },
+      {
+        source: "/malanda",
+        destination: "/removalists-cairns/malanda",
+        permanent: true,
+      },
+      {
+        source: "/cooktown",
+        destination: "/removalists-cairns/cooktown",
+        permanent: true,
+      },
+      {
+        source: "/daintree",
+        destination: "/removalists-cairns/daintree",
+        permanent: true,
+      },
+      {
+        source: "/ingham",
+        destination: "/removalists-cairns/ingham",
+        permanent: true,
+      },
+      {
+        source: "/silkwood",
+        destination: "/removalists-cairns/silkwood",
+        permanent: true,
+      },
+      {
+        source: "/ravenshoe",
+        destination: "/removalists-cairns/ravenshoe",
+        permanent: true,
+      },
+      {
+        source: "/herberton",
+        destination: "/removalists-cairns/herberton",
+        permanent: true,
+      },
+      {
+        source: "/tolga",
+        destination: "/removalists-cairns/tolga",
+        permanent: true,
+      },
+      {
+        source: "/lake-placid",
+        destination: "/removalists-cairns/lake-placid",
+        permanent: true,
+      },
+      {
+        source: "/ellis-beach",
+        destination: "/removalists-cairns/ellis-beach",
+        permanent: true,
+      },
+      {
+        source: "/barron",
+        destination: "/removalists-cairns/barron",
+        permanent: true,
+      },
+      {
+        source: "/mount-peter",
+        destination: "/removalists-cairns/mount-peter",
+        permanent: true,
+      },
+
       // ─── WordPress RSS feed URLs ───────────────────────────────
       {
         source: "/feed",
