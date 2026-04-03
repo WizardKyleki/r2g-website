@@ -18,7 +18,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Riverway Drive is the main arterial and carries heavy traffic during morning and afternoon school runs. Our trucks access Thuringowa Central from the Bruce Highway via Dalrymple Road or through Kirwan along Thuringowa Drive, depending on which end of the suburb your property sits. Internal streets are wide, cul-de-sac heavy and generally have excellent kerb access for a large removal truck. The main challenge is the school zone congestion around Thuringowa State High and William Ross State High during drop-off and pick-up windows. We schedule arrivals to avoid those periods and park within one truck length of the front path wherever possible.",
     nearbySubs: ["Kirwan", "Condon", "Murray"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Thuringowa Central & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -102,7 +102,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Hervey Range Road and Dalrymple Road are the two main arteries, and both carry significant traffic volumes. Internal residential streets are generally wide with good kerb parking and flat driveways — ideal conditions for a removal truck. The key traffic bottleneck is the Willows Shopping Centre intersection, particularly on weekday afternoons and Saturday mornings. Our drivers use the back streets through the residential blocks to bypass this congestion and access properties from the quieter side. Cul-de-sacs are common throughout Kirwan and we reverse the truck in close to the front path so the loading ramp sits right at your door.",
     nearbySubs: ["Thuringowa Central", "Cranbrook", "Annandale"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Kirwan & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -185,7 +185,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Condon is accessed via Kelso Drive from Thuringowa Central or through Rasmussen from the south. Internal streets are wide, flat and designed for modern traffic volumes with good kerb access on both sides. Cul-de-sacs and court bowls are common, and our truck can reverse right into most of them without issue. The only traffic consideration is the stretch of road between Condon and the Bruce Highway interchange at Kelso, which can slow down during afternoon peak. We plan our route and timing to keep the job moving smoothly.",
     nearbySubs: ["Kelso", "Rasmussen", "Thuringowa Central"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Condon & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -268,7 +268,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Kelso Drive connects the suburb to Thuringowa Central and Kirwan, while the Bruce Highway interchange provides quick access south. Our trucks enter from Kelso Drive or directly off the highway. Internal streets are wide and flat, with good kerb access throughout the newer estates. The older sections closer to the highway have slightly narrower streets, but nothing that causes issues for our removal vehicles. The main consideration is timing around the highway interchange during peak afternoon traffic when trucks heading south bank up at the roundabout.",
     nearbySubs: ["Condon", "Rasmussen", "Thuringowa Central"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Kelso & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -351,7 +351,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Rasmussen is accessed primarily through Kelso Drive, which connects to both Thuringowa Central and the Bruce Highway. Internal streets are wide, flat and laid out in a simple grid with occasional cul-de-sacs. Truck access is excellent throughout — we can park within a few metres of the front door at most properties. There is no significant traffic congestion within Rasmussen itself, though the Kelso Drive and Dalrymple Road intersection can slow things down during the morning peak.",
     nearbySubs: ["Condon", "Kelso", "Thuringowa Central"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Rasmussen & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -434,7 +434,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Stuart Drive is the main road through Murray and carries heavy traffic, particularly during shift changes at Lavarack Barracks. Internal residential streets are generally wide enough for our removal truck, though some of the streets closest to the barracks have on-street parking from defence personnel that can narrow the effective road width. Our drivers know which streets to approach from and where to park to maintain clear access. The suburb is centrally positioned, so the drive time from Murray to most other Townsville suburbs is under fifteen minutes.",
     nearbySubs: ["Annandale", "Idalia", "Kirwan"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Murray & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -517,7 +517,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Idalia is accessed from University Drive to the north and Stuart Drive to the east. Internal streets are well-maintained, wide and flat with excellent kerb access. The estate layout features long straight streets and court bowls — ideal for a removal truck. There is minimal through-traffic because Idalia is largely a destination suburb with no major roads running through it. The only consideration is the University Drive and Stuart Drive intersection, which can be busy during peak hours, but our drivers know alternate approaches via the back streets through Annandale.",
     nearbySubs: ["Annandale", "Murray", "Douglas"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Idalia & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -600,7 +600,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Annandale is well connected by Stuart Drive to the east and Dalrymple Road to the south, with internal access via Annandale Drive and Ross River Road. The residential streets are wide and well-maintained, with good kerb access for our trucks. Traffic flows smoothly through the suburb outside of school zone hours around Annandale State School on Yolanda Drive. Our drivers typically approach from Stuart Drive for properties in the eastern half of the suburb and from Dalrymple Road for the western sections. The Ross River bridge on Stuart Drive can be a bottleneck during peak hours, so we time our runs accordingly.",
     nearbySubs: ["Murray", "Idalia", "Kirwan"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Annandale & Townsville West",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -683,7 +683,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Oonoomba is accessed from Stuart Drive to the west and Boundary Street from the CBD side. The residential streets are narrow by modern standards, with mature trees and on-street parking that can limit access for larger trucks. Our drivers typically use a medium-sized truck for Oonoomba jobs rather than a full-size pantec, which gives us more flexibility on the tighter streets. The railway crossing at the southern end of the suburb can cause occasional delays, but our crew plans around the crossing schedule when needed.",
     nearbySubs: ["Stuart", "Wulguru", "Railway Estate"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Oonoomba & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -766,7 +766,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Stuart Drive and the Bruce Highway are the main through-routes, carrying significant heavy vehicle traffic. The residential streets off Stuart Drive are quieter but narrow, and on-street parking from workers at nearby industrial premises can limit access during business hours. Our crew typically schedules Stuart moves for early morning before the industrial traffic builds up. The railway crossings within the suburb can cause delays when freight trains pass through, and we factor this into our route planning. For larger homes, we use a medium truck and may need two loads depending on the volume.",
     nearbySubs: ["Oonoomba", "Wulguru", "Cluden"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Stuart & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -851,7 +851,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Wulguru is accessed from Stuart Drive and Dalrymple Road. The residential streets are quiet but narrow, with mature trees on both sides that can limit overhead clearance for taller vehicles. On-street parking is light — most properties have off-street carports or driveway space. Our drivers use a medium truck for most Wulguru jobs, which fits comfortably on the narrow streets and under the tree canopy. The main traffic consideration is the Stuart Drive and Dalrymple Road intersection during peak hours, but internal streets are quiet throughout the day.",
     nearbySubs: ["Cluden", "Oonoomba", "Stuart"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Wulguru & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -934,7 +934,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Access to Cluden is primarily via Stuart Drive and Cluden Road. The streets within the suburb are quiet, with minimal through-traffic. Some of the semi-rural properties have long gravel driveways that require careful truck positioning — we sometimes need to park on the sealed road and trolley items up the driveway. The sealed residential streets have adequate width for our medium truck. Race days at the Cluden Racecourse bring temporary traffic congestion to the surrounding streets, so we avoid scheduling moves on major event days.",
     nearbySubs: ["Wulguru", "Stuart", "Nome"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cluden & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1017,7 +1017,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Nome is accessed from the Bruce Highway via Nome Road and connecting rural roads. Many of these roads are sealed but narrow, with no kerbing and soft gravel shoulders. Driveways to individual properties are often long, unpaved and may have cattle grids or locked gates. Our crew assesses each Nome property individually during the quoting process — we need to know the driveway surface, length and any obstacles before we determine the best truck size and approach. In most cases, we park the truck as close to the house as the driveway allows and use trolleys for any remaining distance.",
     nearbySubs: ["Woodstock", "Cluden", "Julago"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Nome & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1100,7 +1100,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Woodstock is accessed via the Bruce Highway and local connecting roads. Some properties are on sealed roads, but many have long unsealed driveways that may be rough or muddy during the wet season. Cattle grids, locked gates and narrow bridges are common obstacles. Our crew inspects access conditions before the move and determines the best truck approach — sometimes we can drive right to the front door, other times we park at the gate and ferry items with trolleys and a smaller vehicle. The Bruce Highway provides excellent north-south connectivity, making Woodstock a practical starting point for long-distance moves heading south.",
     nearbySubs: ["Nome", "Julago", "Cluden"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Woodstock & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1183,7 +1183,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Julago is accessed from the Bruce Highway via the southern interchange and connecting estate roads. The internal street network is modern, wide and purpose-built for residential traffic. There is no through-traffic and the streets are designed with large cul-de-sacs and court bowls that give our truck excellent turning and parking space. The main consideration is construction traffic within the newer stages of the development — concrete trucks, builder vehicles and unsurfaced roads can affect access to some properties. We check the status of your particular stage before the move and plan around any construction activity.",
     nearbySubs: ["Nome", "Woodstock", "Cluden"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Julago & Townsville South",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

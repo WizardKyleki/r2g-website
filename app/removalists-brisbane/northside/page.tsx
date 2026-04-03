@@ -6,21 +6,21 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF, heroSubtitle, RATING_VALUE, REVIEW_COUNT, RATING_DISPLAY, REVIEW_DISPLAY } from "@/lib/constants";
-import { goldCoastSuburbs } from "@/data/gold-coast-suburbs";
+import { PHONE, PHONE_HREF, heroSubtitle, RATING_VALUE, REVIEW_COUNT, RATING_DISPLAY } from "@/lib/constants";
+import { getBrisbaneSuburbHref } from "@/data/brisbane-suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PAGE CONFIG
 // ─────────────────────────────────────────────────────────────────────────────
 const pageConfig = {
-  location: "Gold Coast",
-  locationFull: "Gold Coast, QLD",
-  h1: "Removalists Gold Coast",
-  suburb: "Surfers Paradise",
-  postcode: "4217",
+  location: "Brisbane Northside",
+  locationFull: "Brisbane Northside, QLD",
+  h1: "Removalists Brisbane Northside",
+  suburb: "Chermside",
+  postcode: "4032",
   address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
-  serviceArea: "Gold Coast and South-East Queensland",
+  serviceArea: "Brisbane Northside & Moreton Bay",
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -31,8 +31,8 @@ const businessSchema = {
   "@type": "MovingCompany",
   name: "R2G Transport & Storage",
   description:
-    `Fully insured local and interstate removalists on the Gold Coast. ${RATING_DISPLAY}. 10+ years experience.`,
-  url: "https://www.r2g.com.au/removalists-gold-coast",
+    `Fully insured removalists on Brisbane's northside. ${RATING_DISPLAY}. Serving Chermside, Aspley, Stafford, Kedron, Sandgate and all northern suburbs.`,
+  url: "https://www.r2g.com.au/removalists-brisbane/northside",
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
@@ -46,8 +46,8 @@ const businessSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: -28.0024,
-    longitude: 153.4297,
+    latitude: -27.386,
+    longitude: 153.0291,
   },
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
@@ -56,16 +56,16 @@ const businessSchema = {
     closes: "18:00",
   },
   areaServed: [
-    "Gold Coast",
-    "Surfers Paradise",
-    "Southport",
-    "Robina",
-    "Nerang",
-    "Burleigh Heads",
-    "Broadbeach",
-    "Coomera",
-    "Helensvale",
-    "Coolangatta",
+    "Brisbane Northside",
+    "Chermside",
+    "Aspley",
+    "Stafford",
+    "Kedron",
+    "Sandgate",
+    "Bracken Ridge",
+    "North Lakes",
+    "Redcliffe",
+    "Caboolture",
   ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
@@ -75,8 +75,8 @@ const businessSchema = {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Local Removals Gold Coast",
-          description: "Professional local moving services on the Gold Coast and South East Queensland.",
+          name: "Local Removals Brisbane Northside",
+          description: "Professional local moving services across Brisbane's northside and Moreton Bay region.",
         },
       },
     ],
@@ -96,64 +96,54 @@ const businessSchema = {
 
 const faqItems = [
   {
-    question: "How do you charge for local moves on the Gold Coast?",
+    question: "How much do removalists charge on Brisbane's northside?",
     answer:
-      "We charge competitive hourly rates based on team size and job requirements. 1-2 bedroom homes are typically handled by a 2-man team and truck, while larger homes require 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves — just ask when you get your quote.",
+      "We charge competitive hourly rates based on team size and job requirements. A 1-2 bedroom home in Chermside or Aspley is typically handled by a 2-man team and truck, while larger homes in suburbs like Bridgeman Downs or McDowall may require 2-3 removalists. There is a minimum 2-hour booking. We also offer fixed-price quotes for larger moves.",
   },
   {
-    question: "Do you move single items or just whole households?",
+    question: "Do you cover all northside suburbs?",
     answer:
-      "We move everything from a single heavy item like a fridge or sofa, right through to full household relocations. Contact us for current pricing on single item moves — a minimum booking fee applies.",
+      "Yes. We cover every northside suburb including Chermside, Aspley, Stafford, Stafford Heights, Kedron, Lutwyche, Gordon Park, Geebung, Carseldine, Bracken Ridge, Sandgate, Banyo, Alderley, Enoggera, Everton Park, Ferny Grove, Mitchelton and all surrounding areas. We also service the Moreton Bay region including North Lakes, Redcliffe, Caboolture, Strathpine and Kallangur.",
   },
   {
-    question: "How many removalists will come on the day?",
+    question: "How many removalists come on moving day?",
     answer:
-      "For 1-2 bedroom homes we typically send 2 experienced removalists plus a truck. For larger 3-4 bedroom homes we send 2-3 removalists. For 5+ bedroom homes or complex moves we'll discuss team size when you get your quote.",
+      "For 1-2 bedroom homes we typically send 2 experienced removalists plus a truck. For larger 3-4 bedroom homes we send 2-3 removalists. For 5+ bedroom homes or complex moves across the northside, we will discuss team size when you get your quote.",
   },
   {
-    question: "Do you move pianos and heavy items on the Gold Coast?",
+    question: "Do you move pianos and heavy items?",
     answer:
-      "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Let us know about specialty items when requesting your quote.",
+      "Yes. Our team is trained and equipped to move heavy and awkward items including pianos, pool tables, large fridges, gym equipment and safes. Many northside homes in hilly suburbs like Everton Park and Ferny Hills have steep driveways, and our crew knows how to handle those situations safely. Let us know about specialty items when requesting your quote.",
   },
   {
-    question: "Do you cover all Gold Coast suburbs?",
+    question: "Can I book a last-minute northside removal?",
     answer:
-      "Yes — we cover the entire Gold Coast region including Surfers Paradise, Southport, Robina, Broadbeach, Burleigh Heads, Nerang, Coomera, Helensvale, Coolangatta, Varsity Lakes, Mudgeeraba, Palm Beach, and all surrounding areas.",
+      "We do our best to accommodate last-minute bookings across the northside, subject to availability. Call us on 1300 959 498 to check our earliest available date. For guaranteed availability we recommend booking at least 1-2 weeks in advance, especially during peak periods.",
   },
   {
-    question: "Can I book a last-minute removal on the Gold Coast?",
+    question: "Do you offer packing services on the northside?",
     answer:
-      "We do our best to accommodate last-minute bookings on the Gold Coast, subject to availability. Call us on 1300 959 498 to check our earliest available date. For guaranteed availability we recommend booking at least 1-2 weeks in advance.",
+      "Yes. We offer full and partial packing services for northside moves. Our team can pack your entire home using quality materials, or just pack specific fragile items like TVs, artwork, glassware and mirrors. Whether you are in Kedron or North Lakes, ask about packing when you request your quote.",
   },
   {
-    question: "Do you offer packing services on the Gold Coast?",
+    question: "How far in advance should I book?",
     answer:
-      "Yes — we offer full and partial packing services for Gold Coast moves. Our team can pack your entire home using quality materials, or just pack specific fragile items like TVs, artwork, glassware and mirrors. Ask about packing when you request your quote.",
+      "We recommend booking at least 2 weeks in advance for local northside moves, and 3-4 weeks during peak periods like November through January. That said, we always try to accommodate last-minute bookings. Call 1300 959 498 to check availability.",
   },
   {
-    question: "How far in advance should I book my Gold Coast move?",
+    question: "Do you provide storage for northside moves?",
     answer:
-      "We recommend booking at least 2 weeks in advance for local Gold Coast moves, and 3-4 weeks during peak periods like November through January. That said, we always try to accommodate last-minute bookings — call 1300 959 498 to check availability.",
+      "Yes. R2G offers secure short and long-term storage in Brisbane. This is ideal if there is a gap between your move-out and move-in dates. Many of our northside customers in areas like Aspley, Chermside and Bracken Ridge use our storage when downsizing or between settlements. Contact us to discuss storage options when booking your move.",
   },
   {
-    question: "Do you provide storage on the Gold Coast?",
+    question: "Are your removalists fully insured?",
     answer:
-      "Yes — R2G offers secure short and long-term storage for Gold Coast customers. This is ideal if there is a gap between your move-out and move-in dates. Contact us to discuss storage options when booking your move.",
+      "Absolutely. Every R2G move on Brisbane's northside is covered by comprehensive public liability insurance and goods-in-transit insurance. Your belongings are protected from the moment we load the truck to the moment we unload at your new home.",
   },
   {
-    question: "Are your removalists on the Gold Coast fully insured?",
+    question: "Can you move me from the northside to south of the river?",
     answer:
-      "Absolutely. Every R2G move on the Gold Coast is covered by comprehensive public liability insurance and goods-in-transit insurance. Your belongings are protected from the moment we load the truck to the moment we unload at your new home.",
-  },
-  {
-    question: "Can you move me interstate from the Gold Coast?",
-    answer:
-      "Yes — we offer interstate removals from the Gold Coast to Brisbane, Sydney, Melbourne, Cairns and all major Australian cities. We provide fixed-price interstate quotes based on volume and distance. Contact us for a tailored interstate quote.",
-  },
-  {
-    question: "What areas near the Gold Coast do you service?",
-    answer:
-      "We service the entire Gold Coast region from Coomera and Helensvale in the north to Coolangatta at the border, and west to Nerang and Mudgeeraba in the hinterland. We also cover Brisbane, Logan, and all of South-East Queensland.",
+      "Of course. Cross-city moves are one of our most common jobs. Whether you are moving from Chermside to Sunnybank, Aspley to Carindale, or Sandgate to Logan, we handle the full trip. We know Brisbane's road network well, including the best routes to avoid traffic along Gympie Road, the Gateway Motorway and the Inner City Bypass.",
   },
 ];
 
@@ -180,8 +170,14 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Removalists Gold Coast",
-      item: "https://www.r2g.com.au/removalists-gold-coast",
+      name: "Removalists Brisbane",
+      item: "https://www.r2g.com.au/removalists-brisbane",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Brisbane Northside",
+      item: "https://www.r2g.com.au/removalists-brisbane/northside",
     },
   ],
 };
@@ -191,24 +187,23 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Gold Coast — Trusted Local Movers | R2G Transport & Storage",
+    absolute: "Removalists Brisbane Northside - Trusted Local Movers | R2G",
   },
   description:
-    `Gold Coast removalists you can trust. Fully insured with no hidden fees. Surfers Paradise to Coolangatta — all 81 suburbs covered. ${REVIEW_DISPLAY} five-star reviews. Free quote.`,
+    "Trusted removalists on Brisbane's northside. Chermside, Aspley, Stafford, Kedron, Sandgate and all northern suburbs. Fully insured, no hidden fees. Free quote.",
   keywords: [
-    "removalists gold coast",
-    "gold coast removalists",
-    "moving company gold coast",
-    "house removals gold coast",
-    "local removalists gold coast",
-    "r2g transport and storage",
+    "removalists brisbane northside",
+    "brisbane northside removalists",
+    "removalists chermside",
+    "removalists aspley",
+    "movers brisbane north",
+    "northside removals brisbane",
   ],
-  alternates: { canonical: "https://www.r2g.com.au/removalists-gold-coast" },
+  alternates: { canonical: "https://www.r2g.com.au/removalists-brisbane/northside" },
   openGraph: {
-    title: "Professional Removalists Gold Coast | Reliable & Affordable",
-    description:
-      "Trusted removalists on the Gold Coast with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
-    url: "https://www.r2g.com.au/removalists-gold-coast",
+    title: "Removalists Brisbane Northside | R2G Transport & Storage",
+    description: "Trusted removalists on Brisbane's northside. Fully insured, no hidden fees. Free quote.",
+    url: "https://www.r2g.com.au/removalists-brisbane/northside",
     type: "website",
   },
 };
@@ -216,7 +211,7 @@ export const metadata: Metadata = {
 // ─────────────────────────────────────────────────────────────────────────────
 // PAGE
 // ─────────────────────────────────────────────────────────────────────────────
-export default function RemovalistsGoldCoastPage() {
+export default function RemovalistsBrisbaneNorthsidePage() {
   return (
     <>
       {/* JSON-LD */}
@@ -233,7 +228,9 @@ export default function RemovalistsGoldCoastPage() {
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
             <span className="text-gray-400">Services</span>
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-            <span className="text-[#F5C400]">Removalists Gold Coast</span>
+            <Link href="/removalists-brisbane" className="hover:text-[#F5C400] transition-colors">Removalists Brisbane</Link>
+            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            <span className="text-[#F5C400]">Brisbane Northside</span>
           </nav>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-16 items-center">
@@ -250,7 +247,7 @@ export default function RemovalistsGoldCoastPage() {
                 {pageConfig.h1}
               </h1>
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-                {heroSubtitle("Gold Coast", "South-East Queensland")}
+                {heroSubtitle("Brisbane's Northside", "Brisbane's northern suburbs")}
               </p>
 
               {/* Widget — mobile only (between subtext and phone) */}
@@ -301,7 +298,7 @@ export default function RemovalistsGoldCoastPage() {
               {
                 icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>,
                 title: "10+ Years Experience",
-                description: "Trusted by hundreds of families and businesses across the Gold Coast",
+                description: "Trusted by hundreds of families and businesses across Brisbane",
               },
             ].map((badge) => (
               <div
@@ -332,14 +329,14 @@ export default function RemovalistsGoldCoastPage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">About Our Service</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Gold Coast&apos;s Local Moving Specialists
+                Northside Moving Specialists
               </h2>
 
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">
                 <Image
                   src="/images/r2g-cairns-removalists-loading-truck.webp"
-                  alt="R2G removalists truck on the Gold Coast"
-                  title="R2G Removalists Gold Coast - Professional Local Moving Team"
+                  alt="R2G removalists truck on Brisbane's northside"
+                  title="R2G Removalists Brisbane Northside - Professional Local Moving Team"
                   fill
                   className="object-cover"
                   loading="lazy"
@@ -348,26 +345,34 @@ export default function RemovalistsGoldCoastPage() {
 
               <div className="space-y-5 text-gray-600 leading-relaxed">
                 <p>
-                  When it comes to moving on the Gold Coast, local knowledge makes all the difference.
-                  R2G Transport &amp; Storage operates a full-service removals depot in Archerfield,
-                  giving us the reach to cover all Gold Coast suburbs, Brisbane, Logan
-                  and beyond.
+                  Moving on Brisbane&apos;s northside takes local knowledge. From navigating the busy
+                  Gympie Road corridor through Chermside and Aspley to working narrow streets in older
+                  suburbs like Stafford and Kedron, our team knows the area inside and out. R2G Transport
+                  &amp; Storage operates from our depot in Archerfield, giving us fast access to every
+                  northside suburb and the wider Moreton Bay region.
                 </p>
                 <p>
-                  Whether you&apos;re moving from a unit in Surfers Paradise to a house in Robina,
-                  relocating from Southport to Burleigh Heads, or simply moving a few streets
-                  over — our experienced team of Gold Coast removalists handles every move with the same
-                  level of care and professionalism.
+                  Whether you&apos;re relocating from a unit in Lutwyche to a family home in Bridgeman
+                  Downs, moving closer to the Sandgate waterfront, or upgrading to a new build in North
+                  Lakes, our experienced removalists handle every move with the same care and
+                  professionalism. We are familiar with the train lines running through Nundah, Geebung
+                  and Carseldine, the school zones around Aspley and Stafford Heights, and the peak-hour
+                  pinch points that can slow down a moving day if you don&apos;t plan ahead.
                 </p>
                 <p>
                   We arrive on time, work efficiently, and treat your belongings as if they were our
                   own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
+                  large beds, wardrobes, and flat-pack furniture, we have every detail covered. Many
+                  northside homes in suburbs like Everton Park, Ferny Grove and McDowall sit on steep
+                  blocks with long driveways, and our crew is experienced at managing those conditions
+                  safely.
                 </p>
                 <p>
                   Our modern trucks are clean, well-maintained, and stocked with premium moving
                   equipment including furniture blankets, tie-down straps, dollies, and protective
-                  padding. You won&apos;t find bare timber floors or loose loads with R2G.
+                  padding. You won&apos;t find bare timber floors or loose loads with R2G. Every northside
+                  move is fully insured with public liability and goods-in-transit cover, so your
+                  belongings are protected from start to finish.
                 </p>
               </div>
             </div>
@@ -416,9 +421,9 @@ export default function RemovalistsGoldCoastPage() {
                     </p>
                     <div className="space-y-2">
                       {[
-                        { label: "Interstate Removals", href: "/interstate-removalists" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
-                        { label: "Removalists Cairns", href: "/removalists-cairns" },
+                        { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Storage Brisbane", href: "/storage-brisbane" },
                       ].map((link) => (
                         <Link
                           key={link.href}
@@ -450,7 +455,7 @@ export default function RemovalistsGoldCoastPage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-              Gold Coast Removalist Pricing for Local Moves
+              Brisbane Northside Removalist Pricing for Local Moves
             </h2>
             <p className="text-gray-600 text-lg">Transparent rates. No hidden fees. No surprises.</p>
           </div>
@@ -466,7 +471,7 @@ export default function RemovalistsGoldCoastPage() {
                 "Professional loading & unloading",
                 "Furniture wrapping & blankets",
                 "Disassembly & reassembly",
-                "All Gold Coast suburbs covered",
+                "All northside suburbs covered",
                 "Heavy item specialists",
                 "Careful, trained removalists",
                 "Modern, clean trucks",
@@ -494,7 +499,7 @@ export default function RemovalistsGoldCoastPage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">Simple Process</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-                How Your Gold Coast Move Works
+                How Your Northside Move Works
               </h2>
               <div className="flex mb-8">
                 <svg aria-hidden="true" width="100" height="8" viewBox="0 0 100 8" fill="none">
@@ -506,17 +511,17 @@ export default function RemovalistsGoldCoastPage() {
                   {
                     number: "01",
                     title: "Get Your Free Quote",
-                    text: "Contact us online or call 1300 959 498. Tell us about your Gold Coast move — suburbs, home size, and preferred date. We'll provide a clear, upfront quote with no hidden fees.",
+                    text: "Contact us online or call 1300 959 498. Tell us about your northside move, including suburbs, home size, and preferred date. We will provide a clear, upfront quote with no hidden fees.",
                   },
                   {
                     number: "02",
                     title: "We Pack & Load",
-                    text: "Our professional Gold Coast removalists arrive on time on moving day. We carefully wrap, pack (if required), and load all your belongings onto our modern, well-equipped truck — treating everything as if it were our own.",
+                    text: "Our professional removalists arrive on time on moving day. We carefully wrap, pack (if required), and load all your belongings onto our modern, well-equipped truck, treating everything as if it were our own.",
                   },
                   {
                     number: "03",
                     title: "Settle In With Ease",
-                    text: "We transport your belongings safely to your new Gold Coast location and unload everything exactly where you want it. We won't leave until you're completely happy — it's that simple.",
+                    text: "We transport your belongings safely to your new location and unload everything exactly where you want it. Whether you are staying on the northside or heading across Brisbane, we will not leave until you are completely happy.",
                   },
                 ].map((step) => (
                   <div key={step.number} className="flex items-start gap-5">
@@ -535,8 +540,8 @@ export default function RemovalistsGoldCoastPage() {
             <div className="relative h-[420px] lg:h-[540px] rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/r2g-professional-packing-service-cairns.webp"
-                alt="R2G removalist team serving the Gold Coast"
-                title="R2G Professional Packing Service Gold Coast"
+                alt="R2G removalist team serving Brisbane's northside"
+                title="R2G Professional Packing Service Brisbane Northside"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -556,50 +561,74 @@ export default function RemovalistsGoldCoastPage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-3">
-              Gold Coast Suburbs We Service
+              Northside Suburbs We Service
             </h2>
             <p className="text-gray-400 text-base max-w-2xl mx-auto">
-              We cover the entire Gold Coast region — from Coomera and Helensvale in the north to Coolangatta
-              at the border, and west to Nerang and Mudgeeraba in the hinterland.
-              If you&apos;re not sure whether we cover your area, just give us a call.
+              We cover every suburb on Brisbane&apos;s northside, from the inner north through to the Moreton
+              Bay region. If you&apos;re not sure whether we cover your area, just give us a call.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
-            {["Gold Coast North", "Gold Coast Central", "Gold Coast South", "Gold Coast Hinterland"].map((region) => {
-              const suburbs = goldCoastSuburbs
-                .filter((s) => s.region === region)
-                .sort((a, b) => a.name.localeCompare(b.name));
-              return (
-                <div key={region}>
-                  <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
-                    {region}
-                  </h3>
-                  <div className="flex flex-wrap gap-1.5">
-                    {suburbs.map((suburb) => (
-                      <Link
-                        key={suburb.slug}
-                        href={`/removalists-gold-coast/${suburb.slug}`}
-                        title={`Removalists ${suburb.name}`}
-                        className="px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors"
-                      >
-                        {suburb.name}
+            {([
+              {
+                council: "Brisbane North",
+                suburbs: [
+                  "Chermside", "Aspley", "Stafford", "Stafford Heights", "Kedron",
+                  "Lutwyche", "Gordon Park", "Geebung", "Carseldine", "Bracken Ridge",
+                  "Bridgeman Downs", "Bald Hills", "Boondall", "Fitzgibbon", "Brighton",
+                  "Deagon", "Sandgate", "Banyo", "Alderley", "Enoggera",
+                  "Everton Park", "Ferny Grove", "Ferny Hills", "Keperra", "McDowall",
+                  "Mitchelton", "Seven Hills",
+                ],
+              },
+              {
+                council: "Brisbane Inner North",
+                suburbs: [
+                  "Albion", "Ascot", "Bowen Hills", "Eagle Farm", "Grange",
+                  "Hamilton", "Hendra", "Herston", "Kelvin Grove",
+                ],
+              },
+              {
+                council: "Moreton Bay",
+                suburbs: [
+                  "North Lakes", "Caboolture", "Redcliffe", "Strathpine", "Kallangur",
+                  "Mango Hill", "Burpengary", "Morayfield", "Narangba", "Petrie",
+                  "Brendale", "Warner", "Samford Village", "Everton Hills",
+                ],
+              },
+            ] as const).map((group) => (
+              <div key={group.council}>
+                <h3 className="text-white font-bold text-lg mb-3 border-b border-[#F5C400]/30 pb-2">
+                  {group.council}
+                </h3>
+                <div className="flex flex-wrap gap-1.5">
+                  {group.suburbs.map((suburb) => {
+                    const href = getBrisbaneSuburbHref(suburb);
+                    const classes = "px-2.5 py-1 bg-white/5 text-gray-300 rounded-full text-xs border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors";
+                    return href ? (
+                      <Link key={suburb} href={href} title={`Removalists ${suburb}`} className={classes}>
+                        {suburb}
                       </Link>
-                    ))}
-                  </div>
+                    ) : (
+                      <span key={suburb} className={classes}>
+                        {suburb}
+                      </span>
+                    );
+                  })}
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
 
           {/* Cross-city links */}
           <div className="flex flex-wrap gap-2 justify-center mt-6">
             <p className="w-full text-center text-gray-500 text-xs uppercase tracking-widest font-semibold mb-2">Also Servicing</p>
             {[
-              { label: "Removalists Cairns", href: "/removalists-cairns" },
               { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+              { label: "Removalists Brisbane Southside", href: "/removalists-brisbane/southside" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
-              { label: "Removalists Townsville", href: "/removalists-townsville" },
               { label: "Interstate Removalists", href: "/interstate-removalists" },
               { label: "Office Removalists", href: "/office-removalists" },
               { label: "NDIS Removalists", href: "/ndis-removalists" },
@@ -614,25 +643,25 @@ export default function RemovalistsGoldCoastPage() {
 
           <div className="border-t border-white/10 pt-12 mt-10">
             <h3 className="text-2xl font-black text-white text-center mb-8">
-              Tips for a Smooth Gold Coast Move
+              Tips for a Smooth Northside Move
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
-                  heading: "Book early during peak holiday season.",
-                  text: "The Gold Coast is one of Australia's busiest holiday destinations. Removalist services fill up fast from November through January and around school holidays. Book at least 3-4 weeks ahead to secure your preferred date.",
+                  heading: "Plan for steep driveways in the hills suburbs.",
+                  text: "Suburbs like Everton Park, Ferny Hills, McDowall and Bridgeman Downs often have steep driveways and limited street parking. Let us know about access conditions when you book so we can bring the right truck and equipment for a safe, efficient move.",
                 },
                 {
-                  heading: "Plan around Gold Coast traffic and parking.",
-                  text: "High-rise apartments in Surfers Paradise and Broadbeach often have strict loading dock bookings and time limits. Let us know your building details so we can arrange access and avoid delays on moving day.",
+                  heading: "Avoid peak-hour Gympie Road traffic.",
+                  text: "Gympie Road is one of Brisbane's busiest corridors and can add significant time to a move during morning and afternoon peaks. We schedule northside jobs to work around peak traffic where possible, but a mid-morning start often gives the best results.",
                 },
                 {
-                  heading: "Prepare for the subtropical climate.",
-                  text: "Gold Coast summers bring heat, humidity, and afternoon storms. We take extra precautions to protect your belongings in wet weather — but it helps to keep an eye on the forecast and communicate any concerns with our team.",
+                  heading: "Book early, especially around the holidays.",
+                  text: "Northside moves get very busy from November through January as families settle before the school year. If you are moving during the holiday season, aim to book at least 3 to 4 weeks in advance to secure your preferred date.",
                 },
                 {
-                  heading: "Declutter before you move.",
-                  text: "The less you move, the less you pay. Take the opportunity to sell, donate, or dispose of items you no longer need. Our team can also advise on what's worth moving versus replacing at your new Gold Coast home.",
+                  heading: "Prepare for summer storms.",
+                  text: "Brisbane's subtropical summer brings afternoon storms and high humidity, and the northside is no exception. Our team is experienced at moving in all weather and takes extra precautions to protect your belongings. Keep an eye on the forecast and communicate with us if conditions look extreme.",
                 },
               ].map((tip) => (
                 <div key={tip.heading} className="bg-white/5 border border-white/10 rounded-xl p-6">
@@ -649,7 +678,7 @@ export default function RemovalistsGoldCoastPage() {
       <GoogleReviews />
 
       {/* ── SECTION 8: FAQ ──────────────────────────────────────────────────── */}
-      <FAQ items={faqItems} heading="Gold Coast Removals FAQ" />
+      <FAQ items={faqItems} heading="Brisbane Northside Removals FAQ" />
 
       {/* ── SECTION 9: FINAL CTA ────────────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-[#F5C400] py-20">
@@ -661,10 +690,10 @@ export default function RemovalistsGoldCoastPage() {
         </svg>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-4">
-            Ready to Move on the Gold Coast?
+            Ready to Move on Brisbane&apos;s Northside?
           </h2>
           <p className="text-[#1A1A1A]/70 text-lg mb-10 max-w-2xl mx-auto">
-            Get a free, no-obligation quote and we&apos;ll be in touch as soon as possible — usually within the hour.
+            Get a free, no-obligation quote and we&apos;ll be in touch as soon as possible, usually within the hour.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
@@ -695,10 +724,10 @@ export default function RemovalistsGoldCoastPage() {
             {[
               { label: "Removalists Brisbane", href: "/removalists-brisbane" },
               { label: "Removalists Cairns", href: "/removalists-cairns" },
+              { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
               { label: "Removalists Townsville", href: "/removalists-townsville" },
               { label: "Interstate Removals", href: "/interstate-removalists" },
-              { label: "Office Removalists", href: "/office-removalists" },
               { label: "Packing Services", href: "/packing-services-brisbane" },
               { label: "Storage Brisbane", href: "/storage-brisbane" },
             ].map((link) => (

@@ -17,7 +17,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Amberley's rural-residential blocks and proximity to the air base mean some properties sit on larger lots with long driveways and limited turning space. We bring appropriately sized trucks and can arrange smaller shuttle vehicles when access is restricted near base housing.",
     nearbySubs: ["Walloon", "Willowbank", "Yamanto"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Amberley & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Augustine Heights streets can be narrow with cars parked on both sides, especially on weekends. Our drivers scout access routes in advance and position trucks to avoid blocking neighbours, ensuring a smooth move without disrupting the estate.",
     nearbySubs: ["Springfield Lakes", "Springfield Central", "Brookwater", "Spring Mountain"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Augustine Heights & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Newer sections of Bellbird Park have narrower streets and limited visitor parking, which can make truck positioning tricky. Our team plans access routes in advance and uses appropriately sized vehicles to ensure your move runs smoothly without blocking estate traffic.",
     nearbySubs: ["Camira", "Springfield Lakes", "Brookwater"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bellbird Park & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The narrow laneways and established street trees in Blackstone can restrict large truck access. We assess each property before moving day and bring the right-sized vehicle — plus stair trolleys and protective blankets for the elevated homes common throughout the suburb.",
     nearbySubs: ["Booval", "Bundamba", "Silkstone"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Blackstone & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Booval's position near the Ipswich Motorway off-ramp means traffic can build during peak hours. Our team schedules Booval moves to avoid congestion and uses local back streets to access properties efficiently, especially around the busy Booval Fair precinct.",
     nearbySubs: ["Silkstone", "Bundamba", "North Ipswich"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Booval & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Brassall stretches across a wide area with varying street widths and property styles. Our drivers know the best access routes for each pocket of the suburb, from the established streets near the river to the newer estates closer to the shopping centre, ensuring efficient truck positioning every time.",
     nearbySubs: ["North Ipswich", "Karalee", "One Mile"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Brassall & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Brookwater's estate roads are well-maintained but have strict parking and access guidelines enforced by the community body corporate. We coordinate with estate management before moving day and ensure our trucks comply with all access requirements to protect the manicured streetscape.",
     nearbySubs: ["Augustine Heights", "Springfield Central", "Springfield Lakes", "Spring Mountain"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Brookwater & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parts of Bundamba near the Bremer River sit in flood-prone zones, and some streets have limited access after heavy rain. Our team monitors weather conditions closely and plans alternative routes when needed to ensure your move proceeds safely and on schedule.",
     nearbySubs: ["Booval", "Blackstone", "Riverview", "Leichhardt"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bundamba & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The bushland setting of Camira means some properties have long driveways with overhanging vegetation. We assess access before moving day and trim clearance paths where permitted, or use smaller shuttle vehicles to reach homes set back from the street.",
     nearbySubs: ["Bellbird Park", "Gailes", "Springfield"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Camira & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Carole Park's proximity to major motorway interchanges means heavy traffic during peak periods. We schedule moves to avoid congestion and use our knowledge of local service roads to access properties quickly and efficiently.",
     nearbySubs: ["Gailes", "Camira", "Goodna"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Carole Park & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Churchill's hilly streets and steep driveways demand experienced truck drivers and careful weight distribution. Our team brings ramp boards, heavy-duty dollies and stair-climbing equipment to manage the inclines safely while protecting your furniture and the property.",
     nearbySubs: ["Newtown", "East Ipswich", "Silkstone"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Churchill & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Chuwar's rural roads and long property driveways can be challenging for standard removal trucks. We assess access conditions before every Chuwar move and arrange appropriately sized vehicles, including smaller shuttles for properties reached via unsealed or narrow lanes.",
     nearbySubs: ["Karalee", "Brassall", "Muirlea", "Barellan Point"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Chuwar & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -761,7 +761,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Construction activity in Deebing Heights' developing sections can affect road access and create dusty conditions. Our drivers stay updated on active construction zones and plan routes that avoid delays, keeping your move running smoothly even during peak building periods.",
     nearbySubs: ["Yamanto", "Flinders View", "Raceview"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Deebing Heights & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -823,7 +823,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "East Ipswich's steep, winding streets and the mix of heritage properties on elevated blocks present unique challenges. Our team uses stair-climbing trolleys, furniture tilting straps and extra protective padding to manage the narrow access points and sharp turns common in this suburb.",
     nearbySubs: ["North Ipswich", "Churchill", "Silkstone"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "East Ipswich & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -885,7 +885,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ebenezer's rural roads range from sealed to unsealed, and property access can vary dramatically depending on recent weather. We conduct pre-move access assessments and bring appropriately sized vehicles to navigate long driveways and rural laneways safely.",
     nearbySubs: ["Willowbank", "Rosewood", "Walloon"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ebenezer & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -947,7 +947,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The drive from Brisbane to Fernvale follows the Warrego Highway and Brisbane Valley Highway, and travel time affects move costs. We factor in the distance when quoting and schedule Fernvale moves to maximise on-site working time and deliver the best value.",
     nearbySubs: ["Lowood", "Haigslea", "Chuwar"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Fernvale & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1009,7 +1009,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Flinders View's elevated position means many homes are built on sloping blocks with tiered gardens and steep driveways. Our experienced drivers know how to safely position trucks on inclines, and our crew uses ramp boards and heavy-duty straps to manage uphill and downhill loading.",
     nearbySubs: ["Deebing Heights", "Raceview", "Yamanto"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Flinders View & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1071,7 +1071,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Gailes sits close to the Ipswich Motorway, and some streets experience higher traffic noise and flow during peak times. We plan arrival and departure routes to avoid motorway congestion, ensuring our trucks get in and out of the suburb smoothly.",
     nearbySubs: ["Goodna", "Camira", "Carole Park", "Wacol"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Gailes & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1133,7 +1133,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parts of Goodna near the Bremer River and Woogaroo Creek are flood-prone, and the 2011 and 2022 events remain in local memory. Our team is aware of flood-affected zones, monitors weather conditions before moves and can arrange secure elevated storage if your timeline is affected by weather.",
     nearbySubs: ["Gailes", "Redbank", "Riverview"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Goodna & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1195,7 +1195,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Haigslea's rural setting means some properties are accessed via unsealed roads that can deteriorate after rain. We check access conditions before every Haigslea move and adjust our vehicle selection accordingly to ensure safe, efficient delivery to your door.",
     nearbySubs: ["Marburg", "Walloon", "Fernvale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Haigslea & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1257,7 +1257,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parking and truck access in Ipswich CBD can be challenging, particularly around the heritage core and one-way streets. Our drivers know the best loading zones, permitted parking areas and access routes to avoid fines and ensure efficient loading and unloading in the busy central precinct.",
     nearbySubs: ["East Ipswich", "North Ipswich", "West Ipswich"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ipswich CBD & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1319,7 +1319,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Karalee's winding hillside roads and long driveways require experienced drivers who can manoeuvre trucks safely on narrow, tree-lined streets. We conduct access assessments before every Karalee move to select the right vehicle size and plan the safest approach.",
     nearbySubs: ["Chuwar", "Brassall", "North Ipswich", "Barellan Point"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Karalee & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1381,7 +1381,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Karrabin's rural roads vary in condition and some properties are accessed via private laneways. We assess access before each move and select vehicles that can safely navigate the local conditions, including smaller shuttles if the driveway is narrow or unsealed.",
     nearbySubs: ["Walloon", "Haigslea", "Marburg"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Karrabin & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1443,7 +1443,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Leichhardt's compact residential streets can be tight for larger trucks, especially when cars are parked on both sides. We select appropriately sized vehicles for Leichhardt moves and can use smaller shuttle trucks if street access is restricted.",
     nearbySubs: ["Bundamba", "One Mile", "Wulkuraka"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Leichhardt & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1505,7 +1505,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Lowood's distance from Brisbane means travel time is a factor in move costs. We quote transparently for the drive time and schedule Lowood moves with early starts to maximise the hours our crew spends loading and unloading at your property.",
     nearbySubs: ["Fernvale", "Haigslea", "Marburg"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lowood & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1567,7 +1567,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Marburg's position along the Warrego Highway provides good main road access, but individual properties may be reached via winding rural roads. We plan our approach for each Marburg move, factoring in road conditions, gate access and driveway types.",
     nearbySubs: ["Haigslea", "Walloon", "Rosewood", "Mount Marrow"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Marburg & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1629,7 +1629,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Marrow's rural roads and private access lanes can be narrow and unsealed in parts. We assess each property's access before moving day and bring appropriately sized trucks to navigate the local conditions safely.",
     nearbySubs: ["Rosewood", "Walloon", "Marburg"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Marrow & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1691,7 +1691,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to some Muirlea properties requires navigating private roads, river crossings and unsealed tracks. We assess every property's access conditions before moving day and select trucks that can handle the terrain, ensuring a safe and efficient move.",
     nearbySubs: ["Chuwar", "Karalee", "Fernvale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Muirlea & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1753,7 +1753,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "New Chum's ongoing development means some streets are still being completed, and construction traffic can affect access. Our drivers stay updated on road conditions in developing areas and plan routes that avoid construction zones wherever possible.",
     nearbySubs: ["Bundamba", "Redbank Plains", "Riverview", "Swanbank"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "New Chum & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1815,7 +1815,7 @@ export const ipswichSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Newtown's steep, narrow streets and heritage-listed character present specific access challenges for removalists. We use smaller trucks when needed, plan routes around tight corners and protect original timber floors with padded runners throughout the move.",
     nearbySubs: ["Churchill", "East Ipswich", "West Ipswich"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Newtown & Ipswich",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

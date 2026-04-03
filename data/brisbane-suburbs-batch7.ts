@@ -18,7 +18,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Murarrie's proximity to the Gateway Motorway can cause peak-hour congestion, particularly around the Wynnum Road interchange. Our drivers plan arrivals to avoid bottleneck times and know the quieter local access streets that keep your move running smoothly.",
     nearbySubs: ["Cannon Hill", "Morningside", "Hemmant"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Murarrie & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Norman Park's narrow, winding streets and hilly terrain can limit truck access, especially along the ridgeline near Bennetts Road. Our drivers are familiar with the one-way sections and steep grades and choose the safest approach for every property.",
     nearbySubs: ["Coorparoo", "East Brisbane", "Camp Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Norman Park & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Ransome is limited to a handful of roads off Tilley Road, and some properties sit along unsealed or semi-rural driveways. Our team brings the right-sized truck and additional protective materials to handle these access challenges without delay.",
     nearbySubs: ["Wakerley", "Chandler", "Capalaba"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ransome & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Tingalpa's streets can be busy during school drop-off and pick-up times, particularly near Tingalpa State School on Fursden Road. Our drivers time arrivals to avoid school-zone congestion and park strategically to minimise disruption to neighbours.",
     nearbySubs: ["Hemmant", "Wakerley", "Carindale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Tingalpa & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wakerley's estate roads can be narrow with cars parked on both sides, and some cul-de-sacs make turning a large truck difficult. Our drivers are experienced with these layouts and will pre-plan the best approach to park as close to your front door as possible.",
     nearbySubs: ["Tingalpa", "Chandler", "Manly West", "Ransome", "Gumdale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wakerley & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wynnum Road is the main arterial through the suburb and can become heavily congested during peak hours. Our team plans routes using quieter back streets like Manly Road and Tingal Road to keep your move on schedule.",
     nearbySubs: ["Wynnum", "Manly West", "Lota"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wynnum West & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -392,7 +392,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Corinda's leafy streets are often lined with mature trees and on-street parking, which can restrict truck access near the school and train station. Our drivers plan arrival times and approach routes to avoid school traffic and secure the best loading position.",
     nearbySubs: ["Graceville", "Sherwood", "Oxley"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Corinda & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -454,7 +454,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access roads in and around Enoggera Reservoir can be steep and winding, with some sections unsealed after rain. Our drivers assess conditions beforehand and bring vehicles suited to the terrain, ensuring your belongings arrive safely regardless of the approach.",
     nearbySubs: ["The Gap", "Upper Kedron", "Ferny Grove"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Enoggera Reservoir & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -516,7 +516,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The roads ascending Mount Coot-tha are steep, narrow and winding, with limited space for large vehicles to turn. Our drivers carefully assess each property's access and may use smaller shuttle vehicles to ferry items between the home and a larger truck staged further down the hill.",
     nearbySubs: ["Toowong", "Bardon", "Auchenflower"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Coot-tha & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -578,7 +578,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Crosby Road winds through hilly terrain with limited shoulders and no kerbing in many sections. Some properties are accessed via single-lane bridges or unpaved tracks. Our drivers assess every approach in advance and bring appropriately sized vehicles for the conditions.",
     nearbySubs: ["Karana Downs", "Kholo", "Lake Manchester"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Crosby & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -640,7 +640,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Ommaney's cul-de-sac street layout provides a quiet living environment but can limit truck manoeuvrability. Our drivers are experienced with these street designs and position vehicles to maintain clear access while minimising disruption to your neighbours.",
     nearbySubs: ["Riverhills", "Jindalee", "Westlake", "Seventeen Mile Rocks"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Ommaney & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -702,7 +702,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parts of low-lying Oxley near Oxley Creek can be affected by flooding during heavy rain events. Our team monitors weather conditions closely, plans routes that avoid flood-prone sections, and stores items at our Archerfield depot if delays are needed for safety.",
     nearbySubs: ["Corinda", "Darra", "Sherwood"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Oxley & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -764,7 +764,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Several Pinjarra Hills roads are steep and winding with limited kerbing, and some driveways extend hundreds of metres from the road. Our team plans every approach in advance, using vehicles suited to the terrain and allowing extra time for properties with challenging access.",
     nearbySubs: ["Pullenvale", "Kenmore Hills", "Bellbowrie"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Pinjarra Hills & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -826,7 +826,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Pullenvale Road and Grandview Road are the main arteries, with many side streets winding through hilly, heavily treed terrain. Limited mobile reception in some pockets and narrow road shoulders mean our team arrives fully briefed and prepared for all conditions.",
     nearbySubs: ["Upper Brookfield", "Kenmore Hills", "Pinjarra Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Pullenvale & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -888,7 +888,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Riverhills' quiet residential streets generally offer good truck access, though some cul-de-sacs near the river have limited turning space. Our drivers know the layout well and plan positioning to ensure efficient loading without blocking your neighbours' driveways.",
     nearbySubs: ["Mount Ommaney", "Westlake", "Jindalee"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Riverhills & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -950,7 +950,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moggill Road through Taringa carries heavy traffic at all hours, and the hilly side streets can be steep and narrow. Our drivers use local back streets like Swann Road and Morrow Street to bypass congestion and reach properties efficiently.",
     nearbySubs: ["Toowong", "St Lucia", "Indooroopilly"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Taringa & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1012,7 +1012,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Waterworks Road and Settlement Road are the main routes in and out of The Gap, and both can become congested during school and commuter peak times. Our drivers know the side-street shortcuts and time arrivals to keep your move running on schedule.",
     nearbySubs: ["Ashgrove", "Upper Kedron", "Ferny Grove", "Seven Hills", "Enoggera Reservoir"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "The Gap & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1074,7 +1074,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Gold Creek Road and Upper Brookfield Road are narrow, winding routes with limited passing opportunities. Some properties are accessed via private roads or creek crossings that restrict heavy vehicle access. Our team scouts every approach before moving day.",
     nearbySubs: ["Brookfield", "Pullenvale", "Kenmore Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Upper Brookfield & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1136,7 +1136,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Upper Kedron's new estate roads are well-paved but can be narrow with limited on-street parking during settlement periods when multiple families move in simultaneously. Our drivers are familiar with the estate layouts and plan positioning to avoid congesting newly occupied streets.",
     nearbySubs: ["The Gap", "Ferny Grove", "Keperra", "Enoggera Reservoir"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Upper Kedron & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1198,7 +1198,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Westlake's internal street network is largely made up of crescents and courts with limited through-traffic, which keeps the area quiet but can restrict large truck movement. Our drivers plan turning manoeuvres in advance and use the wider collector streets for staging.",
     nearbySubs: ["Riverhills", "Mount Ommaney", "Jindalee"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Westlake & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1260,7 +1260,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kholo's access roads are narrow, winding and partially unsealed, with very limited mobile phone coverage in some stretches. Our team prepares thoroughly before each Kholo move, confirming directions, gate access and driveway conditions so the day runs without interruption.",
     nearbySubs: ["Mount Crosby", "Lake Manchester", "Karana Downs"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kholo & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1322,7 +1322,7 @@ export const batch7Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Lake Manchester is via a single winding road from Mount Crosby, with sections that are steep and narrow. There is virtually no mobile coverage in the area. Our team finalises every detail in advance and arrives fully self-sufficient for the day.",
     nearbySubs: ["Kholo", "Mount Crosby", "Karana Downs"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lake Manchester & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

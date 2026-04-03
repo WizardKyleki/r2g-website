@@ -17,7 +17,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Alexandra Hills properties sit on sloped blocks with elevated homes and long driveways that require careful truck positioning. Our team brings ramp boards, heavy-duty dollies and protective runners to manage these inclines safely, ensuring your furniture and the property are both protected throughout the move.",
     nearbySubs: ["Capalaba", "Birkdale", "Wellington Point"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Alexandra Hills & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Birkdale's older sections feature character homes on large blocks with established gardens, mature trees and sometimes narrow side access. Our removalists carefully navigate garden paths and low-hanging branches, using protective blankets on outdoor surfaces and ensuring trucks are positioned to minimise any impact on landscaped areas.",
     nearbySubs: ["Alexandra Hills", "Wellington Point", "Thorneside"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Birkdale & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Capalaba's busy commercial precinct means some residential streets experience heavy traffic, especially around the shopping centres. Our drivers know the quieter back routes through Capalaba and time arrivals to avoid peak shopping hours, keeping your move efficient and on schedule even on busy weekends.",
     nearbySubs: ["Alexandra Hills", "Birkdale", "Thornlands", "Ransome"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Capalaba & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Island moves require coordination with the Coochiemudlo Island vehicular ferry, which operates on a fixed timetable with limited vehicle capacity. We pre-book ferry slots for our trucks, time loading and unloading around the schedule, and plan the entire move to minimise wait times and additional ferry costs for you.",
     nearbySubs: ["Victoria Point", "Redland Bay", "Russell Island"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Coochiemudlo Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Lamb Island has no vehicular ferry, so all moves require barge hire or use of the passenger ferry combined with smaller transport on the island. We coordinate barge bookings, plan loading schedules around tide windows and arrange island-side transport to get your belongings from the jetty to your door efficiently.",
     nearbySubs: ["Russell Island", "Macleay Island", "Redland Bay"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lamb Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Macleay Island's vehicular ferry from Redland Bay allows us to drive our trucks directly onto the island, simplifying logistics compared to neighbouring islands. We pre-book ferry slots, coordinate loading around the timetable and know the island's road network well enough to navigate directly to your property without delays.",
     nearbySubs: ["Russell Island", "Lamb Island", "Redland Bay"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Macleay Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Cotton's hinterland properties often feature long, winding driveways, steep terrain and limited turning areas for trucks. Our drivers are experienced with rural Redlands access, bringing smaller trucks when needed and using heavy-duty trolleys and ramp boards to safely move furniture across uneven or sloped ground.",
     nearbySubs: ["Sheldon", "Victoria Point", "Capalaba"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Cotton & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "North Stradbroke Island moves require vehicular ferry coordination from Cleveland's Toondah Harbour. We pre-book ferry slots for our trucks, plan loading and unloading around the ferry timetable, and bring extra protective wrapping to shield furniture from salt air during the crossing. Our drivers know the island's roads from Dunwich through to Point Lookout.",
     nearbySubs: ["Cleveland", "Ormiston", "Wellington Point", "Point Lookout"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "North Stradbroke Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ormiston's heritage homes and character properties often present unique moving challenges — narrow hallways, ornate timber staircases and verandah access points that require precise furniture manoeuvring. Our team brings blanket padding, corner protectors and stair-climbing trolleys to navigate these features without leaving a mark on your home.",
     nearbySubs: ["Cleveland", "Wellington Point", "Birkdale", "Point Lookout"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ormiston & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Reaching Point Lookout involves a vehicular ferry from Toondah Harbour to Dunwich, followed by a 20km drive across North Stradbroke Island. We coordinate ferry bookings, plan the entire mainland-to-island journey, and use heavy-duty wrapping to protect furniture from the coastal elements during transit. Our team is experienced with the steep, elevated home access common at Point Lookout.",
     nearbySubs: ["North Stradbroke Island", "Cleveland", "Ormiston"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Point Lookout & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Redland Bay's proximity to the island ferry terminal means we frequently combine mainland moves with island logistics for clients relocating to or from the Southern Moreton Bay Islands. We coordinate ferry schedules, plan truck positioning at the terminal and time the entire operation to minimise waiting and maximise efficiency.",
     nearbySubs: ["Victoria Point", "Thornlands", "Mount Cotton", "Coochiemudlo Island"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Redland Bay & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Russell Island's vehicular ferry from Redland Bay allows us to bring our trucks directly to the island, making logistics more straightforward than smaller neighbouring islands. We pre-book ferry slots, plan the full move around the ferry timetable and know the island's internal road network to navigate directly to your property.",
     nearbySubs: ["Lamb Island", "Macleay Island", "Redland Bay", "Coochiemudlo Island"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Russell Island & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -761,7 +761,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Sheldon's acreage properties frequently present access challenges — long gravel driveways, cattle grids, steep entry slopes and properties set well back from the road. Our team assesses each property's access in advance, selects the appropriate truck size and brings heavy-duty equipment to manage uneven rural terrain safely.",
     nearbySubs: ["Capalaba", "Mount Cotton", "Thornlands"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sheldon & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -823,7 +823,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Thorneside's smaller street grid and older housing stock mean many moves involve narrow side access, single-car driveways and compact front yards. Our team is skilled at working efficiently in these tighter spaces, using hand-carry techniques and smaller trolleys when larger equipment won't fit through the available access points.",
     nearbySubs: ["Birkdale", "Wellington Point", "Capalaba"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Thorneside & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -885,7 +885,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Thornlands' newer estates feature homes built close together with narrow driveways and limited street parking for trucks. Our drivers are experienced with these tight estate layouts and select appropriately sized vehicles to navigate cul-de-sacs, narrow verges and shared access roads common in the area's newest developments.",
     nearbySubs: ["Cleveland", "Victoria Point", "Redland Bay"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Thornlands & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -947,7 +947,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Victoria Point's role as the Coochiemudlo Island ferry gateway means we often coordinate moves that start or end at the nearby ferry terminal. We also navigate the suburb's busy Redland Bay Road corridor efficiently, timing moves to avoid peak shopping and ferry traffic for a smoother experience.",
     nearbySubs: ["Redland Bay", "Thornlands", "Cleveland", "Coochiemudlo Island"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Victoria Point & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1009,7 +1009,7 @@ export const redlandSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wellington Point's waterfront streets and foreshore precinct can experience heavier traffic on weekends and public holidays as visitors flock to the reserve. Our team times moves to work around peak visitor traffic, using local back streets to keep the move running efficiently while the foreshore area is busy.",
     nearbySubs: ["Ormiston", "Birkdale", "Cleveland"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wellington Point & Redland",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

@@ -36,17 +36,17 @@ const CITIES: Record<string, CityData> = {
     name: "Brisbane",
     slug: "brisbane",
     pricingLocation: "brisbane",
-    twoManRate: "$170/hr",
+    twoManRate: "$179/hr",
     twoManLargeRate: "$189/hr",
-    threeManRate: "$220/hr",
-    weekendSurcharge: "$189-$290/hr",
+    threeManRate: "$269/hr",
+    weekendSurcharge: "$199-$359/hr",
     avgLocalCost: "$400 to $1,200",
     avgInterstateCost: "$3,000 to $7,500",
     removalistHref: "/removalists-brisbane",
     packingHref: "/packing-services-brisbane",
     storageHref: "/storage-brisbane",
     metaDescription:
-      "How much do removalists cost in Brisbane? Local rates from $170/hr, interstate from $3,000. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost in Brisbane? Local rates from $179/hr, interstate from $3,000. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Brisbane removalist costs depend on a few straightforward factors: the size of your home, the day of the week, distance between addresses, and whether you need extra services like packing or storage. Most local Brisbane moves for a 2-bedroom home run between $400 and $800, while larger 4-bedroom homes typically cost $800 to $1,500. Here is a full breakdown of what to expect.",
     localFactors: [
@@ -66,7 +66,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour in Brisbane?",
         answer:
-          "A 2-person team with a truck starts from $170 per hour on weekdays. A larger truck with 2 movers starts from $189 per hour. Saturday rates are slightly higher, and Sunday or public holiday rates range from $269 to $325 per hour depending on team size. All rates include GST.",
+          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck with 2 movers starts from $189 per hour. A 3-person team with a large truck starts from $269 per hour. Saturday rates are slightly higher, and Sunday or public holiday rates range from $269 to $359 per hour depending on team size. All rates include GST.",
       },
       {
         question: "What is the average cost of a local move in Brisbane?",
@@ -99,7 +99,7 @@ const CITIES: Record<string, CityData> = {
     name: "Cairns",
     slug: "cairns",
     pricingLocation: "cairns",
-    twoManRate: "$179/hr",
+    twoManRate: "$189/hr",
     twoManLargeRate: "$189/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$199-$359/hr",
@@ -109,7 +109,7 @@ const CITIES: Record<string, CityData> = {
     packingHref: "/packing-services-cairns",
     storageHref: "/storage-cairns",
     metaDescription:
-      "How much do removalists cost in Cairns? Local rates from $179/hr, interstate from $3,500. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost in Cairns? Local rates from $189/hr, interstate from $3,500. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Removalist costs in Cairns are influenced by home size, access difficulty, distance, and seasonal demand. Local moves for a 2-bedroom home in Cairns typically cost between $450 and $900, while larger homes range from $900 to $1,500. Cairns has some unique factors that can affect pricing, including stilt houses, steep driveways in the northern beaches, and wet season scheduling. Here is a complete breakdown.",
     localFactors: [
@@ -129,7 +129,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour in Cairns?",
         answer:
-          "A 2-person team with a standard truck starts from $179 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $199 and Sunday or public holiday rates start from $269 for a 2-man team. All rates include GST.",
+          "A 2-person team with a standard truck starts from $189 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $209 and Sunday or public holiday rates start from $279 for a 2-man team. All rates include GST.",
       },
       {
         question: "Why are Cairns removalist rates slightly higher than Brisbane?",
@@ -162,17 +162,17 @@ const CITIES: Record<string, CityData> = {
     name: "Gold Coast",
     slug: "gold-coast",
     pricingLocation: "brisbane",
-    twoManRate: "$170/hr",
+    twoManRate: "$179/hr",
     twoManLargeRate: "$189/hr",
-    threeManRate: "$220/hr",
-    weekendSurcharge: "$189-$290/hr",
+    threeManRate: "$269/hr",
+    weekendSurcharge: "$199-$359/hr",
     avgLocalCost: "$400 to $1,200",
     avgInterstateCost: "$2,500 to $6,500",
     removalistHref: "/removalists-gold-coast",
     packingHref: "/packing-services-gold-coast",
     storageHref: "/storage-gold-coast",
     metaDescription:
-      "How much do removalists cost on the Gold Coast? Local rates from $170/hr, interstate from $2,500. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost on the Gold Coast? Local rates from $179/hr, interstate from $2,500. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Gold Coast removalist costs are comparable to Brisbane rates, with a few local factors that can influence your final bill. A typical 2-bedroom local move on the Gold Coast costs between $400 and $900, while larger family homes run $900 to $1,500. High-rise apartment moves and beachside access can add extra time. Here is what to expect when budgeting your Gold Coast move.",
     localFactors: [
@@ -192,7 +192,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour on the Gold Coast?",
         answer:
-          "A 2-person team with a truck starts from $170 per hour on weekdays. A larger truck with 2 movers starts from $189 per hour. Weekend and public holiday rates range from $189 to $325 per hour depending on team size and day. All rates include GST.",
+          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck with 2 movers starts from $189 per hour. A 3-person team with a large truck starts from $269 per hour. Weekend and public holiday rates range from $189 to $359 per hour depending on team size and day. All rates include GST.",
       },
       {
         question: "What is the average cost of a local Gold Coast move?",
@@ -225,17 +225,17 @@ const CITIES: Record<string, CityData> = {
     name: "Sunshine Coast",
     slug: "sunshine-coast",
     pricingLocation: "brisbane",
-    twoManRate: "$170/hr",
+    twoManRate: "$179/hr",
     twoManLargeRate: "$189/hr",
-    threeManRate: "$220/hr",
-    weekendSurcharge: "$189-$290/hr",
+    threeManRate: "$269/hr",
+    weekendSurcharge: "$199-$359/hr",
     avgLocalCost: "$450 to $1,300",
     avgInterstateCost: "$2,800 to $7,000",
     removalistHref: "/removalists-sunshine-coast",
     packingHref: "/packing-services-sunshine-coast",
     storageHref: "/storage-sunshine-coast",
     metaDescription:
-      "How much do removalists cost on the Sunshine Coast? Local rates from $170/hr, interstate from $2,800. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost on the Sunshine Coast? Local rates from $179/hr, interstate from $2,800. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Sunshine Coast removalist costs follow the same hourly rates as Brisbane, though certain local factors can influence the total. A typical 2-bedroom move on the Sunshine Coast costs between $450 and $900, while larger homes range from $900 to $1,500. Hinterland properties, narrow Noosa streets, and acreage homes are the main factors that add complexity. Here is a full pricing guide.",
     localFactors: [
@@ -255,7 +255,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour on the Sunshine Coast?",
         answer:
-          "A 2-person team with a truck starts from $170 per hour on weekdays. A larger truck starts from $189 per hour. Weekend and public holiday rates range from $189 to $325 per hour. All rates include GST and there are no hidden fees.",
+          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck starts from $189 per hour. A 3-person team with a large truck starts from $269 per hour. Weekend and public holiday rates range from $189 to $359 per hour. All rates include GST and there are no hidden fees.",
       },
       {
         question: "What is the average cost of a local Sunshine Coast move?",
@@ -288,7 +288,7 @@ const CITIES: Record<string, CityData> = {
     name: "Townsville",
     slug: "townsville",
     pricingLocation: "cairns",
-    twoManRate: "$179/hr",
+    twoManRate: "$189/hr",
     twoManLargeRate: "$189/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$199-$359/hr",
@@ -298,7 +298,7 @@ const CITIES: Record<string, CityData> = {
     packingHref: "/packing-services-townsville",
     storageHref: "/storage-townsville",
     metaDescription:
-      "How much do removalists cost in Townsville? Local rates from $179/hr, interstate from $3,000. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost in Townsville? Local rates from $189/hr, interstate from $3,000. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Removalist costs in Townsville are similar to Cairns rates, reflecting the North Queensland market. A local 2-bedroom move in Townsville typically costs between $450 and $900, while larger homes range from $900 to $1,400. Defence force relocations, mining town moves, and seasonal demand from the dry season all play a role in Townsville moving costs. Here is a full breakdown.",
     localFactors: [
@@ -318,7 +318,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour in Townsville?",
         answer:
-          "A 2-person team with a truck starts from $179 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $199 and Sunday or public holiday rates start from $269. All rates include GST.",
+          "A 2-person team with a truck starts from $189 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $209 and Sunday or public holiday rates start from $279. All rates include GST.",
       },
       {
         question: "What is the average cost of a local move in Townsville?",

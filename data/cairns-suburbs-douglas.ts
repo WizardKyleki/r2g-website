@@ -17,7 +17,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The main access route through Craiglie runs directly off the Captain Cook Highway, which can experience heavy tourist traffic particularly in the dry season between May and October. We time truck departures from Cairns to avoid peak highway congestion and carry strapping equipment to secure loads over the winding coastal road north. Wet season moves require extra planning as afternoon rain squalls can limit visibility on the range sections of the highway approaching Northern Cairns.",
     nearbySubs: ["Port Douglas", "Oak Beach", "Mossman"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Craiglie & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Cooya Beach sits on a low coastal flat and some access tracks leading to beachfront properties can become very soft after sustained wet season rain. Our team brings high-clearance vehicles when needed and uses hand trolleys and shuttle loads to reach properties that are inaccessible to a full-size removal truck. We plan the drive from Cairns around Captain Cook Highway conditions and always carry a full weather check for the day.",
     nearbySubs: ["Mossman", "Port Douglas", "Newell"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cooya Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Moving to or from Daintree Village involves a 110km run from Cairns, including sections of narrow rainforest road past Mossman. During the wet season the roads north of Daintree can close entirely, but the village itself is generally accessible year-round via the sealed Cape Tribulation Road. We carry all essential equipment in the truck for the full round trip and schedule Daintree moves as full-day jobs to ensure the team is never rushed on the remote road home.",
     nearbySubs: ["Cape Tribulation", "Cow Bay", "Mossman"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Daintree & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Cape Tribulation moves require crossing the Daintree River on the cable ferry — a barge that carries only a handful of vehicles at a time and operates on a first-come, first-served basis. We account for potential waiting time at the ferry in every job estimate. North of the Daintree ferry, the road to Cape Tribulation is sealed but narrow with limited passing opportunities. We brief all clients on wet season road closure risks, as this road can become impassable after extreme rainfall events, and we may need to reschedule if conditions are unsafe.",
     nearbySubs: ["Daintree", "Cow Bay", "Thornton Beach"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cape Tribulation & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The 80km run up the Captain Cook Highway from Cairns to Wonga Beach passes through some of the most spectacular coastal scenery in Queensland. We plan all Wonga Beach moves as half-day or full-day jobs depending on property size, departing early from Cairns to take advantage of quieter highway conditions before tourist coaches begin their daily runs north to Port Douglas and the Daintree.",
     nearbySubs: ["Miallo", "Mossman", "Newell"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Wonga Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Getting to Newell involves turning off the Captain Cook Highway onto narrower back roads through the cane-farming landscape between Port Douglas and Mossman. These rural roads are generally well-maintained but can be affected by wet season flooding around low-lying cane paddocks. We always confirm access conditions before departure from Cairns and communicate any delays immediately.",
     nearbySubs: ["Cooya Beach", "Mossman", "Miallo"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Newell & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Miallo is accessed via rural roads running inland from the Captain Cook Highway through the Northern Cairns cane-farming belt. Cane harvesting season from June to December brings heavy cane trucks to the local roads, which can affect travel times and road surface conditions near the crushing mill. We plan around harvest schedules where possible and keep loads secure on roads shared with agricultural vehicles.",
     nearbySubs: ["Wonga Beach", "Mossman", "Newell"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Miallo & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Shannonvale sits at the southern edge of Northern Cairns, making it one of the closer rural localities to Cairns in the region at just 58km from the CBD. Despite its relatively close distance, the final approach involves rural roads off the Captain Cook Highway that can be affected by wet season runoff from the ranges behind the farming land. We factor this into all move day planning and keep clients informed of any access challenges.",
     nearbySubs: ["Craiglie", "Port Douglas", "Oak Beach"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Shannonvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Oak Beach is accessed via a turning off the Captain Cook Highway south of Port Douglas, winding down to the coast on a road that can be narrow in sections. The steep coastal terrain means some properties are best served by a smaller truck or shuttle loading from a safe flat parking area. We assess every Oak Beach property individually and plan the safest and most efficient loading approach for your specific home.",
     nearbySubs: ["Craiglie", "Port Douglas", "Shannonvale"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Oak Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Every Cow Bay move requires crossing the Daintree River cable ferry, which imposes weight and length limits on vehicles. We select appropriately sized trucks for all ferry crossings and plan our arrival at the ferry to minimise waiting time. North of the ferry, the road to Cow Bay passes through dense tropical rainforest with limited passing places. During the wet season, fallen trees and road washouts can occasionally close sections of this route, and we maintain close contact with local road authorities in the days before your scheduled move.",
     nearbySubs: ["Cape Tribulation", "Daintree", "Thornton Beach"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cow Bay & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Reaching Thornton Beach involves crossing the Daintree River on the cable ferry and continuing north through the rainforest for a further 20 minutes beyond the ferry landing. This route is breathtakingly beautiful but logistically demanding. Wet season road closures are a genuine risk — in severe events the road can close for several days. We require clients booking Thornton Beach moves to discuss wet season contingency options at the time of booking so we have a clear agreed plan if rescheduling becomes necessary due to road or ferry conditions.",
     nearbySubs: ["Cape Tribulation", "Cow Bay", "Daintree"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Thornton Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

@@ -17,7 +17,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Lota streets are quiet and tree-lined but relatively narrow, with on-street parking sometimes limiting truck access. Our drivers know the best approach routes and positioning for the area's residential streets, and we use smaller vehicles when needed to navigate tighter spots near the railway line.",
     nearbySubs: ["Manly", "Wynnum", "Manly West"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lota & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Lutwyche Road is one of Brisbane's busiest arterial roads, and parking restrictions along the commercial strip can complicate truck positioning. Our drivers are familiar with the area's loading zones, side-street access and the best times to avoid heavy traffic along the main corridor.",
     nearbySubs: ["Windsor", "Gordon Park", "Wooloowin"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lutwyche & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Lytton is controlled through port security checkpoints and industrial road networks. Our team is familiar with the area's access requirements, truck weight limits on certain roads and the best routes to navigate around the busy port traffic.",
     nearbySubs: ["Wynnum", "Hemmant", "Murarrie"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lytton & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "MacGregor's hilly terrain means many properties are built on sloping blocks with steep driveways and split-level designs. Our crew arrives with heavy-duty trolleys, ramp boards and protective runners to safely navigate multi-level access and inclined approaches.",
     nearbySubs: ["Sunnybank", "Upper Mt Gravatt", "Robertson"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "MacGregor & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mackenzie's elevated position and winding roads can present access challenges for larger trucks. Some streets have steep inclines and narrow bends, so we carefully plan truck routes and bring additional equipment to manage the terrain safely.",
     nearbySubs: ["Rochedale", "Mt Gravatt East", "Carindale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mackenzie & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Manly's narrow foreshore streets and weekend market traffic can create access challenges, particularly on Saturdays near the harbour. Our drivers know the best times and routes to position trucks efficiently and avoid the busy waterfront precinct during peak visitor periods.",
     nearbySubs: ["Manly West", "Lota", "Wynnum"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Manly & Brisbane Bayside",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Manly West's residential streets are generally wider and more accessible than the bayside foreshore areas, making it easier for larger trucks. However, some cul-de-sacs and hilly pockets require careful route planning, which our team handles as a matter of course.",
     nearbySubs: ["Manly", "Wynnum West", "Lota"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Manly West & Brisbane Bayside",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mansfield's position between Mt Gravatt and Carindale means some streets sit on hilly terrain with elevated driveways. Our team brings ramp boards and heavy-duty trolleys to manage sloped access, and we know which streets require smaller vehicles for safe navigation.",
     nearbySubs: ["Mt Gravatt East", "Wishart", "Carindale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mansfield & Brisbane South-East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "McDowall's hilly terrain and winding streets — particularly around Edinburgh Castle Road — require careful truck route planning. Our drivers are experienced with the area's cul-de-sacs, steep driveways and narrow bends, ensuring safe and efficient access to all property types.",
     nearbySubs: ["Everton Park", "Chermside West", "Bridgeman Downs"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "McDowall & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Middle Park's relatively flat terrain and well-planned street grid make it one of the easier suburbs for truck access. The main consideration is the Centenary Motorway on-ramp traffic during peak hours, which our team avoids by timing departures around congestion periods.",
     nearbySubs: ["Mt Ommaney", "Jamboree Heights", "Jindalee"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Middle Park & Brisbane South-West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parking in Milton is extremely limited, particularly on event days at Suncorp Stadium and during Park Road's peak dining hours. Our team coordinates loading zone access, manages building dock bookings and schedules moves around major events to keep your relocation stress-free.",
     nearbySubs: ["Paddington", "Petrie Terrace", "Toowong"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Milton & Brisbane Inner City",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Some Mitchelton streets, particularly those near the railway line and along the ridgeline, have narrow access and steep blocks. Our drivers know which streets accommodate larger trucks and where we need to bring smaller vehicles to ensure a safe, damage-free move.",
     nearbySubs: ["Everton Park", "Gaythorne", "Keperra", "Seven Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mitchelton & Brisbane North-West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -761,7 +761,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Morningside's narrow residential streets, on-street parking and the busy Wynnum Road corridor can make truck positioning tricky. Our drivers know the side streets, back lanes and loading spots that make inner-east moves efficient, and we coordinate with body corporates for the area's growing number of apartment complexes.",
     nearbySubs: ["Norman Park", "Bulimba", "Hawthorne"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Morningside & Brisbane Inner East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -823,7 +823,7 @@ export const batch3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moggill Road is the main arterial into the suburb and can become heavily congested during peak hours. Some properties are also accessed via unsealed or narrow rural roads. Our team plans routes carefully and selects the right truck size for your specific property access.",
     nearbySubs: ["Bellbowrie", "Pullenvale", "Kenmore"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Moggill & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

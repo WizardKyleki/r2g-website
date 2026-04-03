@@ -17,7 +17,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Trinity Park sits along the Captain Cook Highway corridor, which sees heavy traffic during morning and afternoon peaks as northern beaches commuters head into Cairns. We recommend scheduling moves outside the 7–9am and 4–6pm windows to avoid congestion on the highway and the connecting residential streets. Our team is familiar with the estate road layouts throughout the suburb and knows the best approach routes for larger removal trucks.",
     nearbySubs: ["Trinity Beach", "Smithfield", "Kewarra Beach", "Caravonica"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Trinity Park & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access to Caravonica can be limited via a small number of road entries, and the roads through the suburb are typically narrower than suburban Cairns streets. Our drivers are experienced with the area and know which truck configurations suit the tighter rural roads and the approaches to properties near the Skyrail terminal. We also account for tour bus and tourist traffic around the cableway precinct when scheduling morning moves.",
     nearbySubs: ["Smithfield", "Lake Placid", "Barron", "Smithfield Heights"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Caravonica & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Lake Placid Road serves as the main artery through the suburb and can become narrow and congested at pinch points near the river. Our drivers are familiar with the road layout and know which sections require a smaller truck or more careful manoeuvring. We also monitor river levels during the wet season, as low-lying access roads near the Barron River occasionally experience surface water after heavy rainfall.",
     nearbySubs: ["Caravonica", "Barron", "Redlynch", "Freshwater"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Lake Placid & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The road network through Barron is limited and routes through neighbouring suburbs such as Caravonica and Lake Placid are often required to reach certain properties. Our drivers have detailed knowledge of the local road layout and can identify the most efficient access route for your specific address. We recommend early starts in this area to beat the heat and any farm or rural vehicle traffic common on the quieter roads in the morning.",
     nearbySubs: ["Caravonica", "Lake Placid", "Redlynch", "Smithfield"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Barron & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Stratford's proximity to the CBD means it benefits from good road infrastructure, but Anderson Road and the connecting suburban streets can see significant school zone traffic in the morning and afternoon. We schedule moves to avoid these windows where possible, and our drivers use the quieter residential streets to access properties efficiently without contributing to congestion near the school.",
     nearbySubs: ["Aeroglen", "Freshwater", "Redlynch", "Caravonica"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Stratford & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Aeroglen's road network is simple and well-maintained due to its airport proximity, which means our trucks can generally access all properties without complication. Noise from flight paths overhead is worth noting for customers moving large, sensitive items that may require windows to be open during loading in warmer months. Our team schedules around flight frequency patterns when possible and can advise on the quietest windows of the day for open-air loading.",
     nearbySubs: ["Stratford", "Freshwater", "Cairns City", "Mooroobool"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Aeroglen & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The roads through Smithfield Heights follow the natural contours of the hillside, resulting in some winding sections with limited passing opportunities for large vehicles. We use appropriately sized trucks for properties on the narrower hillside streets and take extra care on the steeper driveway approaches. Morning slots are particularly popular in this area as sea breezes make loading conditions more comfortable before the afternoon heat builds.",
     nearbySubs: ["Smithfield", "Caravonica", "Trinity Beach", "Trinity Park"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Smithfield Heights & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -452,7 +452,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access to Buchan Point is primarily via the Captain Cook Highway, which carries tourist and freight traffic throughout the day. Our drivers are familiar with the highway turnoffs and the quieter local roads that service individual properties in the area. We recommend early morning moves to take advantage of lighter highway traffic and cooler beach conditions before the tourist influx that typically builds from mid-morning onwards.",
     nearbySubs: ["Palm Cove", "Ellis Beach", "Trinity Beach", "Clifton Beach"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Buchan Point & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -514,7 +514,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The extended travel distance from Cairns means Wangetti moves require careful logistics planning to ensure efficiency and cost-effectiveness. Our team factors travel time into all quotes for properties this far north and schedules moves to avoid the highway tourist traffic that peaks on weekends and during school holidays. We are experienced with moves to remote northern beaches communities and can advise on the best approach for your specific property and circumstances.",
     nearbySubs: ["Ellis Beach", "Palm Cove", "Buchan Point", "Port Douglas"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Wangetti & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -576,7 +576,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Ellis Beach sits in a dramatic coastal landscape where the ranges descend steeply to the sea, creating a narrow strip of habitable land along the shoreline. The Captain Cook Highway passes through the area and is the only practical access route for removal trucks. Our drivers are experienced on this section of the highway and are familiar with the turnoffs and local roads that serve individual residential properties in the community.",
     nearbySubs: ["Palm Cove", "Buchan Point", "Wangetti", "Clifton Beach"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Ellis Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

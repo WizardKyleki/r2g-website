@@ -17,7 +17,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Street parking along Sandgate's heritage shopping strip can be limited, and some bayside streets have council parking restrictions during market days and weekends. Our drivers know the best access routes and quieter side streets to position trucks close to your property without disrupting the neighbourhood.",
     nearbySubs: ["Shorncliffe", "Brighton", "Deagon"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sandgate & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Seven Hills has winding, narrow streets with limited on-street parking due to the hilly topography. Some properties are accessed via long driveways or steep paths from the road. Our team brings trolleys and ramp boards to manage elevation changes efficiently and safely.",
     nearbySubs: ["The Gap", "Mitchelton", "Stafford"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Seven Hills & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Some Sherwood streets near the river are prone to flooding during major weather events, and several properties have limited truck access due to narrow lanes and heritage street trees. Our drivers are familiar with the best approach routes and always check flood history when planning riverside moves.",
     nearbySubs: ["Graceville", "Corinda", "Chelmer"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sherwood & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "While most Sinnamon Park streets are wide and accessible, some properties back onto bushland reserves with limited rear access. The Centenary Motorway provides excellent connectivity but can be congested during peak hours. We plan our routes and timing to avoid motorway bottlenecks.",
     nearbySubs: ["Westlake", "Mt Ommaney", "Jindalee", "Seventeen Mile Rocks"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sinnamon Park & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "South Brisbane's dense urban layout means strict loading dock schedules, limited street parking and time-restricted moving windows in most apartment complexes. One-way streets and heavy pedestrian traffic around South Bank add complexity. We coordinate with building managers well in advance to ensure smooth, compliant moves.",
     nearbySubs: ["West End", "Woolloongabba", "Brisbane CBD"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "South Brisbane & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Spring Hill's steep gradients, one-way streets and council parking meters make truck positioning a challenge. Many heritage terraces have narrow front entries and no off-street parking. Our drivers know the suburb's street layout intimately and plan access carefully to avoid fines and delays.",
     nearbySubs: ["Brisbane CBD", "Fortitude Valley", "Petrie Terrace"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Spring Hill & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Traffic congestion around UQ during semester is significant, and many St Lucia streets have limited parking due to student vehicles. Some riverside properties have steep block access or long driveways. Our team schedules moves outside peak university hours and brings the right equipment for challenging terrain.",
     nearbySubs: ["Toowong", "Indooroopilly", "Taringa"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "St Lucia & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Stafford's mix of old and new housing means street widths and access vary significantly. Some older streets are narrow with no footpaths, while newer developments have dedicated visitor parking and wider road frontages. Our drivers assess each property's access requirements before moving day.",
     nearbySubs: ["Stafford Heights", "Kedron", "Chermside", "Seven Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Stafford & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The elevated terrain in Stafford Heights means many driveways are steep or have sharp angles at the street. Some older properties have narrow side access and large backyards that can only be reached through the house. Our team is experienced in planning efficient carry routes for these challenging layouts.",
     nearbySubs: ["Stafford", "Everton Park", "McDowall"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Stafford Heights & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Stretton's cul-de-sac layout means some streets have limited turning space for large trucks. The suburb's proximity to Karawatha Forest also means occasional wildlife on driveways at dawn. Our drivers are familiar with the estate layout and know which streets accommodate our larger vehicles.",
     nearbySubs: ["Calamvale", "Sunnybank Hills", "Drewvale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Stretton & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Several Sumner streets have limited through-access and some riverside properties sit on flood-prone land. The suburb's quiet, winding roads can be narrow in places, requiring careful truck manoeuvring. Our team checks flood maps and property access before every Sumner move to ensure a smooth relocation.",
     nearbySubs: ["Riverhills", "Middle Park", "Westlake"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sumner & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const batch4Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Sunnybank Hills has a mix of wide estate streets and narrower older roads, with some properties accessed via shared driveways or rear laneways. During school hours, traffic around the suburb's popular schools can slow access. Our team plans routes and timing to work around these local conditions.",
     nearbySubs: ["Sunnybank", "Stretton", "Calamvale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sunnybank Hills & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

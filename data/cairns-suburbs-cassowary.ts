@@ -17,7 +17,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Bruce Highway turnoff at El Arish adds roughly 20 minutes of coastal road driving to reach Mission Beach. Our team factors this into scheduling and departs Cairns early to avoid peak-hour delays near Innisfail. Cyclone season brings the risk of flooding on low-lying access roads between November and April — we monitor road conditions closely and will reschedule when the Southern Suburbs road network is unsafe.",
     nearbySubs: ["Wongaling Beach", "Bingil Bay", "El Arish", "Tully"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mission Beach & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Bruce Highway runs through the centre of Tully and is the main artery connecting the town to Cairns, roughly 150km to the north. Our drivers know the seasonal conditions on this stretch — including the risk of cane-truck traffic during harvest season (June to November) — and plan departure times accordingly. Wet season flooding on the flats south of town can occasionally cut off Cardwell-direction routes, which we monitor closely for moves in that direction.",
     nearbySubs: ["Mission Beach", "El Arish", "Cardwell", "Tully Heads"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Tully & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "At 175km from Cairns via the Bruce Highway, Cardwell is our southernmost regular service point in the region. Our team departs Cairns early to ensure a prompt arrival and plans the full day around the return drive. The stretch of Bruce Highway through the Cardwell Range is steep and winding — we use the right truck size for both the load and the road, ensuring safe transit through the range.",
     nearbySubs: ["Ingham", "Tully", "Tully Heads"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cardwell & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "At 220km from Cairns, Ingham is the furthest point we regularly service on the Southern Suburbs. Our team treats these moves as full-day operations, departing Cairns before dawn and working efficiently to complete loading and delivery within a single day. The Bruce Highway is the only practical route, and we schedule around the cane harvest season (June to November) when heavy haulage traffic on this corridor is at its peak.",
     nearbySubs: ["Cardwell", "Tully"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Ingham & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Bruce Highway passes close to Silkwood and is the main route for Cairns-bound moves, approximately 125km north. During banana harvest periods, the local road network sees increased small-truck traffic moving fruit between packing sheds and the highway. Our team works around these patterns and communicates clearly on move-day timing to keep your relocation on schedule through any delays.",
     nearbySubs: ["Mourilyan", "El Arish", "Mission Beach", "South Johnstone"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Silkwood & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mourilyan sits on the Kennedy Highway junction near Innisfail, approximately 95km south of Cairns on the Bruce Highway — placing it within a comfortable single-day move range. The local road network around the harbour precinct involves some narrow sections and industrial vehicle traffic related to the crushing season. We schedule Mourilyan moves with these local conditions in mind and time arrivals to avoid peak harbour-vehicle periods.",
     nearbySubs: ["South Johnstone", "Silkwood", "Mission Beach"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mourilyan & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "South Johnstone sits just inland from the Bruce Highway near Innisfail, making it approximately 100km from Cairns and an efficient move destination. The local road network connects the community to the main highway via flat cane-country roads that are generally easy to navigate but can flood quickly when the Johnstone River rises during the wet season. We track river levels and road closures before every Southern Suburbs move.",
     nearbySubs: ["Mourilyan", "Silkwood", "El Arish"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "South Johnstone & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -452,7 +452,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "El Arish's position on the Bruce Highway junction makes it a practical access point for removals heading deeper into the Mission Beach corridor. Our team uses El Arish as a reference point on Southern Suburbs moves and knows the surrounding road network well, including which roads become inaccessible during wet season flooding on the adjacent agricultural flats. The 130km Bruce Highway run from Cairns is straightforward for a well-planned early-start move.",
     nearbySubs: ["Mission Beach", "Silkwood", "Tully", "Bingil Bay"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "El Arish & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -514,7 +514,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Kurrimine Beach is accessed via a sealed road from the Bruce Highway, adding approximately 15 minutes to the drive from Cairns — 120km away. The coastal approach road passes through cane farming country and can flood at creek crossing points during intense wet season rain. Our team monitors these conditions before every Southern Suburbs coastal move and plans arrival windows that avoid the worst of the afternoon storm season.",
     nearbySubs: ["El Arish", "Mission Beach", "Silkwood", "Bingil Bay"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Kurrimine Beach & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -576,7 +576,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Bingil Bay is reached via the Mission Beach road from the Bruce Highway at El Arish, approximately 135km from Cairns. The entire coastal corridor through the Mission Beach villages is a narrow, winding road through dense vegetation — unsuitable for large articulated trucks. We use appropriately-sized vehicles for all Bingil Bay moves and plan vehicle access to each property before the move day to avoid any on-the-day surprises.",
     nearbySubs: ["Mission Beach", "Wongaling Beach", "El Arish"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bingil Bay & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -638,7 +638,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Tully Heads sits approximately 155km from Cairns, adding a coastal access road beyond Tully to the Bruce Highway travel time. This access road passes through low-lying cane flats that are particularly vulnerable to flooding when the Tully River is running high during the wet season. Our team tracks Tully River conditions before every move to this location and maintains clear communication with clients if weather conditions require rescheduling.",
     nearbySubs: ["Tully", "Mission Beach", "Cardwell"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Tully Heads & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -700,7 +700,7 @@ export const cairnsCassowarySuburbs: CairnsSuburb[] = [
     uniquePara3:
       "As the most central of the Mission Beach villages, Wongaling Beach is approximately 142km from Cairns via the Bruce Highway and Mission Beach Road. The village sits within one of Australia's most active cyclone impact zones — Cyclone Yasi crossed directly over this area in 2011 — and residents take cyclone season seriously. We monitor Bureau of Meteorology cyclone watches closely for every wet-season move along the Southern Suburbs.",
     nearbySubs: ["Mission Beach", "Bingil Bay", "El Arish", "Tully"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Wongaling Beach & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

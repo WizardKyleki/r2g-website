@@ -38,7 +38,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Sunnybank properties share driveways or have compact garages typical of the area's medium-density developments. Our drivers are skilled at positioning trucks in tight spaces, and our team uses furniture trolleys and protective runners to navigate narrow paths between neighbouring properties without causing damage.",
     nearbySubs: ["Mt Gravatt", "Carindale", "Annerley", "MacGregor"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sunnybank & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -100,7 +100,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The hilly terrain around Carindale and neighbouring Carina Heights means many homes are split-level or built on elevated blocks with steep driveways. Our team arrives with the right equipment — including heavy-duty dollies and ramp boards — to handle multi-level access safely and efficiently.",
     nearbySubs: ["Coorparoo", "Mt Gravatt", "Wynnum", "Mackenzie"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Carindale & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -162,7 +162,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Chermside's booming apartment market means many moves involve building management rules — loading dock bookings, lift reservations and restricted access hours. We coordinate with body corporates regularly and know how to plan around these requirements so your move runs smoothly.",
     nearbySubs: ["Aspley", "Indooroopilly", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Chermside & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -224,7 +224,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Logan's rapid growth means many of our moves here involve brand-new homes in estates like Yarrabilba, Flagstone and Park Ridge. We're experienced with builder handover schedules, new-build access constraints and the care required when moving into homes with freshly painted walls and new flooring.",
     nearbySubs: ["Sunnybank", "Springfield", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Logan City & South Brisbane",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -286,7 +286,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Springfield Lakes, Brookwater and Augustine Heights each have their own estate rules around truck access, parking and moving hours. We've moved hundreds of families into these communities and know the specific requirements for each, saving you the hassle of figuring it out yourself.",
     nearbySubs: ["Ipswich", "Logan", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Springfield & Western Corridor",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -348,7 +348,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ipswich's character Queenslanders present unique challenges — steep external stairs, narrow front doors and low-clearance verandahs. Our team brings stair-climbing trolleys, furniture tilting straps and protective padding specifically for these heritage moves, ensuring your home and belongings are both protected.",
     nearbySubs: ["Springfield", "Logan", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ipswich & Western Corridor",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -410,7 +410,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Salt air is a real consideration when moving on the Redcliffe Peninsula. We use quality furniture blankets and stretch wrap to protect timber, leather and metal items from moisture during transit. Our team also takes care with outdoor furniture that may be more fragile due to long-term coastal exposure.",
     nearbySubs: ["Caboolture", "Aspley", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Redcliffe & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -472,7 +472,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Caboolture's semi-rural outskirts around Morayfield, Burpengary and Narangba include properties on unsealed driveways and larger acreage blocks. Our team brings the right trucks for rural access and plans routes carefully to avoid any issues with soft ground or narrow rural lanes.",
     nearbySubs: ["Redcliffe", "Aspley", "Brisbane City", "Caboolture South", "Bracalba", "Elimbah", "Meldale", "Bellmere", "Godwin Beach", "Moorina", "Moodlu"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Caboolture & Moreton Bay North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -534,7 +534,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mt Gravatt's elevated position means many homes are accessed via steep, winding driveways that require careful truck placement. Our experienced drivers assess access before unloading, and the team uses stair-climbing trolleys and ramp boards to safely navigate the split-level layouts common throughout the suburb.",
     nearbySubs: ["Sunnybank", "Carindale", "Coorparoo"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mt Gravatt & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -596,7 +596,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Indooroopilly's leafy, established streets mean many properties are shaded by mature trees with overhanging branches. Our drivers are skilled at positioning trucks to avoid low branches, and we take care to protect garden beds and landscaping during the move — your home's kerb appeal matters to us.",
     nearbySubs: ["Toowong", "Kenmore", "Paddington", "Fig Tree Pocket"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Indooroopilly & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -658,7 +658,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parking is notoriously tight in Paddington, with many homes having no off-street parking at all. Our team is experienced at securing street access, using smaller vehicles when needed, and carrying items longer distances from truck to front door. We plan for these challenges so you don't have to stress about them.",
     nearbySubs: ["Toowong", "Indooroopilly", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Paddington & Inner West Brisbane",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -741,7 +741,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Toowong Village and the surrounding apartment towers mean a significant number of our moves here involve high-rise buildings with specific body corporate rules. We coordinate lift bookings, floor protection requirements and loading dock schedules as part of our service — it's all included in the quote.",
     nearbySubs: ["Paddington", "Indooroopilly", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Toowong & Inner West Brisbane",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -803,7 +803,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Bulimba's tree-lined streets and heritage properties require a careful approach. Many homes here feature polished timber floors, designer kitchens and high-value artwork. Our team uses felt pads, floor runners and custom wrapping to protect every surface, ensuring your premium home looks exactly the same after the move.",
     nearbySubs: ["Coorparoo", "Wynnum", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bulimba & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -865,7 +865,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wynnum and neighbouring Manly are known for their bayside Queenslanders, many of which sit on elevated stumps with external stairs and wraparound verandahs. Our team is experienced with these classic Queensland homes and brings the right equipment to navigate stairs safely while protecting both the property and your furniture.",
     nearbySubs: ["Carindale", "Bulimba", "Cleveland"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wynnum & Brisbane Bayside",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -927,7 +927,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Cleveland's position as the Redlands hub means we often help families relocate between Cleveland, Victoria Point, Thornlands and the bay islands via the Toondah Harbour ferry. We coordinate moves that involve ferry schedules and island logistics, providing a seamless experience for bayside and island residents.",
     nearbySubs: ["Wynnum", "Carindale", "Brisbane City", "Point Lookout"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Cleveland & Redlands",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -989,7 +989,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kenmore and Kenmore Hills properties often back onto bushland reserves, which means some homes have long driveways, steep access and limited turning areas for larger trucks. We assess access before the move and select the right vehicle to ensure a smooth, damage-free relocation every time.",
     nearbySubs: ["Indooroopilly", "Toowong", "Brisbane City", "Fig Tree Pocket"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kenmore & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1051,7 +1051,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Aspley's mix of 1970s-80s lowset brick homes and more recent townhouse infill means our team encounters a wide range of access scenarios — from straightforward single-level homes to properties with narrow side gates and rear-access garages. We come prepared for every layout and make the process seamless.",
     nearbySubs: ["Chermside", "Redcliffe", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Aspley & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1113,7 +1113,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Coorparoo's popularity has brought a wave of new apartment and townhouse developments alongside its heritage homes. Our team is equally comfortable navigating a loading dock in a modern complex as we are carrying a sofa down the stairs of a century-old Queenslander — versatility is key in this suburb.",
     nearbySubs: ["Bulimba", "Annerley", "Carindale", "Stones Corner"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Coorparoo & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1175,7 +1175,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Annerley's Ipswich Road corridor is one of Brisbane's busiest, which means traffic management and truck positioning require local knowledge. Our team plans arrival times and parking locations to minimise disruption and maximise efficiency — especially for properties on or near the main road.",
     nearbySubs: ["Coorparoo", "Sunnybank", "Brisbane City"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Annerley & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1237,7 +1237,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Because our depot is right here in Archerfield, moves in the local area benefit from virtually zero travel time. This means more of your booking is spent on actual moving — not on us driving to and from our base. It's one of the reasons we offer such competitive rates for Brisbane's south side.",
     nearbySubs: ["Sunnybank", "Annerley", "Logan"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Archerfield & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1299,7 +1299,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "CBD apartment buildings often have strict moving windows — typically weekday business hours only — and require insurance certificates, floor protection and lift padding. We handle all of this as part of our service, coordinating directly with your building manager so you don't have to chase paperwork on moving day.",
     nearbySubs: ["Paddington", "Bulimba", "Toowong"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Brisbane CBD & Inner City",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1361,7 +1361,7 @@ const coreSuburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The Redlands is a diverse region where a morning move might take us from a modern estate in Thornlands to a rural acreage block in Sheldon, then to a waterfront property in Raby Bay. Our versatile fleet and experienced team handle every environment with equal confidence, bringing the right truck and equipment for each unique property.",
     nearbySubs: ["Cleveland", "Wynnum", "Carindale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Redlands Coast & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

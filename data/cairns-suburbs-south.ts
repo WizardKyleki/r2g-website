@@ -17,7 +17,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Bentley Park's newer estates are designed with removalist-friendly access in mind — wide streets, level blocks and double driveways make most moves here among our smoothest. The suburb's proximity to Edmonton means we can often combine runs and keep costs down for customers. Traffic on the Bruce Highway heading north to Cairns CBD can build from around 7:30am, so a 9am start from Bentley Park usually gets you moving before the congestion hits.",
     nearbySubs: ["Edmonton", "Mount Peter", "Wrights Creek"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bentley Park & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mount Sheridan's elevated sections around the shopping centre precinct and on the western ridge can present steep driveway access that requires careful vehicle positioning. Our experienced drivers know these streets well and will always assess access before reversing a large truck down a slope. For properties with very steep or narrow approaches, we bring a smaller shuttle vehicle to transfer items to the main truck at the street — a safe, efficient method we use regularly in this part of Southern Suburbs.",
     nearbySubs: ["White Rock", "Bayview Heights", "Edmonton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mount Sheridan & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "White Rock borders the range foothills and some properties on the eastern side back onto steep terrain, requiring careful furniture handling on split-level layouts. Streets closest to the Bruce Highway can experience road noise during loading, so we coordinate with residents to park the truck in quieter side-street positions when possible. White Rock's proximity to Cairns City means our travel time is minimal, making it one of the more cost-effective areas we service in the south.",
     nearbySubs: ["Mount Sheridan", "Bayview Heights", "Cairns City"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "White Rock & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The elevated streets of Bayview Heights mean some properties have long driveways with steep final approaches, and a number of homes sit on acreage-style blocks with separate garages and storage buildings. Our drivers assess each approach before pulling in, and we're equipped with shuttle vehicles for the steepest access situations. The views from Bayview Heights are stunning, but the terrain demands respect — our crew takes the time to plan every lift and carry safely so your furniture arrives without incident.",
     nearbySubs: ["White Rock", "Mount Sheridan", "Cairns City"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bayview Heights & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Aloomba properties often sit back from the road along unsealed driveways that can become muddy and soft after wet-season rain. We check road and driveway conditions before every Aloomba run and may use a smaller shuttle vehicle to transport items from your door to the main truck at the road's edge when conditions require it. The surrounding wetlands and cane country are beautiful, but the access requires experience — our team has serviced rural FNQ properties for over a decade.",
     nearbySubs: ["Gordonvale", "Edmonton", "Cairns City"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Aloomba & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Goldsborough sits close to the Goldsborough Valley National Park, and properties in the area are accessed via winding roads that pass through dense rainforest. Our drivers are experienced with tight bends, creek crossings and unsealed road surfaces that are common on approaches to Goldsborough properties. We use appropriately sized vehicles for each property and always conduct a route assessment before confirming arrival plans. The beauty of the location is unmatched, but it demands a removalist team that knows their limits and plans ahead.",
     nearbySubs: ["Gordonvale", "Babinda", "Edmonton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Goldsborough & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mount Peter's growth-area status means we often encounter active construction zones alongside established streets on the same run. Our drivers are experienced navigating new estate road networks that are still being finalised, and we confirm access routes for each booking to avoid any staging-area closures or temporary road changes. Moving into a brand new home is exciting — our team takes extra care to protect freshly finished floors and newly painted walls during every Mount Peter move.",
     nearbySubs: ["Edmonton", "Bentley Park", "Wrights Creek"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mount Peter & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -452,7 +452,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Wrights Creek sits at the western edge of the Cairns southern corridor and some properties are accessed via unsealed roads or long private driveways that can become soft in the wet season. We assess access routes before every Wrights Creek job and are equipped with shuttle vehicles for properties where the main road surface would be damaged by a fully loaded removal truck. The semi-rural setting is peaceful, but it demands the kind of practical experience our team brings to every move.",
     nearbySubs: ["Edmonton", "Bentley Park", "Mount Peter"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Wrights Creek & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -514,7 +514,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Little Mulgrave properties sit along the Mulgrave River corridor and some are accessed via the Gillies Range Road or unsealed side tracks that pass through dense cane and rainforest vegetation. Wet-season flooding can affect low-lying properties in this valley, and we always check road access and water levels before committing to a move date in the November-to-April period. The Mulgrave Valley is one of the most beautiful parts of the Cairns hinterland — moving here or away requires a team that knows and respects the local environment.",
     nearbySubs: ["Gordonvale", "Aloomba", "Babinda"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Little Mulgrave & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -576,7 +576,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Deeral sits near the Mulgrave River floodplain, and some properties in the area can be cut off during major wet-season flooding events. Our team monitors road access closely in the November-to-April period and will always discuss contingency plans with customers when booking wet-season moves in the Deeral area. The Bruce Highway provides reliable access for most of the journey, but the final rural roads into Deeral require local knowledge — something our FNQ-experienced drivers have in abundance.",
     nearbySubs: ["Gordonvale", "Aloomba", "Little Mulgrave"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Deeral & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -638,7 +638,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mirriwinni is located about 55km south of Cairns on the Bruce Highway, placing it in one of the wettest parts of Australia's tropics. Wet-season moves require careful waterproofing of all loads and good planning around afternoon storm activity that is common in the region. Our team always wraps loads to a high standard for any Mirriwinni run, and we time our highway travel to arrive and depart before the typical 2-4pm afternoon storm window. The remoteness of Mirriwinni means preparation is everything — our experienced drivers know this stretch of the Bruce Highway well and plan every run accordingly.",
     nearbySubs: ["Babinda", "Deeral", "Little Mulgrave"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mirriwinni & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

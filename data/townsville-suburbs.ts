@@ -26,7 +26,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Traffic through the city is manageable most of the year, but Flinders Street and Stanley Street get clogged during morning and afternoon peaks. Our drivers avoid the Flinders Street East bottleneck near the Brewery by using Sturt Street or looping through Palmer Street to approach from the south side. Loading zones on Flinders Street are time-limited and competitive, so for apartment moves we coordinate with building managers for basement or rear access wherever possible. The one-way system around the mall precinct catches out-of-towners off guard, but our blokes know every back lane and service entrance in the CBD.",
     nearbySubs: ["South Townsville", "North Ward", "Railway Estate"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Townsville City & CBD",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -109,7 +109,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Street parking in South Townsville is reasonable on weekdays but gets chaotic on Friday and Saturday nights when the Palmer Street crowd arrives. For residential moves, weekday mornings are the clear winner. The streets are narrow — most were laid out a century ago for horse and cart — so we run a medium truck rather than a big rig for most South Townsville jobs. Access from the Stuart Drive side via Hubert Street works well and avoids the Palmer Street congestion entirely. The low-lying sections near Ross Creek can pool water after heavy rain, so during the wet season we keep an eye on the weather and reschedule rather than risk getting bogged.",
     nearbySubs: ["Townsville City", "Railway Estate", "West End"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "South Townsville & CBD Fringe",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -192,7 +192,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "The Strand gets packed on weekends and public holidays, so Saturday moves in the beachfront streets need an early start. Street parking is usually fine on the residential streets off Gregory, but The Strand-facing properties can be tricky — especially during Townsville events like the Supercars. Our trucks approach via Eyre Street or Paxton Street to avoid The Strand congestion. The Gregory Street strip itself has timed parking that is not ideal for a truck sitting there all morning, so we position on side streets. Road surfaces are good, most driveways are solid, and the suburb is flat to gently sloping — no major gradient challenges like Castle Hill next door.",
     nearbySubs: ["Castle Hill", "Belgian Gardens", "Townsville City"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "North Ward & The Strand",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -275,7 +275,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Access is the defining challenge for Castle Hill moves. The main route up is via Stanley Street, which is steep, winding and has limited passing room in sections. Large trucks cannot safely navigate the upper streets, so we use medium rigid trucks and sometimes run shuttle loads for the highest properties. Street parking is scarce on the narrower sections — there are spots where the truck blocks the entire road, so we work quickly and position a spotter. Turning circles at the top are tight, and some dead-end streets require reversing a significant distance. Our drivers do a pre-move site visit for any Castle Hill property above the mid-level to plan the vehicle approach and assess whether we need additional crew for the stair carry.",
     nearbySubs: ["North Ward", "Belgian Gardens", "West End"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Castle Hill & Townsville Central",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -358,7 +358,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Access in Belgian Gardens is generally good — streets are wide enough for a large truck on most routes, and the flat eastern side near The Strand is straightforward. The western streets climbing toward Castle Hill get tighter and steeper, and some dead-end cul-de-sacs require careful reversing. We approach from The Strand end via the Esplanade for the flatter properties and from Gregory Street for the hillside ones. Street parking is rarely an issue outside of Strand event days. The main watch-out is the overhanging mango and poinciana trees that line several streets — low branches can catch the top of a truck if the driver is not paying attention, and our blokes know which streets to approach with care.",
     nearbySubs: ["North Ward", "Castle Hill", "Rowes Bay"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Belgian Gardens & The Strand Precinct",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -441,7 +441,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "The grid layout of Railway Estate means straight streets with good truck access — no winding cul-de-sacs or steep hills. The challenge is width. Street parking on both sides can reduce the available road to a single lane, and some of the older streets do not have kerbing. We run medium trucks as standard for Railway Estate and park on the same side as the property to minimise carry distance. The railway corridor along the western edge generates occasional noise but does not affect access. During heavy rain, the low-lying sections near Ross Creek can flood rapidly — we monitor forecasts closely during the wet season and reschedule when creek levels are rising.",
     nearbySubs: ["South Townsville", "Townsville City", "West End"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Railway Estate & Inner Townsville",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -524,7 +524,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "West End streets are quiet and access is generally straightforward for a medium truck. The suburb is small enough that there are only a handful of main routes in and out — most moves use Ingham Road or come through from Railway Estate via the cross streets. The western edge near Castle Hill rises gently, but nothing like the steep grades on the hill itself. Street parking is rarely an issue given the low traffic volumes. The main access consideration is the under-house areas on raised cottages — low-clearance stumps mean we sometimes need to get creative extracting washing machines and stored items from tight spaces. During the wet season, the lower sections can hold water after heavy rain, but West End fares better than Railway Estate for drainage overall.",
     nearbySubs: ["Railway Estate", "South Townsville", "Castle Hill"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "West End & Inner Townsville",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -607,7 +607,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Rowes Bay has excellent truck access. The streets are wide and well-maintained with good turning circles at the end of cul-de-sacs. There is no through traffic to speak of — the suburb dead-ends at the bay, so our truck is usually the only large vehicle on the street. The approach from The Strand via the roundabout at the northern end is straightforward, and there is an alternative access from Pallarenda Road. Driveways are typically wide enough to back the truck right up to the garage, which speeds up loading significantly. The only seasonal consideration is stinger season — the foreshore paths and bay beach attract box jellyfish from November to May, which does not affect the move directly but is worth knowing if you are bringing kids along on moving day.",
     nearbySubs: ["Belgian Gardens", "North Ward", "Pallarenda"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Rowes Bay & Northern Foreshore",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -690,7 +690,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "There is one road in and one road out — Pallarenda Road. This means no alternative route if there is a tree down or road work, so we check conditions before heading out on moving day. The road is well-maintained and handles a large truck without issues. Within the suburb, streets are quiet with very little traffic. Most driveways are wide enough for truck access, and turning space is adequate at the road ends. The distance from the CBD adds about 15 minutes to the drive compared to a North Ward or Belgian Gardens move, which we factor into the quote. During cyclone season, Pallarenda is exposed and can cop storm surge — residents need to plan for early evacuation, and we recommend having an emergency plan for your belongings if you live on the low-lying foreshore blocks.",
     nearbySubs: ["Rowes Bay", "Belgian Gardens", "North Ward"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Pallarenda & Northern Peninsula",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -773,7 +773,7 @@ const coreSuburbs: TownsvilleSuburb[] = [
     uniquePara3:
       "Garbutt is flat, the streets are wide, and there is plenty of room for truck access and parking. Ingham Road is the main corridor — it connects Garbutt to the CBD in one direction and to Aitkenvale and the Stuart Drive bypass in the other. Traffic on Ingham Road builds during peaks but is manageable. The cross streets within the suburb are quiet and residential with no access challenges. Airport traffic from the adjacent terminal creates occasional congestion on the approach roads, but the residential streets are well clear of that. The RAAF base side of Garbutt has some restricted access areas, but the residential sections are fully open. Overall, Garbutt is one of the easiest suburbs in Townsville for a removal truck — flat ground, wide roads, simple driveways.",
     nearbySubs: ["West End", "Railway Estate", "Hermit Park"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Garbutt & Airport Precinct",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

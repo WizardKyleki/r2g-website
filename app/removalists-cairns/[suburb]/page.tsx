@@ -490,7 +490,7 @@ export default async function RemovalistsSuburbPage({
             <p className="text-gray-600 text-lg">Transparent rates. No hidden fees. No surprises.</p>
           </div>
 
-          <PricingTable />
+          <PricingTable location="cairns" />
 
           <div className="max-w-3xl mx-auto mt-12">
             <h3 className="text-xl font-black text-[#1A1A1A] mb-6 text-center">

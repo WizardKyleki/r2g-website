@@ -18,7 +18,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Parking is notoriously tight throughout New Farm, particularly along Brunswick Street and near the Powerhouse. Our drivers know the quieter side streets and loading zones, and we regularly apply for council permits to ensure our trucks can park close to your front door on moving day.",
     nearbySubs: ["Teneriffe", "Fortitude Valley", "Newstead"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "New Farm & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Breakfast Creek Road and the surrounding arterial roads carry heavy traffic, especially during peak hours. Our crew schedules Newstead moves to avoid morning and afternoon rush periods, and we always confirm loading dock times and key fob access with building managers before arrival.",
     nearbySubs: ["New Farm", "Fortitude Valley", "Bowen Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Newstead & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "On-street parking in Teneriffe is very limited, particularly along Vernon Terrace and near the Teneriffe ferry terminal. Our drivers know the best temporary loading areas and we coordinate closely with body corporates to secure loading dock access and avoid weekend brunch traffic.",
     nearbySubs: ["New Farm", "Newstead", "Fortitude Valley"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Teneriffe & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "West End's narrow one-way streets, weekend market closures around Davies Park and heavy foot traffic along Boundary Street create unique moving challenges. Our team plans routes to avoid Saturday market road closures and knows which side streets offer the best temporary truck access.",
     nearbySubs: ["South Brisbane", "Highgate Hill", "Woolloongabba"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "West End & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Game-day traffic around the Gabba creates major disruptions on Stanley Street and surrounding roads. Our crew checks the events calendar before every Woolloongabba move and plans alternative routes via Vulture Street or Logan Road to avoid delays and parking restrictions.",
     nearbySubs: ["East Brisbane", "Kangaroo Point", "West End", "Stones Corner"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Woolloongabba & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Petrie Terrace streets are steep, narrow and often have restricted parking due to Suncorp Stadium event clearways. Our team is experienced with the one-way system around Given Terrace and Caxton Street, and we always confirm whether an event-day clearway will affect truck access.",
     nearbySubs: ["Paddington", "Milton", "Spring Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Petrie Terrace & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Red Hill's winding streets follow the contour of the ridgeline, creating sharp bends, limited visibility and very restricted on-street parking. Our drivers bring smaller vehicles when needed and use ramp boards and stair trolleys to tackle the steep block access that is typical throughout the suburb.",
     nearbySubs: ["Paddington", "Petrie Terrace", "Kelvin Grove"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Red Hill & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -454,7 +454,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Hamilton Road and Webster Road carry heavy traffic during peak hours, and some internal streets have narrow verges with overhanging trees. Our crew plans access routes to avoid the Westfield Chermside traffic congestion and positions trucks to maximise loading efficiency on quieter residential streets.",
     nearbySubs: ["Chermside", "Stafford Heights", "Kedron"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Chermside West & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -516,7 +516,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Sandgate Road is the main thoroughfare and carries significant traffic along with bus routes, making access to properties on or near this road tricky during peak times. Our team uses the quieter side streets parallel to Sandgate Road and schedules Clayfield moves for off-peak windows when possible.",
     nearbySubs: ["Ascot", "Hendra", "Hamilton"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Clayfield & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -578,7 +578,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Gaythorne's streets are generally quiet but some properties back onto the Enoggera Creek corridor, which can affect access after heavy rain. Our team checks weather conditions before every move and knows which streets to avoid during wet weather to keep the job running safely and on time.",
     nearbySubs: ["Mitchelton", "Enoggera", "Newmarket"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Gaythorne & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -640,7 +640,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kalinga's tree-canopy streets are quiet but can be narrow with cars parked on both sides. Some properties have long front paths through established gardens, requiring careful furniture navigation. Our team uses protective walkway covers and trolleys to move items efficiently without damaging garden beds or pathways.",
     nearbySubs: ["Wooloowin", "Clayfield", "Eagle Junction"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kalinga & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -702,7 +702,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Enoggera Road is the main route through Newmarket and carries heavy commuter traffic. Side streets near the train station can be congested with parked commuter cars during weekdays. Our crew times Newmarket moves to avoid peak-hour traffic and knows where to find legal truck parking near the station precinct.",
     nearbySubs: ["Wilston", "Ashgrove", "Gaythorne"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Newmarket & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -764,7 +764,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Beams Road and Nudgee Road carry steady truck and commuter traffic, and the rail line divides the suburb. Some residential pockets are accessed via narrow streets close to the rail corridor. Our drivers plan Northgate moves using the quieter internal roads and avoid the busy arterials during peak times.",
     nearbySubs: ["Virginia", "Nundah", "Banyo"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Northgate & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -826,7 +826,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Nudgee Road is the main access route and can be slow during commuter peaks, especially near the Gateway Motorway interchange. Some properties are on unsealed or semi-rural roads. Our team brings appropriate vehicles for varying access conditions and plans routes to avoid motorway on-ramp congestion.",
     nearbySubs: ["Banyo", "Virginia", "Nudgee Beach"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Nudgee & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -888,7 +888,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Nudgee Beach Road is the single access road in and out of the suburb, and it is narrow in places with limited turnaround space. Our drivers are familiar with this route and plan arrival and departure times to avoid meeting other large vehicles on the narrow stretch near the beach.",
     nearbySubs: ["Nudgee", "Banyo", "Boondall"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Nudgee Beach & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -950,7 +950,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Sandgate Road runs through the heart of Nundah and is one of Brisbane's busiest north-south corridors. The Nundah Village area is also popular on weekends, creating congestion around the main strip. Our drivers use the quieter back streets and time moves to avoid the worst of the Sandgate Road traffic.",
     nearbySubs: ["Wavell Heights", "Northgate", "Clayfield"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Nundah & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1012,7 +1012,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Pinkenba's residential streets is via Eagle Farm Road and Kingsford Smith Drive, both of which carry heavy freight traffic. Our drivers are experienced with the industrial road network around the airport precinct and know how to access residential pockets safely alongside truck and container traffic.",
     nearbySubs: ["Eagle Farm", "Myrtletown", "Hamilton", "Brisbane Airport"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Pinkenba & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1074,7 +1074,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Shorncliffe's streets are quiet but many properties have challenging hillside access with steep driveways and limited turnaround space. The suburb is also popular with visitors on weekends, particularly near the pier and foreshore. Our team schedules weekend moves early to avoid visitor traffic and parking competition.",
     nearbySubs: ["Sandgate", "Brighton", "Deagon"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Shorncliffe & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1136,7 +1136,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Beams Road is the main arterial running through Taigum and carries heavy traffic, particularly near the Westfield Chermside turnoff. Internal streets are generally wide and flat, offering good truck access. Our drivers use Handford Road and the quieter cross streets to bypass the worst of the Beams Road congestion.",
     nearbySubs: ["Zillmere", "Boondall", "Bracken Ridge", "Fitzgibbon"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Taigum & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1198,7 +1198,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Nudgee Road and Sandgate Road border Virginia and carry heavy traffic, while the train line creates a natural divide through the suburb. Our drivers access Virginia via the quieter internal streets and time moves to avoid the congested arterial road intersections during peak commuter periods.",
     nearbySubs: ["Northgate", "Nudgee", "Banyo"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Virginia & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1260,7 +1260,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wavell Heights sits on rolling terrain, and many properties have sloping driveways, stepped front paths and split-level interiors. Hamilton Road and Edinburgh Castle Road carry steady traffic through the suburb. Our team brings trolleys and ramp boards to handle the elevation changes and uses side streets to bypass main road congestion.",
     nearbySubs: ["Nundah", "Chermside", "Kedron"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wavell Heights & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1322,7 +1322,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wilston's narrow residential streets are lined with mature trees and parked cars, leaving limited room for moving trucks. The Kedron Brook Road village strip also attracts weekend foot traffic. Our team knows the best spots to position trucks in Wilston and uses protective materials to prevent any damage to heritage home features.",
     nearbySubs: ["Windsor", "Newmarket", "Grange"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wilston & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1384,7 +1384,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Lutwyche Road is one of Brisbane's major northern corridors and is consistently busy with bus routes and commuter traffic. Side streets off Lutwyche Road can be narrow with limited parking. Our team uses parallel streets and rear-lane access where available, and schedules moves for off-peak windows to minimise delays.",
     nearbySubs: ["Wilston", "Wooloowin", "Bowen Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Windsor & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1446,7 +1446,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wooloowin's streets are narrow, lined with large established trees and frequently full of parked resident cars. Many properties have long front paths through established gardens and steep front stairs. Our team brings protective pathway covers, stair trolleys and knows how to manoeuvre furniture through tight Queenslander hallways.",
     nearbySubs: ["Windsor", "Kalinga", "Lutwyche"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wooloowin & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1529,7 +1529,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Handford Road and Murphy Road are the main routes through Zillmere and can be congested, particularly near the Aspley Hypermarket intersection. Internal residential streets are generally wide and flat with good truck access. Our drivers use the quieter cross streets to bypass main road traffic and position close to your property.",
     nearbySubs: ["Aspley", "Taigum", "Geebung"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Zillmere & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1591,7 +1591,7 @@ export const batch5Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to the Brisbane Airport precinct is controlled, with security checkpoints, toll roads and restricted loading zones. Our drivers hold the necessary permits and know the access procedures for both the domestic and international terminal areas as well as the business district surrounding the airport.",
     nearbySubs: ["Pinkenba", "Eagle Farm", "Hendra"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Brisbane Airport & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

@@ -17,7 +17,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Everton Hills sits on undulating terrain, and a number of homes are accessed via steep driveways or stepped pathways that can challenge furniture removal. Our team brings stair-climbing trolleys and heavy-duty furniture blankets to navigate these inclines safely, and we position our trucks carefully on the hilly streets to ensure smooth loading and unloading.",
     nearbySubs: ["Mitchelton", "Arana Hills", "Ferny Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Everton Hills & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "While Beachmere's flat layout is generally truck-friendly, homes near the waterfront can have sandy driveways and soft verges that require careful truck positioning. Our drivers assess ground conditions on arrival, and we use ramps and trolleys suited to softer surfaces to keep your move running smoothly.",
     nearbySubs: ["Caboolture", "Ningi", "Sandstone Point", "Meldale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Beachmere & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Bunya's acreage properties frequently feature long, winding driveways — some unsealed — and distances between the house and the nearest truck-accessible road can be significant. Our team scouts driveway conditions on arrival and uses a combination of trolleys and relay techniques to move items safely over longer distances when trucks cannot park close to the front door.",
     nearbySubs: ["Ferny Hills", "Samford Valley", "Everton Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bunya & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Clear Mountain's steep, winding access roads and long private driveways demand experienced drivers and careful truck selection. Our crew assesses gradient and turning clearances before positioning the truck, and we bring extra trolleys and relay equipment to cover the distance between driveways and front doors on larger blocks.",
     nearbySubs: ["Albany Creek", "Cashmere", "Highvale", "Mount Samson"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Clear Mountain & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access in Draper often involves narrow, single-lane roads and long private driveways that may be unsealed. Our drivers carefully assess turning circles and ground conditions before positioning the truck, and our team is equipped with trolleys and blankets to handle longer carries from the road to the house.",
     nearbySubs: ["Samford Village", "Samford Valley", "Highvale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Draper & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The distance from Brisbane and the winding mountain roads leading to D'Aguilar require experienced drivers and well-maintained trucks. Our team plans travel time carefully and arrives fully equipped to handle the narrow driveways and older-style homes typical of this rural township.",
     nearbySubs: ["Woodford", "Kilcoy", "Mount Mee", "Stony Creek", "Mount Delaney", "Stanmore"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "D'Aguilar & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moving to or from Mount Glorious involves navigating the narrow, winding Mount Glorious Road with its hairpin bends and limited passing opportunities. Our experienced drivers select appropriately sized trucks for these mountain roads, and our crew handles the steep block access with careful use of trolleys and relay techniques.",
     nearbySubs: ["Mount Nebo", "Samford Valley", "The Gap", "Sideling Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Glorious & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -452,7 +452,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Nebo's winding access road and steep block gradients demand careful planning. Our drivers are experienced on the mountain route and select the right truck size to handle the bends, while our movers use stair-climbing equipment and relay techniques to navigate the often steep pathways between driveways and front doors.",
     nearbySubs: ["Mount Glorious", "The Gap", "Samford Valley", "Wights Mountain"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Nebo & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -514,7 +514,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Samson's hilly terrain and long driveways — many of which are unsealed — require our team to plan access carefully. We select truck sizes that can navigate the winding rural roads and bring additional trolleys and ramp equipment for the extended carries between driveways and front doors common on these larger properties.",
     nearbySubs: ["Samford Valley", "Highvale", "Clear Mountain"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Samson & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -576,7 +576,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moves in Ocean View involve hilly terrain, winding rural roads and long private driveways that are frequently unsealed. Our team plans routes in advance and selects trucks that handle these conditions well, bringing relay equipment and extra protective padding for the extended carries common on these larger properties.",
     nearbySubs: ["Dayboro", "Laceys Creek", "Mount Mee", "Rush Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ocean View & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -638,7 +638,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "While Samford Village itself is relatively flat and accessible, some surrounding properties sit on sloping blocks with heritage features that require careful handling during moves. Our team brings protective runners and corner guards to navigate the polished timber floors and narrow verandahs typical of the area's Queenslander-style homes.",
     nearbySubs: ["Samford Valley", "Draper", "Ferny Hills", "Wights Mountain"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Samford Village & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -700,7 +700,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wights Mountain's steep terrain and bush-lined driveways require our team to carefully assess access before each move. We select trucks suited to the narrow, winding roads and use stair-climbing trolleys and protective padding to navigate the steep approaches and elevated entrances common on these hillside properties.",
     nearbySubs: ["Ferny Hills", "Samford Village", "Mount Nebo"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wights Mountain & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -762,7 +762,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Yugar's rural roads and long private driveways — often unsealed and winding — require careful truck selection and access planning. Our team arrives prepared with trolleys, ramps and protective blankets to handle the extended carries between road access points and front doors common on these larger properties.",
     nearbySubs: ["Samford Valley", "Samsonvale", "Kobble Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Yugar & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -824,7 +824,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moving in Laceys Creek often involves navigating narrow rural roads and long private driveways that may be unsealed or cross low-level creek beds. Our team plans routes in advance, selects appropriately sized trucks and brings extra protective equipment for the challenging access conditions typical of this hinterland locality.",
     nearbySubs: ["Ocean View", "Dayboro", "Mount Mee", "Rush Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Laceys Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -886,7 +886,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Kobble Creek properties often involves narrow sealed and unsealed roads, with long private driveways that wind through bushland. Our drivers are experienced with these conditions and we bring relay equipment and extra padding to protect your furniture during the extended carries between the road and the house.",
     nearbySubs: ["Samsonvale", "Yugar", "Dayboro"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kobble Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -948,7 +948,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Rush Creek's remote location and unsealed rural roads require our team to plan moves carefully, allowing extra travel time and selecting trucks suited to the terrain. We bring heavy-duty trolleys and additional protective gear for the longer carries between road access and homesteads typical of this farming district.",
     nearbySubs: ["Ocean View", "Dayboro", "Laceys Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Rush Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1010,7 +1010,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Stanmore's distance from Brisbane and its network of rural roads mean our team plans moves with extra care, allowing sufficient travel time and choosing trucks that handle unsealed surfaces well. We bring the full range of protective equipment to safeguard furniture during transport over country roads.",
     nearbySubs: ["D'Aguilar", "Woodford", "Mount Mee"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Stanmore & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1072,7 +1072,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The drive to Neurum from Brisbane involves winding hinterland roads, and local properties often have unsealed driveways and uneven terrain. Our experienced drivers handle these conditions with care, and we secure furniture thoroughly for transport over rural roads to ensure everything arrives in pristine condition.",
     nearbySubs: ["D'Aguilar", "Kilcoy", "Woodford", "Stony Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Neurum & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1134,7 +1134,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "While Rocksberg is relatively accessible from the Bruce Highway, some properties sit on larger blocks with gravel driveways and undulating terrain. Our team assesses access conditions on arrival and brings trolleys and ramps suited to the varied surfaces found across this semi-rural suburb.",
     nearbySubs: ["Caboolture", "Morayfield", "Upper Caboolture", "Moodlu"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Rocksberg & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1196,7 +1196,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Bracalba properties can have long driveways and varied terrain that requires careful truck positioning. Our drivers check ground conditions and gradient on arrival, and we bring trolleys and protective blankets to handle the longer carries between truck and house common on these larger blocks.",
     nearbySubs: ["Caboolture", "Morayfield", "Upper Caboolture"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bracalba & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1258,7 +1258,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Donnybrook's coastal location means some properties near the waterfront have sandy or soft verges that can challenge truck positioning. Our drivers assess ground conditions on arrival and use ramps and wide-wheel trolleys to manage the softer surfaces found in bayside sections of this suburb.",
     nearbySubs: ["Beachmere", "Ningi", "Caboolture", "Meldale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Donnybrook & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1320,7 +1320,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Some Meldale properties sit back from the road on longer driveways, and the semi-rural character means verges and driveways can be gravel or grass. Our team comes prepared with trolleys suited to varied surfaces and positions trucks carefully to manage the different ground conditions found across the locality.",
     nearbySubs: ["Caboolture", "Beachmere", "Donnybrook"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Meldale & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1382,7 +1382,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moodlu's larger blocks often mean longer driveways and varied ground surfaces. Our team arrives prepared with equipment suited to gravel and grass surfaces, and we plan truck positioning carefully to ensure efficient loading and unloading on these bigger properties.",
     nearbySubs: ["Caboolture", "Rocksberg", "Upper Caboolture"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Moodlu & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1444,7 +1444,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Moorina's larger blocks can have extended driveways and varied terrain. Our crew assesses access carefully on arrival, bringing trolleys and protective equipment to handle the distances and ground conditions common across this semi-rural suburb.",
     nearbySubs: ["Caboolture", "Narangba", "Burpengary"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Moorina & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1506,7 +1506,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mount Delaney's winding range roads and long private driveways — often unsealed — demand experienced drivers and careful planning. Our team allows extra travel time, selects appropriately sized trucks and brings relay equipment to handle the challenging access conditions typical of this mountainous locality.",
     nearbySubs: ["D'Aguilar", "Woodford", "Mount Mee"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Delaney & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1568,7 +1568,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Stony Creek's remote location, narrow unsealed roads and steep private driveways present significant access challenges. Our experienced drivers carefully assess each property's approach, select compact trucks suited to the terrain and bring full relay equipment to manage the extended and often difficult carries between road access and homesteads.",
     nearbySubs: ["D'Aguilar", "Neurum", "Woodford"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Stony Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1630,7 +1630,7 @@ export const moreton3Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Bribie Island North requires crossing the Bribie Island Bridge, and some properties are located on quiet streets with sandy verges or grass driveways. Our team plans bridge crossing times to avoid peak periods and brings equipment suited to softer coastal surfaces for smooth access to waterfront and bushland properties.",
     nearbySubs: ["Woorim", "Bongaree", "Banksia Beach"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bribie Island North & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

@@ -17,7 +17,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Acacia Ridge's proximity to the industrial area means heavy vehicle traffic along Beaudesert Road and Kerry Road can affect truck access during business hours. Some residential streets near Elizabeth Street have limited parking, so our team plans truck positioning in advance to avoid delays on moving day.",
     nearbySubs: ["Sunnybank", "Coopers Plains", "Algester"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Acacia Ridge & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Sandgate Road runs through Albion and can be congested during peak hours, limiting truck access to properties on side streets. Several newer apartment buildings have strict body corporate moving windows and require lift bookings well in advance. Our team is experienced with Albion's mix of heritage and modern access challenges.",
     nearbySubs: ["Bowen Hills", "Wooloowin", "Clayfield"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Albion & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Alderley streets are narrow and tree-lined, which can limit large truck access. Properties on streets like South Pine Road hill sections have steep block gradients requiring careful dolly work. Our drivers know which streets accommodate larger vehicles and when a smaller truck is the smarter choice.",
     nearbySubs: ["Newmarket", "Enoggera", "Gaythorne"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Alderley & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "While Algester is generally flat and accessible, some cul-de-sacs have limited turning space for larger trucks. Streets near Algester Road can also see increased traffic during school times due to nearby Algester State School and Our Lady of Fatima Primary. Our team plans routes to avoid these pinch points.",
     nearbySubs: ["Parkinson", "Calamvale", "Acacia Ridge"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Algester & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access is the key challenge in Anstead. Many properties are reached via long, unsealed driveways, and some roads are prone to flooding during the wet season. Our team brings four-wheel drive capable vehicles when needed and always checks access conditions before moving day to ensure a smooth operation.",
     nearbySubs: ["Brookfield", "Bellbowrie", "Chapel Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Anstead & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -348,7 +348,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ascot's leafy, narrow streets and heritage-listed properties mean careful manoeuvring is essential. Some homes have curved driveways, heritage fencing and manicured gardens that must be protected during the move. Our team uses padded blankets on pathways and takes extra care navigating tight entries to preserve the property and your belongings.",
     nearbySubs: ["Hamilton", "Clayfield", "Hendra"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ascot & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -410,7 +410,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ashgrove's hilly terrain presents unique challenges for removalists. Many streets are steep and winding, with homes accessed via long flights of external stairs. Waterworks Road traffic can also slow truck movements during peak hours. Our experienced drivers know the best access points for Ashgrove's trickiest properties.",
     nearbySubs: ["Bardon", "Red Hill", "The Gap"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ashgrove & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -472,7 +472,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Auchenflower's steep streets and narrow laneways pose significant access challenges. Properties on streets like Haig Road and Park Road sit on dramatic slopes, sometimes requiring furniture to be carried up or down dozens of steps. Parking is limited near many homes, so our team often uses smaller shuttle vehicles to transfer items from the main truck.",
     nearbySubs: ["Milton", "Toowong", "Paddington", "Mount Coot-tha"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Auchenflower & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -534,7 +534,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Bald Hills has some flood-affected areas near the Pine River and Cabbage Tree Creek that require attention during the wet season. Gympie Arterial Road can also cause delays during peak hours. Our team checks flood mapping and weather conditions before every Bald Hills move to ensure access is safe and efficient.",
     nearbySubs: ["Strathpine", "Bracken Ridge", "Carseldine"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bald Hills & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -596,7 +596,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Balmoral's narrow residential streets, many lined with mature fig trees, can make large truck access difficult. Street parking is at a premium, especially near Oxford Street. Some riverfront properties have steep slopes to the water that complicate access. Our team uses smaller vehicles and protective equipment to navigate these constraints efficiently.",
     nearbySubs: ["Hawthorne", "Bulimba", "Morningside"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Balmoral & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -658,7 +658,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Banyo's proximity to the airport means some areas experience aircraft noise, but more importantly for removalists, the suburb has several streets near Nudgee Road and Virginia that experience peak-hour congestion. Some older properties also have low carports and narrow side access that require careful furniture manoeuvring.",
     nearbySubs: ["Nudgee", "Virginia", "Northgate"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Banyo & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -720,7 +720,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Bardon's hilly terrain is among the most challenging in Brisbane for removalists. Streets like Simpsons Road wind steeply up the ridge, and many properties have long flights of stairs as their only access. Limited street parking on narrow roads means truck positioning requires local knowledge. Our team regularly works Bardon's hills and comes prepared with straps, dollies and extra crew.",
     nearbySubs: ["Ashgrove", "Paddington", "Rainworth", "Mount Coot-tha"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bardon & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -782,7 +782,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The main access to Bellbowrie is via Moggill Road, which is notorious for traffic congestion, especially during peak hours when it becomes a bottleneck. Some properties near the river have steep driveways and are affected by flooding in extreme weather. Our team schedules Bellbowrie moves to avoid peak Moggill Road traffic and always confirms driveway conditions beforehand.",
     nearbySubs: ["Moggill", "Anstead", "Kenmore"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bellbowrie & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -844,7 +844,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "While Belmont is generally flat and accessible, Old Cleveland Road and the Gateway Motorway on-ramps nearby can create traffic during peak times. Some streets near the bushland reserve have narrower carriageways with mature trees limiting truck manoeuvrability. Our drivers know the best approach routes to keep your move running smoothly.",
     nearbySubs: ["Carindale", "Tingalpa", "Carina", "Gumdale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Belmont & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -906,7 +906,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Low-lying sections of Boondall near the wetlands and Cabbage Tree Creek can be affected by flooding during heavy rain events. Sandgate Road and the Gateway Motorway on-ramps nearby generate peak-hour traffic. Our team monitors weather conditions and plans routes through Boondall to avoid flood-affected roads and congestion.",
     nearbySubs: ["Bracken Ridge", "Nudgee", "Taigum"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Boondall & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -968,7 +968,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Traffic in Bowen Hills is challenging due to the intersection of several major roads including the Inner City Bypass and Abbotsford Road. During the Ekka (Royal Queensland Show) in August, the area becomes extremely congested. Strict building access rules in newer apartment towers mean moves must be precisely timed. Our team is experienced with Bowen Hills' inner-city logistics.",
     nearbySubs: ["Fortitude Valley", "Newstead", "Albion"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bowen Hills & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1030,7 +1030,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Bracken Ridge is well laid out with wide residential streets, but traffic on Bracken Ridge Road and Telegraph Road can be heavy during commuter hours. Some older sections of the suburb have cul-de-sacs with limited turning space. Our team knows the local street layout and plans efficient loading and route strategies for every Bracken Ridge move.",
     nearbySubs: ["Bald Hills", "Carseldine", "Boondall", "Fitzgibbon"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bracken Ridge & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1092,7 +1092,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The suburb's bushland setting means some properties are accessed via longer driveways and steeper terrain. Streets like Telegraph Road can be busy during peak hours. Overhanging trees and narrow sections near the bushland fringe can also restrict large truck access. Our team assesses every Bridgeman Downs property before the move to plan the best vehicle and route.",
     nearbySubs: ["Aspley", "McDowall", "Carseldine"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Bridgeman Downs & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1154,7 +1154,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Brighton's narrow bayside streets, some with limited turning space near the foreshore, can be tricky for large trucks. Properties on the elevated side of the suburb may have steep driveways. The main access roads — Sandgate Road and Brighton Road — carry steady traffic. Our team is familiar with Brighton's street layout and selects the right vehicle size for each job.",
     nearbySubs: ["Sandgate", "Deagon", "Bracken Ridge"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Brighton & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1216,7 +1216,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Brookfield Road is the main access point and is narrow and winding in sections, with limited overtaking opportunities. Many properties have long, unsealed driveways through bushland. Flooding can affect low-lying sections near Moggill Creek after heavy rain. Our team does a thorough access check before every Brookfield move and brings appropriate vehicles for the terrain.",
     nearbySubs: ["Kenmore", "Chapel Hill", "Anstead"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Brookfield & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1278,7 +1278,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Burbank's location on the urban fringe means some areas have limited road infrastructure, with narrow access roads and new estate streets that are still being developed. Properties on acreage lots may have long driveways and variable surfaces. Our team checks access conditions before every Burbank move and brings the right vehicle for the terrain.",
     nearbySubs: ["Capalaba", "Chandler", "Belmont"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Burbank & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1340,7 +1340,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Calamvale's newer estates have narrow streets and limited kerbside parking, which can be challenging for larger moving trucks. Speed humps are common throughout the residential areas. The Pacific Motorway on-ramp at nearby Stretton can create peak-hour congestion. Our team selects the right truck size for Calamvale's street layouts and plans routes to minimise travel delays.",
     nearbySubs: ["Stretton", "Sunnybank Hills", "Algester"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Calamvale & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1402,7 +1402,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The suburb's elevated terrain means many properties are accessed via steep driveways or long flights of stairs from the street. Some of Camp Hill's narrower streets near the ridgeline have limited truck turning space. Old Cleveland Road along the suburb's southern edge carries heavy traffic. Our team regularly works Camp Hill's hills and knows the best access strategies for its challenging properties.",
     nearbySubs: ["Coorparoo", "Carina Heights", "Norman Park"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Camp Hill & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1464,7 +1464,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Wynnum Road, which runs through Cannon Hill, is one of Brisbane's busiest roads and can cause significant delays during peak hours. Some newer townhouse complexes have limited visitor parking and narrow internal driveways. Our team times Cannon Hill moves to minimise Wynnum Road exposure and brings the right-sized truck for tight complex access.",
     nearbySubs: ["Morningside", "Carina", "Murarrie"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Cannon Hill & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1526,7 +1526,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Carina's hilly streets, particularly those running off Old Cleveland Road and Creek Road, can present access challenges with steep driveways and limited truck turning areas. Creek Road carries significant traffic and is a major commuter corridor. Our team knows Carina's residential pockets well and plans the best access routes for each property.",
     nearbySubs: ["Carina Heights", "Camp Hill", "Cannon Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Carina & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1588,7 +1588,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The suburb's ridgeline position means steep driveways, elevated properties and homes with significant stair access are the norm rather than the exception. Some streets have tight turning circles and limited kerbside space. Our experienced Carina Heights crews bring heavy-duty dollies, straps and ramp equipment to handle the elevation safely and efficiently.",
     nearbySubs: ["Carina", "Carindale", "Camp Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Carina Heights & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1650,7 +1650,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Gympie Arterial Road borders Carseldine and carries heavy commuter traffic, which can affect truck travel times during peak hours. Some of the quieter streets deeper in the suburb have overhanging trees and limited turning space at dead ends. Our team schedules Carseldine moves to avoid arterial road congestion and selects the right truck for each street.",
     nearbySubs: ["Aspley", "Bridgeman Downs", "Bracken Ridge", "Fitzgibbon"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Carseldine & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1712,7 +1712,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Chandler's semi-rural setting means many properties are accessed via long, sometimes unsealed driveways off Tilley Road or Old Cleveland Road Extension. Some roads have limited shoulders and no kerb-and-channel, making truck positioning tricky. Our team always confirms driveway conditions and access before a Chandler move to ensure we bring the right vehicles and equipment.",
     nearbySubs: ["Burbank", "Capalaba", "Belmont", "Ransome", "Gumdale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Chandler & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1774,7 +1774,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Chapel Hill's hilly, winding streets can be narrow and steep, with some sections featuring tight bends that limit large truck access. Properties on streets near the Mt Coot-tha bushland fringe may have long driveways through vegetation. Our drivers have extensive experience navigating Chapel Hill's terrain and choose the right-sized vehicle for each street.",
     nearbySubs: ["Kenmore", "Brookfield", "Indooroopilly", "Fig Tree Pocket"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Chapel Hill & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1836,7 +1836,7 @@ export const batch1Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Chelmer's riverfront location means some properties are in flood-prone areas, as demonstrated in the 2011 and 2022 Brisbane floods. The suburb's quiet, residential streets are generally wide enough for trucks, but some heritage homes have narrow side access and elevated front entries. Our team checks flood history and access conditions for every Chelmer property before moving day.",
     nearbySubs: ["Graceville", "Indooroopilly", "Corinda"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Chelmer & Brisbane Region",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

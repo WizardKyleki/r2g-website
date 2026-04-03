@@ -17,7 +17,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Darra's proximity to the Ipswich Motorway makes truck access straightforward for moves heading west or south, but local streets near the rail line can be narrow with limited turning space. Our drivers know which streets to avoid with larger trucks and plan efficient routes around the one-way sections near Darra station.",
     nearbySubs: ["Oxley", "Inala", "Sumner", "Wacol"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Darra & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Deagon's relatively flat terrain and wide residential streets make truck access straightforward for most moves. The main challenge is the single-lane sections near the rail corridor and occasional flooding on lower-lying streets after heavy rain. Our team monitors weather conditions and plans routes accordingly.",
     nearbySubs: ["Sandgate", "Shorncliffe", "Bracken Ridge"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Deagon & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Doolandella's residential streets are generally wide and cul-de-sac based, which is great for truck access but can limit through-routes. Our drivers know the layout well and plan the most efficient entry and exit points, especially during school hours when nearby Forest Lake State School creates localised congestion.",
     nearbySubs: ["Forest Lake", "Inala", "Durack"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Doolandella & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Drewvale's hilly terrain and bushland setting mean some properties have steep driveways, long access paths and overhanging trees that can limit truck clearance. Our team brings the right equipment for elevated properties and can arrange smaller vehicles where standard trucks cannot reach the front door.",
     nearbySubs: ["Sunnybank Hills", "Calamvale", "Parkinson"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Drewvale & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Durack's grid-style street layout provides good truck access, though some of the older streets have narrow verges and established trees that can limit clearance. Our team is familiar with the area's layout and plans efficient routes to and from the Ipswich Motorway to keep your move running on schedule.",
     nearbySubs: ["Inala", "Doolandella", "Oxley"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Durack & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Dutton Park's narrow, hilly streets and heritage homes present unique challenges for removalists. Many properties have steep front stairs, limited driveway space and no truck parking nearby. Our team uses smaller vehicles and hand-carries items where needed, coordinating with council parking permits when required.",
     nearbySubs: ["Woolloongabba", "Fairfield", "Highgate Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Dutton Park & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Eagle Farm moves often involve strict building management protocols including loading dock bookings, lift reservations and limited moving windows. Our team regularly coordinates with building managers in the area and is experienced with the access requirements of premium residential complexes along Lancaster Road and Racecourse Road.",
     nearbySubs: ["Hamilton", "Hendra", "Ascot", "Brisbane Airport"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Eagle Farm & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "East Brisbane's narrow inner-city streets, limited parking and mix of old and new buildings create varied access challenges. Many older homes sit on steep blocks with long front stairways, while newer apartments have basement access with height and width restrictions. Our team assesses each property individually to plan the safest and most efficient approach.",
     nearbySubs: ["Woolloongabba", "Kangaroo Point", "Coorparoo"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "East Brisbane & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The suburb's excellent motorway connections make it an efficient base for moves heading anywhere in South East Queensland. However, the mix of older properties with long driveways and newer high-density developments with shared access roads requires careful truck planning. Our drivers are familiar with the area's varied streetscapes and access points.",
     nearbySubs: ["Upper Mt Gravatt", "Rochedale", "Sunnybank"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Eight Mile Plains & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ellen Grove's residential streets are wide and well-planned, making truck access straightforward for most moves. The main consideration is the suburb's single entry and exit points, which can cause delays during peak hours. Our team plans routes via the Centenary Motorway to keep move times efficient.",
     nearbySubs: ["Forest Lake", "Doolandella", "Richlands"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ellen Grove & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Enoggera's hilly terrain means many properties sit on sloped blocks with tiered gardens and stepped access paths. Streets near the barracks and reservoir can also have restricted access or be one-way. Our team plans routes carefully and brings stair trolleys and ramp boards as standard for Enoggera moves.",
     nearbySubs: ["Alderley", "Gaythorne", "Mitchelton"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Enoggera & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The rolling hills of Everton Park mean many homes are accessed via steep driveways or elevated front stairs. South Pine Road can also become congested during peak hours, affecting travel times for moves heading north or south. Our team uses back streets and off-peak timing to keep your move efficient.",
     nearbySubs: ["Stafford", "McDowall", "Mitchelton"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Everton Park & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -761,7 +761,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Fairfield's narrow, tree-lined streets and heritage homes present classic inner-city moving challenges. Many homes sit on raised stumps with steep front stairs and limited driveway access. Street parking is often congested, particularly on weekends. Our experienced inner-city team uses smaller trucks and hand-carry techniques to handle Fairfield moves with precision.",
     nearbySubs: ["Annerley", "Dutton Park", "Yeronga"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Fairfield & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -823,7 +823,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ferny Grove's location at the foot of the D'Aguilar Range means some properties are on steep blocks with winding driveways and bush-edge access roads. Creek crossings and low-clearance areas near Cedar Creek can also impact truck routing during wet weather. Our team knows the local roads and plans moves to avoid these pinch points.",
     nearbySubs: ["Ferny Hills", "Keperra", "Upper Kedron", "Enoggera Reservoir"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ferny Grove & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -885,7 +885,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ferny Hills' gently undulating terrain and wide suburban streets make for relatively straightforward truck access. The main challenges are cul-de-sacs in some of the older estates and overhanging trees along bush-bordered properties. Our team plans turning points in advance and uses appropriate vehicle sizes for each street.",
     nearbySubs: ["Ferny Grove", "Arana Hills", "Bunya", "Wights Mountain"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ferny Hills & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -947,7 +947,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Fig Tree Pocket's winding, tree-lined streets and large properties mean some access roads are narrow with limited turning space for larger trucks. Riverfront properties may also have long driveways, gated entries and extensive grounds that require extra time to navigate. Our team plans each Fig Tree Pocket move with precision, using appropriate vehicle sizes and additional crew members where needed.",
     nearbySubs: ["Kenmore", "Chapel Hill", "Indooroopilly"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Fig Tree Pocket & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1009,7 +1009,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The mix of new estate streets and older residential roads in Fitzgibbon creates different access challenges. Newer streets can be narrow with on-street parking limiting truck clearance, while older streets generally offer wider access. Our team is familiar with both areas and selects the right vehicle size for each section of the suburb.",
     nearbySubs: ["Carseldine", "Taigum", "Bracken Ridge"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Fitzgibbon & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1071,7 +1071,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Forest Lake's planned street layout with roundabouts, speed humps and designated truck routes means our drivers need to know the suburb's specific access patterns. Some sections have narrow streets with heavy on-street parking, and the lakeside properties often have longer access paths. Our team moves families into and out of Forest Lake every week and knows the best routes through every section of the estate.",
     nearbySubs: ["Doolandella", "Ellen Grove", "Richlands"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Forest Lake & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1133,7 +1133,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Fortitude Valley moves are defined by apartment logistics — loading dock bookings, freight lift schedules, narrow corridors and strict building management time windows. Street-level access is limited due to one-way streets, bus lanes and heavy pedestrian traffic. Our inner-city team specialises in Valley apartment moves and coordinates all building requirements in advance to ensure a smooth, efficient relocation.",
     nearbySubs: ["Brisbane CBD", "New Farm", "Bowen Hills"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Fortitude Valley & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1195,7 +1195,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Geebung's relatively flat terrain and grid-style street layout make truck access straightforward for most moves. The railway line bisects the suburb, which can cause delays at level crossings during peak train times. Our drivers plan routes to avoid the main crossing points and use the most efficient paths through the suburb.",
     nearbySubs: ["Zillmere", "Virginia", "Chermside"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Geebung & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1257,7 +1257,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Gordon Park's hilly streets and raised character homes mean many moves involve steep front stairs, narrow hallways and limited driveway space. Street parking can be tight in the older residential pockets. Our inner-north team is experienced with the suburb's heritage housing stock and uses smaller trucks and hand-carry techniques where needed.",
     nearbySubs: ["Lutwyche", "Kedron", "Stafford"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Gordon Park & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1319,7 +1319,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Graceville's mix of elevated character homes and low-lying riverfront properties creates varied moving challenges. Steep front stairs and narrow verandah entries are common in the hillier sections, while flood awareness is needed for properties closer to the river. Our team assesses each property's unique access requirements to plan a safe and efficient move.",
     nearbySubs: ["Chelmer", "Sherwood", "Corinda"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Graceville & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1381,7 +1381,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Grange's steep, narrow streets and raised timber homes create typical inner-north moving challenges. Many properties have long front stairways, limited turning space and no driveway. Street parking is competitive, especially on weekends. Our team uses smaller trucks, stair trolleys and protective runners to handle Grange moves efficiently and safely.",
     nearbySubs: ["Newmarket", "Wilston", "Alderley"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Grange & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1443,7 +1443,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Greenslopes' hilly terrain — as the name suggests — means many homes sit on sloped blocks with steep driveways or elevated front stairs. Logan Road can also be congested throughout the day, affecting access to properties along the main strip. Our team uses side-street approaches and smaller vehicles where needed to navigate the suburb's varied access challenges.",
     nearbySubs: ["Coorparoo", "Holland Park", "Woolloongabba", "Stones Corner", "Holland Park West"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Greenslopes & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1505,7 +1505,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Gumdale's large properties and semi-rural access roads present unique challenges for removalists. Long gravel driveways, gated entrances and unpaved sections can limit truck access, especially after rain. Our team assesses each property in advance and uses appropriate vehicles, including smaller trucks for the final approach to homes set well back from the road.",
     nearbySubs: ["Wakerley", "Chandler", "Belmont"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Gumdale & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1567,7 +1567,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Hamilton's steep hillside streets and premium properties require careful planning. Many older homes on the hill have narrow access with steep driveways and limited truck parking, while apartment complexes at Portside have strict building management protocols. Our team brings extra protective materials for Hamilton moves and coordinates all building requirements well in advance.",
     nearbySubs: ["Ascot", "Eagle Farm", "Hendra"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Hamilton & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1629,7 +1629,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Hawthorne's narrow residential streets, raised character homes and limited parking create typical inner-city moving challenges. Many homes have steep front stairs and narrow side access, while newer apartment buildings require loading dock coordination. Our inner-city team handles Hawthorne moves regularly and knows the best truck positions and access strategies for the suburb's varied property types.",
     nearbySubs: ["Bulimba", "Balmoral", "Norman Park"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Hawthorne & Brisbane Inner East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1691,7 +1691,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Hemmant's mix of residential and industrial zones means some streets carry heavy vehicle traffic during business hours. The proximity to the Gateway Motorway is convenient for long-distance moves but local street access can be affected by truck traffic to nearby industrial estates. Our team plans moves to minimise conflict with industrial traffic patterns.",
     nearbySubs: ["Murarrie", "Lytton", "Wynnum West"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Hemmant & Brisbane East",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1753,7 +1753,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Hendra's tree-lined streets and character homes mean many moves involve raised houses with steep stairs, narrow hallways and limited driveway access. Race day traffic around the racecourses can also impact street access and parking. Our team schedules around the racing calendar and uses the right equipment for Hendra's beautiful but often challenging older properties.",
     nearbySubs: ["Ascot", "Clayfield", "Eagle Farm", "Brisbane Airport"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Hendra & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1815,7 +1815,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Herston's position between the hospital, university and major arterial roads makes for tight parking and busy streets throughout the day. Many older homes have limited driveway access and steep front stairs, while apartment buildings require coordination with body corporates. Our inner-city team is well-practised with Herston's access challenges and plans each move to work around the hospital and university traffic patterns.",
     nearbySubs: ["Kelvin Grove", "Bowen Hills", "Spring Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Herston & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1877,7 +1877,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Highgate Hill's extreme gradients create some of Brisbane's most challenging moving conditions. Many properties sit at the top of steep staircases with no vehicle access, requiring all items to be hand-carried up or down long flights of stairs. Street parking is very limited and some streets are too narrow for large trucks. Our team uses smaller vehicles, stair trolleys and additional crew members to handle Highgate Hill moves safely and efficiently.",
     nearbySubs: ["West End", "South Brisbane", "Dutton Park"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Highgate Hill & Brisbane Inner South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1939,7 +1939,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Holland Park's gently undulating terrain and mix of old and new streetscapes create varied access conditions. Older streets have established trees and narrower frontages, while newer developments may have shared driveways and compact parking areas. Logan Road's constant traffic can also affect access. Our team knows the suburb's layout well and uses back-street routes to avoid congestion.",
     nearbySubs: ["Greenslopes", "Coorparoo", "Tarragindi", "Holland Park West"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Holland Park & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2001,7 +2001,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Holland Park West's residential streets are generally well-sized for truck access, though some of the newer infill developments have narrow shared driveways that require careful manoeuvring. The suburb's proximity to busy Marshall Road and Logan Road means our team plans routes through quieter residential streets for efficient access.",
     nearbySubs: ["Holland Park", "Greenslopes", "Tarragindi"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Holland Park West & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2063,7 +2063,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Inala's grid-style street layout provides straightforward truck access for most moves. Some of the older government housing streets have narrow verges and mature trees that can limit clearance. Unit complexes and social housing areas may also have specific parking and access rules. Our team knows the area well and plans efficient, respectful moves for Inala residents.",
     nearbySubs: ["Durack", "Darra", "Richlands"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Inala & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2125,7 +2125,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Jamboree Heights' wide suburban streets and standard block sizes make truck access straightforward for most moves. Properties backing onto the Mt Coot-tha bushland may have longer rear access paths and overhanging trees. Our team plans efficient routes via the Centenary Motorway and knows the suburb's street layout well for smooth access on moving day.",
     nearbySubs: ["Jindalee", "Mt Ommaney", "Middle Park"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Jamboree Heights & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2187,7 +2187,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Jindalee's riverside location means some properties in lower-lying areas sit in flood-affected zones, and steep streets leading down to the river can challenge truck access. The suburb's cul-de-sac street design in the hillier sections also requires careful truck manoeuvring. Our team is familiar with Jindalee's terrain and plans each move with the right vehicle and access strategy.",
     nearbySubs: ["Jamboree Heights", "Mt Ommaney", "Sinnamon Park", "Seventeen Mile Rocks"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Jindalee & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2249,7 +2249,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kangaroo Point moves are almost exclusively apartment-based, requiring coordination with building managers for loading dock access, freight lifts and moving time windows. Street parking is limited and many streets have restricted access or are one-way. Our inner-city team specialises in apartment moves and handles Kangaroo Point's building logistics as part of our standard service.",
     nearbySubs: ["Woolloongabba", "East Brisbane", "South Brisbane"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kangaroo Point & Brisbane Inner",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2311,7 +2311,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Karana Downs' semi-rural setting means some properties have long unsealed driveways, gated entrances and limited turnaround space for large trucks. The distance from Brisbane CBD also adds travel time that needs to be factored into the move schedule. Our team assesses each property in advance and uses appropriate vehicles to handle the varied access conditions of Karana Downs.",
     nearbySubs: ["Mount Crosby", "Kholo", "Anstead"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Karana Downs & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2373,7 +2373,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kedron's streets vary from wide, well-maintained roads to narrow older streets with limited parking. Gympie Road and Stafford Road, which border the suburb, carry heavy traffic that can affect access during peak hours. Our team uses the quieter internal streets and times moves to avoid the arterial road congestion for efficient access.",
     nearbySubs: ["Gordon Park", "Stafford", "Chermside"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kedron & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2435,7 +2435,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kelvin Grove's mix of student apartments, heritage homes and urban village developments creates varied access requirements. Narrow streets near the older residential areas have limited parking, while the Urban Village buildings have body corporate rules and loading dock requirements. Our team handles both ends of the spectrum and coordinates all building access in advance.",
     nearbySubs: ["Herston", "Red Hill", "Newmarket"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kelvin Grove & Brisbane Inner North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2497,7 +2497,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kenmore Hills' steep terrain and bush-edge properties create significant access challenges for removalists. Many homes are reached via winding, narrow roads with steep gradients, limited turning space and overhanging trees. Some driveways are too steep or narrow for standard trucks. Our team assesses each Kenmore Hills property carefully and uses smaller vehicles and additional crew where needed to handle the terrain safely.",
     nearbySubs: ["Kenmore", "Chapel Hill", "Brookfield"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kenmore Hills & Brisbane West",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2559,7 +2559,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Keperra's gently undulating terrain and standard suburban streets make for relatively straightforward truck access. Some streets near the golf course and bushland edges have narrow sections and cul-de-sacs. Samford Road can be congested during peak hours, so our team uses back routes through residential streets to access properties efficiently.",
     nearbySubs: ["Ferny Grove", "Mitchelton", "Gaythorne"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Keperra & Brisbane North",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -2621,7 +2621,7 @@ export const batch2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kuraby's flat terrain and grid-style street layout make truck access straightforward for most moves. The Beenleigh rail line runs through the suburb with level crossings that can cause periodic delays. Our team plans routes that minimise crossing waits and uses the Pacific Motorway on-ramp nearby for efficient travel to other parts of South East Queensland.",
     nearbySubs: ["Eight Mile Plains", "Underwood", "Runcorn"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kuraby & Brisbane South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

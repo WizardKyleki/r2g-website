@@ -17,7 +17,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access to Kuranda is via the Kennedy Highway through Barron Gorge, a winding mountain road with hairpin bends that requires careful navigation in a removal truck. We use appropriately sized vehicles for Kuranda moves and ensure loads are secured tightly for the mountain ascent. The cooler, more humid conditions up the range also mean we take extra care wrapping timber furniture and electronics that can be sensitive to sudden changes in temperature and moisture.",
     nearbySubs: ["Smithfield", "Caravonica", "Mareeba"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Kuranda & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Malanda is accessed via the Palmerston Highway from the coast or through Atherton and Yungaburra from the north. Both routes involve significant elevation changes and winding road sections. We assess the best approach route for each move depending on load size, destination and current road conditions. At over 700 metres above sea level, Malanda can experience genuine cold snaps — we carry moving blankets rated for Tablelands temperatures to keep your furniture protected during loading and unloading.",
     nearbySubs: ["Yungaburra", "Atherton", "Millaa Millaa"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Malanda & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "At 930 metres elevation, Ravenshoe experiences genuine cold winters with overnight temperatures occasionally dropping near zero. We carry heavy-duty moving blankets for all Ravenshoe moves to protect furniture during loading in cold conditions. The distance from Cairns — roughly two hours each way — means we typically allow a full day for a Ravenshoe move and quote accordingly to ensure there are no surprises on the bill.",
     nearbySubs: ["Herberton", "Millaa Millaa", "Atherton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Ravenshoe & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Many Herberton properties are older homes with narrow hallways, steep internal staircases and heritage timber floors that require protective coverings during a move. Our team carries floor runners and door-frame protectors as standard on Herberton jobs. The high altitude also means temperatures can be significantly cooler than coastal Cairns — we work efficiently to minimise the time your belongings are exposed during loading and unloading in cold conditions.",
     nearbySubs: ["Atherton", "Ravenshoe", "Tolga"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Herberton & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Most moves to and from Yungaburra travel via the Gillies Highway, one of Queensland's most scenic but also most challenging mountain roads. The Gillies features 263 curves between Gordonvale on the coast and the Tablelands plateau — loaded trucks navigate this road at reduced speed and require an experienced driver comfortable with sustained mountain driving. We always factor the Gillies Highway into our time estimates so your quote accurately reflects the true duration of a Yungaburra move.",
     nearbySubs: ["Malanda", "Lake Eacham", "Atherton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Yungaburra & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Tolga sits on the flat Tablelands plateau between Atherton and Mareeba, making it one of the more straightforward Tablelands locations to access by road for a removal truck. The cooler plateau temperatures — often 5 to 8 degrees below coastal Cairns — make for more comfortable moving conditions in summer, though winter mornings can be genuinely cold and we come prepared with the appropriate gear and truck rugs for furniture protection.",
     nearbySubs: ["Atherton", "Walkamin", "Mareeba"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Tolga & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Walkamin sits between Mareeba to the north and Atherton to the south, making it a well-connected Tablelands community despite its small size. The cooler plateau climate — well above the humidity of coastal Cairns — means furniture and boxes travel well in the drier conditions. We often handle moves for CSIRO and research community staff transferring to and from this location, so we are familiar with the specific access requirements of the area.",
     nearbySubs: ["Mareeba", "Tolga", "Atherton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Walkamin & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Millaa Millaa's high elevation and elevated annual rainfall mean the area experiences genuine cold and dampness that is unusual for Far North Queensland. We use additional furniture blankets, plastic wrapping and sealed storage solutions for Millaa Millaa moves to protect against the climate. The distance and complexity of the Palmerston Highway route means Millaa Millaa jobs are always quoted as full-day assignments with honest, transparent pricing from the outset.",
     nearbySubs: ["Malanda", "Ravenshoe", "Atherton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Millaa Millaa & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Tinaroo area experiences the classic Tablelands climate — significantly cooler and wetter than coastal Cairns, with morning mists rolling across the lake common throughout much of the year. We bring additional furniture protection for Tinaroo moves to guard against moisture, and our drivers are experienced with the narrow, winding roads that thread through the lake foreshore communities. Lake-level rises during the wet season can temporarily affect low-lying access tracks, so we always confirm road conditions ahead of wet season moves.",
     nearbySubs: ["Atherton", "Yungaburra", "Kairi"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Tinaroo & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Kairi sits centrally on the plateau between Atherton, Tinaroo and Tolga, making it accessible via several plateau road routes. The flat terrain in and around town allows for relatively straightforward truck access compared to range-side communities, though rural property tracks can be challenging after rain. The Tablelands plateau climate around Kairi is noticeably cooler and drier than the coast, with refreshingly comfortable temperatures for moving in summer and genuinely cold mornings during the dry season winter months.",
     nearbySubs: ["Atherton", "Tinaroo", "Tolga"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Kairi & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Lake Eacham's location within the Wet Tropics World Heritage Area means that some access roads have strict conditions around vehicle size and noise. We review access requirements for each Lake Eacham move individually and select the appropriate vehicle to ensure compliance with any relevant restrictions. The elevated humidity and high rainfall of the crater lake environment also require us to use thorough moisture protection for all furniture and contents, including plastic wrapping for upholstery and sealed boxes for any moisture-sensitive items.",
     nearbySubs: ["Yungaburra", "Malanda", "Atherton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Lake Eacham & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const cairnsTablelandsSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mount Garnet moves are always quoted as full-day or multi-day assignments depending on the load size, and we are completely transparent about this from the first inquiry. The Kennedy Highway between Atherton and Mount Garnet traverses open savanna country and can be subject to cattle on the road and heat shimmer in summer — our drivers are briefed on these conditions. Despite its remoteness, Mount Garnet has a strong community and we are proud to provide professional removalist services to this part of Far North Queensland that is often overlooked by other operators.",
     nearbySubs: ["Ravenshoe", "Atherton", "Herberton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mount Garnet & Western Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

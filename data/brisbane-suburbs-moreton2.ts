@@ -17,7 +17,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Mango Hill's estate streets can get congested during school drop-off and pick-up windows, and many homes back onto shared pathways with limited rear access. Our drivers plan arrival times to avoid peak traffic and use protective runners on polished concrete and timber floors common in newer Mango Hill homes.",
     nearbySubs: ["North Lakes", "Griffin", "Kallangur"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mango Hill & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many older Margate homes sit on raised stumps with narrow internal stairs and weatherboard exteriors that need careful handling during moves. Our crew brings furniture blankets and corner guards to protect both your belongings and the character features of these classic coastal homes, while our smaller trucks can access the tighter streets near the foreshore.",
     nearbySubs: ["Redcliffe", "Woody Point", "Clontarf"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Margate & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "New estates in Morayfield often have construction traffic, temporary road closures and narrow access points during development phases. Our team scouts access routes before moving day and carries portable ramps for properties where landscaping or driveways are still being completed.",
     nearbySubs: ["Caboolture", "Burpengary", "Upper Caboolture", "Caboolture South", "Bracalba", "Bellmere"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Morayfield & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The winding mountain roads leading to Mount Mee properties require careful truck selection and experienced drivers. Our team uses smaller rigid trucks when needed to safely navigate steep grades and single-lane sections of Mount Mee Road, and we always carry extra tie-down straps to secure loads on inclined driveways.",
     nearbySubs: ["Dayboro", "Woodford", "D'Aguilar", "Mount Delaney", "Stanmore"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Mee & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Properties in Mount Pleasant are typically accessed via narrow rural roads that may not accommodate large pantechnicons. Our team selects appropriately sized rigid trucks and, where necessary, uses shuttle loads to move your belongings safely from the main road to your front door without risking damage to rural driveways or gates.",
     nearbySubs: ["Dayboro", "Samford Valley", "Samsonvale"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Mount Pleasant & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Murrumba Downs has some streets with tight cul-de-sacs and limited turning circles that can challenge larger moving trucks. Our drivers know which streets require smaller vehicles and which routes provide the best access, helping us keep your move running smoothly without blocking neighbours.",
     nearbySubs: ["Kallangur", "Griffin", "Kurwongbah"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Murrumba Downs & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Some older Narangba properties sit on sloped blocks with retaining walls and split-level designs that require careful furniture handling on stairs and landings. Our team brings heavy-duty trolleys and stair-climbing equipment to manage these access challenges safely and efficiently.",
     nearbySubs: ["Burpengary", "Kurwongbah", "Deception Bay", "Burpengary East", "Moorina"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Narangba & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -451,7 +451,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Newport's estate roads are well-maintained but the canal-front properties often have limited street frontage and single-access driveways. Our team selects the right truck size to navigate these tighter access points, and we use extra padding and floor protection to safeguard the premium tiled and timber finishes typical of Newport homes.",
     nearbySubs: ["Scarborough", "Redcliffe", "Kippa-Ring"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Newport & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -513,7 +513,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "North Lakes streets can be busy during retail peak hours due to the large shopping precinct, and many homes have double garages that are used as storage rather than parking. Our team plans arrival routes to avoid shopping centre congestion and brings extra trolleys to quickly clear garage contents before tackling the main household move.",
     nearbySubs: ["Mango Hill", "Griffin", "Deception Bay"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "North Lakes & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -575,7 +575,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Ningi's mix of sealed and unsealed roads means access can vary significantly between properties. Our team confirms driveway conditions before moving day and uses appropriately sized trucks to navigate rural roads, ensuring we reach your property safely without damage to driveways or gardens.",
     nearbySubs: ["Sandstone Point", "Bribie Island", "Toorbul", "Godwin Beach"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Ningi & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -637,7 +637,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The urban renewal around Petrie Station and the USC campus means some streets have ongoing construction and changed traffic conditions. Our team stays up to date on local road changes and uses alternative access routes when construction impacts direct access to properties near the town centre.",
     nearbySubs: ["Lawnton", "Kallangur", "Kurwongbah", "Whiteside"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Petrie & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -699,7 +699,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Properties along the South Pine River corridor can be affected by localised flooding after heavy rain, and many older blocks have overhanging trees and narrow side access. Our team monitors weather conditions and arrives with equipment to safely navigate overgrown pathways and low-clearance garages common in the established parts of Pine Rivers.",
     nearbySubs: ["Strathpine", "Bray Park", "Lawnton"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Pine Rivers & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -761,7 +761,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The busy Anzac Avenue corridor running through Rothwell can slow truck access during peak hours. Our team plans arrival and departure routes around peak traffic windows and uses local back streets to reach residential areas efficiently, keeping your move on schedule even during busy periods.",
     nearbySubs: ["Kippa-Ring", "Deception Bay", "Mango Hill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Rothwell & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -823,7 +823,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The narrow, winding approach roads into Samford Valley — including Samford Road and Mount Glorious Road — require careful truck selection. Our team uses smaller rigid trucks when accessing properties on steep or winding sections, and we carry portable ramps and extra blankets to handle the long walking distances between truck parking and front doors that are typical of Samford Valley acreage homes.",
     nearbySubs: ["Ferny Hills", "Dayboro", "Eatons Hill", "Mount Samson", "Sideling Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Samford Valley & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -885,7 +885,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Samsonvale properties are often accessed via narrow, winding roads that may not be suitable for large trucks. Our drivers assess access conditions before moving day and bring the most appropriate vehicle, sometimes using shuttle loads between a larger truck on the main road and a smaller vehicle to reach your front door.",
     nearbySubs: ["Dayboro", "Mount Pleasant", "Kurwongbah"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Samsonvale & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -947,7 +947,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Sandstone Point's quiet residential streets provide excellent truck access, but the coastal location means salt air can affect exposed furniture during transit. Our team uses weatherproof wrapping for all leather, metal and upholstered items, and we keep loads enclosed during transport to protect your belongings from coastal conditions.",
     nearbySubs: ["Ningi", "Bribie Island", "Toorbul", "Godwin Beach"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sandstone Point & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1009,7 +1009,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Streets near the Scarborough waterfront and marina precinct can have limited parking and narrow access, particularly during weekend markets and events. Our team schedules marina-area moves to avoid peak visitor times and brings smaller vehicles when needed to access the tighter streets close to the beachfront.",
     nearbySubs: ["Newport", "Redcliffe", "Woody Point"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Scarborough & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1071,7 +1071,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Sideling Creek properties often involves steep, unsealed single-track roads with limited passing room. Our team conducts a thorough access assessment before moving day, selecting compact rigid trucks and carrying extra equipment for hand-carrying items over rough terrain when driveways cannot accommodate vehicles.",
     nearbySubs: ["Mount Glorious", "Dayboro", "Samford Valley"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Sideling Creek & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1133,7 +1133,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The commercial activity around Strathpine Centre and Gympie Road means heavy traffic during business hours. Our team plans moves to avoid peak congestion on Gympie Road and uses residential side streets to access properties quickly, keeping your move on time even when the main road is busy.",
     nearbySubs: ["Brendale", "Bray Park", "Lawnton", "Pine Rivers"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Strathpine & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1195,7 +1195,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Toorbul's single road access via Bestmann Road East means traffic can build during peak times, and some waterfront properties have soft or sandy ground near loading areas. Our team carries ground boards to protect soft surfaces and schedules arrival times to avoid congestion on the main access road.",
     nearbySubs: ["Donnybrook", "Ningi", "Sandstone Point"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Toorbul & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1257,7 +1257,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Upper Caboolture roads vary from well-sealed suburban streets to narrow gravel lanes depending on which part of the suburb you are in. Our team confirms road conditions and property access before moving day, selecting the appropriate truck size and bringing extra equipment for properties with challenging driveways or long walking distances from the road.",
     nearbySubs: ["Caboolture", "Morayfield", "Wamuran", "Bracalba", "Moodlu"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Upper Caboolture & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1319,7 +1319,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The D'Aguilar Highway through Wamuran carries heavy truck traffic, and rural properties can be set well back from the road with long driveways. Our team plans safe highway access and uses smaller vehicles when needed to reach remote farmhouse entries, carrying portable ramps for loading on uneven ground.",
     nearbySubs: ["Upper Caboolture", "Woodford", "D'Aguilar", "Elimbah"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wamuran & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1381,7 +1381,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Warner's estates feature wide roads but homes are often built on compact blocks with minimal side access between neighbours. Our team uses protective wall coverings and slim-profile trolleys to navigate tight hallways and passages between homes, ensuring furniture reaches the truck without marking walls or fences.",
     nearbySubs: ["Strathpine", "Bray Park", "Eatons Hill", "Joyner"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Warner & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1443,7 +1443,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Whiteside's winding residential roads and bushland settings mean many properties have long driveways, overhanging trees and limited turning room for large trucks. Our team selects the right-sized vehicle for your specific property and brings extra protective materials for the longer carry distances between truck and front door.",
     nearbySubs: ["Kurwongbah", "Petrie", "Lawnton"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Whiteside & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1505,7 +1505,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "All moves to Woorim require crossing the Bribie Island bridge, which can experience congestion during peak holiday periods. Our team schedules island moves to avoid bridge bottlenecks, and we use trucks sized for the quiet residential streets of Woorim where beach sand can drift onto road surfaces and loading areas.",
     nearbySubs: ["Bongaree", "Bellara", "Sandstone Point", "Bribie Island North"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Woorim & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1567,7 +1567,7 @@ export const moreton2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Woody Point's older streets near the foreshore are narrow with mature trees and on-street parking that can limit truck access. Our team uses smaller vehicles for waterfront-area moves and schedules deliveries for quieter periods when parking is more readily available, ensuring smooth access without disrupting the neighbourhood.",
     nearbySubs: ["Margate", "Redcliffe", "Clontarf"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Woody Point & Moreton Bay",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

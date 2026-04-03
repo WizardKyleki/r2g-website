@@ -17,7 +17,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Springwood properties sit on sloped blocks with stepped entries and narrow side access, particularly in the streets surrounding Chatswood Hills State School. Our team brings furniture trolleys, ramp boards and protective runners to navigate split-level homes and steep driveways safely and without damage.",
     nearbySubs: ["Daisy Hill", "Underwood", "Rochedale South"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Springwood & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Street parking can be tight on moving day in Woodridge, particularly along Station Road and near the schools. Our drivers plan arrival times and truck positioning carefully, and we can arrange council permits if needed to reserve kerb space outside your home.",
     nearbySubs: ["Logan Central", "Kingston", "Slacks Creek"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Woodridge & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The mix of cul-de-sacs and winding residential streets in Slacks Creek can make truck positioning tricky, especially on moving weekends. Our drivers scout access routes in advance and use smaller vehicles where needed to navigate tight turning circles without disrupting neighbours.",
     nearbySubs: ["Springwood", "Daisy Hill", "Woodridge"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Slacks Creek & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Underwood's position near major arterial roads means moving-day traffic can be heavy, particularly along Kingston Road and Compton Road. Our team plans arrival windows to avoid peak congestion, and we use protective padding on all items to handle the stop-start driving conditions on these busy routes.",
     nearbySubs: ["Springwood", "Rochedale South", "Eight Mile Plains"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Underwood & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Shailer Park's bushland setting means many properties are accessed via steep driveways or have elevated entries with multiple stair runs. Our team brings heavy-duty trolleys, stair climbers and protective blankets to navigate these challenging access points safely.",
     nearbySubs: ["Daisy Hill", "Tanah Merah", "Cornubia"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Shailer Park & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "New estate streets in Tanah Merah can be narrow with limited on-street parking, especially during construction phases. Our drivers are skilled at manoeuvring in tight new-build environments, and we plan truck positioning carefully to avoid blocking other residents or freshly laid driveways.",
     nearbySubs: ["Shailer Park", "Loganholme", "Cornubia"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Tanah Merah & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Regents Park streets have footpath-level driveways and limited front setbacks, which means our trucks can usually park close to the front door. However, corner properties and those on busier collector roads may need traffic management during loading — our team plans for this in advance.",
     nearbySubs: ["Browns Plains", "Heritage Park", "Hillcrest"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Regents Park & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -452,7 +452,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Waterford's proximity to the Logan River means some properties sit in flood-prone zones, requiring careful timing for moves during the wet season. Our team monitors weather conditions closely and can arrange short-notice rescheduling or temporary storage if flooding threatens access to your property.",
     nearbySubs: ["Waterford West", "Loganlea", "Beenleigh"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Waterford & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -514,7 +514,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Several streets in Waterford West are narrow with cars parked on both sides, making large truck access difficult. Our drivers assess each address prior to moving day and will bring a smaller vehicle if needed to navigate tight residential streets without holding up traffic.",
     nearbySubs: ["Waterford", "Logan Central", "Loganlea"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Waterford West & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -576,7 +576,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Priestdale's hilly terrain and bushland surrounds mean many homes are built on sloping blocks with stepped access or long driveways. Our team uses ramp boards, stair climbers and extra crew members when needed to handle these access challenges efficiently and without risk of damage.",
     nearbySubs: ["Springwood", "Daisy Hill", "Shailer Park"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Priestdale & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -638,7 +638,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Rochedale South's position between two motorways means road noise is common but access is excellent for our trucks. The main challenge is navigating newer estate streets that can be narrow with limited turning space. Our drivers plan routes carefully to avoid dead ends and construction zones in developing areas.",
     nearbySubs: ["Underwood", "Springwood", "Eight Mile Plains"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Rochedale South & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -700,7 +700,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Windaroo's estate streets are generally well designed with good truck access, but some internal roads near the golf course have roundabouts and traffic calming measures that require careful navigation. Our drivers know the area well and plan the most efficient route to your door.",
     nearbySubs: ["Bannockburn", "Beenleigh", "Mount Warren Park"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Windaroo & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -762,7 +762,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Yarrabilba's ongoing construction means building sites, temporary road closures and incomplete footpaths are common throughout the estate. Our drivers check access conditions the morning of each move and carry GPS coordinates for specific lots, ensuring we reach your home even if street signs have not yet been installed.",
     nearbySubs: ["Jimboomba", "Flagstone", "Logan Village"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Yarrabilba & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -824,7 +824,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Accessing Wolffdene properties can involve steep, winding driveways and unsealed road sections. Our drivers inspect routes in advance and select appropriately sized vehicles to handle gravel lanes, inclines and tight turns without damaging your property or landscaping.",
     nearbySubs: ["Windaroo", "Beenleigh", "Bahrs Scrub"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Wolffdene & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -886,7 +886,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The roads through Stockleigh are narrow and winding with some unsealed sections, particularly on private access roads. Our drivers conduct route assessments before every move in the area and bring smaller rigid trucks when the standard pantechnicon cannot safely access your property.",
     nearbySubs: ["Jimboomba", "South Maclean", "Cedar Grove", "Glenlogan"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Stockleigh & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -948,7 +948,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "South Maclean's transition from rural to suburban means active construction zones can affect road access in newer stages. Our team monitors development progress and checks with estate managers before each move to confirm clear access to your new home.",
     nearbySubs: ["North Maclean", "Greenbank", "Stockleigh"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "South Maclean & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1010,7 +1010,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Many Munruben properties are accessed via long, sometimes unpaved, private driveways that wind through bushland. Our drivers assess access conditions ahead of time and will bring a smaller truck or shuttle loads from the main road if the driveway cannot safely accommodate a full-size vehicle.",
     nearbySubs: ["Park Ridge South", "Greenbank", "North Maclean", "Lyons"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Munruben & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1072,7 +1072,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Kagaru's remote location and narrow rural roads can pose access challenges for large moving trucks. Our team scouts the route to your property in advance and may use a combination of smaller rigid trucks and trailers to safely transport your belongings along winding country roads and across cattle grids.",
     nearbySubs: ["Veresdale", "Woodhill", "Mundoolun"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Kagaru & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1134,7 +1134,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Access to Lyons properties often requires navigating narrow sealed and unsealed roads without kerbing or street lighting. Our drivers assess every route before moving day and plan arrival times during daylight hours to ensure safe navigation to your door.",
     nearbySubs: ["Park Ridge South", "Munruben", "Logan Village"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Lyons & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1196,7 +1196,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Veresdale's distance from Logan's urban areas and narrow country roads require careful logistics planning. Our team coordinates truck sizes, travel routes and crew numbers well in advance, ensuring we reach your property safely and have enough manpower to complete the move in a single day.",
     nearbySubs: ["Veresdale Scrub", "Woodhill", "Kagaru"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Veresdale & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1258,7 +1258,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "The winding roads through Veresdale Scrub can be narrow and lack shoulders, requiring our drivers to plan routes that avoid oncoming traffic conflicts with large trucks. We use appropriately sized rigid vehicles and arrange travel times to minimise risks on these rural stretches.",
     nearbySubs: ["Veresdale", "Jimboomba", "Woodhill"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Veresdale Scrub & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1320,7 +1320,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Woodhill's remote location and limited road infrastructure make logistics a key consideration for any move. Our team plans every detail in advance, from truck size and crew numbers to fuel stops and route timing, ensuring your move runs smoothly despite the distance from our Archerfield depot.",
     nearbySubs: ["Veresdale", "Kagaru", "Tamborine"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Woodhill & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1382,7 +1382,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Some Tamborine properties are accessed via steep gravel roads or winding private driveways near the mountain foothills. Our drivers assess gradient, surface and width before every move and will bring a smaller rigid truck when the standard vehicle cannot safely navigate the approach.",
     nearbySubs: ["Wolffdene", "Yarrabilba", "Canungra"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Tamborine & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
@@ -1444,7 +1444,7 @@ export const logan2Suburbs: BrisbaneSuburb[] = [
     uniquePara3:
       "Some Glenlogan roads are narrow and wind through hilly terrain, requiring careful vehicle selection. Our team assesses the route to your property before every move and selects the most appropriate truck to navigate steep inclines, tight bends and any unsealed sections safely.",
     nearbySubs: ["Stockleigh", "Jimboomba", "Cedar Grove"],
-    priceFrom: "$160/hr",
+    priceFrom: "$179/hr",
     serviceArea: "Glenlogan & Logan",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",

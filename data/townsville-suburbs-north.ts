@@ -39,7 +39,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "R2G handles Hermit Park moves regularly, from elevated Queenslanders on Herbert Street to lowset brick homes near the school. We bring stair-climbing trolleys for the high-set homes and schedule early starts to beat the tropical heat. Our team knows the rail crossing timing and plans around it so your move stays on track. Local moves to Mundingburra, Aitkenvale or across the river to Kirwan are our bread and butter in this part of town.",
     nearbySubs: ["Mundingburra", "Pimlico", "Mysterton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Hermit Park & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -122,7 +122,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Mundingburra is one of our most-serviced suburbs in Townsville. The flat blocks and lowset homes mean fast loading times, and the central location keeps travel time short no matter where you are heading next. We handle everything from family home relocations to small unit moves near Stockland. Our crew knows the back streets that bypass Ross River Road traffic and we schedule around wet season conditions when needed.",
     nearbySubs: ["Hermit Park", "Aitkenvale", "Pimlico"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mundingburra & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -205,7 +205,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Pimlico is one of our busiest suburbs thanks to the hospital precinct and defence housing turnover. We handle unit moves near Fulham Road, Queenslander relocations on the older streets and family home moves throughout the suburb. Our crew schedules around hospital traffic, brings stair equipment for the elevated homes and coordinates lift bookings for the apartment complexes. Short-run moves to Aitkenvale, Cranbrook and the northern beaches are daily jobs for us.",
     nearbySubs: ["Hermit Park", "Mysterton", "Hyde Park"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Pimlico & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -288,7 +288,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Currajong is one of the more straightforward suburbs to move in Townsville — flat blocks, wide streets and lowset homes with easy access. We handle the full job including shed contents, outdoor furniture and workshop equipment that accumulates on these larger blocks. Our crew knows the quiet residential streets and schedules around the school zone near Currajong State School. Local runs to Cranbrook, Mundingburra and the western suburbs are quick and efficient.",
     nearbySubs: ["Mysterton", "Mundingburra", "Gulliver"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Currajong & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -371,7 +371,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Rosslea moves need a crew that understands flood-zone logistics and raised home access. R2G handles both with experience gained across hundreds of Townsville moves. We check every Rosslea property before the move, monitor wet season conditions and bring the right gear for stair work on elevated homes. Whether you are moving out of a rebuilt Queenslander or a ground-level unit, we get it done safely and on schedule.",
     nearbySubs: ["Hermit Park", "Mundingburra", "Aitkenvale"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Rosslea & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -454,7 +454,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Mysterton is a straightforward suburb for our crews — quiet streets, flat blocks and a mix of timber and brick homes with easy access. We handle everything from full house moves to single-room relocations in this part of town. The central location means short drive times to wherever you are heading next, and the calm residential streets let us work efficiently without traffic headaches.",
     nearbySubs: ["Currajong", "Pimlico", "Hyde Park"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mysterton & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -537,7 +537,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Hyde Park moves require a careful touch and a crew that knows how to work around heritage features. R2G brings drop sheets, corner protectors and the patience to navigate narrow Queenslander hallways without marking the timber. We handle everything from full house moves to single-item relocations in this premium inner suburb. Our early-start scheduling beats the Sturt Street parking rush and keeps the job moving efficiently.",
     nearbySubs: ["Pimlico", "Mysterton", "Hermit Park"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Hyde Park & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -620,7 +620,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Gulliver moves are fast and straightforward — flat blocks, big sheds and lowset homes with wide doorways. R2G handles the full job including chest freezers, workbenches and all the gear that accumulates in Gulliver sheds. We use Woolcock Street for quick access to the western suburbs and plan our route to avoid any backtracking. If your property has a granny flat or rear dwelling, we check the access path before moving day.",
     nearbySubs: ["Currajong", "Cranbrook", "Vincent"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Gulliver & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -703,7 +703,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Cranbrook spans old and new Townsville, and our service adapts to both. For the older eastern streets we bring extra equipment for raised homes and plan truck access around narrow roads. For the new estates we use our largest truck and load fast through the double garages. Pool table moves, shed clearances and full house relocations are all standard work for our Cranbrook crews. The Woolcock Street corridor keeps drive times short to anywhere in the city.",
     nearbySubs: ["Gulliver", "Vincent", "Aitkenvale"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cranbrook & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -786,7 +786,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Aitkenvale is a high-volume suburb for R2G, from Defence family relocations to local house moves south of Stockland. We schedule every Aitkenvale job to beat the retail traffic, use back-street routes through the residential area and handle interstate moves for families posted to Cairns, Brisbane or further south. Our crew is experienced with the mix of lowset brick homes, unit complexes and everything in between.",
     nearbySubs: ["Mundingburra", "Vincent", "Douglas"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Aitkenvale & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -869,7 +869,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Vincent is a core suburb for Defence family relocations, and R2G is set up to handle the specific requirements of posting moves. We work with DHA timelines, understand inspection standards and offer storage solutions for families between postings. Beyond Defence moves, we handle standard residential relocations across Vincent with the same efficiency — flat blocks, lowset access and a crew that knows every street.",
     nearbySubs: ["Cranbrook", "Aitkenvale", "Gulliver"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Vincent & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -952,7 +952,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Douglas keeps R2G busy year-round with a steady mix of student moves, Defence family relocations and standard residential jobs. We offer scaled-down services for students — single-room moves, furniture collection from multiple pick-up points and share house setups. For Defence families, we handle the full posting move with DHA compliance. Our crew knows the campus precinct, the back routes around University Drive and the best times to avoid the semester rush.",
     nearbySubs: ["Aitkenvale", "Vincent", "Mount Louisa"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Douglas & Townsville Inner",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1036,7 +1036,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Bohle acreage moves need extra planning and a crew experienced with rural-residential properties. R2G checks every Bohle property before the move, assesses driveway conditions and brings the right gear for elevated homes and large sheds. We handle everything from ride-on mowers to household furniture, and we schedule around wet season conditions to keep your move safe and on track.",
     nearbySubs: ["Bohle Plains", "Deeragun", "Mount Louisa"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bohle & Townsville North",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1119,7 +1119,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Bohle Plains is new-home territory and R2G is the crew that gets people settled in. We handle the full move from your current rental or home to your brand new build — loading, transporting and setting up furniture in every room. The modern estates have perfect truck access and wide doorways that make the job efficient. We see multiple new settlement moves in Bohle Plains every week and know the estates inside out.",
     nearbySubs: ["Bohle", "Deeragun", "Alice River"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bohle Plains & Townsville North",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1202,7 +1202,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Bushland Beach is a top destination for R2G moves — new homes, wide streets and a growing community that we service multiple times each week. We handle the full move from your current home to the new estate, including furniture assembly, appliance placement and box distribution by room. The modern housing stock makes every move efficient, and we schedule around the peak-hour highway corridor to keep your job running on time.",
     nearbySubs: ["Burdell", "Deeragun", "Jensen"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bushland Beach & Townsville North",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1285,7 +1285,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Burdell is one of Townsville's busiest new-home suburbs and R2G helps families move in every week. We offer a straightforward service for first-home buyers — clear pricing, efficient loading from your rental and careful setup in your new home. The modern estate access makes every Burdell job run smoothly, and we schedule around peak highway traffic to keep your move on time.",
     nearbySubs: ["Bushland Beach", "Deeragun", "Jensen"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Burdell & Townsville North",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -1368,7 +1368,7 @@ export const townsvilleNorthSuburbs: TownsvilleSuburb[] = [
     serviceSummary:
       "Deeragun moves combine the challenges of established housing with the convenience of northern corridor access. R2G handles the older cul-de-sac streets, large sheds and converted garages that are common in this suburb. We check every property for truck access, plan around overhanging trees and tight turning circles, and get the job done efficiently whether you are moving within the northern suburbs or heading south to the inner city.",
     nearbySubs: ["Bohle Plains", "Bushland Beach", "Burdell"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Deeragun & Townsville North",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

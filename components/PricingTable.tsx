@@ -62,11 +62,11 @@ const DEFAULT_TABS = [
     label: "2 Movers + Truck",
     sublabel: "Small Move",
     title: "2 Movers + Truck",
-    price: "From $170/hr",
+    price: "From $179/hr",
     bestFor: "Studio, 1-2 bedroom homes",
     rates: [
-      { day: "Mon – Fri", rate: "$170/hr" },
-      { day: "Saturday", rate: "$189/hr" },
+      { day: "Mon – Fri", rate: "$179/hr" },
+      { day: "Saturday", rate: "$199/hr" },
       { day: "Sunday", rate: "$269/hr" },
       { day: "Public Holiday", rate: "$269/hr" },
     ],
@@ -94,13 +94,13 @@ const DEFAULT_TABS = [
     label: "3 Movers + Large Truck",
     sublabel: "XL Large Move",
     title: "3 Movers + Large Truck",
-    price: "From $220/hr",
+    price: "From $269/hr",
     bestFor: "Large homes, offices",
     rates: [
-      { day: "Mon – Fri", rate: "$220/hr" },
-      { day: "Saturday", rate: "$245/hr" },
-      { day: "Sunday", rate: "$325/hr" },
-      { day: "Public Holiday", rate: "$325/hr" },
+      { day: "Mon – Fri", rate: "$269/hr" },
+      { day: "Saturday", rate: "$279/hr" },
+      { day: "Sunday", rate: "$359/hr" },
+      { day: "Public Holiday", rate: "$359/hr" },
     ],
     extra: true,
     interstate: false,
@@ -134,28 +134,17 @@ const DEFAULT_TABS = [
   },
 ];
 
+// Cairns & Townsville: higher base rate for 2 Movers + Truck
 const CAIRNS_TABS = DEFAULT_TABS.map((tab) => {
   if (tab.id === 0) {
     return {
       ...tab,
-      price: "From $179/hr",
+      price: "From $189/hr",
       rates: [
-        { day: "Mon – Fri", rate: "$179/hr" },
-        { day: "Saturday", rate: "$199/hr" },
-        { day: "Sunday", rate: "$269/hr" },
-        { day: "Public Holiday", rate: "$269/hr" },
-      ],
-    };
-  }
-  if (tab.id === 2) {
-    return {
-      ...tab,
-      price: "From $269/hr",
-      rates: [
-        { day: "Mon – Fri", rate: "$269/hr" },
-        { day: "Saturday", rate: "$279/hr" },
-        { day: "Sunday", rate: "$359/hr" },
-        { day: "Public Holiday", rate: "$359/hr" },
+        { day: "Mon – Fri", rate: "$189/hr" },
+        { day: "Saturday", rate: "$209/hr" },
+        { day: "Sunday", rate: "$279/hr" },
+        { day: "Public Holiday", rate: "$279/hr" },
       ],
     };
   }

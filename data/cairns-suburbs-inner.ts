@@ -17,7 +17,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Parking for removal trucks in the CBD is subject to council time restrictions and loading zone rules. Abbott Street and Shields Street have designated loading zones, but these are heavily used during business hours. Our drivers arrive early to secure loading access, and we coordinate directly with building managers to book service lifts where needed.",
     nearbySubs: ["Cairns North", "Parramatta Park", "Portsmith"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cairns City & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -80,7 +80,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Streets in the older parts of Cairns North like Digger Street and Grove Street have tight kerb-side parking and overhead powerlines that require careful truck positioning. Our team scouts access on the day and brings appropriate equipment for stump-height homes where furniture needs to be carried up or down external stairs.",
     nearbySubs: ["Cairns City", "Edge Hill", "Whitfield"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cairns North & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -142,7 +142,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Anderson Street and Balaclava Road carry significant through-traffic during peak hours, which can complicate truck access near intersections. Our team plans alternative parking and access strategies for properties on busy through-routes, and we're familiar with the loading arrangements at the unit complexes along Aumuller Street.",
     nearbySubs: ["Cairns City", "Portsmith", "Manunda"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cairns South & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -204,7 +204,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mulgrave Road is Manunda's main commercial spine and carries heavy traffic throughout the day. Our team uses the quieter residential streets such as Pease Street and Minnie Street to access properties close to the main road, and we time our arrival to avoid the Cairns Hospital shift changes at 7am and 3pm which cause notable local congestion.",
     nearbySubs: ["Parramatta Park", "Mooroobool", "Cairns City"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Manunda & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -266,7 +266,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mulgrave Road borders the suburb to the west and can slow truck movement during peak hours. Our team accesses most Parramatta Park properties via Upward Street or Charles Street, which have better kerb parking options for a large removal truck. We're also experienced with the body corporate requirements at the townhouse complexes near Lily Street.",
     nearbySubs: ["Manunda", "Cairns City", "Westcourt"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Parramatta Park & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -328,7 +328,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mulgrave Road and Gatton Street are the main access routes through Westcourt and carry commercial traffic throughout the day. Our drivers know the residential side streets that allow closer truck access to properties on the main corridors, and we're experienced with the common unit layouts and stairwell configurations found in the older 1970s and 1980s blocks in the suburb.",
     nearbySubs: ["Parramatta Park", "Earlville", "Mooroobool"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Westcourt & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -390,7 +390,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access through Portsmith via McLeod Street and Aumuller Street is generally straightforward for heavy vehicles during off-peak hours. However, early mornings see significant freight truck traffic heading to and from the port. Our team coordinates commercial moves for mid-morning starts to avoid the early freight run, and we have equipment suited to warehouse and office fit-out clearances in the industrial estate.",
     nearbySubs: ["Cairns City", "Cairns South", "Edmonton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Portsmith & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -452,7 +452,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Bruce Highway runs through Woree's eastern edge and creates a hard boundary that funnels local traffic through a small number of intersections. Our team plans move routes that avoid the Woree roundabout during morning school drop-off and uses the residential streets parallel to the highway for truck access wherever possible.",
     nearbySubs: ["Earlville", "Mooroobool", "Edmonton"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Woree & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -514,7 +514,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Traffic around Cairns Central and the Mulgrave Road intersection at the top of Earlville can slow significantly on weekends and public holidays. Our team times moves in this part of the suburb for early weekday mornings when the shopping centre car parks are clear and the Mulgrave Road service roads are accessible for loading and unloading.",
     nearbySubs: ["Woree", "Mooroobool", "Westcourt"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Earlville & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -576,7 +576,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The main intersection of Mulgrave Road and Gatton Street in Mooroobool handles significant traffic volumes throughout the day. Our team accesses properties close to this intersection via the quieter parallel streets such as Draper Street and Barnard Street, where kerb parking is more reliable and truck turning is less restricted.",
     nearbySubs: ["Westcourt", "Earlville", "Kanimbla"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Mooroobool & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -638,7 +638,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access into Brinsmead is via the winding Brinsmead Road, which has limited passing space for large vehicles. Our drivers navigate this route carefully and communicate with incoming vehicles to avoid blocking the road. We recommend booking an early start for Brinsmead moves to clear the road before the morning commuter traffic begins using it as a route down to the northern suburbs.",
     nearbySubs: ["Kanimbla", "Edge Hill", "Mooroobool"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Brinsmead & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -700,7 +700,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Kanimbla's street network connects directly to Brinsmead Road to the north and the Mulgrave Road corridor to the east, giving our team multiple approach routes depending on traffic conditions on the day. The suburb's flat topography and well-maintained roads mean moves here are typically efficient with minimal access complications.",
     nearbySubs: ["Brinsmead", "Mooroobool", "Manunda"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Kanimbla & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -762,7 +762,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Sheridan Street, which borders Manoora to the east, is one of Cairns' busiest arterials and should be avoided as a truck access route during the morning and afternoon peak. Our drivers use the quieter parallel streets through the suburb's interior, such as Pease Street and Aumuller Street extensions, to reach most Manoora properties without encountering the main-road congestion.",
     nearbySubs: ["Cairns North", "Manunda", "Parramatta Park"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Manoora & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",

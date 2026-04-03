@@ -17,7 +17,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Cooktown's streets range from sealed roads in the town centre to unsealed access tracks on the fringes. During the wet season (November to April), some outer properties become inaccessible without a 4WD. We plan all Cooktown moves for the dry season where possible, and always confirm road conditions in advance. Storage at our Cairns depot is available if your moving window falls during a wet-season closure.",
     nearbySubs: ["Rossville", "Hope Vale", "Lakeland"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Cooktown & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -79,7 +79,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Because the Bloomfield Track requires a 4WD or high-clearance vehicle, we use purpose-suited vehicles for the final section of your move. Larger furniture may need to be disassembled prior to transport to fit safely along the narrow, steep track. Our team will advise you at the quoting stage on any items that need special preparation so there are no surprises on moving day.",
     nearbySubs: ["Ayton", "Cooktown", "Rossville"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Bloomfield & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -141,7 +141,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Rossville sits in an area that receives high wet-season rainfall, and while the Mulligan Highway itself is generally reliable, side tracks to rural properties can become impassable from November through April. We assess each property's access individually and recommend dry-season moves for any home not directly on the sealed highway. Our Cairns storage facility provides a practical buffer if your dates straddle a wet-season period.",
     nearbySubs: ["Cooktown", "Helenvale", "Bloomfield"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Rossville & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -203,7 +203,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Bloomfield River crossing near Ayton can be affected by heavy rain and seasonal flooding, occasionally cutting the town off temporarily. We monitor water levels and road conditions before departing Cairns and maintain open communication with clients throughout the moving process. For added peace of mind, our secure Cairns storage facility can hold your belongings until road conditions are confirmed safe.",
     nearbySubs: ["Bloomfield", "Rossville", "Cooktown"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Ayton & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -265,7 +265,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Helenvale's location roughly midway between Cairns and Cooktown makes it a natural stopping point for long-haul moves along the Cape York corridor. Our crew is experienced with this stretch of the Mulligan Highway and knows how to manage long-distance moves efficiently, including arranging break stops and planning loadings to take advantage of the cooler morning hours in this part of Far North Queensland.",
     nearbySubs: ["Rossville", "Cooktown", "Bloomfield"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Helenvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -327,7 +327,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "As Hope Vale sits on community land, some properties and access arrangements differ from standard residential moves. We recommend contacting the Hope Vale Aboriginal Shire Council prior to confirming your moving date to ensure any access requirements or local protocols are met. Our team is experienced working in remote Indigenous community contexts and will always follow local guidance throughout the move.",
     nearbySubs: ["Cooktown", "Lakeland", "Rossville"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Hope Vale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
@@ -389,7 +389,7 @@ export const cairnsCookShireSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Lakeland's position at the junction of two major Cape York highways makes it a practical staging point for complex multi-destination moves further up the peninsula. If you are relocating to multiple properties or coordinating a move that extends beyond Lakeland towards Laura or Cooktown, our team can plan a combined run to maximise efficiency and reduce overall cost.",
     nearbySubs: ["Cooktown", "Rossville", "Lakeland"],
-    priceFrom: "$179/hr",
+    priceFrom: "$189/hr",
     serviceArea: "Lakeland & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
