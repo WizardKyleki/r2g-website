@@ -2941,8 +2941,8 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-04-01",
     readTime: "8 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-storage.webp",
-    imageAlt: "Family-friendly suburban street in Townsville with tropical landscaping",
+    image: "/images/blog-townsville-families.webp",
+    imageAlt: "Aerial view of Townsville city and coastline in North Queensland",
     keywords: [
       "best suburbs townsville",
       "townsville family suburbs",
