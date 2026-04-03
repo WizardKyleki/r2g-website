@@ -15,6 +15,7 @@ export type ContentBlock =
 export interface BlogPost {
   slug: string;
   url?: string; // override link destination (e.g. "/ndis-removalists" instead of "/blog/slug")
+  pinned?: boolean; // pinned posts always appear first on the blog page
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -33,6 +34,35 @@ export interface BlogPost {
 
 // ── POSTS ──────────────────────────────────────────────
 export const blogPosts: BlogPost[] = [
+  // ── PINNED: R2G Moving Index 2026 ────────────────────
+  {
+    slug: "moving-index-2026",
+    url: "/moving-index-2026",
+    pinned: true,
+    title: "R2G Moving Index 2026: 21,595 People Moved to QLD",
+    metaTitle: "R2G Moving Index 2026: Queensland Migration & Housing Data",
+    metaDescription:
+      "Queensland gained 21,595 interstate migrants while NSW lost 24,328. Brisbane vacancy hits 0.8%, rents reach $727/wk. Data-driven migration and housing analysis.",
+    excerpt:
+      "Queensland leads Australia in interstate migration with 21,595 new residents. Brisbane vacancy rates sit at 0.8% and rents have hit $727 per week. Our full data report covers where people are moving, why, and what it means for housing in 2026.",
+    category: "Industry Report",
+    date: "March 2026",
+    publishedDate: "2026-03-01",
+    readTime: "12 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-moving-index.webp",
+    imageAlt: "Brisbane CBD skyline representing Queensland migration growth in 2026",
+    keywords: [
+      "moving index 2026",
+      "queensland migration trends",
+      "brisbane housing market 2026",
+      "interstate migration australia",
+      "brisbane vacancy rate",
+    ],
+    relatedSlugs: ["moving-to-brisbane-guide", "cost-of-moving-brisbane", "moving-to-gold-coast-guide"],
+    content: [],
+  },
+
   // ── Post 1: Packing Kitchen ──────────────────────────
   {
     slug: "packing-kitchen-like-a-pro",
@@ -3158,9 +3188,13 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 }
 
 export function getAllBlogPosts(): BlogPost[] {
-  return [...blogPosts].sort(
-    (a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime()
-  );
+  return [...blogPosts].sort((a, b) => {
+    // Pinned posts always come first
+    if (a.pinned && !b.pinned) return -1;
+    if (!a.pinned && b.pinned) return 1;
+    // Then sort by date
+    return new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime();
+  });
 }
 
 export function getAllBlogSlugs(): string[] {
