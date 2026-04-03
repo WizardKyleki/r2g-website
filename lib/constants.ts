@@ -9,6 +9,13 @@ export const CAIRNS_ADDRESS = "36 Abbott St, Cairns City QLD 4870"
 export const BRISBANE_ADDRESS = "122 Ashover Circuit, Archerfield, Brisbane QLD 4108"
 export const HOURS = "9:00 AM – 5:00 PM"
 
+// ─── Review Data (single source of truth) ─────────────────────────────────
+// Update these values and all 890+ pages update automatically
+export const RATING_VALUE = "4.9"
+export const REVIEW_COUNT = "900"
+export const REVIEW_DISPLAY = "900+"
+export const RATING_DISPLAY = `${RATING_VALUE}-star rated with ${REVIEW_DISPLAY} reviews`
+
 export const SERVICE_AREAS = [
   { label: "Removalists Cairns", href: "/removalists-cairns" },
   { label: "Removalists Brisbane", href: "/removalists-brisbane" },
@@ -59,6 +66,9 @@ export const NAV_LINKS = [
       { label: "All Office Removalists", href: "/office-removalists" },
       { label: "Office Removalists Cairns", href: "/office-removalists/cairns" },
       { label: "Office Removalists Brisbane", href: "/office-removalists/brisbane" },
+      { label: "Office Removalists Gold Coast", href: "/office-removalists/gold-coast" },
+      { label: "Office Removalists Sunshine Coast", href: "/office-removalists/sunshine-coast" },
+      { label: "Office Removalists Townsville", href: "/office-removalists/townsville" },
     ],
   },
   { label: "Blog", href: "/blog" },
@@ -77,12 +87,12 @@ export const HOME_FAQS = [
   {
     question: "How much do removalists cost in Brisbane?",
     answer:
-      "Brisbane removals typically start from $160–$185 per hour for a 2-person team and truck. Costs vary based on property size, suburb, floor access, and any packing or storage requirements. R2G Transport & Storage provides upfront, itemised quotes with no hidden fees — call 1300 959 498 or request a quote online.",
+      "Brisbane removals typically start from $160 to $185 per hour for a 2-person team and truck. Costs vary based on property size, suburb, floor access, and any packing or storage requirements. R2G Transport & Storage provides upfront, itemised quotes with no hidden fees. Call 1300 959 498 or request a quote online.",
   },
   {
     question: "Do you move from Cairns to Brisbane?",
     answer:
-      "Yes — Cairns to Brisbane is one of our most popular interstate routes. We offer regular scheduled runs between both cities with door-to-door service, full insurance coverage, and competitive flat-rate pricing. We also service the reverse trip, Brisbane to Cairns.",
+      "Yes, Cairns to Brisbane is one of our most popular interstate routes. We offer regular scheduled runs between both cities with door-to-door service, full insurance coverage, and competitive flat-rate pricing. We also service the reverse trip, Brisbane to Cairns.",
   },
   {
     question: "Do you service the Gold Coast and Sunshine Coast?",
@@ -92,11 +102,11 @@ export const HOME_FAQS = [
   {
     question: "Are you fully insured?",
     answer:
-      "Yes, R2G Transport & Storage is fully insured with comprehensive public liability and goods-in-transit insurance. Your belongings are protected throughout every stage of the move — from pickup to delivery.",
+      "Yes, R2G Transport & Storage is fully insured with comprehensive public liability and goods-in-transit insurance. Your belongings are protected throughout every stage of the move, from pickup to delivery.",
   },
   {
     question: "How far in advance should I book?",
     answer:
-      "We recommend booking at least 2–4 weeks in advance, especially during peak periods like December–January and on weekends. We do our best to accommodate last-minute bookings too — give us a call on 1300 959 498.",
+      "We recommend booking at least 2 to 4 weeks in advance, especially during peak periods like December to January and on weekends. We do our best to accommodate last-minute bookings too. Give us a call on 1300 959 498.",
   },
 ]

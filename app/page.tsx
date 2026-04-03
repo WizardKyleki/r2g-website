@@ -10,12 +10,12 @@ const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 const ServiceAreas = dynamic(() => import("@/components/ServiceAreas"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { HOME_FAQS } from "@/lib/constants";
+import { HOME_FAQS, RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: { absolute: "R2G Removalists | Local & Interstate | Reliable & Affordable" },
   description:
-    "Make the right move with R2G — 10+ years experience, 900+ five-star reviews, fully insured. Local & interstate removalists. Get a free quote now.",
+    `Make the right move with R2G — 10+ years experience, ${REVIEW_DISPLAY} five-star reviews, fully insured. Local & interstate removalists. Get a free quote now.`,
   keywords: ["removalists cairns", "removalists brisbane", "removalists gold coast", "removalists sunshine coast", "interstate removalists", "r2g transport and storage", "cairns removalists", "brisbane removalists"],
   alternates: { canonical: "https://www.r2g.com.au" },
   openGraph: {
@@ -103,8 +103,8 @@ const homepageSchema = {
   },
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "900",
+    ratingValue: RATING_VALUE,
+    reviewCount: REVIEW_COUNT,
     bestRating: "5",
   },
   sameAs: [

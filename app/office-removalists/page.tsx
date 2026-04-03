@@ -5,7 +5,7 @@ const FAQ = dynamic(() => import("@/components/FAQ"));
 import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 import { OFFICE_DEFAULT_IMAGES } from "@/data/office-locations";
 
@@ -99,8 +99,8 @@ const jsonLdSchema = {
       },
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.9",
-        reviewCount: "900",
+        ratingValue: RATING_VALUE,
+        reviewCount: REVIEW_COUNT,
         bestRating: "5",
       },
     },
@@ -189,10 +189,10 @@ jsonLdSchema["@graph"].push({
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Office Removalists | Fully Insured, Zero Downtime",
+    absolute: "Office Removalists & Office Move Companies | R2G Transport",
   },
   description:
-    "Professional office removalists with 10+ years experience. Weekend & after-hours moves, fully insured, minimal downtime. Get a free quote today.",
+    "Office move companies trusted by QLD businesses. Weekend and after-hours office moving, fully insured, minimal downtime. Get a free quote today.",
   keywords: [
     "office removalists",
     "commercial removalists",
@@ -203,9 +203,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: pageConfig.canonicalUrl },
   openGraph: {
-    title: "Office Removalists | R2G Transport & Storage",
+    title: "Office Move Companies | R2G Transport & Storage",
     description:
-      "Professional office removalists. Weekend & after-hours moves, fully insured, minimal downtime. Get a free quote today.",
+      "Professional office move companies. Weekend and after-hours office moving, fully insured, minimal downtime. Get a free quote today.",
     url: pageConfig.canonicalUrl,
     type: "website",
   },
@@ -543,7 +543,13 @@ export default function OfficeRemovalistsPage() {
                       {[
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
+                        { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
+                        { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+                        { label: "Removalists Townsville", href: "/removalists-townsville" },
                         { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "NDIS Removalists", href: "/ndis-removalists" },
+                        { label: "Storage Brisbane", href: "/storage-brisbane" },
+                        { label: "Storage Cairns", href: "/storage-cairns" },
                       ].map((link) => (
                         <Link
                           key={link.href}

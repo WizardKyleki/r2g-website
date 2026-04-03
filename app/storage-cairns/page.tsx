@@ -6,7 +6,7 @@ const PageHero = dynamic(() => import("@/components/PageHero"));
 const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { PHONE, PHONE_HREF, CAIRNS_ADDRESS, BRISBANE_ADDRESS } from "@/lib/constants";
+import { PHONE, PHONE_HREF, CAIRNS_ADDRESS, BRISBANE_ADDRESS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Storage Cairns | Secure Short & Long-Term Solutions",
@@ -19,6 +19,25 @@ export const metadata: Metadata = {
     description: "Secure, flexible storage in Cairns. Short or long-term, no lock-in contracts. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-cairns",
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Storage Cairns",
+      item: "https://www.r2g.com.au/storage-cairns",
+    },
+  ],
 };
 
 const faqs = [
@@ -57,6 +76,33 @@ const faqs = [
 export default function StorageCairnsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "MovingCompany",
+            name: "R2G Transport & Storage",
+            telephone: "1300 959 498",
+            url: "https://www.r2g.com.au",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "36 Abbott St",
+              addressLocality: "Cairns City",
+              addressRegion: "QLD",
+              postalCode: "4870",
+              addressCountry: "AU",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: RATING_VALUE,
+              reviewCount: REVIEW_COUNT,
+              bestRating: "5",
+            },
+          }),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -248,7 +294,12 @@ export default function StorageCairnsPage() {
               { title: "Moving Boxes & Supplies", desc: "Quality boxes and packing materials.", href: "/boxes" },
               { title: "Removalists Cairns", desc: "Local moves across Cairns and FNQ.", href: "/removalists-cairns" },
               { title: "Removalists Brisbane", desc: "Local moves across Brisbane.", href: "/removalists-brisbane" },
+              { title: "Removalists Gold Coast", desc: "Local removalists covering all Gold Coast suburbs.", href: "/removalists-gold-coast" },
+              { title: "Removalists Sunshine Coast", desc: "Movers across the Sunshine Coast region.", href: "/removalists-sunshine-coast" },
+              { title: "Removalists Townsville", desc: "Trusted removalists in Townsville.", href: "/removalists-townsville" },
               { title: "Interstate Removals", desc: "Move between cities Australia-wide.", href: "/interstate-removalists" },
+              { title: "Office Removalists", desc: "Commercial moving for businesses across QLD.", href: "/office-removalists" },
+              { title: "NDIS Removalists", desc: "NDIS-funded moving services across QLD.", href: "/ndis-removalists" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="group p-5 bg-white border border-gray-100 rounded-xl hover:border-[#F5C400] transition-colors">
                 <h3 className="font-bold text-[#1A1A1A] mb-1 group-hover:text-[#F5C400] transition-colors">{link.title}</h3>

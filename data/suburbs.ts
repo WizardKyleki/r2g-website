@@ -56,9 +56,9 @@ const coreSuburbs: CairnsSuburb[] = [
     serviceArea: "Smithfield & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
-    metaTitle: "Professional Removalists Smithfield | Reliable & Affordable",
+    metaTitle: "Removalists Smithfield Cairns | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Smithfield with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Removalists Smithfield, Cairns. 10+ years experience, fully insured with no hidden fees. JCU area specialists. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit near JCU into a house in Caravonica. The R2G lads were quick, careful and knew exactly where to park the truck near campus. Everything arrived without a scratch — couldn't be happier.",

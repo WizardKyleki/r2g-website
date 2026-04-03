@@ -146,9 +146,9 @@ export const sunshineCoastCoastalSuburbs: SunshineCoastSuburb[] = [
     serviceArea: "Caloundra West & Sunshine Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Caloundra West | Professional Movers",
+    metaTitle: "Removalists Caloundra & Caloundra West | Trusted Movers",
     metaDescription:
-      "Trusted removalists in Caloundra West with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Removalists Caloundra and Caloundra West. 10+ years experience, fully insured with no hidden fees. Serving the Sunshine Coast. Free quote today.",
     reviews: [
       {
         text: "Moved into our brand-new home in the Aura estate from Logan. R2G navigated the construction zones easily and protected our floors with covers. Everything arrived in perfect condition.",

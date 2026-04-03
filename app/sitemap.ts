@@ -17,8 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Fixed dates for service pages that don't change frequently
   // This prevents Google from showing dates in search results (makes pages look like blog posts)
-  const SERVICE_PAGE_DATE = "2025-01-01T00:00:00.000Z";
-  const SUBURB_PAGE_DATE = "2025-01-01T00:00:00.000Z";
+  const SERVICE_PAGE_DATE = "2026-04-03T00:00:00.000Z";
+  const SUBURB_PAGE_DATE = "2026-04-03T00:00:00.000Z";
 
   // Static pages — hub pages and frequently updated pages use today, others use fixed date
   const staticPages = [
@@ -44,6 +44,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/privacy`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/terms`, priority: 0.3, changeFrequency: "yearly" as const, lastModified: SERVICE_PAGE_DATE },
     { url: `${BASE_URL}/moving-index-2026`, priority: 0.8, changeFrequency: "yearly" as const, lastModified: "2026-03-23T00:00:00.000Z" },
+    { url: `${BASE_URL}/brisbane-moving-checklist`, priority: 0.7, changeFrequency: "monthly" as const, lastModified: today },
+    { url: `${BASE_URL}/removalists-brisbane/northside`, priority: 0.9, changeFrequency: "monthly" as const, lastModified: today },
+    { url: `${BASE_URL}/removalists-brisbane/southside`, priority: 0.9, changeFrequency: "monthly" as const, lastModified: today },
+    { url: `${BASE_URL}/interstate-removals-cairns`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    // Packing services (new cities)
+    { url: `${BASE_URL}/packing-services-gold-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/packing-services-sunshine-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/packing-services-townsville`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    // Storage (new cities)
+    { url: `${BASE_URL}/storage-gold-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/storage-sunshine-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/storage-townsville`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    // NDIS city pages
+    { url: `${BASE_URL}/ndis-removalists/cairns`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/ndis-removalists/brisbane`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/ndis-removalists/gold-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/ndis-removalists/sunshine-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/ndis-removalists/townsville`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    // Removalist cost pages
+    { url: `${BASE_URL}/removalist-costs/brisbane`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalist-costs/cairns`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalist-costs/gold-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalist-costs/sunshine-coast`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
+    { url: `${BASE_URL}/removalist-costs/townsville`, priority: 0.8, changeFrequency: "monthly" as const, lastModified: SERVICE_PAGE_DATE },
   ];
 
   // Cairns suburb pages — fixed date so Google doesn't show dates in search results

@@ -482,8 +482,16 @@ function QuoteWizard() {
 
   // Session ID for partial lead capture & deduplication
   const quoteSessionId = useRef<string>("");
-  const partialSentData = useRef<{ name: string; phone: string; email: string } | null>(null);
-  const partialLeadTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const partialLeadData = useRef<{ name: string; phone: string; email: string } | null>(null);
+  const formCompleted = useRef(false);
+
+  // Capture HTTP referrer on mount (before any navigation changes it)
+  const httpReferrer = useRef("");
+  useEffect(() => {
+    if (typeof document !== "undefined" && document.referrer) {
+      httpReferrer.current = document.referrer;
+    }
+  }, []);
 
   useEffect(() => {
     const stored = sessionStorage.getItem("r2g_quote_session_id");
@@ -518,6 +526,29 @@ function QuoteWizard() {
       }
     }
   }, [searchParams]);
+
+  // Send abandoned quote alert ONLY when the user actually leaves the page
+  // without completing the form. Uses sendBeacon for reliability during unload.
+  useEffect(() => {
+    const handleUnload = () => {
+      if (formCompleted.current) return;
+      const lead = partialLeadData.current;
+      if (!lead || !lead.name || !lead.phone) return;
+      const payload = JSON.stringify({
+        quoteSessionId: quoteSessionId.current,
+        name: lead.name,
+        phone: lead.phone,
+        email: lead.email || "",
+        extras: [],
+        pageUrl: window.location.href,
+        referrerPage: referrerPage.current,
+        httpReferrer: httpReferrer.current || undefined,
+      });
+      navigator.sendBeacon("/api/partial-lead", new Blob([payload], { type: "application/json" }));
+    };
+    window.addEventListener("beforeunload", handleUnload);
+    return () => window.removeEventListener("beforeunload", handleUnload);
+  }, []);
 
   const [data, setData] = useState<QuoteData>({
     from: searchParams.get("from") || "",
@@ -556,32 +587,9 @@ function QuoteWizard() {
       if (next === 4 && step === 5) next = 3;
     }
 
-    // Partial lead capture: save name + phone when leaving Step 1
-    // Delayed by 15 minutes so we don't send abandoned alerts for users who complete the form
+    // Store contact details for abandoned quote detection (sent via beforeunload)
     if (step === 1 && next === 2) {
-      const current = { name: data.name, phone: data.phone, email: data.email };
-      const prev = partialSentData.current;
-      const changed = !prev || prev.name !== current.name || prev.phone !== current.phone || prev.email !== current.email;
-      if (changed) {
-        partialSentData.current = current;
-        // Clear any existing timer before starting a new one
-        if (partialLeadTimer.current) clearTimeout(partialLeadTimer.current);
-        partialLeadTimer.current = setTimeout(() => {
-          fetch("/api/partial-lead", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-              quoteSessionId: quoteSessionId.current,
-              name: data.name,
-              phone: data.phone,
-              email: data.email,
-              extras: data.extras,
-              pageUrl: window.location.href,
-              referrerPage: referrerPage.current,
-            }),
-          }).catch(() => {});
-        }, 15 * 60 * 1000); // 15 minutes
-      }
+      partialLeadData.current = { name: data.name, phone: data.phone, email: data.email };
     }
 
     setVisible(false);
@@ -601,14 +609,11 @@ function QuoteWizard() {
       const res = await fetch("/api/quote", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, quoteSessionId: quoteSessionId.current, pageUrl: window.location.href, referrerPage: referrerPage.current }),
+        body: JSON.stringify({ ...data, quoteSessionId: quoteSessionId.current, pageUrl: window.location.href, referrerPage: referrerPage.current, httpReferrer: httpReferrer.current || undefined }),
       });
       if (!res.ok) throw new Error("Failed to send");
-      // Cancel the abandoned quote timer since the form was completed
-      if (partialLeadTimer.current) {
-        clearTimeout(partialLeadTimer.current);
-        partialLeadTimer.current = null;
-      }
+      // Mark form as completed so beforeunload doesn't send abandoned alert
+      formCompleted.current = true;
       setSubmitted(true);
       sessionStorage.removeItem("r2g_quote_session_id");
       trackQuoteSubmit(data.propertyType, {

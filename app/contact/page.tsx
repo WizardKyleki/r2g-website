@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 const PageHero = dynamic(() => import("@/components/PageHero"));
 const EnquiryForm = dynamic(() => import("@/components/EnquiryForm"));
-import { PHONE, PHONE_HREF, EMAIL, CAIRNS_ADDRESS, BRISBANE_ADDRESS, HOURS } from "@/lib/constants";
+import { PHONE, PHONE_HREF, EMAIL, CAIRNS_ADDRESS, BRISBANE_ADDRESS, HOURS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Contact Us - Call 1300 959 498",
@@ -14,6 +14,25 @@ export const metadata: Metadata = {
     description: "Get in touch with R2G Transport & Storage. Free, no-obligation quotes for all moves.",
     url: "https://www.r2g.com.au/contact",
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Contact Us",
+      item: "https://www.r2g.com.au/contact",
+    },
+  ],
 };
 
 const contactDetails = [
@@ -74,11 +93,18 @@ const contactSchema = {
     opens: "09:00",
     closes: "17:00",
   },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: RATING_VALUE,
+    reviewCount: REVIEW_COUNT,
+    bestRating: "5",
+  },
 };
 
 export default function ContactPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}

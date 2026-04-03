@@ -271,9 +271,9 @@ export const goldCoastCentralSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Bundall & Gold Coast Central",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Bundall | Professional Movers",
+    metaTitle: "Removalists Bundall | Trusted Gold Coast Movers",
     metaDescription:
-      "Trusted removalists in Bundall with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Removalists Bundall, Gold Coast. 10+ years experience, fully insured with no hidden fees. Canal homes and office moves covered. Free quote today.",
     reviews: [
       {
         text: "R2G moved us from our canal-front home on Doreen Street in Bundall to a property in Benowa Hills. They wrapped every piece of art and handled my wife's antique dresser with real care. Fantastic crew.",

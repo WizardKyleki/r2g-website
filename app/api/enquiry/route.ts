@@ -1,26 +1,13 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { detectLeadSource } from "@/lib/detect-lead-source";
+import { saveLead } from "@/lib/save-lead";
 
 export async function POST(request: Request) {
   try {
-    const { name, phone, email, topic, description, pageUrl } = await request.json();
+    const { name, phone, email, topic, description, pageUrl, httpReferrer } = await request.json();
 
-    // Detect lead source from UTM parameters
-    const detectSource = (url: string | undefined): string => {
-      if (!url) return "Direct";
-      try {
-        const params = new URL(url).searchParams;
-        const utmSource = params.get("utm_source");
-        const utmMedium = params.get("utm_medium");
-        const utmCampaign = params.get("utm_campaign");
-        if (utmSource === "google" && utmMedium === "cpc") {
-          return `Google Ads${utmCampaign ? ` (${utmCampaign})` : ""}`;
-        }
-        if (utmSource) return `${utmSource}${utmMedium ? ` / ${utmMedium}` : ""}`;
-        return "Organic";
-      } catch { return "Organic"; }
-    };
-    const leadSource = detectSource(pageUrl);
+    const source = detectLeadSource(pageUrl, httpReferrer);
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -31,10 +18,10 @@ export async function POST(request: Request) {
     });
 
     const emailBody = `
-${leadSource.startsWith("Google Ads") ? "💰 PAID LEAD" : "🌿 ORGANIC LEAD"} — R2G WEBSITE
+${source.channel.startsWith("paid") ? "💰 PAID LEAD" : "🌿 ORGANIC LEAD"} — R2G WEBSITE
 =========================
 
-Source:  ${leadSource}
+Source:  ${source.label}
 From:    ${name}
 Phone:   ${phone}
 Email:   ${email}
@@ -51,9 +38,23 @@ Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane"
     await transporter.sendMail({
       from: `"R2G Website" <${process.env.EMAIL_USER}>`,
       to: "contact@r2g.com.au",
-      subject: `${leadSource.startsWith("Google Ads") ? "[PAID] " : ""}New Enquiry — ${topic}`,
+      subject: `${source.channel.startsWith("paid") ? "[PAID] " : ""}New Enquiry — ${topic}`,
       text: emailBody,
       replyTo: email,
+    });
+
+    // Save to Supabase
+    await saveLead({
+      type: "enquiry",
+      name,
+      phone,
+      email,
+      topic,
+      description,
+      lead_source: source.label,
+      lead_source_channel: source.channel,
+      http_referrer: httpReferrer || null,
+      page_url: pageUrl,
     });
 
     // Send lead data to n8n webhook (must await on Vercel serverless)
@@ -71,7 +72,8 @@ Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane"
             topic,
             description,
             pageUrl,
-            leadSource,
+            leadSource: source.label,
+            leadSourceChannel: source.channel,
             submittedAt: new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" }),
           }),
         });

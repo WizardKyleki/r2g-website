@@ -9,11 +9,39 @@ export const metadata: Metadata = {
     "Read the R2G Transport & Storage privacy policy. Learn how we collect, use, and protect your personal information.",
   alternates: { canonical: "https://www.r2g.com.au/privacy" },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "Privacy Policy | R2G Transport & Storage",
+    description: "Read the R2G Transport & Storage privacy policy. Learn how we collect, use, and protect your personal information.",
+    url: "https://www.r2g.com.au/privacy",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Privacy Policy",
+      item: "https://www.r2g.com.au/privacy",
+    },
+  ],
 };
 
 export default function PrivacyPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <PageHero
         title="Privacy Policy"
         subtitle="How we collect, use, and protect your personal information."
@@ -22,7 +50,7 @@ export default function PrivacyPage() {
 
       <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-gray prose-headings:text-[#1A1A1A] prose-a:text-[#F5C400]">
-          <p className="text-gray-500 text-sm">Last updated: 8 March 2026</p>
+          <p className="text-gray-500 text-sm">Last updated: 29 March 2026</p>
 
           <h2>1. About This Policy</h2>
           <p>
@@ -53,12 +81,41 @@ export default function PrivacyPage() {
 
           <h2>4. Cookies and Analytics</h2>
           <p>
-            Our website uses Google Analytics to understand how visitors interact with our site. This
-            service may use cookies to collect anonymous usage data such as pages visited, time on site,
-            and referring URLs. You can opt out of Google Analytics by installing the{" "}
-            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">
-              Google Analytics Opt-out Browser Add-on
-            </a>.
+            Our website uses cookies and similar tracking technologies to understand how visitors
+            interact with our site, measure the effectiveness of our advertising, and improve your
+            experience. The tools we use include:
+          </p>
+          <ul>
+            <li>
+              <strong>Google Analytics (GA4)</strong> collects anonymous usage data such as pages
+              visited, time on site, and referring URLs. You can opt out by installing the{" "}
+              <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">
+                Google Analytics Opt-out Browser Add-on
+              </a>.
+            </li>
+            <li>
+              <strong>Google Tag Manager</strong> manages the loading of our analytics and advertising
+              tags. It does not collect personal data itself but facilitates the tools listed here.
+            </li>
+            <li>
+              <strong>Google Ads</strong> uses conversion tracking and remarketing cookies to measure
+              the performance of our advertising campaigns and show relevant ads to visitors who have
+              previously interacted with our website.
+            </li>
+            <li>
+              <strong>Meta (Facebook) Pixel</strong> collects data about how visitors interact with our
+              site after clicking a Facebook or Instagram ad. This helps us measure ad performance and
+              deliver relevant advertising on Meta platforms.
+            </li>
+            <li>
+              <strong>Microsoft Clarity</strong> records anonymous session data including clicks, scrolls,
+              and page interactions to help us understand how visitors use our site and identify areas
+              for improvement. Clarity does not collect personal information.
+            </li>
+          </ul>
+          <p>
+            Most web browsers allow you to control cookies through their settings. You can choose to
+            block or delete cookies, though this may affect the functionality of our website.
           </p>
 
           <h2>5. Disclosure of Information</h2>

@@ -19,6 +19,25 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Moving Boxes & Supplies",
+      item: "https://www.r2g.com.au/boxes",
+    },
+  ],
+};
+
 const boxTypes = [
   {
     name: "Small Box",
@@ -87,6 +106,7 @@ const boxesSchema = {
 export default function BoxesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(boxesSchema) }}

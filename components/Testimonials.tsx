@@ -1,3 +1,5 @@
+import { RATING_VALUE, REVIEW_DISPLAY } from "@/lib/constants";
+
 const testimonials = [
   {
     name: "Sarah Mitchell",
@@ -68,8 +70,8 @@ export default function Testimonials() {
           </p>
           <div className="flex items-center justify-center gap-2 text-gray-500">
             <StarRating count={5} />
-            <span className="font-semibold text-[#1A1A1A]">4.9</span>
-            <span>from 900+ Google Reviews</span>
+            <span className="font-semibold text-[#1A1A1A]">{RATING_VALUE}</span>
+            <span>from {REVIEW_DISPLAY} Google Reviews</span>
           </div>
         </div>
 

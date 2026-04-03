@@ -267,9 +267,9 @@ const coreSuburbs: GoldCoastSuburb[] = [
     serviceArea: "Burleigh Heads & Gold Coast South",
     address: "122 Ashover Circuit, Archerfield, Brisbane QLD 4108",
     phone: "1300 959 498",
-    metaTitle: "Removalists Burleigh Heads | Professional Movers",
+    metaTitle: "Burleigh Removalists | Removalists Burleigh Heads",
     metaDescription:
-      "Trusted removalists in Burleigh Heads with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted Burleigh Heads removalists with 10+ years experience. Reliable, affordable and fully insured. No hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a hillside house in Burleigh to a beachfront unit in Palm Beach. The R2G crew navigated the steep driveway with care and wrapped our artwork perfectly. Couldn't fault the service.",

@@ -4,7 +4,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 const PageHero = dynamic(() => import("@/components/PageHero"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { PHONE_HREF, PHONE } from "@/lib/constants";
+import { PHONE_HREF, PHONE, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "About Us — Trusted QLD Removalists",
@@ -16,6 +16,25 @@ export const metadata: Metadata = {
     description: "Family-owned, fully insured removalists based in Cairns and Brisbane. Serving Australia since 2014.",
     url: "https://www.r2g.com.au/about",
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "About Us",
+      item: "https://www.r2g.com.au/about",
+    },
+  ],
 };
 
 const values = [
@@ -83,8 +102,8 @@ const aboutSchema = {
   ],
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.8",
-    reviewCount: "833",
+    ratingValue: RATING_VALUE,
+    reviewCount: REVIEW_COUNT,
     bestRating: "5",
   },
 };
@@ -92,6 +111,7 @@ const aboutSchema = {
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
@@ -120,7 +140,7 @@ export default function AboutPage() {
                   Since 2014, we&apos;ve helped hundreds of families and businesses move with confidence. With depots in both Cairns and Brisbane, we&apos;re well-placed to handle local, regional, and interstate moves across Australia.
                 </p>
                 <p>
-                  Today, R2G Transport &amp; Storage is proud to be one of Australia&apos;s most trusted moving companies, with a 4.9-star rating from over 87 happy customers. Our team of experienced removalists is ready to make your next move the easiest one yet.
+                  Today, R2G Transport &amp; Storage is proud to be one of Australia&apos;s most trusted moving companies, with a 4.9-star Google rating from over 900 happy customers. Our team of experienced removalists is ready to make your next move the easiest one yet.
                 </p>
               </div>
               <div className="mt-8 flex flex-wrap gap-4">

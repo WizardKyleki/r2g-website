@@ -7,7 +7,7 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
+import { PHONE, PHONE_HREF, heroSubtitle, RATING_VALUE, REVIEW_COUNT, RATING_DISPLAY } from "@/lib/constants";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 import { brisbaneSuburbs, getBrisbaneSuburb, getBrisbaneSuburbHref, type BrisbaneSuburb } from "@/data/brisbane-suburbs";
 
@@ -112,7 +112,7 @@ export default async function RemovalistsBrisbaneSuburbPage({
     "@context": "https://schema.org",
     "@type": "MovingCompany",
     name: `R2G Transport & Storage — Removalists ${suburb.name}`,
-    description: `Fully insured removalists in ${suburb.name}, Brisbane. 4.8-star rated with 830+ reviews. 10+ years experience.`,
+    description: `Fully insured removalists in ${suburb.name}, Brisbane. ${RATING_DISPLAY}. 10+ years experience.`,
     url: `https://www.r2g.com.au/removalists-brisbane/${suburb.slug}`,
     telephone: "1300 959 498",
     email: "contact@r2g.com.au",
@@ -153,8 +153,8 @@ export default async function RemovalistsBrisbaneSuburbPage({
     },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "900",
+      ratingValue: RATING_VALUE,
+      reviewCount: REVIEW_COUNT,
       bestRating: "5",
     },
   };
@@ -173,7 +173,7 @@ export default async function RemovalistsBrisbaneSuburbPage({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: `R2G Transport & Storage — ${suburb.name}`,
-    description: `Fully insured removalist services in ${suburb.name}, Brisbane. 4.8-star rated with 830+ reviews.`,
+    description: `Fully insured removalist services in ${suburb.name}, Brisbane. ${RATING_DISPLAY}.`,
     url: `https://www.r2g.com.au/removalists-brisbane/${suburb.slug}`,
     telephone: "1300 959 498",
     email: "contact@r2g.com.au",
@@ -202,8 +202,8 @@ export default async function RemovalistsBrisbaneSuburbPage({
     },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "900",
+      ratingValue: RATING_VALUE,
+      reviewCount: REVIEW_COUNT,
       bestRating: "5",
     },
   };
@@ -429,6 +429,7 @@ export default async function RemovalistsBrisbaneSuburbPage({
                         { label: "Storage Brisbane", href: "/storage-brisbane" },
                         { label: "Interstate Removals", href: "/interstate-removalists" },
                         { label: "Office Removalists", href: "/office-removalists" },
+                        { label: "NDIS Removalists", href: "/ndis-removalists" },
                         { label: "Moving Boxes", href: "/boxes" },
                       ].map((link) => (
                         <Link
@@ -608,6 +609,11 @@ export default async function RemovalistsBrisbaneSuburbPage({
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
               { label: "Removalists Townsville", href: "/removalists-townsville" },
+              { label: "Interstate Removalists", href: "/interstate-removalists" },
+              { label: "Office Removalists", href: "/office-removalists" },
+              { label: "NDIS Removalists", href: "/ndis-removalists" },
+              { label: "Storage Brisbane", href: "/storage-brisbane" },
+              { label: "Storage Cairns", href: "/storage-cairns" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
                 {link.label}

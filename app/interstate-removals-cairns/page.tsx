@@ -6,7 +6,7 @@ const PageHero = dynamic(() => import("@/components/PageHero"));
 const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: { absolute: "Interstate Removalists Cairns | Reliable & Affordable" },
@@ -75,9 +75,64 @@ const faqs = [
   },
 ];
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Interstate Removalists",
+      item: "https://www.r2g.com.au/interstate-removalists",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Cairns Interstate Removals",
+      item: "https://www.r2g.com.au/interstate-removals-cairns",
+    },
+  ],
+};
+
 export default function InterstateRemovalsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "MovingCompany",
+            name: "R2G Transport & Storage",
+            telephone: "1300 959 498",
+            url: "https://www.r2g.com.au",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "36 Abbott St",
+              addressLocality: "Cairns City",
+              addressRegion: "QLD",
+              postalCode: "4870",
+              addressCountry: "AU",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: RATING_VALUE,
+              reviewCount: REVIEW_COUNT,
+              bestRating: "5",
+            },
+          }),
+        }}
+      />
       <PageHero
         title="Interstate Removals from Cairns"
         subtitle="Reliable, fully insured long-distance moves from Cairns to Brisbane, Sydney, Melbourne, and everywhere in between. Shared or exclusive loads available."

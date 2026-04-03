@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
+import { PHONE, PHONE_HREF, heroSubtitle, RATING_VALUE, REVIEW_COUNT, RATING_DISPLAY, REVIEW_DISPLAY } from "@/lib/constants";
 import { suburbs as cairnsSuburbs } from "@/data/suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
@@ -31,7 +31,7 @@ const businessSchema = {
   "@type": "MovingCompany",
   name: "R2G Transport & Storage",
   description:
-    "Fully insured local and interstate removalists in Cairns. 4.8-star rated with 830+ reviews. 10+ years experience.",
+    `Fully insured local and interstate removalists in Cairns. ${RATING_DISPLAY}. 10+ years experience.`,
   url: "https://www.r2g.com.au/removalists-cairns",
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
@@ -83,8 +83,8 @@ const businessSchema = {
   },
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "900",
+    ratingValue: RATING_VALUE,
+    reviewCount: REVIEW_COUNT,
     bestRating: "5",
   },
   sameAs: [
@@ -167,15 +167,34 @@ const faqSchema = {
   })),
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Removalists Cairns",
+      item: "https://www.r2g.com.au/removalists-cairns",
+    },
+  ],
+};
+
 // ─────────────────────────────────────────────────────────────────────────────
 // METADATA
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Cairns — Trusted Local Movers | R2G Transport & Storage",
+    absolute: "Cairns Removalist - Trusted Local Movers | R2G Transport",
   },
   description:
-    "Cairns' trusted removalists since 2014. 4.8★ Google rating (130+ reviews), fully insured with no hidden fees. All Cairns suburbs covered. Free quote in 2 minutes.",
+    `Your local Cairns removalist since 2014. ${RATING_VALUE} star Google rating (${REVIEW_DISPLAY} reviews), fully insured with no hidden fees. All Cairns suburbs covered. Free quote.`,
   keywords: [
     "removalists cairns",
     "cairns removalists",
@@ -186,9 +205,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-cairns" },
   openGraph: {
-    title: "Professional Removalists Cairns | Reliable & Affordable",
+    title: "Cairns Removalist | R2G Transport & Storage",
     description:
-      "Trusted removalists in Cairns with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Your local Cairns removalist with 10+ years experience. Fully insured with no hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-cairns",
     type: "website",
   },
@@ -203,6 +222,7 @@ export default function RemovalistsCairnsPage() {
       {/* JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* ── SECTION 1: HERO ─────────────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] pt-32 pb-20">
@@ -579,6 +599,12 @@ export default function RemovalistsCairnsPage() {
               { label: "Removalists Brisbane", href: "/removalists-brisbane" },
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Removalists Townsville", href: "/removalists-townsville" },
+              { label: "Interstate Removalists", href: "/interstate-removalists" },
+              { label: "Office Removalists", href: "/office-removalists" },
+              { label: "NDIS Removalists", href: "/ndis-removalists" },
+              { label: "Storage Cairns", href: "/storage-cairns" },
+              { label: "Storage Brisbane", href: "/storage-brisbane" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
                 {link.label}

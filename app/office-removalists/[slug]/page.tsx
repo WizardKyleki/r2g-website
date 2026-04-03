@@ -6,7 +6,7 @@ const FAQ = dynamic(() => import("@/components/FAQ"));
 import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 import {
   officeLocations,
@@ -76,12 +76,23 @@ function getRelatedLinks(current: OfficeLocation) {
   // Add general related services
   if (current.slug === "cairns") {
     links.push({ label: "Removalists Cairns", href: "/removalists-cairns" });
+    links.push({ label: "Storage Cairns", href: "/storage-cairns" });
   } else if (current.slug === "brisbane") {
+    links.push({ label: "Removalists Brisbane", href: "/removalists-brisbane" });
+    links.push({ label: "Storage Brisbane", href: "/storage-brisbane" });
+  } else if (current.slug === "gold-coast") {
+    links.push({ label: "Removalists Gold Coast", href: "/removalists-gold-coast" });
+  } else if (current.slug === "sunshine-coast") {
+    links.push({ label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" });
+  } else if (current.slug === "townsville") {
+    links.push({ label: "Removalists Townsville", href: "/removalists-townsville" });
+  } else {
     links.push({ label: "Removalists Brisbane", href: "/removalists-brisbane" });
   }
   links.push({ label: "Interstate Removals", href: "/interstate-removalists" });
+  links.push({ label: "NDIS Removalists", href: "/ndis-removalists" });
 
-  return links.slice(0, 4);
+  return links;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -148,8 +159,8 @@ export default async function OfficeRemovalistsLocationPage({
         },
         aggregateRating: {
           "@type": "AggregateRating",
-          ratingValue: "4.9",
-          reviewCount: "900",
+          ratingValue: RATING_VALUE,
+          reviewCount: REVIEW_COUNT,
           bestRating: "5",
         },
       },

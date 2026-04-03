@@ -34,9 +34,13 @@ export const metadata: Metadata = {
     default: "Removalists Cairns & Brisbane | R2G Transport & Storage",
   },
   icons: {
-    icon: "/images/r2g-symbol.png",
-    shortcut: "/images/r2g-symbol.png",
-    apple: "/images/r2g-symbol.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   description:
     "R2G Transport & Storage — trusted removalists in Cairns & Brisbane. Moving, packing & storage across Queensland. Fully insured. Get a free quote.",
@@ -46,9 +50,25 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     type: "website",
     locale: "en_AU",
+    title: "Removalists Cairns & Brisbane | R2G Transport & Storage",
+    description:
+      "R2G Transport & Storage. Trusted removalists in Cairns & Brisbane. Moving, packing & storage across Queensland. Fully insured. Get a free quote.",
+    url: DOMAIN,
+    images: [
+      {
+        url: `${DOMAIN}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: "R2G Transport & Storage - Trusted Removalists in Queensland",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "Removalists Cairns & Brisbane | R2G Transport & Storage",
+    description:
+      "R2G Transport & Storage. Trusted removalists in Cairns & Brisbane. Moving, packing & storage across Queensland. Fully insured.",
+    images: [`${DOMAIN}/opengraph-image`],
   },
 };
 
@@ -63,6 +83,7 @@ export default function RootLayout({
         <GoogleAnalytics />
         <GoogleTagManagerHead />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="alternate" hrefLang="en-AU" href="https://www.r2g.com.au" />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Detailed Information" />
         <script src="https://analytics.ahrefs.com/analytics.js" data-key="URYFtNox7eR9I3W12rlXvA" async />

@@ -24,6 +24,9 @@ export interface RouteData {
   days: string;
   highway: string;
   stops: RouteStop[];
+  costRange: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 // ═══════════════════════════════════════════════════════
@@ -283,7 +286,7 @@ export const CITIES: Record<string, CityData> = {
 export const ROUTES: RouteData[] = [
   // ── BRISBANE DEPARTURES ──
   {
-    from: "Brisbane", to: "Cairns", slug: "brisbane-to-cairns", km: "1,700", days: "2–3", highway: "Bruce Highway",
+    from: "Brisbane", to: "Cairns", slug: "brisbane-to-cairns", km: "1,700", days: "2–3", highway: "Bruce Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Bundaberg", km: "360 km", note: "First major service point north" },
@@ -297,7 +300,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Sydney", slug: "brisbane-to-sydney", km: "920", days: "1–2", highway: "Pacific Highway",
+    from: "Brisbane", to: "Sydney", slug: "brisbane-to-sydney", km: "920", days: "1–2", highway: "Pacific Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Gold Coast / Tweed Heads", km: "110 km", note: "QLD–NSW border crossing" },
@@ -309,7 +312,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Melbourne", slug: "brisbane-to-melbourne", km: "1,750", days: "2–3", highway: "Pacific Highway & Hume Highway",
+    from: "Brisbane", to: "Melbourne", slug: "brisbane-to-melbourne", km: "1,750", days: "2–3", highway: "Pacific Highway & Hume Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Gold Coast / Tweed Heads", km: "110 km", note: "QLD–NSW border crossing" },
@@ -321,7 +324,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Rockhampton", slug: "brisbane-to-rockhampton", km: "640", days: "1", highway: "Bruce Highway",
+    from: "Brisbane", to: "Rockhampton", slug: "brisbane-to-rockhampton", km: "640", days: "1", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Gympie", km: "170 km", note: "Wide Bay service point" },
@@ -331,7 +334,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Gold Coast", slug: "brisbane-to-gold-coast", km: "80", days: "1", highway: "M1 Pacific Motorway",
+    from: "Brisbane", to: "Gold Coast", slug: "brisbane-to-gold-coast", km: "80", days: "1", highway: "M1 Pacific Motorway", costRange: "$1,500 - $3,000",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Beenleigh / Logan", km: "35 km", note: "Southern Brisbane corridor" },
@@ -339,7 +342,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Toowoomba", slug: "brisbane-to-toowoomba", km: "130", days: "1", highway: "Warrego Highway",
+    from: "Brisbane", to: "Toowoomba", slug: "brisbane-to-toowoomba", km: "130", days: "1", highway: "Warrego Highway", costRange: "$1,500 - $3,000",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Ipswich", km: "40 km", note: "Western corridor hub" },
@@ -348,7 +351,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Sunshine Coast", slug: "brisbane-to-sunshine-coast", km: "100", days: "1", highway: "Bruce Highway",
+    from: "Brisbane", to: "Sunshine Coast", slug: "brisbane-to-sunshine-coast", km: "100", days: "1", highway: "Bruce Highway", costRange: "$1,500 - $3,000",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Caboolture", km: "50 km", note: "Moreton Bay region" },
@@ -356,7 +359,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Moranbah", slug: "brisbane-to-moranbah", km: "1,050", days: "2", highway: "Bruce Highway & Peak Downs Highway",
+    from: "Brisbane", to: "Moranbah", slug: "brisbane-to-moranbah", km: "1,050", days: "2", highway: "Bruce Highway & Peak Downs Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Bundaberg", km: "360 km", note: "Bruce Highway service point" },
@@ -366,7 +369,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Emerald", slug: "brisbane-to-emerald", km: "870", days: "1–2", highway: "Bruce Highway & Capricorn Highway",
+    from: "Brisbane", to: "Emerald", slug: "brisbane-to-emerald", km: "870", days: "1–2", highway: "Bruce Highway & Capricorn Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Bundaberg", km: "360 km", note: "Bruce Highway service point" },
@@ -377,7 +380,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Charleville", slug: "brisbane-to-charleville", km: "750", days: "1", highway: "Warrego Highway",
+    from: "Brisbane", to: "Charleville", slug: "brisbane-to-charleville", km: "750", days: "1", highway: "Warrego Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Toowoomba", km: "130 km", note: "Darling Downs gateway" },
@@ -387,7 +390,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Brisbane", to: "Adelaide", slug: "brisbane-to-adelaide", km: "2,050", days: "3", highway: "New England & Barrier Highway",
+    from: "Brisbane", to: "Adelaide", slug: "brisbane-to-adelaide", km: "2,050", days: "3", highway: "New England & Barrier Highway", costRange: "$5,000 - $10,000",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Toowoomba", km: "130 km", note: "Darling Downs gateway" },
@@ -400,7 +403,9 @@ export const ROUTES: RouteData[] = [
 
   // ── CAIRNS DEPARTURES ──
   {
-    from: "Cairns", to: "Brisbane", slug: "cairns-to-brisbane", km: "1,700", days: "2–3", highway: "Bruce Highway",
+    from: "Cairns", to: "Brisbane", slug: "cairns-to-brisbane", km: "1,700", days: "2–3", highway: "Bruce Highway", costRange: "$3,500 - $7,500",
+    metaTitle: "Removalists Cairns to Brisbane | Fully Insured Movers",
+    metaDescription: "Removalists Cairns to Brisbane. Door-to-door service, fully insured with 900+ five-star reviews. 1,700 km in 2-3 days. Free quote today.",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Innisfail", km: "100 km", note: "Far North Queensland" },
@@ -413,7 +418,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Cairns", to: "Townsville", slug: "cairns-to-townsville", km: "350", days: "1", highway: "Bruce Highway",
+    from: "Cairns", to: "Townsville", slug: "cairns-to-townsville", km: "350", days: "1", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Innisfail", km: "100 km", note: "Cassowary Coast" },
@@ -422,7 +427,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Cairns", to: "Sydney", slug: "cairns-to-sydney", km: "2,600", days: "3–4", highway: "Bruce Highway & Pacific Highway",
+    from: "Cairns", to: "Sydney", slug: "cairns-to-sydney", km: "2,600", days: "3–4", highway: "Bruce Highway & Pacific Highway", costRange: "$5,000 - $10,000",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Townsville", km: "350 km", note: "North QLD service point" },
@@ -434,7 +439,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Cairns", to: "Melbourne", slug: "cairns-to-melbourne", km: "3,100", days: "4–5", highway: "Bruce Highway, Pacific Highway & Hume Highway",
+    from: "Cairns", to: "Melbourne", slug: "cairns-to-melbourne", km: "3,100", days: "4–5", highway: "Bruce Highway, Pacific Highway & Hume Highway", costRange: "$5,000 - $10,000",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Townsville", km: "350 km", note: "North QLD service point" },
@@ -446,7 +451,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Cairns", to: "Moranbah", slug: "cairns-to-moranbah", km: "1,000", days: "2", highway: "Bruce Highway & Peak Downs Highway",
+    from: "Cairns", to: "Moranbah", slug: "cairns-to-moranbah", km: "1,000", days: "2", highway: "Bruce Highway & Peak Downs Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Townsville", km: "350 km", note: "North QLD hub" },
@@ -456,7 +461,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Cairns", to: "Emerald", slug: "cairns-to-emerald", km: "1,100", days: "2", highway: "Bruce Highway & Capricorn Highway",
+    from: "Cairns", to: "Emerald", slug: "cairns-to-emerald", km: "1,100", days: "2", highway: "Bruce Highway & Capricorn Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Townsville", km: "350 km", note: "North QLD hub" },
@@ -466,7 +471,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Cairns", to: "Airlie Beach", slug: "cairns-to-airlie-beach", km: "680", days: "1", highway: "Bruce Highway",
+    from: "Cairns", to: "Airlie Beach", slug: "cairns-to-airlie-beach", km: "680", days: "1", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Cairns", km: "0 km", note: "Pickup from your Cairns address" },
       { town: "Innisfail", km: "100 km", note: "Cassowary Coast" },
@@ -478,7 +483,7 @@ export const ROUTES: RouteData[] = [
 
   // ── TOWNSVILLE DEPARTURES ──
   {
-    from: "Townsville", to: "Brisbane", slug: "townsville-to-brisbane", km: "1,350", days: "2", highway: "Bruce Highway",
+    from: "Townsville", to: "Brisbane", slug: "townsville-to-brisbane", km: "1,350", days: "2", highway: "Bruce Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Townsville", km: "0 km", note: "Pickup from your Townsville address" },
       { town: "Bowen", km: "190 km", note: "Whitsunday region" },
@@ -489,7 +494,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Townsville", to: "Cairns", slug: "townsville-to-cairns", km: "350", days: "1", highway: "Bruce Highway",
+    from: "Townsville", to: "Cairns", slug: "townsville-to-cairns", km: "350", days: "1", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Townsville", km: "0 km", note: "Pickup from your Townsville address" },
       { town: "Ingham", km: "110 km", note: "Hinchinbrook region" },
@@ -498,7 +503,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Townsville", to: "Melbourne", slug: "townsville-to-melbourne", km: "2,500", days: "3–4", highway: "Bruce Highway, Pacific Highway & Hume Highway",
+    from: "Townsville", to: "Melbourne", slug: "townsville-to-melbourne", km: "2,500", days: "3–4", highway: "Bruce Highway, Pacific Highway & Hume Highway", costRange: "$5,000 - $10,000",
     stops: [
       { town: "Townsville", km: "0 km", note: "Pickup from your Townsville address" },
       { town: "Mackay", km: "385 km", note: "Overnight stop" },
@@ -509,7 +514,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Townsville", to: "Moranbah", slug: "townsville-to-moranbah", km: "600", days: "1", highway: "Bruce Highway & Peak Downs Highway",
+    from: "Townsville", to: "Moranbah", slug: "townsville-to-moranbah", km: "600", days: "1", highway: "Bruce Highway & Peak Downs Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Townsville", km: "0 km", note: "Pickup from your Townsville address" },
       { town: "Bowen", km: "190 km", note: "Whitsunday region" },
@@ -520,7 +525,7 @@ export const ROUTES: RouteData[] = [
 
   // ── MACKAY DEPARTURES ──
   {
-    from: "Mackay", to: "Brisbane", slug: "mackay-to-brisbane", km: "970", days: "1–2", highway: "Bruce Highway",
+    from: "Mackay", to: "Brisbane", slug: "mackay-to-brisbane", km: "970", days: "1–2", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Mackay", km: "0 km", note: "Pickup from your Mackay address" },
       { town: "Rockhampton", km: "335 km", note: "Central QLD hub" },
@@ -530,7 +535,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Mackay", to: "Moranbah", slug: "mackay-to-moranbah", km: "190", days: "1", highway: "Peak Downs Highway",
+    from: "Mackay", to: "Moranbah", slug: "mackay-to-moranbah", km: "190", days: "1", highway: "Peak Downs Highway", costRange: "$1,500 - $3,000",
     stops: [
       { town: "Mackay", km: "0 km", note: "Pickup from your Mackay address" },
       { town: "Walkerston / Eton", km: "30 km", note: "Western Mackay corridor" },
@@ -538,7 +543,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Mackay", to: "Rockhampton", slug: "mackay-to-rockhampton", km: "335", days: "1", highway: "Bruce Highway",
+    from: "Mackay", to: "Rockhampton", slug: "mackay-to-rockhampton", km: "335", days: "1", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Mackay", km: "0 km", note: "Pickup from your Mackay address" },
       { town: "Sarina", km: "35 km", note: "Southern Mackay region" },
@@ -547,7 +552,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Mackay", to: "Emerald", slug: "mackay-to-emerald", km: "280", days: "1", highway: "Peak Downs Highway & Capricorn Highway",
+    from: "Mackay", to: "Emerald", slug: "mackay-to-emerald", km: "280", days: "1", highway: "Peak Downs Highway & Capricorn Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Mackay", km: "0 km", note: "Pickup from your Mackay address" },
       { town: "Moranbah", km: "190 km", note: "Bowen Basin mining town" },
@@ -557,7 +562,7 @@ export const ROUTES: RouteData[] = [
 
   // ── ROCKHAMPTON DEPARTURES ──
   {
-    from: "Rockhampton", to: "Brisbane", slug: "rockhampton-to-brisbane", km: "640", days: "1", highway: "Bruce Highway",
+    from: "Rockhampton", to: "Brisbane", slug: "rockhampton-to-brisbane", km: "640", days: "1", highway: "Bruce Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Rockhampton", km: "0 km", note: "Pickup from your Rockhampton address" },
       { town: "Gladstone", km: "110 km", note: "Port city service point" },
@@ -567,7 +572,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Rockhampton", to: "Cairns", slug: "rockhampton-to-cairns", km: "1,150", days: "2", highway: "Bruce Highway",
+    from: "Rockhampton", to: "Cairns", slug: "rockhampton-to-cairns", km: "1,150", days: "2", highway: "Bruce Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Rockhampton", km: "0 km", note: "Pickup from your Rockhampton address" },
       { town: "Mackay", km: "335 km", note: "Sugar coast hub" },
@@ -578,7 +583,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Rockhampton", to: "Emerald", slug: "rockhampton-to-emerald", km: "270", days: "1", highway: "Capricorn Highway",
+    from: "Rockhampton", to: "Emerald", slug: "rockhampton-to-emerald", km: "270", days: "1", highway: "Capricorn Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Rockhampton", km: "0 km", note: "Pickup from your Rockhampton address" },
       { town: "Gracemere", km: "10 km", note: "Western Rockhampton" },
@@ -587,7 +592,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Rockhampton", to: "Sydney", slug: "rockhampton-to-sydney", km: "1,350", days: "2", highway: "Bruce Highway & Pacific Highway",
+    from: "Rockhampton", to: "Sydney", slug: "rockhampton-to-sydney", km: "1,350", days: "2", highway: "Bruce Highway & Pacific Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Rockhampton", km: "0 km", note: "Pickup from your Rockhampton address" },
       { town: "Bundaberg", km: "280 km", note: "Bundaberg Region" },
@@ -599,7 +604,7 @@ export const ROUTES: RouteData[] = [
 
   // ── SYDNEY DEPARTURES ──
   {
-    from: "Sydney", to: "Melbourne", slug: "sydney-to-melbourne", km: "870", days: "1–2", highway: "Hume Highway",
+    from: "Sydney", to: "Melbourne", slug: "sydney-to-melbourne", km: "870", days: "1–2", highway: "Hume Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Sydney", km: "0 km", note: "Pickup from your Sydney address" },
       { town: "Campbelltown", km: "55 km", note: "South-western Sydney" },
@@ -610,7 +615,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Sydney", to: "Brisbane", slug: "sydney-to-brisbane", km: "920", days: "1–2", highway: "Pacific Highway",
+    from: "Sydney", to: "Brisbane", slug: "sydney-to-brisbane", km: "920", days: "1–2", highway: "Pacific Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Sydney", km: "0 km", note: "Pickup from your Sydney address" },
       { town: "Newcastle", km: "160 km", note: "Hunter region" },
@@ -622,7 +627,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Sydney", to: "Cairns", slug: "sydney-to-cairns", km: "2,600", days: "3–4", highway: "Pacific Highway & Bruce Highway",
+    from: "Sydney", to: "Cairns", slug: "sydney-to-cairns", km: "2,600", days: "3–4", highway: "Pacific Highway & Bruce Highway", costRange: "$5,000 - $10,000",
     stops: [
       { town: "Sydney", km: "0 km", note: "Pickup from your Sydney address" },
       { town: "Coffs Harbour", km: "530 km", note: "Overnight stop" },
@@ -635,7 +640,7 @@ export const ROUTES: RouteData[] = [
 
   // ── MELBOURNE DEPARTURES ──
   {
-    from: "Melbourne", to: "Brisbane", slug: "melbourne-to-brisbane", km: "1,750", days: "2–3", highway: "Hume Highway & Pacific Highway",
+    from: "Melbourne", to: "Brisbane", slug: "melbourne-to-brisbane", km: "1,750", days: "2–3", highway: "Hume Highway & Pacific Highway", costRange: "$3,500 - $7,500",
     stops: [
       { town: "Melbourne", km: "0 km", note: "Pickup from your Melbourne address" },
       { town: "Albury / Wodonga", km: "310 km", note: "VIC–NSW border crossing" },
@@ -646,7 +651,7 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Melbourne", to: "Sydney", slug: "melbourne-to-sydney", km: "870", days: "1–2", highway: "Hume Highway",
+    from: "Melbourne", to: "Sydney", slug: "melbourne-to-sydney", km: "870", days: "1–2", highway: "Hume Highway", costRange: "$2,500 - $5,500",
     stops: [
       { town: "Melbourne", km: "0 km", note: "Pickup from your Melbourne address" },
       { town: "Seymour", km: "100 km", note: "Northern VIC" },
@@ -657,7 +662,9 @@ export const ROUTES: RouteData[] = [
     ],
   },
   {
-    from: "Melbourne", to: "Cairns", slug: "melbourne-to-cairns", km: "3,200", days: "4–5", highway: "Hume Highway, Pacific Highway & Bruce Highway",
+    from: "Melbourne", to: "Cairns", slug: "melbourne-to-cairns", km: "3,200", days: "4–5", highway: "Hume Highway, Pacific Highway & Bruce Highway", costRange: "$5,000 - $10,000",
+    metaTitle: "Moving Melbourne to Cairns | Interstate Removalists",
+    metaDescription: "Moving from Melbourne to Cairns? Door-to-door interstate removalists, fully insured. 3,200 km in 4-5 days with 900+ five-star reviews. Free quote.",
     stops: [
       { town: "Melbourne", km: "0 km", note: "Pickup from your Melbourne address" },
       { town: "Albury / Wodonga", km: "310 km", note: "VIC–NSW border" },
@@ -717,4 +724,12 @@ export function getGeoMeta(cityName: string): { region: string; placename: strin
 export function routePassesThroughNorthQLD(route: RouteData): boolean {
   const northQldCities = ["Cairns", "Townsville", "Innisfail", "Ingham", "Bowen"];
   return route.stops.some((s) => northQldCities.some((c) => s.town.includes(c)));
+}
+
+export function getCostRangeFromKm(km: string): string {
+  const kmNum = parseInt(km.replace(/,/g, ""));
+  if (kmNum < 200) return "$1,500 - $3,000";
+  if (kmNum < 1000) return "$2,500 - $5,500";
+  if (kmNum < 2000) return "$3,500 - $7,500";
+  return "$5,000 - $10,000";
 }

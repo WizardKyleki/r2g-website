@@ -1,3 +1,5 @@
+import { RATING_VALUE, REVIEW_DISPLAY } from "@/lib/constants";
+
 const badges = [
   {
     icon: (
@@ -24,7 +26,7 @@ const badges = [
       </svg>
     ),
     title: "5-Star Rated",
-    description: "4.9 stars across 900+ verified Google reviews",
+    description: `${RATING_VALUE} stars across ${REVIEW_DISPLAY} verified Google reviews`,
   },
   {
     icon: (

@@ -5,6 +5,6 @@ import { usePathname } from "next/navigation";
 /** Hides site header/footer/sticky bar on /admin pages */
 export default function SiteChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  if (pathname?.startsWith("/admin")) return null;
+  if (pathname?.startsWith("/admin") || pathname?.startsWith("/lp/")) return null;
   return <>{children}</>;
 }

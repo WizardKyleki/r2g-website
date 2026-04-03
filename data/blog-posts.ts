@@ -179,7 +179,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A well-packed kitchen makes the entire move smoother — for you and your removalists. If you'd rather leave the packing to the professionals, our team offers full packing services across Cairns, Brisbane, and everywhere in between. [Get a free quote](/quote) and let us take the stress out of your next move.",
+        text: "A well-packed kitchen makes the entire move smoother for you and your removalists. If you'd rather leave the packing to the professionals, our team offers full [packing services in Brisbane](/packing-services-brisbane) and [Cairns](/packing-services-cairns). Whether you are moving locally with [Brisbane removalists](/removalists-brisbane) or heading north to [Cairns](/removalists-cairns), we handle it all. [Get a free quote](/quote) and let us take the stress out of your next move.",
       },
     ],
   },
@@ -390,7 +390,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Interstate moves require more planning, but they don't have to be stressful. With the right timeline and a reliable removalist, you can focus on the exciting part — settling into your new city. Our team handles interstate relocations across Queensland and beyond, with regular services on the Cairns to Brisbane corridor. [Request a free quote](/quote) to get your move planned today, or learn more about our [interstate removalist services](/interstate-removalists).",
+        text: "Interstate moves require more planning, but they don't have to be stressful. With the right timeline and a reliable removalist, you can focus on the exciting part, settling into your new city. Our team handles interstate relocations across Queensland and beyond, with regular services on the Cairns to Brisbane corridor. Need [storage in Brisbane](/storage-brisbane) or [Cairns](/storage-cairns) while you get settled? We offer flexible short-term options. [Request a free quote](/quote) to get your move planned today, or learn more about our [interstate removalist services](/interstate-removalists).",
       },
     ],
   },
@@ -563,7 +563,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "We believe in transparent pricing, written quotes, and treating your belongings as if they were our own. If you're planning a move and want to see what a professional removalist quote looks like, [get in touch with our team](/quote) for a free, no-obligation assessment. We service [Cairns](/removalists-cairns), [Brisbane](/removalists-brisbane), and all points in between.",
+        text: "We believe in transparent pricing, written quotes, and treating your belongings as if they were our own. If you're planning a move and want to see what a professional removalist quote looks like, [get in touch with our team](/quote) for a free, no-obligation assessment. We service [Cairns](/removalists-cairns), [Brisbane](/removalists-brisbane), the [Gold Coast](/removalists-gold-coast), the [Sunshine Coast](/removalists-sunshine-coast), and [interstate routes](/interstate-removalists) across Australia.",
       },
     ],
   },
@@ -741,7 +741,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'A well-executed office move protects productivity and shows your team that leadership has everything under control. If you are planning a commercial relocation in Queensland, <a href="/quote">request a free quote</a> from our experienced office moving team and let us handle the heavy lifting while you focus on running your business.',
+        text: 'A well-executed office move protects productivity and shows your team that leadership has everything under control. Need <a href="/storage-brisbane">temporary storage</a> for office furniture during a fit-out? We can help with that too. If you are planning a commercial relocation in Queensland, <a href="/quote">request a free quote</a> from our experienced <a href="/office-removalists">office moving team</a> and let us handle the heavy lifting while you focus on running your business.',
       },
     ],
   },
@@ -860,7 +860,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'Queensland\'s heat and humidity can be tough on stored items. If you are storing in <a href="/removalists-cairns">Cairns</a> or anywhere in tropical North Queensland, the wet season brings sustained high humidity that can cause mould on leather, warp timber, and damage electronics. In <a href="/removalists-brisbane">Brisbane</a> and South East Queensland, summer humidity is still a factor, though less extreme.',
+        text: 'Queensland\'s heat and humidity can be tough on stored items. If you are storing in <a href="/storage-cairns">Cairns</a> or anywhere in tropical North Queensland, the wet season brings sustained high humidity that can cause mould on leather, warp timber, and damage electronics. In <a href="/storage-brisbane">Brisbane</a> and South East Queensland, summer humidity is still a factor, though less extreme.',
       },
       {
         type: "list",
@@ -897,7 +897,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'Whether you need a few weeks of storage between leases or a longer-term solution while you renovate, having a reliable removalist who also offers storage simplifies the entire process. <a href="/quote">Get a free quote</a> and we will tailor a moving and storage package to your timeline.',
+        text: 'Whether you need a few weeks of <a href="/storage-brisbane">storage in Brisbane</a> between leases or a longer-term solution in <a href="/storage-cairns">Cairns</a> while you renovate, having a reliable removalist who also offers storage simplifies the entire process. <a href="/quote">Get a free quote</a> and we will tailor a moving and storage package to your timeline.',
       },
     ],
   },
@@ -1085,7 +1085,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'Whether you are moving across town or <a href="/interstate-removalists">moving interstate</a>, having a plan for the day itself makes all the difference. If you are still in the planning stage, <a href="/quote">get a free quote</a> from our team and we will help you map out a stress-free moving day from start to finish.',
+        text: 'Whether you are moving across <a href="/removalists-brisbane">Brisbane</a>, relocating to <a href="/removalists-cairns">Cairns</a>, or <a href="/interstate-removalists">moving interstate</a>, having a plan for the day itself makes all the difference. Need <a href="/storage-brisbane">temporary storage</a> while you settle in? We can help with that too. If you are still in the planning stage, <a href="/quote">get a free quote</a> from our team and we will help you map out a stress-free moving day from start to finish.',
       },
     ],
   },
@@ -1095,9 +1095,9 @@ export const blogPosts: BlogPost[] = [
     slug: "ndis-removalists",
     url: "/ndis-removalists",
     title: "NDIS Removalists: How NDIS Funding Can Cover Your Move",
-    metaTitle: "NDIS Removalists Australia: Moving With NDIS Funding",
+    metaTitle: "NDIS Registered Removalists | Trusted NDIS Movers QLD",
     metaDescription:
-      "Learn how NDIS participants can use funding for removalist services. Trusted NDIS-registered movers in Cairns and Brisbane. Get a free quote.",
+      "NDIS registered removalists helping participants move with plan-funded support. Fully insured, patient and experienced. Get a free quote today.",
     excerpt:
       "If you or someone you care for is an NDIS participant, your plan may cover professional removalist services. Here is how it works and what to look for when choosing an NDIS removalist.",
     category: "NDIS Moving",
@@ -1244,7 +1244,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'R2G Transport & Storage provides professional removalist services for NDIS participants across <a href="/removalists-cairns">Cairns</a>, <a href="/removalists-brisbane">Brisbane</a>, and surrounding regions. Our team understands the NDIS process and works directly with plan managers, support coordinators, and families to make every move as smooth as possible. We handle everything from packing to setup at your new home, including careful transport of mobility equipment and medical devices.',
+        text: 'R2G Transport & Storage provides professional removalist services for NDIS participants across <a href="/removalists-cairns">Cairns</a>, <a href="/removalists-brisbane">Brisbane</a>, the <a href="/removalists-gold-coast">Gold Coast</a>, the <a href="/removalists-sunshine-coast">Sunshine Coast</a>, and surrounding regions. Our team understands the NDIS process and works directly with plan managers, support coordinators, and families to make every move as smooth as possible. We also handle <a href="/interstate-removalists">interstate NDIS relocations</a> and offer <a href="/storage-cairns">storage solutions</a> for participants who need them.',
       },
       {
         type: "quote",
@@ -1351,7 +1351,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "January — the busiest month. Lease turnovers, school year starts, and new year moves create huge demand",
-          "June/July — end of financial year triggers corporate relocations and lease changes",
+          'June/July — end of financial year triggers <a href="/office-removalists">corporate relocations</a> and lease changes',
           "December — holiday moves and people wanting to be settled before Christmas",
           "February to May — generally quieter, with better rates and availability",
           "August to October — another quieter window before the Christmas rush",
@@ -1505,7 +1505,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'R2G Transport & Storage has 800+ Google reviews with a 4.8 star average. We own our trucks, employ our own crews, carry full insurance, and provide detailed written quotes with no hidden fees. <a href="/quote">Get a free quote</a> and see why Brisbane families trust us with their moves, or learn more about our <a href="/services">full range of services</a>.',
+        text: 'R2G Transport & Storage has 900+ Google reviews with a 4.9 star average. We own our trucks, employ our own crews, carry full insurance, and provide detailed written quotes with no hidden fees. Beyond local moves, we handle <a href="/interstate-removalists">interstate relocations</a>, <a href="/office-removalists">office moves</a>, <a href="/ndis-removalists">NDIS-funded removals</a>, and <a href="/storage-brisbane">storage</a>. <a href="/quote">Get a free quote</a> and see why Brisbane families trust us with their moves.',
       },
     ],
   },
@@ -1848,6 +1848,11 @@ export const blogPosts: BlogPost[] = [
         type: "paragraph",
         text: 'R2G Transport & Storage handles office relocations across Brisbane, from single-room operations to multi-floor corporate moves. Our <a href="/office-removalists/brisbane">Brisbane office removalists</a> work to your timeline and provide a dedicated move coordinator to manage the entire process. <a href="/quote">Request a free quote</a> to start planning your office relocation.',
       },
+      {
+        type: "tip",
+        title: "Looking for office removalists in Brisbane?",
+        text: 'Visit our dedicated <a href="/office-removalists/brisbane">Office Removalists Brisbane</a> page for pricing details, what is included, and how to book your commercial move. For a full planning checklist, see our <a href="/blog/office-relocation-checklist">office relocation checklist</a>.',
+      },
     ],
   },
 
@@ -1924,7 +1929,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The most reliable signal of a good removalist is their long-term review history. A company with 800+ reviews and a 4.8 average didn't get there by accident — that's years of consistent, professional service. Pay attention to how the company responds to negative reviews. A professional response that addresses the issue shows a business that cares about its reputation.",
+        text: "The most reliable signal of a good removalist is their long-term review history. A company with 900+ reviews and a 4.9 average didn't get there by accident. That's years of consistent, professional service. Pay attention to how the company responds to negative reviews. A professional response that addresses the issue shows a business that cares about its reputation.",
       },
       {
         type: "heading",
@@ -1948,7 +1953,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'R2G Transport & Storage has been moving Brisbane families for years, with 800+ Google reviews and a 4.8 star average. We own our trucks, employ our own trained crews, and carry full public liability and goods-in-transit insurance on every job. Whether you\'re moving across <a href="/removalists-brisbane/west-end">West End</a> or from <a href="/removalists-brisbane/chermside">Chermside</a> to <a href="/removalists-brisbane/mt-gravatt">Mt Gravatt</a>, we\'ll look after your move. <a href="/quote">Get a free quote</a> today.',
+        text: 'R2G Transport & Storage has been moving Brisbane families for years, with 900+ Google reviews and a 4.9 star average. We own our trucks, employ our own trained crews, and carry full public liability and goods-in-transit insurance on every job. Whether you\'re moving across <a href="/removalists-brisbane/west-end">West End</a> or from <a href="/removalists-brisbane/chermside">Chermside</a> to <a href="/removalists-brisbane/mt-gravatt">Mt Gravatt</a>, we\'ll look after your move. We also handle <a href="/interstate-removalists">interstate relocations</a>, <a href="/office-removalists">office moves</a>, and offer <a href="/storage-brisbane">secure Brisbane storage</a>. <a href="/quote">Get a free quote</a> today.',
       },
     ],
   },
@@ -2253,7 +2258,891 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: 'Whether you are moving locally within <a href="/removalists-brisbane">Brisbane</a>, relocating to <a href="/removalists-cairns">Cairns</a>, or heading <a href="/interstate-removalists">interstate</a>, R2G Transport & Storage provides fully insured moves with transparent pricing and no hidden fuel surcharges. With 830+ five-star Google reviews and over a decade of experience, we make every move stress-free, even when fuel prices are not. <a href="/quote">Get your free quote today</a> and lock in your rate before prices change.',
+        text: 'Whether you are moving locally within <a href="/removalists-brisbane">Brisbane</a>, relocating to <a href="/removalists-cairns">Cairns</a>, or heading <a href="/interstate-removalists">interstate</a>, R2G Transport & Storage provides fully insured moves with transparent pricing and no hidden fuel surcharges. With 900+ five-star Google reviews and over a decade of experience, we make every move stress-free, even when fuel prices are not. <a href="/quote">Get your free quote today</a> and lock in your rate before prices change.',
+      },
+    ],
+  },
+
+  // ── Post 15: Cost of Moving Brisbane ──────────────────
+  {
+    slug: "cost-of-moving-brisbane",
+    title: "How Much Does It Cost to Move in Brisbane? (2026 Guide)",
+    metaTitle: "Cost of Moving in Brisbane 2026 | Removalist Prices & Guide",
+    metaDescription:
+      "What does it cost to hire removalists in Brisbane? 2026 pricing guide covering local moves, hourly rates, fixed prices, and tips to save money on your Brisbane move.",
+    excerpt:
+      "Brisbane moving costs depend on your home size, distance, and when you move. This guide breaks down real 2026 removalist prices so you can budget your move with confidence.",
+    category: "Brisbane Moving",
+    date: "April 2026",
+    publishedDate: "2026-04-02",
+    readTime: "7 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-cost-moving-brisbane.webp",
+    imageAlt: "R2G removalists loading furniture into truck outside a Brisbane home",
+    keywords: [
+      "cost of moving brisbane",
+      "removalist prices brisbane",
+      "how much do removalists charge brisbane",
+      "brisbane moving costs 2026",
+      "local removalists brisbane prices",
+      "cheap removalists brisbane",
+    ],
+    relatedSlugs: ["best-time-to-move-brisbane", "hiring-professional-removalists-brisbane"],
+    content: [
+      {
+        type: "paragraph",
+        text: 'The cost of moving house in Brisbane varies depending on a few key factors: the size of your home, the distance between your old and new address, how much furniture you own, and whether you are moving during a busy period. Knowing what to expect before you start calling removalists helps you budget properly and avoid overpaying. This guide covers real 2026 pricing for <a href="/removalists-brisbane">local Brisbane moves</a> so you can plan with confidence.',
+      },
+      {
+        type: "heading",
+        text: "Average Removalist Rates in Brisbane (2026)",
+      },
+      {
+        type: "paragraph",
+        text: 'Brisbane removalists generally charge in one of two ways: hourly rates or fixed-price quotes. Hourly rates are common for smaller, straightforward moves where the scope is predictable. A standard 2-man crew with a truck typically charges between $130 and $180 per hour in 2026, with a minimum booking of 2 hours. For larger homes, a 3-man crew runs $170 to $230 per hour. These rates cover loading, transport, and unloading. If you also need <a href="/packing-services-brisbane">packing services</a>, that is quoted separately. Fixed-price quotes are more common for bigger moves or when access is tricky, because they give you cost certainty upfront.',
+      },
+      {
+        type: "list",
+        items: [
+          "1 bedroom apartment or studio: $300 to $500",
+          "2 bedroom home: $500 to $800",
+          "3 bedroom home: $800 to $1,200",
+          "4+ bedroom home: $1,200 to $2,000+",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What Affects Your Moving Cost",
+      },
+      {
+        type: "list",
+        items: [
+          "Home size and volume of furniture. More rooms means more time and a bigger truck",
+          "Access difficulty. Narrow driveways, steep hills, or long walkways from the truck to the front door all add time",
+          "Distance between suburbs. A move from Paddington to Toowong costs less than Redcliffe to Springfield",
+          "Stairs and lifts. Multi-storey homes and apartments without lift access require more labour",
+          "Time of year. Peak seasons (November to January) command higher rates due to demand",
+          "Packing services. Full or partial packing adds cost but saves you significant time and stress",
+          'Heavy or specialty items. <a href="/removalists-brisbane">Pianos, pool tables, safes</a>, and gym equipment require extra crew and care',
+        ],
+      },
+      {
+        type: "heading",
+        text: "Hourly Rates vs Fixed Price Quotes",
+      },
+      {
+        type: "paragraph",
+        text: 'Hourly rates work well for small moves where you have a clear idea of how long it will take. If you are moving a 1 or 2 bedroom unit with easy ground-floor access, hourly billing is usually straightforward. For anything larger or more complex, a fixed-price quote removes the risk of unexpected costs. You know exactly what you will pay before the truck arrives. <a href="/quote">Get a fixed-price quote from R2G</a> and take the guesswork out of your budget.',
+      },
+      {
+        type: "tip",
+        title: "Compare before you book",
+        text: "Get at least 2-3 written quotes before booking. A written quote should include the crew size, truck size, estimated hours (if hourly), insurance coverage, and any additional charges. Verbal quotes over the phone are not reliable for comparison.",
+      },
+      {
+        type: "heading",
+        text: "Peak vs Off-Peak Moving Seasons in Brisbane",
+      },
+      {
+        type: "paragraph",
+        text: 'Brisbane\'s busiest moving period runs from November through January. Lease turnovers, school holidays, and the new year all drive demand through the roof during these months. Removalists are booked out weeks in advance, and prices reflect the high demand. If you have flexibility, moving between February and October will typically cost less and give you better availability. Mid-week moves (Tuesday to Thursday) are almost always cheaper than Saturday, regardless of the season. For a detailed breakdown, check out <a href="/blog/best-time-to-move-brisbane">our guide to the best time to move in Brisbane</a>. Once you have locked in your moving date, do not forget to <a href="https://auspost.com.au/receiving/manage-your-mail/redirect-hold-mail" target="_blank" rel="noopener noreferrer">set up mail redirection with Australia Post</a> so nothing gets lost in the transition.',
+      },
+      {
+        type: "heading",
+        text: "How to Save Money on Your Brisbane Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Declutter before you move. Every item you donate, sell, or throw away is one less thing to load, transport, and unload. Less volume means a smaller truck and fewer hours",
+          'Pack yourself. Doing your own packing with materials from Bunnings saves $300 to $600 compared to a full packing service. You can also <a href="/boxes">get moving boxes from R2G</a> at competitive prices',
+          "Book a mid-week move. Tuesday, Wednesday, and Thursday rates are typically 10-20% cheaper than Saturday",
+          "Avoid peak season. Moving in March, April, or August gives you the best rates and widest availability",
+          'Compare quotes from multiple removalists. Do not just go with the first quote you receive. Three written quotes give you a realistic price range. The <a href="https://www.accc.gov.au/consumers/buying-products-and-services/hiring-a-tradesperson" target="_blank" rel="noopener noreferrer">ACCC has useful tips on hiring tradies</a> that apply to removalists as well',
+          'Be organised on moving day. Have everything packed, labelled, and ready to go when the crew arrives. Every minute your removalists spend waiting is time you are paying for. Use our <a href="/brisbane-moving-checklist">Brisbane moving checklist</a> to make sure nothing gets missed',
+        ],
+      },
+      {
+        type: "heading",
+        text: "What's Included in a Brisbane Removalist Quote",
+      },
+      {
+        type: "list",
+        items: [
+          "Moving truck with fuel included in the quoted price",
+          "Professional crew (typically 2 or 3 movers depending on home size)",
+          "Furniture blankets and padding for protecting your belongings during transit",
+          "Trolleys and straps for heavy items",
+          'Basic <a href="/about">transit insurance</a> covering accidental damage',
+          "Loading, transport, and unloading at your new address",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: 'Every move is different, and the best way to know your exact cost is to get a tailored quote based on your specific situation. R2G Transport & Storage provides free, no-obligation quotes for moves across all <a href="/removalists-brisbane">Brisbane suburbs</a>. Whether you are moving from Bulimba to Bardon or Carindale to Chermside, we will give you an honest price with no hidden fees. <a href="/quote">Request your free Brisbane moving quote today</a>.',
+      },
+    ],
+  },
+
+  // ── Post 16: Moving to Brisbane Guide ─────────────────
+  {
+    slug: "moving-to-brisbane-guide",
+    title: "The Complete Guide to Moving to Brisbane (2026)",
+    metaTitle: "Moving to Brisbane 2026 | Complete Relocation Guide",
+    metaDescription:
+      "Everything you need to know about moving to Brisbane in 2026. Suburbs, cost of living, lifestyle, and how to plan your Brisbane relocation step by step.",
+    excerpt:
+      "Brisbane is growing fast, and thousands of Australians are making the move every year. This guide covers the suburbs, cost of living, transport, and how to plan your relocation.",
+    category: "Brisbane Moving",
+    date: "April 2026",
+    publishedDate: "2026-04-02",
+    readTime: "10 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-moving-to-brisbane.webp",
+    imageAlt: "Aerial view of Brisbane city skyline with Story Bridge at golden hour",
+    keywords: [
+      "moving to brisbane",
+      "brisbane relocation guide",
+      "moving to brisbane from sydney",
+      "best suburbs brisbane",
+      "brisbane moving guide 2026",
+      "relocating to brisbane",
+    ],
+    relatedSlugs: ["cost-of-moving-brisbane", "hiring-professional-removalists-brisbane"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Brisbane has become one of Australia's fastest-growing cities, and for good reason. Affordable housing compared to Sydney and Melbourne, a subtropical climate, a strong job market, and major infrastructure investment ahead of the 2032 Olympics have made it the top destination for interstate movers. Whether you are relocating for work, lifestyle, or simply a fresh start, this guide covers everything you need to know about moving to Brisbane in 2026.",
+      },
+      {
+        type: "heading",
+        text: "Why People Are Moving to Brisbane",
+      },
+      {
+        type: "paragraph",
+        text: 'Brisbane has attracted record numbers of interstate migrants over the past five years. The city offers a genuine outdoor lifestyle with 280+ days of sunshine per year, a rapidly expanding job market in healthcare, construction, technology, and professional services, and property prices that remain significantly lower than Sydney and Melbourne. The <a href="https://www.olympics.com/en/olympic-games/brisbane-2032" target="_blank" rel="noopener noreferrer">2032 Olympic Games</a> are driving billions of dollars in infrastructure spending across transport, sports venues, and urban renewal, making Brisbane one of the most dynamic cities in the country right now.',
+      },
+      {
+        type: "heading",
+        text: "Brisbane's Best Suburbs by Lifestyle",
+      },
+      {
+        type: "subheading",
+        text: "For Families",
+      },
+      {
+        type: "paragraph",
+        text: 'If you are moving with kids, Brisbane has no shortage of family-friendly suburbs with great schools, parks, and a sense of community. Indooroopilly and Kenmore on the western side offer excellent public and private schools, quiet streets, and easy access to the CBD. Aspley and Chermside in the north have everything families need within a short drive. On the south side, <a href="/removalists-brisbane/carindale">Carindale</a> and <a href="/removalists-brisbane/sunnybank">Sunnybank</a> combine good schools with large shopping precincts and multicultural dining. These suburbs offer the kind of safe, suburban lifestyle that families prioritise.',
+      },
+      {
+        type: "subheading",
+        text: "For Young Professionals",
+      },
+      {
+        type: "paragraph",
+        text: 'If you want to be close to the action, Brisbane\'s inner-city suburbs deliver. <a href="/removalists-brisbane/new-farm">New Farm</a> is consistently rated one of Brisbane\'s most desirable postcodes, with its riverfront parks, weekend markets, and walkable streets. <a href="/removalists-brisbane/west-end">West End</a> and South Brisbane are packed with cafes, bars, and cultural venues. Fortitude Valley is the nightlife hub, while Paddington offers a quieter village atmosphere with character homes and boutique shops. All of these suburbs are within a short commute to the CBD.',
+      },
+      {
+        type: "subheading",
+        text: "For Affordability",
+      },
+      {
+        type: "paragraph",
+        text: 'If your budget is a priority, Brisbane\'s outer suburbs and satellite cities offer excellent value. Logan and <a href="/removalists-brisbane/springfield">Springfield</a> in the south have experienced massive growth, with newer estates, modern amenities, and improving transport connections. <a href="/removalists-brisbane/ipswich">Ipswich</a> to the west has some of the most affordable property in South East Queensland and is only 40 minutes from the CBD by train. Caboolture and Redbank Plains are popular with first home buyers looking for newer builds at lower price points.',
+      },
+      {
+        type: "heading",
+        text: "Cost of Living in Brisbane",
+      },
+      {
+        type: "paragraph",
+        text: 'Brisbane remains more affordable than Sydney and Melbourne across most categories. Median rent for a 3-bedroom house sits around $550 to $650 per week in mid-ring suburbs, compared to $700+ in Sydney. Median house prices across Brisbane are approximately $850,000 to $950,000, though inner-city suburbs command significantly more and outer suburbs significantly less. Groceries, dining out, and utilities are roughly comparable to other Australian capitals, though fuel tends to be slightly cheaper. For a detailed breakdown, check <a href="/blog/cost-of-moving-brisbane">our Brisbane moving costs guide</a>.',
+      },
+      {
+        type: "heading",
+        text: "Getting Around Brisbane",
+      },
+      {
+        type: "paragraph",
+        text: 'Brisbane\'s public transport network covers trains, buses, and ferries under the <a href="https://translink.com.au" target="_blank" rel="noopener noreferrer">TransLink</a> system. The train network connects major suburban hubs to the CBD, and the new <a href="https://crossriverrail.qld.gov.au" target="_blank" rel="noopener noreferrer">Cross River Rail</a> project (opening 2026) will dramatically improve capacity and travel times across the city. Brisbane also has a growing network of cycling paths, particularly along the river. For drivers, the major motorways (M1, M3, M5, M7) connect the <a href="/removalists-brisbane/northside">northern</a>, <a href="/removalists-brisbane/southside">southern</a>, and western corridors, though peak-hour traffic on the M1 and M3 is something to plan around if you are commuting from the outer suburbs.',
+      },
+      {
+        type: "heading",
+        text: "Planning Your Move to Brisbane",
+      },
+      {
+        type: "list",
+        items: [
+          "Research suburbs that match your lifestyle, budget, and commute needs before you commit to a rental or purchase",
+          "Set a moving budget that includes removalist costs, bond, connection fees for utilities, and a buffer for unexpected expenses",
+          '<a href="/quote">Hire your removalist early</a>. If you are moving interstate, book 4 to 6 weeks in advance to secure your preferred dates. For a step-by-step overview, see our <a href="/brisbane-moving-checklist">Brisbane moving checklist</a>',
+          'Update your address with banks, insurers, Medicare, electoral roll, and any subscription services. Set up mail redirection through <a href="https://auspost.com.au/receiving/manage-your-mail/redirect-hold-mail" target="_blank" rel="noopener noreferrer">Australia Post</a> so nothing gets lost in the move',
+          "Connect electricity, gas, internet, and water at your new address at least a week before you arrive",
+          'Enrol your children in local schools as early as possible. Popular schools in Brisbane fill up fast, especially in <a href="/removalists-brisbane/northside">family-friendly northside suburbs</a>',
+          'Register your vehicle in Queensland within 14 days of establishing residence if moving from interstate. Visit <a href="https://www.tmr.qld.gov.au" target="_blank" rel="noopener noreferrer">Queensland TMR</a> to start the process',
+        ],
+      },
+      {
+        type: "tip",
+        title: "Book ahead for interstate moves",
+        text: "If you are moving to Brisbane from Sydney, Melbourne, or anywhere interstate, book your removalist 4 to 6 weeks in advance. Interstate routes fill up quickly, especially during peak periods. An early booking gives you the best price and the widest choice of dates.",
+      },
+      {
+        type: "heading",
+        text: "Hiring Removalists for Your Brisbane Move",
+      },
+      {
+        type: "paragraph",
+        text: 'Whether you are relocating within Brisbane or coming from interstate, having the right removalist makes the entire process smoother. For local moves across Brisbane suburbs, our <a href="/removalists-brisbane">Brisbane removalists</a> handle everything from <a href="/packing-services-brisbane">packing to unpacking</a>. If you are coming from Sydney, Melbourne, or another state, our <a href="/interstate-removalists">interstate removalist service</a> covers door-to-door transport with full insurance and professional handling. <a href="/quote">Get a free quote</a> tailored to your specific move and lock in your price before demand increases.',
+      },
+      {
+        type: "paragraph",
+        text: "Brisbane is a city on the rise, and there has never been a better time to make the move. With the right planning and a reliable removalist, your relocation can be smooth, affordable, and even enjoyable. Take the time to research your suburb, set your budget, and book early. The rest falls into place.",
+      },
+    ],
+  },
+
+  // ── Post 17: Cost of Moving Cairns ────────────────────
+  {
+    slug: "cost-of-moving-cairns",
+    title: "How Much Do Removalists Cost in Cairns? 2026 Price Guide",
+    metaTitle: "Removalist Costs in Cairns 2026 | Hourly Rates & Price Guide",
+    metaDescription:
+      "What do removalists charge in Cairns? 2026 pricing guide with local hourly rates, interstate costs, and tips to save money on your Cairns move.",
+    excerpt:
+      "Cairns removalist prices depend on crew size, access difficulty, and distance. This guide breaks down real 2026 hourly rates and cost factors so you can budget your move properly.",
+    category: "Moving Costs",
+    date: "March 2026",
+    publishedDate: "2026-03-18",
+    readTime: "7 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-local-move.webp",
+    imageAlt: "Removalist truck parked outside a Cairns home during a local house move",
+    keywords: [
+      "removalists cost cairns",
+      "cairns moving costs",
+      "how much do removalists charge cairns",
+      "cairns removalist prices 2026",
+      "cheap removalists cairns",
+      "local movers cairns cost",
+    ],
+    relatedSlugs: ["cost-of-moving-brisbane", "cairns-to-brisbane-moving-guide", "moving-during-cyclone-season"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Moving house in Cairns comes with its own set of variables that affect what you will pay. Stilt houses, steep driveways, tropical humidity, and the sheer distance between suburbs in the Far North all play a role in your final bill. Whether you are moving across town or heading interstate, understanding how [Cairns removalists](/removalists-cairns) price their services will help you budget properly and avoid surprises on moving day.",
+      },
+      {
+        type: "heading",
+        text: "Local Hourly Rates in Cairns (2026)",
+      },
+      {
+        type: "paragraph",
+        text: "Most Cairns removalists charge by the hour for local moves. A standard 2-person crew with a truck runs between $170 and $189 per hour in 2026, with a minimum booking of 2 hours. For larger homes with more furniture, a 3-person crew typically costs $210 to $260 per hour. These rates generally include the truck, fuel for local moves, furniture blankets, trolleys, and basic transit insurance. Packing services are quoted separately.",
+      },
+      {
+        type: "list",
+        items: [
+          "1 bedroom unit or studio: $350 to $550",
+          "2 bedroom home: $550 to $850",
+          "3 bedroom home: $850 to $1,300",
+          "4+ bedroom home: $1,300 to $2,200+",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Factors That Affect Your Cairns Moving Cost",
+      },
+      {
+        type: "paragraph",
+        text: "Cairns has a few local quirks that can push your costs higher compared to other Queensland cities. The most common one is stilt houses. A large portion of homes in the Cairns region are raised on stilts, which means every piece of furniture needs to be carried down (and then up) a flight of stairs. This adds significant time to the job. Narrow access in older suburbs like Manunda, Edge Hill, and Whitfield can also slow things down if the truck cannot park close to the front door.",
+      },
+      {
+        type: "list",
+        items: [
+          "Stilt houses and stairs. Raised homes are standard in Cairns and add 30 to 60 minutes per load",
+          "Distance between suburbs. A move from Redlynch to Palm Cove covers more ground than most people expect",
+          "Heavy or bulky items. Pool tables, large outdoor furniture, and gym equipment need extra hands",
+          "Time of year. Dry season (May to October) is peak moving season in the tropics. Wet season moves are cheaper but come with weather risks",
+          "Access difficulty. Long driveways, gravel roads in semi-rural suburbs like Gordonvale or Smithfield add time",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Interstate Moving Costs from Cairns",
+      },
+      {
+        type: "paragraph",
+        text: "If you are leaving Cairns for Brisbane, the Gold Coast, or elsewhere in Australia, the pricing model shifts from hourly to a fixed quote based on volume and distance. A typical [Cairns to Brisbane interstate move](/interstate-removalists/cairns-to-brisbane) for a 3-bedroom home costs between $3,500 and $6,500 depending on whether you choose a shared load or exclusive truck. Shared loads (backloading) are cheaper but less flexible on timing. Exclusive loads give you a guaranteed pickup and delivery window.",
+      },
+      {
+        type: "tip",
+        title: "Save with backloading",
+        text: "If your dates are flexible, ask about backloading rates. Removalist trucks returning south from Cairns often have space available at a discount. You can save 20 to 40 percent compared to an exclusive load.",
+      },
+      {
+        type: "heading",
+        text: "When to Book for the Best Rates",
+      },
+      {
+        type: "paragraph",
+        text: "Cairns follows a slightly different seasonal pattern to the rest of Queensland. The dry season from May to October is when most people move, so rates and availability are tighter during these months. The wet season from November to April is quieter for removalists, and you can often negotiate better rates. However, wet season moves carry the risk of weather delays, especially during cyclone season. Mid-week bookings (Tuesday to Thursday) are almost always cheaper than weekends, regardless of the time of year.",
+      },
+      {
+        type: "heading",
+        text: "Get an Accurate Quote for Your Cairns Move",
+      },
+      {
+        type: "paragraph",
+        text: "Every home is different, and the only way to know your exact cost is to get a tailored quote. R2G Transport provides free, no-obligation quotes for local moves across all [Cairns suburbs](/removalists-cairns) and [interstate relocations](/interstate-removalists) from Far North Queensland. If you also need [packing help](/packing-services-cairns), we can include that in your quote. [Request your free Cairns moving quote today](/quote) and get a clear price with no hidden fees.",
+      },
+    ],
+  },
+
+  // ── Post 18: Moving to Gold Coast Guide ───────────────
+  {
+    slug: "moving-to-gold-coast-guide",
+    title: "Moving to the Gold Coast: Your Complete 2026 Suburb Guide",
+    metaTitle: "Moving to the Gold Coast 2026 | Suburb Guide & Tips",
+    metaDescription:
+      "Planning a move to the Gold Coast? Our 2026 suburb guide covers the best areas for families, beachside living, budget-friendly options, and practical moving tips.",
+    excerpt:
+      "The Gold Coast has something for everyone, from beachside apartments in Burleigh to family homes in Robina. This guide breaks down the regions, lifestyle, and what to know before you move.",
+    category: "Moving Guides",
+    date: "March 2026",
+    publishedDate: "2026-03-22",
+    readTime: "9 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-moving-day.webp",
+    imageAlt: "Gold Coast skyline and beach view representing a move to the Gold Coast region",
+    keywords: [
+      "moving to gold coast",
+      "gold coast suburbs guide",
+      "best suburbs gold coast",
+      "gold coast moving tips",
+      "gold coast family suburbs",
+      "gold coast beachside suburbs",
+    ],
+    relatedSlugs: ["moving-to-brisbane-guide", "cost-of-moving-brisbane", "sunshine-coast-moving-checklist"],
+    content: [
+      {
+        type: "paragraph",
+        text: "The Gold Coast is one of Australia's fastest-growing cities, and for good reason. Over 600,000 people call it home, with thousands more arriving every year from interstate and overseas. The combination of beaches, relatively affordable housing compared to Sydney, a growing job market, and year-round warm weather makes it an appealing place to settle. But the Gold Coast stretches over 60 kilometres from Ormeau in the north to Coolangatta in the south, and each pocket has a very different feel. Choosing the right suburb matters as much as choosing to move here in the first place.",
+      },
+      {
+        type: "heading",
+        text: "Understanding the Gold Coast Layout",
+      },
+      {
+        type: "paragraph",
+        text: "The Gold Coast is not one single centre. It is a string of suburbs running north to south along the coastline, backed by the hinterland to the west. The M1 motorway is the main artery connecting everything, and traffic can be heavy during peak hours. Broadly, you can split the Gold Coast into three zones: the northern suburbs closer to Brisbane, the central hub around Surfers Paradise and Broadbeach, and the southern end from Burleigh Heads down to the NSW border.",
+      },
+      {
+        type: "heading",
+        text: "Best Suburbs for Families",
+      },
+      {
+        type: "paragraph",
+        text: "If you have children or are planning to start a family, the central-western suburbs offer the best mix of space, schools, and affordability. Robina is the Gold Coast's unofficial family capital. It has two major shopping centres, multiple primary and secondary schools including a well-regarded state high school, easy M1 access, and a mix of houses and townhouses at mid-range prices. Varsity Lakes sits right next door and offers a similar package with a more village-like atmosphere around its central lake.",
+      },
+      {
+        type: "list",
+        items: [
+          "Robina. Excellent schools, Robina Town Centre, easy M1 access, median house price around $950,000",
+          "Varsity Lakes. Lakeside lifestyle, Bond University nearby, growing cafe scene, slightly lower prices than Robina",
+          "Mudgeeraba. Semi-rural feel with hinterland views, still close to the M1, popular with families wanting more space",
+          "Ormeau and Pimpama. The northern corridor is where first-home buyers are landing. New estates, newer schools, and the most affordable house prices on the GC",
+          "Highland Park. Quiet, bushland setting with good value homes and easy access to Nerang and the M1",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Beachside Living: Burleigh, Currumbin, and Beyond",
+      },
+      {
+        type: "paragraph",
+        text: "The Gold Coast's beach suburbs are the main drawcard, and they come at a premium. Burleigh Heads is the standout. It has a genuine community feel with James Street's cafes and restaurants, Burleigh Hill national park, and one of Australia's best point breaks right at the headland. Currumbin and Palm Beach offer a slightly more relaxed pace with excellent beaches and a growing food scene. Further south, Coolangatta and Tugun feel like small coastal towns despite being part of a major city. Beach suburbs typically command 30 to 50 percent higher prices than equivalent homes a few kilometres inland.",
+      },
+      {
+        type: "tip",
+        title: "Apartment moves on the GC",
+        text: "Many Gold Coast beachside properties are high-rise apartments with strict body corporate rules around moving times and lift access. Always check with the building manager before your move date. Some buildings only allow moves on weekdays between 8am and 4pm, which affects your removalist booking.",
+      },
+      {
+        type: "heading",
+        text: "Budget-Friendly Areas Worth Considering",
+      },
+      {
+        type: "paragraph",
+        text: "Not everyone moving to the Gold Coast needs to be on the beach. The western and northern suburbs offer genuine value without sacrificing lifestyle. Nerang is centrally located with a train station, shops, and quick access to both the coast and the hinterland. Upper Coomera and Coomera have exploded with new housing estates and now have the Coomera Town Centre for shopping. Southport, once considered dated, is going through a major transformation with new developments, the light rail, and the Broadwater foreshore. These suburbs give you Gold Coast living at a price point that is realistic for most families and couples.",
+      },
+      {
+        type: "heading",
+        text: "What to Know Before You Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Traffic on the M1 is real. If you work in Brisbane, factor in 60 to 90 minutes each way during peak hour. The train is an option from Robina, Nerang, or Varsity Lakes",
+          "Flood zones exist in parts of the Gold Coast hinterland and low-lying suburbs. Check council flood maps before buying or signing a lease",
+          "Body corporate fees in apartment buildings can range from $60 to $150 per week. Factor this into your budget for beachside units",
+          "The Gold Coast has its own job market separate from Brisbane. Health, tourism, education, and construction are the biggest employers",
+          "If you are moving from interstate, remember that Queensland has no daylight saving. You gain an hour of afternoon sunlight in winter compared to NSW and Victoria",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Planning Your Gold Coast Move",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you are relocating from Brisbane, interstate, or just shifting suburbs, having the right removalist makes the transition smoother. Our [Gold Coast removalists](/removalists-gold-coast) service the entire strip from Ormeau to Coolangatta and everywhere in between. If you are coming from [interstate](/interstate-removalists), we handle door-to-door transport with full insurance. Need to store furniture while you find the right place? Our [Brisbane storage facility](/storage-brisbane) is just an hour up the M1. [Get a free quote](/quote) and start planning your Gold Coast move today.",
+      },
+      {
+        type: "quote",
+        text: "The Gold Coast rewards people who do their homework before they move. Pick the right suburb for your lifestyle, not just the cheapest option, and you will love living here.",
+        author: "R2G Moving Team",
+      },
+    ],
+  },
+
+  // ── Post 19: Sunshine Coast Moving Checklist ──────────
+  {
+    slug: "sunshine-coast-moving-checklist",
+    title: "Sunshine Coast Moving Checklist: Everything You Need to Know",
+    metaTitle: "Sunshine Coast Moving Checklist 2026 | Complete Guide",
+    metaDescription:
+      "Planning a move to the Sunshine Coast? Our week-by-week checklist covers everything from booking removalists to connecting utilities and navigating hinterland access.",
+    excerpt:
+      "Moving to the Sunshine Coast requires planning around narrow hinterland roads, seasonal demand, and local quirks. This week-by-week checklist keeps you on track from start to finish.",
+    category: "Moving Checklists",
+    date: "March 2026",
+    publishedDate: "2026-03-20",
+    readTime: "8 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-packing-kitchen.webp",
+    imageAlt: "Packed moving boxes labelled and ready for a Sunshine Coast house move",
+    keywords: [
+      "sunshine coast moving checklist",
+      "moving to sunshine coast",
+      "sunshine coast removalists tips",
+      "sunshine coast relocation guide",
+      "noosa moving tips",
+      "moving checklist 2026",
+    ],
+    relatedSlugs: ["ultimate-moving-day-checklist", "moving-to-gold-coast-guide", "moving-to-brisbane-guide"],
+    content: [
+      {
+        type: "paragraph",
+        text: "The Sunshine Coast is one of the most popular relocation destinations in Australia right now. Between the beaches, the hinterland, and a lifestyle that moves at a slower pace than Brisbane or Sydney, it is easy to see why. But moving here comes with a few challenges that are unique to the region. Narrow streets in Noosa, winding hinterland roads in Maleny and Montville, and seasonal demand from holiday-makers all affect your moving plan. This checklist will keep you organised from the moment you decide to move until the last box is unpacked.",
+      },
+      {
+        type: "heading",
+        text: "8 Weeks Before Your Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Research [Sunshine Coast removalists](/removalists-sunshine-coast) and request at least three quotes. Mention any access challenges at your new address",
+          "Start decluttering room by room. The Sunshine Coast lifestyle tends to be more relaxed and less cluttered, so use this move as a fresh start",
+          "If you are renting, give your landlord the required notice and confirm your bond return process",
+          "Research your new area: school catchment zones, GP clinics, local council services, and public transport routes",
+          "If you are moving from interstate, start planning the logistics of your travel. Flights into Sunshine Coast Airport (Maroochydore) or driving from Brisbane are the two main options",
+        ],
+      },
+      {
+        type: "heading",
+        text: "6 Weeks Before Your Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Confirm your removalist booking and lock in the date with a deposit. The Sunshine Coast books out quickly during school holidays and the dry season",
+          "If you need [packing services](/packing-services-sunshine-coast), arrange these at the same time as your removalist booking",
+          "Arrange [storage](/storage-brisbane) if there is a gap between your move-out and move-in dates. This is common on the Sunshine Coast where settlement dates do not always align",
+          "Start collecting packing supplies. Small boxes for heavy items, large boxes for bedding and cushions, packing paper, bubble wrap, and quality tape",
+          "Arrange pet transport or plan how you will get your animals to the new home safely",
+        ],
+      },
+      {
+        type: "heading",
+        text: "4 Weeks Before Your Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Begin packing non-essential rooms. Spare bedrooms, the garage, and the study can all be boxed up well in advance",
+          "Arrange utility disconnections at your current address and connections at your new one. Contact Ergon Energy for electricity, Unity Water for water on the Sunshine Coast, and your preferred internet provider",
+          "Set up mail redirection through Australia Post. Allow at least 5 business days for processing",
+          "Update your address with the ATO, Medicare, banks, insurers, vehicle registration (if changing states), and any subscriptions",
+          "If you have children, confirm school enrolments. Popular Sunshine Coast schools fill up quickly, especially in the Noosa and Buderim catchment areas. Contact the school directly to check availability for mid-year starts",
+        ],
+      },
+      {
+        type: "heading",
+        text: "2 Weeks Before Your Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Pack the remaining rooms, leaving only daily essentials unpacked",
+          "Confirm all details with your removalist: access at both ends, parking availability, any stairs or narrow pathways, and lift bookings for apartments",
+          "Prepare a moving day essentials box with toiletries, medications, phone chargers, a change of clothes, basic kitchen items, and important documents",
+          "Defrost and clean your fridge at least 24 hours before moving day",
+          "If you are moving to a hinterland property, check the driveway access for a large truck. Some properties in Maleny, Montville, and Mapleton have steep or narrow driveways that require a smaller shuttle vehicle",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Sunshine Coast Access Challenges to Plan For",
+      },
+      {
+        type: "paragraph",
+        text: "The Sunshine Coast is not a flat, easy-access city like parts of Brisbane. Several areas have specific challenges that you should communicate to your removalist in advance. Noosa Heads and Noosa Junction have narrow streets with limited parking, and council sometimes restricts truck access during peak tourist times. Hinterland towns like Maleny, Montville, and Kenilworth sit on top of the Blackall Range, and the roads up are steep and winding. Some rural properties have unsealed driveways that are not suitable for full-size moving trucks, especially after rain.",
+      },
+      {
+        type: "tip",
+        title: "Shuttle vehicles for tricky access",
+        text: "If your new Sunshine Coast property has difficult access, ask your removalist about shuttle services. They bring a smaller van to your property and transfer your belongings from the main truck parked on the nearest suitable road. It adds time but prevents damage to your driveway and the truck.",
+      },
+      {
+        type: "heading",
+        text: "Settling Into Sunshine Coast Life",
+      },
+      {
+        type: "paragraph",
+        text: "Once you are unpacked, take the time to properly settle in. Register with a local GP and dentist early as many Sunshine Coast practices have waiting lists. Transfer your vehicle registration to Queensland if you have moved from interstate. Explore your local area on foot or by bike. The Sunshine Coast is built for outdoor living, and getting to know your neighbourhood's walking trails, beaches, and cafes will help you feel at home faster. Join a local community group, sports club, or market volunteer team to meet people. The Sunshine Coast has a strong community culture, and getting involved is the fastest way to build a social network.",
+      },
+      {
+        type: "heading",
+        text: "Ready to Move to the Sunshine Coast?",
+      },
+      {
+        type: "paragraph",
+        text: "Our [Sunshine Coast removalists](/removalists-sunshine-coast) handle moves across the entire region, from Caloundra to Noosa and everywhere in the hinterland. We know the access challenges, the local roads, and the best way to get your furniture safely into your new home. [Get a free quote](/quote) and let us take the stress out of your Sunshine Coast move.",
+      },
+    ],
+  },
+
+  // ── Post 20: Cairns to Brisbane Moving Guide ──────────
+  {
+    slug: "cairns-to-brisbane-moving-guide",
+    title: "Cairns to Brisbane: The Complete Interstate Moving Guide",
+    metaTitle: "Cairns to Brisbane Moving Guide 2026 | Interstate Removalists",
+    metaDescription:
+      "Everything you need to know about moving from Cairns to Brisbane. Route details, costs, shared vs exclusive loads, timing tips, and what R2G handles for you.",
+    excerpt:
+      "The Cairns to Brisbane move covers 1,700 kilometres of Bruce Highway. This guide covers route logistics, cost ranges, shared vs exclusive loads, and how to plan your interstate move.",
+    category: "Interstate Moving",
+    date: "March 2026",
+    publishedDate: "2026-03-15",
+    readTime: "9 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-interstate-moving.webp",
+    imageAlt: "Interstate removalist truck on the Bruce Highway heading from Cairns to Brisbane",
+    keywords: [
+      "cairns to brisbane move",
+      "cairns to brisbane removalists",
+      "moving from cairns to brisbane",
+      "interstate removalists cairns",
+      "cairns to brisbane moving cost",
+      "bruce highway moving",
+    ],
+    relatedSlugs: ["moving-interstate-guide", "cost-of-moving-cairns", "cost-of-moving-brisbane"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Moving from Cairns to Brisbane is one of the most common interstate routes in Queensland, and one of the longest. The two cities sit roughly 1,700 kilometres apart on the Bruce Highway, and the journey takes a removalist truck 2 to 3 days depending on stops and conditions. Whether you are relocating for work, family, or a change of lifestyle, this guide covers everything you need to plan your [Cairns to Brisbane move](/interstate-removalists/cairns-to-brisbane) from start to finish.",
+      },
+      {
+        type: "heading",
+        text: "The Route: What to Expect",
+      },
+      {
+        type: "paragraph",
+        text: "The Bruce Highway is the only sealed road connecting Cairns and Brisbane. It passes through Townsville, Mackay, Rockhampton, and Bundaberg before reaching the outskirts of Brisbane. The highway is mostly single carriageway through rural and semi-rural Queensland, with dual carriageway sections near the major towns. Road conditions are generally good, but wet season (November to April) can bring flooding and temporary closures, particularly between Townsville and Mackay. Your removalist will monitor road conditions and plan accordingly.",
+      },
+      {
+        type: "heading",
+        text: "Shared Load vs Exclusive Truck",
+      },
+      {
+        type: "paragraph",
+        text: "The biggest decision affecting your cost is whether you opt for a shared load or an exclusive truck. A shared load means your belongings travel alongside other customers' goods on the same truck. This is cheaper because the transport cost is split between multiple households, but your delivery window is less precise. You might be given a 3 to 5 day delivery window rather than a specific date. An exclusive truck means the entire vehicle is dedicated to your move. You get a confirmed pickup and delivery date, and your items are the only ones on the truck. This costs more but gives you full control over timing.",
+      },
+      {
+        type: "list",
+        items: [
+          "Shared load (backloading): $2,500 to $4,500 for a 3-bedroom home. Delivery window of 3 to 7 days",
+          "Exclusive truck: $4,500 to $7,000 for a 3-bedroom home. Confirmed pickup and delivery dates",
+          "Small load (1-2 bedroom): $1,500 to $3,000 shared, $3,000 to $5,000 exclusive",
+          "Additional services like packing, disassembly, and storage are quoted separately",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What R2G Handles for You",
+      },
+      {
+        type: "paragraph",
+        text: "Our [interstate removalist service](/interstate-removalists) covers the full Cairns to Brisbane corridor door to door. That means we pick up from your [Cairns home](/removalists-cairns), load everything onto the truck with professional wrapping and protection, transport it the full 1,700 kilometres, and deliver to your new [Brisbane address](/removalists-brisbane). Furniture is wrapped in padded blankets and secured with straps. Fragile items get extra protection. We handle disassembly and reassembly of beds and basic furniture as part of the service.",
+      },
+      {
+        type: "tip",
+        title: "Book early for the best rates",
+        text: "The Cairns to Brisbane route is busiest from May to October when people move south for the dry season. Booking 6 to 8 weeks ahead gives you the best price and your preferred dates. Last-minute bookings in peak season often cost 20 to 30 percent more.",
+      },
+      {
+        type: "heading",
+        text: "Best Time to Move from Cairns to Brisbane",
+      },
+      {
+        type: "paragraph",
+        text: "Timing affects both cost and logistics. The dry season (May to October) is the most popular time to move because the weather is predictable and the roads are clear. But this is also when demand is highest, so prices reflect that. Moving during the wet season (November to April) can save you money, but you need to accept the possibility of weather delays. Cyclones, heavy rain, and flooding can temporarily close sections of the Bruce Highway, pushing your delivery date back by a day or two. If you have flexibility on your arrival date, wet season moves can be significantly cheaper.",
+      },
+      {
+        type: "heading",
+        text: "Preparing for the Climate Change",
+      },
+      {
+        type: "paragraph",
+        text: "One thing that catches many people off guard is the climate difference between Cairns and Brisbane. Cairns is tropical with warm, humid weather year-round. Brisbane has a subtropical climate with noticeably cooler winters. June and July nights in Brisbane regularly drop below 10 degrees, and homes are not as well-insulated as you might expect. Make sure your winter clothing and bedding are accessible when you arrive, not buried at the back of the truck. If you are moving during Brisbane's cooler months, you will want a heater ready from day one.",
+      },
+      {
+        type: "heading",
+        text: "Storage Options at Either End",
+      },
+      {
+        type: "paragraph",
+        text: "If your settlement dates do not line up, or you need time to find the right place in Brisbane, [storage](/storage-brisbane) is a practical solution. We offer short and long-term storage in secure, clean facilities. Many people moving from Cairns to Brisbane store their belongings for a few weeks while they sort out their new home. This is far less stressful than rushing into a lease just to have somewhere for your furniture.",
+      },
+      {
+        type: "heading",
+        text: "Start Planning Your Move",
+      },
+      {
+        type: "paragraph",
+        text: "The Cairns to Brisbane corridor is a route we know well. Our trucks run it regularly, which means competitive pricing, reliable scheduling, and a team that understands the logistics of long-distance Queensland moves. [Get a free quote](/quote) for your Cairns to Brisbane move and we will give you a clear price based on your specific requirements.",
+      },
+    ],
+  },
+
+  // ── Post 21: Best Suburbs Townsville Families ─────────
+  {
+    slug: "best-suburbs-townsville-families",
+    title: "Best Suburbs in Townsville for Families in 2026",
+    metaTitle: "Best Townsville Suburbs for Families 2026 | Moving Guide",
+    metaDescription:
+      "Discover the best family-friendly suburbs in Townsville for 2026. Compare Kirwan, Aitkenvale, Annandale, Douglas, and Cranbrook for schools, amenities, and lifestyle.",
+    excerpt:
+      "Townsville offers families affordable housing, excellent schools, and a relaxed North Queensland lifestyle. Here are the top suburbs to consider if you are moving with kids in 2026.",
+    category: "Moving Guides",
+    date: "April 2026",
+    publishedDate: "2026-04-01",
+    readTime: "8 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-storage.webp",
+    imageAlt: "Family-friendly suburban street in Townsville with tropical landscaping",
+    keywords: [
+      "best suburbs townsville",
+      "townsville family suburbs",
+      "moving to townsville",
+      "townsville schools suburbs",
+      "townsville relocation guide",
+      "north queensland family living",
+    ],
+    relatedSlugs: ["moving-during-cyclone-season", "cairns-to-brisbane-moving-guide", "moving-interstate-guide"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Townsville is North Queensland's largest city and one of the most affordable places to raise a family in coastal Australia. With a population of around 195,000, it has the infrastructure of a regional capital (hospitals, university, airport, shopping centres) combined with the kind of relaxed lifestyle that bigger cities simply cannot offer. If you are moving to Townsville with a family, choosing the right suburb will shape your daily life. Here is an honest look at the best options in 2026.",
+      },
+      {
+        type: "heading",
+        text: "Kirwan: The Family Hub",
+      },
+      {
+        type: "paragraph",
+        text: "Kirwan is the suburb most families land in, and for good reason. It sits in the geographic centre of Townsville with easy access to everywhere. Willows Shopping Centre anchors the area with a full Woolworths, Coles, Kmart, and specialty stores. Kirwan State High School is one of the largest in the region, and there are multiple primary schools within the suburb. Housing is predominantly single-storey brick or rendered homes on generous blocks, and median house prices sit around $400,000 to $450,000. For families wanting space, value, and convenience, Kirwan is hard to beat.",
+      },
+      {
+        type: "heading",
+        text: "Aitkenvale: Central and Connected",
+      },
+      {
+        type: "paragraph",
+        text: "Aitkenvale is Townsville's main commercial hub outside the CBD. Stockland Townsville shopping centre is here, along with Bunnings, medical centres, and a wide range of services. The suburb has a mix of older Queenslander homes and newer builds. It is one of the most central suburbs in the city, which means shorter commutes no matter where you work. Families with older children appreciate the proximity to Pimlico State High School and the various sporting facilities nearby. Prices are similar to Kirwan, making it another strong value option.",
+      },
+      {
+        type: "heading",
+        text: "Annandale: Quiet and Established",
+      },
+      {
+        type: "paragraph",
+        text: "Annandale is a step up in terms of presentation and price. The suburb has a reputation as one of Townsville's best-kept residential areas with well-maintained homes, quiet streets, and mature gardens. Annandale State School is highly regarded by local families. The suburb is close to the Townsville Hospital and James Cook University, making it popular with medical professionals and academics. Median prices run $500,000 to $600,000 for a house. If your budget stretches to it, Annandale offers a polished suburban lifestyle that families tend to stay in long-term.",
+      },
+      {
+        type: "heading",
+        text: "Douglas: University Precinct Living",
+      },
+      {
+        type: "paragraph",
+        text: "Douglas wraps around James Cook University and the Townsville Hospital precinct. It is popular with families who have a connection to either institution, but you do not need to work at the uni to appreciate the suburb. Douglas has good parks, a village-style shopping area, and a genuine community feel. The Riverway Drive corridor gives you quick access to the western suburbs and the M1. Housing is a mix of older homes on larger blocks and newer townhouse developments. For families with high school children, the proximity to JCU is a bonus for future study options.",
+      },
+      {
+        type: "heading",
+        text: "Cranbrook: Northern Beaches Character",
+      },
+      {
+        type: "paragraph",
+        text: "If you want to be closer to the beach, Cranbrook is worth a look. It sits on the northern side of Townsville with easy access to the Strand, Pallarenda, and the northern beaches. The suburb has a mix of old and new housing, including some elevated blocks with views to Magnetic Island. It is a bit further from the main shopping centres, but the Cranbrook area has its own local shops and schools. Families who prioritise an outdoor, beach-oriented lifestyle will find Cranbrook hits the mark without the premium prices of suburbs like Belgian Gardens.",
+      },
+      {
+        type: "heading",
+        text: "Comparing the Top Suburbs at a Glance",
+      },
+      {
+        type: "list",
+        items: [
+          "Kirwan. Best for: overall family value. Median house price: $400,000 to $450,000. Strengths: schools, shops, central location",
+          "Aitkenvale. Best for: central access and commuting. Median house price: $380,000 to $440,000. Strengths: shopping, services, connectivity",
+          "Annandale. Best for: established family living. Median house price: $500,000 to $600,000. Strengths: quiet streets, well-regarded school, presentation",
+          "Douglas. Best for: university precinct lifestyle. Median house price: $420,000 to $500,000. Strengths: JCU proximity, hospital access, parks",
+          "Cranbrook. Best for: beach lifestyle. Median house price: $350,000 to $430,000. Strengths: northern beaches access, character homes, views",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Tips for Moving to Townsville",
+      },
+      {
+        type: "list",
+        items: [
+          "Visit before you commit. Townsville's suburbs feel very different in person compared to online. Spend a few days driving around before signing a lease or making an offer",
+          "Factor in the climate. Townsville is hot and humid from October to April. Ensure your new home has air conditioning in at least the main living area and bedrooms",
+          "Check flood maps. Parts of Townsville are flood-prone, particularly around the Ross River. Townsville City Council has online flood mapping tools that are essential to check",
+          "School enrolments fill up. If you are moving mid-year, contact your preferred schools early. Some have waiting lists, particularly Annandale State School and William Ross State High School",
+          "Join local community groups on Facebook before you arrive. Townsville has active community pages that are useful for local recommendations and settling-in advice",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Plan Your Townsville Move",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you are relocating within North Queensland or moving to Townsville from [interstate](/interstate-removalists), our [Townsville removalists](/removalists-townsville) handle the full process. We know the local suburbs, the access challenges, and the best way to get your family settled into your new home quickly. [Get a free quote](/quote) for your Townsville move today.",
+      },
+    ],
+  },
+
+  // ── Post 22: Moving During Cyclone Season ─────────────
+  {
+    slug: "moving-during-cyclone-season",
+    title: "Moving During Cyclone Season in North Queensland: What You Need to Know",
+    metaTitle: "Moving During Cyclone Season NQ | Tips & Preparation Guide",
+    metaDescription:
+      "Planning a move during cyclone season in North Queensland? Learn how wet weather affects moving schedules, how to protect your belongings, and booking tips for Nov-Apr moves.",
+    excerpt:
+      "Cyclone season in North Queensland runs from November to April, and it affects everything from road closures to humidity damage. Here is how to plan a move during the wet season.",
+    category: "Moving Tips",
+    date: "March 2026",
+    publishedDate: "2026-03-12",
+    readTime: "7 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-interstate-moving.webp",
+    imageAlt: "Dark storm clouds over a North Queensland road during wet season",
+    keywords: [
+      "moving cyclone season",
+      "north queensland moving tips",
+      "cairns moving wet season",
+      "cyclone season removalists",
+      "wet season moving tips",
+      "tropical moving guide",
+    ],
+    relatedSlugs: ["cost-of-moving-cairns", "cairns-to-brisbane-moving-guide", "best-suburbs-townsville-families"],
+    content: [
+      {
+        type: "paragraph",
+        text: "If you are planning a move in Cairns, Townsville, or anywhere in North Queensland between November and April, you are moving during cyclone season. That does not mean you should avoid moving during these months. Plenty of people relocate successfully during the wet season every year. But it does mean you need to plan differently than you would for a dry season move. Weather delays, humidity, road closures, and insurance considerations all come into play.",
+      },
+      {
+        type: "heading",
+        text: "When Is Cyclone Season?",
+      },
+      {
+        type: "paragraph",
+        text: "The official cyclone season in the Australian tropics runs from 1 November to 30 April each year. The highest risk period is typically January to March, when ocean temperatures are warmest and tropical low-pressure systems are most likely to develop into cyclones. Not every wet season produces a cyclone that hits land, but the associated weather patterns (heavy rain, strong winds, flooding) are a regular occurrence even without a named storm. For removalists operating in [Cairns](/removalists-cairns) and [Townsville](/removalists-townsville), wet season conditions are something the team deals with every year.",
+      },
+      {
+        type: "heading",
+        text: "How Cyclone Season Affects Moving Schedules",
+      },
+      {
+        type: "paragraph",
+        text: "The most immediate impact is the potential for delays. Heavy rainfall can close roads, flood low-lying suburbs, and make it unsafe to load or unload a truck. If a cyclone watch or warning is issued for your area, your move will almost certainly need to be rescheduled. Even without a named cyclone, the monsoonal trough can deliver days of continuous heavy rain that disrupts schedules. Interstate moves along the Bruce Highway are particularly vulnerable. The highway passes through several flood-prone sections between Townsville and Mackay, and closures of 1 to 3 days are not uncommon during peak wet season.",
+      },
+      {
+        type: "tip",
+        title: "Build buffer days into your schedule",
+        text: "If you are moving during cyclone season, do not plan your move for the last possible day before your lease ends or settlement date. Build in at least 3 to 5 buffer days. If the weather is fine, you move early and have extra time to settle in. If rain hits, you have breathing room without breaking any deadlines.",
+      },
+      {
+        type: "heading",
+        text: "Protecting Your Belongings from Humidity",
+      },
+      {
+        type: "paragraph",
+        text: "North Queensland humidity during the wet season regularly sits above 80 percent. This matters for your belongings in two ways. First, items that are sensitive to moisture (electronics, books, leather furniture, artwork, musical instruments) need extra protection during transport and unpacking. Second, if your furniture sits in a non-climate-controlled environment for even a few days, mould can start to develop. This is a real issue, not a theoretical one.",
+      },
+      {
+        type: "list",
+        items: [
+          "Wrap electronics in plastic sheeting or cling wrap before boxing them. Include silica gel packets if you have them",
+          "Books and documents should go in sealed plastic tubs rather than cardboard boxes, which absorb moisture",
+          "Leather furniture benefits from a wipe-down with leather conditioner before the move. This creates a barrier against humidity",
+          "Mattresses should be wrapped in plastic mattress covers. Mould on an unwrapped mattress during a humid move can happen within 48 hours",
+          "Unpack as quickly as possible at your new home and get the air conditioning running. Do not leave boxes sealed in a hot, humid room for days",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Insurance During Wet Season Moves",
+      },
+      {
+        type: "paragraph",
+        text: "Standard transit insurance covers accidental damage during loading, transport, and unloading. However, it is worth checking with your removalist and your own contents insurer about weather-related damage. If a sudden downpour soaks your furniture during loading, is that covered? What about flood damage if a delivery truck gets caught on a closed road? Ask these questions before your move, not after. Most professional removalists carry adequate insurance, but understanding exactly what is and is not covered gives you peace of mind. If you have particularly valuable items, consider additional coverage for the move.",
+      },
+      {
+        type: "heading",
+        text: "The Upside: Lower Prices and Better Availability",
+      },
+      {
+        type: "paragraph",
+        text: "There is a genuine silver lining to moving during cyclone season. Demand for removalists drops significantly during the wet months, which means lower prices and better availability. In Cairns and Townsville, dry season rates can be 15 to 25 percent higher than wet season rates simply because of supply and demand. You are also more likely to get your preferred moving date, preferred time slot, and a more relaxed crew that is not rushing between back-to-back jobs. If you have flexibility and can accept the possibility of a weather delay, wet season moves can save you real money.",
+      },
+      {
+        type: "heading",
+        text: "Practical Tips for a Wet Season Move",
+      },
+      {
+        type: "list",
+        items: [
+          "Check the Bureau of Meteorology forecast for your moving date and the days surrounding it. Have a backup date agreed with your removalist in advance",
+          "Keep tarps and plastic sheeting on hand for moving day. Even a short rain burst during loading can soak exposed furniture",
+          "If your new home has been closed up during the wet season, arrive early and open all windows and turn on the air conditioning to reduce humidity before your furniture arrives",
+          "Ensure [packing materials](/packing-services-cairns) include moisture barriers for sensitive items",
+          "For [interstate moves](/interstate-removalists), ask your removalist about the current road conditions on the Bruce Highway before the truck departs",
+          "Consider [storage in Cairns](/storage-cairns) if you need a climate-controlled holding option while waiting for weather to clear or settlement to go through",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Book Your Wet Season Move",
+      },
+      {
+        type: "paragraph",
+        text: "Moving during cyclone season is completely manageable with the right preparation and the right removalist. Our teams in [Cairns](/removalists-cairns) and [Townsville](/removalists-townsville) are experienced with wet season moves and know how to protect your belongings from humidity and weather delays. [Get a free quote](/quote) for your move and we will build in the flexibility you need for a smooth relocation, rain or shine.",
       },
     ],
   },

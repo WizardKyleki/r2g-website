@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { RATING_VALUE, REVIEW_DISPLAY } from "@/lib/constants";
 
 interface Review {
   author: string;
@@ -131,8 +132,8 @@ export default function GoogleReviews() {
           <div className="inline-flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-full px-5 py-2.5">
             <GoogleIcon />
             <StarRating count={5} />
-            <span className="text-[#1A1A1A] font-bold">4.9</span>
-            <span className="text-gray-500 text-sm">900+ reviews</span>
+            <span className="text-[#1A1A1A] font-bold">{RATING_VALUE}</span>
+            <span className="text-gray-500 text-sm">{REVIEW_DISPLAY} reviews</span>
           </div>
         </div>
       </div>

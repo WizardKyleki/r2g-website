@@ -8,11 +8,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       // ─── Existing redirects ──────────────────────────────────────
-      {
-        source: "/interstate-removals-cairns",
-        destination: "/interstate-removalists",
-        permanent: true,
-      },
+      // Note: /interstate-removals-cairns has its own page file - redirect removed
       {
         source: "/office-removals",
         destination: "/office-removalists",
@@ -163,12 +159,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/removalists/brisbane-northside",
-        destination: "/removalists-brisbane",
+        destination: "/removalists-brisbane/northside",
         permanent: true,
       },
       {
         source: "/removalists/brisbane-southside",
-        destination: "/removalists-brisbane",
+        destination: "/removalists-brisbane/southside",
         permanent: true,
       },
       {

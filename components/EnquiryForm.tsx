@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { trackEnquirySubmit } from "@/lib/gtag";
 import { trackMetaContact } from "@/lib/fbpixel";
 
@@ -16,6 +16,14 @@ export default function EnquiryForm() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
 
+  // Capture HTTP referrer on mount (before any navigation changes it)
+  const httpReferrer = useRef("");
+  useEffect(() => {
+    if (typeof document !== "undefined" && document.referrer) {
+      httpReferrer.current = document.referrer;
+    }
+  }, []);
+
   const update = (key: string, value: string) =>
     setFields((prev) => ({ ...prev, [key]: value }));
 
@@ -27,7 +35,7 @@ export default function EnquiryForm() {
       const res = await fetch("/api/enquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...fields, pageUrl: window.location.href }),
+        body: JSON.stringify({ ...fields, pageUrl: window.location.href, httpReferrer: httpReferrer.current || undefined }),
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);

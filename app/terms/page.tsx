@@ -9,11 +9,39 @@ export const metadata: Metadata = {
     "Read the R2G Transport & Storage terms of service. Understand the conditions that apply when using our website and removalist services.",
   alternates: { canonical: "https://www.r2g.com.au/terms" },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: "Terms of Service | R2G Transport & Storage",
+    description: "Read the R2G Transport & Storage terms of service. Understand the conditions that apply when using our website and removalist services.",
+    url: "https://www.r2g.com.au/terms",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Terms of Service",
+      item: "https://www.r2g.com.au/terms",
+    },
+  ],
 };
 
 export default function TermsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <PageHero
         title="Terms of Service"
         subtitle="The conditions that apply when using our website and services."

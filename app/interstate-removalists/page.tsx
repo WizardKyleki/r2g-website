@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
+import { RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: { absolute: "Interstate Removalists | Reliable & Affordable" },
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Interstate Removalists | R2G Transport & Storage",
     description:
-      "Door-to-door interstate removals from Cairns & Brisbane. Fully insured, experienced team, 900+ five-star reviews. Free quote — 1300 959 498.",
+      `Door-to-door interstate removals from Cairns & Brisbane. Fully insured, experienced team, ${REVIEW_DISPLAY} five-star reviews. Free quote. 1300 959 498.`,
     url: "https://www.r2g.com.au/interstate-removalists",
   },
   alternates: {
@@ -37,14 +38,14 @@ const schemaMarkup = {
       telephone: "1300 959 498",
       email: "contact@r2g.com.au",
       description:
-        "Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, 900+ five-star reviews.",
+        `Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, ${REVIEW_DISPLAY} five-star reviews.`,
       logo: "https://www.r2g.com.au/images/r2g-logo.png",
       image: "https://www.r2g.com.au/images/r2g-logo.png",
       areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
       location: [
         {
           "@type": "Place",
-          name: "R2G Transport & Storage — Cairns",
+          name: "R2G Transport & Storage, Cairns",
           address: {
             "@type": "PostalAddress",
             streetAddress: "36 Abbott St",
@@ -62,7 +63,7 @@ const schemaMarkup = {
         },
         {
           "@type": "Place",
-          name: "R2G Transport & Storage — Brisbane",
+          name: "R2G Transport & Storage, Brisbane",
           address: {
             "@type": "PostalAddress",
             streetAddress: "122 Ashover Circuit",
@@ -87,8 +88,8 @@ const schemaMarkup = {
       },
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.9",
-        reviewCount: "900",
+        ratingValue: RATING_VALUE,
+        reviewCount: REVIEW_COUNT,
         bestRating: "5",
       },
       sameAs: [
@@ -221,7 +222,7 @@ export default function InterstateRemovalistsPage() {
               </h1>
               <p className="text-lg text-gray-300 max-w-xl mb-8 leading-relaxed">
                 Door-to-door interstate moves across Queensland, New South Wales and Victoria.
-                Fully insured, experienced team, shared or exclusive loads — handled properly
+                Fully insured, experienced team, shared or exclusive loads, handled properly
                 from pickup to delivery.
               </p>
               <div className="xl:hidden mb-8">
@@ -232,7 +233,7 @@ export default function InterstateRemovalistsPage() {
                 className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 border border-white/20 rounded-full text-white font-semibold hover:bg-white/20 transition-colors"
               >
                 <span>📞</span>
-                <span>Call us — 1300 959 498</span>
+                <span>Call us on 1300 959 498</span>
               </a>
               <div className="mt-8">
                 <HeroTrustBadges />
@@ -255,7 +256,7 @@ export default function InterstateRemovalistsPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
             {[
               { stat: "10+", label: "Years Experience" },
-              { stat: "900+", label: "5-Star Reviews" },
+              { stat: `${REVIEW_DISPLAY}`, label: "5-Star Reviews" },
               { stat: "130+", label: "Routes Covered" },
               { stat: "100%", label: "Fully Insured" },
             ].map((item) => (
@@ -272,7 +273,7 @@ export default function InterstateRemovalistsPage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left — copy */}
+            {/* Left - copy */}
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="h-[2px] w-8 bg-[#F5A800]" />
@@ -281,12 +282,12 @@ export default function InterstateRemovalistsPage() {
                 </span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Interstate Removalists — Long Distance Moves Done Right
+                Interstate Removalists. Long Distance Moves Done Right
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Interstate moving is a different challenge to a local move. Your belongings
-                  travel hundreds — sometimes thousands — of kilometres, often to somewhere
+                  travel hundreds, sometimes thousands, of kilometres, often to somewhere
                   you&apos;ve never been. The margin for error is smaller, the consequences
                   of a poorly managed move are bigger, and the trust you place in your
                   removalist matters more than ever.
@@ -300,7 +301,7 @@ export default function InterstateRemovalistsPage() {
                   experienced team, fully insured, and tracked door to door.
                 </p>
                 <p>
-                  Our 900+ verified five-star reviews reflect thousands of families and
+                  Our {REVIEW_DISPLAY} verified five-star reviews reflect thousands of families and
                   businesses who trusted us with their most important possessions and got
                   exactly what they were promised. Whether you&apos;re looking for
                   interstate movers for a single bedroom or a full household, we deliver
@@ -308,7 +309,7 @@ export default function InterstateRemovalistsPage() {
                 </p>
               </div>
             </div>
-            {/* Right — truck image */}
+            {/* Right - truck image */}
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/r2g-removal-truck-cairns.webp"
@@ -323,12 +324,12 @@ export default function InterstateRemovalistsPage() {
 
           {/* Feature cards + reviews image */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mt-16">
-            {/* Left — feature cards */}
+            {/* Left - feature cards */}
             <div className="space-y-4">
               {[
                 {
                   icon: "🛡️",
-                  title: "Fully Insured — Every Move",
+                  title: "Fully Insured on Every Move",
                   desc: "Goods-in-transit and public liability insurance included as standard on every interstate job. From the moment we load your first item to final delivery.",
                 },
                 {
@@ -356,7 +357,7 @@ export default function InterstateRemovalistsPage() {
                 </div>
               ))}
             </div>
-            {/* Right — reviews image */}
+            {/* Right - reviews image */}
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <Image
                 src="/images/r2g-cairns-removalists-reviews.webp"
@@ -386,7 +387,7 @@ export default function InterstateRemovalistsPage() {
               How Your Interstate Move Works
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto leading-relaxed">
-              From your first call to the last box placed in your new home — here&apos;s
+              From your first call to the last box placed in your new home, here&apos;s
               exactly what happens when you move interstate with R2G.
             </p>
           </div>
@@ -395,12 +396,12 @@ export default function InterstateRemovalistsPage() {
               {
                 step: "01",
                 title: "Get a Quote",
-                desc: "Tell us your origin, destination, move size and preferred dates — online or by phone. We come back with a clear, itemised quote. No hidden fees, no vague estimates.",
+                desc: "Tell us your origin, destination, move size and preferred dates, online or by phone. We come back with a clear, itemised quote. No hidden fees, no vague estimates.",
               },
               {
                 step: "02",
                 title: "We Plan Your Move",
-                desc: "Once confirmed, a dedicated move manager is assigned to your job. They coordinate every detail — truck size, departure schedule, storage if needed — and keep you informed throughout.",
+                desc: "Once confirmed, a dedicated move manager is assigned to your job. They coordinate every detail, including truck size, departure schedule and storage if needed, and keep you informed throughout.",
               },
               {
                 step: "03",
@@ -443,13 +444,13 @@ export default function InterstateRemovalistsPage() {
                 <p>
                   Every interstate removal with R2G includes a comprehensive set of services
                   as standard. We don&apos;t charge separately for things that should simply
-                  be part of a professional service — furniture protection, insurance, and a
+                  be part of a professional service. Furniture protection, insurance, and a
                   dedicated point of contact are included on every job regardless of size
                   or distance.
                 </p>
                 <p>
-                  If you need additional services — packing, storage between homes, or
-                  disassembly and reassembly — these are available on request. Our team
+                  If you need additional services like packing, storage between homes, or
+                  disassembly and reassembly, these are available on request. Our team
                   will talk through what your specific move needs when you request a quote.
                 </p>
               </div>
@@ -502,7 +503,7 @@ export default function InterstateRemovalistsPage() {
           </h2>
           <p className="text-gray-400 text-base max-w-xl mx-auto leading-relaxed">
             130+ routes covered from our Cairns and Brisbane depots.
-            Coastal corridors, mining towns, capital cities — fully insured, door to door.
+            Coastal corridors, mining towns, capital cities. Fully insured, door to door.
           </p>
         </div>
 
@@ -608,7 +609,7 @@ export default function InterstateRemovalistsPage() {
 
         <div className="text-center mt-14 px-6">
           <p className="text-gray-400 text-sm mb-6">
-            Don&apos;t see your route? We cover many more — call us and we&apos;ll sort it.
+            Don&apos;t see your route? We cover many more. Call us and we&apos;ll sort it.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link href="/quote" className="inline-flex items-center px-8 py-4 bg-[#F5A800] text-black font-bold text-base rounded-lg hover:bg-[#e09900] transition-colors">
@@ -635,7 +636,7 @@ export default function InterstateRemovalistsPage() {
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A]">
               What Our Customers Say
             </h2>
-            <p className="text-gray-500 mt-2">4.9 stars across 900+ verified Google reviews</p>
+            <p className="text-gray-500 mt-2">{RATING_VALUE} stars across {REVIEW_DISPLAY} verified Google reviews</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {REVIEWS.map((review) => (
@@ -789,9 +790,29 @@ export default function InterstateRemovalistsPage() {
                 href: "/removalists-sunshine-coast",
               },
               {
+                title: "Removalists Townsville",
+                desc: "Trusted removalists across Townsville and North QLD.",
+                href: "/removalists-townsville",
+              },
+              {
                 title: "Office Removalists",
                 desc: "Commercial moving for businesses across QLD and beyond.",
                 href: "/office-removalists",
+              },
+              {
+                title: "NDIS Removalists",
+                desc: "NDIS-funded moving services for participants across QLD.",
+                href: "/ndis-removalists",
+              },
+              {
+                title: "Storage Cairns",
+                desc: "Secure short and long-term storage in Cairns.",
+                href: "/storage-cairns",
+              },
+              {
+                title: "Storage Brisbane",
+                desc: "Flexible storage solutions across Brisbane.",
+                href: "/storage-brisbane",
               },
             ].map((link) => (
               <Link

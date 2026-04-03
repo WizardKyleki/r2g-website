@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
+import { PHONE, PHONE_HREF, heroSubtitle, RATING_VALUE, REVIEW_COUNT, RATING_DISPLAY, REVIEW_DISPLAY } from "@/lib/constants";
 import { getBrisbaneSuburbHref } from "@/data/brisbane-suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
@@ -31,7 +31,7 @@ const businessSchema = {
   "@type": "MovingCompany",
   name: "R2G Transport & Storage",
   description:
-    "Fully insured local and interstate removalists in Brisbane. 4.8-star rated with 830+ reviews. 10+ years experience.",
+    `Fully insured local and interstate removalists in Brisbane. ${RATING_DISPLAY}. 10+ years experience.`,
   url: "https://www.r2g.com.au/removalists-brisbane",
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
@@ -83,8 +83,8 @@ const businessSchema = {
   },
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "900",
+    ratingValue: RATING_VALUE,
+    reviewCount: REVIEW_COUNT,
     bestRating: "5",
   },
   sameAs: [
@@ -167,15 +167,34 @@ const faqSchema = {
   })),
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Removalists Brisbane",
+      item: "https://www.r2g.com.au/removalists-brisbane",
+    },
+  ],
+};
+
 // ─────────────────────────────────────────────────────────────────────────────
 // METADATA
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Brisbane — Trusted Local Movers | R2G Transport & Storage",
+    absolute: "Local Removalists Brisbane - Trusted Movers | R2G Transport",
   },
   description:
-    "Brisbane removalists with 10+ years experience. 4.8★ Google rating (830+ reviews), fully insured with no hidden fees. 421 suburbs covered. Free quote today.",
+    `Local removalists Brisbane trusts since 2014. ${RATING_VALUE} star Google rating (${REVIEW_DISPLAY} reviews), fully insured with no hidden fees. 421 suburbs covered. Free quote.`,
   keywords: [
     "removalists brisbane",
     "brisbane removalists",
@@ -186,9 +205,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-brisbane" },
   openGraph: {
-    title: "Professional Removalists Brisbane | Reliable & Affordable",
+    title: "Local Removalists Brisbane | R2G Transport & Storage",
     description:
-      "Trusted removalists in Brisbane with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Local removalists Brisbane trusts. 10+ years experience, fully insured with no hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-brisbane",
     type: "website",
   },
@@ -203,6 +222,7 @@ export default function RemovalistsBrisbanePage() {
       {/* JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* ── SECTION 1: HERO ─────────────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] pt-32 pb-20">
@@ -420,6 +440,246 @@ export default function RemovalistsBrisbanePage() {
         </div>
       </section>
 
+      {/* ── SECTION 3B: WHY CHOOSE R2G ─────────────────────────────────────── */}
+      <section className="bg-gray-50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Why R2G</span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
+              Why Choose R2G for Your Brisbane Move
+            </h2>
+            <p className="text-gray-600 text-base max-w-2xl mx-auto">
+              We have been moving Brisbane families and businesses since 2014. Here is what sets us apart from other local removalists.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: (
+                  <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                ),
+                title: "Local Brisbane Depot",
+                description:
+                  "Our depot is based in Archerfield, right in the heart of Brisbane's southside. That means faster response times, lower travel charges for nearby suburbs, and trucks that are already close to where you need them. We are not a franchise running out of a call centre interstate.",
+              },
+              {
+                icon: (
+                  <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                ),
+                title: "Experienced Crews",
+                description:
+                  "Our removalists have 10+ years of hands-on experience moving homes across Brisbane. They know the tight streets of Paddington, the steep driveways in The Gap, and the loading dock rules in CBD apartment towers. That experience saves you time and protects your belongings.",
+              },
+              {
+                icon: (
+                  <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                ),
+                title: "Transparent Pricing",
+                description:
+                  "We offer competitive hourly and fixed rates with no hidden fees. The price we quote is the price you pay. There are no surprise call-out charges, no fuel surcharges, and no extra costs for furniture blankets or basic wrapping. What you see is what you get.",
+              },
+              {
+                icon: (
+                  <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                ),
+                title: "Full Insurance Coverage",
+                description:
+                  "Every R2G move is backed by comprehensive public liability insurance and goods-in-transit cover. That includes high-value items like pianos, antiques, artwork, and electronics. You can relax knowing your belongings are fully protected from pickup to delivery.",
+              },
+              {
+                icon: (
+                  <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                  </svg>
+                ),
+                title: "Packing Services Available",
+                description:
+                  "Need help packing? We offer full-service and partial packing options using quality boxes, bubble wrap, and protective materials. Whether you want us to pack the entire house or just the fragile items like glassware and TVs, we have you covered.",
+              },
+              {
+                icon: (
+                  <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                ),
+                title: "All Brisbane Suburbs Covered",
+                description:
+                  "We service 421+ suburbs across the entire greater Brisbane region. From Caboolture and Redcliffe in the north to Logan and Beenleigh in the south, Ipswich and Springfield in the west, and Cleveland and Capalaba in the east. No suburb is too far.",
+              },
+            ].map((card) => (
+              <div
+                key={card.title}
+                className="relative overflow-hidden flex flex-col p-6 rounded-xl bg-white border border-gray-100 hover:border-[#F5C400]/40 hover:shadow-md transition-all group"
+              >
+                <svg aria-hidden="true" className="absolute top-0 right-0 text-[#F5C400] opacity-0 group-hover:opacity-100 transition-opacity duration-300" width="36" height="36" viewBox="0 0 36 36" fill="currentColor">
+                  <path d="M0 0 L36 0 L36 36 Z" opacity="0.18" />
+                </svg>
+                <div className="text-[#F5C400] mb-4 group-hover:scale-110 transition-transform">
+                  {card.icon}
+                </div>
+                <p className="font-bold text-[#1A1A1A] text-lg mb-2">{card.title}</p>
+                <p className="text-gray-500 text-sm leading-relaxed">{card.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── SECTION 3C: BRISBANE MOVING GUIDE BY AREA ──────────────────────── */}
+      <section className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Area Guide</span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
+              Brisbane Moving Guide by Area
+            </h2>
+            <p className="text-gray-600 text-base max-w-2xl mx-auto">
+              Brisbane is a big city with very different suburbs depending on which direction you are heading. Here is what to expect when moving in each part of the city.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+              <h3 className="text-xl font-bold text-[#1A1A1A] mb-3 flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[#F5C400]" />
+                Brisbane Northside
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                Suburbs like Chermside, Aspley, Stafford, Kedron, and Bracken Ridge make up Brisbane&apos;s popular northside corridor. Traffic along Gympie Road can be heavy during peak hours, so our crews plan arrival times carefully to avoid delays. The northside has a good mix of older Queenslander-style homes with narrow hallways and steep front stairs, alongside newer estates with wider access. Hilly suburbs like Everton Park and Ferny Hills often have steep driveways that require extra care during loading. Our team knows these streets well and comes prepared with the right equipment for every property type.
+              </p>
+              <Link href="/removalists-brisbane/northside" className="inline-flex items-center gap-1.5 text-[#F5C400] hover:text-[#e0b400] text-sm font-semibold transition-colors">
+                View Northside suburbs
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </Link>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+              <h3 className="text-xl font-bold text-[#1A1A1A] mb-3 flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[#F5C400]" />
+                Brisbane Southside
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                Sunnybank, Mt Gravatt, Holland Park, Moorooka, and surrounding suburbs are some of Brisbane&apos;s most sought-after southside locations. This is the closest area to our Archerfield depot, which means lower travel charges and faster response times for southside customers. The Pacific Motorway provides easy access to the Gold Coast and Logan, making southside moves efficient whether you are staying local or heading further south. These suburbs feature a diverse mix of housing, from post-war timber homes to modern townhouse complexes, and our crews are experienced with all of them.
+              </p>
+              <Link href="/removalists-brisbane/southside" className="inline-flex items-center gap-1.5 text-[#F5C400] hover:text-[#e0b400] text-sm font-semibold transition-colors">
+                View Southside suburbs
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+              </Link>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+              <h3 className="text-xl font-bold text-[#1A1A1A] mb-3 flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[#F5C400]" />
+                Brisbane Inner City
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                Moving in Brisbane&apos;s inner city requires a different approach. Suburbs like New Farm, West End, Paddington, Fortitude Valley, and South Brisbane are dense, with narrow one-way streets, limited parking, and strict building access rules. Apartment and unit moves are common here, and many buildings require you to book lifts and loading docks in advance. Older character homes in Paddington and Red Hill often have tight internal stairways and low doorframes that need careful navigation. Our inner-city crews specialise in these challenges and bring the right trolleys, straps, and padding to handle apartment moves quickly and safely.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
+              <h3 className="text-xl font-bold text-[#1A1A1A] mb-3 flex items-center gap-2">
+                <div className="w-2 h-2 rounded-full bg-[#F5C400]" />
+                Brisbane Western Suburbs
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-3">
+                Indooroopilly, Kenmore, The Gap, Toowong, and Taringa are leafy, established suburbs with larger family homes and generous block sizes. Many properties sit on hills with steep driveways and long paths from the house to the street, which can add time to loading and unloading. The western suburbs are also home to the University of Queensland at St Lucia, so we regularly handle student and share-house moves in the area. If you are moving within the west or relocating from the western suburbs to another part of Brisbane, our team knows the best routes to avoid bottleneck traffic along Moggill Road and the Western Freeway.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SECTION 3D: TYPES OF BRISBANE MOVES ────────────────────────────── */}
+      <section className="bg-[#1A1A1A] py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Services</span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-white mb-3">
+              Every Type of Brisbane Move Covered
+            </h2>
+            <p className="text-gray-400 text-base max-w-2xl mx-auto">
+              From a single fridge to a five-bedroom home, our Brisbane removalists handle it all. Here are the most common types of moves we do every week.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                title: "House Moves",
+                description:
+                  "Whether it is a small one-bedroom cottage or a large five-bedroom family home, we have the right size team and truck for the job. Most Brisbane house moves are completed in a single day with our experienced crews.",
+              },
+              {
+                title: "Unit & Apartment Moves",
+                description:
+                  "We handle high-rise and walk-up apartment moves across Brisbane, including lift bookings, loading dock reservations, and navigating narrow corridors. Our team brings the right equipment to protect walls and floors in shared buildings.",
+              },
+              {
+                title: "Single Item & Heavy Items",
+                description:
+                  "Need a fridge, piano, pool table, gym equipment, or safe moved? We offer single-item moves across Brisbane with a minimum booking fee. Our crews are trained in heavy lifting techniques and use specialist trolleys and straps.",
+              },
+              {
+                title: "Office & Commercial Moves",
+                link: "/office-removalists",
+                description:
+                  "We relocate offices, retail shops, and commercial spaces with minimal downtime. After-hours and weekend moves are available so your business stays productive. We handle IT equipment, desks, filing cabinets, and everything in between.",
+              },
+              {
+                title: "Interstate from Brisbane",
+                link: "/interstate-removalists",
+                description:
+                  "Moving from Brisbane to Cairns, Sydney, Melbourne, Adelaide, or Perth? We run regular interstate services with fixed-price quotes based on volume and distance. Your belongings travel on our trucks, not through a third-party freight network.",
+              },
+              {
+                title: "Packing & Unpacking",
+                link: "/packing-services-brisbane",
+                description:
+                  "Our professional packing service takes the stress out of moving day. Choose full-service packing where we pack your entire home, or partial packing for just the fragile and valuable items. Quality boxes and materials are included.",
+              },
+            ].map((service) => (
+              <div
+                key={service.title}
+                className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-[#F5C400]/40 transition-colors group"
+              >
+                <div className="w-1 h-6 bg-[#F5C400] rounded-full mb-4 group-hover:h-8 transition-all" />
+                <p className="text-white font-bold text-lg mb-2">{service.title}</p>
+                <p className="text-gray-400 text-sm leading-relaxed mb-3">{service.description}</p>
+                {service.link && (
+                  <Link href={service.link} className="inline-flex items-center gap-1.5 text-[#F5C400] hover:text-[#e0b400] text-sm font-semibold transition-colors">
+                    Learn more
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                  </Link>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── SECTION 4: PRICING ──────────────────────────────────────────────── */}
       <section className="bg-[#FFFBEB] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -620,6 +880,12 @@ export default function RemovalistsBrisbanePage() {
               { label: "Removalists Cairns", href: "/removalists-cairns" },
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Removalists Townsville", href: "/removalists-townsville" },
+              { label: "Interstate Removalists", href: "/interstate-removalists" },
+              { label: "Office Removalists", href: "/office-removalists" },
+              { label: "NDIS Removalists", href: "/ndis-removalists" },
+              { label: "Storage Brisbane", href: "/storage-brisbane" },
+              { label: "Storage Cairns", href: "/storage-cairns" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
                 {link.label}

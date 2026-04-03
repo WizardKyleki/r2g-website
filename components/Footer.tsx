@@ -36,7 +36,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/r2gtransport"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 hover:bg-[#F5C400] hover:text-[#1A1A1A] rounded-lg flex items-center justify-center transition-colors text-white"
@@ -47,7 +47,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://google.com"
+                href="https://www.google.com/maps?cid=11773202456138120338"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 bg-white/10 hover:bg-[#F5C400] hover:text-[#1A1A1A] rounded-lg flex items-center justify-center transition-colors text-white"

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
+import { RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 import {
   getBlogPost,
   getAllBlogSlugs,
@@ -212,6 +213,12 @@ export default async function BlogPostPage({
             "@type": "ImageObject",
             url: "https://www.r2g.com.au/images/r2g-logo.png",
           },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: RATING_VALUE,
+            reviewCount: REVIEW_COUNT,
+            bestRating: "5",
+          },
         },
         mainEntityOfPage: {
           "@type": "WebPage",
@@ -402,6 +409,7 @@ export default async function BlogPostPage({
               { label: "Packing Services Cairns", href: "/packing-services-cairns" },
               { label: "Storage Brisbane", href: "/storage-brisbane" },
               { label: "Storage Cairns", href: "/storage-cairns" },
+              { label: "Office Removalists", href: "/office-removalists" },
               { label: "Moving Boxes", href: "/boxes" },
               { label: "NDIS Removalists", href: "/ndis-removalists" },
             ].map((link) => (

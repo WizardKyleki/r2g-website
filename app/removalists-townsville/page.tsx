@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
-import { PHONE, PHONE_HREF, heroSubtitle } from "@/lib/constants";
+import { PHONE, PHONE_HREF, heroSubtitle, RATING_VALUE, REVIEW_COUNT, RATING_DISPLAY, REVIEW_DISPLAY } from "@/lib/constants";
 import { townsvilleSuburbs } from "@/data/townsville-suburbs";
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 
@@ -31,7 +31,7 @@ const businessSchema = {
   "@type": "MovingCompany",
   name: "R2G Transport & Storage — Removalists Townsville",
   description:
-    "Fully insured local and interstate removalists in Townsville. 4.8-star rated with 830+ reviews. 10+ years experience.",
+    `Fully insured local and interstate removalists in Townsville. ${RATING_DISPLAY}. 10+ years experience.`,
   url: "https://www.r2g.com.au/removalists-townsville",
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
@@ -83,8 +83,8 @@ const businessSchema = {
   },
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "900",
+    ratingValue: RATING_VALUE,
+    reviewCount: REVIEW_COUNT,
     bestRating: "5",
   },
   sameAs: [
@@ -167,6 +167,25 @@ const faqSchema = {
   })),
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Removalists Townsville",
+      item: "https://www.r2g.com.au/removalists-townsville",
+    },
+  ],
+};
+
 // ─────────────────────────────────────────────────────────────────────────────
 // METADATA
 // ─────────────────────────────────────────────────────────────────────────────
@@ -175,7 +194,7 @@ export const metadata: Metadata = {
     absolute: "Removalists Townsville — Trusted Local Movers | R2G Transport & Storage",
   },
   description:
-    "Townsville removalists you can trust. Fully insured with no hidden fees. All suburbs covered including Magnetic Island. 830+ five-star reviews. Free quote.",
+    `Townsville removalists you can trust. Fully insured with no hidden fees. All suburbs covered including Magnetic Island. ${REVIEW_DISPLAY} five-star reviews. Free quote.`,
   keywords: [
     "removalists townsville",
     "townsville removalists",
@@ -203,6 +222,7 @@ export default function RemovalistsTownsvillePage() {
       {/* JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* ── SECTION 1: HERO ─────────────────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] pt-32 pb-20">
@@ -582,6 +602,11 @@ export default function RemovalistsTownsvillePage() {
               { label: "Removalists Brisbane", href: "/removalists-brisbane" },
               { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },
               { label: "Removalists Sunshine Coast", href: "/removalists-sunshine-coast" },
+              { label: "Interstate Removalists", href: "/interstate-removalists" },
+              { label: "Office Removalists", href: "/office-removalists" },
+              { label: "NDIS Removalists", href: "/ndis-removalists" },
+              { label: "Storage Cairns", href: "/storage-cairns" },
+              { label: "Storage Brisbane", href: "/storage-brisbane" },
             ].map((link) => (
               <Link key={link.href} href={link.href} className="px-4 py-2 bg-white/5 text-gray-300 rounded-full text-sm border border-white/10 hover:border-[#F5C400]/40 hover:text-[#F5C400] transition-colors">
                 {link.label}

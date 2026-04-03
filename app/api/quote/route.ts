@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { detectLeadSource } from "@/lib/detect-lead-source";
+import { saveLead } from "@/lib/save-lead";
 
 // n8n webhook integration for MoverMate CRM
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -10,28 +12,15 @@ export async function POST(request: Request) {
     const {
       from, to, propertyType, movingTo, bedrooms, fromFloor, toBedrooms, toFloor,
       moveSize, date, time, name, phone, email, extras, notes, pageUrl, referrerPage,
+      quoteSessionId, httpReferrer,
     } = data as Record<string, string | string[]>;
 
     const submittedAt = new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane" });
 
-    // Detect lead source from UTM parameters
-    const detectSource = (url: string | undefined): string => {
-      if (!url) return "Direct";
-      try {
-        const params = new URL(url).searchParams;
-        const utmSource = params.get("utm_source");
-        const utmMedium = params.get("utm_medium");
-        const utmCampaign = params.get("utm_campaign");
-        if (utmSource === "google" && utmMedium === "cpc") {
-          return `Google Ads${utmCampaign ? ` (${utmCampaign})` : ""}`;
-        }
-        if (utmSource) return `${utmSource}${utmMedium ? ` / ${utmMedium}` : ""}`;
-        const ref = params.get("ref") || params.get("fbclid") ? "Facebook" : null;
-        if (ref) return ref;
-        return "Organic";
-      } catch { return "Organic"; }
-    };
-    const leadSource = detectSource(pageUrl as string);
+    const source = detectLeadSource(pageUrl as string, httpReferrer as string);
+    const leadSource = source.label;
+    const isLandingPage = typeof referrerPage === "string" && referrerPage.startsWith("/lp/");
+    const entryPage = isLandingPage ? `LP: ${referrerPage}` : (referrerPage || "Direct");
 
     const floorLabel = (v: string | undefined) => {
       if (!v && v !== "0") return null;
@@ -133,7 +122,7 @@ export async function POST(request: Request) {
 
           <div style="background-color: ${leadSource.startsWith("Google Ads") ? "#e8f5e9" : "#f9f9f9"}; padding: 12px 16px; border-radius: 6px; font-size: 13px; border: ${leadSource.startsWith("Google Ads") ? "2px solid #4caf50" : "1px solid #e0e0e0"};">
             <strong style="color: ${leadSource.startsWith("Google Ads") ? "#2e7d32" : "#555"};">Source: ${leadSource}</strong><br/>
-            ${referrerPage ? `Referred from: ${referrerPage}<br/>` : ""}Page: ${pageUrl || "Unknown"}<br/>
+            ${isLandingPage ? `<strong style="color: #1565c0;">Entry: ${entryPage}</strong><br/>` : (referrerPage ? `Referred from: ${referrerPage}<br/>` : "")}Page: ${pageUrl || "Unknown"}<br/>
             Submitted: ${submittedAt} (AEST)
           </div>
         </div>
@@ -145,7 +134,7 @@ export async function POST(request: Request) {
     const { data: result, error: sendError } = await resend.emails.send({
       from: "R2G Website <noreply@r2g.com.au>",
       to: "contact@r2g.com.au",
-      subject: `${leadSource.startsWith("Google Ads") ? "[PAID] " : ""}New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
+      subject: `${leadSource.startsWith("Google Ads") ? "[PAID] " : ""}${isLandingPage ? "[LP] " : ""}New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
       replyTo: email,
       html,
     });
@@ -157,6 +146,35 @@ export async function POST(request: Request) {
 
     console.log("Email sent successfully, id:", result?.id);
 
+    // Save to Supabase (non-blocking — swallows errors so email + n8n are never affected)
+    await saveLead({
+      type: "quote",
+      name: name as string,
+      phone: phone as string,
+      email: email as string,
+      from_address: from as string,
+      to_address: to as string,
+      property_type: propertyType as string,
+      moving_to: movingTo as string,
+      bedrooms: bedrooms as string,
+      from_floor: fromFloor as string,
+      to_bedrooms: toBedrooms as string,
+      to_floor: toFloor as string,
+      move_size: moveSize as string,
+      move_date: date as string,
+      move_time: time as string,
+      extras: Array.isArray(extras) ? extras : [],
+      notes: notes as string,
+      lead_source: leadSource,
+      lead_source_channel: source.channel,
+      http_referrer: (httpReferrer as string) || undefined,
+      page_url: pageUrl as string,
+      referrer_page: referrerPage as string,
+      entry_page: entryPage as string,
+      is_landing_page: isLandingPage as boolean,
+      session_id: quoteSessionId as string,
+    });
+
     // Send lead data to n8n webhook (must await on Vercel serverless)
     const n8nWebhookUrl = process.env.N8N_WEBHOOK_URL;
     if (n8nWebhookUrl) {
@@ -166,6 +184,8 @@ export async function POST(request: Request) {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             source: "quote_form",
+            status: "complete",
+            quoteSessionId,
             name,
             phone,
             email,
@@ -185,6 +205,8 @@ export async function POST(request: Request) {
             pageUrl,
             referrerPage,
             leadSource,
+            entryPage,
+            isLandingPage,
             submittedAt,
           }),
         });

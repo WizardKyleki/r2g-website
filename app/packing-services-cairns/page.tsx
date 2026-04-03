@@ -6,7 +6,7 @@ const PageHero = dynamic(() => import("@/components/PageHero"));
 const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Packing Services Cairns | Professional & Fully Insured",
@@ -19,6 +19,25 @@ export const metadata: Metadata = {
     description: "Professional packing services in Cairns. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-cairns",
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Packing Services Cairns",
+      item: "https://www.r2g.com.au/packing-services-cairns",
+    },
+  ],
 };
 
 const faqs = [
@@ -74,6 +93,12 @@ const packingSchema = {
       postalCode: "4870",
       addressCountry: "AU",
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: RATING_VALUE,
+      reviewCount: REVIEW_COUNT,
+      bestRating: "5",
+    },
   },
   areaServed: "Cairns",
 };
@@ -81,6 +106,10 @@ const packingSchema = {
 export default function PackingServicesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(packingSchema) }}

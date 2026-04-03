@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
+import { RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@/lib/constants";
 import {
   ROUTES,
   CITIES,
@@ -46,9 +47,9 @@ export async function generateMetadata({ params }: MetaProps): Promise<Metadata>
       description,
       openGraph: {
         title: `Interstate Removalists ${city.name} | R2G Transport & Storage`,
-        description: `Door-to-door interstate removals from ${city.name}. Fully insured, 900+ five-star reviews. Free quote — 1300 959 498.`,
+        description: `Door-to-door interstate removals from ${city.name}. Fully insured, ${REVIEW_DISPLAY} five-star reviews. Free quote. 1300 959 498.`,
         url,
-        images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: `Interstate Removalists ${city.name} — R2G Transport & Storage` }],
+        images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: `Interstate Removalists ${city.name} | R2G Transport & Storage` }],
       },
       alternates: { canonical: url },
       robots: { index: true, follow: true },
@@ -63,9 +64,9 @@ export async function generateMetadata({ params }: MetaProps): Promise<Metadata>
   const route = getRouteBySlug(slug);
   if (!route) return {};
 
-  const title = `${route.from} to ${route.to} Removalists | Professional Movers`;
+  const title = route.metaTitle ?? `${route.from} to ${route.to} Removalists | Professional Movers`;
   const ds = getDaysSuffix(route.days);
-  const description = `${route.from} to ${route.to} interstate removalists - the real specialists in long-distance moves. Fully insured, affordable & reliable. Book now.`;
+  const description = route.metaDescription ?? `${route.from} to ${route.to} interstate removalists - the real specialists in long-distance moves. Fully insured, affordable & reliable. Book now.`;
   const url = `https://www.r2g.com.au/interstate-removalists/${route.slug}`;
   const geo = getGeoMeta(route.from);
 
@@ -74,9 +75,9 @@ export async function generateMetadata({ params }: MetaProps): Promise<Metadata>
     description,
     openGraph: {
       title: `${route.from} to ${route.to} Removalists | R2G Transport & Storage`,
-      description: `Fully insured door-to-door removals from ${route.from} to ${route.to}. ${route.km} km, ${route.days} ${ds} transit. 900+ five-star reviews. Free quote — 1300 959 498.`,
+      description: `Fully insured door-to-door removals from ${route.from} to ${route.to}. ${route.km} km, ${route.days} ${ds} transit. ${REVIEW_DISPLAY} five-star reviews. Free quote. 1300 959 498.`,
       url,
-      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: `${route.from} to ${route.to} Removalists — R2G Transport & Storage` }],
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: `${route.from} to ${route.to} Removalists | R2G Transport & Storage` }],
     },
     alternates: { canonical: url },
     robots: { index: true, follow: true },
@@ -187,22 +188,22 @@ function buildCitySchema(city: CityPageData) {
         url: "https://www.r2g.com.au",
         telephone: "+611300959498",
         description:
-          "Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, 900+ five-star reviews.",
+          `Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, ${REVIEW_DISPLAY} five-star reviews.`,
         logo: "https://www.r2g.com.au/images/logo-r2g-white.png",
         areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
         location: [
           {
             "@type": "Place",
-            name: "R2G Transport & Storage — Cairns",
+            name: "R2G Transport & Storage, Cairns",
             address: { "@type": "PostalAddress", streetAddress: "36 Abbott St", addressLocality: "Cairns City", addressRegion: "QLD", postalCode: "4870", addressCountry: "AU" },
           },
           {
             "@type": "Place",
-            name: "R2G Transport & Storage — Brisbane",
+            name: "R2G Transport & Storage, Brisbane",
             address: { "@type": "PostalAddress", streetAddress: "122 Ashover Cct", addressLocality: "Archerfield", addressRegion: "QLD", postalCode: "4108", addressCountry: "AU" },
           },
         ],
-        aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "900", bestRating: "5" },
+        aggregateRating: { "@type": "AggregateRating", ratingValue: RATING_VALUE, reviewCount: REVIEW_COUNT, bestRating: "5" },
         sameAs: [
           "https://www.facebook.com/r2gtransport",
           "https://www.google.com/maps?cid=11773202456138120338",
@@ -238,22 +239,22 @@ function buildRouteSchema(route: RouteData) {
         name: "R2G Transport & Storage",
         url: "https://www.r2g.com.au",
         telephone: "+611300959498",
-        description: `Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, 900+ five-star reviews.`,
+        description: `Interstate removalists operating from depots in Cairns and Brisbane. Fully insured door-to-door moves across QLD, NSW and VIC. 10+ years experience, ${REVIEW_DISPLAY} five-star reviews.`,
         logo: "https://www.r2g.com.au/images/logo-r2g-white.png",
         areaServed: ["Queensland", "New South Wales", "Victoria", "Australia"],
         location: [
           {
             "@type": "Place",
-            name: "R2G Transport & Storage — Cairns",
+            name: "R2G Transport & Storage, Cairns",
             address: { "@type": "PostalAddress", streetAddress: "36 Abbott St", addressLocality: "Cairns City", addressRegion: "QLD", postalCode: "4870", addressCountry: "AU" },
           },
           {
             "@type": "Place",
-            name: "R2G Transport & Storage — Brisbane",
+            name: "R2G Transport & Storage, Brisbane",
             address: { "@type": "PostalAddress", streetAddress: "122 Ashover Cct", addressLocality: "Archerfield", addressRegion: "QLD", postalCode: "4108", addressCountry: "AU" },
           },
         ],
-        aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "900", bestRating: "5" },
+        aggregateRating: { "@type": "AggregateRating", ratingValue: RATING_VALUE, reviewCount: REVIEW_COUNT, bestRating: "5" },
         sameAs: [
           "https://www.facebook.com/r2gtransport",
           "https://www.google.com/maps?cid=11773202456138120338",
@@ -283,7 +284,7 @@ function buildRouteSchema(route: RouteData) {
           {
             "@type": "Question",
             name: `What is the difference between a shared and exclusive load on the ${route.from} to ${route.to} route?`,
-            acceptedAnswer: { "@type": "Answer", text: `A shared load means your belongings travel with other customers' goods heading in the same direction, reducing cost significantly. An exclusive load means the entire truck is dedicated to your move — faster transit, full scheduling control, and no other goods sharing the space.` },
+            acceptedAnswer: { "@type": "Answer", text: `A shared load means your belongings travel with other customers' goods heading in the same direction, reducing cost significantly. An exclusive load means the entire truck is dedicated to your move. This gives you faster transit, full scheduling control, and no other goods sharing the space.` },
           },
           {
             "@type": "Question",
@@ -357,7 +358,7 @@ function CityPage({ city }: { city: CityPageData }) {
                 className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 border border-white/20 rounded-full text-white font-semibold hover:bg-white/20 transition-colors"
               >
                 <span>📞</span>
-                <span>Call us — 1300 959 498</span>
+                <span>Call us on 1300 959 498</span>
               </a>
               <div className="mt-8">
                 <HeroTrustBadges />
@@ -380,7 +381,7 @@ function CityPage({ city }: { city: CityPageData }) {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
             {[
               { stat: "10+", label: "Years Experience" },
-              { stat: "900+", label: "5-Star Reviews" },
+              { stat: `${REVIEW_DISPLAY}`, label: "5-Star Reviews" },
               { stat: "130+", label: "Routes Covered" },
               { stat: "100%", label: "Fully Insured" },
             ].map((item) => (
@@ -431,7 +432,7 @@ function CityPage({ city }: { city: CityPageData }) {
               {[
                 {
                   icon: "🛡️",
-                  title: "Fully Insured — Every Move",
+                  title: "Fully Insured on Every Move",
                   desc: "Goods-in-transit and public liability insurance included as standard on every interstate job. From the moment we load your first item to final delivery.",
                 },
                 {
@@ -491,13 +492,13 @@ function CityPage({ city }: { city: CityPageData }) {
                 <p>
                   Every interstate removal with R2G includes a comprehensive set of services
                   as standard. We don&apos;t charge separately for things that should simply
-                  be part of a professional service — furniture protection, insurance, and a
+                  be part of a professional service. Furniture protection, insurance, and a
                   dedicated point of contact are included on every job regardless of size
                   or distance.
                 </p>
                 <p>
-                  If you need additional services — packing, storage between homes, or
-                  disassembly and reassembly — these are available on request. Our team
+                  If you need additional services like packing, storage between homes, or
+                  disassembly and reassembly, these are available on request. Our team
                   will talk through what your specific move needs when you request a quote.
                 </p>
               </div>
@@ -536,7 +537,7 @@ function CityPage({ city }: { city: CityPageData }) {
               How Your Interstate Move Works
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto leading-relaxed">
-              From your first call to the last box placed in your new home — here&apos;s
+              From your first call to the last box placed in your new home, here&apos;s
               exactly what happens when you move interstate with R2G.
             </p>
           </div>
@@ -545,12 +546,12 @@ function CityPage({ city }: { city: CityPageData }) {
               {
                 step: "01",
                 title: "Get a Quote",
-                desc: "Tell us your origin, destination, move size and preferred dates — online or by phone. We come back with a clear, itemised quote. No hidden fees, no vague estimates.",
+                desc: "Tell us your origin, destination, move size and preferred dates, online or by phone. We come back with a clear, itemised quote. No hidden fees, no vague estimates.",
               },
               {
                 step: "02",
                 title: "We Plan Your Move",
-                desc: "Once confirmed, a dedicated move manager is assigned to your job. They coordinate every detail — truck size, departure schedule, storage if needed — and keep you informed throughout.",
+                desc: "Once confirmed, a dedicated move manager is assigned to your job. They coordinate every detail, including truck size, departure schedule and storage if needed, and keep you informed throughout.",
               },
               {
                 step: "03",
@@ -592,7 +593,7 @@ function CityPage({ city }: { city: CityPageData }) {
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A]">
               {city.reviewsHeading}
             </h2>
-            <p className="text-gray-500 mt-2">4.9 stars across 900+ verified Google reviews</p>
+            <p className="text-gray-500 mt-2">{RATING_VALUE} stars across {REVIEW_DISPLAY} verified Google reviews</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {REVIEWS.map((review) => (
@@ -642,7 +643,7 @@ function CityPage({ city }: { city: CityPageData }) {
 
       {/* ── FAQ ── */}
       <FAQ
-        heading={`Interstate Removalists ${city.name} — FAQ`}
+        heading={`Interstate Removalists ${city.name} FAQ`}
         items={city.faqItems}
       />
 
@@ -730,7 +731,7 @@ function RoutePage({ route }: { route: RouteData }) {
               <p className="text-lg text-gray-300 max-w-xl mb-8 leading-relaxed">
                 Fully insured door-to-door removals from {route.from} to {route.to}. {route.km} km
                 via the {route.highway}, {route.days} {daysSuffix} transit. Experienced team, shared or
-                exclusive loads — handled properly from pickup to delivery.
+                exclusive loads, handled properly from pickup to delivery.
               </p>
               <div className="xl:hidden mb-8">
                 <HeroQuoteWidget />
@@ -740,7 +741,7 @@ function RoutePage({ route }: { route: RouteData }) {
                 className="inline-flex items-center gap-3 px-6 py-3 bg-white/10 border border-white/20 rounded-full text-white font-semibold hover:bg-white/20 transition-colors"
               >
                 <span>📞</span>
-                <span>Call us — 1300 959 498</span>
+                <span>Call us on 1300 959 498</span>
               </a>
               <div className="mt-8">
                 <HeroTrustBadges />
@@ -764,7 +765,7 @@ function RoutePage({ route }: { route: RouteData }) {
             {[
               { stat: route.km, label: "Kilometres" },
               { stat: route.days, label: daysLabel.replace(`${route.days} `, "") },
-              { stat: "900+", label: "5-Star Reviews" },
+              { stat: `${REVIEW_DISPLAY}`, label: "5-Star Reviews" },
               { stat: "100%", label: "Fully Insured" },
             ].map((item) => (
               <div key={item.label}>
@@ -788,7 +789,7 @@ function RoutePage({ route }: { route: RouteData }) {
                 </span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                {route.from} to {route.to} Removals — {route.km} km Done Right
+                {route.from} to {route.to} Removals, {route.km} km Done Right
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
@@ -803,14 +804,14 @@ function RoutePage({ route }: { route: RouteData }) {
                 <p>
                   R2G Transport &amp; Storage has been running the {route.from} to {route.to} route
                   for over 10 years. We depart from {fromDepot} and deliver directly to your
-                  new {route.to} address — door to door, fully insured, no subcontractors, no
+                  new {route.to} address. Door to door, fully insured, no subcontractors, no
                   third-party handoffs. A dedicated move manager is assigned to your job from
                   the moment you confirm your booking through to final delivery.
                 </p>
                 <p>
                   Whether you&apos;re relocating a one-bedroom apartment or a full family
                   home, we offer shared and exclusive load options to suit your budget and
-                  timeline. Our 900+ verified five-star Google reviews are proof that we deliver
+                  timeline. Our {REVIEW_DISPLAY} verified five-star Google reviews are proof that we deliver
                   on every promise. No hidden fees, no vague estimates, no surprises on
                   delivery day.
                 </p>
@@ -850,7 +851,7 @@ function RoutePage({ route }: { route: RouteData }) {
                   <p>
                     The {route.highway} is the primary route connecting {route.from} to{" "}
                     {route.to}. At {route.km} kilometres, this is one of the major interstate
-                    corridors our trucks run regularly. Our drivers know every stretch — the
+                    corridors our trucks run regularly. Our drivers know every stretch, the
                     road conditions, the rest points, and the timing required for safe,
                     efficient delivery.
                   </p>
@@ -912,7 +913,7 @@ function RoutePage({ route }: { route: RouteData }) {
               </h2>
               <p className="text-gray-500 max-w-2xl mx-auto leading-relaxed">
                 Every year, thousands of Australians relocate from {route.from} to {route.to} and{" "}
-                {toRegion}. Here are the most common reasons — and why R2G is the
+                {toRegion}. Here are the most common reasons, and why R2G is the
                 removalist they choose.
               </p>
             </div>
@@ -941,7 +942,7 @@ function RoutePage({ route }: { route: RouteData }) {
               <div className="h-[2px] w-8 bg-[#F5A800]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">
-              Shared vs Exclusive Loads — {route.from} to {route.to}
+              Shared vs Exclusive Loads: {route.from} to {route.to}
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto leading-relaxed">
               Every {route.from} to {route.to} move is different. We offer two load types so
@@ -954,13 +955,13 @@ function RoutePage({ route }: { route: RouteData }) {
               <h3 className="text-white font-black text-2xl mb-4">Budget-Friendly Option</h3>
               <p className="text-gray-400 leading-relaxed mb-6">
                 Your belongings are consolidated with other customers heading to {route.to} on
-                the same run. This significantly reduces your cost — often by 40–60% compared
+                the same run. This significantly reduces your cost, often by 40–60% compared
                 to an exclusive truck. Ideal for 1–3 bedroom moves where you have some
                 flexibility on your delivery date.
               </p>
               <ul className="space-y-3">
                 {[
-                  "Lower cost — share the truck, share the price",
+                  "Lower cost, share the truck, share the price",
                   "Ideal for smaller moves (1–3 bedrooms)",
                   `Flexible delivery window (${route.days === "1" ? "1–2 days" : `${route.days} days`})`,
                   "Same insurance and protection standards",
@@ -987,11 +988,11 @@ function RoutePage({ route }: { route: RouteData }) {
               </p>
               <ul className="space-y-3">
                 {[
-                  "Dedicated truck — your move only",
+                  "Dedicated truck, your move only",
                   `Fastest transit (${route.days} ${daysSuffix} direct)`,
                   "Full control over pickup and delivery dates",
                   "Best for 3+ bedroom homes or high-value items",
-                  "Direct route — no intermediate stops",
+                  "Direct route, no intermediate stops",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-gray-300 text-sm">
                     <svg className="w-4 h-4 text-[#F5A800] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -1002,6 +1003,45 @@ function RoutePage({ route }: { route: RouteData }) {
                 ))}
               </ul>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── COST ESTIMATE ── */}
+      <section className="bg-gray-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <div className="h-[2px] w-8 bg-[#F5A800]" />
+              <span className="text-[#F5A800] text-sm font-semibold tracking-widest uppercase">
+                Pricing Guide
+              </span>
+              <div className="h-[2px] w-8 bg-[#F5A800]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
+              How Much Does It Cost to Move from {route.from} to {route.to}?
+            </h2>
+            <div className="inline-block bg-white rounded-2xl border border-gray-200 shadow-sm px-8 py-6 mb-6">
+              <div className="text-sm text-gray-500 font-medium mb-2">Typical 2-3 bedroom house, shared load</div>
+              <div className="text-4xl sm:text-5xl font-black text-[#F5A800]">{route.costRange}</div>
+              <div className="text-xs text-gray-400 mt-2">{route.km} km via the {route.highway}</div>
+            </div>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              This is a guide range for a typical 2-3 bedroom household moving from {route.from} to{" "}
+              {route.to} on a shared load. Your actual price depends on the total volume (cubic metres),
+              whether you choose a shared or exclusive truck, access difficulty at both ends, and any
+              additional services like packing or storage. Exclusive loads and larger homes will sit
+              at the higher end or above this range.
+            </p>
+            <Link
+              href="/quote"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#F5C400] text-black font-bold rounded-full hover:bg-[#e0b200] transition-colors text-sm"
+            >
+              Get Your Personalised Quote
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -1027,7 +1067,7 @@ function RoutePage({ route }: { route: RouteData }) {
                   different job to a four-bedroom house with outdoor furniture and specialty items.
                 </p>
                 <p>
-                  What we can tell you is what factors affect the cost — so you know what
+                  What we can tell you is what factors affect the cost, so you know what
                   to expect when you request a quote. We provide clear, itemised quotes with
                   no hidden fees. The price we quote is the price you pay.
                 </p>
@@ -1076,7 +1116,7 @@ function RoutePage({ route }: { route: RouteData }) {
                 <p>
                   Every {route.from} to {route.to} removal with R2G includes a full set of
                   services as standard. We don&apos;t charge extra for furniture protection,
-                  insurance or a dedicated move manager — these are part of every job, whether
+                  insurance or a dedicated move manager. These are part of every job, whether
                   you&apos;re moving a studio apartment or a five-bedroom house {route.km} km.
                 </p>
                 <p>
@@ -1159,7 +1199,7 @@ function RoutePage({ route }: { route: RouteData }) {
               </div>
             </div>
             <p className="text-center text-gray-400 text-sm mt-8">
-              Don&apos;t see your area? We cover all of {route.from} and {toRegion} — call us to confirm.
+              Don&apos;t see your area? We cover all of {route.from} and {toRegion}. Call us to confirm.
             </p>
           </div>
         </section>
@@ -1180,13 +1220,13 @@ function RoutePage({ route }: { route: RouteData }) {
               How Your {route.from} to {route.to} Move Works
             </h2>
             <p className="text-gray-400 max-w-xl mx-auto leading-relaxed">
-              From your first enquiry to the last box placed in your new {route.to} home — here&apos;s
+              From your first enquiry to the last box placed in your new {route.to} home, here&apos;s
               exactly how R2G handles your {route.km} km move.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", title: "Get a Quote", desc: `Tell us your ${route.from} pickup address, ${route.to} delivery address, move size and preferred dates. We come back with a clear, itemised quote — no hidden fees, no vague estimates.` },
+              { step: "01", title: "Get a Quote", desc: `Tell us your ${route.from} pickup address, ${route.to} delivery address, move size and preferred dates. We come back with a clear, itemised quote. No hidden fees, no vague estimates.` },
               { step: "02", title: "We Plan Your Move", desc: `A dedicated move manager is assigned to your job. They coordinate truck allocation, departure date, any intermediate stops along the ${route.highway}, and storage if needed.` },
               { step: "03", title: "Pack, Wrap & Load", desc: `Our team arrives at your ${route.from} address fully equipped. Every item is wrapped in protective blankets and secured before loading. Furniture is disassembled where needed.` },
               { step: "04", title: `Delivered to ${route.to}`, desc: `Your belongings travel via the ${route.highway} and are delivered directly inside your new ${route.to} home. We keep you updated during the ${route.days}-${daysSuffix} transit.` },
@@ -1217,7 +1257,7 @@ function RoutePage({ route }: { route: RouteData }) {
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
                 What Our {route.from} to {route.to} Customers Say
               </h2>
-              <p className="text-gray-500 mb-8">4.9 stars across 900+ verified Google reviews</p>
+              <p className="text-gray-500 mb-8">{RATING_VALUE} stars across {REVIEW_DISPLAY} verified Google reviews</p>
               <div className="space-y-4">
                 {REVIEWS.map((review) => (
                   <div key={review.name} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
@@ -1426,7 +1466,7 @@ function TickerSection({ heading, subtext }: { heading: string[]; subtext: strin
 
       <div className="text-center mt-14 px-6">
         <p className="text-gray-400 text-sm mb-6">
-          Don&apos;t see your route? We cover many more — call us and we&apos;ll sort it.
+          Don&apos;t see your route? We cover many more. Call us and we&apos;ll sort it.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <Link href="/quote" className="inline-flex items-center px-8 py-4 bg-[#F5A800] text-black font-bold text-base rounded-lg hover:bg-[#e09900] transition-colors">

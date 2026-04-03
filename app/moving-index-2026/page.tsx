@@ -96,6 +96,25 @@ const articleSchema = {
     "queensland migration, brisbane housing, moving costs, interstate migration, rental vacancy, 2032 olympics",
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.r2g.com.au",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Moving Cost Index 2026",
+      item: "https://www.r2g.com.au/moving-index-2026",
+    },
+  ],
+};
+
 // ─────────────────────────────────────────────────────────────────────────────
 // DATA FOR CHARTS
 // ─────────────────────────────────────────────────────────────────────────────
@@ -147,6 +166,10 @@ export default function MovingIndex2026() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* ── HERO ── */}
