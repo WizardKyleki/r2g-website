@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
 interface FAQItem {
   question: string;
   answer: string;
@@ -13,8 +9,6 @@ interface FAQProps {
 }
 
 export default function FAQ({ items, heading = "Frequently Asked Questions" }: FAQProps) {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
   return (
     <section className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,35 +23,25 @@ export default function FAQ({ items, heading = "Frequently Asked Questions" }: F
 
         <div className="space-y-3">
           {items.map((item, i) => (
-            <div
+            <details
               key={i}
-              className={`border rounded-xl overflow-hidden transition-all ${
-                openIndex === i ? "border-[#F5C400]/40 shadow-sm" : "border-gray-200"
-              }`}
+              className="group border border-gray-200 rounded-xl overflow-hidden transition-all open:border-[#F5C400]/40 open:shadow-sm"
             >
-              <button
-                className="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-[#1A1A1A] hover:bg-gray-50 transition-colors"
-                onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                aria-expanded={openIndex === i}
-              >
+              <summary className="flex items-center justify-between px-6 py-5 text-left font-semibold text-[#1A1A1A] hover:bg-gray-50 transition-colors cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                 <span className="pr-4">{item.question}</span>
                 <svg
-                  className={`w-5 h-5 text-[#F5C400] shrink-0 transition-transform duration-300 ${
-                    openIndex === i ? "rotate-180" : ""
-                  }`}
+                  className="w-5 h-5 text-[#F5C400] shrink-0 transition-transform duration-300 group-open:rotate-180"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
-              </button>
-              {openIndex === i && (
-                <div className="px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                  {item.answer}
-                </div>
-              )}
-            </div>
+              </summary>
+              <div className="px-6 pb-5 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                {item.answer}
+              </div>
+            </details>
           ))}
         </div>
       </div>

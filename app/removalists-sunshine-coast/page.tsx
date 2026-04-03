@@ -36,6 +36,11 @@ const businessSchema = {
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
     streetAddress: "122 Ashover Circuit",
@@ -191,10 +196,10 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Sunshine Coast — Trusted Local Movers | R2G Transport & Storage",
+    absolute: "Removalists Sunshine Coast | Trusted Local Movers | R2G",
   },
   description:
-    "Sunshine Coast removalists — Noosa to Caloundra. Fully insured, 10+ years experience, no hidden fees. 107 suburbs covered. Get a free quote today.",
+    "Sunshine Coast removalists. Noosa to Caloundra. Fully insured, 10+ years experience, no hidden fees. 107 suburbs covered. Get a free quote today.",
   keywords: [
     "removalists sunshine coast",
     "sunshine coast removalists",
@@ -207,7 +212,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Removalists Sunshine Coast | Reliable & Affordable",
     description:
-      "Trusted removalists on the Sunshine Coast with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists on the Sunshine Coast with 10+ years experience. Reliable, affordable and fully insured. No hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-sunshine-coast",
     type: "website",
   },

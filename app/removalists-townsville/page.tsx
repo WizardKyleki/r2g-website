@@ -19,7 +19,7 @@ const pageConfig = {
   h1: "Removalists Townsville",
   suburb: "Townsville City",
   postcode: "4810",
-  address: "36 Abbott St, Cairns City QLD 4870",
+  address: "Townsville, QLD 4810",
   serviceArea: "Townsville and North Queensland",
 };
 
@@ -36,12 +36,16 @@ const businessSchema = {
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "36 Abbott St",
-    addressLocality: "Cairns City",
+    addressLocality: "Townsville",
     addressRegion: "QLD",
-    postalCode: "4870",
+    postalCode: "4810",
     addressCountry: "AU",
   },
   geo: {
@@ -191,7 +195,7 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Townsville — Trusted Local Movers | R2G Transport & Storage",
+    absolute: "Removalists Townsville | Trusted Local Movers | R2G",
   },
   description:
     `Townsville removalists you can trust. Fully insured with no hidden fees. All suburbs covered including Magnetic Island. ${REVIEW_DISPLAY} five-star reviews. Free quote.`,
@@ -207,7 +211,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Professional Removalists Townsville | Reliable & Affordable",
     description:
-      "Trusted removalists in Townsville with 10+ years experience. Reliable, affordable & fully insured \u2014 no hidden fees. Get a free quote today.",
+      "Trusted removalists in Townsville with 10+ years experience. Reliable, affordable and fully insured. No hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-townsville",
     type: "website",
   },

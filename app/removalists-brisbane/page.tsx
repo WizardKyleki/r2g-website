@@ -36,6 +36,11 @@ const businessSchema = {
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
     streetAddress: "122 Ashover Circuit",
@@ -332,15 +337,20 @@ export default function RemovalistsBrisbanePage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">About Our Service</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Brisbane&apos;s Local Moving Specialists
+                Who Are Brisbane&apos;s Most Trusted Removalists?
               </h2>
+
+              <p className="text-gray-600 leading-relaxed mb-8">
+                R2G Transport &amp; Storage is a fully insured removalist company in Brisbane, Queensland, providing local and interstate moving services from $179 per hour. With 770+ five-star Google reviews, a 4.9-star rating, and over 10 years of experience, R2G services all 421 Brisbane suburbs including CBD, Sunnybank, Carindale, Chermside, and surrounding areas. Every move includes transit insurance, furniture protection, and transparent hourly pricing with no hidden fees.
+              </p>
 
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">
                 <Image
-                  src="/images/r2g-cairns-removalists-loading-truck.webp"
+                  src="/images/r2g-removalists-brisbane-truck.webp"
                   alt="R2G removalists truck in Brisbane"
                   title="R2G Removalists Brisbane - Professional Local Moving Team"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 60vw"
                   className="object-cover"
                   loading="lazy"
                 />
@@ -450,7 +460,7 @@ export default function RemovalistsBrisbanePage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
-              Why Choose R2G for Your Brisbane Move
+              Why Choose R2G for Your Brisbane Move?
             </h2>
             <p className="text-gray-600 text-base max-w-2xl mx-auto">
               We have been moving Brisbane families and businesses since 2014. Here is what sets us apart from other local removalists.
@@ -549,7 +559,7 @@ export default function RemovalistsBrisbanePage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
-              Brisbane Moving Guide by Area
+              What Should You Know About Moving in Brisbane?
             </h2>
             <p className="text-gray-600 text-base max-w-2xl mx-auto">
               Brisbane is a big city with very different suburbs depending on which direction you are heading. Here is what to expect when moving in each part of the city.
@@ -690,7 +700,7 @@ export default function RemovalistsBrisbanePage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-              Brisbane Removalist Pricing for Local Moves
+              How Much Do Brisbane Removalists Cost?
             </h2>
             <p className="text-gray-600 text-lg">Transparent rates. No hidden fees. No surprises.</p>
           </div>
@@ -734,7 +744,7 @@ export default function RemovalistsBrisbanePage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">Simple Process</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-                How Your Brisbane Move Works
+                How Does Booking a Brisbane Removalist Work?
               </h2>
               <div className="flex mb-8">
                 <svg aria-hidden="true" width="100" height="8" viewBox="0 0 100 8" fill="none">
@@ -774,10 +784,11 @@ export default function RemovalistsBrisbanePage() {
 
             <div className="relative h-[420px] lg:h-[540px] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/r2g-professional-packing-service-cairns.webp"
+                src="/images/r2g-professional-packing-service-brisbane.webp"
                 alt="R2G removalist team serving Brisbane"
                 title="R2G Professional Packing Service Brisbane"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
                 loading="lazy"
               />
@@ -929,7 +940,44 @@ export default function RemovalistsBrisbanePage() {
       {/* ── SECTION 7: TESTIMONIALS ─────────────────────────────────────────── */}
       <GoogleReviews />
 
-      {/* ── SECTION 8: FAQ ──────────────────────────────────────────────────── */}
+      {/* ── SECTION 8: MOVING RESOURCES ──────────────────────────────────── */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Resources</span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
+              Brisbane Moving Resources
+            </h2>
+            <p className="text-gray-600 text-base max-w-2xl mx-auto">
+              Planning your Brisbane move? These guides and tools will help you prepare, budget, and stay organised.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/removalist-costs/brisbane" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">How Much Do Brisbane Removalists Cost?</h3>
+              <p className="text-gray-500 text-sm">Detailed pricing guide with hourly rates, average costs by home size, and money-saving tips.</p>
+            </Link>
+            <Link href="/brisbane-moving-checklist" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">Brisbane Moving Checklist for 2026</h3>
+              <p className="text-gray-500 text-sm">Week-by-week timeline to keep your move on track, from 6 weeks out to moving day.</p>
+            </Link>
+            <Link href="/moving-index-2026" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">Moving Cost Index 2026</h3>
+              <p className="text-gray-500 text-sm">Compare removalist costs across Australian cities. See how Brisbane stacks up for affordability.</p>
+            </Link>
+            <Link href="/blog/cost-of-moving-brisbane" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">The Real Cost of Moving in Brisbane</h3>
+              <p className="text-gray-500 text-sm">Beyond the hourly rate. A breakdown of all costs involved in a Brisbane move.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SECTION 9: FAQ ──────────────────────────────────────────────────── */}
       <FAQ items={faqItems} heading="Brisbane Removals FAQ" />
 
       {/* ── SECTION 9: FINAL CTA ────────────────────────────────────────────── */}

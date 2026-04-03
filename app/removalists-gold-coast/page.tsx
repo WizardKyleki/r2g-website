@@ -36,6 +36,11 @@ const businessSchema = {
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
     streetAddress: "122 Ashover Circuit",
@@ -191,7 +196,7 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Gold Coast — Trusted Local Movers | R2G Transport & Storage",
+    absolute: "Removalists Gold Coast | Trusted Local Movers | R2G",
   },
   description:
     `Gold Coast removalists you can trust. Fully insured with no hidden fees. Surfers Paradise to Coolangatta — all 81 suburbs covered. ${REVIEW_DISPLAY} five-star reviews. Free quote.`,

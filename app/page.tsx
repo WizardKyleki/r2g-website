@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import Hero from "@/components/Hero";
-const LogoMarquee = dynamic(() => import("@/components/LogoMarquee"));
-const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
+import LogoMarquee from "@/components/LogoMarquee";
+import TrustBadges from "@/components/TrustBadges";
 const ServicesGrid = dynamic(() => import("@/components/ServicesGrid"));
 const WhyChooseR2G = dynamic(() => import("@/components/WhyChooseR2G"));
 const HowItWorks = dynamic(() => import("@/components/HowItWorks"));
@@ -10,7 +10,7 @@ const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 const ServiceAreas = dynamic(() => import("@/components/ServiceAreas"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { HOME_FAQS, RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@/lib/constants";
+import { HOME_FAQS, RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY, DOMAIN } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: { absolute: "R2G Removalists | Local & Interstate | Reliable & Affordable" },
@@ -25,6 +25,52 @@ export const metadata: Metadata = {
   },
 };
 
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "R2G Transport & Storage",
+  url: "https://www.r2g.com.au",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://www.r2g.com.au/blog?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "R2G Transport & Storage",
+  url: "https://www.r2g.com.au",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  foundingDate: "2014",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "1300 959 498",
+    contactType: "customer service",
+    email: "contact@r2g.com.au",
+    areaServed: "AU",
+    availableLanguage: "English",
+  },
+  sameAs: [
+    "https://www.facebook.com/r2gtransport",
+    "https://www.instagram.com/r2gtransport",
+    "https://www.google.com/maps?cid=11773202456138120338",
+  ],
+  knowsAbout: [
+    "Removalists",
+    "Moving services",
+    "Interstate removals",
+    "Office relocations",
+    "Packing services",
+    "Storage solutions",
+    "NDIS removals",
+  ],
+};
+
 const homepageSchema = {
   "@context": "https://schema.org",
   "@type": "MovingCompany",
@@ -35,6 +81,11 @@ const homepageSchema = {
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
     streetAddress: "36 Abbott St",
@@ -117,6 +168,14 @@ const homepageSchema = {
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageSchema) }}

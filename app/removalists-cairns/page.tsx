@@ -36,6 +36,11 @@ const businessSchema = {
   telephone: "1300 959 498",
   email: "contact@r2g.com.au",
   image: "https://www.r2g.com.au/images/r2g-logo.png",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.r2g.com.au/images/r2g-logo.png",
+  },
+  priceRange: "$$",
   address: {
     "@type": "PostalAddress",
     streetAddress: "36 Abbott St",
@@ -191,7 +196,7 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Cairns Removalist - Trusted Local Movers | R2G Transport",
+    absolute: "Removalists Cairns | Trusted Local Movers | R2G",
   },
   description:
     `Your local Cairns removalist since 2014. ${RATING_VALUE} star Google rating (${REVIEW_DISPLAY} reviews), fully insured with no hidden fees. All Cairns suburbs covered. Free quote.`,
@@ -205,7 +210,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-cairns" },
   openGraph: {
-    title: "Cairns Removalist | R2G Transport & Storage",
+    title: "Removalists Cairns | Trusted Local Movers | R2G",
     description:
       "Your local Cairns removalist with 10+ years experience. Fully insured with no hidden fees. Get a free quote today.",
     url: "https://www.r2g.com.au/removalists-cairns",
@@ -332,8 +337,12 @@ export default function RemovalistsCairnsPage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">About Our Service</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Cairns&apos; Local Moving Specialists
+                Who Are Cairns&apos; Most Trusted Removalists?
               </h2>
+
+              <p className="text-gray-600 leading-relaxed mb-8">
+                R2G Transport &amp; Storage is a fully insured removalist company in Cairns, Far North Queensland, providing local and interstate moving services from $189 per hour. With 130+ five-star Google reviews, a 4.9-star rating, and over 10 years of experience, R2G services all 76 Cairns suburbs from the Northern Beaches to the Atherton Tablelands. Every move includes transit insurance, furniture protection, and transparent hourly pricing with no hidden fees.
+              </p>
 
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">
                 <Image
@@ -341,6 +350,7 @@ export default function RemovalistsCairnsPage() {
                   alt="R2G removalists truck in Cairns"
                   title="R2G Removalists Cairns - Professional Local Moving Team"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 60vw"
                   className="object-cover"
                   loading="lazy"
                 />
@@ -350,7 +360,7 @@ export default function RemovalistsCairnsPage() {
                 <p>
                   When it comes to moving within Cairns, local knowledge makes all the difference.
                   R2G Transport &amp; Storage has been helping Cairns families and individuals move
-                  for over a decade — and we know every suburb, street, and staircase in the region.
+                  for over a decade, and we know every suburb, street, and staircase in the region.
                 </p>
                 <p>
                   Whether you&apos;re moving from a studio apartment in Cairns City to a family home
@@ -449,7 +459,7 @@ export default function RemovalistsCairnsPage() {
               <div className="w-10 h-1 bg-[#F5C400]" />
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-              Cairns Removalist Pricing for Local Moves
+              How Much Do Cairns Removalists Cost?
             </h2>
             <p className="text-gray-600 text-lg">Transparent rates. No hidden fees. No surprises.</p>
           </div>
@@ -493,7 +503,7 @@ export default function RemovalistsCairnsPage() {
                 <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">Simple Process</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-2">
-                How Your Cairns Move Works
+                How Does Booking a Cairns Removalist Work?
               </h2>
               <div className="flex mb-8">
                 <svg aria-hidden="true" width="100" height="8" viewBox="0 0 100 8" fill="none">
@@ -537,6 +547,7 @@ export default function RemovalistsCairnsPage() {
                 alt="R2G removalist team serving Cairns"
                 title="R2G Professional Packing Service Cairns"
                 fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
                 loading="lazy"
               />
@@ -648,8 +659,41 @@ export default function RemovalistsCairnsPage() {
       {/* ── SECTION 7: TESTIMONIALS ─────────────────────────────────────────── */}
       <GoogleReviews />
 
-      {/* ── SECTION 8: FAQ ──────────────────────────────────────────────────── */}
-      <FAQ items={faqItems} heading="Local Removals FAQ" />
+      {/* ── SECTION 8: MOVING RESOURCES ──────────────────────────────────── */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Resources</span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
+              Cairns Moving Resources
+            </h2>
+            <p className="text-gray-600 text-base max-w-2xl mx-auto">
+              Planning your Cairns move? These guides will help you budget and prepare.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link href="/removalist-costs/cairns" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">How Much Do Cairns Removalists Cost?</h3>
+              <p className="text-gray-500 text-sm">Detailed pricing guide with hourly rates, average costs by home size, and money-saving tips for Cairns moves.</p>
+            </Link>
+            <Link href="/moving-index-2026" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">Moving Cost Index 2026</h3>
+              <p className="text-gray-500 text-sm">Compare removalist costs across Australian cities. See how Cairns stacks up against Brisbane, Sydney, and Melbourne.</p>
+            </Link>
+            <Link href="/blog/packing-kitchen-like-a-pro" className="bg-white rounded-xl p-6 border border-gray-100 hover:border-[#F5C400]/30 hover:shadow-md transition-all group">
+              <h3 className="font-bold text-[#1A1A1A] mb-2 group-hover:text-[#F5C400] transition-colors">How to Pack Your Kitchen Like a Pro</h3>
+              <p className="text-gray-500 text-sm">Expert packing tips for the hardest room in the house. Avoid breakages and save time on moving day.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SECTION 9: FAQ ──────────────────────────────────────────────────── */}
+      <FAQ items={faqItems} heading="Cairns Removals FAQ" />
 
       {/* ── SECTION 9: FINAL CTA ────────────────────────────────────────────── */}
       <section className="relative overflow-hidden bg-[#F5C400] py-20">
