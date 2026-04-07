@@ -390,15 +390,15 @@ export const blogPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Australia Post mail redirection (set up at least 2 weeks before your move)",
-          "Australian Electoral Commission (update within 8 weeks of moving)",
-          "Medicare, Centrelink, and myGov",
-          "Australian Taxation Office",
+          '<a href="https://auspost.com.au/receiving/manage-your-mail/redirect-hold-mail" target="_blank" rel="noopener noreferrer">Australia Post mail redirection</a> (set up at least 2 weeks before your move)',
+          '<a href="https://www.aec.gov.au/enrol/change-address.htm" target="_blank" rel="noopener noreferrer">Australian Electoral Commission</a> (update within 8 weeks of moving)',
+          '<a href="https://www.servicesaustralia.gov.au/how-to-update-your-address" target="_blank" rel="noopener noreferrer">Medicare, Centrelink, and myGov</a>',
+          '<a href="https://www.ato.gov.au" target="_blank" rel="noopener noreferrer">Australian Taxation Office</a>',
           "Banks, credit cards, and superannuation funds",
           "Health insurance, car insurance, and home/contents insurance",
-          "Vehicle registration and driver's licence (you must update within 3 months in most states)",
+          'Vehicle registration and driver\'s licence (you must update within 3 months in most states). In Queensland, update via <a href="https://www.tmr.qld.gov.au" target="_blank" rel="noopener noreferrer">Transport and Main Roads</a>',
           "Internet, phone, and streaming service providers",
-          "Employer and payroll",
+          'Employer and payroll. Check your entitlements for relocation at <a href="https://www.fairwork.gov.au" target="_blank" rel="noopener noreferrer">Fair Work Australia</a>',
           "School and childcare enrolments",
         ],
       },
@@ -1028,7 +1028,7 @@ export const blogPosts: BlogPost[] = [
           "Move boxes and small items near the front door or loading area",
           "Clear a path from every room to the front door for the removalist crew",
           "Disconnect washing machine hoses and secure the drum for transport",
-          "Take meter readings for electricity, gas, and water if required",
+          'Take meter readings for electricity, gas, and water if required. If you have not already, set up <a href="https://auspost.com.au/receiving/manage-your-mail/redirect-hold-mail" target="_blank" rel="noopener noreferrer">Australia Post mail redirection</a> so nothing goes to the old address',
         ],
       },
       {
@@ -2560,7 +2560,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Moving house in Cairns comes with its own set of variables that affect what you will pay. Stilt houses, steep driveways, tropical humidity, and the sheer distance between suburbs in the Far North all play a role in your final bill. Whether you are moving across town or heading interstate, understanding how [Cairns removalists](/removalists-cairns) price their services will help you budget properly and avoid surprises on moving day.",
+        text: 'Moving house in Cairns comes with its own set of variables that affect what you will pay. Stilt houses, steep driveways, tropical humidity, and the sheer distance between suburbs in the Far North all play a role in your final bill. If you are renting, check your bond and tenancy rights through the <a href="https://www.rta.qld.gov.au" target="_blank" rel="noopener noreferrer">QLD Residential Tenancies Authority</a> before moving. Whether you are moving across town or heading interstate, understanding how [Cairns removalists](/removalists-cairns) price their services will help you budget properly and avoid surprises on moving day.',
       },
       {
         type: "heading",
@@ -2593,7 +2593,7 @@ export const blogPosts: BlogPost[] = [
           "Stilt houses and stairs. Raised homes are standard in Cairns and add 30 to 60 minutes per load",
           "Distance between suburbs. A move from Redlynch to Palm Cove covers more ground than most people expect",
           "Heavy or bulky items. Pool tables, large outdoor furniture, and gym equipment need extra hands",
-          "Time of year. Dry season (May to October) is peak moving season in the tropics. Wet season moves are cheaper but come with weather risks",
+          'Time of year. Dry season (May to October) is peak moving season in the tropics. Wet season moves are cheaper but come with weather risks. Check the <a href="http://www.bom.gov.au/qld/" target="_blank" rel="noopener noreferrer">Bureau of Meteorology</a> forecast before booking',
           "Access difficulty. Long driveways, gravel roads in semi-rural suburbs like Gordonvale or Smithfield add time",
         ],
       },
@@ -2714,10 +2714,10 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Traffic on the M1 is real. If you work in Brisbane, factor in 60 to 90 minutes each way during peak hour. The train is an option from Robina, Nerang, or Varsity Lakes",
-          "Flood zones exist in parts of the Gold Coast hinterland and low-lying suburbs. Check council flood maps before buying or signing a lease",
+          'Flood zones exist in parts of the Gold Coast hinterland and low-lying suburbs. Check <a href="https://www.goldcoast.qld.gov.au" target="_blank" rel="noopener noreferrer">Gold Coast City Council</a> flood maps before buying or signing a lease',
           "Body corporate fees in apartment buildings can range from $60 to $150 per week. Factor this into your budget for beachside units",
           "The Gold Coast has its own job market separate from Brisbane. Health, tourism, education, and construction are the biggest employers",
-          "If you are moving from interstate, remember that Queensland has no daylight saving. You gain an hour of afternoon sunlight in winter compared to NSW and Victoria",
+          'If you are moving from interstate, remember that Queensland has no daylight saving. Update your vehicle registration and licence via <a href="https://www.tmr.qld.gov.au" target="_blank" rel="noopener noreferrer">QLD Transport and Main Roads</a> within 3 months',
         ],
       },
       {
@@ -2802,9 +2802,9 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           "Begin packing non-essential rooms. Spare bedrooms, the garage, and the study can all be boxed up well in advance",
-          "Arrange utility disconnections at your current address and connections at your new one. Contact Ergon Energy for electricity, Unity Water for water on the Sunshine Coast, and your preferred internet provider",
-          "Set up mail redirection through Australia Post. Allow at least 5 business days for processing",
-          "Update your address with the ATO, Medicare, banks, insurers, vehicle registration (if changing states), and any subscriptions",
+          'Arrange utility disconnections at your current address and connections at your new one. Contact <a href="https://www.ergon.com.au" target="_blank" rel="noopener noreferrer">Ergon Energy</a> for electricity, <a href="https://www.unitywater.com" target="_blank" rel="noopener noreferrer">Unity Water</a> for water on the Sunshine Coast, and your preferred internet provider',
+          'Set up <a href="https://auspost.com.au/receiving/manage-your-mail/redirect-hold-mail" target="_blank" rel="noopener noreferrer">mail redirection through Australia Post</a>. Allow at least 5 business days for processing',
+          'Update your address with the <a href="https://www.ato.gov.au" target="_blank" rel="noopener noreferrer">ATO</a>, <a href="https://www.servicesaustralia.gov.au/how-to-update-your-address" target="_blank" rel="noopener noreferrer">Medicare</a>, banks, insurers, vehicle registration (if changing states), and any subscriptions',
           "If you have children, confirm school enrolments. Popular Sunshine Coast schools fill up quickly, especially in the Noosa and Buderim catchment areas. Contact the school directly to check availability for mid-year starts",
         ],
       },
@@ -2890,7 +2890,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The Bruce Highway is the only sealed road connecting Cairns and Brisbane. It passes through Townsville, Mackay, Rockhampton, and Bundaberg before reaching the outskirts of Brisbane. The highway is mostly single carriageway through rural and semi-rural Queensland, with dual carriageway sections near the major towns. Road conditions are generally good, but wet season (November to April) can bring flooding and temporary closures, particularly between Townsville and Mackay. Your removalist will monitor road conditions and plan accordingly.",
+        text: 'The Bruce Highway is the only sealed road connecting Cairns and Brisbane. It passes through Townsville, Mackay, Rockhampton, and Bundaberg before reaching the outskirts of Brisbane. The highway is mostly single carriageway through rural and semi-rural Queensland, with dual carriageway sections near the major towns. Road conditions are generally good, but wet season (November to April) can bring flooding and temporary closures, particularly between Townsville and Mackay. Check <a href="https://www.tmr.qld.gov.au/travel-and-transport/road-and-traffic/queensland-road-conditions" target="_blank" rel="noopener noreferrer">QLD Transport and Main Roads</a> for live road conditions before departure.',
       },
       {
         type: "heading",
@@ -2936,7 +2936,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "One thing that catches many people off guard is the climate difference between Cairns and Brisbane. Cairns is tropical with warm, humid weather year-round. Brisbane has a subtropical climate with noticeably cooler winters. June and July nights in Brisbane regularly drop below 10 degrees, and homes are not as well-insulated as you might expect. Make sure your winter clothing and bedding are accessible when you arrive, not buried at the back of the truck. If you are moving during Brisbane's cooler months, you will want a heater ready from day one.",
+        text: 'One thing that catches many people off guard is the climate difference between Cairns and Brisbane. Cairns is tropical with warm, humid weather year-round. Brisbane has a subtropical climate with noticeably cooler winters. June and July nights in Brisbane regularly drop below 10 degrees, and homes are not as well-insulated as you might expect. Make sure your winter clothing and bedding are accessible when you arrive, not buried at the back of the truck. Monitor the <a href="http://www.bom.gov.au/qld/" target="_blank" rel="noopener noreferrer">Bureau of Meteorology</a> forecast for both cities around your move date.',
       },
       {
         type: "heading",
@@ -3050,7 +3050,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Visit before you commit. Townsville's suburbs feel very different in person compared to online. Spend a few days driving around before signing a lease or making an offer",
           "Factor in the climate. Townsville is hot and humid from October to April. Ensure your new home has air conditioning in at least the main living area and bedrooms",
-          "Check flood maps. Parts of Townsville are flood-prone, particularly around the Ross River. Townsville City Council has online flood mapping tools that are essential to check",
+          'Check flood maps. Parts of Townsville are flood-prone, particularly around the Ross River. <a href="https://www.townsville.qld.gov.au" target="_blank" rel="noopener noreferrer">Townsville City Council</a> has online flood mapping tools that are essential to check',
           "School enrolments fill up. If you are moving mid-year, contact your preferred schools early. Some have waiting lists, particularly Annandale State School and William Ross State High School",
           "Join local community groups on Facebook before you arrive. Townsville has active community pages that are useful for local recommendations and settling-in advice",
         ],
@@ -3158,11 +3158,11 @@ export const blogPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Check the Bureau of Meteorology forecast for your moving date and the days surrounding it. Have a backup date agreed with your removalist in advance",
+          'Check the <a href="http://www.bom.gov.au/qld/" target="_blank" rel="noopener noreferrer">Bureau of Meteorology</a> forecast for your moving date and the days surrounding it. Have a backup date agreed with your removalist in advance',
           "Keep tarps and plastic sheeting on hand for moving day. Even a short rain burst during loading can soak exposed furniture",
           "If your new home has been closed up during the wet season, arrive early and open all windows and turn on the air conditioning to reduce humidity before your furniture arrives",
           "Ensure [packing materials](/packing-services-cairns) include moisture barriers for sensitive items",
-          "For [interstate moves](/interstate-removalists), ask your removalist about the current road conditions on the Bruce Highway before the truck departs",
+          'For [interstate moves](/interstate-removalists), check <a href="https://www.tmr.qld.gov.au/travel-and-transport/road-and-traffic/queensland-road-conditions" target="_blank" rel="noopener noreferrer">QLD road conditions</a> on the Bruce Highway before the truck departs',
           "Consider [storage in Cairns](/storage-cairns) if you need a climate-controlled holding option while waiting for weather to clear or settlement to go through",
         ],
       },
@@ -3173,6 +3173,144 @@ export const blogPosts: BlogPost[] = [
       {
         type: "paragraph",
         text: "Moving during cyclone season is completely manageable with the right preparation and the right removalist. Our teams in [Cairns](/removalists-cairns) and [Townsville](/removalists-townsville) are experienced with wet season moves and know how to protect your belongings from humidity and weather delays. [Get a free quote](/quote) for your move and we will build in the flexibility you need for a smooth relocation, rain or shine.",
+      },
+    ],
+  },
+
+  // ── Post 23: Best Removalists Brisbane ─────────────────
+  {
+    slug: "best-removalists-brisbane",
+    title: "How to Choose the Best Removalists in Brisbane (2026 Guide)",
+    metaTitle: "Best Removalists Brisbane 2026 | What to Look For",
+    metaDescription:
+      "What makes a great Brisbane removalist? This 2026 guide covers the 8 things that separate reliable movers from the rest, plus red flags to avoid.",
+    excerpt:
+      "Not all Brisbane removalists are equal. This guide breaks down 8 specific things to look for when choosing a mover in Brisbane, from insurance and truck quality to how they handle stilt houses and Brisbane traffic.",
+    category: "Moving Tips",
+    date: "April 2026",
+    publishedDate: "2026-04-03",
+    readTime: "7 min read",
+    author: "R2G Moving Team",
+    image: "/images/r2g-removalists-brisbane-truck.webp",
+    imageAlt: "R2G removalist truck parked outside a Brisbane home during a local house move",
+    keywords: [
+      "best removalists brisbane",
+      "brisbane removalists",
+      "top movers brisbane",
+      "how to choose removalist brisbane",
+      "reliable removalists brisbane",
+      "trusted removalists brisbane 2026",
+    ],
+    relatedSlugs: ["choose-right-moving-company", "cost-of-moving-brisbane", "moving-to-brisbane-guide"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Brisbane has dozens of removalist companies, and choosing the wrong one can turn a straightforward move into a costly headache. Damaged furniture, no-shows, hidden fees, and uninsured operators are more common than most people realise. This guide covers the 8 things that separate a great Brisbane removalist from a risky one, so you can make a confident decision before booking.",
+      },
+      {
+        type: "heading",
+        text: "1. They Carry Proper Insurance",
+      },
+      {
+        type: "paragraph",
+        text: "The single most important thing to check is insurance. A professional Brisbane removalist should carry public liability insurance (minimum $10 million) and goods-in-transit cover. Public liability protects your property if the crew damages a wall, door frame, or floor during the move. Goods-in-transit covers your belongings while they are on the truck. Ask for a certificate of currency before booking. If a company cannot produce one, walk away.",
+      },
+      {
+        type: "tip",
+        title: "Check the certificate date",
+        text: "Insurance certificates expire annually. Make sure the certificate of currency you receive is current and covers the date of your move, not just the date you requested it.",
+      },
+      {
+        type: "heading",
+        text: "2. They Know Brisbane Housing Types",
+      },
+      {
+        type: "paragraph",
+        text: "Brisbane is not a one-size-fits-all city when it comes to housing. Inner suburbs like Paddington, Red Hill, and Woolloongabba are dominated by Queenslanders on stilts with narrow external stairs. The CBD and South Bank have high-rise apartments with loading dock restrictions and lift bookings. Western corridor suburbs like Springfield and Forest Lake have large single-storey homes on wide blocks. A good Brisbane removalist will ask about your property type during the quoting process and adjust their crew size, truck choice, and equipment accordingly. If they do not ask, they are not planning properly.",
+      },
+      {
+        type: "heading",
+        text: "3. They Quote On-Site or by Video",
+      },
+      {
+        type: "paragraph",
+        text: "Any removalist who quotes a fixed price based on a phone description of your home is guessing. The best Brisbane movers will offer a free on-site inspection or a video walkthrough before giving you a final price. This is where they assess stairs, access, parking, heavy items, and anything that could affect the job. An accurate quote protects both sides. It means no surprise charges on moving day and no arguments about what was included.",
+      },
+      {
+        type: "heading",
+        text: "4. They Have a Local Depot",
+      },
+      {
+        type: "paragraph",
+        text: "A removalist based in Brisbane will have shorter travel times to your door, which directly affects your hourly cost. If the company is based on the Gold Coast or in regional Queensland, you may be paying for an extra hour of travel each way. Ask where their depot is. A Brisbane-based operator also knows the local traffic patterns. They know that the M1 heading south is a crawl from 3:30 pm, that the Gateway Bridge toll adds time during peak hour, and that parking in New Farm or West End on a weekday needs planning. This local knowledge translates to a faster, cheaper move.",
+      },
+      {
+        type: "heading",
+        text: "5. They Use Clean, Modern Trucks",
+      },
+      {
+        type: "paragraph",
+        text: "The condition of the truck tells you a lot about the company. A professional removalist runs trucks with padded interiors, clean floors, working hydraulic tail lifts, and plenty of tie-down points. Bare timber floors, rusty tray bodies, and trucks without padding are red flags. Your furniture will slide, scratch, and bang around in transit. Ask what size trucks they run and whether the interiors are padded. For a standard 3-bedroom Brisbane home, you want a minimum 40-cubic-metre truck so everything fits in a single load.",
+      },
+      {
+        type: "heading",
+        text: "6. They Have Verified Reviews",
+      },
+      {
+        type: "paragraph",
+        text: 'Online reviews are the fastest way to check a removalist\'s track record. Look for companies with a high volume of Google reviews (100+) and a rating above 4.5 stars. Read the negative reviews carefully. One complaint about a rainy day delay is different from repeated complaints about damaged items or hidden charges. Check that the reviews are spread over time, not clustered in a single week (which can indicate fake reviews). A <a href="https://www.accc.gov.au/consumers/online-shopping/online-reviews" target="_blank" rel="noopener noreferrer">guide from the ACCC</a> explains how to spot fake reviews.',
+      },
+      {
+        type: "heading",
+        text: "7. They Offer Transparent Hourly Rates",
+      },
+      {
+        type: "paragraph",
+        text: "Brisbane removalists typically charge by the hour for local moves. A trustworthy company will clearly state their hourly rate, minimum booking period, and what is included. Watch for hidden extras like fuel surcharges, stair charges, weekend rates, or credit card fees that are not mentioned until invoice time. The rate should include the truck, driver, crew, basic equipment (blankets, straps, trolleys), and standard furniture wrapping. Packing materials and packing labour are usually quoted separately, and that is normal.",
+      },
+      {
+        type: "list",
+        items: [
+          "2 movers + truck: $179 to $200 per hour is standard in Brisbane for 2026",
+          "3 movers + large truck: $250 to $280 per hour for larger homes",
+          "Minimum booking: usually 2 hours",
+          "Travel time: some companies charge from depot to door, others start the clock at your address. Ask which applies",
+        ],
+      },
+      {
+        type: "heading",
+        text: "8. They Communicate Clearly Before, During, and After",
+      },
+      {
+        type: "paragraph",
+        text: "A great removalist confirms your booking with a written quote, sends a reminder before the day, and provides a crew arrival window. On the day, the team leader should walk through your home with you, confirm the scope of work, and flag anything that could affect timing or cost. After the move, they should follow up to check everything arrived safely. If you cannot get a response to a simple enquiry before booking, that is a strong signal of what the service will be like on the day.",
+      },
+      {
+        type: "heading",
+        text: "Red Flags to Avoid",
+      },
+      {
+        type: "list",
+        items: [
+          "No ABN or business registration. Check the <a href=\"https://abr.business.gov.au\" target=\"_blank\" rel=\"noopener noreferrer\">Australian Business Register</a> before paying a deposit",
+          "Cash-only payment with no invoice or receipt",
+          "No written quote. Verbal agreements leave you exposed to price disputes",
+          "Refusing to provide a certificate of insurance",
+          "Extremely low quotes that are 40 to 50 percent below competitors. This usually means underquoting to win the job, then adding charges on the day",
+          "No branded trucks or uniforms. Professional companies invest in their brand and equipment",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Why Brisbane Locals Choose R2G",
+      },
+      {
+        type: "paragraph",
+        text: "R2G Transport ticks every box on this list. We carry full public liability and goods-in-transit insurance, run modern padded trucks from our Brisbane depot, and have over 770 Google reviews with a 4.9-star rating. Our crew handles everything from Queenslander stilt houses to CBD high-rises, and we quote transparently with no hidden fees. We have been moving Brisbane families since 2016 and we know the city inside out.",
+      },
+      {
+        type: "paragraph",
+        text: "Ready to book a Brisbane removalist you can trust? [Get a free quote](/quote) from our team, or explore our [Brisbane removalist services](/removalists-brisbane) to see how we can help with your next move. For a detailed price breakdown, check our [Brisbane moving cost guide](/blog/cost-of-moving-brisbane).",
       },
     ],
   },

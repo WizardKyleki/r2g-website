@@ -365,14 +365,18 @@ export default function RemovalistsSunshineCoastPage() {
                   level of care and professionalism.
                 </p>
                 <p>
-                  We arrive on time, work efficiently, and treat your belongings as if they were our
-                  own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
+                  Sunshine Coast properties are as varied as the region itself. Our crew handles
+                  beachside unit moves in Mooloolaba and Alexandra Headland, steep driveway access
+                  in Buderim and Montville, and large acreage relocations through the hinterland.
+                  We bring the right truck for the terrain and plan access before arrival so there
+                  are no surprises on the day.
                 </p>
                 <p>
-                  Our modern trucks are clean, well-maintained, and stocked with premium moving
-                  equipment including furniture blankets, tie-down straps, dollies, and protective
-                  padding. You won&apos;t find bare timber floors or loose loads with R2G.
+                  We route our Sunshine Coast moves to work with Bruce Highway and Sunshine Motorway
+                  traffic patterns, keeping travel time between pickups and drop-offs short. Every
+                  truck carries full protective equipment including furniture blankets, tie-down
+                  straps, dollies, and corner guards, plus weatherproof wrapping for anything
+                  exposed to coastal salt air during loading.
                 </p>
               </div>
             </div>

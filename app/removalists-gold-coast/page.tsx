@@ -365,14 +365,17 @@ export default function RemovalistsGoldCoastPage() {
                   level of care and professionalism.
                 </p>
                 <p>
-                  We arrive on time, work efficiently, and treat your belongings as if they were our
-                  own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
+                  Gold Coast moves range from high-rise apartments along the beachfront strip to
+                  canal-front homes in Isle of Capri and sprawling new builds in Coomera and Pimpama.
+                  High-rise jobs need loading dock bookings and lift reservations, and our team
+                  coordinates all of that before arrival. Ground-level homes in the hinterland often
+                  have steep driveways and limited truck access, which we assess during quoting.
                 </p>
                 <p>
-                  Our modern trucks are clean, well-maintained, and stocked with premium moving
-                  equipment including furniture blankets, tie-down straps, dollies, and protective
-                  padding. You won&apos;t find bare timber floors or loose loads with R2G.
+                  We know the M1 congestion points and time our Gold Coast moves to avoid the worst
+                  of the motorway traffic between Nerang and Helensvale. Our trucks carry protective
+                  padding on every surface, hydraulic tail lifts for heavy items, and enough blankets
+                  and straps to keep a full 4-bedroom home secure in transit.
                 </p>
               </div>
             </div>

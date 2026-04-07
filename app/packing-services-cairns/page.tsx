@@ -42,24 +42,28 @@ const breadcrumbSchema = {
 
 const faqs = [
   {
-    question: "Do you supply all the packing materials?",
-    answer: "Yes! We supply everything — boxes, bubble wrap, packing paper, furniture blankets, tape, and markers. You don't need to source a single thing.",
+    question: "Do you bring all the packing materials to Cairns jobs?",
+    answer: "Yes. Our crew arrives with everything needed: reinforced cartons, bubble wrap, packing paper, moisture-resistant wrapping for the tropical climate, furniture blankets, tape, and markers. You do not need to buy or source anything.",
   },
   {
-    question: "Can I choose to have only part of my home packed?",
-    answer: "Absolutely. We offer full packing (your entire home) and partial packing (just the kitchen, fragile items, or any specific rooms). You choose what works best for you.",
+    question: "Can you just pack the fragile items in my Cairns home?",
+    answer: "Yes. Our partial packing service lets you choose specific rooms or item types. Most Cairns customers ask us to handle the kitchen, glassware, artwork, and electronics while they pack bedrooms and clothing themselves.",
   },
   {
-    question: "How long does packing take?",
-    answer: "Packing time varies by home size. A 2-bedroom unit typically takes 3–4 hours with two packers. A 4-bedroom home can take 6–8 hours. We provide an estimate before your move.",
+    question: "How long does it take to pack a Cairns home?",
+    answer: "A 2-bedroom unit or stilt house typically takes 3 to 4 hours with two packers. A larger 4-bedroom home can take a full day. We provide a time estimate during quoting based on your home layout and access.",
   },
   {
-    question: "Do you also unpack at the new home?",
-    answer: "Yes, we offer an unpacking service at your new property. Our team will unpack your boxes and place items in the rooms you specify, leaving you to simply settle in.",
+    question: "Do you protect items from Cairns humidity during packing?",
+    answer: "Yes. We use moisture-resistant plastic wrapping on upholstered furniture, silica packets for electronics, and sealed plastic liners inside cartons for documents and clothing. This is standard on all Cairns packing jobs during the wet season.",
   },
   {
-    question: "How do you pack fragile items?",
-    answer: "Fragile items like glassware, artwork, mirrors, and crockery are individually wrapped in packing paper and bubble wrap, then placed in double-walled boxes with extra cushioning. We take no chances with your valuables.",
+    question: "Can packing and removal happen on the same day in Cairns?",
+    answer: "Yes, for smaller homes we can pack in the morning and load the truck in the afternoon. For larger homes, we recommend packing the day before so moving day runs faster and smoother.",
+  },
+  {
+    question: "Do you offer unpacking at the new Cairns address?",
+    answer: "Yes. Our team can unpack boxes, place items in the rooms you specify, and remove all packing materials. This is especially popular with interstate arrivals who want to settle into their new Cairns home quickly.",
   },
 ];
 
@@ -160,13 +164,25 @@ export default function PackingServicesPage() {
               </div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Packing is the most time-consuming and often most stressful part of any move. Our professional packing service takes that weight off your shoulders entirely.
+                  Cairns homes present unique packing challenges that general removalists often
+                  overlook. Stilt houses mean every packed box needs to travel down external stairs.
+                  Tropical humidity can warp cardboard and damage electronics if items are not
+                  wrapped properly. Our Cairns packing crew accounts for both of these factors on
+                  every job, using moisture-resistant wrapping and reinforced boxes built to handle
+                  the Far North Queensland climate.
                 </p>
                 <p>
-                  Our trained packers work quickly and methodically, using premium packing materials to protect every item — from everyday kitchenware to your most precious breakables. Everything is carefully labelled and inventoried so unpacking at the other end is a breeze.
+                  We pack kitchens with layered tissue and cell dividers for glassware, wrap
+                  furniture in padded blankets before it leaves the room, and use custom crating
+                  for artwork, mirrors, and flat-screen TVs. Every box is labelled by room and
+                  contents so you can unpack in order at your new address, whether that is across
+                  Cairns or at the other end of an interstate move.
                 </p>
                 <p>
-                  You can choose our full packing service (we pack everything) or a partial packing service (just the tricky or fragile stuff). We can also combine packing with your removal service for a completely seamless moving experience.
+                  Choose our full packing service and we handle your entire home in a single day.
+                  Or book partial packing for just the kitchen, breakables, or any rooms you would
+                  rather not tackle yourself. Both options can be combined with your Cairns removal
+                  for one streamlined booking.
                 </p>
               </div>
 
@@ -174,10 +190,10 @@ export default function PackingServicesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-10">
                 <div className="border-2 border-[#F5C400] rounded-2xl p-6">
                   <div className="text-[#F5C400] text-sm font-bold uppercase tracking-widest mb-2">Full Packing</div>
-                  <h4 className="text-xl font-bold text-[#1A1A1A] mb-3">We Pack Everything</h4>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-4">Our team packs your entire home from top to bottom — every room, every cupboard, every item.</p>
+                  <h4 className="text-xl font-bold text-[#1A1A1A] mb-3">We Pack Your Entire Cairns Home</h4>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4">Our crew packs every room, cupboard, and shelf using humidity-resistant materials suited to the tropics.</p>
                   <ul className="space-y-2">
-                    {["All rooms & cupboards", "All materials included", "Fully labelled boxes", "Ready to move same day"].map(f => (
+                    {["All rooms & cupboards", "Moisture-resistant wrapping", "Labelled & inventoried", "Ready to move same day"].map(f => (
                       <li key={f} className="flex items-center gap-2 text-sm text-gray-600">
                         <svg className="w-3.5 h-3.5 text-[#F5C400]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -189,10 +205,10 @@ export default function PackingServicesPage() {
                 </div>
                 <div className="border border-gray-200 rounded-2xl p-6">
                   <div className="text-gray-500 text-sm font-bold uppercase tracking-widest mb-2">Partial Packing</div>
-                  <h4 className="text-xl font-bold text-[#1A1A1A] mb-3">We Pack What You Need</h4>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-4">Let us handle the hard stuff — fragile items, kitchen, garage, or any specific rooms you choose.</p>
+                  <h4 className="text-xl font-bold text-[#1A1A1A] mb-3">Just the Tricky Stuff</h4>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4">Hand off the kitchen, breakables, or garage while you pack the simpler rooms at your own pace.</p>
                   <ul className="space-y-2">
-                    {["Choose specific rooms", "Fragile item specialists", "Flexible service", "Combine with removal"].map(f => (
+                    {["Pick your rooms", "Fragile item specialists", "Works around your schedule", "Bundle with removal"].map(f => (
                       <li key={f} className="flex items-center gap-2 text-sm text-gray-600">
                         <svg className="w-3.5 h-3.5 text-[#F5C400]" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -224,7 +240,7 @@ export default function PackingServicesPage() {
             <div>
               <div className="bg-[#1A1A1A] rounded-2xl p-8 sticky top-28">
                 <h3 className="text-white font-bold text-xl mb-2">Get a Packing Quote</h3>
-                <p className="text-gray-400 text-sm mb-6">Tell us about your home and we&apos;ll give you a fast, free quote.</p>
+                <p className="text-gray-400 text-sm mb-6">Tell us about your Cairns home, stilt access, and rooms to pack. We&apos;ll send a clear quote within hours.</p>
                 <Link
                   href="/quote"
                   className="block w-full bg-[#F5C400] hover:bg-[#d4a900] text-[#1A1A1A] font-bold px-6 py-3 rounded-lg transition-colors text-center mb-3"
@@ -279,7 +295,7 @@ export default function PackingServicesPage() {
 
       <CTABanner
         heading="Ready to Take the Stress Out of Packing?"
-        subtext="Our professional packers in Cairns are ready to help. Get a free, no-obligation quote today."
+        subtext="From stilt houses in Edge Hill to units in Cairns City, our packing crew handles it all. Get a free quote today."
       />
     </>
   );

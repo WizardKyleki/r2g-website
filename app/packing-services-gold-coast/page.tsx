@@ -170,13 +170,26 @@ export default function PackingServicesGoldCoastPage() {
               </div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Moving on the Gold Coast means navigating everything from high-rise apartments in Surfers Paradise and Broadbeach to spacious family homes in Robina, Varsity Lakes, and Southport. No matter what type of property you are leaving, packing is always the most time-consuming part of any move. Our professional packing service handles all of it for you.
+                  Gold Coast packing jobs come with their own set of considerations. Beachfront
+                  apartments in Surfers Paradise and Broadbeach often have strict loading dock
+                  schedules and shared lifts, so everything needs to be packed tight and ready to
+                  move in a compressed window. Canal-front homes in Isle of Capri and Mermaid Waters
+                  have oversized outdoor furniture and water-sport gear that requires custom
+                  wrapping. Our Gold Coast packers plan for all of it.
                 </p>
                 <p>
-                  Our trained packers use premium materials to protect every item in your home, from everyday kitchenware to valuable artwork and fragile collectibles. Each box is carefully labelled and inventoried, making the unpacking process at your new Gold Coast address fast and simple.
+                  We use cell-divided cartons for glassware, acid-free tissue for artwork, and
+                  heavy-duty wardrobe boxes that let your clothes travel on hangers without
+                  creasing. Every item is wrapped individually, and boxes are packed to weight
+                  limits so nothing shifts in transit on the M1. Each box is labelled with the room
+                  and a contents summary for fast, organised unpacking at the other end.
                 </p>
                 <p>
-                  You can choose our full packing service where we pack your entire home, or a partial packing service focused on specific rooms or fragile items. We also offer combined packing and removal packages for a completely seamless relocation across the Gold Coast or interstate.
+                  Our full packing option covers your entire Gold Coast home in a single visit.
+                  Partial packing lets you hand off the kitchen, garage, or fragile items while you
+                  handle the rest at your own pace. Either way, you can bundle packing with your
+                  Gold Coast removal so the same team packs and moves your belongings on the same
+                  day or back to back.
                 </p>
               </div>
 
@@ -288,8 +301,8 @@ export default function PackingServicesGoldCoastPage() {
       </section>
 
       <CTABanner
-        heading="Ready to Take the Stress Out of Packing?"
-        subtext="Our professional packers on the Gold Coast are ready to help. Get a free, no-obligation quote today."
+        heading="Gold Coast Packing, Sorted"
+        subtext="High-rise, canal-front, or hinterland home, our Gold Coast packers handle every property type. Get a free quote today."
       />
     </>
   );

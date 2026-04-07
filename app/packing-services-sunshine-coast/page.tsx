@@ -170,13 +170,27 @@ export default function PackingServicesSunshineCoastPage() {
               </div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  The Sunshine Coast is one of Queensland&apos;s fastest-growing regions, and that means plenty of people are moving in, moving out, and upgrading homes across suburbs like Maroochydore, Caloundra, Noosa, Mooloolaba, and Buderim. Packing up a household is always the most time-consuming part of any relocation. Our professional packing service takes that entire job off your hands.
+                  Sunshine Coast homes range from compact beachside units in Mooloolaba and
+                  Caloundra to large family properties on acreage in the hinterland around
+                  Maleny and Montville. Hinterland homes often hold decades of accumulated
+                  belongings, bulky outdoor furniture, and workshop equipment that needs careful
+                  sorting and wrapping. Coastal properties deal with salt air exposure on metal
+                  fixtures and outdoor items. Our Sunshine Coast packers adjust their materials and
+                  approach for each property type.
                 </p>
                 <p>
-                  Our trained team uses premium packing materials to protect every item in your home. Fragile glassware, valuable artwork, bulky appliances, and everyday household goods are all wrapped, boxed, and labelled with the same level of care. When you arrive at your new address, everything is organised and easy to unpack.
+                  Kitchens are packed with layered tissue and cell dividers to protect glassware
+                  and crockery. Artwork and mirrors get corner protectors and custom-cut cardboard
+                  sleeves. Wardrobes are transferred directly into hanging boxes so clothes arrive
+                  wrinkle-free. Every carton is sealed, labelled by room, and packed to weight so
+                  nothing shifts during the drive along the Bruce Highway or Sunshine Motorway.
                 </p>
                 <p>
-                  Whether you need your whole home packed or just help with the difficult items, we offer both full and partial packing options. Combine packing with your Sunshine Coast removal for a complete, stress-free moving experience from start to finish.
+                  Book our full packing service and we will pack your entire Sunshine Coast home
+                  the day before or morning of your move. Prefer to do some rooms yourself? Our
+                  partial packing covers the kitchen, garage, or breakables while you handle
+                  bedrooms and personal items. Both options pair with our Sunshine Coast removal
+                  service for one coordinated booking.
                 </p>
               </div>
 
@@ -288,8 +302,8 @@ export default function PackingServicesSunshineCoastPage() {
       </section>
 
       <CTABanner
-        heading="Ready to Take the Stress Out of Packing?"
-        subtext="Our professional packers on the Sunshine Coast are ready to help. Get a free, no-obligation quote today."
+        heading="Sunshine Coast Packing, Done Right"
+        subtext="Beachside units, hinterland acreage, or family homes in Buderim. Our Sunshine Coast packers cover it all. Get a free quote."
       />
     </>
   );

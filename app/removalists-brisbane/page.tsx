@@ -370,14 +370,18 @@ export default function RemovalistsBrisbanePage() {
                   level of care and professionalism.
                 </p>
                 <p>
-                  We arrive on time, work efficiently, and treat your belongings as if they were our
-                  own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
+                  Brisbane homes come in all shapes. Our crew moves Queenslanders on stilts in
+                  Paddington and Red Hill, navigates tight hallways in Fortitude Valley high-rises,
+                  and handles sprawling family homes across the western corridor from Springfield to
+                  Forest Lake. Each property type needs a different loading approach, and our team
+                  knows the drill for all of them.
                 </p>
                 <p>
-                  Our modern trucks are clean, well-maintained, and stocked with premium moving
-                  equipment including furniture blankets, tie-down straps, dollies, and protective
-                  padding. You won&apos;t find bare timber floors or loose loads with R2G.
+                  We schedule Brisbane moves around peak traffic on the M1, Gateway Motorway, and
+                  inner-city arterials to keep your hourly costs down. Our trucks run out of our
+                  Brisbane depot, which means shorter travel times to your door and more time spent
+                  actually moving your belongings. Every truck is fully stocked with furniture
+                  blankets, tie-down straps, dollies, and protective padding.
                 </p>
               </div>
             </div>

@@ -369,14 +369,18 @@ export default function RemovalistsCairnsPage() {
                   level of care and professionalism.
                 </p>
                 <p>
-                  We arrive on time, work efficiently, and treat your belongings as if they were our
-                  own. From wrapping delicate furniture to carefully disassembling and reassembling
-                  large beds, wardrobes, and flat-pack furniture — we&apos;ve got every detail covered.
+                  A large number of Cairns homes are raised on stilts, which means furniture has to
+                  go up and down external stairs on every job. Our crew trains specifically for
+                  stilt-house moves and carries the right equipment for narrow stairways in suburbs
+                  like Edge Hill, Whitfield, and Earlville. We also handle high-humidity packing
+                  with moisture barriers to protect your items during the tropical wet season.
                 </p>
                 <p>
-                  Our modern trucks are clean, well-maintained, and stocked with premium moving
-                  equipment including furniture blankets, tie-down straps, dollies, and protective
-                  padding. You won&apos;t find bare timber floors or loose loads with R2G.
+                  Our Cairns depot puts us within 20 minutes of most suburbs from Trinity Beach to
+                  Gordonvale. We schedule around the Captain Cook Highway peak and start early during
+                  summer months to get the heavy lifting done before the worst of the midday heat.
+                  Every truck carries furniture blankets, tie-down straps, dollies, and weatherproof
+                  wrapping as standard.
                 </p>
               </div>
             </div>
