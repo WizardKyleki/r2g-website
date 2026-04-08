@@ -431,7 +431,7 @@ export default function RemovalistsCairnsPage() {
                       {[
                         { label: "Packing Services", href: "/packing-services-cairns" },
                         { label: "Storage Cairns", href: "/storage-cairns" },
-                        { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Interstate Removals Cairns", href: "/interstate-removals-cairns" },
                       ].map((link) => (
                         <Link
                           key={link.href}

@@ -372,7 +372,7 @@ export async function generateMetadata({
   const city = getCityData(slug);
   if (!city) return {};
 
-  const title = `How Much Do Removalists Cost in ${city.name}? 2026 Price Guide`;
+  const title = `Removalist Costs ${city.name} 2026 | Price Guide`;
   const canonical = `https://www.r2g.com.au/removalist-costs/${city.slug}`;
 
   return {
@@ -433,22 +433,18 @@ export default async function RemovalistCostsPage({
 
   const serviceSchema = {
     "@context": "https://schema.org",
-    "@type": "Service",
-    name: `Removalist Services ${city.name}`,
+    "@type": "MovingCompany",
+    name: "R2G Transport & Storage",
     description: `Professional removalist services in ${city.name}. Local and interstate moves, fully insured, transparent pricing.`,
-    provider: {
-      "@type": "MovingCompany",
-      name: "R2G Transport & Storage",
-      telephone: "1300 959 498",
-      url: "https://www.r2g.com.au",
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: RATING_VALUE,
-        reviewCount: REVIEW_COUNT,
-        bestRating: "5",
-      },
-    },
+    telephone: "1300 959 498",
+    url: "https://www.r2g.com.au",
     areaServed: city.name,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: RATING_VALUE,
+      reviewCount: REVIEW_COUNT,
+      bestRating: "5",
+    },
   };
 
   return (

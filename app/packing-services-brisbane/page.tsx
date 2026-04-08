@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Packing Services Brisbane | Professional & Fully Insured",
+  title: "Packing Services Brisbane | Fully Insured | R2G",
   description:
     "Professional packing services in Brisbane. Trained packers, quality materials, full or partial packing available. Fully insured. Get a free quote today.",
   keywords: ["packing services brisbane", "professional packers brisbane", "packing boxes brisbane", "removal packing brisbane"],
   alternates: { canonical: "https://www.r2g.com.au/packing-services-brisbane" },
   openGraph: {
-    title: "Packing Services Brisbane | Professional & Fully Insured",
+    title: "Packing Services Brisbane | Fully Insured | R2G",
     description: "Professional packing services in Brisbane. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-brisbane",
   },

@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, BRISBANE_ADDRESS, CAIRNS_ADDRESS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Storage Sunshine Coast | Secure Short & Long-Term Solutions",
+  title: "Storage Sunshine Coast | Short & Long-Term | R2G",
   description:
-    "Secure storage for Sunshine Coast residents. R2G picks up from your Sunshine Coast home, stores at our Brisbane facility, and delivers when you're ready. Free quote.",
+    "Secure storage for Sunshine Coast residents. Pickup from your home, stored at our Brisbane facility, delivered when ready. Free quote.",
   keywords: ["storage sunshine coast", "self storage sunshine coast", "moving and storage sunshine coast", "short term storage sunshine coast", "long term storage sunshine coast"],
   alternates: { canonical: "https://www.r2g.com.au/storage-sunshine-coast" },
   openGraph: {
-    title: "Storage Sunshine Coast | Secure Short & Long-Term Solutions",
+    title: "Storage Sunshine Coast | Short & Long-Term | R2G",
     description: "Secure storage for Sunshine Coast residents. Pickup, storage, and delivery all handled by R2G. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-sunshine-coast",
   },

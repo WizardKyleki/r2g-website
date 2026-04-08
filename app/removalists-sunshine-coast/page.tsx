@@ -426,6 +426,7 @@ export default function RemovalistsSunshineCoastPage() {
                     <div className="space-y-2">
                       {[
                         { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Sunshine Coast Moving Costs", href: "/removalist-costs/sunshine-coast" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
                       ].map((link) => (

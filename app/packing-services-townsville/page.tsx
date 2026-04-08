@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Packing Services Townsville | Professional & Fully Insured",
+  title: "Packing Services Townsville | Fully Insured | R2G",
   description:
     "Professional packing services in Townsville. Trained packers, quality materials, full or partial packing available. Fully insured. Get a free quote today.",
   keywords: ["packing services townsville", "professional packers townsville", "packing boxes townsville", "removal packing townsville"],
   alternates: { canonical: "https://www.r2g.com.au/packing-services-townsville" },
   openGraph: {
-    title: "Packing Services Townsville | Professional & Fully Insured",
+    title: "Packing Services Townsville | Fully Insured | R2G",
     description: "Professional packing services in Townsville. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-townsville",
   },

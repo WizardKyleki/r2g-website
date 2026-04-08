@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, BRISBANE_ADDRESS, CAIRNS_ADDRESS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Storage Townsville | Secure Short & Long-Term Solutions",
+  title: "Storage Townsville | Short & Long-Term | R2G",
   description:
     "Secure storage for Townsville residents. R2G picks up from your Townsville home, stores at our Cairns facility, and delivers when you're ready. Free quote.",
   keywords: ["storage townsville", "self storage townsville", "moving and storage townsville", "short term storage townsville", "long term storage townsville"],
   alternates: { canonical: "https://www.r2g.com.au/storage-townsville" },
   openGraph: {
-    title: "Storage Townsville | Secure Short & Long-Term Solutions",
+    title: "Storage Townsville | Short & Long-Term | R2G",
     description: "Secure storage for Townsville residents. Pickup, storage, and delivery all handled by R2G. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-townsville",
   },

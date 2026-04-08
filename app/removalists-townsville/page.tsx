@@ -422,6 +422,7 @@ export default function RemovalistsTownsvillePage() {
                     <div className="space-y-2">
                       {[
                         { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Townsville Moving Costs", href: "/removalist-costs/townsville" },
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
                         { label: "Removalists Gold Coast", href: "/removalists-gold-coast" },

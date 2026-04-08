@@ -199,7 +199,7 @@ export const metadata: Metadata = {
     absolute: "Removalists Gold Coast | Trusted Local Movers | R2G",
   },
   description:
-    `Gold Coast removalists you can trust. Fully insured with no hidden fees. Surfers Paradise to Coolangatta — all 81 suburbs covered. ${REVIEW_DISPLAY} five-star reviews. Free quote.`,
+    `Gold Coast removalists you can trust. Fully insured, no hidden fees. All 81 suburbs covered. ${REVIEW_DISPLAY} five-star reviews. Free quote.`,
   keywords: [
     "removalists gold coast",
     "gold coast removalists",
@@ -425,6 +425,7 @@ export default function RemovalistsGoldCoastPage() {
                     <div className="space-y-2">
                       {[
                         { label: "Interstate Removals", href: "/interstate-removalists" },
+                        { label: "Gold Coast Moving Costs", href: "/removalist-costs/gold-coast" },
                         { label: "Removalists Brisbane", href: "/removalists-brisbane" },
                         { label: "Removalists Cairns", href: "/removalists-cairns" },
                       ].map((link) => (

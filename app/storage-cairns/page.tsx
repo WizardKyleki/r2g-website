@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, CAIRNS_ADDRESS, BRISBANE_ADDRESS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Storage Cairns | Secure Short & Long-Term Solutions",
+  title: "Storage Cairns | Short & Long-Term | R2G",
   description:
-    "Secure, clean storage in Cairns. Flexible short and long-term solutions — perfect between moves, renovations or business. Get a free quote today.",
+    "Secure, clean storage in Cairns. Flexible short and long-term solutions, perfect between moves, renovations or business. Free quote.",
   keywords: ["storage cairns", "self storage cairns", "moving and storage cairns", "short term storage cairns", "long term storage cairns"],
   alternates: { canonical: "https://www.r2g.com.au/storage-cairns" },
   openGraph: {
-    title: "Storage Cairns | Secure Short & Long-Term Solutions",
+    title: "Storage Cairns | Short & Long-Term | R2G",
     description: "Secure, flexible storage in Cairns. Short or long-term, no lock-in contracts. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-cairns",
   },

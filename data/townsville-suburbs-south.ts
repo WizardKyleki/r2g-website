@@ -274,7 +274,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Kelso Townsville | R2G Transport & Storage",
     metaDescription:
-      "Affordable removalists in Kelso, Townsville. Local and long-distance moves, fully insured. Easy highway access for interstate relocations. Get a free quote today.",
+      "Affordable removalists in Kelso, Townsville. Local and long-distance moves, fully insured. Get a free quote today.",
     moveDay:
       "Kelso jobs start early — we try to get on-site by seven before the highway interchange traffic picks up. Our truck pulls off the Bruce Highway or comes down Kelso Drive and parks right outside the property. The crew walks through the house first, tags fragile items and works out the best loading order.\n\nThe older high-set homes near the highway are the ones that take a bit more time. Steep front stairs, narrow landings and understorey areas packed with storage boxes and tools that all need to come out. We bring stair trolleys and extra blankets for these jobs. The newer ground-level homes are much quicker — straight out through the garage, up the ramp and into the truck.\n\nA 3-bedroom high-set in Kelso takes about three and a half to four hours with a two-person crew. Ground-level homes are closer to three hours. We load heavy items first, boxes tight against the walls, and strap everything down before we move. The drive from Kelso to most Townsville suburbs is fifteen to twenty minutes. For interstate moves heading south, we load up and hit the highway straight from your front door — no need to backtrack through the city.",
     localFaqs: [
@@ -440,7 +440,7 @@ export const townsvilleSouthSuburbs: TownsvilleSuburb[] = [
     phone: "1300 959 498",
     metaTitle: "Removalists Murray Townsville | R2G Transport & Storage",
     metaDescription:
-      "Experienced removalists in Murray, Townsville. Trusted by defence families for local and interstate moves. Fully insured, no hidden fees. Get a free quote today.",
+      "Experienced removalists in Murray, Townsville. Trusted by defence families. Fully insured, no hidden fees. Free quote.",
     moveDay:
       "Murray moves often come with a posting timeline — the family has a set date to be out and a new city to get to. We have done enough of these to know the routine. Our crew arrives early, usually by seven, and parks on the residential street outside the property. Defence Housing homes have a standard layout that our team knows well — walk through takes two minutes and we are loading within five.\n\nThe single-level brick homes load fast. Whitegoods first, then bedroom suites, dining furniture, lounge, and boxes stacked tight. We wrap everything in quilted blankets and strap it down. The older Queenslander-style homes closer to the barracks take more time — steep stairs, narrow verandahs and furniture that needs to be angled carefully around corners.\n\nFor local moves within Townsville, the whole job is done in three to four hours. For interstate relocations — Brisbane, Sydney, Darwin — we typically do a full pack the day before, load on move day and have your belongings on the road by lunchtime. We coordinate with Defence relocation services and can work within the paperwork timelines that military families are dealing with. Transit times vary, but Brisbane is typically three to four days, and we keep you updated throughout.",
     localFaqs: [

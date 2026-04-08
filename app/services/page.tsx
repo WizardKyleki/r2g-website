@@ -117,18 +117,13 @@ const services = [
 
 const servicesSchema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Moving Services — R2G Transport & Storage",
+  "@type": "MovingCompany",
+  name: "R2G Transport & Storage",
   description:
     "Full range of moving services including local removals, interstate moves, office relocations, and professional packing in Cairns and Brisbane.",
-  provider: {
-    "@type": "MovingCompany",
-    name: "R2G Transport & Storage",
-    telephone: "1300 959 498",
-    url: "https://www.r2g.com.au",
-  },
+  telephone: "1300 959 498",
+  url: "https://www.r2g.com.au",
   areaServed: ["Cairns", "Brisbane", "Gold Coast", "Sunshine Coast"],
-  serviceType: ["Local Removals", "Interstate Moving", "Office Relocations", "Packing Services"],
 };
 
 export default function ServicesPage() {

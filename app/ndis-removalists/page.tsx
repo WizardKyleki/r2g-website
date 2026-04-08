@@ -186,7 +186,7 @@ export const metadata: Metadata = {
     absolute: "NDIS Registered Removalists | Trusted NDIS Movers QLD",
   },
   description:
-    "NDIS registered removalists helping participants move across Queensland and interstate. Fully insured, plan-funded support, NDIS-compliant invoicing. Cairns, Brisbane, Gold Coast. Free quote.",
+    "NDIS registered removalists in QLD. Fully insured, plan-funded support, NDIS-compliant invoicing. Cairns, Brisbane, Gold Coast. Free quote.",
   keywords: [
     "ndis removalists",
     "ndis moving services",
@@ -833,35 +833,35 @@ export default function NdisRemovalistsPage() {
             {[
               {
                 city: "Cairns & Far North QLD",
-                href: "/removalists-cairns",
+                href: "/ndis-removalists/cairns",
                 suburbs:
                   "Cairns CBD, Smithfield, Palm Cove, Trinity Beach, Port Douglas, Innisfail, Atherton, Mareeba, Edmonton, Gordonvale",
                 count: "96+",
               },
               {
                 city: "Brisbane & South-East QLD",
-                href: "/removalists-brisbane",
+                href: "/ndis-removalists/brisbane",
                 suburbs:
                   "Brisbane CBD, Chermside, Sunnybank, Carindale, Indooroopilly, Logan, Ipswich, Springfield, Redcliffe, Caboolture",
                 count: "421+",
               },
               {
                 city: "Gold Coast",
-                href: "/removalists-gold-coast",
+                href: "/ndis-removalists/gold-coast",
                 suburbs:
                   "Surfers Paradise, Southport, Robina, Burleigh Heads, Nerang, Coomera, Helensvale, Palm Beach, Coolangatta, Mudgeeraba",
                 count: "81+",
               },
               {
                 city: "Sunshine Coast",
-                href: "/removalists-sunshine-coast",
+                href: "/ndis-removalists/sunshine-coast",
                 suburbs:
                   "Maroochydore, Caloundra, Noosa Heads, Buderim, Mooloolaba, Nambour, Coolum Beach, Kawana, Bli Bli, Palmwoods",
                 count: "107+",
               },
               {
                 city: "Townsville & North QLD",
-                href: "/removalists-townsville",
+                href: "/ndis-removalists/townsville",
                 suburbs:
                   "Townsville City, Aitkenvale, Kirwan, Thuringowa, Bohle Plains, Annandale, Douglas, Idalia, Cranbrook, Deeragun",
                 count: "56+",

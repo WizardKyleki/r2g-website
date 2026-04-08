@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "packing-kitchen-like-a-pro",
     title: "10 Tips for Packing Your Kitchen Like a Pro",
-    metaTitle: "10 Kitchen Packing Tips That Prevent Breakages",
+    metaTitle: "Kitchen Packing Tips to Prevent Breakages | R2G",
     metaDescription:
       "Learn how to pack glasses, plates & appliances without breakages. Practical kitchen packing tips from experienced removalists.",
     excerpt:
@@ -218,7 +218,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "moving-interstate-guide",
     title: "Moving Interstate? Here's Everything You Need to Know",
-    metaTitle: "Interstate Moving Guide Australia: Plan Your Move",
+    metaTitle: "Interstate Moving Guide Australia | R2G",
     metaDescription:
       "Complete interstate moving checklist with timelines, cost tips & what to expect on moving day. Plan your long-distance move with confidence.",
     excerpt:
@@ -429,7 +429,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "choose-right-moving-company",
     title: "How to Choose the Right Moving Company in Australia",
-    metaTitle: "How to Choose a Removalist: 8 Things to Check First",
+    metaTitle: "How to Choose a Removalist | R2G",
     metaDescription:
       "Know what to look for when choosing a moving company. Learn the red flags, key questions & how to compare removalist quotes.",
     excerpt:
@@ -602,7 +602,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "office-relocation-checklist",
     title: "Office Relocation Checklist: A Step-by-Step Guide",
-    metaTitle: "Office Relocation Checklist: Step-by-Step Guide",
+    metaTitle: "Office Relocation Checklist | R2G",
     metaDescription:
       "Plan your office move with this detailed relocation checklist covering timelines, IT migration, and staff coordination. Get a free quote today.",
     excerpt:
@@ -780,7 +780,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "when-to-use-storage",
     title: "When to Use Storage During a Move",
-    metaTitle: "When to Use Storage During a Move: 6 Scenarios",
+    metaTitle: "When to Use Storage During a Move | R2G",
     metaDescription:
       "Not sure if you need storage during your move? Discover 6 common scenarios where short-term storage saves time and stress. Get a quote now.",
     excerpt:
@@ -936,7 +936,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "ultimate-moving-day-checklist",
     title: "The Ultimate Moving Day Checklist",
-    metaTitle: "Moving Day Checklist: What to Do Before & After",
+    metaTitle: "Moving Day Checklist | R2G",
     metaDescription:
       "Your complete moving day checklist covering the night before, morning of, and first night at your new home. Stay organised and stress-free.",
     excerpt:
@@ -1291,7 +1291,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "best-time-to-move-brisbane",
     title: "Weekend vs Weekday Moving: When Is the Best Time to Hire Brisbane Removalists?",
-    metaTitle: "Best Time to Move in Brisbane: Weekday vs Weekend Guide",
+    metaTitle: "Best Time to Move in Brisbane | R2G Guide",
     metaDescription:
       "Find out whether weekday or weekend moving is cheaper, faster & less stressful in Brisbane. Practical advice from experienced Brisbane removalists.",
     excerpt:
@@ -1424,7 +1424,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-choose-removalists-brisbane",
     title: "How to Choose the Right Removalists in Brisbane",
-    metaTitle: "How to Choose Brisbane Removalists: 8-Point Guide",
+    metaTitle: "How to Choose Brisbane Removalists | R2G",
     metaDescription:
       "Learn what to look for when hiring Brisbane removalists. Compare quotes, check insurance, read reviews & avoid common scams with this practical guide.",
     excerpt:
@@ -1544,7 +1544,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "hiring-professional-removalists-brisbane",
     title: "How Hiring Professional Removalists in Brisbane Saves You Time and Money",
-    metaTitle: "Why Hire Professional Brisbane Removalists? Time & Money Saved",
+    metaTitle: "Why Hire Professional Brisbane Removalists? | R2G",
     metaDescription:
       "Think DIY moving is cheaper? Professional Brisbane removalists save time, prevent damage & reduce stress. See the real cost comparison.",
     excerpt:
@@ -1661,7 +1661,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "types-of-moving-services-brisbane",
     title: "What Types of Removalist Services Are Available in Brisbane?",
-    metaTitle: "Types of Moving Services in Brisbane: Complete Guide",
+    metaTitle: "Types of Moving Services Brisbane | R2G",
     metaDescription:
       "Local moves, interstate, office, packing, storage & NDIS removals — discover every type of removalist service available in Brisbane and which one you need.",
     excerpt:
@@ -1890,7 +1890,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "finding-reliable-removalists-brisbane",
     title: "Finding Reliable Brisbane Removalists for Your Next Move",
-    metaTitle: "Finding Reliable Removalists in Brisbane: What to Look For",
+    metaTitle: "Finding Reliable Removalists Brisbane | R2G",
     metaDescription:
       "Moving in Brisbane? Learn how to spot reliable removalists, avoid cowboys & get the best value. Practical advice from experienced Brisbane movers.",
     excerpt:
@@ -1992,7 +1992,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-fuel-prices-affect-your-move",
     title: "How Rising Fuel Prices Can Affect Your Move in 2026 and How to Prepare",
-    metaTitle: "How Fuel Prices Affect Moving Costs in 2026 | R2G Transport",
+    metaTitle: "How Fuel Prices Affect Moving Costs 2026 | R2G",
     metaDescription:
       "Fuel prices in Australia have jumped 40% since early 2026. Learn how this affects your moving costs and 12 practical ways to keep your relocation affordable.",
     excerpt:
@@ -2297,9 +2297,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "cost-of-moving-brisbane",
     title: "How Much Does It Cost to Move in Brisbane? (2026 Guide)",
-    metaTitle: "Cost of Moving in Brisbane 2026 | Removalist Prices & Guide",
+    metaTitle: "Cost of Moving Brisbane 2026 | Price Guide | R2G",
     metaDescription:
-      "What does it cost to hire removalists in Brisbane? 2026 pricing guide covering local moves, hourly rates, fixed prices, and tips to save money on your Brisbane move.",
+      "What does it cost to hire removalists in Brisbane? 2026 pricing guide with hourly rates, fixed prices, and money-saving tips.",
     excerpt:
       "Brisbane moving costs depend on your home size, distance, and when you move. This guide breaks down real 2026 removalist prices so you can budget your move with confidence.",
     category: "Brisbane Moving",
@@ -2418,7 +2418,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "moving-to-brisbane-guide",
     title: "The Complete Guide to Moving to Brisbane (2026)",
-    metaTitle: "Moving to Brisbane 2026 | Complete Relocation Guide",
+    metaTitle: "Moving to Brisbane 2026 | Relocation Guide | R2G",
     metaDescription:
       "Everything you need to know about moving to Brisbane in 2026. Suburbs, cost of living, lifestyle, and how to plan your Brisbane relocation step by step.",
     excerpt:
@@ -2536,7 +2536,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "cost-of-moving-cairns",
     title: "How Much Do Removalists Cost in Cairns? 2026 Price Guide",
-    metaTitle: "Removalist Costs in Cairns 2026 | Hourly Rates & Price Guide",
+    metaTitle: "Removalist Costs Cairns 2026 | Price Guide | R2G",
     metaDescription:
       "What do removalists charge in Cairns? 2026 pricing guide with local hourly rates, interstate costs, and tips to save money on your Cairns move.",
     excerpt:
@@ -2546,7 +2546,7 @@ export const blogPosts: BlogPost[] = [
     publishedDate: "2026-03-18",
     readTime: "7 min read",
     author: "R2G Moving Team",
-    image: "/images/blog-local-move.webp",
+    image: "/images/blog-moving-day.webp",
     imageAlt: "Removalist truck parked outside a Cairns home during a local house move",
     keywords: [
       "removalists cost cairns",
@@ -2633,9 +2633,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "moving-to-gold-coast-guide",
     title: "Moving to the Gold Coast: Your Complete 2026 Suburb Guide",
-    metaTitle: "Moving to the Gold Coast 2026 | Suburb Guide & Tips",
+    metaTitle: "Moving to the Gold Coast 2026 | Guide | R2G",
     metaDescription:
-      "Planning a move to the Gold Coast? Our 2026 suburb guide covers the best areas for families, beachside living, budget-friendly options, and practical moving tips.",
+      "Planning a move to the Gold Coast? 2026 suburb guide covering best areas for families, beaches, budget options, and tips.",
     excerpt:
       "The Gold Coast has something for everyone, from beachside apartments in Burleigh to family homes in Robina. This guide breaks down the regions, lifestyle, and what to know before you move.",
     category: "Moving Guides",
@@ -2740,9 +2740,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "sunshine-coast-moving-checklist",
     title: "Sunshine Coast Moving Checklist: Everything You Need to Know",
-    metaTitle: "Sunshine Coast Moving Checklist 2026 | Complete Guide",
+    metaTitle: "Sunshine Coast Moving Checklist 2026 | R2G",
     metaDescription:
-      "Planning a move to the Sunshine Coast? Our week-by-week checklist covers everything from booking removalists to connecting utilities and navigating hinterland access.",
+      "Sunshine Coast moving checklist covering everything from booking removalists to connecting utilities. Week-by-week guide.",
     excerpt:
       "Moving to the Sunshine Coast requires planning around narrow hinterland roads, seasonal demand, and local quirks. This week-by-week checklist keeps you on track from start to finish.",
     category: "Moving Checklists",
@@ -2858,7 +2858,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "cairns-to-brisbane-moving-guide",
     title: "Cairns to Brisbane: The Complete Interstate Moving Guide",
-    metaTitle: "Cairns to Brisbane Moving Guide 2026 | Interstate Removalists",
+    metaTitle: "Cairns to Brisbane Moving Guide 2026 | R2G",
     metaDescription:
       "Everything you need to know about moving from Cairns to Brisbane. Route details, costs, shared vs exclusive loads, timing tips, and what R2G handles for you.",
     excerpt:
@@ -2961,9 +2961,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "best-suburbs-townsville-families",
     title: "Best Suburbs in Townsville for Families in 2026",
-    metaTitle: "Best Townsville Suburbs for Families 2026 | Moving Guide",
+    metaTitle: "Best Townsville Suburbs for Families 2026 | R2G",
     metaDescription:
-      "Discover the best family-friendly suburbs in Townsville for 2026. Compare Kirwan, Aitkenvale, Annandale, Douglas, and Cranbrook for schools, amenities, and lifestyle.",
+      "Best family-friendly suburbs in Townsville for 2026. Compare Kirwan, Aitkenvale, Annandale, Douglas, and Cranbrook.",
     excerpt:
       "Townsville offers families affordable housing, excellent schools, and a relaxed North Queensland lifestyle. Here are the top suburbs to consider if you are moving with kids in 2026.",
     category: "Moving Guides",
@@ -3070,9 +3070,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "moving-during-cyclone-season",
     title: "Moving During Cyclone Season in North Queensland: What You Need to Know",
-    metaTitle: "Moving During Cyclone Season NQ | Tips & Preparation Guide",
+    metaTitle: "Moving During Cyclone Season NQ | R2G",
     metaDescription:
-      "Planning a move during cyclone season in North Queensland? Learn how wet weather affects moving schedules, how to protect your belongings, and booking tips for Nov-Apr moves.",
+      "Moving during cyclone season in North Queensland? Tips on weather impacts, protecting belongings, and booking for Nov-Apr moves.",
     excerpt:
       "Cyclone season in North Queensland runs from November to April, and it affects everything from road closures to humidity damage. Here is how to plan a move during the wet season.",
     category: "Moving Tips",
@@ -3181,7 +3181,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "best-removalists-brisbane",
     title: "How to Choose the Best Removalists in Brisbane (2026 Guide)",
-    metaTitle: "Best Removalists Brisbane 2026 | What to Look For",
+    metaTitle: "Best Removalists Brisbane 2026 | R2G",
     metaDescription:
       "What makes a great Brisbane removalist? This 2026 guide covers the 8 things that separate reliable movers from the rest, plus red flags to avoid.",
     excerpt:

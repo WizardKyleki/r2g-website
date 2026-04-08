@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Packing Services Sunshine Coast | Professional & Fully Insured",
+  title: "Packing Services Sunshine Coast | Insured | R2G",
   description:
-    "Professional packing services on the Sunshine Coast. Trained packers, quality materials, full or partial packing available. Fully insured. Get a free quote today.",
+    "Professional packing services on the Sunshine Coast. Trained packers, quality materials, fully insured. Free quote.",
   keywords: ["packing services sunshine coast", "professional packers sunshine coast", "packing boxes sunshine coast", "removal packing sunshine coast"],
   alternates: { canonical: "https://www.r2g.com.au/packing-services-sunshine-coast" },
   openGraph: {
-    title: "Packing Services Sunshine Coast | Professional & Fully Insured",
+    title: "Packing Services Sunshine Coast | Insured | R2G",
     description: "Professional packing services on the Sunshine Coast. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-sunshine-coast",
   },

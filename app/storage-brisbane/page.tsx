@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, BRISBANE_ADDRESS, CAIRNS_ADDRESS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Storage Brisbane | Secure Short & Long-Term Solutions",
+  title: "Storage Brisbane | Short & Long-Term | R2G",
   description:
-    "Secure, clean storage in Brisbane. Flexible short and long-term solutions — perfect between moves, renovations or business. Get a free quote today.",
+    "Secure, clean storage in Brisbane. Flexible short and long-term solutions, perfect between moves, renovations or business. Free quote.",
   keywords: ["storage brisbane", "self storage brisbane", "moving and storage brisbane", "short term storage brisbane", "long term storage brisbane"],
   alternates: { canonical: "https://www.r2g.com.au/storage-brisbane" },
   openGraph: {
-    title: "Storage Brisbane | Secure Short & Long-Term Solutions",
+    title: "Storage Brisbane | Short & Long-Term | R2G",
     description: "Secure, flexible storage in Brisbane. Short or long-term, no lock-in contracts. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-brisbane",
   },

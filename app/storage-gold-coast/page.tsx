@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, BRISBANE_ADDRESS, CAIRNS_ADDRESS, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Storage Gold Coast | Secure Short & Long-Term Solutions",
+  title: "Storage Gold Coast | Short & Long-Term | R2G",
   description:
     "Secure storage for Gold Coast residents. R2G picks up from your Gold Coast home, stores at our Brisbane facility, and delivers when you're ready. Free quote.",
   keywords: ["storage gold coast", "self storage gold coast", "moving and storage gold coast", "short term storage gold coast", "long term storage gold coast"],
   alternates: { canonical: "https://www.r2g.com.au/storage-gold-coast" },
   openGraph: {
-    title: "Storage Gold Coast | Secure Short & Long-Term Solutions",
+    title: "Storage Gold Coast | Short & Long-Term | R2G",
     description: "Secure storage for Gold Coast residents. Pickup, storage, and delivery all handled by R2G. Get a free quote today.",
     url: "https://www.r2g.com.au/storage-gold-coast",
   },

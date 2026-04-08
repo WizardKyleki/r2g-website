@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Packing Services Gold Coast | Professional & Fully Insured",
+  title: "Packing Services Gold Coast | Fully Insured | R2G",
   description:
     "Professional packing services on the Gold Coast. Trained packers, quality materials, full or partial packing available. Fully insured. Get a free quote today.",
   keywords: ["packing services gold coast", "professional packers gold coast", "packing boxes gold coast", "removal packing gold coast"],
   alternates: { canonical: "https://www.r2g.com.au/packing-services-gold-coast" },
   openGraph: {
-    title: "Packing Services Gold Coast | Professional & Fully Insured",
+    title: "Packing Services Gold Coast | Fully Insured | R2G",
     description: "Professional packing services on the Gold Coast. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-gold-coast",
   },

@@ -43,7 +43,7 @@ const cityData: CityData[] = [
     slug: "cairns",
     metaTitle: "NDIS Removalists Cairns | Plan-Funded Moving Services",
     metaDescription:
-      "NDIS removalists in Cairns helping participants relocate across Far North Queensland. Fully insured, plan-funded support, NDIS-compliant invoicing. Stilt house specialists. Free quote.",
+      "NDIS removalists in Cairns for Far North Queensland relocations. Fully insured, plan-funded, NDIS-compliant invoicing. Free quote.",
     address: {
       streetAddress: "36 Abbott St",
       addressLocality: "Cairns City",
@@ -233,7 +233,7 @@ const cityData: CityData[] = [
     metaTitle:
       "NDIS Removalists Sunshine Coast | Plan-Funded Moving Services",
     metaDescription:
-      "NDIS removalists on the Sunshine Coast providing plan-funded relocations. Hinterland and coastal specialists, fully insured, NDIS-compliant invoicing. Free quote.",
+      "NDIS removalists on the Sunshine Coast. Plan-funded relocations, fully insured, NDIS-compliant invoicing. Free quote.",
     address: {
       streetAddress: "122 Ashover Circuit",
       addressLocality: "Archerfield",
@@ -297,7 +297,7 @@ const cityData: CityData[] = [
     slug: "townsville",
     metaTitle: "NDIS Removalists Townsville | Plan-Funded Moving Services",
     metaDescription:
-      "NDIS removalists in Townsville providing plan-funded relocations across North Queensland. Fully insured, experienced with disability moves, NDIS-compliant invoicing. Free quote.",
+      "NDIS removalists in Townsville for North Queensland relocations. Fully insured, NDIS-compliant invoicing. Free quote.",
     address: {
       streetAddress: "36 Abbott St",
       addressLocality: "Cairns City",

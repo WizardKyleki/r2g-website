@@ -18,9 +18,9 @@ import {
 // METADATA
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: "R2G Moving Index 2026: 21,595 People Moved to QLD — Where Are They Going?",
+  title: "R2G Moving Index 2026 | QLD Migration Data",
   description:
-    "Queensland gained 21,595 interstate migrants while NSW lost 24,328. Brisbane vacancy hits 0.8%, rents reach $727/wk. See the data, charts, and what it means for your next move.",
+    "Queensland gained 21,595 interstate migrants while NSW lost 24,328. See the data, charts, and what it means for your next move.",
   keywords: [
     "moving index 2026",
     "queensland migration trends",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${DOMAIN}/moving-index-2026` },
   openGraph: {
-    title: "R2G Moving Index 2026: 21,595 People Moved to QLD — Where Are They Going?",
+    title: "R2G Moving Index 2026 | QLD Migration Data",
     description:
-      "Queensland gained 21,595 interstate migrants while NSW lost 24,328. Brisbane vacancy hits 0.8%, rents reach $727/wk. See the data, charts, and what it means for your next move.",
+      "Queensland gained 21,595 interstate migrants while NSW lost 24,328. See the data, charts, and what it means for your next move.",
     url: `${DOMAIN}/moving-index-2026`,
     siteName: SITE_NAME,
     type: "article",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "R2G Moving Index 2026: 21,595 People Moved to QLD — Where Are They Going?",
+  headline: "R2G Moving Index 2026 | QLD Migration Data",
   description:
     "Queensland gained 21,595 interstate migrants while NSW lost 24,328. Brisbane vacancy hits 0.8%, rents reach $727/wk. Data-driven migration and housing analysis.",
   author: {

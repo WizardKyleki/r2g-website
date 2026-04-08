@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Moving Quote | R2G Transport & Storage",
+  title: "Free Moving Quote | R2G",
   description:
     "Get a free, no-obligation moving quote. Instant online estimates for local, interstate & office moves across Queensland.",
   alternates: { canonical: "https://www.r2g.com.au/quote" },
   openGraph: {
-    title: "Free Moving Quote | R2G Transport & Storage",
+    title: "Free Moving Quote | R2G",
     description:
       "Get a free, no-obligation moving quote. Instant online estimates for local, interstate & office moves across Queensland.",
     url: "https://www.r2g.com.au/quote",
@@ -15,23 +15,13 @@ export const metadata: Metadata = {
 
 const quoteSchema = {
   "@context": "https://schema.org",
-  "@type": "Service",
-  name: "Free Moving Quote — R2G Transport & Storage",
+  "@type": "MovingCompany",
+  name: "R2G Transport & Storage",
   description:
     "Get a free, no-obligation moving quote for local, interstate, and office relocations across Cairns, Brisbane, Gold Coast and Sunshine Coast.",
-  provider: {
-    "@type": "MovingCompany",
-    name: "R2G Transport & Storage",
-    telephone: "1300 959 498",
-    url: "https://www.r2g.com.au",
-  },
+  telephone: "1300 959 498",
+  url: "https://www.r2g.com.au",
   areaServed: ["Cairns", "Brisbane", "Gold Coast", "Sunshine Coast", "Queensland", "Australia"],
-  offers: {
-    "@type": "Offer",
-    price: "0",
-    priceCurrency: "AUD",
-    description: "Free, no-obligation moving quote",
-  },
 };
 
 export default function QuoteLayout({ children }: { children: React.ReactNode }) {

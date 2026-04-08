@@ -190,7 +190,7 @@ export const metadata: Metadata = {
     absolute: "Removalists Brisbane Southside - Trusted Local Movers | R2G",
   },
   description:
-    "Trusted removalists on Brisbane's southside. Sunnybank, Mt Gravatt, Holland Park, Moorooka, Salisbury and all southern suburbs. Fully insured, no hidden fees. Free quote.",
+    "Trusted removalists on Brisbane's southside. Sunnybank, Mt Gravatt, Holland Park and all southern suburbs. Fully insured. Free quote.",
   keywords: [
     "removalists brisbane southside",
     "brisbane southside removalists",

@@ -9,13 +9,13 @@ const CTABanner = dynamic(() => import("@/components/CTABanner"));
 import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Packing Services Cairns | Professional & Fully Insured",
+  title: "Packing Services Cairns | Fully Insured | R2G",
   description:
     "Professional packing services in Cairns. Trained packers, quality materials, full or partial packing available. Fully insured. Get a free quote today.",
   keywords: ["packing services cairns", "professional packers cairns", "packing boxes cairns", "removal packing cairns"],
   alternates: { canonical: "https://www.r2g.com.au/packing-services-cairns" },
   openGraph: {
-    title: "Packing Services Cairns | Professional & Fully Insured",
+    title: "Packing Services Cairns | Fully Insured | R2G",
     description: "Professional packing services in Cairns. Quality materials, expert packers, full or partial service. Get a free quote today.",
     url: "https://www.r2g.com.au/packing-services-cairns",
   },
