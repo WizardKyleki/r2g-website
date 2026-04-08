@@ -16,6 +16,11 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
+  // Only apply admin auth to /admin and /api/admin routes
+  if (!pathname.startsWith("/admin") && !pathname.startsWith("/api/admin")) {
+    return NextResponse.next();
+  }
+
   // Allow login page and login API without auth
   if (pathname === "/admin/login" || pathname === "/api/admin/login") {
     return NextResponse.next();
@@ -26,7 +31,6 @@ export async function middleware(request: NextRequest) {
   const isValid = token ? await verifySessionToken(token) : false;
 
   if (!isValid) {
-    // API routes get 401, pages get redirected to login
     if (pathname.startsWith("/api/admin")) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
