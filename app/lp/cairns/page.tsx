@@ -7,23 +7,23 @@ import LPStickyBar from "@/components/lp/LPStickyBar";
 import GoogleReviews from "@/components/GoogleReviews";
 
 export const metadata: Metadata = {
-  title: "Brisbane Removalists | Trusted Local Movers | R2G",
+  title: "Cairns Removalists | Trusted Local Movers | R2G",
   description:
-    "Trusted Brisbane removalists with our own team and trucks. Fully insured, no hidden fees. 900+ five-star reviews. Free quote in minutes.",
+    "Trusted Cairns removalists with our own team and trucks. Fully insured, no hidden fees. 900+ five-star reviews. Free quote in minutes.",
   robots: { index: false, follow: false },
 };
 
 const SERVICES = [
   {
     title: "House Moves",
-    desc: "Full house removals across Brisbane. We handle everything from a studio apartment to a 5-bedroom home. Careful wrapping, safe loading, and placement in your new home.",
+    desc: "Full house removals across Cairns and Far North Queensland. We handle everything from a studio apartment to a 5-bedroom home. Careful wrapping, safe loading, and placement in your new home.",
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
     ),
   },
   {
     title: "Furniture Removals",
-    desc: "Need specific items moved? We move sofas, beds, fridges, washing machines, dining tables, and bulky furniture across Brisbane. No minimum load.",
+    desc: "Need specific items moved? We move sofas, beds, fridges, washing machines, dining tables, and bulky furniture across Cairns. No minimum load.",
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
     ),
@@ -44,14 +44,14 @@ const SERVICES = [
   },
   {
     title: "Interstate Moves",
-    desc: "Moving out of Brisbane? We run regular services to Sydney, Melbourne, Gold Coast, Cairns, and everywhere in between. Door-to-door, fully insured.",
+    desc: "Moving out of Cairns? We run regular services to Brisbane, Townsville, Sydney, Melbourne, and everywhere in between. Door-to-door, fully insured.",
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
     ),
   },
   {
     title: "Storage Solutions",
-    desc: "Need somewhere to store your belongings between moves? Secure, clean storage at our Archerfield depot. Short or long term, flexible access.",
+    desc: "Need somewhere to store your belongings between moves? Secure, clean storage at our Cairns depot. Short or long term, flexible access.",
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
     ),
@@ -69,25 +69,25 @@ const WHATS_INCLUDED = [
   "Goods-in-transit insurance",
 ];
 
-const BRISBANE_SUBURBS = [
-  "Brisbane CBD", "South Brisbane", "West End", "Fortitude Valley", "New Farm",
-  "Paddington", "Toowong", "Indooroopilly", "Chermside", "Aspley",
-  "Carindale", "Wynnum", "Logan Central", "Springwood", "Sunnybank",
-  "Eight Mile Plains", "Mount Gravatt", "Ipswich", "Caboolture", "Redcliffe",
-  "Strathpine", "North Lakes", "Springfield", "Forest Lake", "Moorooka",
-  "Archerfield", "Moreton Bay", "Redlands", "Manly", "Richlands",
+const CAIRNS_SUBURBS = [
+  "Cairns City", "Cairns North", "Parramatta Park", "Manunda", "Mooroobool",
+  "Whitfield", "Edge Hill", "Kanimbla", "Brinsmead", "Freshwater",
+  "Stratford", "Trinity Beach", "Palm Cove", "Smithfield", "Yorkeys Knob",
+  "Machans Beach", "Holloways Beach", "Kewarra Beach", "Clifton Beach", "Redlynch",
+  "Gordonvale", "Edmonton", "Bentley Park", "White Rock", "Woree",
+  "Earlville", "Westcourt", "Portsmith", "Manoora", "Bayview Heights",
 ];
 
 const LP_FAQS = [
   {
-    question: "How much do removalists cost in Brisbane?",
+    question: "How much do removalists cost in Cairns?",
     answer:
       "Moving costs depend on the size of your home, access at both locations, and the distance between them. Request a free quote and we will give you a clear, written price with no hidden fees, call-out charges, or fuel surcharges. You only pay for the time your move takes.",
   },
   {
     question: "What happens after I submit the quote form?",
     answer:
-      "A real member of our Brisbane team will call you within 15 minutes during business hours (9am to 5pm). We confirm your move details, answer any questions you have, and give you a clear price over the phone. You also receive a written quote by email so you have everything in writing before making any decisions.",
+      "A real member of our Cairns team will call you within 15 minutes during business hours (9am to 5pm). We confirm your move details, answer any questions you have, and give you a clear price over the phone. You also receive a written quote by email so you have everything in writing before making any decisions.",
   },
   {
     question: "Are your removalists fully insured?",
@@ -95,19 +95,19 @@ const LP_FAQS = [
       "Yes. Every R2G move is covered by comprehensive public liability insurance and goods-in-transit cover. Your belongings are protected from the moment we start loading until everything is placed in your new home. We can provide a copy of our certificate of currency on request.",
   },
   {
-    question: "Are you a real Brisbane moving company or a booking platform?",
+    question: "Are you a real Cairns moving company or a booking platform?",
     answer:
-      "We are a real, locally owned Brisbane removalist business, not a broker or marketplace that passes your details to third parties. You deal directly with our own team and our own trucks from start to finish. Our depot is at 122 Ashover Circuit, Archerfield, Brisbane.",
+      "We are a real, locally owned Cairns removalist business, not a broker or marketplace that passes your details to third parties. You deal directly with our own team and our own trucks from start to finish. Our depot is at 36 Abbott St, Cairns City.",
   },
   {
-    question: "How far in advance should I book movers in Brisbane?",
+    question: "How far in advance should I book movers in Cairns?",
     answer:
       "We recommend booking at least 1 to 2 weeks ahead, especially for weekend moves. If you need a last-minute or same-day move, call us directly on 1300 959 498 and we will do our best to accommodate you. The earlier you book, the more flexibility you have with timing.",
   },
   {
-    question: "What suburbs in Brisbane do you service?",
+    question: "What suburbs in Cairns do you service?",
     answer:
-      "We cover all of Greater Brisbane including the CBD, inner suburbs, Logan, Ipswich, Redlands, Moreton Bay, North Lakes, Springfield, and everywhere in between. Our depot is in Archerfield so we know every corner of the city. Not sure if we cover your area? Call us and we will confirm straight away.",
+      "We cover all of Greater Cairns including the CBD, Northern Beaches, Redlynch Valley, Edmonton, Gordonvale, the Tablelands, and everywhere in between. Our depot is in Cairns City so we know every corner of the region. Not sure if we cover your area? Call us and we will confirm straight away.",
   },
   {
     question: "Do you move heavy or bulky items like pianos and pool tables?",
@@ -117,27 +117,27 @@ const LP_FAQS = [
   {
     question: "Is there a minimum charge?",
     answer:
-      "Yes, there is a 2-hour minimum for all bookings. This covers travel to your location, the move itself, and travel from the destination. Most local Brisbane moves take between 2 and 5 hours depending on the size of the home. Request a quote for your exact price.",
+      "Yes, there is a 2-hour minimum for all bookings. This covers travel to your location, the move itself, and travel from the destination. Most local Cairns moves take between 2 and 5 hours depending on the size of the home. Request a quote for your exact price.",
   },
 ];
 
-export default function BrisbaneLandingPage() {
+export default function CairnsLandingPage() {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "MovingCompany",
     name: "R2G Transport & Storage",
-    description: "Brisbane removalists offering local, interstate and office moves. Fully insured with 900+ five-star reviews.",
+    description: "Cairns removalists offering local, interstate and office moves. Fully insured with 900+ five-star reviews.",
     telephone: "1300 959 498",
     url: "https://www.r2g.com.au",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "122 Ashover Circuit",
-      addressLocality: "Archerfield",
+      streetAddress: "36 Abbott St",
+      addressLocality: "Cairns City",
       addressRegion: "QLD",
-      postalCode: "4108",
+      postalCode: "4870",
       addressCountry: "AU",
     },
-    areaServed: "Brisbane",
+    areaServed: "Cairns",
     priceRange: "$$",
     aggregateRating: {
       "@type": "AggregateRating",
@@ -159,7 +159,7 @@ export default function BrisbaneLandingPage() {
         {/* Background truck image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/r2g-removalists-brisbane-truck.webp"
+            src="/images/r2g-removal-truck-cairns.webp"
             alt=""
             fill
             className="object-cover object-center opacity-[0.12]"
@@ -171,7 +171,7 @@ export default function BrisbaneLandingPage() {
           <div className="mb-6 sm:mb-8">
             <Image
               src="/images/logo-r2g-white.png"
-              alt="R2G Transport & Storage Brisbane"
+              alt="R2G Transport & Storage Cairns"
               width={130}
               height={40}
               priority
@@ -182,13 +182,13 @@ export default function BrisbaneLandingPage() {
             {/* Left: headline + content */}
             <div>
               <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-black leading-tight mb-4 font-[family-name:var(--font-montserrat)]">
-                Brisbane Removalists<br />
+                Cairns Removalists<br />
                 <span className="text-[#F5C400]">Trusted Local Movers</span>
               </h1>
               <p className="text-gray-300 text-base sm:text-lg mb-6 leading-relaxed">
-                R2G is a locally owned Brisbane moving company with our own team and trucks based in Archerfield.
+                R2G is a locally owned Cairns moving company with our own team and trucks based in Cairns City.
                 Whether you need house movers, furniture removalists, or a full packing service, we handle your
-                move from start to finish. Fully insured, no hidden fees, and rated 4.9 stars by 900+ Brisbane families.
+                move from start to finish. Fully insured, no hidden fees, and rated 4.9 stars by 900+ families.
               </p>
 
               {/* Trust row */}
@@ -225,7 +225,7 @@ export default function BrisbaneLandingPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                  Servicing All Brisbane Suburbs
+                  Servicing All Cairns Suburbs
                 </span>
                 <span className="flex items-center gap-1.5">
                   <svg className="w-4 h-4 text-[#F5C400]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -280,11 +280,11 @@ export default function BrisbaneLandingPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Image: mover wrapping furniture = shows what "included" looks like */}
+            {/* Image */}
             <div className="relative h-72 sm:h-[420px] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/images/r2g-professional-packing-service-brisbane.webp"
-                alt="R2G mover carefully wrapping furniture with protective blankets"
+                src="/images/r2g-cairns-removalists-loading-truck.webp"
+                alt="R2G removalists loading truck in Cairns"
                 fill
                 className="object-cover"
                 loading="lazy"
@@ -311,7 +311,7 @@ export default function BrisbaneLandingPage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-black text-[#1A1A1A]">
-              Brisbane Moving Services
+              Cairns Moving Services
             </h2>
             <p className="text-gray-500 text-sm mt-2">
               Local moves, interstate relocations, office moves, and more. One company, every type of move.
@@ -338,7 +338,7 @@ export default function BrisbaneLandingPage() {
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-black text-[#1A1A1A]">
-              How to Book Brisbane Removalists
+              How to Book Cairns Removalists
             </h2>
             <p className="text-gray-500 text-sm mt-2">
               Three simple steps from quote to move day. No automated emails or being passed around.
@@ -354,12 +354,12 @@ export default function BrisbaneLandingPage() {
               {
                 step: "2",
                 title: "We call you within 15 minutes",
-                desc: "A real member of our Brisbane team calls you back (not an automated system). We confirm your details, answer any questions, and give you a clear price over the phone.",
+                desc: "A real member of our Cairns team calls you back (not an automated system). We confirm your details, answer any questions, and give you a clear price over the phone.",
               },
               {
                 step: "3",
                 title: "Receive your written quote",
-                desc: "Everything in writing: what is included, the price, and your confirmed date. No pressure to book. Compare us against other Brisbane removalists and decide when you are ready.",
+                desc: "Everything in writing: what is included, the price, and your confirmed date. No pressure to book. Compare us against other Cairns removalists and decide when you are ready.",
               },
             ].map((item) => (
               <div key={item.step} className="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm">
@@ -380,7 +380,7 @@ export default function BrisbaneLandingPage() {
       <section className="py-10 sm:py-14 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center mb-6">
           <h2 className="text-2xl sm:text-3xl font-black text-[#1A1A1A]">
-            What Brisbane Families Say About Us
+            What Cairns Families Say About Us
           </h2>
           <p className="text-gray-500 text-sm mt-2">
             4.9 stars from 900+ verified Google reviews. Real feedback from real customers.
@@ -394,14 +394,14 @@ export default function BrisbaneLandingPage() {
         <div className="max-w-5xl mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-black text-[#1A1A1A]">
-              Why Choose R2G Over Other Brisbane Movers
+              Why Choose R2G Over Other Cairns Movers
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {[
               {
                 title: "We Are Not a Broker",
-                desc: "Many online removalist companies are actually brokers that sell your details to whoever is available. R2G is a real moving company. Our own team, our own trucks, our own depot in Archerfield. You deal with us directly from quote to move day.",
+                desc: "Many online removalist companies are actually brokers that sell your details to whoever is available. R2G is a real moving company. Our own team, our own trucks, our own depot in Cairns City. You deal with us directly from quote to move day.",
                 icon: <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />,
               },
               {
@@ -416,7 +416,7 @@ export default function BrisbaneLandingPage() {
               },
               {
                 title: "10,000+ Families Moved",
-                desc: "Over 10 years and 10,000 successful moves across Brisbane and Queensland. Our 4.9-star Google rating is from 900+ real families who trusted us with their homes, furniture, and belongings.",
+                desc: "Over 10 years and 10,000 successful moves across Cairns and Queensland. Our 4.9-star Google rating is from 900+ real families who trusted us with their homes, furniture, and belongings.",
                 icon: <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />,
               },
             ].map((pillar) => (
@@ -441,14 +441,14 @@ export default function BrisbaneLandingPage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-6">
             <h2 className="text-2xl sm:text-3xl font-black text-[#1A1A1A]">
-              Removalists Covering All Brisbane Suburbs
+              Removalists Covering All Cairns Suburbs
             </h2>
             <p className="text-gray-500 text-sm mt-2">
-              From the CBD to outer suburbs. Our local team knows every street, access point, and parking restriction.
+              From the CBD to the Northern Beaches and Tablelands. Our local team knows every street, access point, and parking restriction.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 justify-center">
-            {BRISBANE_SUBURBS.map((suburb) => (
+            {CAIRNS_SUBURBS.map((suburb) => (
               <span
                 key={suburb}
                 className="px-3 py-1.5 bg-gray-100 text-gray-700 text-xs font-medium rounded-full"
@@ -457,7 +457,7 @@ export default function BrisbaneLandingPage() {
               </span>
             ))}
             <span className="px-3 py-1.5 bg-[#F5C400]/20 text-[#1A1A1A] text-xs font-bold rounded-full">
-              + all Greater Brisbane
+              + all Greater Cairns
             </span>
           </div>
         </div>
@@ -494,10 +494,10 @@ export default function BrisbaneLandingPage() {
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-6">
             <h2 className="text-2xl sm:text-3xl font-black">
-              Get Your Free Brisbane Moving Quote
+              Get Your Free Cairns Moving Quote
             </h2>
             <p className="text-gray-400 text-sm mt-2">
-              A real person from our Brisbane team will call you within 15 minutes.
+              A real person from our Cairns team will call you within 15 minutes.
               No obligation. Take all the time you need to decide.
             </p>
           </div>
@@ -514,7 +514,7 @@ export default function BrisbaneLandingPage() {
             Or call us: {PHONE}
           </a>
           <div className="text-center text-xs text-gray-500 space-y-1 mt-6 pb-16 lg:pb-0">
-            <p>{SITE_NAME} &middot; 122 Ashover Circuit, Archerfield QLD 4108</p>
+            <p>{SITE_NAME} &middot; 36 Abbott St, Cairns City QLD 4870</p>
             <p>ABN registered. Licensed and fully insured removalists.</p>
             <p>
               <Link href="/privacy" className="underline hover:text-gray-300 transition-colors">
