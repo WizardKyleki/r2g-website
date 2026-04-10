@@ -605,6 +605,8 @@ function QuoteWizard() {
   const handleSubmit = async () => {
     setSubmitting(true);
     setError("");
+    // Mark form as completed IMMEDIATELY so beforeunload never fires during the async fetch
+    formCompleted.current = true;
     try {
       const res = await fetch("/api/quote", {
         method: "POST",
@@ -612,8 +614,6 @@ function QuoteWizard() {
         body: JSON.stringify({ ...data, quoteSessionId: quoteSessionId.current, pageUrl: window.location.href, referrerPage: referrerPage.current, httpReferrer: httpReferrer.current || undefined }),
       });
       if (!res.ok) throw new Error("Failed to send");
-      // Mark form as completed so beforeunload doesn't send abandoned alert
-      formCompleted.current = true;
       setSubmitted(true);
       sessionStorage.removeItem("r2g_quote_session_id");
       trackQuoteSubmit(data.propertyType, {
@@ -628,6 +628,8 @@ function QuoteWizard() {
         propertyType: data.propertyType,
       });
     } catch {
+      // Re-enable abandoned lead capture since the submission failed
+      formCompleted.current = false;
       setError("Something went wrong. Please call us directly on " + PHONE);
     } finally {
       setSubmitting(false);
