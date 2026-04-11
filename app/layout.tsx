@@ -88,6 +88,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="en-AU" href="https://www.r2g.com.au" />
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Detailed Information" />
+        <link rel="manifest" href="/site.webmanifest" />
         <Script src="https://analytics.ahrefs.com/analytics.js" data-key="URYFtNox7eR9I3W12rlXvA" strategy="afterInteractive" />
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){

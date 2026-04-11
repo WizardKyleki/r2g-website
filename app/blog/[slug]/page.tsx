@@ -195,16 +195,21 @@ export default async function BlogPostPage({
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
+        "@type": "BlogPosting",
         headline: post.title,
         description: post.metaDescription,
         image: `https://www.r2g.com.au${post.image}`,
         datePublished: post.publishedDate,
         dateModified: post.publishedDate,
+        wordCount: post.content?.reduce((acc: number, b: Record<string, unknown>) => acc + (typeof b.text === "string" ? b.text.split(/\s+/).length : 0), 0) || undefined,
         author: {
           "@type": "Organization",
           name: post.author,
           url: "https://www.r2g.com.au",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://www.r2g.com.au/images/r2g-logo.png",
+          },
         },
         publisher: {
           "@type": "Organization",
