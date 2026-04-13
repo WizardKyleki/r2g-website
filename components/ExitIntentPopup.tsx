@@ -7,17 +7,17 @@ import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 export default function ExitIntentPopup() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [fired, setFired] = useState(false);
+  const [fired, setFired] = useState(() => {
+    if (typeof window !== "undefined") return !!sessionStorage.getItem("exitPopupShown");
+    return false;
+  });
 
   const close = useCallback(() => setOpen(false), []);
 
   useEffect(() => {
     // Don't show on quote page or if already fired this session
     if (pathname === "/quote") return;
-    if (sessionStorage.getItem("exitPopupShown")) {
-      setFired(true);
-      return;
-    }
+    if (fired) return;
 
     const handleMouseLeave = (e: MouseEvent) => {
       // Only trigger when cursor exits through the top of the viewport

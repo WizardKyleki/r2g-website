@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { PHONE, PHONE_HREF } from "@/lib/constants";
+// constants imported as needed
 
 export const metadata: Metadata = {
   title: "Brisbane Moving Checklist 2026 | Week-by-Week Guide",

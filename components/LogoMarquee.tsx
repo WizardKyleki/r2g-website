@@ -42,6 +42,7 @@ export default function LogoMarquee() {
                 width={120}
                 height={60}
                 loading="lazy"
+                unoptimized
                 className="h-12 w-auto object-contain"
               />
             </div>

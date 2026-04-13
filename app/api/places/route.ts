@@ -30,11 +30,18 @@ export async function GET(req: NextRequest) {
   const data = await res.json();
 
   const predictions = (data.suggestions ?? [])
-    .map((s: any) => ({
+    .map((s: Record<string, Record<string, Record<string, string>>>) => ({
       description: s.placePrediction?.text?.text ?? "",
       place_id: s.placePrediction?.placeId ?? "",
     }))
-    .filter((p: any) => p.description);
+    .filter((p: { description: string }) => p.description);
 
-  return NextResponse.json({ predictions });
+  return NextResponse.json(
+    { predictions },
+    {
+      headers: {
+        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+      },
+    }
+  );
 }

@@ -7,7 +7,6 @@ const FAQ = dynamic(() => import("@/components/FAQ"));
 const HeroQuoteWidget = dynamic(() => import("@/components/HeroQuoteWidget"));
 const HeroTrustBadges = dynamic(() => import("@/components/HeroTrustBadges"));
 const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
-const CTABanner = dynamic(() => import("@/components/CTABanner"));
 
 import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT } from "@/lib/constants";
 

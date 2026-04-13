@@ -8,7 +8,7 @@ const AnimationObserver = dynamic(() => import("@/components/AnimationObserver")
 const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
 import SiteChrome from "@/components/SiteChrome";
-import { SITE_NAME, TAGLINE, DOMAIN } from "@/lib/constants";
+import { SITE_NAME, DOMAIN } from "@/lib/constants";
 import Script from "next/script";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";

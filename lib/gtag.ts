@@ -1,5 +1,5 @@
 /**
- * GA4 conversion-tracking helpers.
+ * GA4 + Google Ads conversion-tracking helpers.
  *
  * The global `gtag` function is injected by `components/GoogleAnalytics.tsx`.
  * These helpers are safe to call even when GA is not loaded (e.g. dev / ad-blockers).
@@ -12,6 +12,8 @@ declare global {
     dataLayer?: Record<string, any>[];
   }
 }
+
+const AW_CONVERSION_ID = "AW-387461568/1imuCJcgIccEMDj4LgB";
 
 /** Fire a GA4 custom event + push to dataLayer for GTM triggers. */
 export function trackEvent(
@@ -32,21 +34,30 @@ export function trackEvent(
 
 // ── Enhanced Conversions ────────────────────────────────────────────────────
 
-/** Push user-provided data to dataLayer for Google Ads Enhanced Conversions. */
+/** Set user-provided data via gtag for in-page Enhanced Conversions,
+ *  AND push to dataLayer for GTM-based Enhanced Conversions. */
 export function pushEnhancedConversionData(userData: {
   email?: string;
   phone?: string;
   name?: string;
 }) {
   if (typeof window === "undefined") return;
+
+  const enhancedData: Record<string, string> = {};
+  if (userData.email) enhancedData.email = userData.email.trim().toLowerCase();
+  if (userData.phone) enhancedData.phone_number = userData.phone.trim();
+  if (userData.name) enhancedData.first_name = userData.name.trim();
+
+  // In-page gtag approach (what Google recommends for Enhanced Conversions)
+  if (window.gtag) {
+    window.gtag("set", "user_data", enhancedData);
+  }
+
+  // GTM dataLayer approach (kept for backwards compatibility)
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
     event: "enhanced_conversion_data",
-    enhanced_conversion_data: {
-      ...(userData.email ? { email: userData.email.trim().toLowerCase() } : {}),
-      ...(userData.phone ? { phone_number: userData.phone.trim() } : {}),
-      ...(userData.name ? { first_name: userData.name.trim() } : {}),
-    },
+    enhanced_conversion_data: enhancedData,
   });
 }
 
@@ -63,6 +74,15 @@ export function trackEnquirySubmit(userData?: {
     event_category: "engagement",
     event_label: "Contact Page Enquiry",
   });
+
+  // Fire Google Ads conversion directly via gtag
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", "conversion", {
+      send_to: AW_CONVERSION_ID,
+      value: 100.0,
+      currency: "AUD",
+    });
+  }
 }
 
 /** Quote wizard completed & submitted successfully. */
@@ -78,6 +98,15 @@ export function trackQuoteSubmit(
     value: 0,
     ...(propertyType ? { property_type: propertyType } : {}),
   });
+
+  // Fire Google Ads conversion directly via gtag
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", "conversion", {
+      send_to: AW_CONVERSION_ID,
+      value: 100.0,
+      currency: "AUD",
+    });
+  }
 }
 
 /** Quote wizard step progression (for funnel analysis). */
@@ -97,4 +126,3 @@ export function trackPhoneClick(location: string) {
     link_url: "tel:1300959498",
   });
 }
-

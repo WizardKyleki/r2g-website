@@ -34,6 +34,7 @@ export function trackMetaLead(data?: {
 }
 
 /** Enquiry form submitted — fires the Contact standard event. */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export function trackMetaContact(data?: {
   email?: string;
   phone?: string;

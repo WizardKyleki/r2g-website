@@ -97,19 +97,29 @@ function InfoRow({ label, value }: { label: string; value: string | null | undef
   );
 }
 
+function getHoursSince(dateStr: string) {
+  return (new Date().getTime() - new Date(dateStr).getTime()) / 3600000;
+}
+
 function ResponseTimeBadge({ createdAt, firstContactedAt }: { createdAt: string; firstContactedAt: string | null }) {
+  const [hrs, setHrs] = useState(() => getHoursSince(createdAt));
+
+  useEffect(() => {
+    if (firstContactedAt) return;
+    const id = setInterval(() => setHrs(getHoursSince(createdAt)), 60000);
+    return () => clearInterval(id);
+  }, [createdAt, firstContactedAt]);
+
   if (!firstContactedAt) {
-    // Show time waiting if status is still "new"
-    const hrs = (Date.now() - new Date(createdAt).getTime()) / 3600000;
     if (hrs < 4) return <span className="text-xs font-medium px-2 py-1 rounded bg-green-500/20 text-green-400">Waiting {Math.round(hrs * 10) / 10}h</span>;
     if (hrs < 24) return <span className="text-xs font-medium px-2 py-1 rounded bg-yellow-500/20 text-yellow-400">Waiting {Math.round(hrs)}h</span>;
     return <span className="text-xs font-medium px-2 py-1 rounded bg-red-500/20 text-red-400">Waiting {Math.round(hrs)}h</span>;
   }
 
-  const hrs = (new Date(firstContactedAt).getTime() - new Date(createdAt).getTime()) / 3600000;
-  if (hrs < 4) return <span className="text-xs font-medium px-2 py-1 rounded bg-green-500/20 text-green-400">Responded in {Math.round(hrs * 10) / 10}h</span>;
-  if (hrs < 24) return <span className="text-xs font-medium px-2 py-1 rounded bg-yellow-500/20 text-yellow-400">Responded in {Math.round(hrs)}h</span>;
-  return <span className="text-xs font-medium px-2 py-1 rounded bg-red-500/20 text-red-400">Responded in {Math.round(hrs)}h</span>;
+  const responseHrs = (new Date(firstContactedAt).getTime() - new Date(createdAt).getTime()) / 3600000;
+  if (responseHrs < 4) return <span className="text-xs font-medium px-2 py-1 rounded bg-green-500/20 text-green-400">Responded in {Math.round(responseHrs * 10) / 10}h</span>;
+  if (responseHrs < 24) return <span className="text-xs font-medium px-2 py-1 rounded bg-yellow-500/20 text-yellow-400">Responded in {Math.round(responseHrs)}h</span>;
+  return <span className="text-xs font-medium px-2 py-1 rounded bg-red-500/20 text-red-400">Responded in {Math.round(responseHrs)}h</span>;
 }
 
 export default function LeadDetailPage() {

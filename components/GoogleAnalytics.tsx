@@ -3,6 +3,7 @@
 import Script from "next/script";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const AW_ID = "AW-10881689830";
 
 export default function GoogleAnalytics() {
   if (!GA_ID) return null;
@@ -20,6 +21,9 @@ export default function GoogleAnalytics() {
           gtag('js', new Date());
           gtag('config', '${GA_ID}', {
             page_path: window.location.pathname,
+          });
+          gtag('config', '${AW_ID}', {
+            allow_enhanced_conversions: true,
           });
         `}
       </Script>

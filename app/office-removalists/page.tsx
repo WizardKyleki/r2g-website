@@ -175,14 +175,15 @@ const faqItems = [
 ];
 
 // Append FAQ schema into the @graph
-jsonLdSchema["@graph"].push({
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+(jsonLdSchema["@graph"] as any[]).push({
   "@type": "FAQPage",
   mainEntity: faqItems.map((faq) => ({
     "@type": "Question",
     name: faq.question,
     acceptedAnswer: { "@type": "Answer", text: faq.answer },
   })),
-} as any);
+});
 
 // ─────────────────────────────────────────────────────────────────────────────
 // METADATA

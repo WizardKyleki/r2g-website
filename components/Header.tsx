@@ -26,7 +26,6 @@ export default function Header() {
   const pathname = usePathname();
   const navRef = useRef<HTMLElement>(null);
   const closeTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
@@ -34,12 +33,14 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close everything on route change
+  // Close everything on route change (sync with external navigation)
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     setMobileOpen(false);
     setOpenDropdown(null);
     setOpenMobileDrop(null);
   }, [pathname]);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   if (pathname === "/quote") return null;
 

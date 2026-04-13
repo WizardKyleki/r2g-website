@@ -178,13 +178,13 @@ function StatCard({
   );
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function BarChart({
   data,
   labelKey,
   valueKey,
   colorKey,
 }: {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   data: any[];
   labelKey: string;
   valueKey: string;

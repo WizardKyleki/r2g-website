@@ -10,7 +10,7 @@ const GoogleReviews = dynamic(() => import("@/components/GoogleReviews"));
 const ServiceAreas = dynamic(() => import("@/components/ServiceAreas"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
-import { HOME_FAQS, RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY, DOMAIN } from "@/lib/constants";
+import { HOME_FAQS, RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: { absolute: "R2G Removalists | Local & Interstate | Reliable & Affordable" },

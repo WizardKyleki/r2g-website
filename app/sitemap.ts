@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllRouteSlugs } from "@/lib/interstate-routes";
 import { getAllCitySlugs } from "@/lib/interstate-cities";
 import { getAllOfficeLocationSlugs } from "@/data/office-locations";
-import { getAllOfficeSuburbParams } from "@/data/office-suburbs";
+// office-suburbs import removed (unused)
 import { getAllBlogSlugs } from "@/data/blog-posts";
 import { suburbs as cairnsSuburbsData } from "@/data/suburbs";
 import { brisbaneSuburbs } from "@/data/brisbane-suburbs";

@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { getAllBlogPosts, getPostUrl, type BlogPost } from "@/data/blog-posts";
@@ -19,11 +19,7 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function BlogPostsWidget() {
   const pathname = usePathname();
-  const [posts, setPosts] = useState<BlogPost[]>([]);
-
-  useEffect(() => {
-    setPosts(shuffle(getAllBlogPosts()).slice(0, 4));
-  }, []);
+  const [posts] = useState<BlogPost[]>(() => shuffle(getAllBlogPosts()).slice(0, 4));
 
   const hidden =
     HIDDEN_ROUTES.includes(pathname) || pathname.startsWith("/blog/");
