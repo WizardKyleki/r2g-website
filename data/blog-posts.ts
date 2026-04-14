@@ -3314,6 +3314,741 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+
+  // ── Post: Dodgy Removalist Red Flags ─────────────────
+  {
+    slug: "dodgy-removalist-red-flags",
+    title: "How to Spot a Dodgy Removalist: 9 Red Flags Before You Pay a Deposit",
+    metaTitle: "9 Red Flags of a Dodgy Removalist (2026 Guide) | R2G",
+    metaDescription:
+      "Avoid moving scams and rogue removalists. 9 warning signs to check before paying a deposit, from missing ABNs and cash-only demands to fake reviews and vague quotes.",
+    excerpt:
+      "Rogue removalists cost Australians millions every year. Here are the 9 warning signs to check before you pay a single dollar, so you never become another horror story on ACA or A Current Affair.",
+    category: "Moving Tips",
+    date: "April 2026",
+    publishedDate: "2026-04-14",
+    readTime: "8 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-hiring-removalists.webp",
+    imageAlt: "Homeowner checking a removalist quote and contract before paying a deposit",
+    keywords: [
+      "dodgy removalists",
+      "moving scam australia",
+      "removalist red flags",
+      "how to avoid moving scams",
+      "rogue removalists brisbane",
+      "fake removalist reviews",
+      "removalist deposit scam",
+    ],
+    relatedSlugs: ["choose-right-moving-company", "how-to-choose-removalists-brisbane", "cost-of-moving-brisbane"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Every year, Australians lose millions of dollars to dodgy removalists. The ACCC regularly lists moving companies among the top sectors for consumer complaints, and A Current Affair seems to run a new removalist horror story every other week. The stories follow a familiar pattern. A family pays a deposit for a seemingly reasonable quote, the movers arrive late or not at all, and when they do show up, the price suddenly doubles, belongings are held hostage until cash changes hands, or the truck simply disappears with everything inside.",
+      },
+      {
+        type: "paragraph",
+        text: "The frustrating part is that almost every single one of these scams is preventable. Dodgy removalists leave fingerprints long before they ever show up at your door, and spotting them is straightforward once you know what to look for. Here are nine warning signs that should make you walk away before you pay a cent, whether you are booking local [Brisbane removalists](/removalists-brisbane), [Gold Coast movers](/removalists-gold-coast), or an [interstate team](/interstate-removalists).",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 1: No ABN or Business Registration",
+      },
+      {
+        type: "paragraph",
+        text: "Every legitimate removalist business in Australia must have an Australian Business Number. No exceptions. If a company cannot provide an ABN on request, or if the ABN they give you is not registered to a removalist business, walk away immediately. Check the number yourself at the free Australian Business Register website before you pay anything. Scam operators often use fake or borrowed ABNs, so type it in and verify the business name matches what is on their quote.",
+      },
+      {
+        type: "tip",
+        title: "Quick ABN check",
+        text: "Go to abr.business.gov.au, type in the ABN, and confirm the trading name matches the quote. If it does not match, or if the business is registered to a different industry like retail or hospitality, that is a scam.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 2: Cash Only With a Large Upfront Deposit",
+      },
+      {
+        type: "paragraph",
+        text: "Legitimate removalists accept bank transfer, credit card, or EFTPOS. A company that insists on cash only, especially for a large deposit, is waving a flag you can see from space. Cash payments leave no paper trail, no chargeback option, and no legal proof of transaction. A deposit of 50 percent or more of the total quote is another red flag. Most reputable Australian removalists charge either no deposit at all or a small booking fee in the $100 to $200 range. Paying thousands upfront to a stranger with a van is how people lose everything they own.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 3: No Written Quote With Itemised Costs",
+      },
+      {
+        type: "paragraph",
+        text: "If a removalist will not put their quote in writing, there is a reason. Verbal quotes are the number one source of price disputes on moving day. A proper quote should itemise the hourly rate, number of movers, truck size, travel time, callout or depot fees, insurance details, and any expected surcharges for stairs, heavy items, or long carries. Vague phrases like from $120 per hour with no breakdown leave you wide open to surprise charges. Always ask for the quote in email or PDF, read it carefully, and save a copy before the move.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 4: No Certificate of Insurance",
+      },
+      {
+        type: "paragraph",
+        text: "Every professional removalist should carry public liability insurance and goods-in-transit insurance, and should be happy to provide a current certificate on request. If they stall, refuse, or claim insurance is not needed for local jobs, find someone else. Uninsured movers mean that when your TV falls off the tailgate or your couch puts a hole in the wall, the cost comes out of your pocket. Ask for the certificate of currency and check the expiry date. A legitimate company will send it within the hour.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 5: No Physical Address or Depot",
+      },
+      {
+        type: "paragraph",
+        text: "Scam operators often run out of a single personal vehicle with nothing behind them. If a company has no listed business address, no depot, and no physical office you can visit, be extremely cautious. A quick Google Maps search of the address listed on their website should show a warehouse, office, or depot, not a suburban house or a fake location. Companies that move house every six months are almost always trying to outrun bad reviews and unpaid complaints.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 6: Suspicious or Missing Google Reviews",
+      },
+      {
+        type: "paragraph",
+        text: "Genuine reviews are the fastest way to sort good removalists from bad ones. A legitimate operator should have at least a few dozen Google reviews built up over several years, with a rating above 4.5 stars. Warning signs include: fewer than 10 total reviews, a suspicious burst of 5-star reviews posted on the same day, reviews that use identical phrasing, generic reviewer names with no profile photos, or a pattern where every 1-star review gets an aggressive response from the business. Read the 1-star reviews carefully. If the complaint is always the same, like price doubled on the day or held belongings hostage, believe the pattern.",
+      },
+      {
+        type: "tip",
+        title: "Read the 3-star reviews",
+        text: "The most honest reviews are usually in the middle. 5-star reviews can be faked and 1-star reviews can be exaggerated, but 3-star reviewers tend to give balanced accounts of what actually happened.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 7: Quote That Is Dramatically Cheaper Than Everyone Else",
+      },
+      {
+        type: "paragraph",
+        text: "Get at least three quotes before you book. If two removalists quote $1,600 for your 3-bedroom move and the third quotes $780, something is wrong. Either the cheap quote is missing key items, or the operator plans to hit you with surprise charges on the day. A classic scam pattern is to win the job with an unbeatable quote, load the truck, then refuse to unload until you pay double or triple the original price. This is called price gouging under duress, and it is more common than most people realise. If a quote looks too good to be true, it almost always is. Reputable Brisbane and Gold Coast operators charge between $179 and $269 per hour depending on crew size and truck. See our [Brisbane moving cost guide](/blog/cost-of-moving-brisbane) for current rates.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 8: No Branded Trucks or Uniforms",
+      },
+      {
+        type: "paragraph",
+        text: "Professional removalists invest in their brand. Branded trucks, branded shirts, and branded paperwork cost money, and operators who expect repeat business and referrals spend that money gladly. Unmarked white trucks, crew in plain clothes, and handwritten receipts are classic signs of a fly-by-night operation that plans to disappear if anything goes wrong. Ask to see photos of their fleet before you book. A legitimate company will send them within minutes. A scam will stall or send generic stock images.",
+      },
+      {
+        type: "heading",
+        text: "Red Flag 9: Pressure Tactics and Last-Minute Changes",
+      },
+      {
+        type: "paragraph",
+        text: "High-pressure sales tactics do not belong in the removalist industry. If a company is pushing you to pay now to lock in a discount that expires in the next 20 minutes, that is a scam playbook, not a business. Other pressure tactics to watch for include changing the crew size at the last minute, raising the hourly rate the day before the move, demanding extra cash on arrival for fuel or tolls that were not on the original quote, and refusing to start the job until you pay additional money up front. A reputable removalist will never hold your belongings hostage, because they do not need to.",
+      },
+      {
+        type: "heading",
+        text: "How the Moving Scam Industry Has Evolved",
+      },
+      {
+        type: "paragraph",
+        text: "The rogue removalist problem is not new, but the tactics have become more sophisticated over the past five years. Ten years ago, most scams were opportunistic. A guy with a van, a mate to help, and a Gumtree ad. Today, the more dangerous operators run professional-looking websites with fake addresses, stock photos of trucks they do not own, and automated booking systems that feel identical to legitimate companies. Some even pay for Google Ads to outrank real removalists for suburb-specific search terms. A customer searching for removalists in their suburb may see a scammer listed above a legitimate operator simply because the scammer is willing to bid more on the keyword.",
+      },
+      {
+        type: "paragraph",
+        text: "Regulation has not kept up. Unlike plumbers, electricians, or real estate agents, removalists in Queensland, New South Wales, and most other Australian states require no specific trade licence to operate. Any adult with a driver's licence and an ABN can launch a moving business tomorrow. There is no industry exam, no mandatory insurance requirement, and no formal register of complaints. The Australian Furniture Removers Association (AFRA) is the closest thing the industry has to a quality mark, but membership is voluntary. This is why doing your own due diligence is so critical.",
+      },
+      {
+        type: "heading",
+        text: "The Four Most Common Moving Scams in Australia",
+      },
+      {
+        type: "paragraph",
+        text: "Dodgy operators tend to run the same playbook over and over, with small variations depending on the state. Knowing the shape of each scam makes it much easier to spot one as it unfolds. These four are the ones we hear about most often from customers who come to us after a bad experience with someone else.",
+      },
+      {
+        type: "subheading",
+        text: "The Hostage Scam",
+      },
+      {
+        type: "paragraph",
+        text: "This is the most aggressive and most common scam in the country. The mover quotes a reasonable price, loads the truck, then refuses to unload at the destination until you pay two or three times the original quote, usually in cash. They know you cannot easily call the police because technically your belongings are in their possession and you signed some form of paperwork. Victims often pay because they feel they have no choice. The fix is to never sign a blank or open-ended job sheet, to get every charge in writing before loading begins, and to never pay in cash under pressure.",
+      },
+      {
+        type: "subheading",
+        text: "The Phantom Hourly Rate",
+      },
+      {
+        type: "paragraph",
+        text: "A quote comes through at $120 per hour, which sounds great. What the quote does not mention is a three-hour minimum, a one-hour call-out fee, a depot-to-pickup travel charge, a fuel levy, and a stair surcharge per flight. By the time all the add-ons are applied, the real rate is closer to $240 per hour. Australian Consumer Law requires operators to disclose all reasonably foreseeable charges in advance, and hidden fees of this scale often qualify as misleading conduct. Always ask for the total estimated cost, not just the hourly rate, before you book.",
+      },
+      {
+        type: "subheading",
+        text: "The Deposit Disappearance",
+      },
+      {
+        type: "paragraph",
+        text: "You pay a $500 deposit to lock in your moving date. The day before the move, phone calls go unanswered. The company website still exists but the phone number is dead. Sometimes the operator reappears on a new business name a month later, scamming the next round of customers. This is why paying more than $200 as a deposit to any removalist you have not used before is risky. Pay by credit card if you can, because credit card chargebacks are the fastest way to recover a lost deposit.",
+      },
+      {
+        type: "subheading",
+        text: "The Fake Five-Star Review Farm",
+      },
+      {
+        type: "paragraph",
+        text: "Scam operators know that Google reviews are the first thing people check, so many of them buy or generate dozens of fake reviews to pad their ratings. Tell-tale signs include twenty five-star reviews posted in a single week, reviews with identical phrasing or near-identical grammar, and reviewer profiles with no photo, no other reviews, and usernames that look like random letters. Scroll past the glowing reviews and look for the one-stars. If every negative review describes the same pattern, believe the pattern.",
+      },
+      {
+        type: "heading",
+        text: "How to Verify a Removalist in 10 Minutes",
+      },
+      {
+        type: "paragraph",
+        text: "If you are time-pressed and want a simple pre-booking checklist, this is the one we recommend to every customer who asks. Ten minutes of checking can save you from the worst moving day of your life.",
+      },
+      {
+        type: "list",
+        items: [
+          "Type the ABN into abr.business.gov.au and confirm the business name matches the quote",
+          "Search the business name plus the word scam on Google. If the first page has horror stories, walk away",
+          "Look at Google Maps reviews, sort by Most Recent, and read the last five reviews carefully",
+          "Ask for a certificate of currency for public liability and goods-in-transit insurance",
+          "Ask whether the quote includes GST, depot travel, fuel, stair surcharges, and minimum hours",
+          "Confirm the deposit amount and the accepted payment methods. Refuse cash-only operators",
+          "Check their physical address on Google Street View. A real depot or office should appear",
+          "Ask how long the company has been in business and who will run the job on the day",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What to Do If You Have Been Scammed",
+      },
+      {
+        type: "paragraph",
+        text: "If a dodgy removalist has already taken your money or is holding your belongings, you still have options. Contact the police non-emergency line on 131 444, report the business to the ACCC through Scamwatch, file a complaint with your state consumer affairs office (Office of Fair Trading in Queensland, NSW Fair Trading in New South Wales, and Consumer Affairs Victoria for Victorian moves), and post detailed reviews on Google, ProductReview, and local Facebook community groups. If you paid by credit card, initiate a chargeback with your bank under the Visa or Mastercard dispute process. Keep every email, SMS, and receipt as evidence, because consumer tribunals work on documentation. The faster you act, the better your chances of recovering your money or your goods. In the past two years, we have had several customers come to us after a scam, and the ones who reported it within 48 hours almost always recovered at least some of their money.",
+      },
+      {
+        type: "quote",
+        text: "The cost of checking a removalist properly is 15 minutes of research. The cost of not checking can be your entire household. Always verify before you pay.",
+        author: "R2G Moving Team",
+      },
+      {
+        type: "heading",
+        text: "State-by-State Consumer Protection",
+      },
+      {
+        type: "paragraph",
+        text: "Your options for recovering money from a dodgy removalist depend heavily on which state the dispute takes place in. Queensland residents can lodge complaints with the Office of Fair Trading and escalate unresolved disputes to the Queensland Civil and Administrative Tribunal (QCAT), which handles claims up to $25,000 and does not require a lawyer. New South Wales residents use NSW Fair Trading and the NSW Civil and Administrative Tribunal. Victoria has Consumer Affairs Victoria and the Victorian Civil and Administrative Tribunal. These tribunals are generally cheap to access, with filing fees under $200 for most claims, and they have real power to order refunds and compensation. The catch is that you need solid documentation to win a case. That is why written quotes, receipts, and contracts matter so much.",
+      },
+      {
+        type: "paragraph",
+        text: "Federal protection comes from the Australian Consumer Law, which applies to every business in the country regardless of size. Under the ACL, services must be provided with due care and skill, and must be fit for purpose. A removalist who damages your furniture through careless handling is in breach of those guarantees, and you can seek a remedy. The ACCC enforces the ACL and takes moving industry complaints seriously, though individual disputes usually get handled at state level first.",
+      },
+      {
+        type: "heading",
+        text: "What AFRA Membership Actually Means",
+      },
+      {
+        type: "paragraph",
+        text: "The Australian Furniture Removers Association (AFRA) is the industry body for removalists in Australia. Members must meet a minimum standard for insurance, vehicles, training, and customer service, and they sign up to a code of conduct. Hiring an AFRA member does not guarantee a perfect move, but it does filter out the worst rogue operators, because fly-by-night scammers do not bother with voluntary industry memberships. AFRA membership is a reasonable green flag when you are weighing up two similar quotes. It is not the only factor, and there are many excellent non-AFRA operators, but it is one more check mark on the trust column.",
+      },
+      {
+        type: "heading",
+        text: "The R2G Standard",
+      },
+      {
+        type: "paragraph",
+        text: "R2G Transport & Storage has been moving Queensland families since 2016. We carry full public liability and goods-in-transit insurance, operate from physical depots in Brisbane, the Gold Coast, the Sunshine Coast, Cairns, and Townsville, run modern branded trucks with uniformed crews, and have hundreds of verified Google reviews across all our service areas. Every quote is itemised and in writing, every job starts with a clear written contract, and we never ask for large cash deposits. If you want to skip the red flags entirely, [get a free quote](/quote) from our team and see the difference a legitimate Australian removalist makes.",
+      },
+      {
+        type: "paragraph",
+        text: "Looking for more guidance on choosing the right team? Read our full guide on [how to choose the right moving company in Australia](/blog/choose-right-moving-company) or the Brisbane-specific breakdown on [how to choose removalists in Brisbane](/blog/how-to-choose-removalists-brisbane).",
+      },
+    ],
+  },
+
+  // ── Post: Where Aussies Are Going in 2026 ────────────
+  {
+    slug: "where-aussies-are-going-2026",
+    title: "Where Aussies Are Going in 2026 (Data Report)",
+    metaTitle: "Where Aussies Are Moving in 2026: Migration Data Report | R2G",
+    metaDescription:
+      "Australian interstate migration data for 2026. Queensland leads the country, NSW is losing thousands, and Perth is surging. Full breakdown of where Australians are moving and why.",
+    excerpt:
+      "Queensland gained more than 21,000 interstate migrants while NSW lost 24,000. Perth is quietly surging. Here is the full data picture of where Australians are moving in 2026 and what is driving the shift.",
+    category: "Industry Report",
+    date: "April 2026",
+    publishedDate: "2026-04-13",
+    readTime: "10 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-moving-to-brisbane.webp",
+    imageAlt: "Australian map showing interstate migration flows in 2026 with Queensland leading the country",
+    keywords: [
+      "where aussies are moving 2026",
+      "australia interstate migration 2026",
+      "queensland migration data",
+      "brisbane migration trends",
+      "perth population growth 2026",
+      "nsw losing population",
+      "australian migration report",
+    ],
+    relatedSlugs: ["moving-index-2026", "moving-to-brisbane-guide", "moving-interstate-guide"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Australia is in the middle of one of the biggest internal migration shifts in a generation. More than 100,000 Australians cross a state border every year looking for cheaper housing, warmer weather, better jobs, or a slower pace of life. In 2026, those patterns are clearer than ever. Queensland is gaining tens of thousands of new residents, New South Wales is hemorrhaging families it cannot replace, and Western Australia is quietly having its best year for arrivals since the mining boom. This is the full picture of where Australians are moving in 2026 and what is driving the shift.",
+      },
+      {
+        type: "heading",
+        text: "The National Picture",
+      },
+      {
+        type: "paragraph",
+        text: "Australian Bureau of Statistics data for the most recent 12-month period shows interstate migration is accelerating again after a brief cool-down in 2024. Roughly 415,000 Australians moved between states in the latest year. Queensland and Western Australia are the only states posting meaningful net gains. New South Wales, Victoria, and the ACT are all net losers. South Australia is close to neutral, and Tasmania has flipped from gaining residents during the pandemic to losing them as lifestyle migration unwinds.",
+      },
+      {
+        type: "subheading",
+        text: "Net Interstate Migration by State (Latest ABS Data)",
+      },
+      {
+        type: "list",
+        items: [
+          "Queensland: +21,595 net arrivals",
+          "Western Australia: +9,800 net arrivals",
+          "South Australia: +200 net arrivals",
+          "Northern Territory: -600 net departures",
+          "Tasmania: -1,400 net departures",
+          "ACT: -2,100 net departures",
+          "Victoria: -3,200 net departures",
+          "New South Wales: -24,328 net departures",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The NSW number is the one everyone talks about. More than 24,000 net departures in a single year is the largest interstate outflow any Australian state has recorded since 2005. For context, that is enough people to fill a mid-sized regional town, and they are almost all leaving Sydney.",
+      },
+      {
+        type: "heading",
+        text: "Queensland: The Destination of the Decade",
+      },
+      {
+        type: "paragraph",
+        text: "Queensland has been the number one destination for internal migration for five years running, and the gap keeps widening. Of the 21,595 net arrivals in the latest ABS period, more than 14,000 settled in South East Queensland. Brisbane, the Gold Coast, and the Sunshine Coast are absorbing most of the growth, though Cairns and Townsville are also gaining residents as remote work becomes permanent for many households. Our team has seen interstate bookings to Queensland rise year on year, which is why we expanded our [interstate removalist](/interstate-removalists) fleet in 2025.",
+      },
+      {
+        type: "subheading",
+        text: "Why Queensland Is Winning",
+      },
+      {
+        type: "list",
+        items: [
+          "House prices remain 20 to 30 percent below Sydney and Melbourne equivalents, even after strong growth",
+          "Median Brisbane rent sits at $727 per week, still cheaper than Sydney's $780",
+          "Queensland has added more jobs than any other state over the past two years",
+          "Climate, lifestyle, and a long coastline are pulling remote workers and retirees in equal numbers",
+          "Infrastructure spending linked to the 2032 Olympics is creating confidence in the long-term outlook",
+        ],
+      },
+      {
+        type: "heading",
+        text: "New South Wales: The Great Sydney Exodus",
+      },
+      {
+        type: "paragraph",
+        text: "New South Wales continues to lose residents faster than it can replace them from interstate, and the drivers are well known. Sydney remains the most expensive housing market in the country. The median house price in Sydney crossed $1.65 million in early 2026, and rents averaged $780 per week. For young families, that combination is no longer workable. Roughly 65 percent of Sydney leavers are aged between 25 and 44, the peak family-forming years. Most are heading to South East Queensland, with the Gold Coast and northern Brisbane suburbs absorbing the largest share.",
+      },
+      {
+        type: "paragraph",
+        text: "Regional NSW has softened the blow slightly. The Central Coast, the Hunter, and the Illawarra are all gaining residents from Sydney, but the total regional NSW gain does not come close to offsetting Sydney's losses. The net effect is a state that is losing more people across its borders than it is attracting, every single quarter.",
+      },
+      {
+        type: "heading",
+        text: "Victoria: Still Losing, But Slower",
+      },
+      {
+        type: "paragraph",
+        text: "Victoria's net loss of around 3,200 residents is small compared to NSW, but it is significant because Melbourne used to be the country's fastest growing capital. Post-pandemic, Melbourne has struggled to recover its pre-2020 migration appeal. Housing is cheaper than Sydney but still high relative to Brisbane or Perth, and the lingering effects of extended lockdowns pushed many interstate migrants to reconsider. Most of the departures are heading to Queensland, though Western Australia has picked up a growing share of Melbourne leavers, particularly from the eastern suburbs.",
+      },
+      {
+        type: "heading",
+        text: "Western Australia: The Quiet Success Story",
+      },
+      {
+        type: "paragraph",
+        text: "Perth is having its best interstate migration year in more than a decade. WA posted a net gain of roughly 9,800 residents in the latest ABS period, driven almost entirely by arrivals from NSW and Victoria. Perth's median house price is still well under $800,000, the economy is benefiting from the lithium and critical minerals boom, and a relatively affordable lifestyle is pulling families westward. The downside is distance, which keeps Perth out of consideration for many households. For those who do make the jump, it is often a long-term move rather than a try-it-and-see.",
+      },
+      {
+        type: "heading",
+        text: "Tasmania: The Lifestyle Unwind",
+      },
+      {
+        type: "paragraph",
+        text: "Tasmania was the surprise winner of the pandemic migration wave. Hobart and Launceston saw property prices surge by more than 40 percent between 2020 and 2022 as mainlanders fled to what felt like a quieter, safer, and more affordable lifestyle. That story has now reversed. Tasmanian property prices softened in 2024 and 2025, rental availability improved, and many of those pandemic migrants have decided that long winters and limited job markets are harder to live with than they expected. Tasmania is now a net loser of interstate residents, mostly back to Victoria and Queensland.",
+      },
+      {
+        type: "heading",
+        text: "Where People Are Actually Landing",
+      },
+      {
+        type: "paragraph",
+        text: "Zooming in below the state level, five regions are dominating interstate arrivals in 2026. These are the most popular destinations Australian families are choosing when they pack up and cross a state border.",
+      },
+      {
+        type: "subheading",
+        text: "Top 5 Interstate Migration Destinations in 2026",
+      },
+      {
+        type: "list",
+        items: [
+          "South East Queensland (Brisbane, Gold Coast, Sunshine Coast): Roughly 14,000 net arrivals. The clear number one for families, retirees, and remote workers",
+          "Perth metro: Around 8,500 net arrivals. The fastest growing capital by percentage, powered by jobs and affordability",
+          "Cairns and Far North Queensland: Around 2,000 net arrivals. Lifestyle migration from cooler southern states",
+          "Regional NSW (Central Coast, Hunter, Illawarra): Around 4,000 net arrivals from Sydney, softening the NSW picture",
+          "Adelaide metro: Around 1,500 net arrivals. Small but stable growth as affordability attracts Victorian families",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Who Is Actually Moving: The Demographics Behind the Numbers",
+      },
+      {
+        type: "paragraph",
+        text: "The headline migration numbers only tell half the story. The more interesting question is who exactly is packing up and crossing a state border. ABS census and internal migration data shows three distinct groups behind the 2026 flows, and each is moving for slightly different reasons.",
+      },
+      {
+        type: "subheading",
+        text: "Young Families (25 to 44)",
+      },
+      {
+        type: "paragraph",
+        text: "This age group is the largest share of interstate movers and the engine behind Queensland's growth. Around 65 percent of the people leaving Sydney are in this bracket, and most are arriving in Brisbane, the Gold Coast, and the Sunshine Coast with young kids in tow. The motivation is almost always the same: a two-bedroom flat in Marrickville costs more than a four-bedroom house on the Gold Coast, and after the kids start arriving, the maths stops working. Queensland's housing affordability, combined with strong schools in many growth suburbs, makes it the obvious destination.",
+      },
+      {
+        type: "subheading",
+        text: "Remote Workers (30 to 55)",
+      },
+      {
+        type: "paragraph",
+        text: "Post-pandemic remote work is no longer a trend, it is a permanent feature of the Australian labour market. Roughly 35 percent of white-collar workers now spend at least two days a week working from home, and a significant minority work fully remote. For these households, the only real constraint on where they live is lifestyle and cost. That has sent thousands north to places like Cairns, Port Douglas, Byron Bay, and the Sunshine Coast hinterland, where a home office, good internet, and an ocean view beat a CBD commute in every respect.",
+      },
+      {
+        type: "subheading",
+        text: "Retirees and Downsizers (60+)",
+      },
+      {
+        type: "paragraph",
+        text: "Retirement migration has been a quiet driver of Australian internal migration for decades, and 2026 is no different. Cashed-up retirees are selling expensive southern homes, downsizing into smaller coastal properties, and pocketing hundreds of thousands of dollars in the process. The Gold Coast and the Sunshine Coast are the traditional retiree favourites, but Townsville, Mackay, and Cairns are increasingly popular for retirees chasing warmer winters. In some Gold Coast suburbs, retirees from NSW now account for nearly 20 percent of recent home purchases.",
+      },
+      {
+        type: "heading",
+        text: "What Is Driving the Shift",
+      },
+      {
+        type: "paragraph",
+        text: "Three forces are doing most of the work behind these numbers. The first is housing affordability. When the median Sydney house costs 60 percent more than the median Brisbane house, and the job markets are converging thanks to remote work, families vote with their moving trucks. The second is climate and lifestyle, which has been a quiet but steady driver of northward migration for decades and accelerated sharply after the pandemic. The third is generational wealth transfer. Retirees cashing out of expensive southern capitals are buying smaller homes in Queensland and the Perth coast, freeing up hundreds of thousands of dollars for the next chapter.",
+      },
+      {
+        type: "tip",
+        title: "The average interstate mover saves $380 per week",
+        text: "Analysis of typical Sydney-to-Brisbane moves in 2026 shows a median saving of $380 per week in combined rent and cost-of-living expenses, according to SQM Research and CoreLogic data. Over two years, that is a full house deposit.",
+      },
+      {
+        type: "heading",
+        text: "Suburb Hotspots: Where the New Arrivals Are Actually Landing",
+      },
+      {
+        type: "paragraph",
+        text: "Once interstate migrants land in Queensland, they do not spread evenly. Certain suburbs are absorbing a disproportionate share of the newcomers, and rental vacancy data makes the pattern clear. These are the growth suburbs where the 2026 migration is concentrating.",
+      },
+      {
+        type: "list",
+        items: [
+          "Pimpama and Coomera (Gold Coast North): Massive new housing estates, schools opening every year, and direct M1 access to Brisbane. The single busiest corridor for interstate arrivals",
+          "North Lakes and Mango Hill (Brisbane North): Master-planned suburbs with shopping, health, and schools. Popular with NSW families wanting a complete community from day one",
+          "Ripley and Springfield Lakes (Brisbane West): Affordable new-build suburbs inside the SEQ growth plan. Strong rental demand and significant price growth over the past 18 months",
+          "Caloundra and Birtinya (Sunshine Coast): Beach lifestyle with a major hospital precinct and a growing tech sector. Retirees and remote workers both love it",
+          "Edmonton and Gordonvale (Cairns): Tropical lifestyle migration at a fraction of southern prices. Gaining families and remote workers in roughly equal measure",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The common thread in all of these suburbs is master-planned community design. Interstate movers tend to prefer areas where schools, shopping, parks, and medical services are all walkable or a short drive, which reflects the reality that most of them are relocating without family or friends nearby. Moving to a suburb where everything already works is a much lower-risk decision than a fixer-upper in an unfamiliar neighbourhood.",
+      },
+      {
+        type: "heading",
+        text: "The 2032 Olympics Effect",
+      },
+      {
+        type: "paragraph",
+        text: "Brisbane winning the 2032 Olympic and Paralympic Games has already reshaped the long-term picture for South East Queensland. Infrastructure investment linked to the Games is running at more than $7 billion across transport, venues, and urban renewal. The Cross River Rail, the Brisbane Metro, and major upgrades to the M1 are all bringing forward connectivity improvements that normally would have taken another decade. For interstate buyers, the Olympics creates confidence in long-term capital growth, which is why many NSW and Victorian families are happy to pay premium prices in SEQ in 2026. They are betting on the city looking very different by 2032, and the early signs suggest they are right.",
+      },
+      {
+        type: "heading",
+        text: "The Economic Case for Moving North",
+      },
+      {
+        type: "paragraph",
+        text: "Interstate migration ultimately comes down to maths. The sharpest way to look at it is to compare two otherwise-identical households, one in Sydney and one in Brisbane, and track the difference in wealth after five years. Using median housing and rental data from 2026, a household earning $180,000 combined and renting a family home in Sydney pays roughly $40,600 in annual rent. The same household renting an equivalent home in Brisbane pays around $37,800. That annual saving looks modest on paper, but it grows significantly once you factor in cheaper childcare, lower fuel costs, shorter commutes, and lower council rates. Over five years, the typical interstate-moving family is between $45,000 and $80,000 better off for making the switch.",
+      },
+      {
+        type: "paragraph",
+        text: "For buyers, the gap is even larger. A household purchasing a $900,000 home in Brisbane versus a $1.6 million home in Sydney is looking at roughly $35,000 per year less in mortgage repayments and stamp duty spread over the loan term. That is real money that funds renovations, holidays, school fees, or simply a more comfortable life. This is the core calculation driving the 24,000-person Sydney exodus.",
+      },
+      {
+        type: "heading",
+        text: "What It Means for 2026 and Beyond",
+      },
+      {
+        type: "paragraph",
+        text: "The patterns shaping 2026 are likely to continue through the second half of the decade. The 2032 Brisbane Olympics will keep Queensland in the international spotlight and pull both jobs and investment north. Sydney's housing affordability problem is not solving itself any time soon. Perth is benefiting from a structural commodity boom that should last several more years. Expect Queensland and WA to keep absorbing population, NSW to keep bleeding families, and Victoria to stabilise somewhere in the middle.",
+      },
+      {
+        type: "paragraph",
+        text: "For our part, R2G has been busy. Interstate bookings are up across every route we operate, with Brisbane arrivals leading the demand. If you are planning a long distance move, booking early is more important than ever. Peak season now extends from September to April, and top-rated removalists are often booked out four to six weeks in advance.",
+      },
+      {
+        type: "heading",
+        text: "The Tropical Migration Trend",
+      },
+      {
+        type: "paragraph",
+        text: "One of the more interesting sub-stories of 2026 is the quiet growth of tropical North Queensland. Cairns, Port Douglas, Mission Beach, and Townsville have all posted positive net migration numbers for the third year running, and the composition of arrivals is unusual. Traditionally, North Queensland attracted retirees and tree-changers. In 2026, remote workers and young families are matching them in volume. The drivers are the same as elsewhere (cheaper housing, better lifestyle, warmer climate), but with one extra factor. North Queensland property remains well below the state average, with median Cairns house prices around $540,000 versus Brisbane's $820,000. For a young family with a fully remote income and no need to commute, that gap is life-changing.",
+      },
+      {
+        type: "paragraph",
+        text: "The downside of tropical migration is distance. Moving from Melbourne to Cairns is nearly 3,000 kilometres, which puts it firmly in backloading territory for anyone trying to keep costs down. A full-service direct move from Melbourne to Cairns typically runs $6,500 to $9,500 for a three-bedroom household. A backload with flexible timing can cut that by 30 to 50 percent. This is one of the main reasons we expanded our Cairns depot capacity in 2025.",
+      },
+      {
+        type: "heading",
+        text: "Interest Rates and the Migration Wave",
+      },
+      {
+        type: "paragraph",
+        text: "Interest rate movements have played a larger role in interstate migration than most commentators admit. When rates rose sharply in 2022 and 2023, households with expensive Sydney mortgages were the first to feel the pinch. Many of them sold and moved to cheaper markets to reduce monthly repayments. The Reserve Bank's shift back to cutting rates in 2025 has eased that pressure slightly, but the pattern of Sydney-to-Queensland relocation has not slowed. One explanation is that once a family has gone through the trouble of leaving Sydney, they rarely come back. The barriers to moving are high, the decision is emotional as much as financial, and the lifestyle gains of Queensland are hard to unwind once you have experienced them.",
+      },
+      {
+        type: "heading",
+        text: "Planning Your Own Move",
+      },
+      {
+        type: "paragraph",
+        text: "If you are one of the thousands joining the migration to Queensland, start with our [complete guide to moving to Brisbane](/blog/moving-to-brisbane-guide) and our [full interstate moving guide](/blog/moving-interstate-guide). You can also read the [R2G Moving Index 2026](/moving-index-2026) for the full data set behind this article, including suburb-level breakdowns and rental market charts. Ready to book? [Get a free interstate quote](/quote) from our team and see why Queensland families keep choosing R2G for their long distance moves.",
+      },
+      {
+        type: "quote",
+        text: "Every week we load another truck heading north. The stories are similar: a family priced out of Sydney or Melbourne, chasing space, sunshine, and a future they can actually afford.",
+        author: "R2G Interstate Team",
+      },
+    ],
+  },
+
+  // ── Post: Apartment Removalists Brisbane ─────────────
+  {
+    slug: "apartment-removalists-brisbane",
+    title: "Apartment Removalists Brisbane: High Rise, Lifts, and Tight Stairs",
+    metaTitle: "Apartment Removalists Brisbane: High Rise, Lifts & Stairs Guide | R2G",
+    metaDescription:
+      "Moving out of a Brisbane apartment? Full guide to booking lifts, navigating body corporate rules, tight stairs, COI requirements, and what it actually costs in 2026.",
+    excerpt:
+      "Moving out of a Brisbane apartment is a completely different job to a house move. Lifts, body corporate paperwork, loading zones, and tight stairs all add complexity. Here is exactly how to plan it, what it costs, and how to avoid the most common mistakes.",
+    category: "Brisbane Moving",
+    date: "April 2026",
+    publishedDate: "2026-04-12",
+    readTime: "11 min read",
+    author: "R2G Moving Team",
+    image: "/images/blog-moving-services.webp",
+    imageAlt: "Brisbane apartment building interior showing a service lift prepared for a moving day with padded walls",
+    keywords: [
+      "apartment removalists brisbane",
+      "high rise removalists brisbane",
+      "apartment movers brisbane",
+      "brisbane lift booking move",
+      "body corporate moving rules",
+      "coi removalist insurance brisbane",
+      "brisbane apartment moving cost",
+    ],
+    relatedSlugs: ["how-to-choose-removalists-brisbane", "cost-of-moving-brisbane", "dodgy-removalist-red-flags"],
+    content: [
+      {
+        type: "paragraph",
+        text: "Moving out of a Brisbane apartment is not just a house move with fewer stairs. It is a completely different job with its own paperwork, its own timing constraints, and its own set of ways to waste money if you get it wrong. Body corporate rules, lift bookings, certificates of insurance, loading zones, and tight access points all combine to turn what looks like a simple job into a logistical puzzle. Get any one of these wrong and your move can grind to a halt for an hour, two hours, or in the worst cases, an entire morning. This guide walks through every part of the process so you can plan your Brisbane apartment move with confidence and avoid the hidden costs that catch first-timers off guard.",
+      },
+      {
+        type: "heading",
+        text: "Why Apartment Moves Are Harder Than House Moves",
+      },
+      {
+        type: "paragraph",
+        text: "On the surface, an apartment move should be easier. Less square footage, fewer rooms, nothing in a garage, no shed to clear. In practice, apartment moves almost always take longer per cubic metre of furniture than house moves, and they cost more per hour once all the add-ons are included. The reasons come down to access, rules, and shared infrastructure. A suburban house has a driveway for the truck, a clear path to the front door, and nobody looking over your shoulder. A Brisbane high-rise has none of those things. You share a lift with other residents, the loading bay has a strict time window, the body corporate wants paperwork, and security might stop the crew if anything is out of order. Every one of those hurdles adds friction, and friction costs time.",
+      },
+      {
+        type: "heading",
+        text: "Step 1: Check Your Body Corporate Rules Early",
+      },
+      {
+        type: "paragraph",
+        text: "The single biggest mistake apartment movers make is leaving body corporate paperwork to the last minute. Every strata-managed building in Brisbane has its own move-in and move-out rules, and they can vary wildly from one building to the next. Some buildings require three business days notice, others need two weeks. Some charge a bond, some do not. Some limit moves to weekdays only, others restrict them to specific time windows like 9am to 4pm. A handful of high-end buildings in Newstead and New Farm ban moves on weekends entirely. The only way to know what your building requires is to contact the building manager or your strata company as soon as you lock in a date, which should be at least two weeks before the move.",
+      },
+      {
+        type: "subheading",
+        text: "What to Ask Your Building Manager",
+      },
+      {
+        type: "list",
+        items: [
+          "What hours are moves allowed? Is there a time limit on a single booking?",
+          "Is there a dedicated service lift? Do I need to book it in advance?",
+          "Do you require a Certificate of Currency from the removalist?",
+          "Is there a move-in or move-out bond, and how much?",
+          "Do I need to book the loading zone or carpark bay? Is there a fee?",
+          "Are there protective covers I need to install in the lift, or does the building provide them?",
+          "Is there a limit on truck size or truck height for the driveway?",
+          "Who is the contact person on the day if something goes wrong?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Step 2: Book the Lift (And the Loading Zone)",
+      },
+      {
+        type: "paragraph",
+        text: "In most Brisbane apartment buildings, the service lift is the single biggest bottleneck on moving day. If it is not yours alone for the booking window, your crew is competing with every other resident going up and down. Book the service lift for the longest window you can get. Two hours is the absolute minimum for a one-bedroom apartment, three hours is sensible for a two-bedroom, and four to five hours is safer for three bedrooms or anything above the 15th floor. The booking system varies by building. Some buildings take bookings through the concierge desk, others through an online portal, and a few ancient buildings still use a paper diary in the manager's office.",
+      },
+      {
+        type: "paragraph",
+        text: "The loading zone is the second bottleneck, and it is the one people forget until the day of the move. Many Brisbane apartment buildings have a small loading bay that fits one truck at a time, and it is usually on a 20-minute parking limit unless you have arranged an exemption. If the bay is already occupied when your removalist arrives, the crew might have to park on the street a hundred metres away, carry everything to the lift, and then repeat the process at the other end. That adds hours to the job at full hourly rate. Ask your building manager whether the loading zone can be formally reserved for your move. Some buildings will put cones out for you, some will not.",
+      },
+      {
+        type: "tip",
+        title: "Street permits in the CBD",
+        text: "For CBD apartment buildings without a loading bay, you may need a Brisbane City Council loading zone permit or a temporary truck parking permit. Your removalist should be able to help you apply, but allow at least a week of lead time. See brisbane.qld.gov.au for the permit application.",
+      },
+      {
+        type: "heading",
+        text: "Step 3: The Certificate of Currency (COI)",
+      },
+      {
+        type: "paragraph",
+        text: "Almost every mid-to-high-end apartment building in Brisbane requires the removalist to provide a Certificate of Currency before the crew is allowed in the building. This document proves the company carries current public liability insurance, usually to a minimum of $10 million or $20 million, and goods-in-transit insurance covering the contents being moved. The certificate needs to list the building address and sometimes needs to name the body corporate as an interested party. Request this from your removalist as soon as you book, then forward it to the building manager for approval a few days before the move. If you turn up on the day without a COI on file, there is a real chance you will be refused lift access, and the move cannot begin.",
+      },
+      {
+        type: "heading",
+        text: "Step 4: Understand the Time Limit on Your Lift Booking",
+      },
+      {
+        type: "paragraph",
+        text: "Most Brisbane buildings give you a fixed window for the lift, and the clock starts the moment the crew arrives in the lobby, not the moment they step inside the apartment. That means any delay at the front door, waiting for the building manager to unlock the service lift, waiting for another resident to finish using it, chatting with security, all eats into your booking. An efficient apartment crew will have the truck backed into the loading bay, the lift keys collected, the padding installed, and the first trolley loaded within ten minutes of arrival. A less experienced crew can easily burn twenty or thirty minutes on the setup alone. This is why hiring a removalist who does a lot of Brisbane apartment work is worth the premium. They know the choreography cold.",
+      },
+      {
+        type: "heading",
+        text: "High Rise Challenges: What Changes Above the 15th Floor",
+      },
+      {
+        type: "paragraph",
+        text: "For apartments above the 15th floor in a CBD, Newstead, South Bank, or Kangaroo Point tower, the complexity goes up another level. Service lifts are often smaller than passenger lifts, which limits the maximum furniture size that can go up. If a three-seater couch or a king-size mattress does not fit in the service lift, you may need to hoist it through the window from a crane truck, split it at the frame, or disassemble it inside the apartment. High-rise moves also take longer per trip simply because the lift has further to travel, and in some buildings with only one service lift, you may share the lift with other residents or trades during business hours. We recommend booking at least a four-hour lift window for any move above floor 20, and allowing an extra hour on top of your usual time budget.",
+      },
+      {
+        type: "heading",
+        text: "Tight Stairs and Walk-Up Apartments",
+      },
+      {
+        type: "paragraph",
+        text: "Not every Brisbane apartment is a modern high-rise with a service lift. A huge slice of the rental market sits in older three and four story walk-up buildings in suburbs like Toowong, Indooroopilly, New Farm, St Lucia, and Chermside. Walk-ups are often cheaper to move because there is no lift to book, but they come with their own set of challenges. The stairs are usually narrow, often with tight 90-degree or 180-degree landings between floors, and the handrails and walls take a beating if the crew is not careful. Every flight of stairs above the ground floor typically adds a small surcharge per item, and some removalists charge a flat stair fee on top.",
+      },
+      {
+        type: "paragraph",
+        text: "Measure the stairwell before the move, especially the narrowest point on each landing. If your couch is wider than the stairwell at its tightest point, it is not coming down the stairs intact. Sectional couches, modular wardrobes, and flat-pack beds are usually manageable because they disassemble. Solid-frame queen beds, large fridges, and three-seater sofas often require creative solutions, up to and including balcony hoists.",
+      },
+      {
+        type: "heading",
+        text: "Balcony Hoists and Window Access",
+      },
+      {
+        type: "paragraph",
+        text: "If the lift is too small and the stairs are too tight, the only remaining option for oversized items is a balcony or window hoist. This is exactly what it sounds like: the item is lowered down the outside of the building on a rope or crane. Hoists are relatively common in older walk-ups and in high-end Newstead and Fortitude Valley apartments with beautiful but tiny service lifts. A professional balcony hoist is not dangerous when done correctly, but it is slow, it requires specific equipment, and it usually adds several hundred dollars to the job. Discuss any oversized items with your removalist at the quote stage, not on the day. If a hoist is needed, planning ahead lets the crew bring the right rigging.",
+      },
+      {
+        type: "heading",
+        text: "What It Actually Costs to Move a Brisbane Apartment in 2026",
+      },
+      {
+        type: "paragraph",
+        text: "Apartment removal costs in Brisbane depend on the size of the home, the floor, the building type, and the crew configuration. Based on our 2026 rates, here is a realistic range for a straightforward move within the Brisbane metro area.",
+      },
+      {
+        type: "list",
+        items: [
+          "1-bedroom apartment, ground or low floor: 2 movers, 2 to 3 hours, roughly $360 to $540",
+          "1-bedroom apartment, high floor with lift booking: 2 movers, 3 to 4 hours, roughly $540 to $720",
+          "2-bedroom apartment, mid-rise: 2 to 3 movers, 4 to 5 hours, roughly $720 to $1,345",
+          "2-bedroom apartment, high rise above floor 15: 3 movers, 5 to 6 hours, roughly $1,345 to $1,614",
+          "3-bedroom apartment or penthouse: 3 movers plus large truck, 6 to 8 hours, roughly $1,614 to $2,152",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These figures assume a simple move within a 20-kilometre radius with standard access. A walk-up with four flights of stairs, a balcony hoist, or a long carry from street parking will all push the price higher. Cross-Brisbane moves, like South Bank to Chermside, add travel time on the hourly clock. See our [Brisbane moving cost guide](/blog/cost-of-moving-brisbane) for a full breakdown of what drives the final bill.",
+      },
+      {
+        type: "heading",
+        text: "Packing an Apartment: What is Different",
+      },
+      {
+        type: "paragraph",
+        text: "Apartments have less storage than houses, which means everything is usually packed into smaller, more efficient spaces. That works in your favour when packing, because there is less surface area to clear. On the other hand, apartments concentrate fragile items: TVs mounted to walls, artwork on every surface, and kitchen contents crammed into a few cabinets. Budget more packing paper for the kitchen than you think you need. Remove all artwork and pictures from walls the day before the move and wrap each piece in bubble wrap. TVs should be boxed or padded individually, and any mounted bracket should be unscrewed and taped to the TV so you do not lose it. Label every box with the destination room, and number them so you can spot-check that nothing is missing at the other end.",
+      },
+      {
+        type: "heading",
+        text: "The Most Common Apartment Moving Mistakes",
+      },
+      {
+        type: "paragraph",
+        text: "After thousands of Brisbane apartment moves, we have seen the same mistakes repeat over and over. Here are the ones that cost people the most time and money, and how to avoid each of them.",
+      },
+      {
+        type: "list",
+        items: [
+          "Not booking the lift early enough. Aim for at least a week in advance for high-demand buildings",
+          "Forgetting to check truck height clearance in the building driveway. Many apartment car parks have clearance bars at 2.1 or 2.4 metres, which blocks most removalist trucks",
+          "Not measuring furniture against the service lift dimensions. Measure couches, mattresses, and wardrobes against the lift opening before the move",
+          "Ignoring the body corporate move-out bond, then losing it because of a scuff on the wall during loading",
+          "Scheduling the move for the last hour of a lift booking window, leaving no buffer for delays",
+          "Forgetting to organise mail redirection, electricity disconnection, and bond cleaning quotes in the same week as the move",
+          "Leaving packing to the last minute. Apartment dwellers often underestimate how much they own because it is hidden in wardrobes and cupboards",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Which Brisbane Neighbourhoods Are the Hardest to Move?",
+      },
+      {
+        type: "paragraph",
+        text: "Not all Brisbane apartment moves are created equal. Based on our dispatch data, these are the neighbourhoods where apartment moves consistently take longer and cost more, and the reasons why.",
+      },
+      {
+        type: "list",
+        items: [
+          "Brisbane CBD: Loading zone competition, short-term parking only, strict lift booking windows in most towers",
+          "Fortitude Valley: Mix of modern high-rises with tight driveways and older walk-ups with narrow stairs",
+          "New Farm: Gorgeous older buildings with small lifts and historic stair layouts that refuse to cooperate with king beds",
+          "South Bank: Heavy resident traffic, competition for service lifts, and many buildings with strict security protocols",
+          "Newstead: Luxury buildings with aggressive COI requirements and occasional weekend bans",
+          "West End: Older walk-ups and tight one-way streets that challenge larger trucks",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of these are impossible. We move people in and out of every one of them every week. But they each require a few minutes of extra planning, and they reward crews who know the neighbourhood. If you are moving from or to any of these areas, ask your removalist how often they work the building or the street. Experience shows in the smoothest moves.",
+      },
+      {
+        type: "heading",
+        text: "Tips to Save Money on an Apartment Move",
+      },
+      {
+        type: "paragraph",
+        text: "Apartment moves are naturally more expensive per cubic metre than house moves, but there are several ways to keep the cost down without cutting corners. Start by decluttering ruthlessly before the move. Every item you do not take is an item you do not pay to move. Run a Gumtree or Facebook Marketplace clearance the week before. Second, book a weekday move if your body corporate allows it, because weekend rates tend to be higher and lift availability is worse. Third, pack everything yourself and only ask the removalist to move the boxes. Full-service packing is convenient but it doubles the labour cost. Fourth, have the apartment empty of clutter before the crew arrives so they can start loading immediately. Every minute the crew spends waiting for you to finish packing is a minute on the hourly rate.",
+      },
+      {
+        type: "quote",
+        text: "An experienced apartment crew is the difference between a four-hour job and a seven-hour job. For the first-timers, the smartest dollar you spend is on a removalist who knows the building.",
+        author: "R2G Brisbane Dispatch",
+      },
+      {
+        type: "heading",
+        text: "Book Your Brisbane Apartment Move With R2G",
+      },
+      {
+        type: "paragraph",
+        text: "R2G Transport & Storage runs dozens of apartment moves across Brisbane every week, from single-bed units in Toowong walk-ups to penthouse relocations in Newstead and South Bank. Our crews are trained on lift booking protocols, body corporate paperwork, tight stair access, and all the quirks that come with Brisbane apartment living. Every quote includes full goods-in-transit insurance and we provide Certificates of Currency on request within one business day. [Get a free quote](/quote) for your Brisbane apartment move, or learn more about our full [Brisbane removalist services](/removalists-brisbane). For a detailed breakdown of pricing by home size, check our [Brisbane moving cost guide](/blog/cost-of-moving-brisbane). And if you want to sanity-check the operator you have quoted, our [dodgy removalist red flags guide](/blog/dodgy-removalist-red-flags) walks through the warning signs that matter most.",
+      },
+    ],
+  },
 ];
 
 // ── HELPERS ────────────────────────────────────────────
