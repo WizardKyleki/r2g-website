@@ -90,7 +90,7 @@ export default function RootLayout({
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Detailed Information" />
         <link rel="manifest" href="/site.webmanifest" />
         <Script src="https://analytics.ahrefs.com/analytics.js" data-key="URYFtNox7eR9I3W12rlXvA" strategy="afterInteractive" />
-        <Script src="https://www.zoeyai.com.au/widget.js" data-key="pk_168e344362914d6b0994d479" strategy="afterInteractive" />
+        <Script src="https://www.zoeyai.com.au/widget.js" data-key="pk_98c82458cae7045f337169e0" strategy="afterInteractive" />
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
