@@ -277,7 +277,7 @@ export const blogPosts: BlogPost[] = [
           "Arrange transit insurance if your removalist's coverage isn't sufficient",
           "Start collecting packing supplies — boxes, tape, packing paper, bubble wrap",
           "Book any travel you need: flights, accommodation for the drive, pet transport",
-          "If you need storage at either end, arrange it now — [short-term storage](/storage) fills up fast during peak season",
+          "If you need storage at either end, arrange it now — [short-term storage](/storage-brisbane) fills up fast during peak season",
         ],
       },
       {
