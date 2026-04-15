@@ -12,7 +12,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       {children}
       <Script
         src="https://zoeyai.com.au/inbox.js"
-        data-key="pk_168e344362914d6b0994d479"
+        data-key="pk_98c82458cae7045f337169e0"
         strategy="afterInteractive"
       />
     </>
