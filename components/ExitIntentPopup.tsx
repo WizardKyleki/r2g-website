@@ -4,6 +4,12 @@ import { useState, useEffect, useCallback } from "react";
 import { usePathname } from "next/navigation";
 import HeroQuoteWidget from "@/components/HeroQuoteWidget";
 
+function isPaidTraffic() {
+  if (typeof window === "undefined") return false;
+  const params = new URLSearchParams(window.location.search);
+  return !!(params.get("gclid") || params.get("msclkid") || params.get("fbclid"));
+}
+
 export default function ExitIntentPopup() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -18,6 +24,9 @@ export default function ExitIntentPopup() {
     // Don't show on quote page or if already fired this session
     if (pathname === "/quote") return;
     if (fired) return;
+
+    // Don't show to paid traffic — Google penalises interstitials on ad landing pages
+    if (isPaidTraffic()) return;
 
     const handleMouseLeave = (e: MouseEvent) => {
       // Only trigger when cursor exits through the top of the viewport
