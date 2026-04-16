@@ -9,10 +9,9 @@ const MobileStickyBar = dynamic(() => import("@/components/MobileStickyBar"));
 const ExitIntentPopup = dynamic(() => import("@/components/ExitIntentPopup"));
 import SiteChrome from "@/components/SiteChrome";
 import { SITE_NAME, DOMAIN } from "@/lib/constants";
-import Script from "next/script";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/GoogleTagManager";
-import MetaPixel from "@/components/MetaPixel";
+const DeferredScripts = dynamic(() => import("@/components/DeferredScripts"));
 
 const inter = Inter({
   subsets: ["latin"],
@@ -89,19 +88,10 @@ export default function RootLayout({
         <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Information" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Detailed Information" />
         <link rel="manifest" href="/site.webmanifest" />
-        <Script src="https://analytics.ahrefs.com/analytics.js" data-key="URYFtNox7eR9I3W12rlXvA" strategy="afterInteractive" />
-        <Script src="https://www.zoeyai.com.au/widget.js" data-key="pk_98c82458cae7045f337169e0" strategy="afterInteractive" />
-        <Script id="microsoft-clarity" strategy="afterInteractive">
-          {`(function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "w27dnl2d8m");`}
-        </Script>
       </head>
       <body className={`${inter.variable} ${montserrat.variable} antialiased`} suppressHydrationWarning>
         <GoogleTagManagerBody />
-        <MetaPixel />
+        <DeferredScripts />
         <SiteChrome>
           <Header />
         </SiteChrome>
