@@ -254,9 +254,15 @@ export default function RemovalistsCairnsPage() {
               <h1 className="text-5xl sm:text-6xl font-black text-white leading-tight mb-5">
                 {pageConfig.h1}
               </h1>
-              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+              <p className="text-lg text-gray-300 mb-6 leading-relaxed">
                 {heroSubtitle("Cairns")}
               </p>
+
+              {/* Price anchor — pre-qualifies paid clicks */}
+              <div className="flex items-center gap-3 mb-8">
+                <span className="text-[#F5C400] text-3xl sm:text-4xl font-black">From $189/hr</span>
+                <span className="text-gray-500 text-sm">2 movers + truck, no hidden fees</span>
+              </div>
 
               {/* Widget — mobile only (between subtext and phone) */}
               <div className="lg:hidden mb-8">
