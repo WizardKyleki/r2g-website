@@ -40,7 +40,7 @@ export async function GET(request: Request) {
     // ── Fetch leads for current period ──────────────────────────────────────
     const { data: rows, error: queryError } = await supabase
       .from("leads")
-      .select("type, status, lead_source, lead_source_channel, estimated_value, actual_value, created_at, first_contacted_at")
+      .select("type, status, lead_source, lead_source_channel, estimated_value, actual_value, created_at, first_contacted_at, from_address")
       .gte("created_at", rangeFrom)
       .lte("created_at", rangeTo)
       .order("created_at", { ascending: true });
@@ -204,6 +204,51 @@ export async function GET(request: Request) {
       .map(([source, count]) => ({ source, count }))
       .sort((a, b) => b.count - a.count);
 
+    // ── By Market (Cairns vs Brisbane/SEQ) ─────────────────────────────────
+    const cairnsPatterns = /cairns|woree|edge hill|redlynch|gordonvale|smithfield|trinity|palm cove|earlville|manoora|clifton|kewarra|brinsmead|edmonton|mooroobool|bungalow|freshwater|sheridan|QLD 48/i;
+    const marketMap: Record<string, { leads: number; won: number; revenue: number }> = {
+      Cairns: { leads: 0, won: 0, revenue: 0 },
+      "Brisbane / SEQ": { leads: 0, won: 0, revenue: 0 },
+    };
+    leads.forEach((l) => {
+      const market = cairnsPatterns.test(l.from_address || "") ? "Cairns" : "Brisbane / SEQ";
+      marketMap[market].leads++;
+      if (l.status === "won") {
+        marketMap[market].won++;
+        marketMap[market].revenue += l.actual_value || 0;
+      }
+    });
+    const byMarket = Object.entries(marketMap).map(([market, d]) => ({
+      market,
+      leads: d.leads,
+      won: d.won,
+      convRate: d.leads > 0 ? Math.round((d.won / d.leads) * 100) : 0,
+      revenue: d.revenue,
+      avgJobValue: d.won > 0 ? Math.round(d.revenue / d.won) : 0,
+    }));
+
+    // ── Source ROI (leads, won, revenue per source) ────────────────────────
+    const sourceROI: Record<string, { leads: number; won: number; revenue: number }> = {};
+    leads.forEach((l) => {
+      const ch = l.lead_source_channel || "unknown";
+      if (!sourceROI[ch]) sourceROI[ch] = { leads: 0, won: 0, revenue: 0 };
+      sourceROI[ch].leads++;
+      if (l.status === "won") {
+        sourceROI[ch].won++;
+        sourceROI[ch].revenue += l.actual_value || 0;
+      }
+    });
+    const bySourceROI = Object.entries(sourceROI)
+      .map(([channel, d]) => ({
+        channel,
+        leads: d.leads,
+        won: d.won,
+        convRate: d.leads > 0 ? Math.round((d.won / d.leads) * 100) : 0,
+        revenue: d.revenue,
+        revenuePerLead: d.leads > 0 ? Math.round(d.revenue / d.leads) : 0,
+      }))
+      .sort((a, b) => b.revenue - a.revenue);
+
     return NextResponse.json({
       kpis,
       comparisonKpis,
@@ -215,7 +260,8 @@ export async function GET(request: Request) {
       byType,
       byStatus,
       bySource,
-      // Legacy fields for backward compat
+      byMarket,
+      bySourceROI,
       total: totalLeads,
       today: newToday,
       thisWeek: leads.filter((l) => {

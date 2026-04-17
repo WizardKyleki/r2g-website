@@ -38,6 +38,24 @@ interface ChannelData {
   revenue: number;
 }
 
+interface MarketData {
+  market: string;
+  leads: number;
+  won: number;
+  convRate: number;
+  revenue: number;
+  avgJobValue: number;
+}
+
+interface SourceROIData {
+  channel: string;
+  leads: number;
+  won: number;
+  convRate: number;
+  revenue: number;
+  revenuePerLead: number;
+}
+
 interface AnalyticsData {
   kpis: KPIs;
   comparisonKpis: ComparisonKPIs | null;
@@ -49,6 +67,8 @@ interface AnalyticsData {
   byType: Array<{ type: string; count: number }>;
   byStatus: Array<{ status: string; count: number }>;
   bySource: Array<{ source: string; count: number }>;
+  byMarket: MarketData[];
+  bySourceROI: SourceROIData[];
 }
 
 interface Lead {
@@ -627,7 +647,75 @@ function DashboardContent() {
               </div>
             </div>
 
-            {/* Charts Row 3: By Type + By Status */}
+            {/* Market Comparison: Cairns vs Brisbane */}
+            <div className="grid lg:grid-cols-2 gap-6 mb-8">
+              {(analytics?.byMarket || []).map((m) => (
+                <div key={m.market} className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                  <h2 className="text-white font-semibold mb-4">{m.market}</h2>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                    <div>
+                      <p className="text-gray-500 text-xs uppercase tracking-widest">Leads</p>
+                      <p className="text-white text-2xl font-black">{m.leads}</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-500 text-xs uppercase tracking-widest">Won</p>
+                      <p className="text-green-400 text-2xl font-black">{m.won}</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-500 text-xs uppercase tracking-widest">Conv. Rate</p>
+                      <p className="text-yellow-400 text-2xl font-black">{m.convRate}%</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-500 text-xs uppercase tracking-widest">Revenue</p>
+                      <p className="text-white text-2xl font-black">${m.revenue.toLocaleString()}</p>
+                    </div>
+                  </div>
+                  <div className="mt-3 text-gray-500 text-xs">
+                    Avg job value: ${m.avgJobValue.toLocaleString()}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Source ROI Table */}
+            <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden mb-8">
+              <div className="p-5 border-b border-neutral-800">
+                <h2 className="text-white font-semibold">Source ROI</h2>
+                <p className="text-gray-500 text-xs mt-1">Revenue and conversion by acquisition channel</p>
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-gray-500 text-xs uppercase tracking-widest border-b border-neutral-800">
+                      <th className="text-left px-5 py-3">Channel</th>
+                      <th className="text-right px-5 py-3">Leads</th>
+                      <th className="text-right px-5 py-3">Won</th>
+                      <th className="text-right px-5 py-3">Conv %</th>
+                      <th className="text-right px-5 py-3">Revenue</th>
+                      <th className="text-right px-5 py-3">Rev / Lead</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {(analytics?.bySourceROI || []).map((s) => (
+                      <tr key={s.channel} className="border-b border-neutral-800/50 last:border-0">
+                        <td className="px-5 py-3 text-white font-medium capitalize">{s.channel.replace(/_/g, " ")}</td>
+                        <td className="text-right px-5 py-3 text-gray-400">{s.leads}</td>
+                        <td className="text-right px-5 py-3 text-green-400 font-semibold">{s.won}</td>
+                        <td className="text-right px-5 py-3">
+                          <span className={s.convRate > 20 ? "text-green-400 font-semibold" : s.convRate > 10 ? "text-yellow-400" : "text-red-400"}>
+                            {s.convRate}%
+                          </span>
+                        </td>
+                        <td className="text-right px-5 py-3 text-white font-semibold">${s.revenue.toLocaleString()}</td>
+                        <td className="text-right px-5 py-3 text-gray-400">${s.revenuePerLead}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Charts Row 3: By Type + By Source */}
             <div className="grid lg:grid-cols-2 gap-6 mb-8">
               <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
                 <h2 className="text-white font-semibold mb-4">By Type</h2>
