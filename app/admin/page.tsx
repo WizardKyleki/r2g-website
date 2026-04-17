@@ -428,6 +428,10 @@ function DashboardContent() {
   const [analytics, setAnalytics] = useState<AnalyticsData | null>(null);
   const [recentLeads, setRecentLeads] = useState<Lead[]>([]);
   const [loading, setLoading] = useState(true);
+  const [adSpend, setAdSpend] = useState(() => {
+    if (typeof window !== "undefined") return parseFloat(localStorage.getItem("r2g_ad_spend") || "1830");
+    return 1830;
+  });
 
   // Resolve effective date range
   const getEffectiveRange = useCallback(() => {
@@ -776,11 +780,6 @@ function DashboardContent() {
                 {(() => {
                   const ads = analytics?.googleAdsROI;
                   const contractorRate = 0.7;
-                  // Ad spend input stored in localStorage
-                  const [adSpend, setAdSpend] = useState(() => {
-                    if (typeof window !== "undefined") return parseFloat(localStorage.getItem("r2g_ad_spend") || "1830");
-                    return 1830;
-                  });
                   const costPerLead = ads && ads.leads > 0 ? Math.round(adSpend / ads.leads) : 0;
                   const grossProfit = ads ? Math.round(ads.revenue * (1 - contractorRate)) : 0;
                   const netProfit = grossProfit - adSpend;
