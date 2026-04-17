@@ -56,6 +56,30 @@ interface SourceROIData {
   revenuePerLead: number;
 }
 
+interface GoogleAdsROI {
+  leads: number;
+  won: number;
+  convRate: number;
+  revenue: number;
+}
+
+interface LeadTimeline {
+  avgDays: number | null;
+  within7d: number;
+  within14d: number;
+  within30d: number;
+  over30d: number;
+  total: number;
+}
+
+interface TopSuburb {
+  suburb: string;
+  leads: number;
+  won: number;
+  revenue: number;
+  convRate: number;
+}
+
 interface AnalyticsData {
   kpis: KPIs;
   comparisonKpis: ComparisonKPIs | null;
@@ -69,6 +93,10 @@ interface AnalyticsData {
   bySource: Array<{ source: string; count: number }>;
   byMarket: MarketData[];
   bySourceROI: SourceROIData[];
+  googleAdsROI: GoogleAdsROI;
+  responseTimeBuckets: { within1h: number; within4h: number; within24h: number; over24h: number; noResponse: number };
+  leadTimeline: LeadTimeline;
+  topSuburbs: TopSuburb[];
 }
 
 interface Lead {
@@ -739,7 +767,201 @@ function DashboardContent() {
               </div>
             </div>
 
-            {/* By Type + By Source removed — data shown in Source ROI table */}
+            {/* Google Ads ROI + Response Time */}
+            <div className="grid lg:grid-cols-2 gap-6 mb-8">
+              {/* Google Ads ROI */}
+              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                <h2 className="text-white font-semibold mb-1">Google Ads ROI</h2>
+                <p className="text-gray-500 text-xs mb-4">Paid search performance. Enter your ad spend below.</p>
+                {(() => {
+                  const ads = analytics?.googleAdsROI;
+                  const contractorRate = 0.7;
+                  // Ad spend input stored in localStorage
+                  const [adSpend, setAdSpend] = useState(() => {
+                    if (typeof window !== "undefined") return parseFloat(localStorage.getItem("r2g_ad_spend") || "1830");
+                    return 1830;
+                  });
+                  const costPerLead = ads && ads.leads > 0 ? Math.round(adSpend / ads.leads) : 0;
+                  const grossProfit = ads ? Math.round(ads.revenue * (1 - contractorRate)) : 0;
+                  const netProfit = grossProfit - adSpend;
+                  return (
+                    <div>
+                      <div className="flex items-center gap-2 mb-4">
+                        <span className="text-gray-500 text-sm">Ad Spend: $</span>
+                        <input
+                          type="number"
+                          value={adSpend}
+                          onChange={(e) => {
+                            const v = parseFloat(e.target.value) || 0;
+                            setAdSpend(v);
+                            localStorage.setItem("r2g_ad_spend", String(v));
+                          }}
+                          className="bg-neutral-800 border border-neutral-700 rounded px-3 py-1.5 text-white text-sm w-28 focus:border-yellow-400 outline-none"
+                        />
+                      </div>
+                      <div className="grid grid-cols-2 gap-3">
+                        <div className="bg-neutral-800 rounded-lg p-3">
+                          <p className="text-gray-500 text-xs">Paid Leads</p>
+                          <p className="text-white text-xl font-black">{ads?.leads || 0}</p>
+                        </div>
+                        <div className="bg-neutral-800 rounded-lg p-3">
+                          <p className="text-gray-500 text-xs">Jobs Won</p>
+                          <p className="text-green-400 text-xl font-black">{ads?.won || 0}</p>
+                        </div>
+                        <div className="bg-neutral-800 rounded-lg p-3">
+                          <p className="text-gray-500 text-xs">Cost / Lead</p>
+                          <p className="text-yellow-400 text-xl font-black">${costPerLead}</p>
+                        </div>
+                        <div className="bg-neutral-800 rounded-lg p-3">
+                          <p className="text-gray-500 text-xs">Revenue from Ads</p>
+                          <p className="text-white text-xl font-black">${(ads?.revenue || 0).toLocaleString()}</p>
+                        </div>
+                        <div className="bg-neutral-800 rounded-lg p-3">
+                          <p className="text-gray-500 text-xs">Gross Profit (30%)</p>
+                          <p className="text-white text-xl font-black">${grossProfit.toLocaleString()}</p>
+                        </div>
+                        <div className="bg-neutral-800 rounded-lg p-3">
+                          <p className="text-gray-500 text-xs">Net After Ads</p>
+                          <p className={`text-xl font-black ${netProfit >= 0 ? "text-green-400" : "text-red-400"}`}>
+                            {netProfit >= 0 ? "+" : ""}${netProfit.toLocaleString()}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="mt-3 text-xs text-gray-500">
+                        Conv. rate: {ads?.convRate || 0}% | Assumes 70% contractor cost
+                      </div>
+                    </div>
+                  );
+                })()}
+              </div>
+
+              {/* Response Time Distribution */}
+              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                <h2 className="text-white font-semibold mb-1">Response Time</h2>
+                <p className="text-gray-500 text-xs mb-4">First contact after lead comes in. Fastest caller wins the job.</p>
+                {(() => {
+                  const rt = analytics?.responseTimeBuckets;
+                  if (!rt) return <p className="text-neutral-500 text-sm">No data</p>;
+                  const total = rt.within1h + rt.within4h + rt.within24h + rt.over24h + rt.noResponse;
+                  const buckets = [
+                    { label: "Within 1 hour", count: rt.within1h, color: "bg-green-500", textColor: "text-green-400" },
+                    { label: "1-4 hours", count: rt.within4h, color: "bg-yellow-500", textColor: "text-yellow-400" },
+                    { label: "4-24 hours", count: rt.within24h, color: "bg-orange-500", textColor: "text-orange-400" },
+                    { label: "Over 24 hours", count: rt.over24h, color: "bg-red-500", textColor: "text-red-400" },
+                    { label: "No response yet", count: rt.noResponse, color: "bg-neutral-600", textColor: "text-neutral-400" },
+                  ];
+                  return (
+                    <div className="space-y-3">
+                      {/* Stacked bar */}
+                      <div className="flex h-8 rounded-lg overflow-hidden">
+                        {buckets.filter(b => b.count > 0).map((b) => (
+                          <div
+                            key={b.label}
+                            className={`${b.color} flex items-center justify-center text-xs text-white font-semibold`}
+                            style={{ width: `${(b.count / Math.max(total, 1)) * 100}%` }}
+                            title={`${b.label}: ${b.count}`}
+                          >
+                            {b.count > 2 ? b.count : ""}
+                          </div>
+                        ))}
+                      </div>
+                      {/* Legend */}
+                      <div className="space-y-2">
+                        {buckets.map((b) => (
+                          <div key={b.label} className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <div className={`w-3 h-3 rounded-full ${b.color}`} />
+                              <span className="text-gray-400 text-sm">{b.label}</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                              <span className={`font-semibold text-sm ${b.textColor}`}>{b.count}</span>
+                              <span className="text-gray-600 text-xs w-10 text-right">
+                                {total > 0 ? Math.round((b.count / total) * 100) : 0}%
+                              </span>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })()}
+              </div>
+            </div>
+
+            {/* Lead-to-Job Timeline + Top Suburbs */}
+            <div className="grid lg:grid-cols-2 gap-6 mb-8">
+              {/* Lead-to-Job Timeline */}
+              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                <h2 className="text-white font-semibold mb-1">Lead-to-Move Timeline</h2>
+                <p className="text-gray-500 text-xs mb-4">Days between lead submission and moving date. Helps forecast revenue.</p>
+                {(() => {
+                  const lt = analytics?.leadTimeline;
+                  if (!lt || !lt.total) return <p className="text-neutral-500 text-sm">No data</p>;
+                  const buckets = [
+                    { label: "Within 7 days", count: lt.within7d, color: "bg-green-500" },
+                    { label: "8-14 days", count: lt.within14d, color: "bg-yellow-500" },
+                    { label: "15-30 days", count: lt.within30d, color: "bg-orange-500" },
+                    { label: "Over 30 days", count: lt.over30d, color: "bg-red-500" },
+                  ];
+                  const maxBucket = Math.max(...buckets.map(b => b.count), 1);
+                  return (
+                    <div>
+                      <div className="text-center mb-4">
+                        <span className="text-yellow-400 text-4xl font-black">{lt.avgDays}</span>
+                        <span className="text-gray-500 text-sm ml-2">avg days to move</span>
+                      </div>
+                      <div className="space-y-2">
+                        {buckets.map((b) => (
+                          <div key={b.label} className="flex items-center gap-3">
+                            <span className="text-gray-400 text-xs w-28 text-right">{b.label}</span>
+                            <div className="flex-1 bg-neutral-800 rounded-full h-5">
+                              <div
+                                className={`${b.color} h-5 rounded-full flex items-center justify-end pr-2`}
+                                style={{ width: `${Math.max((b.count / maxBucket) * 100, b.count > 0 ? 8 : 0)}%` }}
+                              >
+                                <span className="text-xs text-white font-semibold">{b.count}</span>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      <div className="text-gray-600 text-xs mt-3 text-center">Based on {lt.total} leads with move dates</div>
+                    </div>
+                  );
+                })()}
+              </div>
+
+              {/* Top Suburbs */}
+              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                <h2 className="text-white font-semibold mb-1">Top Suburbs</h2>
+                <p className="text-gray-500 text-xs mb-4">Where your leads come from. Focus ads and SEO here.</p>
+                <div className="overflow-y-auto max-h-[320px]">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="text-gray-500 text-xs uppercase tracking-widest">
+                        <th className="text-left pb-2">Suburb</th>
+                        <th className="text-right pb-2">Leads</th>
+                        <th className="text-right pb-2">Won</th>
+                        <th className="text-right pb-2">Revenue</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {(analytics?.topSuburbs || []).map((s, i) => (
+                        <tr key={s.suburb} className="border-t border-neutral-800/50">
+                          <td className="py-2 text-white">
+                            <span className="text-gray-600 text-xs mr-2">{i + 1}.</span>
+                            {s.suburb}
+                          </td>
+                          <td className="text-right py-2 text-gray-400">{s.leads}</td>
+                          <td className="text-right py-2 text-green-400 font-semibold">{s.won}</td>
+                          <td className="text-right py-2 text-white font-semibold">{s.revenue > 0 ? `$${s.revenue.toLocaleString()}` : "-"}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
 
             {/* Recent Leads */}
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden">

@@ -40,7 +40,7 @@ export async function GET(request: Request) {
     // ── Fetch leads for current period ──────────────────────────────────────
     const { data: rows, error: queryError } = await supabase
       .from("leads")
-      .select("type, status, lead_source, lead_source_channel, estimated_value, actual_value, created_at, first_contacted_at, from_address")
+      .select("type, status, lead_source, lead_source_channel, estimated_value, actual_value, created_at, first_contacted_at, from_address, move_date")
       .gte("created_at", rangeFrom)
       .lte("created_at", rangeTo)
       .order("created_at", { ascending: true });
@@ -249,6 +249,91 @@ export async function GET(request: Request) {
       }))
       .sort((a, b) => b.revenue - a.revenue);
 
+    // ── Google Ads ROI ────────────────────────────────────────────────────
+    const paidLeads = leads.filter((l) => l.lead_source_channel === "paid_search");
+    const paidWon = paidLeads.filter((l) => l.status === "won");
+    const paidRevenue = paidWon.reduce((sum, l) => sum + (l.actual_value || 0), 0);
+    const googleAdsROI = {
+      leads: paidLeads.length,
+      won: paidWon.length,
+      convRate: paidLeads.length > 0 ? Math.round((paidWon.length / paidLeads.length) * 100) : 0,
+      revenue: paidRevenue,
+      costPerLead: 0, // calculated on frontend with ad spend input
+      profitAfterAds: 0, // calculated on frontend
+    };
+
+    // ── Response Time Distribution ─────────────────────────────────────────
+    const responseTimeBuckets = { within1h: 0, within4h: 0, within24h: 0, over24h: 0, noResponse: 0 };
+    leads.forEach((l) => {
+      if (!l.first_contacted_at) {
+        responseTimeBuckets.noResponse++;
+        return;
+      }
+      const hrs = (new Date(l.first_contacted_at).getTime() - new Date(l.created_at).getTime()) / 3600000;
+      if (hrs <= 1) responseTimeBuckets.within1h++;
+      else if (hrs <= 4) responseTimeBuckets.within4h++;
+      else if (hrs <= 24) responseTimeBuckets.within24h++;
+      else responseTimeBuckets.over24h++;
+    });
+
+    // ── Lead-to-Job Timeline ───────────────────────────────────────────────
+    const leadToJobDays: number[] = [];
+    leads.forEach((l) => {
+      if (l.move_date && l.created_at) {
+        const moveDate = new Date(l.move_date);
+        const created = new Date(l.created_at);
+        if (!isNaN(moveDate.getTime())) {
+          const days = Math.round((moveDate.getTime() - created.getTime()) / 86400000);
+          if (days >= 0 && days < 365) leadToJobDays.push(days);
+        }
+      }
+    });
+    const avgLeadToJobDays = leadToJobDays.length > 0
+      ? Math.round(leadToJobDays.reduce((a, b) => a + b, 0) / leadToJobDays.length)
+      : null;
+    const leadTimeline = {
+      avgDays: avgLeadToJobDays,
+      within7d: leadToJobDays.filter((d) => d <= 7).length,
+      within14d: leadToJobDays.filter((d) => d > 7 && d <= 14).length,
+      within30d: leadToJobDays.filter((d) => d > 14 && d <= 30).length,
+      over30d: leadToJobDays.filter((d) => d > 30).length,
+      total: leadToJobDays.length,
+    };
+
+    // ── Top Suburbs ────────────────────────────────────────────────────────
+    const suburbMap: Record<string, { leads: number; won: number; revenue: number }> = {};
+    leads.forEach((l) => {
+      if (!l.from_address) return;
+      // Extract suburb from address (e.g. "123 Street, Smithfield QLD" → "Smithfield")
+      const parts = (l.from_address || "").split(",").map((s: string) => s.trim());
+      let suburb = "Unknown";
+      if (parts.length >= 2) {
+        // Take the second-to-last part and remove state/postcode
+        const raw = parts[parts.length - 1] || parts[parts.length - 2] || "";
+        suburb = raw.replace(/\s*(QLD|NSW|VIC|TAS|SA|WA|NT|ACT)\s*\d{0,4}\s*,?\s*(Australia)?$/i, "").trim();
+        if (!suburb || suburb.length < 2) suburb = raw.trim();
+      } else {
+        suburb = parts[0].replace(/^\d+\s*\/?\d*\s*/, "").replace(/\s*(QLD|NSW)\s*\d{0,4}.*/i, "").trim();
+      }
+      if (!suburb || suburb.length < 2) return;
+      if (!suburbMap[suburb]) suburbMap[suburb] = { leads: 0, won: 0, revenue: 0 };
+      suburbMap[suburb].leads++;
+      if (l.status === "won") {
+        suburbMap[suburb].won++;
+        suburbMap[suburb].revenue += l.actual_value || 0;
+      }
+    });
+    const topSuburbs = Object.entries(suburbMap)
+      .map(([suburb, d]) => ({
+        suburb,
+        leads: d.leads,
+        won: d.won,
+        revenue: d.revenue,
+        convRate: d.leads > 0 ? Math.round((d.won / d.leads) * 100) : 0,
+      }))
+      .sort((a, b) => b.leads - a.leads)
+      .slice(0, 15);
+
     return NextResponse.json({
       kpis,
       comparisonKpis,
@@ -262,6 +347,10 @@ export async function GET(request: Request) {
       bySource,
       byMarket,
       bySourceROI,
+      googleAdsROI,
+      responseTimeBuckets,
+      leadTimeline,
+      topSuburbs,
       total: totalLeads,
       today: newToday,
       thisWeek: leads.filter((l) => {
