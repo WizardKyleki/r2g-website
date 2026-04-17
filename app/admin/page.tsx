@@ -596,12 +596,8 @@ function DashboardContent() {
               />
             </div>
 
-            {/* Charts Row 1: Lead Volume + Channel Performance */}
+            {/* Charts Row 1: Channel Performance + Conversion Funnel */}
             <div className="grid lg:grid-cols-2 gap-6 mb-6">
-              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                <h2 className="text-white font-semibold mb-4">Lead Volume Over Time</h2>
-                <DailyChart data={analytics?.byDay || []} />
-              </div>
               <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
                 <h2 className="text-white font-semibold mb-4">Channel Performance</h2>
                 <BarChart
@@ -611,32 +607,6 @@ function DashboardContent() {
                   colorKey="channel"
                 />
               </div>
-            </div>
-
-            {/* Charts Row 2: Busiest Times + Conversion Funnel */}
-            <div className="grid lg:grid-cols-2 gap-6 mb-6">
-              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                <h2 className="text-white font-semibold mb-4">Busiest Day of Week</h2>
-                <BusiestChart
-                  data={(analytics?.byDayOfWeek || []).map((d) => ({
-                    label: d.day,
-                    count: d.count,
-                  }))}
-                />
-                <h2 className="text-white font-semibold mt-6 mb-4">Busiest Hour of Day</h2>
-                <BusiestChart
-                  data={(analytics?.byHourOfDay || []).map((d) => ({
-                    label: String(d.hour),
-                    count: d.count,
-                  }))}
-                  labelFn={(item) => {
-                    const h = parseInt(item.label);
-                    if (h === 0) return "12a";
-                    if (h === 12) return "12p";
-                    return h < 12 ? `${h}a` : `${h - 12}p`;
-                  }}
-                />
-              </div>
               <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
                 <h2 className="text-white font-semibold mb-4">Conversion Funnel</h2>
                 {analytics?.funnel ? (
@@ -644,6 +614,60 @@ function DashboardContent() {
                 ) : (
                   <p className="text-neutral-500 text-sm">No data yet</p>
                 )}
+              </div>
+            </div>
+
+            {/* Charts Row 2: Busiest Day + Busiest Hour */}
+            <div className="grid lg:grid-cols-2 gap-6 mb-6">
+              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                <h2 className="text-white font-semibold mb-4">Busiest Day of Week</h2>
+                <p className="text-gray-500 text-xs mb-3">Brisbane time (AEST). Shows when leads come in.</p>
+                <div className="flex items-end gap-2 h-[200px]">
+                  {(analytics?.byDayOfWeek || []).map((d, i) => {
+                    const maxVal = Math.max(...(analytics?.byDayOfWeek || []).map((x) => x.count), 1);
+                    const height = (d.count / maxVal) * 100;
+                    const isPeak = d.count === maxVal && d.count > 0;
+                    return (
+                      <div key={i} className="flex-1 flex flex-col items-center justify-end h-full group relative">
+                        <div className="text-xs text-white font-semibold mb-1">{d.count || ""}</div>
+                        <div
+                          className={`w-full rounded-t transition-colors ${isPeak ? "bg-yellow-400" : "bg-neutral-600 hover:bg-neutral-500"}`}
+                          style={{ height: `${Math.max(height, d.count > 0 ? 4 : 1)}%` }}
+                        />
+                        <span className="text-sm text-neutral-400 mt-2 font-medium">{d.day}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
+                <h2 className="text-white font-semibold mb-4">Busiest Hour of Day</h2>
+                <p className="text-gray-500 text-xs mb-3">Brisbane time (AEST). Staff phones during peak hours.</p>
+                <div className="flex items-end gap-[2px] h-[200px]">
+                  {(analytics?.byHourOfDay || []).map((d, i) => {
+                    const maxVal = Math.max(...(analytics?.byHourOfDay || []).map((x) => x.count), 1);
+                    const height = (d.count / maxVal) * 100;
+                    const isPeak = d.count === maxVal && d.count > 0;
+                    const label = d.hour === 0 ? "12a" : d.hour === 12 ? "12p" : d.hour < 12 ? `${d.hour}a` : `${d.hour - 12}p`;
+                    const showLabel = d.hour % 3 === 0;
+                    return (
+                      <div key={i} className="flex-1 flex flex-col items-center justify-end h-full group relative">
+                        {d.count > 0 && (
+                          <div className="absolute bottom-full mb-1 hidden group-hover:block bg-neutral-800 text-white text-xs rounded px-2 py-1 whitespace-nowrap z-10">
+                            {label}: {d.count} lead{d.count !== 1 ? "s" : ""}
+                          </div>
+                        )}
+                        <div
+                          className={`w-full rounded-t transition-colors ${isPeak ? "bg-yellow-400" : d.count > 0 ? "bg-neutral-500 hover:bg-neutral-400" : "bg-neutral-800"}`}
+                          style={{ height: `${Math.max(height, d.count > 0 ? 4 : 1)}%` }}
+                        />
+                        {showLabel && (
+                          <span className="text-[10px] text-neutral-500 mt-1">{label}</span>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
 
@@ -715,25 +739,7 @@ function DashboardContent() {
               </div>
             </div>
 
-            {/* Charts Row 3: By Type + By Source */}
-            <div className="grid lg:grid-cols-2 gap-6 mb-8">
-              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                <h2 className="text-white font-semibold mb-4">By Type</h2>
-                <BarChart
-                  data={analytics?.byType || []}
-                  labelKey="type"
-                  valueKey="count"
-                />
-              </div>
-              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                <h2 className="text-white font-semibold mb-4">By Source</h2>
-                <BarChart
-                  data={analytics?.bySource || []}
-                  labelKey="source"
-                  valueKey="count"
-                />
-              </div>
-            </div>
+            {/* By Type + By Source removed — data shown in Source ROI table */}
 
             {/* Recent Leads */}
             <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden">
