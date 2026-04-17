@@ -80,7 +80,11 @@ export async function GET(request: Request) {
       ? Math.round((responseTimes.reduce((a, b) => a + b, 0) / responseTimes.length) * 10) / 10
       : null;
 
-    const kpis = { totalLeads, newToday, winRate, avgResponseTimeHrs, pipelineValue, wonRevenue };
+    // Pipeline count = leads that are not won or lost
+    const pipelineCount = leads.filter((l) => l.status !== "won" && l.status !== "lost").length;
+    const wonCount = wonLeads.length;
+
+    const kpis = { totalLeads, newToday, winRate, wonCount, pipelineCount, avgResponseTimeHrs, pipelineValue, wonRevenue };
 
     // ── Comparison KPIs ─────────────────────────────────────────────────────
     let comparisonKpis = null;

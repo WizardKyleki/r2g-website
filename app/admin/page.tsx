@@ -11,6 +11,8 @@ interface KPIs {
   totalLeads: number;
   newToday: number;
   winRate: number;
+  wonCount: number;
+  pipelineCount: number;
   avgResponseTimeHrs: number | null;
   pipelineValue: number;
   wonRevenue: number;
@@ -552,10 +554,9 @@ function DashboardContent() {
               />
               <StatCard label="New Today" value={kpis?.newToday || 0} />
               <StatCard
-                label="Win Rate"
-                value={`${kpis?.winRate || 0}%`}
-                sub="Won / (Won + Lost)"
-                change={comp?.winRateChange}
+                label="Conversion Rate"
+                value={kpis?.totalLeads ? `${Math.round(((kpis?.wonCount || 0) / kpis.totalLeads) * 100)}%` : "0%"}
+                sub="Won / Total Leads"
               />
               <StatCard
                 label="Avg Response"
@@ -563,15 +564,14 @@ function DashboardContent() {
                 sub="Created to first contact"
               />
               <StatCard
-                label="Pipeline Value"
-                value={`$${(kpis?.pipelineValue || 0).toLocaleString()}`}
-                sub="Open leads est. value"
-                change={comp?.pipelineValueChange}
+                label="In Pipeline"
+                value={kpis?.pipelineCount || 0}
+                sub="Open leads (not won/lost)"
               />
               <StatCard
-                label="Won Revenue"
+                label="Revenue"
                 value={`$${(kpis?.wonRevenue || 0).toLocaleString()}`}
-                sub="Closed won actual value"
+                sub="Won jobs actual value"
                 change={comp?.wonRevenueChange}
               />
             </div>
