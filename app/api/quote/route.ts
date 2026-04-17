@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { detectLeadSource } from "@/lib/detect-lead-source";
 import { saveLead } from "@/lib/save-lead";
+import { getSupabase } from "@/lib/supabase";
 
 // n8n webhook integration for MoverMate CRM
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -147,6 +148,18 @@ export async function POST(request: Request) {
     console.log("Email sent successfully, id:", result?.id);
 
     // Save to Supabase (non-blocking — swallows errors so email + n8n are never affected)
+    // Remove any partial lead for this session to prevent duplicates
+    if (quoteSessionId) {
+      const supabase = getSupabase();
+      if (supabase) {
+        await supabase
+          .from("leads")
+          .delete()
+          .eq("session_id", quoteSessionId as string)
+          .eq("type", "partial");
+      }
+    }
+
     await saveLead({
       type: "quote",
       name: name as string,
