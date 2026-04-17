@@ -887,78 +887,51 @@ function DashboardContent() {
               </div>
             </div>
 
-            {/* Lead-to-Job Timeline + Top Suburbs */}
-            <div className="grid lg:grid-cols-2 gap-6 mb-8">
-              {/* Lead-to-Job Timeline */}
-              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                <h2 className="text-white font-semibold mb-1">Lead-to-Move Timeline</h2>
-                <p className="text-gray-500 text-xs mb-4">Days between lead submission and moving date. Helps forecast revenue.</p>
-                {(() => {
-                  const lt = analytics?.leadTimeline;
-                  if (!lt || !lt.total) return <p className="text-neutral-500 text-sm">No data</p>;
-                  const buckets = [
-                    { label: "Within 7 days", count: lt.within7d, color: "bg-green-500" },
-                    { label: "8-14 days", count: lt.within14d, color: "bg-yellow-500" },
-                    { label: "15-30 days", count: lt.within30d, color: "bg-orange-500" },
-                    { label: "Over 30 days", count: lt.over30d, color: "bg-red-500" },
-                  ];
-                  const maxBucket = Math.max(...buckets.map(b => b.count), 1);
-                  return (
-                    <div>
-                      <div className="text-center mb-4">
-                        <span className="text-yellow-400 text-4xl font-black">{lt.avgDays}</span>
-                        <span className="text-gray-500 text-sm ml-2">avg days to move</span>
-                      </div>
-                      <div className="space-y-2">
-                        {buckets.map((b) => (
-                          <div key={b.label} className="flex items-center gap-3">
-                            <span className="text-gray-400 text-xs w-28 text-right">{b.label}</span>
-                            <div className="flex-1 bg-neutral-800 rounded-full h-5">
-                              <div
-                                className={`${b.color} h-5 rounded-full flex items-center justify-end pr-2`}
-                                style={{ width: `${Math.max((b.count / maxBucket) * 100, b.count > 0 ? 8 : 0)}%` }}
-                              >
-                                <span className="text-xs text-white font-semibold">{b.count}</span>
-                              </div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                      <div className="text-gray-600 text-xs mt-3 text-center">Based on {lt.total} leads with move dates</div>
-                    </div>
-                  );
-                })()}
+            {/* Top Suburbs — full width */}
+            <div className="bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden mb-8">
+              <div className="p-5 border-b border-neutral-800">
+                <h2 className="text-white font-semibold">Top Suburbs</h2>
+                <p className="text-gray-500 text-xs mt-1">Where your leads come from. Focus ads and SEO on high-lead, low-conversion suburbs.</p>
               </div>
-
-              {/* Top Suburbs */}
-              <div className="bg-neutral-900 border border-neutral-800 rounded-xl p-5">
-                <h2 className="text-white font-semibold mb-1">Top Suburbs</h2>
-                <p className="text-gray-500 text-xs mb-4">Where your leads come from. Focus ads and SEO here.</p>
-                <div className="overflow-y-auto max-h-[320px]">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="text-gray-500 text-xs uppercase tracking-widest">
-                        <th className="text-left pb-2">Suburb</th>
-                        <th className="text-right pb-2">Leads</th>
-                        <th className="text-right pb-2">Won</th>
-                        <th className="text-right pb-2">Revenue</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {(analytics?.topSuburbs || []).map((s, i) => (
-                        <tr key={s.suburb} className="border-t border-neutral-800/50">
-                          <td className="py-2 text-white">
-                            <span className="text-gray-600 text-xs mr-2">{i + 1}.</span>
-                            {s.suburb}
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-gray-500 text-xs uppercase tracking-widest border-b border-neutral-800">
+                      <th className="text-left px-5 py-3">#</th>
+                      <th className="text-left px-5 py-3">Suburb</th>
+                      <th className="text-right px-5 py-3">Leads</th>
+                      <th className="text-right px-5 py-3">Won</th>
+                      <th className="text-right px-5 py-3">Conv %</th>
+                      <th className="text-right px-5 py-3">Revenue</th>
+                      <th className="text-left px-5 py-3 w-48">Lead Volume</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {(() => {
+                      const suburbs = analytics?.topSuburbs || [];
+                      const maxLeads = Math.max(...suburbs.map(s => s.leads), 1);
+                      return suburbs.map((s, i) => (
+                        <tr key={s.suburb} className="border-b border-neutral-800/50 last:border-0 hover:bg-neutral-800/30">
+                          <td className="px-5 py-3 text-gray-600 text-xs">{i + 1}</td>
+                          <td className="px-5 py-3 text-white font-medium">{s.suburb}</td>
+                          <td className="text-right px-5 py-3 text-gray-400">{s.leads}</td>
+                          <td className="text-right px-5 py-3 text-green-400 font-semibold">{s.won}</td>
+                          <td className="text-right px-5 py-3">
+                            <span className={s.convRate > 30 ? "text-green-400 font-semibold" : s.convRate > 0 ? "text-yellow-400" : "text-gray-600"}>
+                              {s.convRate}%
+                            </span>
                           </td>
-                          <td className="text-right py-2 text-gray-400">{s.leads}</td>
-                          <td className="text-right py-2 text-green-400 font-semibold">{s.won}</td>
-                          <td className="text-right py-2 text-white font-semibold">{s.revenue > 0 ? `$${s.revenue.toLocaleString()}` : "-"}</td>
+                          <td className="text-right px-5 py-3 text-white font-semibold">{s.revenue > 0 ? `$${s.revenue.toLocaleString()}` : "-"}</td>
+                          <td className="px-5 py-3">
+                            <div className="w-full bg-neutral-800 rounded-full h-2">
+                              <div className="bg-yellow-400 h-2 rounded-full" style={{ width: `${(s.leads / maxLeads) * 100}%` }} />
+                            </div>
+                          </td>
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
+                      ));
+                    })()}
+                  </tbody>
+                </table>
               </div>
             </div>
 
