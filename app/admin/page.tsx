@@ -3,6 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
+import Script from "next/script";
 import { Suspense } from "react";
 
 // ── Types ───────────────────────────────────────────────────────────────────
@@ -1038,6 +1039,12 @@ function DashboardContent() {
             </div>
           </>
         )}
+        {/* Zoey AI inbox — only loads after authentication */}
+        <Script
+          src="https://zoeyai.com.au/inbox.js"
+          data-key="pk_98c82458cae7045f337169e0"
+          strategy="afterInteractive"
+        />
       </div>
     </div>
   );
