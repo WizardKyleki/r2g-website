@@ -97,7 +97,6 @@ export default function DeferredScripts() {
       loadAhrefs();
       loadZoey();
       loadClarity();
-      loadBingUET();
       cleanup();
     };
 
