@@ -68,6 +68,23 @@ function loadClarity() {
   document.head.appendChild(t);
 }
 
+function loadBingUET() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const w = window as any;
+  if (w.uetq && w.uetq.push) return;
+  w.uetq = w.uetq || [];
+  const o = { ti: "343244831", enableAutoSpaTracking: true } as Record<string, unknown>;
+  o.q = w.uetq;
+  const n = document.createElement("script");
+  n.src = "https://bat.bing.net/bat.js?ti=343244831";
+  n.async = true;
+  n.onload = function () {
+    w.uetq = new w.UET(o);
+    w.uetq.push("pageLoad");
+  };
+  document.head.appendChild(n);
+}
+
 export default function DeferredScripts() {
   const [loaded, setLoaded] = useState(false);
 
@@ -80,6 +97,7 @@ export default function DeferredScripts() {
       loadAhrefs();
       loadZoey();
       loadClarity();
+      loadBingUET();
       cleanup();
     };
 
