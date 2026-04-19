@@ -10,6 +10,7 @@ declare global {
   interface Window {
     gtag?: (...args: any[]) => void;
     dataLayer?: Record<string, any>[];
+    uetq?: any;
   }
 }
 
@@ -30,6 +31,15 @@ export function trackEvent(
   // GTM dataLayer push — fires Custom Event triggers for Google Ads tags
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({ event: action, ...params });
+
+  // Microsoft Ads UET conversion tracking
+  if (window.uetq && action === "generate_lead") {
+    window.uetq.push("event", "submit_lead_form", {
+      event_category: "lead",
+      event_label: params?.lead_source || "website",
+      event_value: 100,
+    });
+  }
 }
 
 // ── Enhanced Conversions ────────────────────────────────────────────────────
