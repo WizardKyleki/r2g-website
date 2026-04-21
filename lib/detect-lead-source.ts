@@ -23,7 +23,7 @@ export interface LeadSourceResult {
  *
  * Detection priority:
  * 1. UTM params on page URL (utm_medium = cpc/ppc/paid = paid channel)
- * 2. Click IDs: gclid = Google Ads, fbclid = Facebook, msclkid = Bing Ads
+ * 2. Click IDs: gclid = Google Ads, fbclid = Facebook, msclkid = Microsoft Ads
  * 3. HTTP referrer domain analysis
  * 4. Fallback: "Direct"
  */
@@ -46,7 +46,7 @@ export function detectLeadSource(
     }
     if (utmSource === "bing" || utmSource === "microsoft") {
       const suffix = utmCampaign ? ` (${utmCampaign})` : "";
-      return { label: `Bing Ads${suffix}`, channel: "paid_search" };
+      return { label: `Microsoft Ads${suffix}`, channel: "paid_search" };
     }
     if (utmSource === "facebook" || utmSource === "instagram" || utmSource === "meta") {
       const suffix = utmCampaign ? ` (${utmCampaign})` : "";
@@ -76,7 +76,7 @@ export function detectLeadSource(
     return { label: "Facebook", channel: "social" };
   }
   if (params.has("msclkid")) {
-    return { label: "Bing Ads", channel: "paid_search" };
+    return { label: "Microsoft Ads", channel: "paid_search" };
   }
 
   // ── 3. HTTP referrer domain ────────────────────────────────────────────────
