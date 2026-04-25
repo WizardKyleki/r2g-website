@@ -2568,7 +2568,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Most Cairns removalists charge by the hour for local moves. A standard 2-person crew with a truck runs between $170 and $189 per hour in 2026, with a minimum booking of 2 hours. For larger homes with more furniture, a 3-person crew typically costs $210 to $260 per hour. These rates generally include the truck, fuel for local moves, furniture blankets, trolleys, and basic transit insurance. Packing services are quoted separately.",
+        text: "Most Cairns removalists charge by the hour for local moves. A standard 2-person crew with a truck starts from $199 per hour in 2026, with a minimum booking of 2 hours. For larger homes with more furniture, a 3-person crew typically costs $210 to $260 per hour. These rates generally include the truck, fuel for local moves, furniture blankets, trolleys, and basic transit insurance. Packing services are quoted separately.",
       },
       {
         type: "list",

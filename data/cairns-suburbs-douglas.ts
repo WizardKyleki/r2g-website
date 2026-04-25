@@ -1,4 +1,4 @@
-import type { CairnsSuburb } from "./suburbs";
+﻿import type { CairnsSuburb } from "./suburbs";
 
 export const cairnsDouglasSuburbs: CairnsSuburb[] = [
   {
@@ -17,13 +17,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The main access route through Craiglie runs directly off the Captain Cook Highway, which can experience heavy tourist traffic particularly in the dry season between May and October. We time truck departures from Cairns to avoid peak highway congestion and carry strapping equipment to secure loads over the winding coastal road north. Wet season moves require extra planning as afternoon rain squalls can limit visibility on the range sections of the highway approaching Northern Cairns.",
     nearbySubs: ["Port Douglas", "Oak Beach", "Mossman"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Craiglie & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Craiglie | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Craiglie with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Craiglie with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Cairns to Craiglie and the whole process was incredibly smooth. They knew exactly how to handle the Captain Cook Highway run and arrived right on time. Couldn't fault them.",
@@ -51,7 +51,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book well ahead in dry season.",
-        text: "Northern Cairns is extremely busy from May to October as tourists flood the region. Removal bookings in and around Craiglie fill up quickly during this period — we recommend booking at least three to four weeks in advance to secure your preferred date.",
+        text: "Northern Cairns is extremely busy from May to October as tourists flood the region. Removal bookings in and around Craiglie fill up quickly during this period â€” we recommend booking at least three to four weeks in advance to secure your preferred date.",
       },
       {
         heading: "Prepare for wet season afternoon storms.",
@@ -79,13 +79,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Cooya Beach sits on a low coastal flat and some access tracks leading to beachfront properties can become very soft after sustained wet season rain. Our team brings high-clearance vehicles when needed and uses hand trolleys and shuttle loads to reach properties that are inaccessible to a full-size removal truck. We plan the drive from Cairns around Captain Cook Highway conditions and always carry a full weather check for the day.",
     nearbySubs: ["Mossman", "Port Douglas", "Newell"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Cooya Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Cooya Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cooya Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cooya Beach with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G handled our move to Cooya Beach brilliantly. The access track to our place is tight and sandy but the team came prepared with the right equipment. Professional and punctual all the way.",
@@ -141,13 +141,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Moving to or from Daintree Village involves a 110km run from Cairns, including sections of narrow rainforest road past Mossman. During the wet season the roads north of Daintree can close entirely, but the village itself is generally accessible year-round via the sealed Cape Tribulation Road. We carry all essential equipment in the truck for the full round trip and schedule Daintree moves as full-day jobs to ensure the team is never rushed on the remote road home.",
     nearbySubs: ["Cape Tribulation", "Cow Bay", "Mossman"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Daintree & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Daintree | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Daintree with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Daintree with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moving to Daintree seemed daunting but R2G made it completely painless. They planned the long drive, knew the road conditions and had everything at our new place by early afternoon. Exceptional service.",
@@ -156,7 +156,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
         date: "April 2025",
       },
       {
-        text: "R2G were the only removalists who would commit to our Daintree move and they absolutely delivered. Careful, professional and thorough — our furniture arrived in perfect condition after a long day on the road.",
+        text: "R2G were the only removalists who would commit to our Daintree move and they absolutely delivered. Careful, professional and thorough â€” our furniture arrived in perfect condition after a long day on the road.",
         name: "Greg and Sandra W.",
         location: "Daintree",
         date: "September 2024",
@@ -171,7 +171,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Schedule as a full-day move.",
-        text: "The 110km journey from Cairns to Daintree Village and back is a significant round trip. We always allocate a full day for Daintree moves — do not expect an early afternoon finish and plan your day accordingly to avoid rushing the team on the remote return journey.",
+        text: "The 110km journey from Cairns to Daintree Village and back is a significant round trip. We always allocate a full day for Daintree moves â€” do not expect an early afternoon finish and plan your day accordingly to avoid rushing the team on the remote return journey.",
       },
       {
         heading: "Check wet season road closures.",
@@ -201,15 +201,15 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara2:
       "The only vehicle access to Cape Tribulation from the south is via the Daintree River cable ferry, which operates on a small barge and has strict weight and size limits. Our team plans every move around ferry crossing times and vehicle dimensions, using appropriately sized trucks to ensure we can cross without delay.",
     uniquePara3:
-      "Cape Tribulation moves require crossing the Daintree River on the cable ferry — a barge that carries only a handful of vehicles at a time and operates on a first-come, first-served basis. We account for potential waiting time at the ferry in every job estimate. North of the Daintree ferry, the road to Cape Tribulation is sealed but narrow with limited passing opportunities. We brief all clients on wet season road closure risks, as this road can become impassable after extreme rainfall events, and we may need to reschedule if conditions are unsafe.",
+      "Cape Tribulation moves require crossing the Daintree River on the cable ferry â€” a barge that carries only a handful of vehicles at a time and operates on a first-come, first-served basis. We account for potential waiting time at the ferry in every job estimate. North of the Daintree ferry, the road to Cape Tribulation is sealed but narrow with limited passing opportunities. We brief all clients on wet season road closure risks, as this road can become impassable after extreme rainfall events, and we may need to reschedule if conditions are unsafe.",
     nearbySubs: ["Daintree", "Cow Bay", "Thornton Beach"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Cape Tribulation & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Cape Tribulation | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cape Tribulation with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cape Tribulation with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Cape Tribulation move when no other removalist would. They handled the Daintree ferry, the narrow rainforest road and a steep property access track all without complaint. Truly exceptional.",
@@ -233,7 +233,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Understand Daintree ferry limitations.",
-        text: "The Daintree River cable ferry has a strict weight limit and only accommodates vehicles up to a certain length. We select an appropriately sized truck for all Cape Tribulation moves. Do not assume a full-size semi-trailer can cross — it cannot.",
+        text: "The Daintree River cable ferry has a strict weight limit and only accommodates vehicles up to a certain length. We select an appropriately sized truck for all Cape Tribulation moves. Do not assume a full-size semi-trailer can cross â€” it cannot.",
       },
       {
         heading: "Allow extra time for ferry wait.",
@@ -265,16 +265,16 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The 80km run up the Captain Cook Highway from Cairns to Wonga Beach passes through some of the most spectacular coastal scenery in Queensland. We plan all Wonga Beach moves as half-day or full-day jobs depending on property size, departing early from Cairns to take advantage of quieter highway conditions before tourist coaches begin their daily runs north to Port Douglas and the Daintree.",
     nearbySubs: ["Miallo", "Mossman", "Newell"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Wonga Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Wonga Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wonga Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wonga Beach with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "Moved from Cairns to Wonga Beach with R2G and it was seamless. They were on time, loaded the truck fast and drove carefully on the coastal road. Everything arrived safely — genuinely great service.",
+        text: "Moved from Cairns to Wonga Beach with R2G and it was seamless. They were on time, loaded the truck fast and drove carefully on the coastal road. Everything arrived safely â€” genuinely great service.",
         name: "Helen D.",
         location: "Wonga Beach",
         date: "January 2025",
@@ -307,7 +307,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book well ahead for dry season.",
-        text: "Northern Cairns is at peak demand between June and September. Wonga Beach moves during this period book up fast — contact us at least three to four weeks in advance to secure your preferred moving date.",
+        text: "Northern Cairns is at peak demand between June and September. Wonga Beach moves during this period book up fast â€” contact us at least three to four weeks in advance to secure your preferred moving date.",
       },
     ],
   },
@@ -327,13 +327,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Getting to Newell involves turning off the Captain Cook Highway onto narrower back roads through the cane-farming landscape between Port Douglas and Mossman. These rural roads are generally well-maintained but can be affected by wet season flooding around low-lying cane paddocks. We always confirm access conditions before departure from Cairns and communicate any delays immediately.",
     nearbySubs: ["Cooya Beach", "Mossman", "Miallo"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Newell & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Newell | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Newell with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Newell with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns to our property in Newell and handled the rural access road with complete confidence. The lads were careful with all our gear and finished well within the estimate. Very pleased.",
@@ -389,13 +389,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Miallo is accessed via rural roads running inland from the Captain Cook Highway through the Northern Cairns cane-farming belt. Cane harvesting season from June to December brings heavy cane trucks to the local roads, which can affect travel times and road surface conditions near the crushing mill. We plan around harvest schedules where possible and keep loads secure on roads shared with agricultural vehicles.",
     nearbySubs: ["Wonga Beach", "Mossman", "Newell"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Miallo & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Miallo | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Miallo with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Miallo with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our whole farm household from Miallo to Cairns without a hitch. They handled bulky outdoor items, farm furniture and fragile pieces with equal care. A professional team doing a genuinely tough job.",
@@ -451,13 +451,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Shannonvale sits at the southern edge of Northern Cairns, making it one of the closer rural localities to Cairns in the region at just 58km from the CBD. Despite its relatively close distance, the final approach involves rural roads off the Captain Cook Highway that can be affected by wet season runoff from the ranges behind the farming land. We factor this into all move day planning and keep clients informed of any access challenges.",
     nearbySubs: ["Craiglie", "Port Douglas", "Oak Beach"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Shannonvale & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Shannonvale | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Shannonvale with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Shannonvale with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us out of our Shannonvale orchard property to Cairns and they were fantastic. They handled large outdoor items, orchard equipment and household furniture all in one load. Very efficient team.",
@@ -513,13 +513,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Oak Beach is accessed via a turning off the Captain Cook Highway south of Port Douglas, winding down to the coast on a road that can be narrow in sections. The steep coastal terrain means some properties are best served by a smaller truck or shuttle loading from a safe flat parking area. We assess every Oak Beach property individually and plan the safest and most efficient loading approach for your specific home.",
     nearbySubs: ["Craiglie", "Port Douglas", "Shannonvale"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Oak Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Oak Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Oak Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Oak Beach with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family into Oak Beach and handled the steep access road brilliantly. They assessed the driveway before move day, brought the right sized truck and had everything inside before noon. Couldn't be happier.",
@@ -534,7 +534,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
         date: "November 2024",
       },
       {
-        text: "We moved from Oak Beach to Cairns and R2G managed every challenge the location threw at them. From the steep driveway to the narrow access road — they handled it all. Highly recommend for coastal moves.",
+        text: "We moved from Oak Beach to Cairns and R2G managed every challenge the location threw at them. From the steep driveway to the narrow access road â€” they handled it all. Highly recommend for coastal moves.",
         name: "Stuart R.",
         location: "Oak Beach",
         date: "September 2024",
@@ -575,13 +575,13 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Every Cow Bay move requires crossing the Daintree River cable ferry, which imposes weight and length limits on vehicles. We select appropriately sized trucks for all ferry crossings and plan our arrival at the ferry to minimise waiting time. North of the ferry, the road to Cow Bay passes through dense tropical rainforest with limited passing places. During the wet season, fallen trees and road washouts can occasionally close sections of this route, and we maintain close contact with local road authorities in the days before your scheduled move.",
     nearbySubs: ["Cape Tribulation", "Daintree", "Thornton Beach"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Cow Bay & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Cow Bay | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cow Bay with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cow Bay with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G were incredible for our Cow Bay move. They managed the Daintree ferry crossing, the rainforest road and our off-grid property without any fuss. Professional, calm and fully prepared. We are very grateful.",
@@ -590,7 +590,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
         date: "April 2025",
       },
       {
-        text: "Moving to Cow Bay was a big decision and we needed removalists we could trust completely. R2G delivered in every way — knowledge of the ferry, care with our fragile pieces and great communication throughout.",
+        text: "Moving to Cow Bay was a big decision and we needed removalists we could trust completely. R2G delivered in every way â€” knowledge of the ferry, care with our fragile pieces and great communication throughout.",
         name: "Laurence H.",
         location: "Cow Bay",
         date: "August 2024",
@@ -605,7 +605,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "The Daintree ferry is non-negotiable.",
-        text: "There is no bridge across the Daintree River. Every vehicle accessing Cow Bay must use the cable ferry, which has weight and size restrictions. We will never attempt to use a vehicle that exceeds these limits — safety and ferry compliance are always our first priority.",
+        text: "There is no bridge across the Daintree River. Every vehicle accessing Cow Bay must use the cable ferry, which has weight and size restrictions. We will never attempt to use a vehicle that exceeds these limits â€” safety and ferry compliance are always our first priority.",
       },
       {
         heading: "Wet season road closures north of the ferry.",
@@ -617,7 +617,7 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Schedule as a full-day job.",
-        text: "Cow Bay is 115km from Cairns with the Daintree ferry crossing added to the journey. These moves always require a full day. Do not plan for an early afternoon completion — we allocate the full day to ensure nobody is rushed on the remote return drive.",
+        text: "Cow Bay is 115km from Cairns with the Daintree ferry crossing added to the journey. These moves always require a full day. Do not plan for an early afternoon completion â€” we allocate the full day to ensure nobody is rushed on the remote return drive.",
       },
     ],
   },
@@ -635,15 +635,15 @@ export const cairnsDouglasSuburbs: CairnsSuburb[] = [
     uniquePara2:
       "Properties near Thornton Beach are among the most remotely situated in Queensland, requiring passage across the Daintree River ferry and a drive through dense rainforest on a narrow sealed road. Our team treats every Thornton Beach relocation as a specialised remote move requiring meticulous pre-planning, appropriate vehicle selection and contingency preparation for the wet season.",
     uniquePara3:
-      "Reaching Thornton Beach involves crossing the Daintree River on the cable ferry and continuing north through the rainforest for a further 20 minutes beyond the ferry landing. This route is breathtakingly beautiful but logistically demanding. Wet season road closures are a genuine risk — in severe events the road can close for several days. We require clients booking Thornton Beach moves to discuss wet season contingency options at the time of booking so we have a clear agreed plan if rescheduling becomes necessary due to road or ferry conditions.",
+      "Reaching Thornton Beach involves crossing the Daintree River on the cable ferry and continuing north through the rainforest for a further 20 minutes beyond the ferry landing. This route is breathtakingly beautiful but logistically demanding. Wet season road closures are a genuine risk â€” in severe events the road can close for several days. We require clients booking Thornton Beach moves to discuss wet season contingency options at the time of booking so we have a clear agreed plan if rescheduling becomes necessary due to road or ferry conditions.",
     nearbySubs: ["Cape Tribulation", "Cow Bay", "Daintree"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Thornton Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Thornton Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Thornton Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Thornton Beach with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Thornton Beach move when every other removalist we contacted said the location was too remote. They were thoroughly prepared, crossed the ferry with no issues and delivered everything in perfect condition.",

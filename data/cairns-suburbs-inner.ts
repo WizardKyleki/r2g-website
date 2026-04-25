@@ -1,4 +1,4 @@
-import { CairnsSuburb } from "./suburbs";
+﻿import { CairnsSuburb } from "./suburbs";
 
 export const cairnsInnerSuburbs: CairnsSuburb[] = [
   {
@@ -11,20 +11,20 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     latitude: -16.9186,
     longitude: 145.7781,
     uniquePara1:
-      "Cairns City is the vibrant heart of Far North Queensland, home to the famous Esplanade lagoon, the Pier Shopping Centre and a dense mix of apartments, hotels and commercial properties. People move here for the convenience of inner-city living — within walking distance of the waterfront, restaurants, and the Reef Fleet Terminal where liveaboards and dive operators are based.",
+      "Cairns City is the vibrant heart of Far North Queensland, home to the famous Esplanade lagoon, the Pier Shopping Centre and a dense mix of apartments, hotels and commercial properties. People move here for the convenience of inner-city living â€” within walking distance of the waterfront, restaurants, and the Reef Fleet Terminal where liveaboards and dive operators are based.",
     uniquePara2:
       "The CBD is dominated by high-rise apartment buildings, older Queenslander-style homes on the fringes, and multi-storey complexes with lifts and basement parking. Our team regularly handles moves in buildings along Shields Street, Grafton Street and the Esplanade where elevator bookings and loading dock permits are standard requirements.",
     uniquePara3:
       "Parking for removal trucks in the CBD is subject to council time restrictions and loading zone rules. Abbott Street and Shields Street have designated loading zones, but these are heavily used during business hours. Our drivers arrive early to secure loading access, and we coordinate directly with building managers to book service lifts where needed.",
     nearbySubs: ["Cairns North", "Parramatta Park", "Portsmith"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Cairns City & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Professional Removalists Cairns City | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cairns City with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cairns City with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved out of a high-rise apartment on the Esplanade and R2G handled everything perfectly. They booked the service lift in advance, arrived on time and had our 2-bedroom unit packed and loaded in under three hours. Really professional operation.",
@@ -33,7 +33,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
         date: "March 2025",
       },
       {
-        text: "We were moving from a Grafton Street apartment to a house in Cairns North. The guys knew exactly which loading zone to use and avoided the worst of the morning traffic. Smooth, fast and no damage to anything — great service.",
+        text: "We were moving from a Grafton Street apartment to a house in Cairns North. The guys knew exactly which loading zone to use and avoided the worst of the morning traffic. Smooth, fast and no damage to anything â€” great service.",
         name: "Marcus T.",
         location: "Cairns City",
         date: "October 2024",
@@ -48,7 +48,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Book service lifts early.",
-        text: "Most CBD apartment buildings require advance notice to book the service lift for moving purposes — often 48 to 72 hours. Contact your building manager as soon as your move date is confirmed and pass the booking reference to our team so we can coordinate arrival time accordingly.",
+        text: "Most CBD apartment buildings require advance notice to book the service lift for moving purposes â€” often 48 to 72 hours. Contact your building manager as soon as your move date is confirmed and pass the booking reference to our team so we can coordinate arrival time accordingly.",
       },
       {
         heading: "Use loading zones strategically.",
@@ -80,13 +80,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Streets in the older parts of Cairns North like Digger Street and Grove Street have tight kerb-side parking and overhead powerlines that require careful truck positioning. Our team scouts access on the day and brings appropriate equipment for stump-height homes where furniture needs to be carried up or down external stairs.",
     nearbySubs: ["Cairns City", "Edge Hill", "Whitfield"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Cairns North & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Cairns North | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cairns North with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cairns North with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our Queenslander on Digger Street into a new house in Whitfield. They navigated the steep internal stairs like it was nothing and every piece of furniture arrived without a mark. Friendly and efficient crew.",
@@ -142,16 +142,16 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Anderson Street and Balaclava Road carry significant through-traffic during peak hours, which can complicate truck access near intersections. Our team plans alternative parking and access strategies for properties on busy through-routes, and we're familiar with the loading arrangements at the unit complexes along Aumuller Street.",
     nearbySubs: ["Cairns City", "Portsmith", "Manunda"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Cairns South & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Cairns South | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Cairns South with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Cairns South with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "R2G helped us shift a 3-bedroom house from Cairns South to Gordonvale. They were on time, worked hard and didn't stop until everything was done. The price was exactly as quoted — no surprises.",
+        text: "R2G helped us shift a 3-bedroom house from Cairns South to Gordonvale. They were on time, worked hard and didn't stop until everything was done. The price was exactly as quoted â€” no surprises.",
         name: "Donna P.",
         location: "Cairns South",
         date: "February 2025",
@@ -184,7 +184,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Declutter before your move.",
-        text: "Older homes in Cairns South often accumulate significant storage in sheds and under-house areas. Sorting what you need before the move day saves time and reduces your final bill — we charge by the hour, so a leaner inventory means a faster, cheaper move.",
+        text: "Older homes in Cairns South often accumulate significant storage in sheds and under-house areas. Sorting what you need before the move day saves time and reduces your final bill â€” we charge by the hour, so a leaner inventory means a faster, cheaper move.",
       },
     ],
   },
@@ -204,16 +204,16 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mulgrave Road is Manunda's main commercial spine and carries heavy traffic throughout the day. Our team uses the quieter residential streets such as Pease Street and Minnie Street to access properties close to the main road, and we time our arrival to avoid the Cairns Hospital shift changes at 7am and 3pm which cause notable local congestion.",
     nearbySubs: ["Parramatta Park", "Mooroobool", "Cairns City"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Manunda & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Manunda | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Manunda with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Manunda with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "Moved from a house on Pease Street in Manunda into a new place in Redlynch. R2G were brilliant — showed up on time, carefully wrapped our good furniture and loaded everything without any fuss. Great team.",
+        text: "Moved from a house on Pease Street in Manunda into a new place in Redlynch. R2G were brilliant â€” showed up on time, carefully wrapped our good furniture and loaded everything without any fuss. Great team.",
         name: "Karen S.",
         location: "Manunda",
         date: "March 2025",
@@ -234,7 +234,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Avoid hospital shift change times.",
-        text: "The Cairns Hospital on Esplanade draws significant local traffic during shift changes at around 7am and 3pm. Properties near the hospital on Mulgrave Road and the surrounding streets experience noticeably heavier traffic at these times — plan your move start to avoid them.",
+        text: "The Cairns Hospital on Esplanade draws significant local traffic during shift changes at around 7am and 3pm. Properties near the hospital on Mulgrave Road and the surrounding streets experience noticeably heavier traffic at these times â€” plan your move start to avoid them.",
       },
       {
         heading: "Confirm rear access for older homes.",
@@ -242,7 +242,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Plan for wet season afternoon storms.",
-        text: "Manunda's position in the middle of the city means little natural shade cover on the street during loading. From November to April, brief but intense afternoon storms are common — having your boxes packed and ready by mid-morning helps us load quickly between weather windows.",
+        text: "Manunda's position in the middle of the city means little natural shade cover on the street during loading. From November to April, brief but intense afternoon storms are common â€” having your boxes packed and ready by mid-morning helps us load quickly between weather windows.",
       },
       {
         heading: "Use Minnie Street for smooth truck access.",
@@ -266,13 +266,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Mulgrave Road borders the suburb to the west and can slow truck movement during peak hours. Our team accesses most Parramatta Park properties via Upward Street or Charles Street, which have better kerb parking options for a large removal truck. We're also experienced with the body corporate requirements at the townhouse complexes near Lily Street.",
     nearbySubs: ["Manunda", "Cairns City", "Westcourt"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Parramatta Park & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Parramatta Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Parramatta Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Parramatta Park with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Fantastic move from our Parramatta Park Queenslander to a new build in Brinsmead. The crew handled our antique furniture with such care, wrapping everything thoroughly before it touched the truck. Arrived in perfect condition.",
@@ -304,7 +304,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Use Charles Street for truck access.",
-        text: "Charles Street and Upward Street offer better truck parking access than properties fronting the busier through-routes. If your home has a rear lane or side access, let us know — it often allows us to park the truck closer and reduce carry distances significantly.",
+        text: "Charles Street and Upward Street offer better truck parking access than properties fronting the busier through-routes. If your home has a rear lane or side access, let us know â€” it often allows us to park the truck closer and reduce carry distances significantly.",
       },
       {
         heading: "Book ahead during the school calendar.",
@@ -324,17 +324,17 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Westcourt is a compact residential suburb sitting just west of the Mulgrave Road commercial corridor, offering affordable housing options close to Cairns' southern business district and the major retail strip around Stockland Cairns. It is a practical choice for renters and first-home buyers who need easy access to the highway and southern employment areas.",
     uniquePara2:
-      "The suburb has a high proportion of older rental properties — fibro and weatherboard homes, concrete block units and small townhouse complexes — giving our team regular experience with varied property access and different carrying challenges across the area.",
+      "The suburb has a high proportion of older rental properties â€” fibro and weatherboard homes, concrete block units and small townhouse complexes â€” giving our team regular experience with varied property access and different carrying challenges across the area.",
     uniquePara3:
       "Mulgrave Road and Gatton Street are the main access routes through Westcourt and carry commercial traffic throughout the day. Our drivers know the residential side streets that allow closer truck access to properties on the main corridors, and we're experienced with the common unit layouts and stairwell configurations found in the older 1970s and 1980s blocks in the suburb.",
     nearbySubs: ["Parramatta Park", "Earlville", "Mooroobool"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Westcourt & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Westcourt | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Westcourt with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Westcourt with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our rental property clearance in Westcourt quickly and professionally. Two guys, a medium truck and the job was done in under three hours. Straightforward pricing and a great attitude from the crew.",
@@ -390,13 +390,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access through Portsmith via McLeod Street and Aumuller Street is generally straightforward for heavy vehicles during off-peak hours. However, early mornings see significant freight truck traffic heading to and from the port. Our team coordinates commercial moves for mid-morning starts to avoid the early freight run, and we have equipment suited to warehouse and office fit-out clearances in the industrial estate.",
     nearbySubs: ["Cairns City", "Cairns South", "Edmonton"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Portsmith & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Portsmith | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Portsmith with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Portsmith with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated our business from a Portsmith warehouse to a new facility in the Edmonton industrial area. They handled heavy machinery components with care, worked efficiently and caused zero disruption to our operations. Excellent commercial move.",
@@ -411,7 +411,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
         date: "November 2024",
       },
       {
-        text: "Used R2G for a residential move from Portsmith to Earlville. Straightforward job handled really well — on time, polite and nothing damaged. Fair price for quality service.",
+        text: "Used R2G for a residential move from Portsmith to Earlville. Straightforward job handled really well â€” on time, polite and nothing damaged. Fair price for quality service.",
         name: "Dave G.",
         location: "Portsmith",
         date: "August 2024",
@@ -452,13 +452,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The Bruce Highway runs through Woree's eastern edge and creates a hard boundary that funnels local traffic through a small number of intersections. Our team plans move routes that avoid the Woree roundabout during morning school drop-off and uses the residential streets parallel to the highway for truck access wherever possible.",
     nearbySubs: ["Earlville", "Mooroobool", "Edmonton"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Woree & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Woree | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Woree with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Woree with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our large 4-bedroom house from Woree to a new estate in Edmonton. They brought a big truck and three crew members who worked non-stop. Everything was wrapped, loaded and delivered without a single issue.",
@@ -482,7 +482,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Allow extra time for large shed contents.",
-        text: "Woree homes frequently have oversized garages and storage sheds that add substantial volume to a move. Be thorough when getting your quote — mention all shed and storage contents so we can allocate enough time and truck space to handle everything in a single trip.",
+        text: "Woree homes frequently have oversized garages and storage sheds that add substantial volume to a move. Be thorough when getting your quote â€” mention all shed and storage contents so we can allocate enough time and truck space to handle everything in a single trip.",
       },
       {
         heading: "Avoid the Woree roundabout at school times.",
@@ -514,13 +514,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Traffic around Cairns Central and the Mulgrave Road intersection at the top of Earlville can slow significantly on weekends and public holidays. Our team times moves in this part of the suburb for early weekday mornings when the shopping centre car parks are clear and the Mulgrave Road service roads are accessible for loading and unloading.",
     nearbySubs: ["Woree", "Mooroobool", "Westcourt"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Earlville & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Earlville | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Earlville with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Earlville with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a townhouse near Cairns Central into a house in Mooroobool. They knew exactly how to navigate the tight car park exit and had everything loaded before the shopping centre traffic started. Great work.",
@@ -544,11 +544,11 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Avoid weekends near Cairns Central.",
-        text: "The Cairns Central Shopping Centre area on the Earlville border experiences its heaviest traffic on Saturday mornings and Sunday afternoons. Moving on a weekday — particularly Tuesday through Thursday — gives our truck easy access to the surrounding residential streets without shopping centre congestion.",
+        text: "The Cairns Central Shopping Centre area on the Earlville border experiences its heaviest traffic on Saturday mornings and Sunday afternoons. Moving on a weekday â€” particularly Tuesday through Thursday â€” gives our truck easy access to the surrounding residential streets without shopping centre congestion.",
       },
       {
         heading: "Plan early morning starts for townhouse complexes.",
-        text: "Townhouse and unit developments in Earlville often have visitor parking that fills up quickly during the day. An early morning start — before 7:30am — ensures loading zone access before residents' visitors and service vehicles arrive.",
+        text: "Townhouse and unit developments in Earlville often have visitor parking that fills up quickly during the day. An early morning start â€” before 7:30am â€” ensures loading zone access before residents' visitors and service vehicles arrive.",
       },
       {
         heading: "Disassemble large furniture items in advance.",
@@ -572,17 +572,17 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Mooroobool is one of Cairns' fastest-growing inner-western suburbs, sitting at the crossroads of the Mulgrave Road and Bruce Highway corridors. It has experienced significant new development over the past decade, attracting young families, tradies and professionals who want modern housing at competitive prices within easy reach of the CBD.",
     uniquePara2:
-      "The suburb features an increasingly wide mix of property types — from original 1970s brick homes and fibro cottages to contemporary duplex developments and large new builds on subdivided lots. This variety means our team is regularly adapting access and loading strategies to suit the specific property layout encountered on the day.",
+      "The suburb features an increasingly wide mix of property types â€” from original 1970s brick homes and fibro cottages to contemporary duplex developments and large new builds on subdivided lots. This variety means our team is regularly adapting access and loading strategies to suit the specific property layout encountered on the day.",
     uniquePara3:
       "The main intersection of Mulgrave Road and Gatton Street in Mooroobool handles significant traffic volumes throughout the day. Our team accesses properties close to this intersection via the quieter parallel streets such as Draper Street and Barnard Street, where kerb parking is more reliable and truck turning is less restricted.",
     nearbySubs: ["Westcourt", "Earlville", "Kanimbla"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Mooroobool & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Mooroobool | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mooroobool with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mooroobool with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from an older fibro home in Mooroobool to a new build nearby. They were careful with our belongings, professional throughout and finished well within the estimated time. Really good value.",
@@ -591,7 +591,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
         date: "April 2025",
       },
       {
-        text: "Moved from a duplex in Mooroobool to a house in Kanimbla. The crew arrived early, worked quickly and handled our furniture with genuine care. No damage, no delays — highly recommend.",
+        text: "Moved from a duplex in Mooroobool to a house in Kanimbla. The crew arrived early, worked quickly and handled our furniture with genuine care. No damage, no delays â€” highly recommend.",
         name: "Pauline N.",
         location: "Mooroobool",
         date: "February 2025",
@@ -614,7 +614,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Plan for wet season humidity.",
-        text: "Mooroobool's position in the western part of the city means it experiences intense humidity from November through April. Our team works efficiently to minimise the time furniture and boxes spend exposed outdoors during loading — having items ready by the front door when we arrive makes a big difference on hot days.",
+        text: "Mooroobool's position in the western part of the city means it experiences intense humidity from November through April. Our team works efficiently to minimise the time furniture and boxes spend exposed outdoors during loading â€” having items ready by the front door when we arrive makes a big difference on hot days.",
       },
       {
         heading: "Consolidate storage areas before the move.",
@@ -638,13 +638,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access into Brinsmead is via the winding Brinsmead Road, which has limited passing space for large vehicles. Our drivers navigate this route carefully and communicate with incoming vehicles to avoid blocking the road. We recommend booking an early start for Brinsmead moves to clear the road before the morning commuter traffic begins using it as a route down to the northern suburbs.",
     nearbySubs: ["Kanimbla", "Edge Hill", "Mooroobool"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Brinsmead & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Brinsmead | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Brinsmead with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Brinsmead with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our large acreage home in Brinsmead to a new property in Redlynch. Three crew, two trips and everything handled with exceptional care. They navigated the narrow road with confidence and our furniture arrived without a scratch.",
@@ -680,7 +680,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Consider a two-day move for very large homes.",
-        text: "The largest Brinsmead properties with extensive gardens, workshops and multiple outbuildings can be difficult to complete in a single day. Splitting the move across two days — with packing and outbuilding clearance on day one and the main house on day two — reduces stress and ensures nothing is rushed or damaged.",
+        text: "The largest Brinsmead properties with extensive gardens, workshops and multiple outbuildings can be difficult to complete in a single day. Splitting the move across two days â€” with packing and outbuilding clearance on day one and the main house on day two â€” reduces stress and ensures nothing is rushed or damaged.",
       },
     ],
   },
@@ -700,13 +700,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Kanimbla's street network connects directly to Brinsmead Road to the north and the Mulgrave Road corridor to the east, giving our team multiple approach routes depending on traffic conditions on the day. The suburb's flat topography and well-maintained roads mean moves here are typically efficient with minimal access complications.",
     nearbySubs: ["Brinsmead", "Mooroobool", "Manunda"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Kanimbla & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Kanimbla | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Kanimbla with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Kanimbla with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our 3-bedroom house in Kanimbla to a bigger home in Brinsmead. They were on time, wrapped everything properly and finished the job faster than I expected. Really happy with the service and the price.",
@@ -721,7 +721,7 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
         date: "December 2024",
       },
       {
-        text: "Used R2G for a smaller move from Kanimbla to Mooroobool. Two guys, a medium truck and they were done in two hours flat. Friendly crew and honest pricing — will definitely call them for our next move.",
+        text: "Used R2G for a smaller move from Kanimbla to Mooroobool. Two guys, a medium truck and they were done in two hours flat. Friendly crew and honest pricing â€” will definitely call them for our next move.",
         name: "Josh E.",
         location: "Kanimbla",
         date: "October 2024",
@@ -762,13 +762,13 @@ export const cairnsInnerSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Sheridan Street, which borders Manoora to the east, is one of Cairns' busiest arterials and should be avoided as a truck access route during the morning and afternoon peak. Our drivers use the quieter parallel streets through the suburb's interior, such as Pease Street and Aumuller Street extensions, to reach most Manoora properties without encountering the main-road congestion.",
     nearbySubs: ["Cairns North", "Manunda", "Parramatta Park"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Manoora & Cairns Region",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Manoora | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Manoora with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Manoora with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from an older home in Manoora to a new place in Cairns North. They handled our heavy timber furniture with ease, wrapped everything carefully and finished the job right on the estimated time. Excellent service.",

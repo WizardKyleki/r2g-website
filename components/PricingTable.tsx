@@ -139,9 +139,9 @@ const CAIRNS_TABS = DEFAULT_TABS.map((tab) => {
   if (tab.id === 0) {
     return {
       ...tab,
-      price: "From $189/hr",
+      price: "From $199/hr",
       rates: [
-        { day: "Mon – Fri", rate: "$189/hr" },
+        { day: "Mon – Fri", rate: "$199/hr" },
         { day: "Saturday", rate: "$209/hr" },
         { day: "Sunday", rate: "$279/hr" },
         { day: "Public Holiday", rate: "$279/hr" },

@@ -82,7 +82,7 @@ export const HOME_FAQS = [
   {
     question: "How much do removalists cost in Cairns?",
     answer:
-      "Local Cairns moves typically start from $189 per hour for a 2-person team with a truck. Pricing depends on the size of your home, the distance, access difficulty, and any additional services like packing or storage. We provide transparent, competitive quotes with no hidden fees. Contact us for a free, no-obligation quote.",
+      "Local Cairns moves typically start from $199 per hour for a 2-person team with a truck. Pricing depends on the size of your home, the distance, access difficulty, and any additional services like packing or storage. We provide transparent, competitive quotes with no hidden fees. Contact us for a free, no-obligation quote.",
   },
   {
     question: "How much do removalists cost in Brisbane?",

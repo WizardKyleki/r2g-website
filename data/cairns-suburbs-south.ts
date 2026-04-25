@@ -1,4 +1,4 @@
-import { CairnsSuburb } from "./suburbs";
+﻿import { CairnsSuburb } from "./suburbs";
 
 export const cairnsSouthSuburbs: CairnsSuburb[] = [
   {
@@ -13,21 +13,21 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Bentley Park is one of Cairns' fastest-growing southern suburbs, featuring large modern estates, quality schools and easy access to the Bruce Highway. We complete a high volume of moves in Bentley Park year-round as families continue to be drawn to its affordable housing and community feel.",
     uniquePara2:
-      "The estate-style housing in Bentley Park typically means wide driveways, double garages and plenty of room for our trucks to park close to your front door — making loading and unloading fast and efficient for your family.",
+      "The estate-style housing in Bentley Park typically means wide driveways, double garages and plenty of room for our trucks to park close to your front door â€” making loading and unloading fast and efficient for your family.",
     uniquePara3:
-      "Bentley Park's newer estates are designed with removalist-friendly access in mind — wide streets, level blocks and double driveways make most moves here among our smoothest. The suburb's proximity to Edmonton means we can often combine runs and keep costs down for customers. Traffic on the Bruce Highway heading north to Cairns CBD can build from around 7:30am, so a 9am start from Bentley Park usually gets you moving before the congestion hits.",
+      "Bentley Park's newer estates are designed with removalist-friendly access in mind â€” wide streets, level blocks and double driveways make most moves here among our smoothest. The suburb's proximity to Edmonton means we can often combine runs and keep costs down for customers. Traffic on the Bruce Highway heading north to Cairns CBD can build from around 7:30am, so a 9am start from Bentley Park usually gets you moving before the congestion hits.",
     nearbySubs: ["Edmonton", "Mount Peter", "Wrights Creek"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Bentley Park & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Removalists Bentley Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bentley Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bentley Park with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "R2G moved our family from a rental in Bentley Park into our first home in the same estate. They were on time, incredibly efficient and had us settled in before lunch. The price was exactly what they quoted — no surprises.",
+        text: "R2G moved our family from a rental in Bentley Park into our first home in the same estate. They were on time, incredibly efficient and had us settled in before lunch. The price was exactly what they quoted â€” no surprises.",
         name: "Lachlan & Amy T.",
         location: "Bentley Park",
         date: "February 2025",
@@ -60,7 +60,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book well ahead during school holidays.",
-        text: "Bentley Park is a popular suburb for families, and school holiday periods — especially January — fill up fast with moving bookings. We recommend booking at least 3–4 weeks ahead if your move falls in a school break window.",
+        text: "Bentley Park is a popular suburb for families, and school holiday periods â€” especially January â€” fill up fast with moving bookings. We recommend booking at least 3â€“4 weeks ahead if your move falls in a school break window.",
       },
     ],
   },
@@ -76,17 +76,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Mount Sheridan is a well-established southern suburb centred around one of Cairns' largest shopping precincts, making it a popular destination for families and professionals who want convenience without paying city prices. We regularly move residents in and out of Mount Sheridan's mix of modern estates and older residential streets.",
     uniquePara2:
-      "The suburb's hilly terrain gives some Mount Sheridan properties elevated outlooks and steep driveway access — our team comes prepared with the right equipment to handle any access challenges your property presents.",
+      "The suburb's hilly terrain gives some Mount Sheridan properties elevated outlooks and steep driveway access â€” our team comes prepared with the right equipment to handle any access challenges your property presents.",
     uniquePara3:
-      "Mount Sheridan's elevated sections around the shopping centre precinct and on the western ridge can present steep driveway access that requires careful vehicle positioning. Our experienced drivers know these streets well and will always assess access before reversing a large truck down a slope. For properties with very steep or narrow approaches, we bring a smaller shuttle vehicle to transfer items to the main truck at the street — a safe, efficient method we use regularly in this part of Southern Suburbs.",
+      "Mount Sheridan's elevated sections around the shopping centre precinct and on the western ridge can present steep driveway access that requires careful vehicle positioning. Our experienced drivers know these streets well and will always assess access before reversing a large truck down a slope. For properties with very steep or narrow approaches, we bring a smaller shuttle vehicle to transfer items to the main truck at the street â€” a safe, efficient method we use regularly in this part of Southern Suburbs.",
     nearbySubs: ["White Rock", "Bayview Heights", "Edmonton"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Mount Sheridan & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Mount Sheridan | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mount Sheridan with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Sheridan with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a steep-driveway house in Mount Sheridan to a flat block in Gordonvale. They assessed the driveway first, used a shuttle for the upper section and had everything on the main truck efficiently. Great planning.",
@@ -110,7 +110,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Assess your driveway before booking.",
-        text: "Some Mount Sheridan properties on the western ridge have steep or narrow driveways. When you book, describe your driveway gradient so we can plan the right vehicle — sometimes a shuttle approach is faster and safer than attempting to back a large truck down.",
+        text: "Some Mount Sheridan properties on the western ridge have steep or narrow driveways. When you book, describe your driveway gradient so we can plan the right vehicle â€” sometimes a shuttle approach is faster and safer than attempting to back a large truck down.",
       },
       {
         heading: "Use the shopping centre for last-minute packing supplies.",
@@ -122,7 +122,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Plan for humid heat during the wet season.",
-        text: "Mount Sheridan is exposed to tropical heat and humidity from November through April. Start your move early — ideally 7:30am — to complete the heavy lifting before the hottest part of the day and reduce the risk of heat fatigue for your moving crew.",
+        text: "Mount Sheridan is exposed to tropical heat and humidity from November through April. Start your move early â€” ideally 7:30am â€” to complete the heavy lifting before the hottest part of the day and reduce the risk of heat fatigue for your moving crew.",
       },
     ],
   },
@@ -138,17 +138,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "White Rock is a quiet southern suburb that offers excellent value for money and a relaxed residential feel close to the CBD. The suburb has seen steady growth in recent years and our team regularly completes moves for young families and downsizers settling into White Rock.",
     uniquePara2:
-      "A mix of older homes and newer infill developments means White Rock presents varied access conditions — our experienced team comes prepared for everything from tight older driveways to modern estate layouts.",
+      "A mix of older homes and newer infill developments means White Rock presents varied access conditions â€” our experienced team comes prepared for everything from tight older driveways to modern estate layouts.",
     uniquePara3:
       "White Rock borders the range foothills and some properties on the eastern side back onto steep terrain, requiring careful furniture handling on split-level layouts. Streets closest to the Bruce Highway can experience road noise during loading, so we coordinate with residents to park the truck in quieter side-street positions when possible. White Rock's proximity to Cairns City means our travel time is minimal, making it one of the more cost-effective areas we service in the south.",
     nearbySubs: ["Mount Sheridan", "Bayview Heights", "Cairns City"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "White Rock & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists White Rock | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in White Rock with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in White Rock with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G relocated us from a rental in White Rock into a bigger home in Bayview Heights. The move was smooth, the guys were great with our kids' furniture and the bill came in under the estimate. Very happy.",
@@ -172,7 +172,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Check for split-level layouts.",
-        text: "White Rock homes on the range-facing side often have split-level interiors with internal stairs. Let us know if your home has multiple levels when you book — we'll bring stairclimber trolleys and plan the right crew size accordingly.",
+        text: "White Rock homes on the range-facing side often have split-level interiors with internal stairs. Let us know if your home has multiple levels when you book â€” we'll bring stairclimber trolleys and plan the right crew size accordingly.",
       },
       {
         heading: "Park the truck away from the Bruce Highway.",
@@ -184,7 +184,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Book water and power disconnection early.",
-        text: "White Rock rental turnover is steady, especially around the start of the school year. Utility providers can be stretched during January and February — book disconnections and reconnections at least two weeks in advance to avoid arriving at your new home without power.",
+        text: "White Rock rental turnover is steady, especially around the start of the school year. Utility providers can be stretched during January and February â€” book disconnections and reconnections at least two weeks in advance to avoid arriving at your new home without power.",
       },
     ],
   },
@@ -200,17 +200,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Bayview Heights is a leafy hilltop suburb south of Cairns that offers elevated views, large blocks and a peaceful residential atmosphere popular with families and professionals. We regularly service Bayview Heights for both local moves and long-distance relocations.",
     uniquePara2:
-      "Homes in Bayview Heights are known for their generous proportions and established gardens — our team is experienced with high-volume residential moves and takes care with large, well-furnished homes on elevated terrain.",
+      "Homes in Bayview Heights are known for their generous proportions and established gardens â€” our team is experienced with high-volume residential moves and takes care with large, well-furnished homes on elevated terrain.",
     uniquePara3:
-      "The elevated streets of Bayview Heights mean some properties have long driveways with steep final approaches, and a number of homes sit on acreage-style blocks with separate garages and storage buildings. Our drivers assess each approach before pulling in, and we're equipped with shuttle vehicles for the steepest access situations. The views from Bayview Heights are stunning, but the terrain demands respect — our crew takes the time to plan every lift and carry safely so your furniture arrives without incident.",
+      "The elevated streets of Bayview Heights mean some properties have long driveways with steep final approaches, and a number of homes sit on acreage-style blocks with separate garages and storage buildings. Our drivers assess each approach before pulling in, and we're equipped with shuttle vehicles for the steepest access situations. The views from Bayview Heights are stunning, but the terrain demands respect â€” our crew takes the time to plan every lift and carry safely so your furniture arrives without incident.",
     nearbySubs: ["White Rock", "Mount Sheridan", "Cairns City"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Bayview Heights & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Bayview Heights | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Bayview Heights with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Bayview Heights with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a large home in Bayview Heights to a property in Gordonvale. They handled the steep driveway at our end professionally and had everything loaded quickly. Great crew, fair price.",
@@ -234,7 +234,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Describe your driveway in detail when booking.",
-        text: "Bayview Heights driveways vary enormously — from gentle slopes to very steep concrete descents. A brief description or photo of your driveway access helps us plan the right vehicle and approach before moving day.",
+        text: "Bayview Heights driveways vary enormously â€” from gentle slopes to very steep concrete descents. A brief description or photo of your driveway access helps us plan the right vehicle and approach before moving day.",
       },
       {
         heading: "Include all outbuildings in your inventory.",
@@ -262,17 +262,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Aloomba is a small rural locality southeast of Cairns, offering a quiet lifestyle surrounded by cane fields, wetlands and tropical vegetation. We service Aloomba and the surrounding rural area for local moves and long-distance relocations throughout Queensland.",
     uniquePara2:
-      "Rural properties in Aloomba typically feature larger acreage blocks, sheds and extensive outdoor equipment — our team is well-prepared for the access and volume demands of Far North Queensland rural moves.",
+      "Rural properties in Aloomba typically feature larger acreage blocks, sheds and extensive outdoor equipment â€” our team is well-prepared for the access and volume demands of Far North Queensland rural moves.",
     uniquePara3:
-      "Aloomba properties often sit back from the road along unsealed driveways that can become muddy and soft after wet-season rain. We check road and driveway conditions before every Aloomba run and may use a smaller shuttle vehicle to transport items from your door to the main truck at the road's edge when conditions require it. The surrounding wetlands and cane country are beautiful, but the access requires experience — our team has serviced rural FNQ properties for over a decade.",
+      "Aloomba properties often sit back from the road along unsealed driveways that can become muddy and soft after wet-season rain. We check road and driveway conditions before every Aloomba run and may use a smaller shuttle vehicle to transport items from your door to the main truck at the road's edge when conditions require it. The surrounding wetlands and cane country are beautiful, but the access requires experience â€” our team has serviced rural FNQ properties for over a decade.",
     nearbySubs: ["Gordonvale", "Edmonton", "Cairns City"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Aloomba & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Aloomba | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Aloomba with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Aloomba with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a rural property in Aloomba to a house in Edmonton. They handled the long driveway and muddy conditions from recent rain without any fuss and had everything loaded efficiently. Very impressed.",
@@ -296,11 +296,11 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Check driveway conditions after wet-season rain.",
-        text: "Aloomba driveways can become soft or muddy after heavy rain between November and April. Before your move date, check that the driveway surface can handle a loaded truck — a quick call to us and we can advise on the best vehicle option.",
+        text: "Aloomba driveways can become soft or muddy after heavy rain between November and April. Before your move date, check that the driveway surface can handle a loaded truck â€” a quick call to us and we can advise on the best vehicle option.",
       },
       {
         heading: "Include shed and outdoor contents in your inventory.",
-        text: "Rural Aloomba properties typically have large sheds with tools, farm equipment and outdoor furniture. A thorough shed inventory before requesting a quote ensures the right truck size — it is easy to underestimate shed contents.",
+        text: "Rural Aloomba properties typically have large sheds with tools, farm equipment and outdoor furniture. A thorough shed inventory before requesting a quote ensures the right truck size â€” it is easy to underestimate shed contents.",
       },
       {
         heading: "Allow extra travel time in your schedule.",
@@ -308,7 +308,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Secure livestock and animals well before we arrive.",
-        text: "Rural properties with dogs, chickens or other animals benefit from having them secured in a pen or building before our team arrives. Open truck doors and unfamiliar activity can stress animals and create delays — a few minutes of preparation saves time on the day.",
+        text: "Rural properties with dogs, chickens or other animals benefit from having them secured in a pen or building before our team arrives. Open truck doors and unfamiliar activity can stress animals and create delays â€” a few minutes of preparation saves time on the day.",
       },
     ],
   },
@@ -324,17 +324,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Goldsborough is a secluded rural locality nestled in the hills south of Cairns, surrounded by national park and tropical rainforest. We service Goldsborough and the remote southern hinterland with reliable removalist services tailored to rural and off-road property access.",
     uniquePara2:
-      "Properties in Goldsborough are characterised by lush vegetation, elevated outlooks and long access roads through the rainforest — our experienced team is equipped for remote property moves and the unique challenges they present.",
+      "Properties in Goldsborough are characterised by lush vegetation, elevated outlooks and long access roads through the rainforest â€” our experienced team is equipped for remote property moves and the unique challenges they present.",
     uniquePara3:
       "Goldsborough sits close to the Goldsborough Valley National Park, and properties in the area are accessed via winding roads that pass through dense rainforest. Our drivers are experienced with tight bends, creek crossings and unsealed road surfaces that are common on approaches to Goldsborough properties. We use appropriately sized vehicles for each property and always conduct a route assessment before confirming arrival plans. The beauty of the location is unmatched, but it demands a removalist team that knows their limits and plans ahead.",
     nearbySubs: ["Gordonvale", "Babinda", "Edmonton"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Goldsborough & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Goldsborough | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Goldsborough with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Goldsborough with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Getting a removalist to service Goldsborough is not easy, but R2G did it without complaint. They sent a smaller truck for the rainforest road, made two shuttle trips and had our home cleared efficiently. Professional and experienced.",
@@ -349,7 +349,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
         date: "November 2024",
       },
       {
-        text: "Remote location, complex access — R2G handled both without missing a beat. They assessed the property in advance, planned the right vehicle and crew, and completed a challenging move on time. Truly professional.",
+        text: "Remote location, complex access â€” R2G handled both without missing a beat. They assessed the property in advance, planned the right vehicle and crew, and completed a challenging move on time. Truly professional.",
         name: "Ray T.",
         location: "Goldsborough",
         date: "August 2024",
@@ -358,7 +358,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Request a route assessment before booking.",
-        text: "Goldsborough access roads vary significantly — some are well-maintained gravel while others have tight bends and creek crossings that limit vehicle size. Contact us early so we can assess the best route and vehicle combination for your property.",
+        text: "Goldsborough access roads vary significantly â€” some are well-maintained gravel while others have tight bends and creek crossings that limit vehicle size. Contact us early so we can assess the best route and vehicle combination for your property.",
       },
       {
         heading: "Avoid moving during peak wet season.",
@@ -366,7 +366,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Allow a full day for the move.",
-        text: "Goldsborough is 45km from Cairns City and the winding access road adds significant time beyond the highway drive. Most Goldsborough moves are booked as full-day jobs — plan accordingly and have the whole household ready to load when we arrive.",
+        text: "Goldsborough is 45km from Cairns City and the winding access road adds significant time beyond the highway drive. Most Goldsborough moves are booked as full-day jobs â€” plan accordingly and have the whole household ready to load when we arrive.",
       },
       {
         heading: "Notify us of any creek crossings or gates on your access road.",
@@ -386,20 +386,20 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Mount Peter is a developing southern suburb earmarked for significant residential expansion south of Edmonton, with new estates progressively opening as one of Cairns' major growth corridors. We service Mount Peter as the area grows and regularly help families move into brand new homes in the latest stages.",
     uniquePara2:
-      "New estate moves in Mount Peter are well-suited to our larger trucks — wide streets, level blocks and fresh infrastructure make for efficient, damage-free relocations into brand new homes.",
+      "New estate moves in Mount Peter are well-suited to our larger trucks â€” wide streets, level blocks and fresh infrastructure make for efficient, damage-free relocations into brand new homes.",
     uniquePara3:
-      "Mount Peter's growth-area status means we often encounter active construction zones alongside established streets on the same run. Our drivers are experienced navigating new estate road networks that are still being finalised, and we confirm access routes for each booking to avoid any staging-area closures or temporary road changes. Moving into a brand new home is exciting — our team takes extra care to protect freshly finished floors and newly painted walls during every Mount Peter move.",
+      "Mount Peter's growth-area status means we often encounter active construction zones alongside established streets on the same run. Our drivers are experienced navigating new estate road networks that are still being finalised, and we confirm access routes for each booking to avoid any staging-area closures or temporary road changes. Moving into a brand new home is exciting â€” our team takes extra care to protect freshly finished floors and newly painted walls during every Mount Peter move.",
     nearbySubs: ["Edmonton", "Bentley Park", "Wrights Creek"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Mount Peter & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Mount Peter | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mount Peter with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mount Peter with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "We moved into our brand new Mount Peter home with R2G. The team was incredibly careful with the freshly painted walls and new tiled floors — they laid floor protection throughout before moving a single item. Couldn't be happier.",
+        text: "We moved into our brand new Mount Peter home with R2G. The team was incredibly careful with the freshly painted walls and new tiled floors â€” they laid floor protection throughout before moving a single item. Couldn't be happier.",
         name: "Josh & Caitlin R.",
         location: "Mount Peter",
         date: "February 2025",
@@ -424,7 +424,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Confirm your street is accessible.",
-        text: "Mount Peter is an active development zone and estate road networks are regularly updated. Provide your exact lot and street address when booking so we can confirm truck access before the day — new stages sometimes have temporary access restrictions.",
+        text: "Mount Peter is an active development zone and estate road networks are regularly updated. Provide your exact lot and street address when booking so we can confirm truck access before the day â€” new stages sometimes have temporary access restrictions.",
       },
       {
         heading: "Arrange your builder defect inspection before furniture arrives.",
@@ -448,17 +448,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Wrights Creek is a quiet outer southern suburb bordering the rural fringe southwest of Edmonton, offering affordable housing and large blocks with a semi-rural feel. We service Wrights Creek for local moves and interstate relocations throughout the year.",
     uniquePara2:
-      "Properties in Wrights Creek often feature larger land areas with outbuildings and established gardens — our team is prepared for the higher volumes and outdoor equipment typically associated with semi-rural Far North Queensland properties.",
+      "Properties in Wrights Creek often feature larger land areas with outbuildings and established gardens â€” our team is prepared for the higher volumes and outdoor equipment typically associated with semi-rural Far North Queensland properties.",
     uniquePara3:
       "Wrights Creek sits at the western edge of the Cairns southern corridor and some properties are accessed via unsealed roads or long private driveways that can become soft in the wet season. We assess access routes before every Wrights Creek job and are equipped with shuttle vehicles for properties where the main road surface would be damaged by a fully loaded removal truck. The semi-rural setting is peaceful, but it demands the kind of practical experience our team brings to every move.",
     nearbySubs: ["Edmonton", "Bentley Park", "Mount Peter"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Wrights Creek & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Wrights Creek | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wrights Creek with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wrights Creek with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from Wrights Creek to a home in Bentley Park. They handled the long dirt driveway without any problems and had our four-bedroom house cleared by noon. Great value and very professional.",
@@ -494,7 +494,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Plan fuel and supplies before a big move day.",
-        text: "The nearest fuel and supplies to Wrights Creek are in Edmonton. Top up on the afternoon before your move and have water, snacks and sunscreen ready for the crew — a comfortable crew is an efficient crew, especially in tropical heat.",
+        text: "The nearest fuel and supplies to Wrights Creek are in Edmonton. Top up on the afternoon before your move and have water, snacks and sunscreen ready for the crew â€” a comfortable crew is an efficient crew, especially in tropical heat.",
       },
     ],
   },
@@ -512,15 +512,15 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara2:
       "Rural and farming properties dominate the Little Mulgrave landscape, and our team is experienced handling the large furniture volumes, farming equipment and outbuilding contents that typically come with an acreage move in Far North Queensland.",
     uniquePara3:
-      "Little Mulgrave properties sit along the Mulgrave River corridor and some are accessed via the Gillies Range Road or unsealed side tracks that pass through dense cane and rainforest vegetation. Wet-season flooding can affect low-lying properties in this valley, and we always check road access and water levels before committing to a move date in the November-to-April period. The Mulgrave Valley is one of the most beautiful parts of the Cairns hinterland — moving here or away requires a team that knows and respects the local environment.",
+      "Little Mulgrave properties sit along the Mulgrave River corridor and some are accessed via the Gillies Range Road or unsealed side tracks that pass through dense cane and rainforest vegetation. Wet-season flooding can affect low-lying properties in this valley, and we always check road access and water levels before committing to a move date in the November-to-April period. The Mulgrave Valley is one of the most beautiful parts of the Cairns hinterland â€” moving here or away requires a team that knows and respects the local environment.",
     nearbySubs: ["Gordonvale", "Aloomba", "Babinda"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Little Mulgrave & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Little Mulgrave | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Little Mulgrave with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Little Mulgrave with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a cane farm in Little Mulgrave to a house in Gordonvale. They handled the rural access, worked through the shed contents and moved everything in one load. Experienced, reliable and great value.",
@@ -544,7 +544,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Check Mulgrave River access in the wet season.",
-        text: "Some Little Mulgrave properties are accessed via roads that can flood during heavy wet-season rain. Monitor the Bureau of Meteorology river level updates in the days before your move and contact us if you have any concerns — we can reschedule if access is unsafe.",
+        text: "Some Little Mulgrave properties are accessed via roads that can flood during heavy wet-season rain. Monitor the Bureau of Meteorology river level updates in the days before your move and contact us if you have any concerns â€” we can reschedule if access is unsafe.",
       },
       {
         heading: "Walk the full property when preparing your inventory.",
@@ -556,7 +556,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Schedule cane-crushing season moves carefully.",
-        text: "Between June and November, cane trains cross roads throughout the Mulgrave Valley on routes to the Mulgrave Central Mill. These crossings can cause brief road delays — allow some schedule flexibility if your move date falls during the crushing season.",
+        text: "Between June and November, cane trains cross roads throughout the Mulgrave Valley on routes to the Mulgrave Central Mill. These crossings can cause brief road delays â€” allow some schedule flexibility if your move date falls during the crushing season.",
       },
     ],
   },
@@ -572,17 +572,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Deeral is a small rural settlement in the Mulgrave Valley south of Cairns, surrounded by wetlands, cane fields and tropical rainforest at the foot of Bellenden Ker National Park. We service Deeral and the wider Mulgrave Valley for rural property moves and long-distance relocations.",
     uniquePara2:
-      "Rural properties in Deeral tend to be larger acreage blocks with established homesteads, sheds and a range of outdoor equipment — our experienced team handles high-volume rural moves with the care and planning they deserve.",
+      "Rural properties in Deeral tend to be larger acreage blocks with established homesteads, sheds and a range of outdoor equipment â€” our experienced team handles high-volume rural moves with the care and planning they deserve.",
     uniquePara3:
-      "Deeral sits near the Mulgrave River floodplain, and some properties in the area can be cut off during major wet-season flooding events. Our team monitors road access closely in the November-to-April period and will always discuss contingency plans with customers when booking wet-season moves in the Deeral area. The Bruce Highway provides reliable access for most of the journey, but the final rural roads into Deeral require local knowledge — something our FNQ-experienced drivers have in abundance.",
+      "Deeral sits near the Mulgrave River floodplain, and some properties in the area can be cut off during major wet-season flooding events. Our team monitors road access closely in the November-to-April period and will always discuss contingency plans with customers when booking wet-season moves in the Deeral area. The Bruce Highway provides reliable access for most of the journey, but the final rural roads into Deeral require local knowledge â€” something our FNQ-experienced drivers have in abundance.",
     nearbySubs: ["Gordonvale", "Aloomba", "Little Mulgrave"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Deeral & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Deeral | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Deeral with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Deeral with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Deeral to a home in Gordonvale. They were fully prepared for the rural access, handled all our outdoor and farming equipment and completed the move efficiently. Very professional and reliable team.",
@@ -634,17 +634,17 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
     uniquePara1:
       "Mirriwinni is a small rural community south of Cairns in the Wet Tropics hinterland, known for its quiet atmosphere, lush tropical surroundings and proximity to the World Heritage rainforest. We service Mirriwinni and the wider southern Far North Queensland region for residential and rural property moves.",
     uniquePara2:
-      "Properties in Mirriwinni are typically rural acreage blocks with homesteads and extensive outbuildings — our team is experienced with the demands of remote FNQ rural moves and approaches every job with thorough planning and adequate resources.",
+      "Properties in Mirriwinni are typically rural acreage blocks with homesteads and extensive outbuildings â€” our team is experienced with the demands of remote FNQ rural moves and approaches every job with thorough planning and adequate resources.",
     uniquePara3:
-      "Mirriwinni is located about 55km south of Cairns on the Bruce Highway, placing it in one of the wettest parts of Australia's tropics. Wet-season moves require careful waterproofing of all loads and good planning around afternoon storm activity that is common in the region. Our team always wraps loads to a high standard for any Mirriwinni run, and we time our highway travel to arrive and depart before the typical 2-4pm afternoon storm window. The remoteness of Mirriwinni means preparation is everything — our experienced drivers know this stretch of the Bruce Highway well and plan every run accordingly.",
+      "Mirriwinni is located about 55km south of Cairns on the Bruce Highway, placing it in one of the wettest parts of Australia's tropics. Wet-season moves require careful waterproofing of all loads and good planning around afternoon storm activity that is common in the region. Our team always wraps loads to a high standard for any Mirriwinni run, and we time our highway travel to arrive and depart before the typical 2-4pm afternoon storm window. The remoteness of Mirriwinni means preparation is everything â€” our experienced drivers know this stretch of the Bruce Highway well and plan every run accordingly.",
     nearbySubs: ["Babinda", "Deeral", "Little Mulgrave"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Mirriwinni & Southern Suburbs",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Removalists Mirriwinni | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Mirriwinni with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Mirriwinni with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G took on our Mirriwinni-to-Cairns move without hesitation. They arrived on time, handled our large acreage property efficiently despite the remote location and had everything delivered to our new home before afternoon storms rolled in.",
@@ -653,7 +653,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
         date: "February 2025",
       },
       {
-        text: "We moved from a property in Mirriwinni to a house in Edmonton. R2G planned the run perfectly, wrapped everything for the highway drive and delivered on time. Friendly, experienced team — highly recommend for southern FNQ moves.",
+        text: "We moved from a property in Mirriwinni to a house in Edmonton. R2G planned the run perfectly, wrapped everything for the highway drive and delivered on time. Friendly, experienced team â€” highly recommend for southern FNQ moves.",
         name: "Christine O.",
         location: "Mirriwinni",
         date: "September 2024",
@@ -676,7 +676,7 @@ export const cairnsSouthSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Plan a full-day booking.",
-        text: "Mirriwinni is 55km from Cairns City and rural access adds further time. A full-day booking is standard for most Mirriwinni moves — arrange for all household and shed contents to be staged and ready to load when we arrive to make the most of the available daylight hours.",
+        text: "Mirriwinni is 55km from Cairns City and rural access adds further time. A full-day booking is standard for most Mirriwinni moves â€” arrange for all household and shed contents to be staged and ready to load when we arrive to make the most of the available daylight hours.",
       },
       {
         heading: "Prepare for limited mobile coverage on the Bruce Highway.",

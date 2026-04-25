@@ -254,15 +254,9 @@ export default function RemovalistsCairnsPage() {
               <h1 className="text-5xl sm:text-6xl font-black text-white leading-tight mb-5">
                 {pageConfig.h1}
               </h1>
-              <p className="text-lg text-gray-300 mb-6 leading-relaxed">
+              <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                 {heroSubtitle("Cairns")}
               </p>
-
-              {/* Price anchor — pre-qualifies paid clicks */}
-              <div className="flex items-center gap-3 mb-8">
-                <span className="text-[#F5C400] text-3xl sm:text-4xl font-black">From $189/hr</span>
-                <span className="text-gray-500 text-sm">2 movers + truck, no hidden fees</span>
-              </div>
 
               {/* Widget — mobile only (between subtext and phone) */}
               <div className="lg:hidden mb-8">
@@ -347,7 +341,7 @@ export default function RemovalistsCairnsPage() {
               </h2>
 
               <p className="text-gray-600 leading-relaxed mb-8">
-                R2G Transport &amp; Storage is a fully insured removalist company in Cairns, Far North Queensland, providing local and interstate moving services from $189 per hour. With 130+ five-star Google reviews, a 4.9-star rating, and over 10 years of experience, R2G services all 76 Cairns suburbs from the Northern Beaches to the Atherton Tablelands. Every move includes transit insurance, furniture protection, and transparent hourly pricing with no hidden fees.
+                R2G Transport &amp; Storage is a fully insured removalist company in Cairns, Far North Queensland, providing local and interstate moving services from $199 per hour. With 130+ five-star Google reviews, a 4.9-star rating, and over 10 years of experience, R2G services all 76 Cairns suburbs from the Northern Beaches to the Atherton Tablelands. Every move includes transit insurance, furniture protection, and transparent hourly pricing with no hidden fees.
               </p>
 
               <div className="relative h-72 sm:h-80 rounded-2xl overflow-hidden shadow-lg mb-8">

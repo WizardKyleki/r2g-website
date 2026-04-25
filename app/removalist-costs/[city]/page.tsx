@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
-const PageHero = dynamic(() => import("@/components/PageHero"));
+import PageHero from "@/components/PageHero";
 const PricingTable = dynamic(() => import("@/components/PricingTable"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
@@ -99,17 +99,17 @@ const CITIES: Record<string, CityData> = {
     name: "Cairns",
     slug: "cairns",
     pricingLocation: "cairns",
-    twoManRate: "$189/hr",
+    twoManRate: "$199/hr",
     twoManLargeRate: "$189/hr",
     threeManRate: "$269/hr",
-    weekendSurcharge: "$199-$359/hr",
+    weekendSurcharge: "$209-$359/hr",
     avgLocalCost: "$450 to $1,300",
     avgInterstateCost: "$3,500 to $8,000",
     removalistHref: "/removalists-cairns",
     packingHref: "/packing-services-cairns",
     storageHref: "/storage-cairns",
     metaDescription:
-      "How much do removalists cost in Cairns? Local rates from $189/hr, interstate from $3,500. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost in Cairns? Local rates from $199/hr, interstate from $3,500. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Removalist costs in Cairns are influenced by home size, access difficulty, distance, and seasonal demand. Local moves for a 2-bedroom home in Cairns typically cost between $450 and $900, while larger homes range from $900 to $1,500. Cairns has some unique factors that can affect pricing, including stilt houses, steep driveways in the northern beaches, and wet season scheduling. Here is a complete breakdown.",
     localFactors: [
@@ -129,7 +129,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour in Cairns?",
         answer:
-          "A 2-person team with a standard truck starts from $189 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $209 and Sunday or public holiday rates start from $279 for a 2-man team. All rates include GST.",
+          "A 2-person team with a standard truck starts from $199 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $209 and Sunday or public holiday rates start from $279 for a 2-man team. All rates include GST.",
       },
       {
         question: "Why are Cairns removalist rates slightly higher than Brisbane?",
@@ -288,17 +288,17 @@ const CITIES: Record<string, CityData> = {
     name: "Townsville",
     slug: "townsville",
     pricingLocation: "cairns",
-    twoManRate: "$189/hr",
+    twoManRate: "$199/hr",
     twoManLargeRate: "$189/hr",
     threeManRate: "$269/hr",
-    weekendSurcharge: "$199-$359/hr",
+    weekendSurcharge: "$209-$359/hr",
     avgLocalCost: "$450 to $1,200",
     avgInterstateCost: "$3,000 to $8,000",
     removalistHref: "/removalists-townsville",
     packingHref: "/packing-services-townsville",
     storageHref: "/storage-townsville",
     metaDescription:
-      "How much do removalists cost in Townsville? Local rates from $189/hr, interstate from $3,000. Full 2026 pricing guide with no hidden fees.",
+      "How much do removalists cost in Townsville? Local rates from $199/hr, interstate from $3,000. Full 2026 pricing guide with no hidden fees.",
     intro:
       "Removalist costs in Townsville are similar to Cairns rates, reflecting the North Queensland market. A local 2-bedroom move in Townsville typically costs between $450 and $900, while larger homes range from $900 to $1,400. Defence force relocations, mining town moves, and seasonal demand from the dry season all play a role in Townsville moving costs. Here is a full breakdown.",
     localFactors: [
@@ -318,7 +318,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour in Townsville?",
         answer:
-          "A 2-person team with a truck starts from $189 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $209 and Sunday or public holiday rates start from $279. All rates include GST.",
+          "A 2-person team with a truck starts from $199 per hour on weekdays. A 3-person team with a large truck starts from $269 per hour. Saturday rates start from $209 and Sunday or public holiday rates start from $279. All rates include GST.",
       },
       {
         question: "What is the average cost of a local move in Townsville?",

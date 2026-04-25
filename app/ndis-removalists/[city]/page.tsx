@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 
-const PageHero = dynamic(() => import("@/components/PageHero"));
+import PageHero from "@/components/PageHero";
 const TrustBadges = dynamic(() => import("@/components/TrustBadges"));
 const FAQ = dynamic(() => import("@/components/FAQ"));
 const CTABanner = dynamic(() => import("@/components/CTABanner"));
@@ -95,7 +95,7 @@ const cityData: CityData[] = [
       {
         question: "How much does an NDIS move cost in Cairns?",
         answer:
-          "Local NDIS moves in Cairns typically start from $170 to $189 per hour for a 2-person team and truck. The total cost depends on your home size, accessibility requirements, the amount of medical equipment, and any packing services needed. We provide a detailed written quote that your plan manager can use for pre-approval.",
+          "Local NDIS moves in Cairns typically start from $199 per hour for a 2-person team and truck. The total cost depends on your home size, accessibility requirements, the amount of medical equipment, and any packing services needed. We provide a detailed written quote that your plan manager can use for pre-approval.",
       },
     ],
   },
@@ -349,7 +349,7 @@ const cityData: CityData[] = [
       {
         question: "How much does an NDIS move cost in Townsville?",
         answer:
-          "Local NDIS moves in Townsville typically start from $170 to $189 per hour for a 2-person team and truck. Costs vary depending on the property size, amount of medical equipment, access difficulty, and packing needs. We provide a clear written quote that your plan manager can use for pre-approval before the move is scheduled.",
+          "Local NDIS moves in Townsville typically start from $199 per hour for a 2-person team and truck. Costs vary depending on the property size, amount of medical equipment, access difficulty, and packing needs. We provide a clear written quote that your plan manager can use for pre-approval before the move is scheduled.",
       },
     ],
   },

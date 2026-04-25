@@ -1,4 +1,4 @@
-import { CairnsSuburb } from "./suburbs";
+﻿import { CairnsSuburb } from "./suburbs";
 
 export const cairnsBeachSuburbs: CairnsSuburb[] = [
   {
@@ -15,19 +15,19 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara2:
       "Property in Trinity Park is predominantly comprised of modern single-storey and double-storey family homes on generous blocks, with a growing number of estate-style subdivisions featuring standard street widths. Our trucks can usually access most driveways without difficulty, though some newer developments have entry gates or shared access roads that benefit from advance planning.",
     uniquePara3:
-      "Trinity Park sits along the Captain Cook Highway corridor, which sees heavy traffic during morning and afternoon peaks as northern beaches commuters head into Cairns. We recommend scheduling moves outside the 7–9am and 4–6pm windows to avoid congestion on the highway and the connecting residential streets. Our team is familiar with the estate road layouts throughout the suburb and knows the best approach routes for larger removal trucks.",
+      "Trinity Park sits along the Captain Cook Highway corridor, which sees heavy traffic during morning and afternoon peaks as northern beaches commuters head into Cairns. We recommend scheduling moves outside the 7â€“9am and 4â€“6pm windows to avoid congestion on the highway and the connecting residential streets. Our team is familiar with the estate road layouts throughout the suburb and knows the best approach routes for larger removal trucks.",
     nearbySubs: ["Trinity Beach", "Smithfield", "Kewarra Beach", "Caravonica"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Trinity Park & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle:
       "Removalists Trinity Park | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Trinity Park with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Trinity Park with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "R2G moved us from a rental in Trinity Park into our first home in Kewarra Beach. They were on time, incredibly careful with our new furniture and finished ahead of schedule. The quote was spot on — no surprises on the day.",
+        text: "R2G moved us from a rental in Trinity Park into our first home in Kewarra Beach. They were on time, incredibly careful with our new furniture and finished ahead of schedule. The quote was spot on â€” no surprises on the day.",
         name: "Ashley T.",
         location: "Trinity Park",
         date: "March 2025",
@@ -80,13 +80,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access to Caravonica can be limited via a small number of road entries, and the roads through the suburb are typically narrower than suburban Cairns streets. Our drivers are experienced with the area and know which truck configurations suit the tighter rural roads and the approaches to properties near the Skyrail terminal. We also account for tour bus and tourist traffic around the cableway precinct when scheduling morning moves.",
     nearbySubs: ["Smithfield", "Lake Placid", "Barron", "Smithfield Heights"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Caravonica & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Caravonica | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Caravonica with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Caravonica with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "Moved from a unit in Smithfield to an acreage property in Caravonica and R2G were absolutely brilliant. They navigated the long gravel driveway without any hesitation and handled all our farm equipment carefully. Really pleased with the service.",
@@ -101,7 +101,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
         date: "April 2025",
       },
       {
-        text: "We downsized from a large Caravonica property to a townhouse near Smithfield Shopping Centre. The R2G guys made a tricky move look easy — they knew exactly how to pack the truck to fit everything in one load.",
+        text: "We downsized from a large Caravonica property to a townhouse near Smithfield Shopping Centre. The R2G guys made a tricky move look easy â€” they knew exactly how to pack the truck to fit everything in one load.",
         name: "Paul D.",
         location: "Caravonica",
         date: "November 2024",
@@ -114,7 +114,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Avoid Skyrail tourist peak times.",
-        text: "The roads near the Skyrail Rainforest Cableway terminal see increased tourist and tour bus traffic from mid-morning onwards, particularly on weekends. An early start — before 8am if possible — helps us complete loading before the tourist traffic builds up around the terminal precinct.",
+        text: "The roads near the Skyrail Rainforest Cableway terminal see increased tourist and tour bus traffic from mid-morning onwards, particularly on weekends. An early start â€” before 8am if possible â€” helps us complete loading before the tourist traffic builds up around the terminal precinct.",
       },
       {
         heading: "Protect timber furniture from tropical humidity.",
@@ -142,13 +142,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Lake Placid Road serves as the main artery through the suburb and can become narrow and congested at pinch points near the river. Our drivers are familiar with the road layout and know which sections require a smaller truck or more careful manoeuvring. We also monitor river levels during the wet season, as low-lying access roads near the Barron River occasionally experience surface water after heavy rainfall.",
     nearbySubs: ["Caravonica", "Barron", "Redlynch", "Freshwater"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Lake Placid & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Lake Placid | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Lake Placid with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Lake Placid with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from a Redlynch townhouse to an older Queenslander in Lake Placid. They were careful with all the original timber joinery and navigated the tricky driveway perfectly. Highly professional team.",
@@ -180,7 +180,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Plan for narrow road sections.",
-        text: "Sections of Lake Placid Road and several connecting residential streets are too narrow for our largest trucks to pass oncoming traffic comfortably. For moves in these areas, we use appropriately sized vehicles and may park at a wider point and use trolleys for a short transfer — we will discuss this with you at booking.",
+        text: "Sections of Lake Placid Road and several connecting residential streets are too narrow for our largest trucks to pass oncoming traffic comfortably. For moves in these areas, we use appropriately sized vehicles and may park at a wider point and use trolleys for a short transfer â€” we will discuss this with you at booking.",
       },
       {
         heading: "Book morning slots for cooler loading conditions.",
@@ -204,16 +204,16 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The road network through Barron is limited and routes through neighbouring suburbs such as Caravonica and Lake Placid are often required to reach certain properties. Our drivers have detailed knowledge of the local road layout and can identify the most efficient access route for your specific address. We recommend early starts in this area to beat the heat and any farm or rural vehicle traffic common on the quieter roads in the morning.",
     nearbySubs: ["Caravonica", "Lake Placid", "Redlynch", "Smithfield"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Barron & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Barron | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Barron with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Barron with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "R2G handled our move from a Barron acreage property to a house in Redlynch Valley. The team came prepared for the long driveway and large shed contents — everything was packed and loaded in one efficient run. Great crew.",
+        text: "R2G handled our move from a Barron acreage property to a house in Redlynch Valley. The team came prepared for the long driveway and large shed contents â€” everything was packed and loaded in one efficient run. Great crew.",
         name: "Ian C.",
         location: "Barron",
         date: "July 2024",
@@ -266,13 +266,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Stratford's proximity to the CBD means it benefits from good road infrastructure, but Anderson Road and the connecting suburban streets can see significant school zone traffic in the morning and afternoon. We schedule moves to avoid these windows where possible, and our drivers use the quieter residential streets to access properties efficiently without contributing to congestion near the school.",
     nearbySubs: ["Aeroglen", "Freshwater", "Redlynch", "Caravonica"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Stratford & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Stratford | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Stratford with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Stratford with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our family from a large Queenslander in Stratford to a new home in Freshwater. The guys were careful navigating the high stumps at our old place and had everything loaded quickly. Excellent service from start to finish.",
@@ -296,7 +296,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Avoid school zone hours on Anderson Road.",
-        text: "Stratford State School creates significant traffic build-up on Anderson Road and surrounding streets between 8–9am and 2:30–3:30pm on school days. Scheduling your move start for 9:30am or later avoids the morning school zone congestion and ensures our truck can park safely near your property.",
+        text: "Stratford State School creates significant traffic build-up on Anderson Road and surrounding streets between 8â€“9am and 2:30â€“3:30pm on school days. Scheduling your move start for 9:30am or later avoids the morning school zone congestion and ensures our truck can park safely near your property.",
       },
       {
         heading: "Plan access for high-set Queenslander homes.",
@@ -328,13 +328,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Aeroglen's road network is simple and well-maintained due to its airport proximity, which means our trucks can generally access all properties without complication. Noise from flight paths overhead is worth noting for customers moving large, sensitive items that may require windows to be open during loading in warmer months. Our team schedules around flight frequency patterns when possible and can advise on the quietest windows of the day for open-air loading.",
     nearbySubs: ["Stratford", "Freshwater", "Cairns City", "Mooroobool"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Aeroglen & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Aeroglen | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Aeroglen with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Aeroglen with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Aeroglen to a new home in Stratford in under three hours. The team was fast, professional and treated all our furniture with real care. Competitive pricing and no surprises on the invoice.",
@@ -390,16 +390,16 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The roads through Smithfield Heights follow the natural contours of the hillside, resulting in some winding sections with limited passing opportunities for large vehicles. We use appropriately sized trucks for properties on the narrower hillside streets and take extra care on the steeper driveway approaches. Morning slots are particularly popular in this area as sea breezes make loading conditions more comfortable before the afternoon heat builds.",
     nearbySubs: ["Smithfield", "Caravonica", "Trinity Beach", "Trinity Park"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Smithfield Heights & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Smithfield Heights | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Smithfield Heights with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Smithfield Heights with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
-        text: "R2G moved our family from Smithfield Heights to a new home in Trinity Park. The steep driveway at our old place was no problem for the team — they had it all loaded quickly and safely. Really professional service.",
+        text: "R2G moved our family from Smithfield Heights to a new home in Trinity Park. The steep driveway at our old place was no problem for the team â€” they had it all loaded quickly and safely. Really professional service.",
         name: "Amanda V.",
         location: "Smithfield Heights",
         date: "March 2025",
@@ -424,7 +424,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
       },
       {
         heading: "Choose a morning start for cooler loading conditions.",
-        text: "The elevated position of Smithfield Heights catches morning sea breezes that make loading conditions significantly more comfortable than in the afternoon heat. A 7–8am start is ideal for keeping crew energy levels high and protecting heat-sensitive furniture items during transit.",
+        text: "The elevated position of Smithfield Heights catches morning sea breezes that make loading conditions significantly more comfortable than in the afternoon heat. A 7â€“8am start is ideal for keeping crew energy levels high and protecting heat-sensitive furniture items during transit.",
       },
       {
         heading: "Secure path clearance around tiered gardens.",
@@ -452,13 +452,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Access to Buchan Point is primarily via the Captain Cook Highway, which carries tourist and freight traffic throughout the day. Our drivers are familiar with the highway turnoffs and the quieter local roads that service individual properties in the area. We recommend early morning moves to take advantage of lighter highway traffic and cooler beach conditions before the tourist influx that typically builds from mid-morning onwards.",
     nearbySubs: ["Palm Cove", "Ellis Beach", "Trinity Beach", "Clifton Beach"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Buchan Point & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Buchan Point | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Buchan Point with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Buchan Point with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our holiday home contents from Buchan Point into storage while we renovated. They wrapped everything immaculately to protect against the salt air and were careful on the steep stairs to our deck. Could not fault the service.",
@@ -514,13 +514,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "The extended travel distance from Cairns means Wangetti moves require careful logistics planning to ensure efficiency and cost-effectiveness. Our team factors travel time into all quotes for properties this far north and schedules moves to avoid the highway tourist traffic that peaks on weekends and during school holidays. We are experienced with moves to remote northern beaches communities and can advise on the best approach for your specific property and circumstances.",
     nearbySubs: ["Ellis Beach", "Palm Cove", "Buchan Point", "Port Douglas"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Wangetti & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Wangetti | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Wangetti with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Wangetti with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved us from Cairns City all the way to our new home in Wangetti. They planned the long trip perfectly, arrived exactly on schedule and handled the unsealed driveway with no fuss. Outstanding service for such a remote location.",
@@ -544,11 +544,11 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     tips: [
       {
         heading: "Account for travel time in your move cost estimate.",
-        text: "Wangetti is 35km from Cairns, which adds meaningful travel time to your move compared to closer suburbs. Our quotes include travel time transparently — factoring this in when comparing quotes ensures you have an accurate picture of total move costs and that no unexpected charges arise on the day.",
+        text: "Wangetti is 35km from Cairns, which adds meaningful travel time to your move compared to closer suburbs. Our quotes include travel time transparently â€” factoring this in when comparing quotes ensures you have an accurate picture of total move costs and that no unexpected charges arise on the day.",
       },
       {
         heading: "Assess driveway access with us before booking.",
-        text: "Properties in Wangetti frequently have unsealed or gravel driveways of varying condition. We recommend describing your driveway in detail — or sharing a photo if possible — when requesting a quote so we can match the right truck and equipment to your access conditions and avoid any on-day complications.",
+        text: "Properties in Wangetti frequently have unsealed or gravel driveways of varying condition. We recommend describing your driveway in detail â€” or sharing a photo if possible â€” when requesting a quote so we can match the right truck and equipment to your access conditions and avoid any on-day complications.",
       },
       {
         heading: "Coordinate fuel and supply logistics for long-distance moves.",
@@ -576,13 +576,13 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
     uniquePara3:
       "Ellis Beach sits in a dramatic coastal landscape where the ranges descend steeply to the sea, creating a narrow strip of habitable land along the shoreline. The Captain Cook Highway passes through the area and is the only practical access route for removal trucks. Our drivers are experienced on this section of the highway and are familiar with the turnoffs and local roads that serve individual residential properties in the community.",
     nearbySubs: ["Palm Cove", "Buchan Point", "Wangetti", "Clifton Beach"],
-    priceFrom: "$189/hr",
+    priceFrom: "$199/hr",
     serviceArea: "Ellis Beach & Northern Cairns",
     address: "36 Abbott St, Cairns City QLD 4870",
     phone: "1300 959 498",
     metaTitle: "Professional Removalists Ellis Beach | Reliable & Affordable",
     metaDescription:
-      "Trusted removalists in Ellis Beach with 10+ years experience. Reliable, affordable & fully insured — no hidden fees. Get a free quote today.",
+      "Trusted removalists in Ellis Beach with 10+ years experience. Reliable, affordable & fully insured â€” no hidden fees. Get a free quote today.",
     reviews: [
       {
         text: "R2G moved our beachfront home contents from Ellis Beach to a retirement village in Palm Cove. The team were meticulous with wrapping our coastal furniture, navigated the highway route perfectly and had everything delivered well within the quoted time.",
@@ -597,7 +597,7 @@ export const cairnsBeachSuburbs: CairnsSuburb[] = [
         date: "January 2025",
       },
       {
-        text: "Relocated permanently to Ellis Beach from the Gold Coast and R2G handled the interstate move brilliantly. The team coordinated the long-distance leg and local delivery seamlessly — nothing was damaged and communication throughout was excellent.",
+        text: "Relocated permanently to Ellis Beach from the Gold Coast and R2G handled the interstate move brilliantly. The team coordinated the long-distance leg and local delivery seamlessly â€” nothing was damaged and communication throughout was excellent.",
         name: "Diane F.",
         location: "Ellis Beach",
         date: "September 2024",

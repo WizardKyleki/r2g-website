@@ -4,10 +4,10 @@
  */
 
 export const CAIRNS_PRICING = {
-  smallHourly: "$179/hr",
+  smallHourly: "$199/hr",
   largeHourly: "$189/hr",
   singleItemFrom: "$110",
-  priceRange: "$179 - $359",
+  priceRange: "$199 - $359",
   teamSmall: "2-man team and truck",
   teamLarge: "2-3 removalists",
   minBooking: "2-hour",
