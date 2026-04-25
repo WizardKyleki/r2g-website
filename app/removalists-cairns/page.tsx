@@ -696,7 +696,38 @@ export default function RemovalistsCairnsPage() {
         </div>
       </section>
 
-      {/* ── SECTION 9: FAQ ──────────────────────────────────────────────────── */}
+      {/* ── SECTION 9: MAP ──────────────────────────────────────────────────── */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="w-10 h-1 bg-[#F5C400]" />
+              <span className="text-[#F5C400] text-sm font-semibold uppercase tracking-widest">Location</span>
+              <div className="w-10 h-1 bg-[#F5C400]" />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-3">
+              Find Us in Cairns
+            </h2>
+            <p className="text-gray-600 text-base max-w-2xl mx-auto">
+              Based in Cairns City, servicing all of Far North Queensland. Come visit us or get a free quote online.
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+            <iframe
+              src="https://www.google.com/maps?cid=11773202456138120338&output=embed"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="R2G Transport &amp; Storage Cairns on Google Maps"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* ── SECTION 10: FAQ ─────────────────────────────────────────────────── */}
       <FAQ items={faqItems} heading="Cairns Removals FAQ" />
 
       {/* ── SECTION 9: FINAL CTA ────────────────────────────────────────────── */}
