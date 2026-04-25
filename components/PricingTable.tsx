@@ -78,10 +78,10 @@ const DEFAULT_TABS = [
     label: "2 Movers + Large Truck",
     sublabel: "Medium-Large Move",
     title: "2 Movers + Large Truck",
-    price: "From $189/hr",
+    price: "From $199/hr",
     bestFor: "3-4 bedroom homes",
     rates: [
-      { day: "Mon – Fri", rate: "$189/hr" },
+      { day: "Mon – Fri", rate: "$199/hr" },
       { day: "Saturday", rate: "$210/hr" },
       { day: "Sunday", rate: "$290/hr" },
       { day: "Public Holiday", rate: "$290/hr" },

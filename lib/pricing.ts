@@ -5,7 +5,7 @@
 
 export const CAIRNS_PRICING = {
   smallHourly: "$199/hr",
-  largeHourly: "$189/hr",
+  largeHourly: "$199/hr",
   singleItemFrom: "$110",
   priceRange: "$199 - $359",
   teamSmall: "2-man team and truck",

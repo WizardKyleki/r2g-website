@@ -37,7 +37,7 @@ const CITIES: Record<string, CityData> = {
     slug: "brisbane",
     pricingLocation: "brisbane",
     twoManRate: "$179/hr",
-    twoManLargeRate: "$189/hr",
+    twoManLargeRate: "$199/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$199-$359/hr",
     avgLocalCost: "$400 to $1,200",
@@ -66,7 +66,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour in Brisbane?",
         answer:
-          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck with 2 movers starts from $189 per hour. A 3-person team with a large truck starts from $269 per hour. Saturday rates are slightly higher, and Sunday or public holiday rates range from $269 to $359 per hour depending on team size. All rates include GST.",
+          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck with 2 movers starts from $199 per hour. A 3-person team with a large truck starts from $269 per hour. Saturday rates are slightly higher, and Sunday or public holiday rates range from $269 to $359 per hour depending on team size. All rates include GST.",
       },
       {
         question: "What is the average cost of a local move in Brisbane?",
@@ -100,7 +100,7 @@ const CITIES: Record<string, CityData> = {
     slug: "cairns",
     pricingLocation: "cairns",
     twoManRate: "$199/hr",
-    twoManLargeRate: "$189/hr",
+    twoManLargeRate: "$199/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$209-$359/hr",
     avgLocalCost: "$450 to $1,300",
@@ -163,7 +163,7 @@ const CITIES: Record<string, CityData> = {
     slug: "gold-coast",
     pricingLocation: "brisbane",
     twoManRate: "$179/hr",
-    twoManLargeRate: "$189/hr",
+    twoManLargeRate: "$199/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$199-$359/hr",
     avgLocalCost: "$400 to $1,200",
@@ -192,7 +192,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour on the Gold Coast?",
         answer:
-          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck with 2 movers starts from $189 per hour. A 3-person team with a large truck starts from $269 per hour. Weekend and public holiday rates range from $189 to $359 per hour depending on team size and day. All rates include GST.",
+          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck with 2 movers starts from $199 per hour. A 3-person team with a large truck starts from $269 per hour. Weekend and public holiday rates range from $199 to $359 per hour depending on team size and day. All rates include GST.",
       },
       {
         question: "What is the average cost of a local Gold Coast move?",
@@ -226,7 +226,7 @@ const CITIES: Record<string, CityData> = {
     slug: "sunshine-coast",
     pricingLocation: "brisbane",
     twoManRate: "$179/hr",
-    twoManLargeRate: "$189/hr",
+    twoManLargeRate: "$199/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$199-$359/hr",
     avgLocalCost: "$450 to $1,300",
@@ -255,7 +255,7 @@ const CITIES: Record<string, CityData> = {
       {
         question: "How much do removalists charge per hour on the Sunshine Coast?",
         answer:
-          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck starts from $189 per hour. A 3-person team with a large truck starts from $269 per hour. Weekend and public holiday rates range from $189 to $359 per hour. All rates include GST and there are no hidden fees.",
+          "A 2-person team with a truck starts from $179 per hour on weekdays. A larger truck starts from $199 per hour. A 3-person team with a large truck starts from $269 per hour. Weekend and public holiday rates range from $199 to $359 per hour. All rates include GST and there are no hidden fees.",
       },
       {
         question: "What is the average cost of a local Sunshine Coast move?",
@@ -289,7 +289,7 @@ const CITIES: Record<string, CityData> = {
     slug: "townsville",
     pricingLocation: "cairns",
     twoManRate: "$199/hr",
-    twoManLargeRate: "$189/hr",
+    twoManLargeRate: "$199/hr",
     threeManRate: "$269/hr",
     weekendSurcharge: "$209-$359/hr",
     avgLocalCost: "$450 to $1,200",
