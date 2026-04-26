@@ -68,7 +68,6 @@ const organizationSchema = {
     "Office relocations",
     "Packing services",
     "Storage solutions",
-    "NDIS removals",
   ],
 };
 
