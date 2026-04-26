@@ -560,6 +560,159 @@ export default function RemovalistsCairnsPage() {
         </div>
       </section>
 
+      {/* ── SECTION 5B: WHAT MAKES A CAIRNS MOVE DIFFERENT (NEW SEO CONTENT) ── */}
+      <section className="bg-white py-16 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16 items-start">
+            <div className="lg:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-0.5 bg-[#F5C400]" />
+                <span className="text-[#F5C400] text-xs font-semibold uppercase tracking-[0.2em]">Cairns Local Knowledge</span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
+                What Makes a Cairns Removal Different to a City Move
+              </h2>
+
+              <div className="space-y-5 text-gray-600 leading-relaxed">
+                <p>
+                  Cairns is not Brisbane. The properties, the climate, the road network and the
+                  way people use their homes are all different from southern capitals, and a
+                  removalist who hasn&apos;t worked in Far North Queensland will run into problems
+                  fast. After 10+ years of moving Cairns families, we&apos;ve built our process
+                  around five things that consistently catch generic interstate movers off-guard.
+                </p>
+
+                <h3 className="text-xl font-bold text-[#1A1A1A] pt-4">1. Queenslander stilt houses dominate the suburbs</h3>
+                <p>
+                  Roughly 40% of Cairns homes are raised Queenslanders or modern stilt-style
+                  builds. Edge Hill, Whitfield, Earlville, Bayview Heights, Manunda and the
+                  hinterland tablelands towns are full of them. That means furniture comes down
+                  external stairs on every job, often with a 70-degree dogleg at the bottom and
+                  a railing that&apos;s too narrow for a 3-seater couch. Our crew trains
+                  specifically on stilt-house technique, carries narrow-profile dollies, and
+                  has a standard dis-assembly approach for L-shaped lounges, queen mattresses
+                  and tall wardrobes that won&apos;t clear external Queensland staircases. We
+                  charge the same hourly rate. The work just gets done properly.
+                </p>
+
+                <h3 className="text-xl font-bold text-[#1A1A1A] pt-4">2. The wet season changes how moving day works</h3>
+                <p>
+                  Cairns gets ~2,000mm of rain a year, with most of it falling between
+                  November and April. A January move in Edmonton or Mount Sheridan can get a
+                  full hour of tropical downpour mid-afternoon. We carry weatherproof shrink
+                  wrap, additional furniture blankets that we keep dry in the truck, and we
+                  schedule wet-season moves with weather buffers built in. We also know which
+                  Cairns roads flood first &mdash; Smithfield&apos;s Captain Cook Highway
+                  approach, the Mulgrave River causeway south of Gordonvale, and the Kuranda
+                  Range road during a heavy event &mdash; and we&apos;ll reroute or reschedule
+                  rather than risk your goods.
+                </p>
+
+                <h3 className="text-xl font-bold text-[#1A1A1A] pt-4">3. The Northern Beaches are 30+ minutes from the depot</h3>
+                <p>
+                  Trinity Beach, Kewarra Beach, Palm Cove, Clifton Beach and Yorkeys Knob look
+                  close on the map but the Captain Cook Highway is the only sensible way in
+                  during peak. We schedule beach-suburb moves to start early so the load is
+                  on the truck before the morning peak northbound, and we rest the team for
+                  the run back south in the heat. If your move is from a Northern Beaches
+                  unit, we&apos;ll tell you what time we&apos;re actually arriving rather than
+                  giving you a vague window. Same applies to the southern run to Edmonton,
+                  Bentley Park and Gordonvale.
+                </p>
+
+                <h3 className="text-xl font-bold text-[#1A1A1A] pt-4">4. FIFO and tropical lifestyle storage gaps</h3>
+                <p>
+                  Cairns has a high concentration of FIFO workers (mining and oil &amp; gas
+                  rotations), defence personnel, and seasonal workers in the tourism trade.
+                  These customers often need short-term storage between leases, mid-rotation
+                  pauses, or while a partner is overseas. We run a secure containerised
+                  storage facility right here in Cairns City &mdash; not Brisbane &mdash;
+                  which means same-day access if a job rotation changes. Plenty of bigger
+                  removalists ship your goods south for storage; we keep them where you can
+                  reach them.
+                </p>
+
+                <h3 className="text-xl font-bold text-[#1A1A1A] pt-4">5. Tablelands and Far North hinterland have unique road realities</h3>
+                <p>
+                  Moves to or from Mareeba, Atherton, Tolga, Yungaburra, Malanda, Ravenshoe
+                  and Herberton involve the Kuranda Range or the Gillies Range. Both have
+                  truck-restriction sections and slow tourist traffic in dry-season months.
+                  Our drivers know which corners need a wide swing, where the cane-train
+                  crossings are active, and what time the Kuranda markets close traffic.
+                  Same with Port Douglas and Mossman north &mdash; wet-season closures and
+                  croc-zone road works can shift schedules. Our quotes for Tablelands and
+                  Far North hinterland moves include the realistic transit time. Not the
+                  Google-Maps-in-perfect-conditions number.
+                </p>
+
+                <h3 className="text-xl font-bold text-[#1A1A1A] pt-4">Real Cairns move examples</h3>
+                <p>
+                  To make pricing concrete, here are three recent Cairns moves with the
+                  approximate hourly cost (rates current April 2026):
+                </p>
+                <div className="rounded-xl border border-gray-200 overflow-hidden mt-3">
+                  <table className="w-full text-sm">
+                    <thead className="bg-gray-50 text-left text-xs uppercase tracking-wider text-gray-500">
+                      <tr>
+                        <th className="px-4 py-3">Move type</th>
+                        <th className="px-4 py-3">Crew</th>
+                        <th className="px-4 py-3 text-right">Time</th>
+                        <th className="px-4 py-3 text-right">Cost</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-100 text-gray-700">
+                      <tr>
+                        <td className="px-4 py-3">2-bed Cairns City to Trinity Beach unit</td>
+                        <td className="px-4 py-3">2 movers + truck</td>
+                        <td className="px-4 py-3 text-right">3.5 hrs</td>
+                        <td className="px-4 py-3 text-right font-semibold">$697</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3">3-bed Edge Hill stilt house to Redlynch</td>
+                        <td className="px-4 py-3">2 movers + large truck</td>
+                        <td className="px-4 py-3 text-right">5 hrs</td>
+                        <td className="px-4 py-3 text-right font-semibold">$995</td>
+                      </tr>
+                      <tr>
+                        <td className="px-4 py-3">4-bed Smithfield to Mareeba (Tablelands)</td>
+                        <td className="px-4 py-3">3 movers + large truck</td>
+                        <td className="px-4 py-3 text-right">6.5 hrs</td>
+                        <td className="px-4 py-3 text-right font-semibold">$1,749</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-xs text-gray-500 italic">
+                  Examples only. Every Cairns move is quoted individually based on volume,
+                  access, distance and packing requirements.
+                </p>
+              </div>
+            </div>
+
+            {/* Sticky local-trust sidebar */}
+            <aside className="lg:sticky lg:top-24">
+              <div className="bg-[#FFFBEB] border border-[#F5C400]/30 rounded-2xl p-6">
+                <p className="text-xs font-semibold uppercase tracking-widest text-[#F5C400] mb-3">Why Cairns customers pick R2G</p>
+                <ul className="space-y-3 text-sm text-gray-700">
+                  <li className="flex gap-2"><span className="text-[#F5C400]">✓</span> Cairns City depot &mdash; not a Brisbane subcontract</li>
+                  <li className="flex gap-2"><span className="text-[#F5C400]">✓</span> 130+ verified Cairns Google reviews</li>
+                  <li className="flex gap-2"><span className="text-[#F5C400]">✓</span> Stilt-house and wet-season trained crew</li>
+                  <li className="flex gap-2"><span className="text-[#F5C400]">✓</span> Tablelands &amp; Northern Beaches covered</li>
+                  <li className="flex gap-2"><span className="text-[#F5C400]">✓</span> AFRA member, fully insured every move</li>
+                  <li className="flex gap-2"><span className="text-[#F5C400]">✓</span> Local Cairns storage available same day</li>
+                </ul>
+                <Link
+                  href="/quote"
+                  className="block w-full text-center mt-5 bg-[#1A1A1A] text-white font-bold py-3 rounded-lg hover:bg-black transition-colors"
+                >
+                  Get a Free Cairns Quote
+                </Link>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
       {/* ── SECTION 6: SUBURBS & TIPS ───────────────────────────────────────── */}
       <section className="bg-[#1A1A1A] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

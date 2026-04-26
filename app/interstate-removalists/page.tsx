@@ -8,13 +8,23 @@ const FAQ = dynamic(() => import("@/components/FAQ"));
 import { RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: { absolute: "Interstate Removalists | Reliable & Affordable" },
+  title: { absolute: "Interstate Removalists Brisbane | Door-to-Door Moves QLD-Wide" },
   description:
-    "Interstate removalists operating from Cairns and Brisbane - the real specialists in long-distance moves. Fully insured, affordable & reliable. Book now.",
+    `Interstate removalists Brisbane. Door-to-door long-distance moves from Brisbane to Sydney, Melbourne, Cairns and across Australia. Fully insured, ${REVIEW_DISPLAY} five-star reviews. Free quote.`,
+  keywords: [
+    "interstate removalists brisbane",
+    "interstate movers brisbane",
+    "brisbane interstate removalists",
+    "interstate removalists",
+    "long distance removalists brisbane",
+    "brisbane to sydney removalists",
+    "brisbane to melbourne removalists",
+    "brisbane to cairns removalists",
+  ],
   openGraph: {
-    title: "Interstate Removalists | R2G Transport & Storage",
+    title: "Interstate Removalists Brisbane | R2G Transport & Storage",
     description:
-      `Door-to-door interstate removals from Cairns & Brisbane. Fully insured, experienced team, ${REVIEW_DISPLAY} five-star reviews. Free quote. 1300 959 498.`,
+      `Door-to-door interstate removals from Brisbane. Fully insured, experienced team, ${REVIEW_DISPLAY} five-star reviews. Free quote. 1300 959 498.`,
     url: "https://www.r2g.com.au/interstate-removalists",
   },
   alternates: {
@@ -212,18 +222,18 @@ export default function InterstateRemovalistsPage() {
               <div className="flex items-center gap-3 mb-5">
                 <div className="h-[2px] w-10 bg-[#F5A800]" />
                 <span className="text-[#F5A800] text-sm font-semibold tracking-widest uppercase">
-                  Cairns · Brisbane · Australia-Wide
+                  Brisbane · Cairns · Australia-Wide
                 </span>
               </div>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-[0.95] mb-6">
                 Interstate <br />
                 <span className="text-[#F5A800]">Removalists</span> <br />
-                <span className="text-2xl sm:text-3xl lg:text-4xl text-gray-300 font-bold">Cairns, Brisbane &amp; Queensland</span>
+                <span className="text-2xl sm:text-3xl lg:text-4xl text-gray-300 font-bold">Brisbane, Cairns &amp; Australia-Wide</span>
               </h1>
               <p className="text-lg text-gray-300 max-w-xl mb-8 leading-relaxed">
-                Door-to-door interstate moves across Queensland, New South Wales and Victoria.
-                Fully insured, experienced team, shared or exclusive loads, handled properly
-                from pickup to delivery.
+                Brisbane-based interstate removalists with door-to-door service to Sydney, Melbourne,
+                Cairns and every major route across Australia. Fully insured, experienced team,
+                shared or exclusive loads, handled properly from pickup to delivery.
               </p>
               <div className="xl:hidden mb-8">
                 <HeroQuoteWidget />
@@ -282,23 +292,23 @@ export default function InterstateRemovalistsPage() {
                 </span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-black text-[#1A1A1A] mb-6">
-                Interstate Removalists. Long Distance Moves Done Right
+                Interstate Removalists Brisbane &mdash; Long Distance Moves Done Right
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Interstate moving is a different challenge to a local move. Your belongings
-                  travel hundreds, sometimes thousands, of kilometres, often to somewhere
+                  Interstate moving from Brisbane is a different challenge to a local move. Your
+                  belongings travel hundreds, sometimes thousands, of kilometres, often to somewhere
                   you&apos;ve never been. The margin for error is smaller, the consequences
-                  of a poorly managed move are bigger, and the trust you place in your
+                  of a poorly managed move are bigger, and the trust you place in your interstate
                   removalist matters more than ever.
                 </p>
                 <p>
-                  R2G Transport &amp; Storage has been handling interstate removals across
-                  Queensland and Australia for over 10 years. We operate from depots in
-                  Cairns City and Archerfield, Brisbane, running regular routes along the
-                  full QLD coastal corridor, through the mining and resources belt, and
-                  south into New South Wales and Victoria. Every move is managed by an
-                  experienced team, fully insured, and tracked door to door.
+                  R2G Transport &amp; Storage has been handling interstate removals from Brisbane
+                  across Australia for over 10 years. We operate from a Brisbane depot in
+                  Archerfield (and a sister depot in Cairns), running regular routes south to
+                  Sydney and Melbourne, north along the full QLD coastal corridor to Cairns, and
+                  through the mining and resources belt. Every Brisbane interstate move is managed
+                  by an experienced team, fully insured, and tracked door to door.
                 </p>
                 <p>
                   Our {REVIEW_DISPLAY} verified five-star reviews reflect thousands of families and
