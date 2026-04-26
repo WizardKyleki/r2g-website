@@ -56,8 +56,9 @@ const organizationSchema = {
     availableLanguage: "English",
   },
   sameAs: [
-    "https://www.facebook.com/r2gtransport",
-    "https://www.instagram.com/r2gtransport",
+    "https://www.facebook.com/R2Gtransport/",
+    "https://www.instagram.com/r2gtransport/",
+    "https://au.linkedin.com/company/r2g-transport-storage",
     "https://www.google.com/maps?cid=11773202456138120338",
   ],
   knowsAbout: [
@@ -159,8 +160,9 @@ const homepageSchema = {
     bestRating: "5",
   },
   sameAs: [
-    "https://www.facebook.com/r2gtransport",
-    "https://www.instagram.com/r2gtransport",
+    "https://www.facebook.com/R2Gtransport/",
+    "https://www.instagram.com/r2gtransport/",
+    "https://au.linkedin.com/company/r2g-transport-storage",
     "https://www.google.com/maps?cid=11773202456138120338",
   ],
 };
