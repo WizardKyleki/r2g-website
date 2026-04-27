@@ -11,7 +11,7 @@ import { PHONE, PHONE_HREF, RATING_VALUE, REVIEW_COUNT, REVIEW_DISPLAY } from "@
 // METADATA — targets "office removalists brisbane" (vol 200/mo, KD 4, CPC $9)
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
-  title: { absolute: "Office Removalists Brisbane | Commercial Movers | R2G" },
+  title: { absolute: "Office Removalists Brisbane | QLD Commercial Movers | R2G" },
   description:
     `Office removalists Brisbane. Commercial moves for offices, warehouses, retail and medical fit-outs across Brisbane and SE QLD. After-hours and weekend moves available. Fully insured. ${REVIEW_DISPLAY} reviews. Free quote.`,
   keywords: [

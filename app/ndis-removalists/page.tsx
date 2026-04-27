@@ -182,10 +182,10 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "NDIS Registered Removalists | Trusted NDIS Movers QLD",
+    absolute: "NDIS Removalists Brisbane & Cairns | Plan-Funded | R2G",
   },
   description:
-    "NDIS registered removalists in QLD. Fully insured, plan-funded support, NDIS-compliant invoicing. Cairns, Brisbane, Gold Coast. Free quote.",
+    "NDIS-compliant removalists for plan-managed and self-managed participants across Brisbane and Cairns. Fully insured, NDIS invoicing. Free quote → 1300 959 498.",
   keywords: [
     "ndis removalists",
     "ndis moving services",
@@ -200,9 +200,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/ndis-removalists" },
   openGraph: {
-    title: "NDIS Registered Removalists | R2G Transport & Storage",
+    title: "NDIS Removalists Brisbane & Cairns | Plan-Funded | R2G",
     description:
-      "NDIS registered removalists across Queensland. Fully insured, plan-funded support, NDIS-compliant invoicing. Free quote.",
+      "NDIS-compliant removalists across Brisbane and Cairns. Plan-funded support, NDIS invoicing, fully insured. Free quote → 1300 959 498.",
     url: "https://www.r2g.com.au/ndis-removalists",
     type: "website",
     images: [

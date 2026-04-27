@@ -196,10 +196,10 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Removalists Cairns | Trusted Local Movers | R2G",
+    absolute: "Removalists Cairns | From $189/hr · 130+ Reviews | R2G",
   },
   description:
-    `Your local Cairns removalist since 2014. ${RATING_VALUE} star Google rating (${REVIEW_DISPLAY} reviews), fully insured with no hidden fees. All Cairns suburbs covered. Free quote.`,
+    `Cairns removalists from $189/hr. 130+ five-star Cairns reviews, AFRA member, locally owned since 2014. All 76 suburbs covered. Free quote → 1300 959 498.`,
   keywords: [
     "removalists cairns",
     "cairns removalists",
@@ -210,9 +210,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-cairns" },
   openGraph: {
-    title: "Removalists Cairns | Trusted Local Movers | R2G",
+    title: "Removalists Cairns | From $189/hr · 130+ Reviews | R2G",
     description:
-      "Your local Cairns removalist with 10+ years experience. Fully insured with no hidden fees. Get a free quote today.",
+      "Cairns removalists from $189/hr. 130+ five-star reviews, AFRA member, locally owned since 2014. All 76 suburbs. Free quote → 1300 959 498.",
     url: "https://www.r2g.com.au/removalists-cairns",
     type: "website",
   },

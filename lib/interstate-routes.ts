@@ -301,6 +301,8 @@ export const ROUTES: RouteData[] = [
   },
   {
     from: "Brisbane", to: "Sydney", slug: "brisbane-to-sydney", km: "920", days: "1–2", highway: "Pacific Highway", costRange: "$2,500 - $5,500",
+    metaTitle: "Brisbane to Sydney Removalists | 1-2 Day Transit | R2G",
+    metaDescription: "Door-to-door interstate removals from Brisbane to Sydney. 1-2 day transit, fully insured, shared or exclusive load options. Free quote → 1300 959 498.",
     stops: [
       { town: "Brisbane (Archerfield)", km: "0 km", note: "Departure from R2G Brisbane depot" },
       { town: "Gold Coast / Tweed Heads", km: "110 km", note: "QLD–NSW border crossing" },

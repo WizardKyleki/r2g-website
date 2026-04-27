@@ -196,10 +196,10 @@ const breadcrumbSchema = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const metadata: Metadata = {
   title: {
-    absolute: "Local Removalists Brisbane - Trusted Movers | R2G Transport",
+    absolute: "Removalists Brisbane | From $179/hr · 770+ Reviews | R2G",
   },
   description:
-    `Local removalists Brisbane trusts since 2014. ${RATING_VALUE} star Google rating (${REVIEW_DISPLAY} reviews), fully insured with no hidden fees. 421 suburbs covered. Free quote.`,
+    `Brisbane removalists from $179/hr. 770+ five-star reviews, AFRA accredited, fully insured. All Brisbane suburbs, same-day service. Free quote → 1300 959 498.`,
   keywords: [
     "removalists brisbane",
     "brisbane removalists",
@@ -210,9 +210,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.r2g.com.au/removalists-brisbane" },
   openGraph: {
-    title: "Local Removalists Brisbane | R2G Transport & Storage",
+    title: "Removalists Brisbane | From $179/hr · 770+ Reviews | R2G",
     description:
-      "Local removalists Brisbane trusts. 10+ years experience, fully insured with no hidden fees. Get a free quote today.",
+      "Brisbane removalists from $179/hr. 770+ five-star reviews, AFRA accredited, fully insured. Same-day service. Free quote → 1300 959 498.",
     url: "https://www.r2g.com.au/removalists-brisbane",
     type: "website",
   },
