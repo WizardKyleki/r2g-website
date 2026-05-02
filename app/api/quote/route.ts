@@ -121,8 +121,8 @@ export async function POST(request: Request) {
             </tr>
           </table>
 
-          <div style="background-color: ${leadSource.startsWith("Google Ads") ? "#e8f5e9" : "#f9f9f9"}; padding: 12px 16px; border-radius: 6px; font-size: 13px; border: ${leadSource.startsWith("Google Ads") ? "2px solid #4caf50" : "1px solid #e0e0e0"};">
-            <strong style="color: ${leadSource.startsWith("Google Ads") ? "#2e7d32" : "#555"};">Source: ${leadSource}</strong><br/>
+          <div style="background-color: ${leadSource.startsWith("Google Ads") ? "#e8f5e9" : leadSource.startsWith("Microsoft Ads") ? "#e3f2fd" : "#f9f9f9"}; padding: 12px 16px; border-radius: 6px; font-size: 13px; border: ${leadSource.startsWith("Google Ads") ? "2px solid #4caf50" : leadSource.startsWith("Microsoft Ads") ? "2px solid #1976d2" : "1px solid #e0e0e0"};">
+            <strong style="color: ${leadSource.startsWith("Google Ads") ? "#2e7d32" : leadSource.startsWith("Microsoft Ads") ? "#0d47a1" : "#555"};">Source: ${leadSource}</strong><br/>
             ${isLandingPage ? `<strong style="color: #1565c0;">Entry: ${entryPage}</strong><br/>` : (referrerPage ? `Referred from: ${referrerPage}<br/>` : "")}Page: ${pageUrl || "Unknown"}<br/>
             Submitted: ${submittedAt} (AEST)
           </div>
@@ -135,7 +135,7 @@ export async function POST(request: Request) {
     const { data: result, error: sendError } = await resend.emails.send({
       from: "R2G Website <noreply@r2g.com.au>",
       to: "contact@r2g.com.au",
-      subject: `${leadSource.startsWith("Google Ads") ? "[PAID] " : ""}${isLandingPage ? "[LP] " : ""}New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
+      subject: `${leadSource.startsWith("Google Ads") ? "[GOOGLE ADS] " : leadSource.startsWith("Microsoft Ads") ? "[MICROSOFT ADS] " : source.channel === "paid_search" || source.channel === "paid_social" ? "[PAID] " : ""}${isLandingPage ? "[LP] " : ""}New Quote Request — ${from || "Unknown"} to ${to || "Unknown"}`,
       replyTo: email,
       html,
     });

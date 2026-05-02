@@ -38,7 +38,7 @@ Submitted: ${new Date().toLocaleString("en-AU", { timeZone: "Australia/Brisbane"
     await transporter.sendMail({
       from: `"R2G Website" <${process.env.EMAIL_USER}>`,
       to: "contact@r2g.com.au",
-      subject: `${source.channel.startsWith("paid") ? "[PAID] " : ""}New Enquiry — ${topic}`,
+      subject: `${source.label.startsWith("Google Ads") ? "[GOOGLE ADS] " : source.label.startsWith("Microsoft Ads") ? "[MICROSOFT ADS] " : source.channel.startsWith("paid") ? "[PAID] " : ""}New Enquiry — ${topic}`,
       text: emailBody,
       replyTo: email,
     });
